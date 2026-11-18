@@ -1,0 +1,89 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +43                   ; -> 63
+    20: PUSHIIB #2                    ; symbol "AIFunction_SetEventPriority"
+    22: CALL    argc=1                ; args @36
+    31: BRA     +3                    ; -> 39
+    36: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    38: BRK
+    39: POP
+    40: PUSHIIB #4                    ; symbol "EditVariable_1029.nValue"
+    42: PUSH0
+    43: ASSIGN
+    44: POP
+    45: PUSHIIB #5                    ; symbol "AIFunction_DefaultHandler"
+    47: CALL    argc=0
+    52: BRA     +0                    ; -> 57
+    57: POP
+    58: BRA     +215                  ; -> 278
+    63: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    65: CALL    argc=0
+    70: BRA     +0                    ; -> 75
+    75: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    77: EQ
+    78: BF      +81                   ; -> 164
+    83: PUSHIIB #6                    ; symbol "AreaActivate_2608.nActive"
+    85: PUSHIIB #4                    ; symbol "EditVariable_1029.nValue"
+    87: PUSH0
+    88: EQ
+    89: LAND
+    90: BF      +64                   ; -> 159
+    95: PUSHIIB #7                    ; symbol "AIAction_Patrol"
+    97: CALL    argc=3                ; args @119, @123, @125
+   114: BRA     +9                    ; -> 128
+   119: PUSHW   3527
+   122: BRK
+   123: PUSH0
+   124: BRK
+   125: PUSHIIB #8                    ; symbol "AIACTIONFLAG_PUSHABLE"
+   127: BRK
+   128: POP
+   129: PUSHIIB #9                    ; symbol "AIAction_SetCombat"
+   131: CALL    argc=1                ; args @145
+   140: BRA     +3                    ; -> 148
+   145: PUSHIIB #8                    ; symbol "AIACTIONFLAG_PUSHABLE"
+   147: BRK
+   148: POP
+   149: PUSHIIB #4                    ; symbol "EditVariable_1029.nValue"
+   151: PUSH1
+   152: ASSIGN
+   153: POP
+   154: BRA     +0                    ; -> 159
+   159: BRA     +114                  ; -> 278
+   164: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   166: CALL    argc=0
+   171: BRA     +0                    ; -> 176
+   176: PUSHIIB #10                   ; symbol "AIEVENT_ALARMON"
+   178: EQ
+   179: BF      +5                    ; -> 189
+   184: BRA     +89                   ; -> 278
+   189: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   191: CALL    argc=0
+   196: BRA     +0                    ; -> 201
+   201: PUSHIIB #11                   ; symbol "AIEVENT_ALARMOFF"
+   203: EQ
+   204: BF      +18                   ; -> 227
+   209: PUSHIIB #5                    ; symbol "AIFunction_DefaultHandler"
+   211: CALL    argc=0
+   216: BRA     +0                    ; -> 221
+   221: POP
+   222: BRA     +51                   ; -> 278
+   227: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   229: CALL    argc=0
+   234: BRA     +0                    ; -> 239
+   239: PUSHIIB #12                   ; symbol "AIEVENT_COMBAT"
+   241: EQ
+   242: BF      +18                   ; -> 265
+   247: PUSHIIB #5                    ; symbol "AIFunction_DefaultHandler"
+   249: CALL    argc=0
+   254: BRA     +0                    ; -> 259
+   259: POP
+   260: BRA     +13                   ; -> 278
+   265: PUSHIIB #5                    ; symbol "AIFunction_DefaultHandler"
+   267: CALL    argc=0
+   272: BRA     +0                    ; -> 277
+   277: POP
+   278: BRK

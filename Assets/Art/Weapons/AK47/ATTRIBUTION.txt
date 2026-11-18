@@ -1,0 +1,7 @@
+﻿AK-47 Assault Rifle | Game-Ready & Low Poly
+Author: JulioCesarSC
+Author URL: https://sketchfab.com/JulioCesarSC
+Source: https://sketchfab.com/3d-models/ak-47-assault-rifle-game-ready-low-poly-924c359e9d7648049664cb93d896e40a
+License: CC Attribution
+License URL: http://creativecommons.org/licenses/by/4.0/
+Imported from FBX; Unity materials assigned separately. Gameplay code and level are new.

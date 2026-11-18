@@ -1,0 +1,20 @@
+{
+  "id": 41,
+  "displayName": "\u003CMIL\u003E",
+  "description": "\u003CMILDESC\u003E",
+  "category": 0,
+  "model": "700_12_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/700_12_1.igimodel",
+  "magazineSize": 10000,
+  "roundsPerMinute": 550,
+  "reloadSeconds": 2,
+  "automatic": true,
+  "range": 2000,
+  "modelLength": 1.651,
+  "damageFactor": 0.25,
+  "calibre": 127,
+  "spreadDegrees": 1,
+  "recoilDegrees": 0,
+  "fireSoundPath": "Assets/IGIImported/Audio/mil_loop.wav",
+  "source": "Definitions/weapons/MIL/weapon.qvm.json"
+}

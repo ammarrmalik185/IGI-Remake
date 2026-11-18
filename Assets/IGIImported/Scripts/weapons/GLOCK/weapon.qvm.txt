@@ -1,0 +1,106 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=49               ; args @208, @210, @213, @216, @219, @222, @225, @228, @231, @235, @239, @245, @247, @253, @257, @259, @263, @266, @268, @275, @281, @287, @289, @291, @293, @296, @299, @302, @306, @309, @312, @315, @318, @321, @324, @327, @330, @333, @337, @341, @345, @349, @353, @357, @361, @364, @367, @370, @373
+   203: BRA     +168                  ; -> 376
+   208: PUSH1
+   209: BRK
+   210: PUSHSIB #0                    ; string "WEAPON_ID_GLOCK"
+   212: BRK
+   213: PUSHSIB #1                    ; string "Glock 17"
+   215: BRK
+   216: PUSHSIB #2                    ; string "<GLOCK_INC>"
+   218: BRK
+   219: PUSHSIB #3                    ; string "<GLOCK_17DESC>"
+   221: BRK
+   222: PUSHIIB #1                    ; symbol "WEAPONTYPE_PISTOL"
+   224: BRK
+   225: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   227: BRK
+   228: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_CLIP"
+   230: BRK
+   231: PUSHW   656
+   234: BRK
+   235: PUSHW   919
+   238: BRK
+   239: PUSHF   0.25
+   244: BRK
+   245: PUSH1
+   246: BRK
+   247: PUSHF   2
+   252: BRK
+   253: PUSHW   400
+   256: BRK
+   257: PUSH1
+   258: BRK
+   259: PUSHW   400
+   262: BRK
+   263: PUSHB   17
+   265: BRK
+   266: PUSH1
+   267: BRK
+   268: PUSHF   1.5
+   273: MINUS
+   274: BRK
+   275: PUSHF   1.5
+   280: BRK
+   281: PUSHF   1.5
+   286: BRK
+   287: PUSH0
+   288: BRK
+   289: PUSH0
+   290: BRK
+   291: PUSH0
+   292: BRK
+   293: PUSHSIB #4                    ; string "<SELF-LOADING_PISTOL>"
+   295: BRK
+   296: PUSHB   80
+   298: BRK
+   299: PUSHSIB #5                    ; string "<GLOCK_17USERS>"
+   301: BRK
+   302: PUSHW   185
+   305: BRK
+   306: PUSHB   114
+   308: BRK
+   309: PUSHSIB #6                    ; string "117_01_1"
+   311: BRK
+   312: PUSHSIB #7                    ; string "113_01_1"
+   314: BRK
+   315: PUSHB   14
+   317: BRK
+   318: PUSHB   15
+   320: BRK
+   321: PUSHB   16
+   323: BRK
+   324: PUSH1
+   325: MINUS
+   326: BRK
+   327: PUSH1
+   328: MINUS
+   329: BRK
+   330: PUSHB   17
+   332: BRK
+   333: PUSHW   154
+   336: BRK
+   337: PUSHW   153
+   340: BRK
+   341: PUSHW   155
+   344: BRK
+   345: PUSHW   156
+   348: BRK
+   349: PUSHW   151
+   352: BRK
+   353: PUSHW   157
+   356: BRK
+   357: PUSHW   152
+   360: BRK
+   361: PUSHSIB #8                    ; string "glock_shot_1"
+   363: BRK
+   364: PUSHSIB #9                    ; string "glock_shot_2"
+   366: BRK
+   367: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   369: BRK
+   370: PUSHIIB #5                    ; symbol "TASKTYPE_GUNSHOT"
+   372: BRK
+   373: PUSHIIB #6                    ; symbol "TASKTYPE_GUN"
+   375: BRK
+   376: POP
+   377: BRK

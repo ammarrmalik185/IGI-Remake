@@ -1,0 +1,10083 @@
+{
+  "number": 4,
+  "title": "GOD",
+  "briefing": "Defend the friendly troops",
+  "source": "missions/location0/level4",
+  "objectives": [
+    "Secure the village and climb the water tower ready to cover the friendly troops.",
+    "Provide cover for the friendly troops until Josef has been freed"
+  ],
+  "placements": [
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_01_1",
+      "position": {
+        "x": 57.441406,
+        "y": -43.746094,
+        "z": -421.98926
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 70.53711,
+        "y": -43.746094,
+        "z": -411.85352
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 70.53711,
+        "y": -43.746094,
+        "z": -391.85352
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_01_1",
+      "position": {
+        "x": 70.5332,
+        "y": -43.746094,
+        "z": -378.48242
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 44.671875,
+        "y": -43.746094,
+        "z": -421.98438
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 24.673828,
+        "y": -43.746094,
+        "z": -421.98438
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 8.654297,
+        "y": -43.746094,
+        "z": -422.07227
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 70.51172,
+        "y": -43.746094,
+        "z": -365.06543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_01_1",
+      "position": {
+        "x": 65.67578,
+        "y": -43.746094,
+        "z": -421.9873
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 70.5332,
+        "y": -43.746094,
+        "z": -348.21973
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 70.5332,
+        "y": -43.746094,
+        "z": -328.22168
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 70.5332,
+        "y": -43.746094,
+        "z": -288.2256
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 70.5332,
+        "y": -43.746094,
+        "z": -308.22266
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 70.53516,
+        "y": -43.746094,
+        "z": -271.84766
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 60.314453,
+        "y": -43.746094,
+        "z": -262.08008
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -39.68164,
+        "y": -43.746094,
+        "z": -262.08008
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -19.68164,
+        "y": -43.746094,
+        "z": -262.08008
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 0.31640625,
+        "y": -43.746094,
+        "z": -262.08008
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 20.316406,
+        "y": -43.746094,
+        "z": -262.08008
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": 40.314453,
+        "y": -43.746094,
+        "z": -262.08008
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -1.0957031,
+        "y": -43.746094,
+        "z": -411.84766
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -11.326172,
+        "y": -43.746094,
+        "z": -402.07812
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -31.324219,
+        "y": -43.746094,
+        "z": -402.07812
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -59.68164,
+        "y": -43.746094,
+        "z": -262.08008
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -79.67969,
+        "y": -43.746094,
+        "z": -262.08008
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -89.81836,
+        "y": -43.746094,
+        "z": -271.84863
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -89.81836,
+        "y": -43.746094,
+        "z": -291.84668
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -89.81836,
+        "y": -43.746094,
+        "z": -311.8457
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -89.81836,
+        "y": -43.746094,
+        "z": -331.84473
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -80.04883,
+        "y": -43.746094,
+        "z": -342.0752
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_03_1",
+      "position": {
+        "x": -41.23828,
+        "y": -43.746094,
+        "z": -349.02148
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -41.097656,
+        "y": -43.746094,
+        "z": -391.8623
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_02_1",
+      "position": {
+        "x": -60.05078,
+        "y": -43.746094,
+        "z": -342.0752
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_01_1",
+      "position": {
+        "x": -45.583984,
+        "y": -43.746094,
+        "z": -344.3203
+      },
+      "rotation": {
+        "x": -0,
+        "y": -152.1086,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_01_1",
+      "position": {
+        "x": -41.10547,
+        "y": -43.746094,
+        "z": -376.86133
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "341_01_1",
+      "position": {
+        "x": -41.09961,
+        "y": -43.746094,
+        "z": -366.8662
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 24.140625,
+        "y": -0.9296875,
+        "z": -16.25293
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 19.101562,
+        "y": -0.9296875,
+        "z": -21.214844
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 61.910156,
+        "y": -0.9296875,
+        "z": -29.496094
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 61.91211,
+        "y": -0.9296875,
+        "z": -39.50293
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 61.865234,
+        "y": -0.9296875,
+        "z": -49.73047
+      },
+      "rotation": {
+        "x": -359.3124,
+        "y": -0,
+        "z": -89.99998
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 61.896484,
+        "y": -0.9296875,
+        "z": -59.753906
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 56.85742,
+        "y": -0.9296875,
+        "z": -64.71387
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 46.84961,
+        "y": -0.9296875,
+        "z": -64.71875
+      },
+      "rotation": {
+        "x": -256.15363,
+        "y": -0,
+        "z": -89.99998
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "331_01_1",
+      "position": {
+        "x": 22.675781,
+        "y": -0.9296875,
+        "z": -31.112305
+      },
+      "rotation": {
+        "x": -315,
+        "y": -0,
+        "z": -89.99998
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "trashed fence",
+      "model": "331_01_1",
+      "position": {
+        "x": 34.140625,
+        "y": -0.9296875,
+        "z": -16.251953
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "329_01_1",
+      "position": {
+        "x": 10.410156,
+        "y": -0.9296875,
+        "z": -66.54785
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "329_02_1",
+      "position": {
+        "x": 18.277344,
+        "y": -0.9296875,
+        "z": -66.53125
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "329_01_1",
+      "position": {
+        "x": 12.685547,
+        "y": -0.9296875,
+        "z": -61.450195
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "329_02_1",
+      "position": {
+        "x": 10.322266,
+        "y": -0.9296875,
+        "z": -56.276367
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "329_02_1",
+      "position": {
+        "x": 28.482422,
+        "y": -0.9296875,
+        "z": -58.844727
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "329_02_1",
+      "position": {
+        "x": 26.132812,
+        "y": -0.9296875,
+        "z": -56.191406
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "329_01_1",
+      "position": {
+        "x": -1.5742188,
+        "y": -0.9296875,
+        "z": -61.382812
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "304_01_1",
+      "position": {
+        "x": -41.283203,
+        "y": -43.609375,
+        "z": -359.3828
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "304_01_1",
+      "position": {
+        "x": -41.222656,
+        "y": -43.609375,
+        "z": -356.2002
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "304_01_1",
+      "position": {
+        "x": -41.18164,
+        "y": -43.609375,
+        "z": -353.09277
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "small wall",
+      "model": "311_02_1",
+      "position": {
+        "x": -31.292969,
+        "y": -43.597656,
+        "z": -351.37012
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "small wall",
+      "model": "311_02_1",
+      "position": {
+        "x": -11.294922,
+        "y": -43.597656,
+        "z": -351.37012
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "small wall",
+      "model": "311_03_1",
+      "position": {
+        "x": -1.4277344,
+        "y": -43.597656,
+        "z": -348.7412
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": -30.314453,
+        "y": -44.71875,
+        "z": -368.07324
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": -20.310547,
+        "y": -44.71875,
+        "z": -368.0752
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": -10.3125,
+        "y": -44.71875,
+        "z": -368.0752
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": -30.048828,
+        "y": -44.71875,
+        "z": -368.333
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": -30.052734,
+        "y": -44.71875,
+        "z": -378.3379
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": -30.052734,
+        "y": -44.71875,
+        "z": -388.33203
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": 17.24414,
+        "y": -44.71875,
+        "z": -367.83203
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": 27.242188,
+        "y": -44.71875,
+        "z": -367.83398
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": 37.23047,
+        "y": -44.71875,
+        "z": -367.8379
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "sandbag wall",
+      "model": "337_01_1",
+      "position": {
+        "x": 47.027344,
+        "y": -44.71875,
+        "z": -368.0293
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TextureModifier",
+      "name": "Hard Rock",
+      "model": "",
+      "position": {
+        "x": -4.7929688,
+        "y": 122.56641,
+        "z": 12.981445
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TextureModifier",
+      "name": "334",
+      "model": "",
+      "position": {
+        "x": -130.30469,
+        "y": 47.773438,
+        "z": -100.22949
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TextureModifier",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -19.939453,
+        "y": 83.84375,
+        "z": -361.20605
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TextureModifier",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 38.66992,
+        "y": 19.726562,
+        "z": -70.99609
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": 135.9082,
+        "y": -9.488281,
+        "z": -151.73047
+      },
+      "rotation": {
+        "x": -0,
+        "y": -55.384617,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": -56.501953,
+        "y": -8.988281,
+        "z": -63.58789
+      },
+      "rotation": {
+        "x": -0,
+        "y": -79.61541,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": 29.769531,
+        "y": -1.390625,
+        "z": -35.00879
+      },
+      "rotation": {
+        "x": -0,
+        "y": -221.53842,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": 57.779297,
+        "y": -35.253906,
+        "z": -187.79883
+      },
+      "rotation": {
+        "x": -0,
+        "y": -62.307667,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "s",
+      "model": "905_01_1",
+      "position": {
+        "x": 60.95117,
+        "y": -0.9296875,
+        "z": -101.34375
+      },
+      "rotation": {
+        "x": -0,
+        "y": -62.307667,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": -111.94336,
+        "y": 2.5820312,
+        "z": -168.60352
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": -68.12109,
+        "y": -29.414062,
+        "z": -222.65527
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": -40.796875,
+        "y": -44.496094,
+        "z": -255.33301
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": -60.916016,
+        "y": -44.38672,
+        "z": -432.47754
+      },
+      "rotation": {
+        "x": -0,
+        "y": -346.15375,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": 15.220703,
+        "y": -16.375,
+        "z": -132.24805
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": -119.00195,
+        "y": 13.0859375,
+        "z": -616.54004
+      },
+      "rotation": {
+        "x": -0,
+        "y": -166.1538,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": 3.0078125,
+        "y": -1.390625,
+        "z": -17.079102
+      },
+      "rotation": {
+        "x": -0,
+        "y": -221.53842,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "905_01_1",
+      "position": {
+        "x": 1.9003906,
+        "y": -1.390625,
+        "z": -44.713867
+      },
+      "rotation": {
+        "x": -0,
+        "y": -162.40912,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1185.3262,
+        "y": -171.59766,
+        "z": -1261.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 862.6738,
+        "y": 383.0703,
+        "z": -1261.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 350.67383,
+        "y": 127.07031,
+        "z": -1261.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -161.32617,
+        "y": -0.9296875,
+        "z": -1261.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -673.3262,
+        "y": -128.92969,
+        "z": -1261.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 94.67383,
+        "y": -0.9296875,
+        "z": 18.15039
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1185.3262,
+        "y": -235.59766,
+        "z": -749.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1185.3262,
+        "y": -235.59766,
+        "z": -237.84961
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1185.3262,
+        "y": -235.59766,
+        "z": 274.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1185.3262,
+        "y": -384.9297,
+        "z": 786.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -235.59766,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1185.3262,
+        "y": -171.59766,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1697.3262,
+        "y": -235.59766,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1441.3262,
+        "y": -171.59766,
+        "z": -1517.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -235.59766,
+        "z": -1773.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -171.59766,
+        "z": -1261.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -161.32617,
+        "y": 20.402344,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -673.3262,
+        "y": -128.92969,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 862.6738,
+        "y": 468.40234,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 350.67383,
+        "y": 276.40234,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 606.6738,
+        "y": 340.40234,
+        "z": -1517.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -417.32617,
+        "y": -0.9296875,
+        "z": -1517.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -235.59766,
+        "z": -749.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -171.59766,
+        "z": -237.84961
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1441.3262,
+        "y": -256.9297,
+        "z": -493.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1441.3262,
+        "y": -256.9297,
+        "z": 530.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -235.59766,
+        "z": 274.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -235.59766,
+        "z": 786.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1886.6738,
+        "y": 596.40234,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1374.6738,
+        "y": 596.40234,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1630.6738,
+        "y": 596.40234,
+        "z": -1517.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1630.6738,
+        "y": 255.07031,
+        "z": -493.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1630.6738,
+        "y": -128.92969,
+        "z": 530.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1630.6738,
+        "y": -128.92969,
+        "z": 1554.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -128.92969,
+        "z": 1298.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": 127.07031,
+        "z": 1810.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1441.3262,
+        "y": -43.597656,
+        "z": 1554.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -417.32617,
+        "y": -43.597656,
+        "z": 1554.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 606.6738,
+        "y": -43.597656,
+        "z": 1554.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3934.6738,
+        "y": 532.40234,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3422.6738,
+        "y": 596.40234,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": 596.40234,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1886.6738,
+        "y": 639.0703,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1374.6738,
+        "y": 639.0703,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2910.6738,
+        "y": 596.40234,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2398.6738,
+        "y": 596.40234,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2654.6738,
+        "y": 596.40234,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1630.6738,
+        "y": 767.0703,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -161.32617,
+        "y": 127.07031,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -673.3262,
+        "y": -128.92969,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 862.6738,
+        "y": 639.0703,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 350.67383,
+        "y": 383.0703,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 606.6738,
+        "y": 596.40234,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -417.32617,
+        "y": -0.9296875,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2209.3262,
+        "y": -235.59766,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2721.3262,
+        "y": -256.9297,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1185.3262,
+        "y": -171.59766,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1697.3262,
+        "y": -235.59766,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1441.3262,
+        "y": -171.59766,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2465.3262,
+        "y": -256.9297,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -256.9297,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3233.3262,
+        "y": -256.9297,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3745.3262,
+        "y": -235.59766,
+        "z": -4333.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": -427.59766,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -299.59766,
+        "z": -3821.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -427.59766,
+        "z": -3309.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -384.9297,
+        "z": -2797.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -256.9297,
+        "z": -2285.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": -427.59766,
+        "z": -2541.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": -256.9297,
+        "z": -1517.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -235.59766,
+        "z": -1773.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -256.9297,
+        "z": -1261.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -235.59766,
+        "z": -749.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -256.9297,
+        "z": -237.84961
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": -256.9297,
+        "z": -493.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": -256.9297,
+        "z": 530.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -235.59766,
+        "z": 274.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -235.59766,
+        "z": 786.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -128.92969,
+        "z": 1298.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": -128.92969,
+        "z": 1810.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": -128.92969,
+        "z": 1554.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": 255.07031,
+        "z": 2578.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": 20.402344,
+        "z": 2322.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": 84.40234,
+        "z": 2834.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": 276.40234,
+        "z": 3346.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4257.326,
+        "y": 383.0703,
+        "z": 3858.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": 596.40234,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -929.3262,
+        "y": -171.59766,
+        "z": -1005.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2142.6738,
+        "y": 511.0703,
+        "z": -2029.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": 340.40234,
+        "z": -2541.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": 255.07031,
+        "z": -1517.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": -171.59766,
+        "z": -493.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": -171.59766,
+        "z": 530.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2142.6738,
+        "y": -0.9296875,
+        "z": 18.15039
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2142.6738,
+        "y": -0.9296875,
+        "z": 2066.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": -256.9297,
+        "z": 1554.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": -171.59766,
+        "z": 2578.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": -128.92969,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1630.6738,
+        "y": 767.0703,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2654.6738,
+        "y": 84.40234,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1953.3262,
+        "y": 340.40234,
+        "z": 2066.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 94.67383,
+        "y": 340.40234,
+        "z": 2066.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -417.32617,
+        "y": 1023.0703,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 606.6738,
+        "y": 1023.0703,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2465.3262,
+        "y": 596.40234,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1441.3262,
+        "y": 767.0703,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": 596.40234,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6750.674,
+        "y": 596.40234,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 5726.674,
+        "y": 511.0703,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6238.674,
+        "y": 511.0703,
+        "z": -6125.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": 255.07031,
+        "z": -6637.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -0.9296875,
+        "z": -5613.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -171.59766,
+        "z": -4589.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -171.59766,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6238.674,
+        "y": 340.40234,
+        "z": -4077.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6238.674,
+        "y": -0.9296875,
+        "z": -2029.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -256.9297,
+        "z": -2541.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -171.59766,
+        "z": -1517.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -256.9297,
+        "z": -493.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -427.59766,
+        "z": 530.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6238.674,
+        "y": -171.59766,
+        "z": 18.15039
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6238.674,
+        "y": -171.59766,
+        "z": 2066.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -256.9297,
+        "z": 1554.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -171.59766,
+        "z": 2578.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -171.59766,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": -0.9296875,
+        "z": 4626.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6238.674,
+        "y": -171.59766,
+        "z": 4114.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6238.674,
+        "y": -0.9296875,
+        "z": 6162.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": 340.40234,
+        "z": 5650.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": 596.40234,
+        "z": 6674.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7774.674,
+        "y": 596.40234,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 5726.674,
+        "y": 255.07031,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6750.674,
+        "y": 340.40234,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 606.6738,
+        "y": 767.0703,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -417.32617,
+        "y": 255.07031,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1441.3262,
+        "y": -128.92969,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2465.3262,
+        "y": -256.9297,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 4702.674,
+        "y": 596.40234,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": 596.40234,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2654.6738,
+        "y": 596.40234,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1630.6738,
+        "y": 767.0703,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3166.6738,
+        "y": 511.0703,
+        "z": -5101.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -929.3262,
+        "y": -171.59766,
+        "z": -5101.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": 340.40234,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": -256.9297,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4513.326,
+        "y": -256.9297,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -5537.326,
+        "y": -171.59766,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -6561.326,
+        "y": -0.9296875,
+        "z": -7661.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -5025.326,
+        "y": -171.59766,
+        "z": -5101.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -128.92969,
+        "z": -6637.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -171.59766,
+        "z": -5613.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -171.59766,
+        "z": -4589.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -427.59766,
+        "z": -3565.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -256.9297,
+        "z": -2541.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -171.59766,
+        "z": -1517.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -427.59766,
+        "z": -493.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -427.59766,
+        "z": 530.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -5025.326,
+        "y": -171.59766,
+        "z": -1005.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -5025.326,
+        "y": -171.59766,
+        "z": 3090.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -427.59766,
+        "z": 1554.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -171.59766,
+        "z": 2578.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": -43.597656,
+        "z": 3602.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": 340.40234,
+        "z": 4626.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1118.6738,
+        "y": -171.59766,
+        "z": 1042.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1953.3262,
+        "y": 596.40234,
+        "z": 6162.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 94.67383,
+        "y": 1023.0703,
+        "z": 6162.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -417.32617,
+        "y": 767.0703,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 606.6738,
+        "y": 1108.4023,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2465.3262,
+        "y": -0.9296875,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1441.3262,
+        "y": 255.07031,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2142.6738,
+        "y": 1023.0703,
+        "z": 6162.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 4190.674,
+        "y": 340.40234,
+        "z": 6162.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3678.6738,
+        "y": 596.40234,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 4702.674,
+        "y": 340.40234,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1630.6738,
+        "y": 1108.4023,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2654.6738,
+        "y": 767.0703,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": 596.40234,
+        "z": 5650.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": 596.40234,
+        "z": 6674.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7585.326,
+        "y": 468.40234,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -6049.326,
+        "y": 511.0703,
+        "z": 6162.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4001.3262,
+        "y": 340.40234,
+        "z": 6162.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4513.326,
+        "y": -171.59766,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -3489.3262,
+        "y": -171.59766,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -6561.326,
+        "y": 255.07031,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -5537.326,
+        "y": -128.92969,
+        "z": 7698.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 11358.674,
+        "y": -171.59766,
+        "z": -13293.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7262.674,
+        "y": -171.59766,
+        "z": -13293.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": 340.40234,
+        "z": -14317.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": 767.0703,
+        "z": -12269.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": 596.40234,
+        "z": -10221.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -0.9296875,
+        "z": -8173.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -171.59766,
+        "z": -6125.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -171.59766,
+        "z": -4077.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 9310.674,
+        "y": -171.59766,
+        "z": -7149.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 9310.674,
+        "y": -512.9297,
+        "z": 1042.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -171.59766,
+        "z": -2029.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -171.59766,
+        "z": 18.15039
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": 340.40234,
+        "z": 2066.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": 767.0703,
+        "z": 4114.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": 596.40234,
+        "z": 6162.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -0.9296875,
+        "z": 8210.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -171.59766,
+        "z": 10258.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -171.59766,
+        "z": 12306.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 9310.674,
+        "y": -171.59766,
+        "z": 9234.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -13217.326,
+        "y": -171.59766,
+        "z": -13293.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -13217.326,
+        "y": 852.40234,
+        "z": -9197.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -13217.326,
+        "y": 511.0703,
+        "z": -5101.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -5025.326,
+        "y": -171.59766,
+        "z": -13293.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -9121.326,
+        "y": -171.59766,
+        "z": -13293.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3166.6738,
+        "y": -171.59766,
+        "z": -13293.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -929.3262,
+        "y": 852.40234,
+        "z": -13293.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1118.6738,
+        "y": 852.40234,
+        "z": -7149.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7073.326,
+        "y": -171.59766,
+        "z": -7149.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2977.3262,
+        "y": 852.40234,
+        "z": 5138.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -13217.326,
+        "y": -171.59766,
+        "z": -1005.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -13217.326,
+        "y": -171.59766,
+        "z": 3090.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -13217.326,
+        "y": 852.40234,
+        "z": 7186.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -13217.326,
+        "y": 511.0703,
+        "z": 11282.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -14241.326,
+        "y": 511.0703,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -12193.326,
+        "y": 340.40234,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -10145.326,
+        "y": -0.9296875,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -8097.326,
+        "y": -171.59766,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -6049.326,
+        "y": -171.59766,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -4001.3262,
+        "y": -171.59766,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -1953.3262,
+        "y": -171.59766,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 94.67383,
+        "y": -0.9296875,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 2142.6738,
+        "y": 511.0703,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 4190.674,
+        "y": 340.40234,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 6238.674,
+        "y": -0.9296875,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 8286.674,
+        "y": -171.59766,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 10334.674,
+        "y": -171.59766,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 12382.674,
+        "y": -171.59766,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 14430.674,
+        "y": -171.59766,
+        "z": 14354.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": 852.40234,
+        "z": -25581.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": 511.0703,
+        "z": -21485.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": -171.59766,
+        "z": -17389.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": -171.59766,
+        "z": -13293.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": 852.40234,
+        "z": -9197.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": 511.0703,
+        "z": -5101.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": -171.59766,
+        "z": -1005.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": -171.59766,
+        "z": 3090.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": 852.40234,
+        "z": 7186.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": 511.0703,
+        "z": 11282.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -5025.326,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -9121.326,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 3166.6738,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -929.3262,
+        "y": 852.40234,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 1118.6738,
+        "y": 852.40234,
+        "z": -23533.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -7073.326,
+        "y": -171.59766,
+        "z": -23533.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21409.326,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -25505.326,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -13217.326,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -17313.326,
+        "y": 852.40234,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -15265.326,
+        "y": 852.40234,
+        "z": -23533.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -23457.326,
+        "y": -171.59766,
+        "z": -23533.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 27742.674,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 23646.674,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 25694.674,
+        "y": -171.59766,
+        "z": -23533.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 11358.674,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 7262.674,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 19550.674,
+        "y": -171.59766,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 15454.674,
+        "y": 852.40234,
+        "z": -29677.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 17502.674,
+        "y": 852.40234,
+        "z": -23533.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 9310.674,
+        "y": -171.59766,
+        "z": -23533.848
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 13406.674,
+        "y": 852.40234,
+        "z": -11245.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 25694.674,
+        "y": -512.9297,
+        "z": -15341.849
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 25694.674,
+        "y": -171.59766,
+        "z": -7149.8486
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 25694.674,
+        "y": -512.9297,
+        "z": 1042.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 25694.674,
+        "y": -171.59766,
+        "z": 9234.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 13406.674,
+        "y": 852.40234,
+        "z": 5138.1504
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -11169.326,
+        "y": 852.40234,
+        "z": -3053.8496
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -19361.326,
+        "y": 852.40234,
+        "z": 21522.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -2977.3262,
+        "y": 852.40234,
+        "z": 21522.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 13406.674,
+        "y": 852.40234,
+        "z": 21522.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 25694.674,
+        "y": -512.9297,
+        "z": 17426.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 25694.674,
+        "y": -171.59766,
+        "z": 25618.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": -171.59766,
+        "z": 15378.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": -171.59766,
+        "z": 19474.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": 852.40234,
+        "z": 23570.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -29601.326,
+        "y": 511.0703,
+        "z": 27666.15
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "TerrainLightMap",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -40.126953,
+        "y": -20.585938,
+        "z": -296.81445
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "Building",
+      "name": "house",
+      "model": "429_03_1",
+      "position": {
+        "x": 47.61133,
+        "y": -0.80859375,
+        "z": -49.539062
+      },
+      "rotation": {
+        "x": -0,
+        "y": -90.00004,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "503_01_1",
+      "position": {
+        "x": 0.2890625,
+        "y": -0.94921875,
+        "z": -77.85449
+      },
+      "rotation": {
+        "x": -349.61533,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "228_01_1",
+      "position": {
+        "x": 7.1484375,
+        "y": -0.77734375,
+        "z": -70.333984
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "Building",
+      "name": "house",
+      "model": "459_01_1",
+      "position": {
+        "x": 1.8320312,
+        "y": -0.80859375,
+        "z": -70.7832
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": 2001,
+      "type": "Building",
+      "name": "water tower",
+      "model": "435_01_1",
+      "position": {
+        "x": 49.10547,
+        "y": -35.476562,
+        "z": -230.97266
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": 2003,
+      "type": "Building",
+      "name": "barracks",
+      "model": "403_01_1",
+      "position": {
+        "x": 25.783203,
+        "y": -43.597656,
+        "z": -390.32715
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "truck",
+      "model": "600_01_1",
+      "position": {
+        "x": 52.441406,
+        "y": -43.597656,
+        "z": -388.1211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 2007,
+      "type": "Building",
+      "name": "garage",
+      "model": "410_01_1",
+      "position": {
+        "x": 58.191406,
+        "y": -43.597656,
+        "z": -409.15918
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "truck",
+      "model": "600_01_1",
+      "position": {
+        "x": -3.296875,
+        "y": -43.597656,
+        "z": -377.77637
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 2000,
+      "type": "Building",
+      "name": "sECURITY bUILDING",
+      "model": "490_01_1",
+      "position": {
+        "x": -13.029297,
+        "y": -43.601562,
+        "z": -386.31152
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 2006,
+      "type": "Building",
+      "name": "warehouse",
+      "model": "428_01_1",
+      "position": {
+        "x": -45.498047,
+        "y": -46.808594,
+        "z": -301.8047
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      }
+    },
+    {
+      "id": 2005,
+      "type": "Building",
+      "name": "warehouse",
+      "model": "404_01_1",
+      "position": {
+        "x": 60.845703,
+        "y": -43.597656,
+        "z": -296.06055
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": 2008,
+      "type": "Building",
+      "name": "fuel depot",
+      "model": "438_01_1",
+      "position": {
+        "x": -81.234375,
+        "y": -43.597656,
+        "z": -330.99902
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "Building",
+      "name": "loading bay",
+      "model": "419_01_1",
+      "position": {
+        "x": -3.3320312,
+        "y": -43.597656,
+        "z": -296.58398
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "326_01_1",
+      "position": {
+        "x": 13.8828125,
+        "y": -43.058594,
+        "z": -370.51953
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      }
+    },
+    {
+      "id": 775,
+      "type": "StationaryGun",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": 13.8828125,
+        "y": -41.75,
+        "z": -370.51953
+      },
+      "rotation": {
+        "x": -0,
+        "y": -252.69232,
+        "z": -0
+      }
+    },
+    {
+      "id": 2010,
+      "type": "Building",
+      "name": "gun post",
+      "model": "408_01_1",
+      "position": {
+        "x": 14.566406,
+        "y": -43.597656,
+        "z": -370.5293
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": 2011,
+      "type": "Building",
+      "name": "warehouse",
+      "model": "412_01_1",
+      "position": {
+        "x": 50.546875,
+        "y": -0.9296875,
+        "z": -20.353516
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "503_01_1",
+      "position": {
+        "x": 26.658203,
+        "y": -0.90625,
+        "z": -60.375977
+      },
+      "rotation": {
+        "x": -89.99998,
+        "y": -349.91592,
+        "z": -359.99942
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "246_01_1",
+      "position": {
+        "x": 21.46289,
+        "y": -0.3046875,
+        "z": -62.15332
+      },
+      "rotation": {
+        "x": -169.61537,
+        "y": -201.08487,
+        "z": -359.99942
+      }
+    },
+    {
+      "id": -1,
+      "type": "Building",
+      "name": "house",
+      "model": "459_01_1",
+      "position": {
+        "x": 24.347656,
+        "y": -0.80859375,
+        "z": -70.74805
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "truck",
+      "model": "600_01_1",
+      "position": {
+        "x": 46.535156,
+        "y": -43.597656,
+        "z": -311.39746
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "truck",
+      "model": "600_01_1",
+      "position": {
+        "x": 33.384766,
+        "y": -43.597656,
+        "z": -282.90723
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "truck",
+      "model": "600_01_1",
+      "position": {
+        "x": 33.46875,
+        "y": -43.597656,
+        "z": -318.49414
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "300_01_1",
+      "position": {
+        "x": 28.220703,
+        "y": -43.597656,
+        "z": -320.54492
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "300_01_1",
+      "position": {
+        "x": 27.623047,
+        "y": -43.597656,
+        "z": -320.55664
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "300_01_1",
+      "position": {
+        "x": 26.970703,
+        "y": -43.597656,
+        "z": -320.59473
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "300_01_1",
+      "position": {
+        "x": 26.365234,
+        "y": -43.597656,
+        "z": -320.66992
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "300_01_1",
+      "position": {
+        "x": 28.826172,
+        "y": -43.597656,
+        "z": -320.5713
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "truck",
+      "model": "600_01_1",
+      "position": {
+        "x": 9.091797,
+        "y": -43.597656,
+        "z": -311.8086
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": 2004,
+      "type": "Building",
+      "name": "warehouse",
+      "model": "404_01_1",
+      "position": {
+        "x": 19.642578,
+        "y": -43.597656,
+        "z": -296.53613
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "Building",
+      "name": "loading bay",
+      "model": "419_01_1",
+      "position": {
+        "x": 46.07617,
+        "y": -43.597656,
+        "z": -346.2588
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      }
+    },
+    {
+      "id": 2009,
+      "type": "Building",
+      "name": "fuel depot",
+      "model": "438_01_1",
+      "position": {
+        "x": -81.48242,
+        "y": -43.597656,
+        "z": -314.7246
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "Truck",
+      "model": "622_01_1",
+      "position": {
+        "x": 4.751953,
+        "y": -0.9296875,
+        "z": -36.864258
+      },
+      "rotation": {
+        "x": -0,
+        "y": -259.6154,
+        "z": -0
+      }
+    },
+    {
+      "id": 150,
+      "type": "AreaActivate",
+      "name": "Team one stop 1",
+      "model": "",
+      "position": {
+        "x": -28.386719,
+        "y": -40.726562,
+        "z": -274.20996
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 151,
+      "type": "AreaActivate",
+      "name": "Team two stop 1",
+      "model": "",
+      "position": {
+        "x": 30.480469,
+        "y": -41.507812,
+        "z": -272.53516
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 153,
+      "type": "AreaActivate",
+      "name": "team one stop 2",
+      "model": "",
+      "position": {
+        "x": -19.371094,
+        "y": -43.85547,
+        "z": -337.45508
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 154,
+      "type": "AreaActivate",
+      "name": "security building",
+      "model": "",
+      "position": {
+        "x": -14.78125,
+        "y": -41.851562,
+        "z": -384.88184
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 155,
+      "type": "AreaActivate",
+      "name": "Human 0 - Water Tower one complete",
+      "model": "",
+      "position": {
+        "x": 49.154297,
+        "y": -14.371094,
+        "z": -231.32227
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 156,
+      "type": "AreaActivate",
+      "name": "Harrison \u002B Josip",
+      "model": "",
+      "position": {
+        "x": -71.552734,
+        "y": -42.597656,
+        "z": -292.5381
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 157,
+      "type": "AreaActivate",
+      "name": "Story message trigger",
+      "model": "",
+      "position": {
+        "x": 17.857422,
+        "y": -35.597656,
+        "z": -170.50293
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 158,
+      "type": "AreaActivate",
+      "name": "Human 1 - Watch out message trigger",
+      "model": "",
+      "position": {
+        "x": 68.58203,
+        "y": -38.42578,
+        "z": -274.0371
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 760,
+      "type": "LevelTimer",
+      "name": "Helicopter trigger",
+      "model": "",
+      "position": {
+        "x": 99.10547,
+        "y": 26.375,
+        "z": -397.8828
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 761,
+      "type": "LevelTimer",
+      "name": "Got Priboi Trigger",
+      "model": "",
+      "position": {
+        "x": 11.607422,
+        "y": -38.26172,
+        "z": -399.3994
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 2100,
+      "type": "ComputerHilight",
+      "name": "sECURITY bUILDING",
+      "model": "",
+      "position": {
+        "x": 19.199219,
+        "y": 100.828125,
+        "z": -237.54492
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2101,
+      "type": "ComputerHilight",
+      "name": "Water Tower",
+      "model": "",
+      "position": {
+        "x": 19.199219,
+        "y": 100.828125,
+        "z": -237.54492
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2103,
+      "type": "ComputerHilight",
+      "name": "barracks",
+      "model": "",
+      "position": {
+        "x": -2.1367188,
+        "y": 54.507812,
+        "z": -289.45996
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2104,
+      "type": "ComputerHilight",
+      "name": "WAREHOUSE",
+      "model": "",
+      "position": {
+        "x": -2.1367188,
+        "y": 54.507812,
+        "z": -289.45996
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2105,
+      "type": "ComputerHilight",
+      "name": "WAREHOUSE",
+      "model": "",
+      "position": {
+        "x": -2.1367188,
+        "y": 54.507812,
+        "z": -289.45996
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2111,
+      "type": "ComputerHilight",
+      "name": "WAREHOUSE",
+      "model": "",
+      "position": {
+        "x": -2.1367188,
+        "y": 54.507812,
+        "z": -289.45996
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2107,
+      "type": "ComputerHilight",
+      "name": "GARAGE",
+      "model": "",
+      "position": {
+        "x": 51.742188,
+        "y": 97.17578,
+        "z": -13.229492
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2108,
+      "type": "ComputerHilight",
+      "name": "FUEL DEPOT",
+      "model": "",
+      "position": {
+        "x": 51.742188,
+        "y": 97.17578,
+        "z": -13.229492
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2109,
+      "type": "ComputerHilight",
+      "name": "FUEL DEPOT",
+      "model": "",
+      "position": {
+        "x": 51.742188,
+        "y": 97.17578,
+        "z": -13.229492
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2110,
+      "type": "ComputerHilight",
+      "name": "GUNPOST",
+      "model": "",
+      "position": {
+        "x": 51.742188,
+        "y": 97.17578,
+        "z": -13.229492
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 4000,
+      "type": "EditVariable",
+      "name": "Cutscene thingy\u0022?\u0022",
+      "model": "",
+      "position": {
+        "x": 50.783203,
+        "y": -16.105469,
+        "z": -234.53906
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1100,
+      "type": "ConditionalSound",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1101,
+      "type": "ConditionalSound",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1102,
+      "type": "ConditionalSound",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1103,
+      "type": "ConditionalSound",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1104,
+      "type": "ConditionalSound",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1105,
+      "type": "ConditionalSound",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1106,
+      "type": "ConditionalSound",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1107,
+      "type": "ConditionalSound",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "015_01_1",
+      "position": {
+        "x": -27536.7,
+        "y": -42836.28,
+        "z": 13330.255
+      },
+      "rotation": {
+        "x": 0,
+        "y": 89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "Building",
+      "name": "Anya HQ",
+      "model": "472_01_1",
+      "position": {
+        "x": -27543.031,
+        "y": -42838.26,
+        "z": 13329.801
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 1050,
+      "type": "ConditionalSound",
+      "name": "office 1",
+      "model": "",
+      "position": {
+        "x": -27551.72,
+        "y": -42835.38,
+        "z": 13326.694
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1051,
+      "type": "ConditionalSound",
+      "name": "type 1",
+      "model": "",
+      "position": {
+        "x": -27551.72,
+        "y": -42835.38,
+        "z": 13326.694
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1052,
+      "type": "ConditionalSound",
+      "name": "beeps 1",
+      "model": "",
+      "position": {
+        "x": -27551.72,
+        "y": -42835.38,
+        "z": 13326.694
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1053,
+      "type": "ConditionalSound",
+      "name": "office 2",
+      "model": "",
+      "position": {
+        "x": -27551.72,
+        "y": -42835.38,
+        "z": 13326.694
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1054,
+      "type": "ConditionalSound",
+      "name": "trpe 2",
+      "model": "",
+      "position": {
+        "x": -27551.72,
+        "y": -42835.38,
+        "z": 13326.694
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 1055,
+      "type": "ConditionalSound",
+      "name": "beeps 2",
+      "model": "",
+      "position": {
+        "x": -27551.72,
+        "y": -42835.38,
+        "z": 13326.694
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": 1.8105469,
+        "y": 188.59375,
+        "z": -345.58984
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": 1.8105469,
+        "y": 188.59375,
+        "z": -345.58984
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": 1.8105469,
+        "y": 188.59375,
+        "z": -345.58984
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": 1.8105469,
+        "y": 188.59375,
+        "z": -345.58984
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": 1.8105469,
+        "y": 188.59375,
+        "z": -345.58984
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": -11.142578,
+        "y": 188.59375,
+        "z": -379.82617
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": -11.142578,
+        "y": 188.59375,
+        "z": -379.82617
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": -13.521484,
+        "y": 188.59375,
+        "z": -387.2422
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": -13.521484,
+        "y": 188.59375,
+        "z": -387.2422
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Satelite view",
+      "model": "",
+      "position": {
+        "x": -13.521484,
+        "y": 188.59375,
+        "z": -387.2422
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Security camera",
+      "model": "",
+      "position": {
+        "x": -35.26758,
+        "y": -31.152344,
+        "z": -357.21777
+      },
+      "rotation": {
+        "x": 0,
+        "y": 150,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.42969,
+        "y": 34.398438,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.42969,
+        "y": 34.398438,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.42969,
+        "y": 34.398438,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.42969,
+        "y": 34.398438,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.42969,
+        "y": 34.398438,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.427734,
+        "y": 34.39453,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.42578,
+        "y": 34.39453,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.42383,
+        "y": 34.39453,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Handy CAM",
+      "model": "",
+      "position": {
+        "x": 65.42383,
+        "y": 34.39453,
+        "z": 37.115234
+      },
+      "rotation": {
+        "x": 0,
+        "y": 198,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "Anya NOISE",
+      "model": "",
+      "position": {
+        "x": -27535.629,
+        "y": -42835.46,
+        "z": 13329.735
+      },
+      "rotation": {
+        "x": 0,
+        "y": -48,
+        "z": 0
+      }
+    },
+    {
+      "id": 1000,
+      "type": "CutScene",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -10.363281,
+        "y": 188.59375,
+        "z": -385.81445
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 888,
+      "type": "LevelTimer",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 887,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 886,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 885,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 884,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 883,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 882,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 881,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 880,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 879,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 878,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 877,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 876,
+      "type": "StatusMessage",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -21546.42,
+        "y": -160.67578,
+        "z": 54.90332
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "AnimTask",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -79.16992,
+        "y": -31.121094,
+        "z": -284.91992
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "715_01_1",
+      "position": {
+        "x": -79.703125,
+        "y": -42.070312,
+        "z": -282.36426
+      },
+      "rotation": {
+        "x": -346.76816,
+        "y": -0,
+        "z": -358.47882
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "021_01_1",
+      "position": {
+        "x": -78.5,
+        "y": -42.628906,
+        "z": -283.79395
+      },
+      "rotation": {
+        "x": 0,
+        "y": -185.99995,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "009_02_1",
+      "position": {
+        "x": -79.24805,
+        "y": -42.628906,
+        "z": -283.77734
+      },
+      "rotation": {
+        "x": 0,
+        "y": -185.99995,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "022_01_1",
+      "position": {
+        "x": -79.93555,
+        "y": -42.628906,
+        "z": -283.7754
+      },
+      "rotation": {
+        "x": 0,
+        "y": -185.99995,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "021_01_1",
+      "position": {
+        "x": -78.60156,
+        "y": -42.414062,
+        "z": -285.46387
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "020_01_1",
+      "position": {
+        "x": -79.56836,
+        "y": -42.414062,
+        "z": -285.5127
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditRigidObj",
+      "name": "",
+      "model": "715_01_1",
+      "position": {
+        "x": -79.703125,
+        "y": -42.476562,
+        "z": -282.36426
+      },
+      "rotation": {
+        "x": -166.76813,
+        "y": -179.99995,
+        "z": -1.521203
+      }
+    },
+    {
+      "id": 356,
+      "type": "Heli",
+      "name": "",
+      "model": "709_01_1",
+      "position": {
+        "x": -79.16992,
+        "y": -42.21875,
+        "z": -284.91992
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 666,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "022_01_1",
+      "position": {
+        "x": -67.82031,
+        "y": -42.628906,
+        "z": -269.7002
+      },
+      "rotation": {
+        "x": 0,
+        "y": -150,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "009_02_1",
+      "position": {
+        "x": -65.52344,
+        "y": -42.63672,
+        "z": -269.12402
+      },
+      "rotation": {
+        "x": 0,
+        "y": -137.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "020_01_1",
+      "position": {
+        "x": -67.02539,
+        "y": -42.63672,
+        "z": -266.4287
+      },
+      "rotation": {
+        "x": 0,
+        "y": -143.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "",
+      "model": "020_01_1",
+      "position": {
+        "x": -77.32617,
+        "y": -42.66797,
+        "z": -281.86035
+      },
+      "rotation": {
+        "x": 0,
+        "y": -342,
+        "z": 0
+      }
+    },
+    {
+      "id": 2050,
+      "type": "ConditionalSound",
+      "name": "running",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2051,
+      "type": "ConditionalSound",
+      "name": "heli off close",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2053,
+      "type": "ConditionalSound",
+      "name": "running",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2054,
+      "type": "ConditionalSound",
+      "name": "heli off far",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -67.009766,
+        "y": -37.585938,
+        "z": -268.74805
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -82.17578,
+        "y": -42.808594,
+        "z": -278.31738
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -82.17578,
+        "y": -23.113281,
+        "z": -278.31738
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -82.17578,
+        "y": -23.113281,
+        "z": -278.31738
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "EditCamera",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -82.17578,
+        "y": -23.113281,
+        "z": -278.31738
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 2222,
+      "type": "CutScene",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -73.40234,
+        "y": -38.875,
+        "z": -290.56055
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 0,
+      "type": "HumanPlayer",
+      "name": "",
+      "model": "000_01_1",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": -167.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "AmbientArea",
+      "name": "wind",
+      "model": "",
+      "position": {
+        "x": -8.826172,
+        "y": -43.597656,
+        "z": -382.6211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "AmbientArea",
+      "name": "dogs",
+      "model": "",
+      "position": {
+        "x": -8.826172,
+        "y": -43.597656,
+        "z": -382.6211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "AmbientArea",
+      "name": "plane bys",
+      "model": "",
+      "position": {
+        "x": -8.826172,
+        "y": -43.597656,
+        "z": -382.6211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "AmbientArea",
+      "name": "helicopter bys",
+      "model": "",
+      "position": {
+        "x": -8.826172,
+        "y": -43.597656,
+        "z": -382.6211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "AmbientArea",
+      "name": "birds",
+      "model": "",
+      "position": {
+        "x": -8.826172,
+        "y": -43.597656,
+        "z": -382.6211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "AmbientArea",
+      "name": "wind fx",
+      "model": "",
+      "position": {
+        "x": -8.826172,
+        "y": -43.597656,
+        "z": -382.6211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "AmbientArea",
+      "name": "general ambience",
+      "model": "",
+      "position": {
+        "x": -8.826172,
+        "y": -43.597656,
+        "z": -382.6211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 423,
+      "type": "HumanSoldier",
+      "name": "Village ",
+      "model": "003_01_1",
+      "position": {
+        "x": 7.8691406,
+        "y": -0.1875,
+        "z": -40.911133
+      },
+      "rotation": {
+        "x": 0,
+        "y": -89.99998,
+        "z": 0
+      }
+    },
+    {
+      "id": 424,
+      "type": "HumanSoldier",
+      "name": "Village",
+      "model": "003_01_1",
+      "position": {
+        "x": 5.828125,
+        "y": -0.1875,
+        "z": -40.206055
+      },
+      "rotation": {
+        "x": 0,
+        "y": 107.94518,
+        "z": 0
+      }
+    },
+    {
+      "id": 425,
+      "type": "HumanSoldier",
+      "name": "Village",
+      "model": "003_01_1",
+      "position": {
+        "x": 13.359375,
+        "y": -0.1875,
+        "z": -72.961914
+      },
+      "rotation": {
+        "x": 0,
+        "y": 107.94518,
+        "z": 0
+      }
+    },
+    {
+      "id": 426,
+      "type": "HumanSoldier",
+      "name": "Village",
+      "model": "003_01_1",
+      "position": {
+        "x": 36.785156,
+        "y": -0.1875,
+        "z": -73.13086
+      },
+      "rotation": {
+        "x": 0,
+        "y": 24.064112,
+        "z": 0
+      }
+    },
+    {
+      "id": 432,
+      "type": "HumanSoldier",
+      "name": "Village gunner",
+      "model": "013_01_1",
+      "position": {
+        "x": 1.5527344,
+        "y": 4.1835938,
+        "z": -67.32715
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 400,
+      "type": "HumanSoldier",
+      "name": "Harrison ",
+      "model": "022_01_1",
+      "position": {
+        "x": -66.890625,
+        "y": -42.44922,
+        "z": -278.63965
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 401,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "021_01_1",
+      "position": {
+        "x": -67.01367,
+        "y": -42.44922,
+        "z": -280.6631
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 402,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "021_01_1",
+      "position": {
+        "x": -67.76953,
+        "y": -42.44922,
+        "z": -282.34473
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 403,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "021_01_1",
+      "position": {
+        "x": -67.27734,
+        "y": -42.44922,
+        "z": -285.0205
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 404,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "020_01_1",
+      "position": {
+        "x": -66.990234,
+        "y": -42.44922,
+        "z": -286.69727
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 405,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "020_01_1",
+      "position": {
+        "x": -66.7207,
+        "y": -42.44922,
+        "z": -288.09863
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 406,
+      "type": "HumanSoldier",
+      "name": "Big warehouse ",
+      "model": "003_01_1",
+      "position": {
+        "x": -38.58203,
+        "y": -42.558594,
+        "z": -321.28027
+      },
+      "rotation": {
+        "x": 0,
+        "y": -263.99997,
+        "z": 0
+      }
+    },
+    {
+      "id": 407,
+      "type": "HumanSoldier",
+      "name": "Big warehouse ",
+      "model": "003_01_1",
+      "position": {
+        "x": -41.19336,
+        "y": -42.558594,
+        "z": -319.99316
+      },
+      "rotation": {
+        "x": 0,
+        "y": -263.99997,
+        "z": 0
+      }
+    },
+    {
+      "id": 408,
+      "type": "HumanSoldier",
+      "name": "loading platform  ",
+      "model": "003_01_1",
+      "position": {
+        "x": -1.421875,
+        "y": -40.546875,
+        "z": -315.3252
+      },
+      "rotation": {
+        "x": 0,
+        "y": -263.99997,
+        "z": 0
+      }
+    },
+    {
+      "id": 409,
+      "type": "HumanSoldier",
+      "name": "med warehouse",
+      "model": "003_01_1",
+      "position": {
+        "x": 16.941406,
+        "y": -41.335938,
+        "z": -283.4502
+      },
+      "rotation": {
+        "x": 0,
+        "y": -263.99997,
+        "z": 0
+      }
+    },
+    {
+      "id": 410,
+      "type": "HumanSoldier",
+      "name": "med warehouse",
+      "model": "003_01_1",
+      "position": {
+        "x": 16.5625,
+        "y": -41.335938,
+        "z": -282.625
+      },
+      "rotation": {
+        "x": 0,
+        "y": -78.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 411,
+      "type": "HumanSoldier",
+      "name": "med warehouse",
+      "model": "003_01_1",
+      "position": {
+        "x": 52.242188,
+        "y": -41.335938,
+        "z": -292.042
+      },
+      "rotation": {
+        "x": 0,
+        "y": -54.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 412,
+      "type": "HumanSoldier",
+      "name": "med warehouse",
+      "model": "003_01_1",
+      "position": {
+        "x": 52.49414,
+        "y": -41.335938,
+        "z": -312.90625
+      },
+      "rotation": {
+        "x": 0,
+        "y": -54.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 413,
+      "type": "HumanSoldier",
+      "name": "Barracks ground floor",
+      "model": "003_01_1",
+      "position": {
+        "x": 31.308594,
+        "y": -41.003906,
+        "z": -395.94824
+      },
+      "rotation": {
+        "x": 0,
+        "y": 102.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 414,
+      "type": "HumanSoldier",
+      "name": "Barracks ground floor",
+      "model": "003_01_1",
+      "position": {
+        "x": 30.859375,
+        "y": -41.003906,
+        "z": -397.92188
+      },
+      "rotation": {
+        "x": 0,
+        "y": 102.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 415,
+      "type": "HumanSoldier",
+      "name": "Barracks ground floor",
+      "model": "003_01_1",
+      "position": {
+        "x": 27.876953,
+        "y": -41.003906,
+        "z": -397.08984
+      },
+      "rotation": {
+        "x": 0,
+        "y": 102.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 416,
+      "type": "HumanSoldier",
+      "name": "Barracks ground floor Gunner",
+      "model": "013_01_1",
+      "position": {
+        "x": 28.74414,
+        "y": -41.003906,
+        "z": -395.7412
+      },
+      "rotation": {
+        "x": 0,
+        "y": -258,
+        "z": 0
+      }
+    },
+    {
+      "id": 417,
+      "type": "HumanSoldier",
+      "name": "Behind med warehouse",
+      "model": "003_01_1",
+      "position": {
+        "x": -13.330078,
+        "y": -42.335938,
+        "z": -384.18262
+      },
+      "rotation": {
+        "x": 0,
+        "y": 174,
+        "z": 0
+      }
+    },
+    {
+      "id": 418,
+      "type": "HumanSoldier",
+      "name": "Behind med warehouse",
+      "model": "003_01_1",
+      "position": {
+        "x": -13.671875,
+        "y": -42.335938,
+        "z": -385.78223
+      },
+      "rotation": {
+        "x": 0,
+        "y": 174,
+        "z": 0
+      }
+    },
+    {
+      "id": 419,
+      "type": "HumanSoldier",
+      "name": "Behind med warehouse",
+      "model": "003_01_1",
+      "position": {
+        "x": -15.875,
+        "y": -42.335938,
+        "z": -384.0332
+      },
+      "rotation": {
+        "x": 0,
+        "y": 174,
+        "z": 0
+      }
+    },
+    {
+      "id": 420,
+      "type": "HumanSoldier",
+      "name": "Security patroller",
+      "model": "003_01_1",
+      "position": {
+        "x": -26.482422,
+        "y": -42.785156,
+        "z": -379.4746
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 421,
+      "type": "HumanSoldier",
+      "name": "Security Guard",
+      "model": "003_01_1",
+      "position": {
+        "x": -9.390625,
+        "y": -42.785156,
+        "z": -374.833
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 422,
+      "type": "HumanSoldier",
+      "name": "Barracks Guard",
+      "model": "003_01_1",
+      "position": {
+        "x": 51.285156,
+        "y": -42.785156,
+        "z": -382.86426
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 427,
+      "type": "HumanSoldier",
+      "name": "Barracks Guard",
+      "model": "003_01_1",
+      "position": {
+        "x": 27.644531,
+        "y": -36.847656,
+        "z": -396.58984
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 428,
+      "type": "HumanSoldier",
+      "name": "Josip Priboi",
+      "model": "009_02_1",
+      "position": {
+        "x": -17.414062,
+        "y": -42.054688,
+        "z": -384.79883
+      },
+      "rotation": {
+        "x": 0,
+        "y": 102.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 429,
+      "type": "HumanSoldier",
+      "name": "Barracks Guard",
+      "model": "003_01_1",
+      "position": {
+        "x": 27.472656,
+        "y": -36.847656,
+        "z": -394.90625
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 430,
+      "type": "HumanSoldier",
+      "name": "Barracks Guard",
+      "model": "003_01_1",
+      "position": {
+        "x": 26.089844,
+        "y": -36.847656,
+        "z": -391.94922
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 431,
+      "type": "HumanSoldier",
+      "name": "Barracks Guard",
+      "model": "003_01_1",
+      "position": {
+        "x": 25.560547,
+        "y": -36.847656,
+        "z": -396.41113
+      },
+      "rotation": {
+        "x": 0,
+        "y": -0,
+        "z": 0
+      }
+    },
+    {
+      "id": 433,
+      "type": "HumanSoldier",
+      "name": "Attack player",
+      "model": "003_01_1",
+      "position": {
+        "x": 65.09375,
+        "y": -42.609375,
+        "z": -321.34375
+      },
+      "rotation": {
+        "x": 0,
+        "y": 78.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 434,
+      "type": "HumanSoldier",
+      "name": "Attack player",
+      "model": "003_01_1",
+      "position": {
+        "x": 63.10742,
+        "y": -42.609375,
+        "z": -321.26953
+      },
+      "rotation": {
+        "x": 0,
+        "y": 78.00001,
+        "z": 0
+      }
+    },
+    {
+      "id": 850,
+      "type": "AnimTask",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -280.10547,
+        "y": -4.1640625,
+        "z": -0.33398438
+      },
+      "rotation": {
+        "x": -0,
+        "y": -221.53842,
+        "z": -0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "Harrison",
+      "model": "022_01_1",
+      "position": {
+        "x": -280.18164,
+        "y": -15.464844,
+        "z": 0.42285156
+      },
+      "rotation": {
+        "x": 0,
+        "y": -204.00002,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "020_01_1",
+      "position": {
+        "x": -280.80273,
+        "y": -15.4375,
+        "z": -0.20507812
+      },
+      "rotation": {
+        "x": 0,
+        "y": -204.00002,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "021_01_1",
+      "position": {
+        "x": -278.88672,
+        "y": -15.714844,
+        "z": -0.8046875
+      },
+      "rotation": {
+        "x": 0,
+        "y": -30.000013,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "021_01_1",
+      "position": {
+        "x": -279.42773,
+        "y": -15.714844,
+        "z": -1.2724609
+      },
+      "rotation": {
+        "x": 0,
+        "y": -30.000013,
+        "z": 0
+      }
+    },
+    {
+      "id": -1,
+      "type": "HumanSoldier",
+      "name": "GI",
+      "model": "020_01_1",
+      "position": {
+        "x": -279.99023,
+        "y": -15.714844,
+        "z": -1.6982422
+      },
+      "rotation": {
+        "x": 0,
+        "y": -30.000013,
+        "z": 0
+      }
+    },
+    {
+      "id": 800,
+      "type": "Heli",
+      "name": "",
+      "model": "709_01_1",
+      "position": {
+        "x": -280.10547,
+        "y": -15.261719,
+        "z": -0.33398438
+      },
+      "rotation": {
+        "x": -0,
+        "y": -221.53842,
+        "z": -0
+      }
+    },
+    {
+      "id": 976,
+      "type": "StatusMessage",
+      "name": "Too many casualties mission aborted",
+      "model": "",
+      "position": {
+        "x": -7.482422,
+        "y": -24.433594,
+        "z": -274.31543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 977,
+      "type": "StatusMessage",
+      "name": "Got Josip!",
+      "model": "",
+      "position": {
+        "x": -11.404297,
+        "y": -39.29297,
+        "z": -389.7129
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 978,
+      "type": "StatusMessage",
+      "name": "Start message ",
+      "model": "",
+      "position": {
+        "x": 5.748047,
+        "y": 3.6875,
+        "z": -5.3271484
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 979,
+      "type": "StatusMessage",
+      "name": "Team touched down",
+      "model": "",
+      "position": {
+        "x": 5.748047,
+        "y": 3.6875,
+        "z": -5.3271484
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 751,
+      "type": "EditVariable",
+      "name": "Team two patrol trigger",
+      "model": "",
+      "position": {
+        "x": -29.419922,
+        "y": -35.66797,
+        "z": -266.4922
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 752,
+      "type": "EditVariable",
+      "name": "Team one patrol trigger",
+      "model": "",
+      "position": {
+        "x": -28.972656,
+        "y": -34.777344,
+        "z": -264.1797
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 980,
+      "type": "StatusMessage",
+      "name": "Man down ",
+      "model": "",
+      "position": {
+        "x": -7.482422,
+        "y": -24.433594,
+        "z": -274.31543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 981,
+      "type": "StatusMessage",
+      "name": "Man down",
+      "model": "",
+      "position": {
+        "x": -7.482422,
+        "y": -24.433594,
+        "z": -274.31543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 982,
+      "type": "StatusMessage",
+      "name": "Man down",
+      "model": "",
+      "position": {
+        "x": -7.482422,
+        "y": -24.433594,
+        "z": -274.31543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 983,
+      "type": "StatusMessage",
+      "name": "Man down",
+      "model": "",
+      "position": {
+        "x": -7.482422,
+        "y": -24.433594,
+        "z": -274.31543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 984,
+      "type": "StatusMessage",
+      "name": "Man down",
+      "model": "",
+      "position": {
+        "x": -7.482422,
+        "y": -24.433594,
+        "z": -274.31543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 975,
+      "type": "StatusMessage",
+      "name": "Man down Harrison",
+      "model": "",
+      "position": {
+        "x": -7.482422,
+        "y": -24.433594,
+        "z": -274.31543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 985,
+      "type": "StatusMessage",
+      "name": "Man down Josip",
+      "model": "",
+      "position": {
+        "x": -7.482422,
+        "y": -24.433594,
+        "z": -274.31543
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 753,
+      "type": "EditVariable",
+      "name": "Fail - too many casualties",
+      "model": "",
+      "position": {
+        "x": 5.470703,
+        "y": 9.925781,
+        "z": -41.61621
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": 987,
+      "type": "StatusMessage",
+      "name": "Objective 1 complete",
+      "model": "",
+      "position": {
+        "x": 48.876953,
+        "y": -7.234375,
+        "z": -230.21484
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 989,
+      "type": "StatusMessage",
+      "name": "Story message 11",
+      "model": "",
+      "position": {
+        "x": 53.853516,
+        "y": 18.171875,
+        "z": -147.20801
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 990,
+      "type": "StatusMessage",
+      "name": "Story message 12",
+      "model": "",
+      "position": {
+        "x": 53.853516,
+        "y": 18.171875,
+        "z": -147.20801
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 991,
+      "type": "StatusMessage",
+      "name": "Story message 13",
+      "model": "",
+      "position": {
+        "x": 53.853516,
+        "y": 18.171875,
+        "z": -147.20801
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 992,
+      "type": "StatusMessage",
+      "name": "Story message 14",
+      "model": "",
+      "position": {
+        "x": 53.853516,
+        "y": 18.171875,
+        "z": -147.20801
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 993,
+      "type": "StatusMessage",
+      "name": "Story message 15",
+      "model": "",
+      "position": {
+        "x": 53.853516,
+        "y": 18.171875,
+        "z": -147.20801
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 994,
+      "type": "StatusMessage",
+      "name": "Story message 16",
+      "model": "",
+      "position": {
+        "x": 53.853516,
+        "y": 18.171875,
+        "z": -147.20801
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 995,
+      "type": "StatusMessage",
+      "name": "Watch out",
+      "model": "",
+      "position": {
+        "x": 53.853516,
+        "y": 18.171875,
+        "z": -147.20801
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 996,
+      "type": "StatusMessage",
+      "name": "THANKS......",
+      "model": "",
+      "position": {
+        "x": 61.027344,
+        "y": -33.28125,
+        "z": -264.87402
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 997,
+      "type": "StatusMessage",
+      "name": "Move it!",
+      "model": "",
+      "position": {
+        "x": 61.45117,
+        "y": -27.820312,
+        "z": -275.7588
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 998,
+      "type": "StatusMessage",
+      "name": "Room Clear",
+      "model": "",
+      "position": {
+        "x": -11.552734,
+        "y": -41.64453,
+        "z": -384.8828
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 999,
+      "type": "StatusMessage",
+      "name": "hOLDING --------",
+      "model": "",
+      "position": {
+        "x": -11.552734,
+        "y": -41.64453,
+        "z": -384.8828
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 1001,
+      "type": "StatusMessage",
+      "name": "BASEMENT CLEAR",
+      "model": "",
+      "position": {
+        "x": -11.552734,
+        "y": -41.64453,
+        "z": -384.8828
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 1200,
+      "type": "LevelTimer",
+      "name": "Mission Complete",
+      "model": "",
+      "position": {
+        "x": -17.804688,
+        "y": -36.73828,
+        "z": -360.47168
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 1002,
+      "type": "StatusMessage",
+      "name": "player dead",
+      "model": "",
+      "position": {
+        "x": -17.804688,
+        "y": -36.73828,
+        "z": -360.47168
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 10,
+      "type": "LevelFlow",
+      "name": "",
+      "model": "",
+      "position": {
+        "x": -27553.326,
+        "y": -42838.26,
+        "z": 13330.149
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    }
+  ],
+  "modelPaths": [
+    "Assets/IGIImported/Models/missions/location0/level4/341_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_03_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/341_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/331_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/329_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/329_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/329_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/329_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/329_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/329_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/329_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/304_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/304_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/304_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/311_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/311_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/311_03_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/337_01_1.igimodel",
+    "",
+    "",
+    "",
+    "",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/905_01_1.igimodel",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Assets/IGIImported/Models/missions/location0/level4/429_03_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/503_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/228_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/459_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/435_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/403_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/600_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/410_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/600_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/490_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/428_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/404_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/438_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/419_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/326_01_1.igimodel",
+    "",
+    "Assets/IGIImported/Models/missions/location0/level4/408_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/412_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/503_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/246_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/459_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/600_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/600_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/600_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/300_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/300_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/300_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/300_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/300_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/600_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/404_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/419_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/438_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/622_01_1.igimodel",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Assets/IGIImported/Models/missions/location0/level4/015_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/472_01_1.igimodel",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Assets/IGIImported/Models/missions/location0/level4/715_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/021_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/009_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/022_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/021_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/020_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/715_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/709_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/022_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/009_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/020_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/020_01_1.igimodel",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Assets/IGIImported/Models/missions/location0/level4/000_01_1.igimodel",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/013_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/022_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/021_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/021_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/021_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/020_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/020_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/013_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/009_02_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/003_01_1.igimodel",
+    "",
+    "Assets/IGIImported/Models/missions/location0/level4/022_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/020_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/021_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/021_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/020_01_1.igimodel",
+    "Assets/IGIImported/Models/missions/location0/level4/709_01_1.igimodel",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "origin": {
+    "x": 27553.326,
+    "y": 42838.26,
+    "z": -13330.149
+  }
+}

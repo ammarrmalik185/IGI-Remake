@@ -1,0 +1,147 @@
+     0: PUSHIIB #0                    ; symbol "DefinePhysicsObjType"
+     2: CALL    argc=71               ; args @296, @299, @301, @304, @310, @316, @322, @325, @328, @331, @333, @335, @337, @340, @346, @348, @350, @356, @362, @365, @371, @377, @383, @389, @395, @401, @404, @410, @416, @419, @421, @423, @426, @428, @430, @432, @434, @436, @438, @441, @443, @445, @447, @449, @451, @453, @455, @457, @459, @461, @463, @465, @467, @469, @471, @473, @475, @477, @479, @481, @483, @486, @489, @492, @494, @497, @503, @509, @515, @521, @524
+   291: BRA     +231                  ; -> 527
+   296: PUSHIIB #1                    ; symbol "TASKTYPE_MISSILE"
+   298: BRK
+   299: PUSH1
+   300: BRK
+   301: PUSHB   10
+   303: BRK
+   304: PUSHF   0.4
+   309: BRK
+   310: PUSHF   5
+   315: BRK
+   316: PUSHF   0.4
+   321: BRK
+   322: PUSHSIB #0                    ; string "<SAM>"
+   324: BRK
+   325: PUSHSIB #1                    ; string "<SAMDESC>"
+   327: BRK
+   328: PUSHSIB #2                    ; string "700_10_1"
+   330: BRK
+   331: PUSH1
+   332: BRK
+   333: PUSH0
+   334: BRK
+   335: PUSH0
+   336: BRK
+   337: PUSHB   5
+   339: BRK
+   340: PUSHF   0.2
+   345: BRK
+   346: PUSH1
+   347: BRK
+   348: PUSH1
+   349: BRK
+   350: PUSHF   0.7
+   355: BRK
+   356: PUSHF   0.001
+   361: BRK
+   362: PUSHB   25
+   364: BRK
+   365: PUSHF   35
+   370: BRK
+   371: PUSHF   0.9
+   376: BRK
+   377: PUSHF   35
+   382: BRK
+   383: PUSHF   0.9
+   388: BRK
+   389: PUSHF   35
+   394: BRK
+   395: PUSHF   0.9
+   400: BRK
+   401: PUSHB   25
+   403: BRK
+   404: PUSHF   0.027
+   409: BRK
+   410: PUSHF   0.003
+   415: BRK
+   416: PUSHB   4
+   418: BRK
+   419: PUSH1
+   420: BRK
+   421: PUSH0
+   422: BRK
+   423: PUSHB   4
+   425: BRK
+   426: PUSH0
+   427: BRK
+   428: PUSH0
+   429: BRK
+   430: PUSH0
+   431: BRK
+   432: PUSH1
+   433: BRK
+   434: PUSH1
+   435: BRK
+   436: PUSH0
+   437: BRK
+   438: PUSHB   4
+   440: BRK
+   441: PUSH0
+   442: BRK
+   443: PUSH1
+   444: BRK
+   445: PUSH0
+   446: BRK
+   447: PUSH0
+   448: BRK
+   449: PUSH0
+   450: BRK
+   451: PUSH0
+   452: BRK
+   453: PUSH0
+   454: BRK
+   455: PUSH0
+   456: BRK
+   457: PUSH0
+   458: BRK
+   459: PUSH0
+   460: BRK
+   461: PUSH0
+   462: BRK
+   463: PUSH0
+   464: BRK
+   465: PUSH0
+   466: BRK
+   467: PUSH0
+   468: BRK
+   469: PUSH0
+   470: BRK
+   471: PUSH0
+   472: BRK
+   473: PUSH0
+   474: BRK
+   475: PUSH0
+   476: BRK
+   477: PUSH0
+   478: BRK
+   479: PUSH0
+   480: BRK
+   481: PUSH0
+   482: BRK
+   483: PUSHIIB #2                    ; symbol "MISSILE_SMOKE_NORMAL"
+   485: BRK
+   486: PUSHIIB #3                    ; symbol "MISSILE_TYPE_HIND_HELICOPTER"
+   488: BRK
+   489: PUSHB   30
+   491: BRK
+   492: PUSH1
+   493: BRK
+   494: PUSHB   50
+   496: BRK
+   497: PUSHF   0.1
+   502: BRK
+   503: PUSHF   0.9
+   508: BRK
+   509: PUSHF   0.9
+   514: BRK
+   515: PUSHF   4
+   520: BRK
+   521: PUSHSIB #3                    ; string "smoke2.spr"
+   523: BRK
+   524: PUSHSIB #4                    ; string "radarwind_1"
+   526: BRK
+   527: POP
+   528: BRK

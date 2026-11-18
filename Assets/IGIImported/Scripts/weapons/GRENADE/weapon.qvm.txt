@@ -1,0 +1,106 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=49               ; args @208, @211, @214, @217, @220, @223, @226, @229, @232, @236, @240, @246, @249, @255, @258, @260, @263, @265, @267, @269, @271, @273, @275, @277, @279, @282, @284, @287, @291, @294, @297, @300, @303, @306, @309, @312, @315, @318, @322, @326, @330, @334, @338, @342, @345, @348, @351, @354, @357
+   203: BRA     +152                  ; -> 360
+   208: PUSHB   14
+   210: BRK
+   211: PUSHSIB #0                    ; string "WEAPON_ID_GRENADE"
+   213: BRK
+   214: PUSHSIB #1                    ; string "Hand Grenade"
+   216: BRK
+   217: PUSHSIB #2                    ; string "<KEYSER_SOZE>"
+   219: BRK
+   220: PUSHSIB #3                    ; string "<GRENADEDESC>"
+   222: BRK
+   223: PUSHIIB #1                    ; symbol "WEAPONTYPE_GRENADE"
+   225: BRK
+   226: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   228: BRK
+   229: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_GRENADE"
+   231: BRK
+   232: PUSHW   656
+   235: BRK
+   236: PUSHW   10000
+   239: BRK
+   240: PUSHF   0.5
+   245: BRK
+   246: PUSHB   3
+   248: BRK
+   249: PUSHF   2
+   254: BRK
+   255: PUSHB   15
+   257: BRK
+   258: PUSH1
+   259: BRK
+   260: PUSHB   50
+   262: BRK
+   263: PUSH1
+   264: BRK
+   265: PUSH1
+   266: BRK
+   267: PUSH0
+   268: BRK
+   269: PUSH0
+   270: BRK
+   271: PUSH0
+   272: BRK
+   273: PUSH0
+   274: BRK
+   275: PUSH0
+   276: BRK
+   277: PUSH0
+   278: BRK
+   279: PUSHSIB #4                    ; string "<SELF-LOADING_PISTOL>"
+   281: BRK
+   282: PUSH1
+   283: BRK
+   284: PUSHSIB #5                    ; string "<GRENADEUSERS>"
+   286: BRK
+   287: PUSHW   185
+   290: BRK
+   291: PUSHB   114
+   293: BRK
+   294: PUSHSIB #6                    ; string "135_01_1"
+   296: BRK
+   297: PUSHSIB #7                    ; string ""
+   299: BRK
+   300: PUSHB   22
+   302: BRK
+   303: PUSHB   23
+   305: BRK
+   306: PUSHB   24
+   308: BRK
+   309: PUSHB   25
+   311: BRK
+   312: PUSH1
+   313: MINUS
+   314: BRK
+   315: PUSH1
+   316: MINUS
+   317: BRK
+   318: PUSHW   159
+   321: BRK
+   322: PUSHW   165
+   325: BRK
+   326: PUSHW   161
+   329: BRK
+   330: PUSHW   162
+   333: BRK
+   334: PUSHW   160
+   337: BRK
+   338: PUSHW   164
+   341: BRK
+   342: PUSH1
+   343: MINUS
+   344: BRK
+   345: PUSHSIB #8                    ; string "grenade_shot_1"
+   347: BRK
+   348: PUSHSIB #8                    ; string "grenade_shot_1"
+   350: BRK
+   351: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+   353: BRK
+   354: PUSHIIB #5                    ; symbol "TASKTYPE_GRENADE"
+   356: BRK
+   357: PUSHIIB #6                    ; symbol "TASKTYPE_GUN"
+   359: BRK
+   360: POP
+   361: BRK

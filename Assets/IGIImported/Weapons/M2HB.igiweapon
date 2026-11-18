@@ -1,0 +1,20 @@
+{
+  "id": 42,
+  "displayName": "M2HB",
+  "description": "\u003CM2HBDESC\u003E",
+  "category": 0,
+  "model": "123_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/123_01_1.igimodel",
+  "magazineSize": 10000,
+  "roundsPerMinute": 800,
+  "reloadSeconds": 2,
+  "automatic": true,
+  "range": 2000,
+  "modelLength": 1.651,
+  "damageFactor": 1,
+  "calibre": 127,
+  "spreadDegrees": 0.4,
+  "recoilDegrees": 0.1,
+  "fireSoundPath": "",
+  "source": "Definitions/weapons/M2HB/weapon.qvm.json"
+}

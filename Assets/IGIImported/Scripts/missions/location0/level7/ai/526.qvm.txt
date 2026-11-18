@@ -1,0 +1,25 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_DOOR"
+    14: EQ
+    15: BF      +50                   ; -> 70
+    20: PUSHIIB #2                    ; symbol "Door_240.isOpen"
+    22: BF      +38                   ; -> 65
+    27: PUSHIIB #3                    ; symbol "AIAction_Patrol"
+    29: CALL    argc=3                ; args @51, @55, @57
+    46: BRA     +8                    ; -> 59
+    51: PUSHW   672
+    54: BRK
+    55: PUSH0
+    56: BRK
+    57: PUSH1
+    58: BRK
+    59: POP
+    60: BRA     +0                    ; -> 65
+    65: BRA     +13                   ; -> 83
+    70: PUSHIIB #4                    ; symbol "AIFunction_DefaultHandler"
+    72: CALL    argc=0
+    77: BRA     +0                    ; -> 82
+    82: POP
+    83: BRK

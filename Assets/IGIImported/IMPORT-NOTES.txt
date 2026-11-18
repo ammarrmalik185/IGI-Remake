@@ -1,0 +1,34 @@
+Original game assets extracted locally from ../IGIEnhanced/base_igi/pc.
+
+Browse the campaign with Tools > IGI Rebuilt > Imported campaign.
+The playable Trainyard is built with Tools > IGI Rebuilt > Rebuild playable Trainyard.
+
+Missions contains the campaign definitions and objective text. Models and Meshes
+retain per-level material bindings. Weapons contains the original equipment
+definitions. Characters contains named static reference poses. Textures and Audio
+contain decoded PNG/WAV assets. Story and Scripts retain localized narrative text
+and QVM disassemblies. SourceData~ preserves original scripts, archives, animation
+sets, terrain and cutscene AVIs; Unity ignores that folder.
+
+The native QVM engine is not executed by Unity. Trainyard uses Unity collision,
+navigation and guard controllers with the original terrain, placements and art.
+Its truck interaction completes the objective. Character animations, driving and
+the original scripted cutscenes remain future work. Other mission data is available
+for authoring and reference scenes.
+
+All 6794 available model resources were extracted. Some pack tables also name
+absent resources, including unused global prototypes and a menu minefield model;
+import-report.json and finalize-report.json retain those declarations. validation.json
+checks that the converted model geometry and texture references resolve.
+
+Re-extract with tools/Import-IGI.ps1. Generate Trainyard terrain with:
+dotnet run --project tools/TrainyardExport -- .
+Build the mission/player with tools/Project.ps1 -Action Trainyard after closing
+the editor for batch operations.
+
+Validation projects must use independent asset copies in a persistent directory.
+Do not put another Unity project or links to working assets inside Unity's Temp
+folder. Asset metadata must accompany copies to retain the same GUIDs.
+
+Game data retains its original ownership. The local OpenIGI decoder tools retain
+their own licenses; see ../IGIEnhanced/LICENSE and THIRD-PARTY-NOTICES.md.

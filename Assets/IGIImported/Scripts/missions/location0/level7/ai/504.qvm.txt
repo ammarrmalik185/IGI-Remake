@@ -1,0 +1,5 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_DefaultHandler"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: POP
+    13: BRK

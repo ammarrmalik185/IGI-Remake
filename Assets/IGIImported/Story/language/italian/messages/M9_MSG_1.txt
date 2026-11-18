@@ -1,0 +1,1 @@
+ANYA: Il sistema d'allarme avvertirà il treno, se resterà in funzione troppo a lungo. Hai circa 30 secondi per disattivarlo, altrimenti il treno si fermerà.

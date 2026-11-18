@@ -1,0 +1,20 @@
+{
+  "id": 18,
+  "displayName": "Binoculars",
+  "description": "\u003CBINOCULARSDESC\u003E",
+  "category": 5,
+  "model": "102_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/102_01_1.igimodel",
+  "magazineSize": 10,
+  "roundsPerMinute": 50,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 1,
+  "modelLength": 0.185,
+  "damageFactor": 0.25,
+  "calibre": 919,
+  "spreadDegrees": 0,
+  "recoilDegrees": 0,
+  "fireSoundPath": "Assets/IGIImported/Audio/bin_zoom_1.wav",
+  "source": "Definitions/weapons/BINOCULARS/weapon.qvm.json"
+}

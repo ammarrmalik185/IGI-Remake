@@ -1,0 +1,20 @@
+{
+  "id": 20,
+  "displayName": "Knife",
+  "description": "\u003CKNIFEDESC\u003E",
+  "category": 3,
+  "model": "133_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/133_01_1.igimodel",
+  "magazineSize": -1,
+  "roundsPerMinute": 140,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 1,
+  "modelLength": 0.185,
+  "damageFactor": 0.1,
+  "calibre": -1,
+  "spreadDegrees": 0,
+  "recoilDegrees": 0,
+  "fireSoundPath": "Assets/IGIImported/Audio/knife_1.wav",
+  "source": "Definitions/weapons/KNIFE/weapon.qvm.json"
+}

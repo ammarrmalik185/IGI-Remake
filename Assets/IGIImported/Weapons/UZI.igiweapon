@@ -1,0 +1,20 @@
+{
+  "id": 6,
+  "displayName": "Uzi",
+  "description": "\u003CUZIDESC\u003E",
+  "category": 0,
+  "model": "111_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/111_01_1.igimodel",
+  "magazineSize": 32,
+  "roundsPerMinute": 700,
+  "reloadSeconds": 2,
+  "automatic": true,
+  "range": 50,
+  "modelLength": 0.47,
+  "damageFactor": 0.15,
+  "calibre": 919,
+  "spreadDegrees": -5,
+  "recoilDegrees": 0.9,
+  "fireSoundPath": "Assets/IGIImported/Audio/uzi_loop.wav",
+  "source": "Definitions/weapons/UZI/weapon.qvm.json"
+}

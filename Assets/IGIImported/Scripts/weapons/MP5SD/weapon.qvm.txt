@@ -1,0 +1,108 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=50               ; args @212, @215, @218, @221, @224, @227, @230, @233, @236, @240, @244, @250, @252, @258, @262, @264, @268, @271, @274, @278, @281, @287, @289, @295, @297, @300, @303, @306, @310, @314, @317, @320, @323, @326, @329, @332, @335, @338, @342, @346, @350, @354, @358, @362, @366, @369, @372, @375, @378, @381
+   207: BRA     +172                  ; -> 384
+   212: PUSHB   7
+   214: BRK
+   215: PUSHSIB #0                    ; string "WEAPON_ID_MP5SD"
+   217: BRK
+   218: PUSHSIB #1                    ; string "Mp5 SD3"
+   220: BRK
+   221: PUSHSIB #2                    ; string "<H_AND_K>"
+   223: BRK
+   224: PUSHSIB #3                    ; string "<MP5_SD3DESC>"
+   226: BRK
+   227: PUSHIIB #1                    ; symbol "WEAPONTYPE_GUN"
+   229: BRK
+   230: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   232: BRK
+   233: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_CLIP"
+   235: BRK
+   236: PUSHW   3500
+   239: BRK
+   240: PUSHW   919
+   243: BRK
+   244: PUSHF   0.15
+   249: BRK
+   250: PUSH1
+   251: BRK
+   252: PUSHF   2
+   257: BRK
+   258: PUSHW   400
+   261: BRK
+   262: PUSH1
+   263: BRK
+   264: PUSHW   700
+   267: BRK
+   268: PUSHB   32
+   270: BRK
+   271: PUSHB   32
+   273: BRK
+   274: PUSHB   2
+   276: MINUS
+   277: BRK
+   278: PUSHB   2
+   280: BRK
+   281: PUSHF   0.8
+   286: BRK
+   287: PUSH0
+   288: BRK
+   289: PUSHF   0.8
+   294: BRK
+   295: PUSH0
+   296: BRK
+   297: PUSHSIB #4                    ; string "<SILENCED_SUB-MACHINE_GUN>"
+   299: BRK
+   300: PUSHB   80
+   302: BRK
+   303: PUSHSIB #5                    ; string "<MP5_SD3USERS>"
+   305: BRK
+   306: PUSHW   680
+   309: BRK
+   310: PUSHW   146
+   313: BRK
+   314: PUSHSIB #6                    ; string "103_01_1"
+   316: BRK
+   317: PUSHSIB #7                    ; string "113_01_1"
+   319: BRK
+   320: PUSHB   18
+   322: BRK
+   323: PUSHB   19
+   325: BRK
+   326: PUSHB   20
+   328: BRK
+   329: PUSH1
+   330: MINUS
+   331: BRK
+   332: PUSH1
+   333: MINUS
+   334: BRK
+   335: PUSHB   21
+   337: BRK
+   338: PUSHW   203
+   341: BRK
+   342: PUSHW   137
+   345: BRK
+   346: PUSHW   139
+   349: BRK
+   350: PUSHW   140
+   353: BRK
+   354: PUSHW   135
+   357: BRK
+   358: PUSHW   141
+   361: BRK
+   362: PUSHW   224
+   365: BRK
+   366: PUSHSIB #8                    ; string "mp5sd_loop"
+   368: BRK
+   369: PUSHSIB #9                    ; string "mp5sd_loop_e"
+   371: BRK
+   372: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+   374: BRK
+   375: PUSHIIB #5                    ; symbol "TASKTYPE_GUNSHOT"
+   377: BRK
+   378: PUSHIIB #6                    ; symbol "TASKTYPE_GUNMP5SD"
+   380: BRK
+   381: PUSHB   50
+   383: BRK
+   384: POP
+   385: BRK

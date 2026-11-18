@@ -1,0 +1,118 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=52               ; args @220, @223, @226, @229, @232, @235, @238, @241, @244, @248, @252, @258, @261, @267, @270, @272, @275, @278, @280, @282, @284, @286, @288, @290, @292, @295, @297, @300, @304, @307, @310, @313, @316, @319, @322, @325, @328, @331, @334, @337, @340, @343, @346, @349, @352, @355, @358, @361, @364, @367, @370, @373
+   215: BRA     +156                  ; -> 376
+   220: PUSHB   18
+   222: BRK
+   223: PUSHSIB #0                    ; string "WEAPON_ID_BINOCULARS"
+   225: BRK
+   226: PUSHSIB #1                    ; string "Binoculars"
+   228: BRK
+   229: PUSHSIB #2                    ; string "<ZEISS_INC>"
+   231: BRK
+   232: PUSHSIB #3                    ; string "<BINOCULARSDESC>"
+   234: BRK
+   235: PUSHIIB #1                    ; symbol "WEAPONTYPE_BINOCULAR"
+   237: BRK
+   238: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   240: BRK
+   241: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_NONE"
+   243: BRK
+   244: PUSHW   656
+   247: BRK
+   248: PUSHW   919
+   251: BRK
+   252: PUSHF   0.25
+   257: BRK
+   258: PUSHB   3
+   260: BRK
+   261: PUSHF   2
+   266: BRK
+   267: PUSHB   8
+   269: BRK
+   270: PUSH1
+   271: BRK
+   272: PUSHB   50
+   274: BRK
+   275: PUSHB   10
+   277: BRK
+   278: PUSH1
+   279: BRK
+   280: PUSH0
+   281: BRK
+   282: PUSH0
+   283: BRK
+   284: PUSH0
+   285: BRK
+   286: PUSH0
+   287: BRK
+   288: PUSH0
+   289: BRK
+   290: PUSH0
+   291: BRK
+   292: PUSHSIB #4                    ; string "<SELF-LOADING_PISTOL>"
+   294: BRK
+   295: PUSH1
+   296: BRK
+   297: PUSHSIB #5                    ; string "<BINOCULARSUSERS>"
+   299: BRK
+   300: PUSHW   185
+   303: BRK
+   304: PUSHB   114
+   306: BRK
+   307: PUSHSIB #6                    ; string "102_01_1"
+   309: BRK
+   310: PUSHSIB #7                    ; string "113_01_1"
+   312: BRK
+   313: PUSHB   68
+   315: BRK
+   316: PUSHB   69
+   318: BRK
+   319: PUSHB   4
+   321: BRK
+   322: PUSH1
+   323: MINUS
+   324: BRK
+   325: PUSH1
+   326: MINUS
+   327: BRK
+   328: PUSHB   5
+   330: BRK
+   331: PUSH1
+   332: MINUS
+   333: BRK
+   334: PUSH1
+   335: MINUS
+   336: BRK
+   337: PUSH1
+   338: MINUS
+   339: BRK
+   340: PUSH1
+   341: MINUS
+   342: BRK
+   343: PUSH1
+   344: MINUS
+   345: BRK
+   346: PUSH1
+   347: MINUS
+   348: BRK
+   349: PUSH1
+   350: MINUS
+   351: BRK
+   352: PUSHSIB #8                    ; string "bin_zoom_1"
+   354: BRK
+   355: PUSHSIB #8                    ; string "bin_zoom_1"
+   357: BRK
+   358: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   360: BRK
+   361: PUSHIIB #5                    ; symbol "TASKTYPE_GRENADE"
+   363: BRK
+   364: PUSHIIB #6                    ; symbol "TASKTYPE_BINOCULAR"
+   366: BRK
+   367: PUSHB   5
+   369: BRK
+   370: PUSHB   90
+   372: BRK
+   373: PUSHB   70
+   375: BRK
+   376: POP
+   377: BRK

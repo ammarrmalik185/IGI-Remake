@@ -1,0 +1,7 @@
+﻿MP5 Submachine Gun
+Author: Rotuma
+Author URL: https://sketchfab.com/Rotuma
+Source: https://sketchfab.com/3d-models/mp5-submachine-gun-a73b61932a0e4eecb5db5c63c158aa24
+License: CC Attribution
+License URL: http://creativecommons.org/licenses/by/4.0/
+Imported from FBX; Unity materials assigned separately. Gameplay code and level are new.

@@ -1,0 +1,1 @@
+ANYA: El sistema de alarma alertará al tren si suena demasiado tiempo. Tienes 30 segundos aproximadamente para apagarla. El tren cancelará el recorrido si recibe un aviso.

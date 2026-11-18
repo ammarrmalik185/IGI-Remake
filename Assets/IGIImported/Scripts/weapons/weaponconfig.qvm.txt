@@ -1,0 +1,3390 @@
+     0: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+     2: CALL    argc=5                ; args @32, @35, @38, @41, @44
+    27: BRA     +15                   ; -> 47
+    32: PUSHSIB #0                    ; string "TagItemReal32"
+    34: BRK
+    35: PUSHSIB #1                    ; string "Name"
+    37: BRK
+    38: PUSHSIB #2                    ; string "String256"
+    40: BRK
+    41: PUSHSIB #3                    ; string "Value"
+    43: BRK
+    44: PUSHSIB #4                    ; string "Real32"
+    46: BRK
+    47: POP
+    48: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+    50: CALL    argc=5                ; args @80, @83, @86, @89, @92
+    75: BRA     +15                   ; -> 95
+    80: PUSHSIB #5                    ; string "TagItemString16"
+    82: BRK
+    83: PUSHSIB #1                    ; string "Name"
+    85: BRK
+    86: PUSHSIB #2                    ; string "String256"
+    88: BRK
+    89: PUSHSIB #3                    ; string "Value"
+    91: BRK
+    92: PUSHSIB #6                    ; string "String16"
+    94: BRK
+    95: POP
+    96: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+    98: CALL    argc=1                ; args @112
+   107: BRA     +3                    ; -> 115
+   112: PUSHSIB #7                    ; string "WeaponConfigContainer"
+   114: BRK
+   115: POP
+   116: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+   118: CALL    argc=101              ; args @532, @535, @538, @541, @544, @547, @550, @553, @556, @559, @562, @565, @568, @571, @574, @577, @580, @583, @586, @589, @592, @595, @598, @601, @604, @607, @610, @613, @616, @619, @622, @625, @628, @631, @634, @637, @640, @643, @646, @649, @652, @655, @658, @661, @664, @667, @670, @673, @676, @679, @682, @685, @688, @691, @694, @697, @700, @703, @706, @709, @712, @715, @718, @721, @724, @727, @730, @733, @736, @739, @742, @745, @748, @751, @754, @757, @760, @763, @766, @769, @772, @775, @778, @781, @784, @787, @790, @793, @796, @799, @802, @805, @808, @811, @814, @817, @820, @823, @826, @829, @832
+   527: BRA     +303                  ; -> 835
+   532: PUSHSIB #8                    ; string "WeaponConfig"
+   534: BRK
+   535: PUSHSIB #9                    ; string "Weapon ID"
+   537: BRK
+   538: PUSHSIB #10                   ; string "Int32"
+   540: BRK
+   541: PUSHSIB #11                   ; string "Script ID"
+   543: BRK
+   544: PUSHSIB #2                    ; string "String256"
+   546: BRK
+   547: PUSHSIB #1                    ; string "Name"
+   549: BRK
+   550: PUSHSIB #2                    ; string "String256"
+   552: BRK
+   553: PUSHSIB #12                   ; string "Manufacturer"
+   555: BRK
+   556: PUSHSIB #2                    ; string "String256"
+   558: BRK
+   559: PUSHSIB #13                   ; string "Description"
+   561: BRK
+   562: PUSHSIB #2                    ; string "String256"
+   564: BRK
+   565: PUSHSIB #14                   ; string "Weapon Type"
+   567: BRK
+   568: PUSHSIB #15                   ; string "EnumInt32"
+   570: BRK
+   571: PUSHSIB #16                   ; string "Sight Display Type"
+   573: BRK
+   574: PUSHSIB #15                   ; string "EnumInt32"
+   576: BRK
+   577: PUSHSIB #17                   ; string "Ammo Display Type"
+   579: BRK
+   580: PUSHSIB #15                   ; string "EnumInt32"
+   582: BRK
+   583: PUSHSIB #18                   ; string "Mass of Weapon (grams)"
+   585: BRK
+   586: PUSHSIB #10                   ; string "Int32"
+   588: BRK
+   589: PUSHSIB #19                   ; string "Calibre ID"
+   591: BRK
+   592: PUSHSIB #10                   ; string "Int32"
+   594: BRK
+   595: PUSHSIB #20                   ; string "Damage Factor"
+   597: BRK
+   598: PUSHSIB #4                    ; string "Real32"
+   600: BRK
+   601: PUSHSIB #21                   ; string "Penetration Power"
+   603: BRK
+   604: PUSHSIB #4                    ; string "Real32"
+   606: BRK
+   607: PUSHSIB #22                   ; string "Reload Time"
+   609: BRK
+   610: PUSHSIB #4                    ; string "Real32"
+   612: BRK
+   613: PUSHSIB #23                   ; string "Muzzle Velocity"
+   615: BRK
+   616: PUSHSIB #4                    ; string "Real32"
+   618: BRK
+   619: PUSHSIB #24                   ; string "Bullets/Round"
+   621: BRK
+   622: PUSHSIB #10                   ; string "Int32"
+   624: BRK
+   625: PUSHSIB #25                   ; string "Rounds/Minute"
+   627: BRK
+   628: PUSHSIB #10                   ; string "Int32"
+   630: BRK
+   631: PUSHSIB #26                   ; string "Rounds/Clip"
+   633: BRK
+   634: PUSHSIB #10                   ; string "Int32"
+   636: BRK
+   637: PUSHSIB #27                   ; string "Maximum Rounds/Burst"
+   639: BRK
+   640: PUSHSIB #10                   ; string "Int32"
+   642: BRK
+   643: PUSHSIB #28                   ; string "Minimum random spread"
+   645: BRK
+   646: PUSHSIB #4                    ; string "Real32"
+   648: BRK
+   649: PUSHSIB #29                   ; string "Maximum random spread"
+   651: BRK
+   652: PUSHSIB #4                    ; string "Real32"
+   654: BRK
+   655: PUSHSIB #30                   ; string "Fixed view change around X axis (degrees)"
+   657: BRK
+   658: PUSHSIB #4                    ; string "Real32"
+   660: BRK
+   661: PUSHSIB #31                   ; string "Fixed view change around Z axis (degrees)"
+   663: BRK
+   664: PUSHSIB #4                    ; string "Real32"
+   666: BRK
+   667: PUSHSIB #32                   ; string "Random view change around X axis (degrees)"
+   669: BRK
+   670: PUSHSIB #4                    ; string "Real32"
+   672: BRK
+   673: PUSHSIB #33                   ; string "Random view change around Z axis (degrees)"
+   675: BRK
+   676: PUSHSIB #4                    ; string "Real32"
+   678: BRK
+   679: PUSHSIB #34                   ; string "Type of weapon"
+   681: BRK
+   682: PUSHSIB #2                    ; string "String256"
+   684: BRK
+   685: PUSHSIB #35                   ; string "Effective Range of Weapon"
+   687: BRK
+   688: PUSHSIB #4                    ; string "Real32"
+   690: BRK
+   691: PUSHSIB #36                   ; string "Weapon Users"
+   693: BRK
+   694: PUSHSIB #2                    ; string "String256"
+   696: BRK
+   697: PUSHSIB #37                   ; string "Weapon Length"
+   699: BRK
+   700: PUSHSIB #10                   ; string "Int32"
+   702: BRK
+   703: PUSHSIB #38                   ; string "Barrel Length"
+   705: BRK
+   706: PUSHSIB #10                   ; string "Int32"
+   708: BRK
+   709: PUSHSIB #39                   ; string "Gun Model"
+   711: BRK
+   712: PUSHSIB #6                    ; string "String16"
+   714: BRK
+   715: PUSHSIB #40                   ; string "Casing Model"
+   717: BRK
+   718: PUSHSIB #6                    ; string "String16"
+   720: BRK
+   721: PUSHSIB #41                   ; string "StandAnim"
+   723: BRK
+   724: PUSHSIB #10                   ; string "Int32"
+   726: BRK
+   727: PUSHSIB #42                   ; string "MoveAnim"
+   729: BRK
+   730: PUSHSIB #10                   ; string "Int32"
+   732: BRK
+   733: PUSHSIB #43                   ; string "FireAnim1"
+   735: BRK
+   736: PUSHSIB #10                   ; string "Int32"
+   738: BRK
+   739: PUSHSIB #44                   ; string "FireAnim2"
+   741: BRK
+   742: PUSHSIB #10                   ; string "Int32"
+   744: BRK
+   745: PUSHSIB #45                   ; string "FireAnim3"
+   747: BRK
+   748: PUSHSIB #10                   ; string "Int32"
+   750: BRK
+   751: PUSHSIB #46                   ; string "ReloadAnim"
+   753: BRK
+   754: PUSHSIB #10                   ; string "Int32"
+   756: BRK
+   757: PUSHSIB #47                   ; string "UpperBodyStandAnim"
+   759: BRK
+   760: PUSHSIB #10                   ; string "Int32"
+   762: BRK
+   763: PUSHSIB #48                   ; string "UpperBodyWalkAnim"
+   765: BRK
+   766: PUSHSIB #10                   ; string "Int32"
+   768: BRK
+   769: PUSHSIB #49                   ; string "UpperBodyCrouchAnim"
+   771: BRK
+   772: PUSHSIB #10                   ; string "Int32"
+   774: BRK
+   775: PUSHSIB #50                   ; string "UpperBodyCrouchRunAnim"
+   777: BRK
+   778: PUSHSIB #10                   ; string "Int32"
+   780: BRK
+   781: PUSHSIB #51                   ; string "UpperBodyRunAnim"
+   783: BRK
+   784: PUSHSIB #10                   ; string "Int32"
+   786: BRK
+   787: PUSHSIB #52                   ; string "UpperBodyFireAnim"
+   789: BRK
+   790: PUSHSIB #10                   ; string "Int32"
+   792: BRK
+   793: PUSHSIB #53                   ; string "UpperBodyReloadAnim"
+   795: BRK
+   796: PUSHSIB #10                   ; string "Int32"
+   798: BRK
+   799: PUSHSIB #54                   ; string "Fire Sound Loop/Single Sample"
+   801: BRK
+   802: PUSHSIB #6                    ; string "String16"
+   804: BRK
+   805: PUSHSIB #55                   ; string "Fire Sound Loop End Sample"
+   807: BRK
+   808: PUSHSIB #6                    ; string "String16"
+   810: BRK
+   811: PUSHSIB #56                   ; string "AI Detection Event Range"
+   813: BRK
+   814: PUSHSIB #57                   ; string "EnumReal32"
+   816: BRK
+   817: PUSHSIB #58                   ; string "Projectile Task Type"
+   819: BRK
+   820: PUSHSIB #15                   ; string "EnumInt32"
+   822: BRK
+   823: PUSHSIB #59                   ; string "Weapon Task Type"
+   825: BRK
+   826: PUSHSIB #15                   ; string "EnumInt32"
+   828: BRK
+   829: PUSHSIB #60                   ; string "Is weapon selectable when empty"
+   831: BRK
+   832: PUSHSIB #61                   ; string "bool8"
+   834: BRK
+   835: POP
+   836: PUSHIIB #1                    ; symbol "Task_New"
+   838: CALL    argc=27               ; args @956, @959, @962, @965, @1378, @1783, @2201, @2672, @3092, @3512, @4145, @4575, @4995, @5405, @5817, @6274, @6830, @7390, @7845, @8257, @8713, @9332, @9736, @10182, @10574, @10981, @11536
+   951: BRA     +11035                ; -> 11991
+   956: PUSH1
+   957: MINUS
+   958: BRK
+   959: PUSHSIB #7                    ; string "WeaponConfigContainer"
+   961: BRK
+   962: PUSHSIB #62                   ; string ""
+   964: BRK
+   965: PUSHIIB #1                    ; symbol "Task_New"
+   967: CALL    argc=53               ; args @1189, @1192, @1195, @1198, @1200, @1203, @1206, @1209, @1212, @1215, @1218, @1221, @1225, @1229, @1235, @1237, @1243, @1249, @1251, @1255, @1258, @1260, @1266, @1272, @1278, @1280, @1286, @1288, @1291, @1297, @1300, @1304, @1307, @1310, @1313, @1316, @1319, @1322, @1325, @1328, @1331, @1335, @1339, @1343, @1347, @1351, @1355, @1359, @1362, @1365, @1368, @1371, @1374
+  1184: BRA     +188                  ; -> 1377
+  1189: PUSH1
+  1190: MINUS
+  1191: BRK
+  1192: PUSHSIB #8                    ; string "WeaponConfig"
+  1194: BRK
+  1195: PUSHSIB #63                   ; string "Glock 17"
+  1197: BRK
+  1198: PUSH1
+  1199: BRK
+  1200: PUSHSIB #64                   ; string "WEAPON_ID_GLOCK"
+  1202: BRK
+  1203: PUSHSIB #63                   ; string "Glock 17"
+  1205: BRK
+  1206: PUSHSIB #65                   ; string "<GLOCK_INC>"
+  1208: BRK
+  1209: PUSHSIB #66                   ; string "<GLOCK_17DESC>"
+  1211: BRK
+  1212: PUSHIIB #2                    ; symbol "WEAPONTYPE_PISTOL"
+  1214: BRK
+  1215: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  1217: BRK
+  1218: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  1220: BRK
+  1221: PUSHW   656
+  1224: BRK
+  1225: PUSHW   919
+  1228: BRK
+  1229: PUSHF   0.2
+  1234: BRK
+  1235: PUSH1
+  1236: BRK
+  1237: PUSHF   2
+  1242: BRK
+  1243: PUSHF   400
+  1248: BRK
+  1249: PUSH1
+  1250: BRK
+  1251: PUSHW   400
+  1254: BRK
+  1255: PUSHB   17
+  1257: BRK
+  1258: PUSH1
+  1259: BRK
+  1260: PUSHF   5
+  1265: BRK
+  1266: PUSHF   5
+  1271: BRK
+  1272: PUSHF   1.4
+  1277: BRK
+  1278: PUSH0
+  1279: BRK
+  1280: PUSHF   0.4
+  1285: BRK
+  1286: PUSH0
+  1287: BRK
+  1288: PUSHSIB #67                   ; string "<SELF-LOADING_PISTOL>"
+  1290: BRK
+  1291: PUSHF   60
+  1296: BRK
+  1297: PUSHSIB #68                   ; string "<GLOCK_17USERS>"
+  1299: BRK
+  1300: PUSHW   185
+  1303: BRK
+  1304: PUSHB   114
+  1306: BRK
+  1307: PUSHSIB #69                   ; string "117_01_1"
+  1309: BRK
+  1310: PUSHSIB #70                   ; string "113_01_1"
+  1312: BRK
+  1313: PUSHB   14
+  1315: BRK
+  1316: PUSHB   15
+  1318: BRK
+  1319: PUSHB   16
+  1321: BRK
+  1322: PUSH1
+  1323: MINUS
+  1324: BRK
+  1325: PUSH1
+  1326: MINUS
+  1327: BRK
+  1328: PUSHB   17
+  1330: BRK
+  1331: PUSHW   154
+  1334: BRK
+  1335: PUSHW   153
+  1338: BRK
+  1339: PUSHW   155
+  1342: BRK
+  1343: PUSHW   156
+  1346: BRK
+  1347: PUSHW   151
+  1350: BRK
+  1351: PUSHW   157
+  1354: BRK
+  1355: PUSHW   152
+  1358: BRK
+  1359: PUSHSIB #71                   ; string "glock_shot_1"
+  1361: BRK
+  1362: PUSHSIB #72                   ; string "glock_shot_2"
+  1364: BRK
+  1365: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  1367: BRK
+  1368: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  1370: BRK
+  1371: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  1373: BRK
+  1374: PUSHIIB #8                    ; symbol "TRUE"
+  1376: BRK
+  1377: BRK
+  1378: PUSHIIB #1                    ; symbol "Task_New"
+  1380: CALL    argc=53               ; args @1602, @1605, @1608, @1611, @1614, @1617, @1620, @1623, @1626, @1629, @1632, @1635, @1639, @1643, @1649, @1651, @1657, @1663, @1665, @1668, @1671, @1673, @1675, @1677, @1683, @1685, @1691, @1693, @1696, @1702, @1705, @1709, @1712, @1715, @1718, @1721, @1724, @1727, @1730, @1733, @1736, @1740, @1744, @1748, @1752, @1756, @1760, @1764, @1767, @1770, @1773, @1776, @1779
+  1597: BRA     +180                  ; -> 1782
+  1602: PUSH1
+  1603: MINUS
+  1604: BRK
+  1605: PUSHSIB #8                    ; string "WeaponConfig"
+  1607: BRK
+  1608: PUSHSIB #73                   ; string "Colt Anaconda"
+  1610: BRK
+  1611: PUSHB   21
+  1613: BRK
+  1614: PUSHSIB #74                   ; string "WEAPON_ID_COLT"
+  1616: BRK
+  1617: PUSHSIB #73                   ; string "Colt Anaconda"
+  1619: BRK
+  1620: PUSHSIB #75                   ; string "<COLT_INC>"
+  1622: BRK
+  1623: PUSHSIB #76                   ; string "<COLT_ANACONDADESC>"
+  1625: BRK
+  1626: PUSHIIB #2                    ; symbol "WEAPONTYPE_PISTOL"
+  1628: BRK
+  1629: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  1631: BRK
+  1632: PUSHIIB #9                    ; symbol "AMMODISPLAYTYPE_BARREL"
+  1634: BRK
+  1635: PUSHW   1503
+  1638: BRK
+  1639: PUSHW   357
+  1642: BRK
+  1643: PUSHF   0.5
+  1648: BRK
+  1649: PUSH1
+  1650: BRK
+  1651: PUSHF   2
+  1656: BRK
+  1657: PUSHF   360
+  1662: BRK
+  1663: PUSH1
+  1664: BRK
+  1665: PUSHB   60
+  1667: BRK
+  1668: PUSHB   6
+  1670: BRK
+  1671: PUSH1
+  1672: BRK
+  1673: PUSH0
+  1674: BRK
+  1675: PUSH0
+  1676: BRK
+  1677: PUSHF   6
+  1682: BRK
+  1683: PUSH0
+  1684: BRK
+  1685: PUSHF   0.6
+  1690: BRK
+  1691: PUSH0
+  1692: BRK
+  1693: PUSHSIB #67                   ; string "<SELF-LOADING_PISTOL>"
+  1695: BRK
+  1696: PUSHF   100
+  1701: BRK
+  1702: PUSHSIB #77                   ; string "<COLT_ANACONDAUSERS>"
+  1704: BRK
+  1705: PUSHW   185
+  1708: BRK
+  1709: PUSHB   114
+  1711: BRK
+  1712: PUSHSIB #78                   ; string "101_01_1"
+  1714: BRK
+  1715: PUSHSIB #62                   ; string ""
+  1717: BRK
+  1718: PUSHB   35
+  1720: BRK
+  1721: PUSHB   36
+  1723: BRK
+  1724: PUSHB   37
+  1726: BRK
+  1727: PUSH1
+  1728: MINUS
+  1729: BRK
+  1730: PUSH1
+  1731: MINUS
+  1732: BRK
+  1733: PUSHB   38
+  1735: BRK
+  1736: PUSHW   154
+  1739: BRK
+  1740: PUSHW   153
+  1743: BRK
+  1744: PUSHW   155
+  1747: BRK
+  1748: PUSHW   156
+  1751: BRK
+  1752: PUSHW   151
+  1755: BRK
+  1756: PUSHW   157
+  1759: BRK
+  1760: PUSHW   158
+  1763: BRK
+  1764: PUSHSIB #79                   ; string "colt_shot_1"
+  1766: BRK
+  1767: PUSHSIB #79                   ; string "colt_shot_1"
+  1769: BRK
+  1770: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  1772: BRK
+  1773: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  1775: BRK
+  1776: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  1778: BRK
+  1779: PUSHIIB #8                    ; symbol "TRUE"
+  1781: BRK
+  1782: BRK
+  1783: PUSHIIB #1                    ; symbol "Task_New"
+  1785: CALL    argc=53               ; args @2007, @2010, @2013, @2016, @2019, @2022, @2025, @2028, @2031, @2034, @2037, @2040, @2044, @2048, @2054, @2060, @2066, @2072, @2074, @2078, @2081, @2083, @2089, @2095, @2101, @2103, @2109, @2111, @2114, @2120, @2123, @2127, @2130, @2133, @2136, @2139, @2142, @2145, @2148, @2151, @2154, @2158, @2162, @2166, @2170, @2174, @2178, @2182, @2185, @2188, @2191, @2194, @2197
+  2002: BRA     +193                  ; -> 2200
+  2007: PUSH1
+  2008: MINUS
+  2009: BRK
+  2010: PUSHSIB #8                    ; string "WeaponConfig"
+  2012: BRK
+  2013: PUSHSIB #80                   ; string "Desert Eagle"
+  2015: BRK
+  2016: PUSHB   3
+  2018: BRK
+  2019: PUSHSIB #81                   ; string "WEAPON_ID_DESERTEAGLE"
+  2021: BRK
+  2022: PUSHSIB #80                   ; string "Desert Eagle"
+  2024: BRK
+  2025: PUSHSIB #65                   ; string "<GLOCK_INC>"
+  2027: BRK
+  2028: PUSHSIB #66                   ; string "<GLOCK_17DESC>"
+  2030: BRK
+  2031: PUSHIIB #2                    ; symbol "WEAPONTYPE_PISTOL"
+  2033: BRK
+  2034: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  2036: BRK
+  2037: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  2039: BRK
+  2040: PUSHW   656
+  2043: BRK
+  2044: PUSHW   357
+  2047: BRK
+  2048: PUSHF   0.5
+  2053: BRK
+  2054: PUSHF   2
+  2059: BRK
+  2060: PUSHF   2
+  2065: BRK
+  2066: PUSHF   400
+  2071: BRK
+  2072: PUSH1
+  2073: BRK
+  2074: PUSHW   250
+  2077: BRK
+  2078: PUSHB   9
+  2080: BRK
+  2081: PUSH1
+  2082: BRK
+  2083: PUSHF   5
+  2088: BRK
+  2089: PUSHF   5
+  2094: BRK
+  2095: PUSHF   2.5
+  2100: BRK
+  2101: PUSH0
+  2102: BRK
+  2103: PUSHF   0.6
+  2108: BRK
+  2109: PUSH0
+  2110: BRK
+  2111: PUSHSIB #67                   ; string "<SELF-LOADING_PISTOL>"
+  2113: BRK
+  2114: PUSHF   80
+  2119: BRK
+  2120: PUSHSIB #68                   ; string "<GLOCK_17USERS>"
+  2122: BRK
+  2123: PUSHW   185
+  2126: BRK
+  2127: PUSHB   114
+  2129: BRK
+  2130: PUSHSIB #82                   ; string "106_01_1"
+  2132: BRK
+  2133: PUSHSIB #70                   ; string "113_01_1"
+  2135: BRK
+  2136: PUSHB   31
+  2138: BRK
+  2139: PUSHB   32
+  2141: BRK
+  2142: PUSHB   33
+  2144: BRK
+  2145: PUSH1
+  2146: MINUS
+  2147: BRK
+  2148: PUSH1
+  2149: MINUS
+  2150: BRK
+  2151: PUSHB   34
+  2153: BRK
+  2154: PUSHW   154
+  2157: BRK
+  2158: PUSHW   153
+  2161: BRK
+  2162: PUSHW   155
+  2165: BRK
+  2166: PUSHW   156
+  2169: BRK
+  2170: PUSHW   151
+  2173: BRK
+  2174: PUSHW   157
+  2177: BRK
+  2178: PUSHW   152
+  2181: BRK
+  2182: PUSHSIB #83                   ; string "deagle_shot_1"
+  2184: BRK
+  2185: PUSHSIB #83                   ; string "deagle_shot_1"
+  2187: BRK
+  2188: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  2190: BRK
+  2191: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  2193: BRK
+  2194: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  2196: BRK
+  2197: PUSHIIB #8                    ; symbol "TRUE"
+  2199: BRK
+  2200: BRK
+  2201: PUSHIIB #1                    ; symbol "Task_New"
+  2203: CALL    argc=54               ; args @2429, @2432, @2435, @2438, @2441, @2444, @2447, @2450, @2453, @2456, @2459, @2462, @2466, @2470, @2476, @2478, @2484, @2490, @2492, @2496, @2499, @2502, @2508, @2514, @2520, @2522, @2528, @2530, @2533, @2539, @2542, @2546, @2550, @2553, @2556, @2559, @2562, @2565, @2568, @2571, @2574, @2578, @2582, @2586, @2590, @2594, @2598, @2602, @2605, @2608, @2611, @2614, @2617, @2620
+  2424: BRA     +242                  ; -> 2671
+  2429: PUSH1
+  2430: MINUS
+  2431: BRK
+  2432: PUSHSIB #8                    ; string "WeaponConfig"
+  2434: BRK
+  2435: PUSHSIB #84                   ; string "Mp5 SD3"
+  2437: BRK
+  2438: PUSHB   7
+  2440: BRK
+  2441: PUSHSIB #85                   ; string "WEAPON_ID_MP5SD"
+  2443: BRK
+  2444: PUSHSIB #84                   ; string "Mp5 SD3"
+  2446: BRK
+  2447: PUSHSIB #86                   ; string "<H_AND_K>"
+  2449: BRK
+  2450: PUSHSIB #87                   ; string "<MP5_SD3DESC>"
+  2452: BRK
+  2453: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  2455: BRK
+  2456: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  2458: BRK
+  2459: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  2461: BRK
+  2462: PUSHW   3500
+  2465: BRK
+  2466: PUSHW   919
+  2469: BRK
+  2470: PUSHF   0.2
+  2475: BRK
+  2476: PUSH1
+  2477: BRK
+  2478: PUSHF   1.8
+  2483: BRK
+  2484: PUSHF   400
+  2489: BRK
+  2490: PUSH1
+  2491: BRK
+  2492: PUSHW   700
+  2495: BRK
+  2496: PUSHB   32
+  2498: BRK
+  2499: PUSHB   32
+  2501: BRK
+  2502: PUSHF   3
+  2507: BRK
+  2508: PUSHF   10
+  2513: BRK
+  2514: PUSHF   0.7
+  2519: BRK
+  2520: PUSH0
+  2521: BRK
+  2522: PUSHF   0.2
+  2527: BRK
+  2528: PUSH0
+  2529: BRK
+  2530: PUSHSIB #88                   ; string "<SILENCED_SUB-MACHINE_GUN>"
+  2532: BRK
+  2533: PUSHF   100
+  2538: BRK
+  2539: PUSHSIB #89                   ; string "<MP5_SD3USERS>"
+  2541: BRK
+  2542: PUSHW   680
+  2545: BRK
+  2546: PUSHW   146
+  2549: BRK
+  2550: PUSHSIB #90                   ; string "103_01_1"
+  2552: BRK
+  2553: PUSHSIB #70                   ; string "113_01_1"
+  2555: BRK
+  2556: PUSHB   18
+  2558: BRK
+  2559: PUSHB   19
+  2561: BRK
+  2562: PUSHB   20
+  2564: BRK
+  2565: PUSH1
+  2566: MINUS
+  2567: BRK
+  2568: PUSH1
+  2569: MINUS
+  2570: BRK
+  2571: PUSHB   21
+  2573: BRK
+  2574: PUSHW   203
+  2577: BRK
+  2578: PUSHW   137
+  2581: BRK
+  2582: PUSHW   139
+  2585: BRK
+  2586: PUSHW   140
+  2589: BRK
+  2590: PUSHW   135
+  2593: BRK
+  2594: PUSHW   141
+  2597: BRK
+  2598: PUSHW   224
+  2601: BRK
+  2602: PUSHSIB #91                   ; string "mp5sd_loop"
+  2604: BRK
+  2605: PUSHSIB #92                   ; string "mp5sd_loop_e"
+  2607: BRK
+  2608: PUSHIIB #11                   ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+  2610: BRK
+  2611: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  2613: BRK
+  2614: PUSHIIB #12                   ; symbol "TASKTYPE_GUNMP5SD"
+  2616: BRK
+  2617: PUSHIIB #8                    ; symbol "TRUE"
+  2619: BRK
+  2620: PUSHIIB #1                    ; symbol "Task_New"
+  2622: CALL    argc=5                ; args @2652, @2655, @2658, @2661, @2664
+  2647: BRA     +18                   ; -> 2670
+  2652: PUSH1
+  2653: MINUS
+  2654: BRK
+  2655: PUSHSIB #0                    ; string "TagItemReal32"
+  2657: BRK
+  2658: PUSHSIB #93                   ; string "Zoom - Min FOV (degrees)"
+  2660: BRK
+  2661: PUSHSIB #93                   ; string "Zoom - Min FOV (degrees)"
+  2663: BRK
+  2664: PUSHF   60
+  2669: BRK
+  2670: BRK
+  2671: BRK
+  2672: PUSHIIB #1                    ; symbol "Task_New"
+  2674: CALL    argc=53               ; args @2896, @2899, @2902, @2905, @2908, @2911, @2914, @2917, @2920, @2923, @2926, @2929, @2933, @2937, @2943, @2945, @2951, @2957, @2959, @2963, @2966, @2969, @2975, @2981, @2987, @2989, @2995, @3001, @3004, @3010, @3013, @3017, @3021, @3024, @3027, @3030, @3033, @3036, @3039, @3042, @3045, @3049, @3053, @3057, @3061, @3065, @3069, @3073, @3076, @3079, @3082, @3085, @3088
+  2891: BRA     +195                  ; -> 3091
+  2896: PUSH1
+  2897: MINUS
+  2898: BRK
+  2899: PUSHSIB #8                    ; string "WeaponConfig"
+  2901: BRK
+  2902: PUSHSIB #94                   ; string "Uzi"
+  2904: BRK
+  2905: PUSHB   6
+  2907: BRK
+  2908: PUSHSIB #95                   ; string "WEAPON_ID_UZI"
+  2910: BRK
+  2911: PUSHSIB #94                   ; string "Uzi"
+  2913: BRK
+  2914: PUSHSIB #96                   ; string "<ISREAL>"
+  2916: BRK
+  2917: PUSHSIB #97                   ; string "<UZIDESC>"
+  2919: BRK
+  2920: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  2922: BRK
+  2923: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  2925: BRK
+  2926: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  2928: BRK
+  2929: PUSHW   3700
+  2932: BRK
+  2933: PUSHW   919
+  2936: BRK
+  2937: PUSHF   0.35
+  2942: BRK
+  2943: PUSH1
+  2944: BRK
+  2945: PUSHF   2
+  2950: BRK
+  2951: PUSHF   400
+  2956: BRK
+  2957: PUSH1
+  2958: BRK
+  2959: PUSHW   680
+  2962: BRK
+  2963: PUSHB   32
+  2965: BRK
+  2966: PUSHB   32
+  2968: BRK
+  2969: PUSHF   20
+  2974: BRK
+  2975: PUSHF   25
+  2980: BRK
+  2981: PUSHF   1.5
+  2986: BRK
+  2987: PUSH0
+  2988: BRK
+  2989: PUSHF   0.35
+  2994: BRK
+  2995: PUSHF   0.2
+  3000: BRK
+  3001: PUSHSIB #98                   ; string "<SUB-MACHINE_GUN>"
+  3003: BRK
+  3004: PUSHF   60
+  3009: BRK
+  3010: PUSHSIB #99                   ; string "<UZIUSERS>"
+  3012: BRK
+  3013: PUSHW   470
+  3016: BRK
+  3017: PUSHW   260
+  3020: BRK
+  3021: PUSHSIB #100                  ; string "111_01_1"
+  3023: BRK
+  3024: PUSHSIB #70                   ; string "113_01_1"
+  3026: BRK
+  3027: PUSHB   6
+  3029: BRK
+  3030: PUSHB   7
+  3032: BRK
+  3033: PUSHB   8
+  3035: BRK
+  3036: PUSH1
+  3037: MINUS
+  3038: BRK
+  3039: PUSH1
+  3040: MINUS
+  3041: BRK
+  3042: PUSHB   9
+  3044: BRK
+  3045: PUSHW   227
+  3048: BRK
+  3049: PUSHW   228
+  3052: BRK
+  3053: PUSHW   229
+  3056: BRK
+  3057: PUSHW   230
+  3060: BRK
+  3061: PUSHW   231
+  3064: BRK
+  3065: PUSHW   232
+  3068: BRK
+  3069: PUSHW   223
+  3072: BRK
+  3073: PUSHSIB #101                  ; string "uzi_loop"
+  3075: BRK
+  3076: PUSHSIB #102                  ; string "uzi_loop_e"
+  3078: BRK
+  3079: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  3081: BRK
+  3082: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  3084: BRK
+  3085: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  3087: BRK
+  3088: PUSHIIB #8                    ; symbol "TRUE"
+  3090: BRK
+  3091: BRK
+  3092: PUSHIIB #1                    ; symbol "Task_New"
+  3094: CALL    argc=53               ; args @3316, @3319, @3322, @3325, @3328, @3331, @3334, @3337, @3340, @3343, @3346, @3349, @3353, @3357, @3363, @3365, @3371, @3377, @3379, @3383, @3386, @3389, @3395, @3401, @3407, @3409, @3415, @3421, @3424, @3430, @3433, @3437, @3441, @3444, @3447, @3450, @3453, @3456, @3459, @3462, @3465, @3469, @3473, @3477, @3481, @3485, @3489, @3493, @3496, @3499, @3502, @3505, @3508
+  3311: BRA     +195                  ; -> 3511
+  3316: PUSH1
+  3317: MINUS
+  3318: BRK
+  3319: PUSHSIB #8                    ; string "WeaponConfig"
+  3321: BRK
+  3322: PUSHSIB #103                  ; string "Uzi x 2"
+  3324: BRK
+  3325: PUSHB   13
+  3327: BRK
+  3328: PUSHSIB #104                  ; string "WEAPON_ID_UZIX2"
+  3330: BRK
+  3331: PUSHSIB #103                  ; string "Uzi x 2"
+  3333: BRK
+  3334: PUSHSIB #96                   ; string "<ISREAL>"
+  3336: BRK
+  3337: PUSHSIB #97                   ; string "<UZIDESC>"
+  3339: BRK
+  3340: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  3342: BRK
+  3343: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  3345: BRK
+  3346: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  3348: BRK
+  3349: PUSHW   3700
+  3352: BRK
+  3353: PUSHW   919
+  3356: BRK
+  3357: PUSHF   0.25
+  3362: BRK
+  3363: PUSH1
+  3364: BRK
+  3365: PUSHF   2
+  3370: BRK
+  3371: PUSHF   400
+  3376: BRK
+  3377: PUSH1
+  3378: BRK
+  3379: PUSHW   1200
+  3382: BRK
+  3383: PUSHB   64
+  3385: BRK
+  3386: PUSHB   64
+  3388: BRK
+  3389: PUSHF   30
+  3394: BRK
+  3395: PUSHF   35
+  3400: BRK
+  3401: PUSHF   1.35
+  3406: BRK
+  3407: PUSH0
+  3408: BRK
+  3409: PUSHF   0.4
+  3414: BRK
+  3415: PUSHF   0.3
+  3420: BRK
+  3421: PUSHSIB #98                   ; string "<SUB-MACHINE_GUN>"
+  3423: BRK
+  3424: PUSHF   60
+  3429: BRK
+  3430: PUSHSIB #99                   ; string "<UZIUSERS>"
+  3432: BRK
+  3433: PUSHW   470
+  3436: BRK
+  3437: PUSHW   260
+  3440: BRK
+  3441: PUSHSIB #105                  ; string "111_04_1"
+  3443: BRK
+  3444: PUSHSIB #70                   ; string "113_01_1"
+  3446: BRK
+  3447: PUSHB   70
+  3449: BRK
+  3450: PUSHB   71
+  3452: BRK
+  3453: PUSHB   72
+  3455: BRK
+  3456: PUSHB   73
+  3458: BRK
+  3459: PUSHB   74
+  3461: BRK
+  3462: PUSHB   75
+  3464: BRK
+  3465: PUSHW   227
+  3468: BRK
+  3469: PUSHW   228
+  3472: BRK
+  3473: PUSHW   229
+  3476: BRK
+  3477: PUSHW   230
+  3480: BRK
+  3481: PUSHW   231
+  3484: BRK
+  3485: PUSHW   232
+  3488: BRK
+  3489: PUSHW   223
+  3492: BRK
+  3493: PUSHSIB #106                  ; string "uzix2_loop"
+  3495: BRK
+  3496: PUSHSIB #102                  ; string "uzi_loop_e"
+  3498: BRK
+  3499: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  3501: BRK
+  3502: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  3504: BRK
+  3505: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  3507: BRK
+  3508: PUSHIIB #8                    ; symbol "TRUE"
+  3510: BRK
+  3511: BRK
+  3512: PUSHIIB #1                    ; symbol "Task_New"
+  3514: CALL    argc=57               ; args @3752, @3755, @3758, @3761, @3764, @3767, @3770, @3773, @3776, @3779, @3782, @3785, @3789, @3793, @3799, @3805, @3811, @3817, @3819, @3823, @3826, @3829, @3835, @3841, @3843, @3845, @3851, @3857, @3860, @3866, @3869, @3873, @3877, @3880, @3883, @3886, @3889, @3892, @3895, @3898, @3901, @3905, @3909, @3913, @3917, @3921, @3925, @3929, @3932, @3935, @3938, @3941, @3944, @3947, @3998, @4049, @4096
+  3747: BRA     +392                  ; -> 4144
+  3752: PUSH1
+  3753: MINUS
+  3754: BRK
+  3755: PUSHSIB #8                    ; string "WeaponConfig"
+  3757: BRK
+  3758: PUSHSIB #107                  ; string "M16 A2"
+  3760: BRK
+  3761: PUSHB   4
+  3763: BRK
+  3764: PUSHSIB #108                  ; string "WEAPON_ID_M16A2"
+  3766: BRK
+  3767: PUSHSIB #107                  ; string "M16 A2"
+  3769: BRK
+  3770: PUSHSIB #109                  ; string "<ARMALITE>"
+  3772: BRK
+  3773: PUSHSIB #110                  ; string "<M16A2DESC>"
+  3775: BRK
+  3776: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  3778: BRK
+  3779: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  3781: BRK
+  3782: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  3784: BRK
+  3785: PUSHW   3400
+  3788: BRK
+  3789: PUSHW   556
+  3792: BRK
+  3793: PUSHF   0.3
+  3798: BRK
+  3799: PUSHF   2
+  3804: BRK
+  3805: PUSHF   2
+  3810: BRK
+  3811: PUSHF   950
+  3816: BRK
+  3817: PUSH1
+  3818: BRK
+  3819: PUSHW   500
+  3822: BRK
+  3823: PUSHB   20
+  3825: BRK
+  3826: PUSHB   20
+  3828: BRK
+  3829: PUSHF   3
+  3834: BRK
+  3835: PUSHF   10
+  3840: BRK
+  3841: PUSH1
+  3842: BRK
+  3843: PUSH0
+  3844: BRK
+  3845: PUSHF   0.2
+  3850: BRK
+  3851: PUSHF   0.1
+  3856: BRK
+  3857: PUSHSIB #111                  ; string "<ASSAULT_RIFLE>"
+  3859: BRK
+  3860: PUSHF   300
+  3865: BRK
+  3866: PUSHSIB #112                  ; string "<M16A2USERS>"
+  3868: BRK
+  3869: PUSHW   1000
+  3872: BRK
+  3873: PUSHW   510
+  3876: BRK
+  3877: PUSHSIB #113                  ; string "108_01_1"
+  3879: BRK
+  3880: PUSHSIB #70                   ; string "113_01_1"
+  3882: BRK
+  3883: PUSHB   2
+  3885: BRK
+  3886: PUSHB   3
+  3888: BRK
+  3889: PUSHB   4
+  3891: BRK
+  3892: PUSHB   39
+  3894: BRK
+  3895: PUSH1
+  3896: MINUS
+  3897: BRK
+  3898: PUSHB   5
+  3900: BRK
+  3901: PUSHW   203
+  3904: BRK
+  3905: PUSHW   137
+  3908: BRK
+  3909: PUSHW   139
+  3912: BRK
+  3913: PUSHW   140
+  3916: BRK
+  3917: PUSHW   135
+  3920: BRK
+  3921: PUSHW   141
+  3924: BRK
+  3925: PUSHW   136
+  3928: BRK
+  3929: PUSHSIB #114                  ; string "m16_loop"
+  3931: BRK
+  3932: PUSHSIB #115                  ; string "m16_loop_e"
+  3934: BRK
+  3935: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  3937: BRK
+  3938: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  3940: BRK
+  3941: PUSHIIB #13                   ; symbol "TASKTYPE_GUNM16A2"
+  3943: BRK
+  3944: PUSHIIB #8                    ; symbol "TRUE"
+  3946: BRK
+  3947: PUSHIIB #1                    ; symbol "Task_New"
+  3949: CALL    argc=5                ; args @3979, @3982, @3985, @3988, @3991
+  3974: BRA     +18                   ; -> 3997
+  3979: PUSH1
+  3980: MINUS
+  3981: BRK
+  3982: PUSHSIB #0                    ; string "TagItemReal32"
+  3984: BRK
+  3985: PUSHSIB #116                  ; string "M203 - Muzzle velocity (km/h)"
+  3987: BRK
+  3988: PUSHSIB #116                  ; string "M203 - Muzzle velocity (km/h)"
+  3990: BRK
+  3991: PUSHF   270
+  3996: BRK
+  3997: BRK
+  3998: PUSHIIB #1                    ; symbol "Task_New"
+  4000: CALL    argc=5                ; args @4030, @4033, @4036, @4039, @4042
+  4025: BRA     +18                   ; -> 4048
+  4030: PUSH1
+  4031: MINUS
+  4032: BRK
+  4033: PUSHSIB #0                    ; string "TagItemReal32"
+  4035: BRK
+  4036: PUSHSIB #117                  ; string "M203 - Explosion radius (meters)"
+  4038: BRK
+  4039: PUSHSIB #117                  ; string "M203 - Explosion radius (meters)"
+  4041: BRK
+  4042: PUSHF   5
+  4047: BRK
+  4048: BRK
+  4049: PUSHIIB #1                    ; symbol "Task_New"
+  4051: CALL    argc=5                ; args @4081, @4084, @4087, @4090, @4093
+  4076: BRA     +14                   ; -> 4095
+  4081: PUSH1
+  4082: MINUS
+  4083: BRK
+  4084: PUSHSIB #0                    ; string "TagItemReal32"
+  4086: BRK
+  4087: PUSHSIB #118                  ; string "M203 - Activate radius (meters)"
+  4089: BRK
+  4090: PUSHSIB #118                  ; string "M203 - Activate radius (meters)"
+  4092: BRK
+  4093: PUSH1
+  4094: BRK
+  4095: BRK
+  4096: PUSHIIB #1                    ; symbol "Task_New"
+  4098: CALL    argc=5                ; args @4128, @4131, @4134, @4137, @4140
+  4123: BRA     +15                   ; -> 4143
+  4128: PUSH1
+  4129: MINUS
+  4130: BRK
+  4131: PUSHSIB #5                    ; string "TagItemString16"
+  4133: BRK
+  4134: PUSHSIB #119                  ; string "M203 - Model"
+  4136: BRK
+  4137: PUSHSIB #119                  ; string "M203 - Model"
+  4139: BRK
+  4140: PUSHSIB #120                  ; string "108_05_1"
+  4142: BRK
+  4143: BRK
+  4144: BRK
+  4145: PUSHIIB #1                    ; symbol "Task_New"
+  4147: CALL    argc=53               ; args @4369, @4372, @4375, @4378, @4381, @4384, @4387, @4390, @4393, @4396, @4399, @4402, @4406, @4410, @4416, @4422, @4428, @4434, @4436, @4440, @4443, @4446, @4452, @4458, @4464, @4471, @4477, @4484, @4487, @4493, @4496, @4500, @4504, @4507, @4510, @4513, @4516, @4519, @4522, @4525, @4528, @4532, @4536, @4540, @4544, @4548, @4552, @4556, @4559, @4562, @4565, @4568, @4571
+  4364: BRA     +205                  ; -> 4574
+  4369: PUSH1
+  4370: MINUS
+  4371: BRK
+  4372: PUSHSIB #8                    ; string "WeaponConfig"
+  4374: BRK
+  4375: PUSHSIB #121                  ; string "AK47"
+  4377: BRK
+  4378: PUSHB   5
+  4380: BRK
+  4381: PUSHSIB #122                  ; string "WEAPON_ID_AK47"
+  4383: BRK
+  4384: PUSHSIB #121                  ; string "AK47"
+  4386: BRK
+  4387: PUSHSIB #123                  ; string "<KALASHNIKOV>"
+  4389: BRK
+  4390: PUSHSIB #124                  ; string "<AK-47DESC>"
+  4392: BRK
+  4393: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  4395: BRK
+  4396: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  4398: BRK
+  4399: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  4401: BRK
+  4402: PUSHW   4300
+  4405: BRK
+  4406: PUSHW   762
+  4409: BRK
+  4410: PUSHF   0.3
+  4415: BRK
+  4416: PUSHF   2
+  4421: BRK
+  4422: PUSHF   2
+  4427: BRK
+  4428: PUSHF   710
+  4433: BRK
+  4434: PUSH1
+  4435: BRK
+  4436: PUSHW   650
+  4439: BRK
+  4440: PUSHB   32
+  4442: BRK
+  4443: PUSHB   32
+  4445: BRK
+  4446: PUSHF   5
+  4451: BRK
+  4452: PUSHF   10
+  4457: BRK
+  4458: PUSHF   1.1
+  4463: BRK
+  4464: PUSHF   0.45
+  4469: MINUS
+  4470: BRK
+  4471: PUSHF   0.3
+  4476: BRK
+  4477: PUSHF   0.25
+  4482: MINUS
+  4483: BRK
+  4484: PUSHSIB #111                  ; string "<ASSAULT_RIFLE>"
+  4486: BRK
+  4487: PUSHF   300
+  4492: BRK
+  4493: PUSHSIB #125                  ; string "<AK-47USERS>"
+  4495: BRK
+  4496: PUSHW   869
+  4499: BRK
+  4500: PUSHW   414
+  4503: BRK
+  4504: PUSHSIB #126                  ; string "100_01_1"
+  4506: BRK
+  4507: PUSHSIB #70                   ; string "113_01_1"
+  4509: BRK
+  4510: PUSHB   10
+  4512: BRK
+  4513: PUSHB   11
+  4515: BRK
+  4516: PUSHB   12
+  4518: BRK
+  4519: PUSH1
+  4520: MINUS
+  4521: BRK
+  4522: PUSH1
+  4523: MINUS
+  4524: BRK
+  4525: PUSHB   13
+  4527: BRK
+  4528: PUSHW   203
+  4531: BRK
+  4532: PUSHW   137
+  4535: BRK
+  4536: PUSHW   139
+  4539: BRK
+  4540: PUSHW   140
+  4543: BRK
+  4544: PUSHW   135
+  4547: BRK
+  4548: PUSHW   141
+  4551: BRK
+  4552: PUSHW   192
+  4555: BRK
+  4556: PUSHSIB #127                  ; string "ak47_loop"
+  4558: BRK
+  4559: PUSHSIB #128                  ; string "ak47_loop_e"
+  4561: BRK
+  4562: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  4564: BRK
+  4565: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  4567: BRK
+  4568: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  4570: BRK
+  4571: PUSHIIB #8                    ; symbol "TRUE"
+  4573: BRK
+  4574: BRK
+  4575: PUSHIIB #1                    ; symbol "Task_New"
+  4577: CALL    argc=53               ; args @4799, @4802, @4805, @4808, @4811, @4814, @4817, @4820, @4823, @4826, @4829, @4832, @4836, @4840, @4846, @4852, @4858, @4864, @4866, @4870, @4873, @4876, @4882, @4888, @4894, @4896, @4902, @4904, @4907, @4913, @4916, @4920, @4924, @4927, @4930, @4933, @4936, @4939, @4942, @4945, @4948, @4952, @4956, @4960, @4964, @4968, @4972, @4976, @4979, @4982, @4985, @4988, @4991
+  4794: BRA     +195                  ; -> 4994
+  4799: PUSH1
+  4800: MINUS
+  4801: BRK
+  4802: PUSHSIB #8                    ; string "WeaponConfig"
+  4804: BRK
+  4805: PUSHSIB #129                  ; string "Minimi"
+  4807: BRK
+  4808: PUSHB   10
+  4810: BRK
+  4811: PUSHSIB #130                  ; string "WEAPON_ID_MINIMI"
+  4813: BRK
+  4814: PUSHSIB #129                  ; string "Minimi"
+  4816: BRK
+  4817: PUSHSIB #123                  ; string "<KALASHNIKOV>"
+  4819: BRK
+  4820: PUSHSIB #131                  ; string "<MINIMI_DESC>"
+  4822: BRK
+  4823: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  4825: BRK
+  4826: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  4828: BRK
+  4829: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  4831: BRK
+  4832: PUSHW   4300
+  4835: BRK
+  4836: PUSHW   556
+  4839: BRK
+  4840: PUSHF   0.45
+  4845: BRK
+  4846: PUSHF   2
+  4851: BRK
+  4852: PUSHF   2
+  4857: BRK
+  4858: PUSHF   1200
+  4863: BRK
+  4864: PUSH1
+  4865: BRK
+  4866: PUSHW   800
+  4869: BRK
+  4870: PUSHB   100
+  4872: BRK
+  4873: PUSHB   100
+  4875: BRK
+  4876: PUSHF   10
+  4881: BRK
+  4882: PUSHF   25
+  4887: BRK
+  4888: PUSHF   1.05
+  4893: BRK
+  4894: PUSH0
+  4895: BRK
+  4896: PUSHF   0.4
+  4901: BRK
+  4902: PUSH0
+  4903: BRK
+  4904: PUSHSIB #132                  ; string "<SNIPER_RIFLE>"
+  4906: BRK
+  4907: PUSHF   500
+  4912: BRK
+  4913: PUSHSIB #133                  ; string "<MINIMI_USERS>"
+  4915: BRK
+  4916: PUSHW   1225
+  4919: BRK
+  4920: PUSHW   622
+  4923: BRK
+  4924: PUSHSIB #134                  ; string "107_01_1"
+  4926: BRK
+  4927: PUSHSIB #70                   ; string "113_01_1"
+  4929: BRK
+  4930: PUSHB   64
+  4932: BRK
+  4933: PUSHB   65
+  4935: BRK
+  4936: PUSHB   66
+  4938: BRK
+  4939: PUSH1
+  4940: MINUS
+  4941: BRK
+  4942: PUSH1
+  4943: MINUS
+  4944: BRK
+  4945: PUSHB   67
+  4947: BRK
+  4948: PUSHW   203
+  4951: BRK
+  4952: PUSHW   137
+  4955: BRK
+  4956: PUSHW   139
+  4959: BRK
+  4960: PUSHW   140
+  4963: BRK
+  4964: PUSHW   135
+  4967: BRK
+  4968: PUSHW   141
+  4971: BRK
+  4972: PUSHW   225
+  4975: BRK
+  4976: PUSHSIB #135                  ; string "minimi_loop"
+  4978: BRK
+  4979: PUSHSIB #136                  ; string "minimi_loop_e"
+  4981: BRK
+  4982: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  4984: BRK
+  4985: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  4987: BRK
+  4988: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  4990: BRK
+  4991: PUSHIIB #8                    ; symbol "TRUE"
+  4993: BRK
+  4994: BRK
+  4995: PUSHIIB #1                    ; symbol "Task_New"
+  4997: CALL    argc=53               ; args @5219, @5222, @5225, @5228, @5231, @5234, @5237, @5240, @5243, @5246, @5249, @5252, @5256, @5259, @5265, @5267, @5273, @5279, @5282, @5285, @5288, @5290, @5296, @5302, @5308, @5310, @5312, @5314, @5317, @5323, @5326, @5330, @5334, @5337, @5340, @5343, @5346, @5349, @5352, @5355, @5358, @5362, @5366, @5370, @5374, @5378, @5382, @5386, @5389, @5392, @5395, @5398, @5401
+  5214: BRA     +185                  ; -> 5404
+  5219: PUSH1
+  5220: MINUS
+  5221: BRK
+  5222: PUSHSIB #8                    ; string "WeaponConfig"
+  5224: BRK
+  5225: PUSHSIB #137                  ; string "Spas 12"
+  5227: BRK
+  5228: PUSHB   8
+  5230: BRK
+  5231: PUSHSIB #138                  ; string "WEAPON_ID_SPAS12"
+  5233: BRK
+  5234: PUSHSIB #137                  ; string "Spas 12"
+  5236: BRK
+  5237: PUSHSIB #139                  ; string "<LUIGI_FRANCHI_SPA>"
+  5239: BRK
+  5240: PUSHSIB #140                  ; string "<SPAS_12DESC>"
+  5242: BRK
+  5243: PUSHIIB #14                   ; symbol "WEAPONTYPE_SHOTGUN"
+  5245: BRK
+  5246: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  5248: BRK
+  5249: PUSHIIB #15                   ; symbol "AMMODISPLAYTYPE_SHELL"
+  5251: BRK
+  5252: PUSHW   4200
+  5255: BRK
+  5256: PUSHB   12
+  5258: BRK
+  5259: PUSHF   0.25
+  5264: BRK
+  5265: PUSH1
+  5266: BRK
+  5267: PUSHF   2
+  5272: BRK
+  5273: PUSHF   600
+  5278: BRK
+  5279: PUSHB   30
+  5281: BRK
+  5282: PUSHB   40
+  5284: BRK
+  5285: PUSHB   7
+  5287: BRK
+  5288: PUSH1
+  5289: BRK
+  5290: PUSHF   40
+  5295: BRK
+  5296: PUSHF   40
+  5301: BRK
+  5302: PUSHF   11
+  5307: BRK
+  5308: PUSH0
+  5309: BRK
+  5310: PUSH0
+  5311: BRK
+  5312: PUSH0
+  5313: BRK
+  5314: PUSHSIB #141                  ; string "<SELECTIVE-FIRE_COMBAT_SHOTGUN>"
+  5316: BRK
+  5317: PUSHF   50
+  5322: BRK
+  5323: PUSHSIB #142                  ; string "<SPAS_12USERS>"
+  5325: BRK
+  5326: PUSHW   710
+  5329: BRK
+  5330: PUSHW   460
+  5333: BRK
+  5334: PUSHSIB #143                  ; string "109_01_1"
+  5336: BRK
+  5337: PUSHSIB #144                  ; string "109_03_1"
+  5339: BRK
+  5340: PUSHB   58
+  5342: BRK
+  5343: PUSHB   59
+  5345: BRK
+  5346: PUSHB   60
+  5348: BRK
+  5349: PUSH1
+  5350: MINUS
+  5351: BRK
+  5352: PUSH1
+  5353: MINUS
+  5354: BRK
+  5355: PUSHB   61
+  5357: BRK
+  5358: PUSHW   203
+  5361: BRK
+  5362: PUSHW   137
+  5365: BRK
+  5366: PUSHW   139
+  5369: BRK
+  5370: PUSHW   140
+  5373: BRK
+  5374: PUSHW   135
+  5377: BRK
+  5378: PUSHW   181
+  5381: BRK
+  5382: PUSHW   136
+  5385: BRK
+  5386: PUSHSIB #145                  ; string "spas12_shot_1"
+  5388: BRK
+  5389: PUSHSIB #145                  ; string "spas12_shot_1"
+  5391: BRK
+  5392: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  5394: BRK
+  5395: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  5397: BRK
+  5398: PUSHIIB #16                   ; symbol "TASKTYPE_GUNSPAS12"
+  5400: BRK
+  5401: PUSHIIB #8                    ; symbol "TRUE"
+  5403: BRK
+  5404: BRK
+  5405: PUSHIIB #1                    ; symbol "Task_New"
+  5407: CALL    argc=53               ; args @5629, @5632, @5635, @5638, @5641, @5644, @5647, @5650, @5653, @5656, @5659, @5662, @5666, @5669, @5675, @5677, @5683, @5689, @5692, @5696, @5699, @5702, @5708, @5714, @5720, @5722, @5724, @5726, @5729, @5735, @5738, @5742, @5746, @5749, @5752, @5755, @5758, @5761, @5764, @5767, @5770, @5774, @5778, @5782, @5786, @5790, @5794, @5798, @5801, @5804, @5807, @5810, @5813
+  5624: BRA     +187                  ; -> 5816
+  5629: PUSH1
+  5630: MINUS
+  5631: BRK
+  5632: PUSHSIB #8                    ; string "WeaponConfig"
+  5634: BRK
+  5635: PUSHSIB #146                  ; string "Jackhammer"
+  5637: BRK
+  5638: PUSHB   9
+  5640: BRK
+  5641: PUSHSIB #147                  ; string "WEAPON_ID_JACKHAMMER"
+  5643: BRK
+  5644: PUSHSIB #146                  ; string "Jackhammer"
+  5646: BRK
+  5647: PUSHSIB #148                  ; string "<PANCOR_CORPORATION>"
+  5649: BRK
+  5650: PUSHSIB #149                  ; string "<JACKHAMMERDESC>"
+  5652: BRK
+  5653: PUSHIIB #14                   ; symbol "WEAPONTYPE_SHOTGUN"
+  5655: BRK
+  5656: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  5658: BRK
+  5659: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  5661: BRK
+  5662: PUSHW   4570
+  5665: BRK
+  5666: PUSHB   12
+  5668: BRK
+  5669: PUSHF   0.35
+  5674: BRK
+  5675: PUSH1
+  5676: BRK
+  5677: PUSHF   2
+  5682: BRK
+  5683: PUSHF   280
+  5688: BRK
+  5689: PUSHB   30
+  5691: BRK
+  5692: PUSHW   190
+  5695: BRK
+  5696: PUSHB   12
+  5698: BRK
+  5699: PUSHB   12
+  5701: BRK
+  5702: PUSHF   40
+  5707: BRK
+  5708: PUSHF   40
+  5713: BRK
+  5714: PUSHF   6
+  5719: BRK
+  5720: PUSH0
+  5721: BRK
+  5722: PUSH0
+  5723: BRK
+  5724: PUSH0
+  5725: BRK
+  5726: PUSHSIB #150                  ; string "<AUTOMATIC_COMBAT_SHOTGUN>"
+  5728: BRK
+  5729: PUSHF   50
+  5734: BRK
+  5735: PUSHSIB #151                  ; string "<JACKHAMMERUSERS>"
+  5737: BRK
+  5738: PUSHW   787
+  5741: BRK
+  5742: PUSHW   525
+  5745: BRK
+  5746: PUSHSIB #152                  ; string "125_01_1"
+  5748: BRK
+  5749: PUSHSIB #62                   ; string ""
+  5751: BRK
+  5752: PUSHB   51
+  5754: BRK
+  5755: PUSHB   52
+  5757: BRK
+  5758: PUSHB   53
+  5760: BRK
+  5761: PUSH1
+  5762: MINUS
+  5763: BRK
+  5764: PUSH1
+  5765: MINUS
+  5766: BRK
+  5767: PUSHB   54
+  5769: BRK
+  5770: PUSHW   203
+  5773: BRK
+  5774: PUSHW   137
+  5777: BRK
+  5778: PUSHW   139
+  5781: BRK
+  5782: PUSHW   140
+  5785: BRK
+  5786: PUSHW   135
+  5789: BRK
+  5790: PUSHW   141
+  5793: BRK
+  5794: PUSHW   186
+  5797: BRK
+  5798: PUSHSIB #153                  ; string "jackh_loop"
+  5800: BRK
+  5801: PUSHSIB #154                  ; string "jackh_loop_e"
+  5803: BRK
+  5804: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  5806: BRK
+  5807: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  5809: BRK
+  5810: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  5812: BRK
+  5813: PUSHIIB #8                    ; symbol "TRUE"
+  5815: BRK
+  5816: BRK
+  5817: PUSHIIB #1                    ; symbol "Task_New"
+  5819: CALL    argc=54               ; args @6045, @6048, @6051, @6054, @6057, @6060, @6063, @6066, @6069, @6072, @6075, @6078, @6082, @6086, @6088, @6094, @6100, @6106, @6108, @6111, @6114, @6116, @6118, @6120, @6126, @6128, @6130, @6132, @6135, @6141, @6144, @6148, @6152, @6155, @6158, @6161, @6164, @6167, @6170, @6173, @6176, @6180, @6184, @6188, @6192, @6196, @6200, @6204, @6207, @6210, @6213, @6216, @6219, @6222
+  6040: BRA     +228                  ; -> 6273
+  6045: PUSH1
+  6046: MINUS
+  6047: BRK
+  6048: PUSHSIB #8                    ; string "WeaponConfig"
+  6050: BRK
+  6051: PUSHSIB #155                  ; string "Dragunov"
+  6053: BRK
+  6054: PUSHB   11
+  6056: BRK
+  6057: PUSHSIB #156                  ; string "WEAPON_ID_DRAGUNOV"
+  6059: BRK
+  6060: PUSHSIB #155                  ; string "Dragunov"
+  6062: BRK
+  6063: PUSHSIB #123                  ; string "<KALASHNIKOV>"
+  6065: BRK
+  6066: PUSHSIB #157                  ; string "<SNAIPERSKAYA_VINTOVKA_DRAGUNOVADESC>"
+  6068: BRK
+  6069: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  6071: BRK
+  6072: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  6074: BRK
+  6075: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  6077: BRK
+  6078: PUSHW   4300
+  6081: BRK
+  6082: PUSHW   10004
+  6085: BRK
+  6086: PUSH1
+  6087: BRK
+  6088: PUSHF   3
+  6093: BRK
+  6094: PUSHF   2
+  6099: BRK
+  6100: PUSHF   6000
+  6105: BRK
+  6106: PUSH1
+  6107: BRK
+  6108: PUSHB   50
+  6110: BRK
+  6111: PUSHB   10
+  6113: BRK
+  6114: PUSH1
+  6115: BRK
+  6116: PUSH0
+  6117: BRK
+  6118: PUSH0
+  6119: BRK
+  6120: PUSHF   3
+  6125: BRK
+  6126: PUSH0
+  6127: BRK
+  6128: PUSH0
+  6129: BRK
+  6130: PUSH0
+  6131: BRK
+  6132: PUSHSIB #132                  ; string "<SNIPER_RIFLE>"
+  6134: BRK
+  6135: PUSHF   1000
+  6140: BRK
+  6141: PUSHSIB #158                  ; string "<SNAIPERSKAYA_VINTOVKA_DRAGUNOVAUSERS>"
+  6143: BRK
+  6144: PUSHW   1225
+  6147: BRK
+  6148: PUSHW   622
+  6151: BRK
+  6152: PUSHSIB #159                  ; string "105_01_1"
+  6154: BRK
+  6155: PUSHSIB #70                   ; string "113_01_1"
+  6157: BRK
+  6158: PUSHB   43
+  6160: BRK
+  6161: PUSHB   44
+  6163: BRK
+  6164: PUSHB   45
+  6166: BRK
+  6167: PUSH1
+  6168: MINUS
+  6169: BRK
+  6170: PUSH1
+  6171: MINUS
+  6172: BRK
+  6173: PUSHB   46
+  6175: BRK
+  6176: PUSHW   203
+  6179: BRK
+  6180: PUSHW   137
+  6183: BRK
+  6184: PUSHW   139
+  6187: BRK
+  6188: PUSHW   140
+  6191: BRK
+  6192: PUSHW   135
+  6195: BRK
+  6196: PUSHW   141
+  6199: BRK
+  6200: PUSHW   226
+  6203: BRK
+  6204: PUSHSIB #160                  ; string "svddrag_shot_1"
+  6206: BRK
+  6207: PUSHSIB #160                  ; string "svddrag_shot_1"
+  6209: BRK
+  6210: PUSHIIB #11                   ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+  6212: BRK
+  6213: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  6215: BRK
+  6216: PUSHIIB #17                   ; symbol "TASKTYPE_GUNDRAGUNOV"
+  6218: BRK
+  6219: PUSHIIB #8                    ; symbol "TRUE"
+  6221: BRK
+  6222: PUSHIIB #1                    ; symbol "Task_New"
+  6224: CALL    argc=5                ; args @6254, @6257, @6260, @6263, @6266
+  6249: BRA     +18                   ; -> 6272
+  6254: PUSH1
+  6255: MINUS
+  6256: BRK
+  6257: PUSHSIB #0                    ; string "TagItemReal32"
+  6259: BRK
+  6260: PUSHSIB #93                   ; string "Zoom - Min FOV (degrees)"
+  6262: BRK
+  6263: PUSHSIB #93                   ; string "Zoom - Min FOV (degrees)"
+  6265: BRK
+  6266: PUSHF   5
+  6271: BRK
+  6272: BRK
+  6273: BRK
+  6274: PUSHIIB #1                    ; symbol "Task_New"
+  6276: CALL    argc=56               ; args @6510, @6513, @6516, @6519, @6522, @6525, @6528, @6531, @6534, @6537, @6540, @6543, @6547, @6551, @6557, @6563, @6569, @6575, @6577, @6580, @6582, @6584, @6586, @6588, @6590, @6592, @6594, @6596, @6599, @6601, @6604, @6608, @6611, @6614, @6617, @6620, @6623, @6626, @6629, @6632, @6635, @6639, @6643, @6647, @6651, @6655, @6659, @6662, @6665, @6668, @6671, @6674, @6677, @6680, @6731, @6782
+  6505: BRA     +319                  ; -> 6829
+  6510: PUSH1
+  6511: MINUS
+  6512: BRK
+  6513: PUSHSIB #8                    ; string "WeaponConfig"
+  6515: BRK
+  6516: PUSHSIB #161                  ; string "FlashBang"
+  6518: BRK
+  6519: PUSHB   15
+  6521: BRK
+  6522: PUSHSIB #162                  ; string "WEAPON_ID_FLASHBANG"
+  6524: BRK
+  6525: PUSHSIB #161                  ; string "FlashBang"
+  6527: BRK
+  6528: PUSHSIB #163                  ; string "<QBRANCH>"
+  6530: BRK
+  6531: PUSHSIB #164                  ; string "<FLASHBANGDESC>"
+  6533: BRK
+  6534: PUSHIIB #18                   ; symbol "WEAPONTYPE_GRENADE"
+  6536: BRK
+  6537: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  6539: BRK
+  6540: PUSHIIB #19                   ; symbol "AMMODISPLAYTYPE_GRENADE"
+  6542: BRK
+  6543: PUSHW   656
+  6546: BRK
+  6547: PUSHW   10003
+  6550: BRK
+  6551: PUSHF   0.25
+  6556: BRK
+  6557: PUSHF   3
+  6562: BRK
+  6563: PUSHF   2
+  6568: BRK
+  6569: PUSHF   15
+  6574: BRK
+  6575: PUSH1
+  6576: BRK
+  6577: PUSHB   50
+  6579: BRK
+  6580: PUSH1
+  6581: BRK
+  6582: PUSH1
+  6583: BRK
+  6584: PUSH0
+  6585: BRK
+  6586: PUSH0
+  6587: BRK
+  6588: PUSH0
+  6589: BRK
+  6590: PUSH0
+  6591: BRK
+  6592: PUSH0
+  6593: BRK
+  6594: PUSH0
+  6595: BRK
+  6596: PUSHSIB #67                   ; string "<SELF-LOADING_PISTOL>"
+  6598: BRK
+  6599: PUSH1
+  6600: BRK
+  6601: PUSHSIB #165                  ; string "<FLASHBANGUSERS>"
+  6603: BRK
+  6604: PUSHW   185
+  6607: BRK
+  6608: PUSHB   114
+  6610: BRK
+  6611: PUSHSIB #166                  ; string "137_01_1"
+  6613: BRK
+  6614: PUSHSIB #62                   ; string ""
+  6616: BRK
+  6617: PUSHB   22
+  6619: BRK
+  6620: PUSHB   23
+  6622: BRK
+  6623: PUSHB   24
+  6625: BRK
+  6626: PUSHB   25
+  6628: BRK
+  6629: PUSH1
+  6630: MINUS
+  6631: BRK
+  6632: PUSH1
+  6633: MINUS
+  6634: BRK
+  6635: PUSHW   159
+  6638: BRK
+  6639: PUSHW   165
+  6642: BRK
+  6643: PUSHW   161
+  6646: BRK
+  6647: PUSHW   162
+  6650: BRK
+  6651: PUSHW   160
+  6654: BRK
+  6655: PUSHW   164
+  6658: BRK
+  6659: PUSH1
+  6660: MINUS
+  6661: BRK
+  6662: PUSHSIB #167                  ; string "grenade_shot_1"
+  6664: BRK
+  6665: PUSHSIB #167                  ; string "grenade_shot_1"
+  6667: BRK
+  6668: PUSHIIB #11                   ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+  6670: BRK
+  6671: PUSHIIB #20                   ; symbol "TASKTYPE_GRENADE"
+  6673: BRK
+  6674: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  6676: BRK
+  6677: PUSHIIB #21                   ; symbol "FALSE"
+  6679: BRK
+  6680: PUSHIIB #1                    ; symbol "Task_New"
+  6682: CALL    argc=5                ; args @6712, @6715, @6718, @6721, @6724
+  6707: BRA     +18                   ; -> 6730
+  6712: PUSH1
+  6713: MINUS
+  6714: BRK
+  6715: PUSHSIB #0                    ; string "TagItemReal32"
+  6717: BRK
+  6718: PUSHSIB #168                  ; string "Grenade - Explosion radius (meters)"
+  6720: BRK
+  6721: PUSHSIB #168                  ; string "Grenade - Explosion radius (meters)"
+  6723: BRK
+  6724: PUSHF   10
+  6729: BRK
+  6730: BRK
+  6731: PUSHIIB #1                    ; symbol "Task_New"
+  6733: CALL    argc=5                ; args @6763, @6766, @6769, @6772, @6775
+  6758: BRA     +18                   ; -> 6781
+  6763: PUSH1
+  6764: MINUS
+  6765: BRK
+  6766: PUSHSIB #0                    ; string "TagItemReal32"
+  6768: BRK
+  6769: PUSHSIB #169                  ; string "Grenade - Explosion falloff (meters)"
+  6771: BRK
+  6772: PUSHSIB #169                  ; string "Grenade - Explosion falloff (meters)"
+  6774: BRK
+  6775: PUSHF   15
+  6780: BRK
+  6781: BRK
+  6782: PUSHIIB #1                    ; symbol "Task_New"
+  6784: CALL    argc=5                ; args @6814, @6817, @6820, @6823, @6826
+  6809: BRA     +14                   ; -> 6828
+  6814: PUSH1
+  6815: MINUS
+  6816: BRK
+  6817: PUSHSIB #0                    ; string "TagItemReal32"
+  6819: BRK
+  6820: PUSHSIB #170                  ; string "Grenade - Explosion damage factor"
+  6822: BRK
+  6823: PUSHSIB #170                  ; string "Grenade - Explosion damage factor"
+  6825: BRK
+  6826: PUSH1
+  6827: BRK
+  6828: BRK
+  6829: BRK
+  6830: PUSHIIB #1                    ; symbol "Task_New"
+  6832: CALL    argc=56               ; args @7066, @7069, @7072, @7075, @7078, @7081, @7084, @7087, @7090, @7093, @7096, @7099, @7103, @7107, @7113, @7119, @7125, @7131, @7133, @7136, @7138, @7140, @7142, @7144, @7146, @7148, @7150, @7152, @7155, @7157, @7160, @7164, @7167, @7170, @7173, @7176, @7179, @7182, @7185, @7188, @7191, @7195, @7199, @7203, @7207, @7211, @7215, @7218, @7221, @7224, @7227, @7230, @7233, @7236, @7287, @7338
+  7061: BRA     +323                  ; -> 7389
+  7066: PUSH1
+  7067: MINUS
+  7068: BRK
+  7069: PUSHSIB #8                    ; string "WeaponConfig"
+  7071: BRK
+  7072: PUSHSIB #171                  ; string "Hand Grenade"
+  7074: BRK
+  7075: PUSHB   14
+  7077: BRK
+  7078: PUSHSIB #172                  ; string "WEAPON_ID_GRENADE"
+  7080: BRK
+  7081: PUSHSIB #171                  ; string "Hand Grenade"
+  7083: BRK
+  7084: PUSHSIB #173                  ; string "<KEYSER_SOZE>"
+  7086: BRK
+  7087: PUSHSIB #174                  ; string "<GRENADEDESC>"
+  7089: BRK
+  7090: PUSHIIB #18                   ; symbol "WEAPONTYPE_GRENADE"
+  7092: BRK
+  7093: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  7095: BRK
+  7096: PUSHIIB #19                   ; symbol "AMMODISPLAYTYPE_GRENADE"
+  7098: BRK
+  7099: PUSHW   656
+  7102: BRK
+  7103: PUSHW   10000
+  7106: BRK
+  7107: PUSHF   0.5
+  7112: BRK
+  7113: PUSHF   3
+  7118: BRK
+  7119: PUSHF   2
+  7124: BRK
+  7125: PUSHF   15
+  7130: BRK
+  7131: PUSH1
+  7132: BRK
+  7133: PUSHB   50
+  7135: BRK
+  7136: PUSH1
+  7137: BRK
+  7138: PUSH1
+  7139: BRK
+  7140: PUSH0
+  7141: BRK
+  7142: PUSH0
+  7143: BRK
+  7144: PUSH0
+  7145: BRK
+  7146: PUSH0
+  7147: BRK
+  7148: PUSH0
+  7149: BRK
+  7150: PUSH0
+  7151: BRK
+  7152: PUSHSIB #67                   ; string "<SELF-LOADING_PISTOL>"
+  7154: BRK
+  7155: PUSH1
+  7156: BRK
+  7157: PUSHSIB #175                  ; string "<GRENADEUSERS>"
+  7159: BRK
+  7160: PUSHW   185
+  7163: BRK
+  7164: PUSHB   114
+  7166: BRK
+  7167: PUSHSIB #176                  ; string "135_01_1"
+  7169: BRK
+  7170: PUSHSIB #62                   ; string ""
+  7172: BRK
+  7173: PUSHB   22
+  7175: BRK
+  7176: PUSHB   23
+  7178: BRK
+  7179: PUSHB   24
+  7181: BRK
+  7182: PUSHB   25
+  7184: BRK
+  7185: PUSH1
+  7186: MINUS
+  7187: BRK
+  7188: PUSH1
+  7189: MINUS
+  7190: BRK
+  7191: PUSHW   159
+  7194: BRK
+  7195: PUSHW   165
+  7198: BRK
+  7199: PUSHW   161
+  7202: BRK
+  7203: PUSHW   162
+  7206: BRK
+  7207: PUSHW   160
+  7210: BRK
+  7211: PUSHW   164
+  7214: BRK
+  7215: PUSH1
+  7216: MINUS
+  7217: BRK
+  7218: PUSHSIB #167                  ; string "grenade_shot_1"
+  7220: BRK
+  7221: PUSHSIB #167                  ; string "grenade_shot_1"
+  7223: BRK
+  7224: PUSHIIB #11                   ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+  7226: BRK
+  7227: PUSHIIB #20                   ; symbol "TASKTYPE_GRENADE"
+  7229: BRK
+  7230: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  7232: BRK
+  7233: PUSHIIB #21                   ; symbol "FALSE"
+  7235: BRK
+  7236: PUSHIIB #1                    ; symbol "Task_New"
+  7238: CALL    argc=5                ; args @7268, @7271, @7274, @7277, @7280
+  7263: BRA     +18                   ; -> 7286
+  7268: PUSH1
+  7269: MINUS
+  7270: BRK
+  7271: PUSHSIB #0                    ; string "TagItemReal32"
+  7273: BRK
+  7274: PUSHSIB #168                  ; string "Grenade - Explosion radius (meters)"
+  7276: BRK
+  7277: PUSHSIB #168                  ; string "Grenade - Explosion radius (meters)"
+  7279: BRK
+  7280: PUSHF   7
+  7285: BRK
+  7286: BRK
+  7287: PUSHIIB #1                    ; symbol "Task_New"
+  7289: CALL    argc=5                ; args @7319, @7322, @7325, @7328, @7331
+  7314: BRA     +18                   ; -> 7337
+  7319: PUSH1
+  7320: MINUS
+  7321: BRK
+  7322: PUSHSIB #0                    ; string "TagItemReal32"
+  7324: BRK
+  7325: PUSHSIB #169                  ; string "Grenade - Explosion falloff (meters)"
+  7327: BRK
+  7328: PUSHSIB #169                  ; string "Grenade - Explosion falloff (meters)"
+  7330: BRK
+  7331: PUSHF   4
+  7336: BRK
+  7337: BRK
+  7338: PUSHIIB #1                    ; symbol "Task_New"
+  7340: CALL    argc=5                ; args @7370, @7373, @7376, @7379, @7382
+  7365: BRA     +18                   ; -> 7388
+  7370: PUSH1
+  7371: MINUS
+  7372: BRK
+  7373: PUSHSIB #0                    ; string "TagItemReal32"
+  7375: BRK
+  7376: PUSHSIB #170                  ; string "Grenade - Explosion damage factor"
+  7378: BRK
+  7379: PUSHSIB #170                  ; string "Grenade - Explosion damage factor"
+  7381: BRK
+  7382: PUSHF   1.3
+  7387: BRK
+  7388: BRK
+  7389: BRK
+  7390: PUSHIIB #1                    ; symbol "Task_New"
+  7392: CALL    argc=54               ; args @7618, @7621, @7624, @7627, @7630, @7633, @7636, @7639, @7642, @7645, @7648, @7651, @7656, @7660, @7666, @7672, @7678, @7684, @7686, @7689, @7693, @7697, @7699, @7705, @7707, @7709, @7711, @7713, @7716, @7722, @7725, @7729, @7733, @7736, @7739, @7742, @7745, @7748, @7751, @7754, @7757, @7760, @7763, @7766, @7769, @7772, @7775, @7778, @7781, @7784, @7787, @7790, @7793, @7796
+  7613: BRA     +226                  ; -> 7844
+  7618: PUSH1
+  7619: MINUS
+  7620: BRK
+  7621: PUSHSIB #8                    ; string "WeaponConfig"
+  7623: BRK
+  7624: PUSHSIB #177                  ; string "T80"
+  7626: BRK
+  7627: PUSHB   43
+  7629: BRK
+  7630: PUSHSIB #178                  ; string "WEAPON_ID_T80"
+  7632: BRK
+  7633: PUSHSIB #179                  ; string "<T80>"
+  7635: BRK
+  7636: PUSHSIB #180                  ; string "<T80MAN>"
+  7638: BRK
+  7639: PUSHSIB #181                  ; string "<T80DESC>"
+  7641: BRK
+  7642: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  7644: BRK
+  7645: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  7647: BRK
+  7648: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  7650: BRK
+  7651: PUSHW   27536
+  7654: MINUS
+  7655: BRK
+  7656: PUSHW   556
+  7659: BRK
+  7660: PUSHF   0.25
+  7665: BRK
+  7666: PUSHF   3
+  7671: BRK
+  7672: PUSHF   5
+  7677: BRK
+  7678: PUSHF   5
+  7683: BRK
+  7684: PUSH1
+  7685: BRK
+  7686: PUSHB   12
+  7688: BRK
+  7689: PUSHW   10000
+  7692: BRK
+  7693: PUSHW   10000
+  7696: BRK
+  7697: PUSH1
+  7698: BRK
+  7699: PUSHF   2
+  7704: BRK
+  7705: PUSH0
+  7706: BRK
+  7707: PUSH0
+  7708: BRK
+  7709: PUSH0
+  7710: BRK
+  7711: PUSH0
+  7712: BRK
+  7713: PUSHSIB #182                  ; string "<HEAVY_MACHINE-GUN>"
+  7715: BRK
+  7716: PUSHF   300
+  7721: BRK
+  7722: PUSHSIB #183                  ; string "<T80SERS>"
+  7724: BRK
+  7725: PUSHW   1651
+  7728: BRK
+  7729: PUSHW   1143
+  7732: BRK
+  7733: PUSHSIB #184                  ; string "614_03_1"
+  7735: BRK
+  7736: PUSHSIB #62                   ; string ""
+  7738: BRK
+  7739: PUSH1
+  7740: MINUS
+  7741: BRK
+  7742: PUSH1
+  7743: MINUS
+  7744: BRK
+  7745: PUSH1
+  7746: MINUS
+  7747: BRK
+  7748: PUSH1
+  7749: MINUS
+  7750: BRK
+  7751: PUSH1
+  7752: MINUS
+  7753: BRK
+  7754: PUSH1
+  7755: MINUS
+  7756: BRK
+  7757: PUSH1
+  7758: MINUS
+  7759: BRK
+  7760: PUSH1
+  7761: MINUS
+  7762: BRK
+  7763: PUSH1
+  7764: MINUS
+  7765: BRK
+  7766: PUSH1
+  7767: MINUS
+  7768: BRK
+  7769: PUSH1
+  7770: MINUS
+  7771: BRK
+  7772: PUSH1
+  7773: MINUS
+  7774: BRK
+  7775: PUSH1
+  7776: MINUS
+  7777: BRK
+  7778: PUSHSIB #185                  ; string "rpg_launch_1"
+  7780: BRK
+  7781: PUSHSIB #185                  ; string "rpg_launch_1"
+  7783: BRK
+  7784: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  7786: BRK
+  7787: PUSHIIB #22                   ; symbol "TASKTYPE_MISSILE"
+  7789: BRK
+  7790: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  7792: BRK
+  7793: PUSHIIB #8                    ; symbol "TRUE"
+  7795: BRK
+  7796: PUSHIIB #1                    ; symbol "Task_New"
+  7798: CALL    argc=5                ; args @7828, @7831, @7834, @7837, @7840
+  7823: BRA     +15                   ; -> 7843
+  7828: PUSH1
+  7829: MINUS
+  7830: BRK
+  7831: PUSHSIB #5                    ; string "TagItemString16"
+  7833: BRK
+  7834: PUSHSIB #186                  ; string "Missile - Model"
+  7836: BRK
+  7837: PUSHSIB #186                  ; string "Missile - Model"
+  7839: BRK
+  7840: PUSHSIB #187                  ; string "110_02_1"
+  7842: BRK
+  7843: BRK
+  7844: BRK
+  7845: PUSHIIB #1                    ; symbol "Task_New"
+  7847: CALL    argc=53               ; args @8069, @8072, @8075, @8078, @8081, @8084, @8087, @8090, @8093, @8096, @8099, @8102, @8107, @8110, @8116, @8122, @8128, @8134, @8136, @8140, @8144, @8148, @8155, @8161, @8167, @8169, @8171, @8173, @8176, @8182, @8185, @8189, @8193, @8196, @8199, @8202, @8205, @8208, @8211, @8214, @8217, @8220, @8223, @8226, @8229, @8232, @8235, @8238, @8241, @8244, @8247, @8250, @8253
+  8064: BRA     +187                  ; -> 8256
+  8069: PUSH1
+  8070: MINUS
+  8071: BRK
+  8072: PUSHSIB #8                    ; string "WeaponConfig"
+  8074: BRK
+  8075: PUSHSIB #188                  ; string "SENTRYGUN"
+  8077: BRK
+  8078: PUSHB   44
+  8080: BRK
+  8081: PUSHSIB #189                  ; string "WEAPON_ID_SENTRY"
+  8083: BRK
+  8084: PUSHSIB #188                  ; string "SENTRYGUN"
+  8086: BRK
+  8087: PUSHSIB #190                  ; string "<SENTRYMAN>"
+  8089: BRK
+  8090: PUSHSIB #191                  ; string "<SENTRYDESC>"
+  8092: BRK
+  8093: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  8095: BRK
+  8096: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  8098: BRK
+  8099: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  8101: BRK
+  8102: PUSHW   27536
+  8105: MINUS
+  8106: BRK
+  8107: PUSHB   127
+  8109: BRK
+  8110: PUSHF   0.05
+  8115: BRK
+  8116: PUSHF   3
+  8121: BRK
+  8122: PUSHF   2
+  8127: BRK
+  8128: PUSHF   930
+  8133: BRK
+  8134: PUSH1
+  8135: BRK
+  8136: PUSHW   1000
+  8139: BRK
+  8140: PUSHW   10000
+  8143: BRK
+  8144: PUSHW   10000
+  8147: BRK
+  8148: PUSHF   15
+  8153: MINUS
+  8154: BRK
+  8155: PUSHF   15
+  8160: BRK
+  8161: PUSHF   0.1
+  8166: BRK
+  8167: PUSH0
+  8168: BRK
+  8169: PUSH1
+  8170: BRK
+  8171: PUSH1
+  8172: BRK
+  8173: PUSHSIB #182                  ; string "<HEAVY_MACHINE-GUN>"
+  8175: BRK
+  8176: PUSHF   100
+  8181: BRK
+  8182: PUSHSIB #192                  ; string "<SENTRYUSERS>"
+  8184: BRK
+  8185: PUSHW   1651
+  8188: BRK
+  8189: PUSHW   1143
+  8192: BRK
+  8193: PUSHSIB #193                  ; string "456_13_1"
+  8195: BRK
+  8196: PUSHSIB #70                   ; string "113_01_1"
+  8198: BRK
+  8199: PUSH1
+  8200: MINUS
+  8201: BRK
+  8202: PUSH1
+  8203: MINUS
+  8204: BRK
+  8205: PUSH1
+  8206: MINUS
+  8207: BRK
+  8208: PUSH1
+  8209: MINUS
+  8210: BRK
+  8211: PUSH1
+  8212: MINUS
+  8213: BRK
+  8214: PUSH1
+  8215: MINUS
+  8216: BRK
+  8217: PUSH1
+  8218: MINUS
+  8219: BRK
+  8220: PUSH1
+  8221: MINUS
+  8222: BRK
+  8223: PUSH1
+  8224: MINUS
+  8225: BRK
+  8226: PUSH1
+  8227: MINUS
+  8228: BRK
+  8229: PUSH1
+  8230: MINUS
+  8231: BRK
+  8232: PUSH1
+  8233: MINUS
+  8234: BRK
+  8235: PUSH1
+  8236: MINUS
+  8237: BRK
+  8238: PUSHSIB #194                  ; string "m2hb_loop"
+  8240: BRK
+  8241: PUSHSIB #195                  ; string "m2hb_loop_e"
+  8243: BRK
+  8244: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  8246: BRK
+  8247: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  8249: BRK
+  8250: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  8252: BRK
+  8253: PUSHIIB #8                    ; symbol "TRUE"
+  8255: BRK
+  8256: BRK
+  8257: PUSHIIB #1                    ; symbol "Task_New"
+  8259: CALL    argc=54               ; args @8485, @8488, @8491, @8494, @8497, @8500, @8503, @8506, @8509, @8512, @8515, @8518, @8522, @8526, @8532, @8538, @8544, @8550, @8552, @8555, @8557, @8559, @8561, @8563, @8569, @8571, @8573, @8575, @8578, @8584, @8587, @8591, @8595, @8598, @8601, @8604, @8607, @8610, @8613, @8616, @8619, @8623, @8627, @8631, @8635, @8639, @8643, @8646, @8649, @8652, @8655, @8658, @8661, @8664
+  8480: BRA     +227                  ; -> 8712
+  8485: PUSH1
+  8486: MINUS
+  8487: BRK
+  8488: PUSHSIB #8                    ; string "WeaponConfig"
+  8490: BRK
+  8491: PUSHSIB #196                  ; string "LAW 80"
+  8493: BRK
+  8494: PUSHB   12
+  8496: BRK
+  8497: PUSHSIB #197                  ; string "WEAPON_ID_RPG18"
+  8499: BRK
+  8500: PUSHSIB #196                  ; string "LAW 80"
+  8502: BRK
+  8503: PUSHSIB #109                  ; string "<ARMALITE>"
+  8505: BRK
+  8506: PUSHSIB #110                  ; string "<M16A2DESC>"
+  8508: BRK
+  8509: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  8511: BRK
+  8512: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  8514: BRK
+  8515: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  8517: BRK
+  8518: PUSHW   3400
+  8521: BRK
+  8522: PUSHW   1000
+  8525: BRK
+  8526: PUSHF   0.25
+  8531: BRK
+  8532: PUSHF   3
+  8537: BRK
+  8538: PUSHF   2
+  8543: BRK
+  8544: PUSHF   5
+  8549: BRK
+  8550: PUSH1
+  8551: BRK
+  8552: PUSHB   40
+  8554: BRK
+  8555: PUSH1
+  8556: BRK
+  8557: PUSH1
+  8558: BRK
+  8559: PUSH0
+  8560: BRK
+  8561: PUSH0
+  8562: BRK
+  8563: PUSHF   10
+  8568: BRK
+  8569: PUSH0
+  8570: BRK
+  8571: PUSH0
+  8572: BRK
+  8573: PUSH0
+  8574: BRK
+  8575: PUSHSIB #111                  ; string "<ASSAULT_RIFLE>"
+  8577: BRK
+  8578: PUSHF   600
+  8583: BRK
+  8584: PUSHSIB #112                  ; string "<M16A2USERS>"
+  8586: BRK
+  8587: PUSHW   1000
+  8590: BRK
+  8591: PUSHW   510
+  8594: BRK
+  8595: PUSHSIB #198                  ; string "110_01_1"
+  8597: BRK
+  8598: PUSHSIB #62                   ; string ""
+  8600: BRK
+  8601: PUSHB   55
+  8603: BRK
+  8604: PUSHB   56
+  8606: BRK
+  8607: PUSHB   57
+  8609: BRK
+  8610: PUSH1
+  8611: MINUS
+  8612: BRK
+  8613: PUSH1
+  8614: MINUS
+  8615: BRK
+  8616: PUSH1
+  8617: MINUS
+  8618: BRK
+  8619: PUSHW   177
+  8622: BRK
+  8623: PUSHW   176
+  8626: BRK
+  8627: PUSHW   178
+  8630: BRK
+  8631: PUSHW   179
+  8634: BRK
+  8635: PUSHW   175
+  8638: BRK
+  8639: PUSHW   180
+  8642: BRK
+  8643: PUSH1
+  8644: MINUS
+  8645: BRK
+  8646: PUSHSIB #185                  ; string "rpg_launch_1"
+  8648: BRK
+  8649: PUSHSIB #185                  ; string "rpg_launch_1"
+  8651: BRK
+  8652: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  8654: BRK
+  8655: PUSHIIB #22                   ; symbol "TASKTYPE_MISSILE"
+  8657: BRK
+  8658: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  8660: BRK
+  8661: PUSHIIB #8                    ; symbol "TRUE"
+  8663: BRK
+  8664: PUSHIIB #1                    ; symbol "Task_New"
+  8666: CALL    argc=5                ; args @8696, @8699, @8702, @8705, @8708
+  8691: BRA     +15                   ; -> 8711
+  8696: PUSH1
+  8697: MINUS
+  8698: BRK
+  8699: PUSHSIB #5                    ; string "TagItemString16"
+  8701: BRK
+  8702: PUSHSIB #186                  ; string "Missile - Model"
+  8704: BRK
+  8705: PUSHSIB #186                  ; string "Missile - Model"
+  8707: BRK
+  8708: PUSHSIB #187                  ; string "110_02_1"
+  8710: BRK
+  8711: BRK
+  8712: BRK
+  8713: PUSHIIB #1                    ; symbol "Task_New"
+  8715: CALL    argc=57               ; args @8953, @8956, @8959, @8962, @8965, @8968, @8971, @8974, @8977, @8980, @8983, @8986, @8990, @8994, @9000, @9006, @9012, @9018, @9020, @9023, @9025, @9027, @9029, @9031, @9033, @9035, @9037, @9039, @9042, @9048, @9051, @9055, @9058, @9061, @9064, @9067, @9070, @9073, @9076, @9079, @9082, @9086, @9090, @9094, @9098, @9102, @9106, @9109, @9112, @9115, @9118, @9121, @9124, @9127, @9178, @9229, @9280
+  8948: BRA     +378                  ; -> 9331
+  8953: PUSH1
+  8954: MINUS
+  8955: BRK
+  8956: PUSHSIB #8                    ; string "WeaponConfig"
+  8958: BRK
+  8959: PUSHSIB #199                  ; string "Proximitymine"
+  8961: BRK
+  8962: PUSHB   16
+  8964: BRK
+  8965: PUSHSIB #200                  ; string "WEAPON_ID_PROXIMITYMINE"
+  8967: BRK
+  8968: PUSHSIB #199                  ; string "Proximitymine"
+  8970: BRK
+  8971: PUSHSIB #163                  ; string "<QBRANCH>"
+  8973: BRK
+  8974: PUSHSIB #201                  ; string "<PROXIMITYMINEDESC>"
+  8976: BRK
+  8977: PUSHIIB #23                   ; symbol "WEAPONTYPE_PROXIMITYMINE"
+  8979: BRK
+  8980: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  8982: BRK
+  8983: PUSHIIB #19                   ; symbol "AMMODISPLAYTYPE_GRENADE"
+  8985: BRK
+  8986: PUSHW   656
+  8989: BRK
+  8990: PUSHW   10001
+  8993: BRK
+  8994: PUSHF   0.25
+  8999: BRK
+  9000: PUSHF   3
+  9005: BRK
+  9006: PUSHF   2
+  9011: BRK
+  9012: PUSHF   15
+  9017: BRK
+  9018: PUSH1
+  9019: BRK
+  9020: PUSHB   60
+  9022: BRK
+  9023: PUSH1
+  9024: BRK
+  9025: PUSH1
+  9026: BRK
+  9027: PUSH0
+  9028: BRK
+  9029: PUSH0
+  9030: BRK
+  9031: PUSH0
+  9032: BRK
+  9033: PUSH0
+  9034: BRK
+  9035: PUSH0
+  9036: BRK
+  9037: PUSH0
+  9038: BRK
+  9039: PUSHSIB #67                   ; string "<SELF-LOADING_PISTOL>"
+  9041: BRK
+  9042: PUSHF   1.5
+  9047: BRK
+  9048: PUSHSIB #202                  ; string "<PROXIMITYMINEUSERS>"
+  9050: BRK
+  9051: PUSHW   185
+  9054: BRK
+  9055: PUSHB   114
+  9057: BRK
+  9058: PUSHSIB #203                  ; string "136_01_1"
+  9060: BRK
+  9061: PUSHSIB #62                   ; string ""
+  9063: BRK
+  9064: PUSHB   40
+  9066: BRK
+  9067: PUSHB   41
+  9069: BRK
+  9070: PUSH1
+  9071: MINUS
+  9072: BRK
+  9073: PUSH1
+  9074: MINUS
+  9075: BRK
+  9076: PUSH1
+  9077: MINUS
+  9078: BRK
+  9079: PUSH1
+  9080: MINUS
+  9081: BRK
+  9082: PUSHW   159
+  9085: BRK
+  9086: PUSHW   165
+  9089: BRK
+  9090: PUSHW   161
+  9093: BRK
+  9094: PUSHW   162
+  9097: BRK
+  9098: PUSHW   160
+  9101: BRK
+  9102: PUSHW   164
+  9105: BRK
+  9106: PUSH1
+  9107: MINUS
+  9108: BRK
+  9109: PUSHSIB #167                  ; string "grenade_shot_1"
+  9111: BRK
+  9112: PUSHSIB #167                  ; string "grenade_shot_1"
+  9114: BRK
+  9115: PUSHIIB #11                   ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+  9117: BRK
+  9118: PUSHIIB #24                   ; symbol "TASKTYPE_MINE"
+  9120: BRK
+  9121: PUSHIIB #25                   ; symbol "TASKTYPE_PROXIMITYMINE"
+  9123: BRK
+  9124: PUSHIIB #21                   ; symbol "FALSE"
+  9126: BRK
+  9127: PUSHIIB #1                    ; symbol "Task_New"
+  9129: CALL    argc=5                ; args @9159, @9162, @9165, @9168, @9171
+  9154: BRA     +18                   ; -> 9177
+  9159: PUSH1
+  9160: MINUS
+  9161: BRK
+  9162: PUSHSIB #0                    ; string "TagItemReal32"
+  9164: BRK
+  9165: PUSHSIB #204                  ; string "Proximitymine - Time before arming (seconds)"
+  9167: BRK
+  9168: PUSHSIB #204                  ; string "Proximitymine - Time before arming (seconds)"
+  9170: BRK
+  9171: PUSHF   3
+  9176: BRK
+  9177: BRK
+  9178: PUSHIIB #1                    ; symbol "Task_New"
+  9180: CALL    argc=5                ; args @9210, @9213, @9216, @9219, @9222
+  9205: BRA     +18                   ; -> 9228
+  9210: PUSH1
+  9211: MINUS
+  9212: BRK
+  9213: PUSHSIB #0                    ; string "TagItemReal32"
+  9215: BRK
+  9216: PUSHSIB #205                  ; string "Proximitymine - Countdown time (seconds)"
+  9218: BRK
+  9219: PUSHSIB #205                  ; string "Proximitymine - Countdown time (seconds)"
+  9221: BRK
+  9222: PUSHF   0.5
+  9227: BRK
+  9228: BRK
+  9229: PUSHIIB #1                    ; symbol "Task_New"
+  9231: CALL    argc=5                ; args @9261, @9264, @9267, @9270, @9273
+  9256: BRA     +18                   ; -> 9279
+  9261: PUSH1
+  9262: MINUS
+  9263: BRK
+  9264: PUSHSIB #0                    ; string "TagItemReal32"
+  9266: BRK
+  9267: PUSHSIB #206                  ; string "Proximitymine - Activate radius (meters)"
+  9269: BRK
+  9270: PUSHSIB #206                  ; string "Proximitymine - Activate radius (meters)"
+  9272: BRK
+  9273: PUSHF   2.5
+  9278: BRK
+  9279: BRK
+  9280: PUSHIIB #1                    ; symbol "Task_New"
+  9282: CALL    argc=5                ; args @9312, @9315, @9318, @9321, @9324
+  9307: BRA     +18                   ; -> 9330
+  9312: PUSH1
+  9313: MINUS
+  9314: BRK
+  9315: PUSHSIB #0                    ; string "TagItemReal32"
+  9317: BRK
+  9318: PUSHSIB #207                  ; string "Proximitymine - Explosion radius (meters)"
+  9320: BRK
+  9321: PUSHSIB #207                  ; string "Proximitymine - Explosion radius (meters)"
+  9323: BRK
+  9324: PUSHF   3.5
+  9329: BRK
+  9330: BRK
+  9331: BRK
+  9332: PUSHIIB #1                    ; symbol "Task_New"
+  9334: CALL    argc=53               ; args @9556, @9559, @9562, @9565, @9568, @9571, @9574, @9577, @9580, @9583, @9586, @9589, @9595, @9598, @9604, @9610, @9616, @9622, @9624, @9628, @9632, @9636, @9638, @9644, @9646, @9648, @9650, @9652, @9655, @9661, @9664, @9668, @9672, @9675, @9678, @9681, @9684, @9687, @9690, @9693, @9696, @9699, @9702, @9705, @9708, @9711, @9714, @9717, @9720, @9723, @9726, @9729, @9732
+  9551: BRA     +179                  ; -> 9735
+  9556: PUSH1
+  9557: MINUS
+  9558: BRK
+  9559: PUSHSIB #8                    ; string "WeaponConfig"
+  9561: BRK
+  9562: PUSHSIB #208                  ; string "MIL"
+  9564: BRK
+  9565: PUSHB   41
+  9567: BRK
+  9568: PUSHSIB #209                  ; string "WEAPON_ID_MIL"
+  9570: BRK
+  9571: PUSHSIB #210                  ; string "<MIL>"
+  9573: BRK
+  9574: PUSHSIB #211                  ; string "<MILMAN>"
+  9576: BRK
+  9577: PUSHSIB #212                  ; string "<MILDESC>"
+  9579: BRK
+  9580: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+  9582: BRK
+  9583: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+  9585: BRK
+  9586: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+  9588: BRK
+  9589: PUSH    38000
+  9594: BRK
+  9595: PUSHB   127
+  9597: BRK
+  9598: PUSHF   0.25
+  9603: BRK
+  9604: PUSHF   3
+  9609: BRK
+  9610: PUSHF   2
+  9615: BRK
+  9616: PUSHF   930
+  9621: BRK
+  9622: PUSH1
+  9623: BRK
+  9624: PUSHW   550
+  9627: BRK
+  9628: PUSHW   10000
+  9631: BRK
+  9632: PUSHW   10000
+  9635: BRK
+  9636: PUSH1
+  9637: BRK
+  9638: PUSHF   2
+  9643: BRK
+  9644: PUSH0
+  9645: BRK
+  9646: PUSH0
+  9647: BRK
+  9648: PUSH0
+  9649: BRK
+  9650: PUSH0
+  9651: BRK
+  9652: PUSHSIB #182                  ; string "<HEAVY_MACHINE-GUN>"
+  9654: BRK
+  9655: PUSHF   300
+  9660: BRK
+  9661: PUSHSIB #213                  ; string "<MILUSERS>"
+  9663: BRK
+  9664: PUSHW   1651
+  9667: BRK
+  9668: PUSHW   1143
+  9671: BRK
+  9672: PUSHSIB #214                  ; string "700_12_1"
+  9674: BRK
+  9675: PUSHSIB #70                   ; string "113_01_1"
+  9677: BRK
+  9678: PUSH1
+  9679: MINUS
+  9680: BRK
+  9681: PUSH1
+  9682: MINUS
+  9683: BRK
+  9684: PUSH1
+  9685: MINUS
+  9686: BRK
+  9687: PUSH1
+  9688: MINUS
+  9689: BRK
+  9690: PUSH1
+  9691: MINUS
+  9692: BRK
+  9693: PUSH1
+  9694: MINUS
+  9695: BRK
+  9696: PUSH1
+  9697: MINUS
+  9698: BRK
+  9699: PUSH1
+  9700: MINUS
+  9701: BRK
+  9702: PUSH1
+  9703: MINUS
+  9704: BRK
+  9705: PUSH1
+  9706: MINUS
+  9707: BRK
+  9708: PUSH1
+  9709: MINUS
+  9710: BRK
+  9711: PUSH1
+  9712: MINUS
+  9713: BRK
+  9714: PUSH1
+  9715: MINUS
+  9716: BRK
+  9717: PUSHSIB #215                  ; string "mil_loop"
+  9719: BRK
+  9720: PUSHSIB #216                  ; string "mil_loop_e"
+  9722: BRK
+  9723: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+  9725: BRK
+  9726: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+  9728: BRK
+  9729: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+  9731: BRK
+  9732: PUSHIIB #8                    ; symbol "TRUE"
+  9734: BRK
+  9735: BRK
+  9736: PUSHIIB #1                    ; symbol "Task_New"
+  9738: CALL    argc=54               ; args @9964, @9967, @9970, @9973, @9976, @9979, @9982, @9985, @9988, @9991, @9994, @9997, @10001, @10005, @10011, @10017, @10023, @10029, @10031, @10035, @10038, @10040, @10042, @10044, @10046, @10048, @10050, @10052, @10055, @10057, @10060, @10064, @10067, @10070, @10073, @10076, @10079, @10082, @10085, @10088, @10091, @10094, @10097, @10100, @10103, @10106, @10109, @10112, @10115, @10118, @10121, @10124, @10127, @10130
+  9959: BRA     +217                  ; -> 10181
+  9964: PUSH1
+  9965: MINUS
+  9966: BRK
+  9967: PUSHSIB #8                    ; string "WeaponConfig"
+  9969: BRK
+  9970: PUSHSIB #217                  ; string "Medipack"
+  9972: BRK
+  9973: PUSHB   19
+  9975: BRK
+  9976: PUSHSIB #218                  ; string "WEAPON_ID_MEDIPACK"
+  9978: BRK
+  9979: PUSHSIB #217                  ; string "Medipack"
+  9981: BRK
+  9982: PUSHSIB #219                  ; string "<KIRKENS_NODHJELP>"
+  9984: BRK
+  9985: PUSHSIB #220                  ; string "<MEDIPACKDESC>"
+  9987: BRK
+  9988: PUSHIIB #26                   ; symbol "WEAPONTYPE_MEDIPACK"
+  9990: BRK
+  9991: PUSHIIB #27                   ; symbol "SIGHTDISPLAYTYPE_NONE"
+  9993: BRK
+  9994: PUSHIIB #28                   ; symbol "AMMODISPLAYTYPE_NORMAL"
+  9996: BRK
+  9997: PUSHW   656
+ 10000: BRK
+ 10001: PUSHW   10005
+ 10004: BRK
+ 10005: PUSHF   0.25
+ 10010: BRK
+ 10011: PUSHF   3
+ 10016: BRK
+ 10017: PUSHF   2
+ 10022: BRK
+ 10023: PUSHF   8
+ 10028: BRK
+ 10029: PUSH1
+ 10030: BRK
+ 10031: PUSHW   220
+ 10034: BRK
+ 10035: PUSHB   3
+ 10037: BRK
+ 10038: PUSH1
+ 10039: BRK
+ 10040: PUSH0
+ 10041: BRK
+ 10042: PUSH0
+ 10043: BRK
+ 10044: PUSH0
+ 10045: BRK
+ 10046: PUSH0
+ 10047: BRK
+ 10048: PUSH0
+ 10049: BRK
+ 10050: PUSH0
+ 10051: BRK
+ 10052: PUSHSIB #67                   ; string "<SELF-LOADING_PISTOL>"
+ 10054: BRK
+ 10055: PUSH1
+ 10056: BRK
+ 10057: PUSHSIB #221                  ; string "<MEDIPACKUSERS>"
+ 10059: BRK
+ 10060: PUSHW   185
+ 10063: BRK
+ 10064: PUSHB   114
+ 10066: BRK
+ 10067: PUSHSIB #222                  ; string "121_01_1"
+ 10069: BRK
+ 10070: PUSHSIB #62                   ; string ""
+ 10072: BRK
+ 10073: PUSHB   76
+ 10075: BRK
+ 10076: PUSHB   77
+ 10078: BRK
+ 10079: PUSHB   78
+ 10081: BRK
+ 10082: PUSHB   79
+ 10084: BRK
+ 10085: PUSHB   80
+ 10087: BRK
+ 10088: PUSHB   5
+ 10090: BRK
+ 10091: PUSH1
+ 10092: MINUS
+ 10093: BRK
+ 10094: PUSH1
+ 10095: MINUS
+ 10096: BRK
+ 10097: PUSH1
+ 10098: MINUS
+ 10099: BRK
+ 10100: PUSH1
+ 10101: MINUS
+ 10102: BRK
+ 10103: PUSH1
+ 10104: MINUS
+ 10105: BRK
+ 10106: PUSH1
+ 10107: MINUS
+ 10108: BRK
+ 10109: PUSH1
+ 10110: MINUS
+ 10111: BRK
+ 10112: PUSHSIB #71                   ; string "glock_shot_1"
+ 10114: BRK
+ 10115: PUSHSIB #72                   ; string "glock_shot_2"
+ 10117: BRK
+ 10118: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+ 10120: BRK
+ 10121: PUSH1
+ 10122: MINUS
+ 10123: BRK
+ 10124: PUSHIIB #29                   ; symbol "TASKTYPE_MEDIPACK"
+ 10126: BRK
+ 10127: PUSHIIB #8                    ; symbol "TRUE"
+ 10129: BRK
+ 10130: PUSHIIB #1                    ; symbol "Task_New"
+ 10132: CALL    argc=5                ; args @10162, @10165, @10168, @10171, @10174
+ 10157: BRA     +18                   ; -> 10180
+ 10162: PUSH1
+ 10163: MINUS
+ 10164: BRK
+ 10165: PUSHSIB #0                    ; string "TagItemReal32"
+ 10167: BRK
+ 10168: PUSHSIB #223                  ; string "Factor of human max damage to add for each round"
+ 10170: BRK
+ 10171: PUSHSIB #223                  ; string "Factor of human max damage to add for each round"
+ 10173: BRK
+ 10174: PUSHF   0.01
+ 10179: BRK
+ 10180: BRK
+ 10181: BRK
+ 10182: PUSHIIB #1                    ; symbol "Task_New"
+ 10184: CALL    argc=53               ; args @10406, @10409, @10412, @10415, @10418, @10421, @10424, @10427, @10430, @10433, @10436, @10439, @10443, @10446, @10452, @10454, @10460, @10466, @10468, @10472, @10475, @10477, @10479, @10481, @10483, @10485, @10487, @10489, @10492, @10494, @10497, @10501, @10504, @10507, @10510, @10513, @10516, @10519, @10522, @10525, @10528, @10532, @10536, @10540, @10544, @10548, @10552, @10555, @10558, @10561, @10564, @10567, @10570
+ 10401: BRA     +167                  ; -> 10573
+ 10406: PUSH1
+ 10407: MINUS
+ 10408: BRK
+ 10409: PUSHSIB #8                    ; string "WeaponConfig"
+ 10411: BRK
+ 10412: PUSHSIB #224                  ; string "Knife"
+ 10414: BRK
+ 10415: PUSHB   20
+ 10417: BRK
+ 10418: PUSHSIB #225                  ; string "WEAPON_ID_KNIFE"
+ 10420: BRK
+ 10421: PUSHSIB #224                  ; string "Knife"
+ 10423: BRK
+ 10424: PUSHSIB #226                  ; string "<BRUSLETTO_AS>"
+ 10426: BRK
+ 10427: PUSHSIB #227                  ; string "<KNIFEDESC>"
+ 10429: BRK
+ 10430: PUSHIIB #30                   ; symbol "WEAPONTYPE_KNIFE"
+ 10432: BRK
+ 10433: PUSHIIB #27                   ; symbol "SIGHTDISPLAYTYPE_NONE"
+ 10435: BRK
+ 10436: PUSHIIB #31                   ; symbol "AMMODISPLAYTYPE_NONE"
+ 10438: BRK
+ 10439: PUSHW   656
+ 10442: BRK
+ 10443: PUSH1
+ 10444: MINUS
+ 10445: BRK
+ 10446: PUSHF   0.1
+ 10451: BRK
+ 10452: PUSH0
+ 10453: BRK
+ 10454: PUSHF   2
+ 10459: BRK
+ 10460: PUSHF   10
+ 10465: BRK
+ 10466: PUSH1
+ 10467: BRK
+ 10468: PUSHW   150
+ 10471: BRK
+ 10472: PUSH1
+ 10473: MINUS
+ 10474: BRK
+ 10475: PUSH1
+ 10476: BRK
+ 10477: PUSH0
+ 10478: BRK
+ 10479: PUSH0
+ 10480: BRK
+ 10481: PUSH0
+ 10482: BRK
+ 10483: PUSH0
+ 10484: BRK
+ 10485: PUSH0
+ 10486: BRK
+ 10487: PUSH0
+ 10488: BRK
+ 10489: PUSHSIB #228                  ; string "<KNIFE>"
+ 10491: BRK
+ 10492: PUSH1
+ 10493: BRK
+ 10494: PUSHSIB #229                  ; string "<KNIFE_USERS>"
+ 10496: BRK
+ 10497: PUSHW   185
+ 10500: BRK
+ 10501: PUSHB   114
+ 10503: BRK
+ 10504: PUSHSIB #230                  ; string "133_01_1"
+ 10506: BRK
+ 10507: PUSHSIB #62                   ; string ""
+ 10509: BRK
+ 10510: PUSHB   26
+ 10512: BRK
+ 10513: PUSHB   27
+ 10515: BRK
+ 10516: PUSHB   28
+ 10518: BRK
+ 10519: PUSHB   29
+ 10521: BRK
+ 10522: PUSHB   30
+ 10524: BRK
+ 10525: PUSHB   5
+ 10527: BRK
+ 10528: PUSHW   144
+ 10531: BRK
+ 10532: PUSHW   143
+ 10535: BRK
+ 10536: PUSHW   145
+ 10539: BRK
+ 10540: PUSHW   146
+ 10543: BRK
+ 10544: PUSHW   142
+ 10547: BRK
+ 10548: PUSHW   147
+ 10551: BRK
+ 10552: PUSH1
+ 10553: MINUS
+ 10554: BRK
+ 10555: PUSHSIB #231                  ; string "knife_1"
+ 10557: BRK
+ 10558: PUSHSIB #232                  ; string "knife_2"
+ 10560: BRK
+ 10561: PUSHIIB #11                   ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+ 10563: BRK
+ 10564: PUSHIIB #32                   ; symbol "TASKTYPE_KNIFESTAB"
+ 10566: BRK
+ 10567: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+ 10569: BRK
+ 10570: PUSHIIB #8                    ; symbol "TRUE"
+ 10572: BRK
+ 10573: BRK
+ 10574: PUSHIIB #1                    ; symbol "Task_New"
+ 10576: CALL    argc=53               ; args @10798, @10801, @10804, @10807, @10810, @10813, @10816, @10819, @10822, @10825, @10828, @10831, @10836, @10839, @10841, @10847, @10853, @10859, @10861, @10865, @10869, @10873, @10879, @10885, @10891, @10893, @10895, @10897, @10900, @10906, @10909, @10913, @10917, @10920, @10923, @10926, @10929, @10932, @10935, @10938, @10941, @10944, @10947, @10950, @10953, @10956, @10959, @10962, @10965, @10968, @10971, @10974, @10977
+ 10793: BRA     +182                  ; -> 10980
+ 10798: PUSH1
+ 10799: MINUS
+ 10800: BRK
+ 10801: PUSHSIB #8                    ; string "WeaponConfig"
+ 10803: BRK
+ 10804: PUSHSIB #233                  ; string "M2HB"
+ 10806: BRK
+ 10807: PUSHB   42
+ 10809: BRK
+ 10810: PUSHSIB #234                  ; string "WEAPON_ID_M2HB"
+ 10812: BRK
+ 10813: PUSHSIB #233                  ; string "M2HB"
+ 10815: BRK
+ 10816: PUSHSIB #235                  ; string "<BROWNING>"
+ 10818: BRK
+ 10819: PUSHSIB #236                  ; string "<M2HBDESC>"
+ 10821: BRK
+ 10822: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+ 10824: BRK
+ 10825: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+ 10827: BRK
+ 10828: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+ 10830: BRK
+ 10831: PUSHW   27536
+ 10834: MINUS
+ 10835: BRK
+ 10836: PUSHB   127
+ 10838: BRK
+ 10839: PUSH1
+ 10840: BRK
+ 10841: PUSHF   3
+ 10846: BRK
+ 10847: PUSHF   2
+ 10852: BRK
+ 10853: PUSHF   930
+ 10858: BRK
+ 10859: PUSH1
+ 10860: BRK
+ 10861: PUSHW   800
+ 10864: BRK
+ 10865: PUSHW   10000
+ 10868: BRK
+ 10869: PUSHW   10000
+ 10872: BRK
+ 10873: PUSHF   0.4
+ 10878: BRK
+ 10879: PUSHF   5
+ 10884: BRK
+ 10885: PUSHF   0.1
+ 10890: BRK
+ 10891: PUSH0
+ 10892: BRK
+ 10893: PUSH1
+ 10894: BRK
+ 10895: PUSH1
+ 10896: BRK
+ 10897: PUSHSIB #182                  ; string "<HEAVY_MACHINE-GUN>"
+ 10899: BRK
+ 10900: PUSHF   300
+ 10905: BRK
+ 10906: PUSHSIB #237                  ; string "<M2HBUSERS>"
+ 10908: BRK
+ 10909: PUSHW   1651
+ 10912: BRK
+ 10913: PUSHW   1143
+ 10916: BRK
+ 10917: PUSHSIB #238                  ; string "123_01_1"
+ 10919: BRK
+ 10920: PUSHSIB #70                   ; string "113_01_1"
+ 10922: BRK
+ 10923: PUSH1
+ 10924: MINUS
+ 10925: BRK
+ 10926: PUSH1
+ 10927: MINUS
+ 10928: BRK
+ 10929: PUSH1
+ 10930: MINUS
+ 10931: BRK
+ 10932: PUSH1
+ 10933: MINUS
+ 10934: BRK
+ 10935: PUSH1
+ 10936: MINUS
+ 10937: BRK
+ 10938: PUSH1
+ 10939: MINUS
+ 10940: BRK
+ 10941: PUSH1
+ 10942: MINUS
+ 10943: BRK
+ 10944: PUSH1
+ 10945: MINUS
+ 10946: BRK
+ 10947: PUSH1
+ 10948: MINUS
+ 10949: BRK
+ 10950: PUSH1
+ 10951: MINUS
+ 10952: BRK
+ 10953: PUSH1
+ 10954: MINUS
+ 10955: BRK
+ 10956: PUSH1
+ 10957: MINUS
+ 10958: BRK
+ 10959: PUSH1
+ 10960: MINUS
+ 10961: BRK
+ 10962: PUSHSIB #194                  ; string "m2hb_loop"
+ 10964: BRK
+ 10965: PUSHSIB #195                  ; string "m2hb_loop_e"
+ 10967: BRK
+ 10968: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+ 10970: BRK
+ 10971: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSHOT"
+ 10973: BRK
+ 10974: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+ 10976: BRK
+ 10977: PUSHIIB #8                    ; symbol "TRUE"
+ 10979: BRK
+ 10980: BRK
+ 10981: PUSHIIB #1                    ; symbol "Task_New"
+ 10983: CALL    argc=56               ; args @11217, @11220, @11223, @11226, @11229, @11232, @11235, @11238, @11241, @11244, @11247, @11250, @11254, @11258, @11264, @11270, @11276, @11282, @11284, @11287, @11290, @11292, @11294, @11296, @11298, @11300, @11302, @11304, @11307, @11309, @11312, @11316, @11319, @11322, @11325, @11328, @11331, @11334, @11337, @11340, @11343, @11346, @11349, @11352, @11355, @11358, @11361, @11364, @11367, @11370, @11373, @11376, @11379, @11382, @11433, @11484
+ 11212: BRA     +318                  ; -> 11535
+ 11217: PUSH1
+ 11218: MINUS
+ 11219: BRK
+ 11220: PUSHSIB #8                    ; string "WeaponConfig"
+ 11222: BRK
+ 11223: PUSHSIB #239                  ; string "Binoculars"
+ 11225: BRK
+ 11226: PUSHB   18
+ 11228: BRK
+ 11229: PUSHSIB #240                  ; string "WEAPON_ID_BINOCULARS"
+ 11231: BRK
+ 11232: PUSHSIB #239                  ; string "Binoculars"
+ 11234: BRK
+ 11235: PUSHSIB #241                  ; string "<ZEISS_INC>"
+ 11237: BRK
+ 11238: PUSHSIB #242                  ; string "<BINOCULARSDESC>"
+ 11240: BRK
+ 11241: PUSHIIB #33                   ; symbol "WEAPONTYPE_BINOCULAR"
+ 11243: BRK
+ 11244: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+ 11246: BRK
+ 11247: PUSHIIB #31                   ; symbol "AMMODISPLAYTYPE_NONE"
+ 11249: BRK
+ 11250: PUSHW   656
+ 11253: BRK
+ 11254: PUSHW   919
+ 11257: BRK
+ 11258: PUSHF   0.25
+ 11263: BRK
+ 11264: PUSHF   3
+ 11269: BRK
+ 11270: PUSHF   2
+ 11275: BRK
+ 11276: PUSHF   8
+ 11281: BRK
+ 11282: PUSH1
+ 11283: BRK
+ 11284: PUSHB   50
+ 11286: BRK
+ 11287: PUSHB   10
+ 11289: BRK
+ 11290: PUSH1
+ 11291: BRK
+ 11292: PUSH0
+ 11293: BRK
+ 11294: PUSH0
+ 11295: BRK
+ 11296: PUSH0
+ 11297: BRK
+ 11298: PUSH0
+ 11299: BRK
+ 11300: PUSH0
+ 11301: BRK
+ 11302: PUSH0
+ 11303: BRK
+ 11304: PUSHSIB #67                   ; string "<SELF-LOADING_PISTOL>"
+ 11306: BRK
+ 11307: PUSH1
+ 11308: BRK
+ 11309: PUSHSIB #243                  ; string "<BINOCULARSUSERS>"
+ 11311: BRK
+ 11312: PUSHW   185
+ 11315: BRK
+ 11316: PUSHB   114
+ 11318: BRK
+ 11319: PUSHSIB #244                  ; string "102_01_1"
+ 11321: BRK
+ 11322: PUSHSIB #70                   ; string "113_01_1"
+ 11324: BRK
+ 11325: PUSHB   68
+ 11327: BRK
+ 11328: PUSHB   69
+ 11330: BRK
+ 11331: PUSHB   4
+ 11333: BRK
+ 11334: PUSH1
+ 11335: MINUS
+ 11336: BRK
+ 11337: PUSH1
+ 11338: MINUS
+ 11339: BRK
+ 11340: PUSHB   5
+ 11342: BRK
+ 11343: PUSH1
+ 11344: MINUS
+ 11345: BRK
+ 11346: PUSH1
+ 11347: MINUS
+ 11348: BRK
+ 11349: PUSH1
+ 11350: MINUS
+ 11351: BRK
+ 11352: PUSH1
+ 11353: MINUS
+ 11354: BRK
+ 11355: PUSH1
+ 11356: MINUS
+ 11357: BRK
+ 11358: PUSH1
+ 11359: MINUS
+ 11360: BRK
+ 11361: PUSH1
+ 11362: MINUS
+ 11363: BRK
+ 11364: PUSHSIB #245                  ; string "bin_zoom_1"
+ 11366: BRK
+ 11367: PUSHSIB #245                  ; string "bin_zoom_1"
+ 11369: BRK
+ 11370: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+ 11372: BRK
+ 11373: PUSH1
+ 11374: MINUS
+ 11375: BRK
+ 11376: PUSHIIB #34                   ; symbol "TASKTYPE_BINOCULAR"
+ 11378: BRK
+ 11379: PUSHIIB #8                    ; symbol "TRUE"
+ 11381: BRK
+ 11382: PUSHIIB #1                    ; symbol "Task_New"
+ 11384: CALL    argc=5                ; args @11414, @11417, @11420, @11423, @11426
+ 11409: BRA     +18                   ; -> 11432
+ 11414: PUSH1
+ 11415: MINUS
+ 11416: BRK
+ 11417: PUSHSIB #0                    ; string "TagItemReal32"
+ 11419: BRK
+ 11420: PUSHSIB #246                  ; string "Binocular - Default FOV (degrees)"
+ 11422: BRK
+ 11423: PUSHSIB #246                  ; string "Binocular - Default FOV (degrees)"
+ 11425: BRK
+ 11426: PUSHF   70
+ 11431: BRK
+ 11432: BRK
+ 11433: PUSHIIB #1                    ; symbol "Task_New"
+ 11435: CALL    argc=5                ; args @11465, @11468, @11471, @11474, @11477
+ 11460: BRA     +18                   ; -> 11483
+ 11465: PUSH1
+ 11466: MINUS
+ 11467: BRK
+ 11468: PUSHSIB #0                    ; string "TagItemReal32"
+ 11470: BRK
+ 11471: PUSHSIB #247                  ; string "Binocular - Max FOV (degrees)"
+ 11473: BRK
+ 11474: PUSHSIB #247                  ; string "Binocular - Max FOV (degrees)"
+ 11476: BRK
+ 11477: PUSHF   90
+ 11482: BRK
+ 11483: BRK
+ 11484: PUSHIIB #1                    ; symbol "Task_New"
+ 11486: CALL    argc=5                ; args @11516, @11519, @11522, @11525, @11528
+ 11511: BRA     +18                   ; -> 11534
+ 11516: PUSH1
+ 11517: MINUS
+ 11518: BRK
+ 11519: PUSHSIB #0                    ; string "TagItemReal32"
+ 11521: BRK
+ 11522: PUSHSIB #248                  ; string "Binocular - Min FOV (degrees)"
+ 11524: BRK
+ 11525: PUSHSIB #248                  ; string "Binocular - Min FOV (degrees)"
+ 11527: BRK
+ 11528: PUSHF   5
+ 11533: BRK
+ 11534: BRK
+ 11535: BRK
+ 11536: PUSHIIB #1                    ; symbol "Task_New"
+ 11538: CALL    argc=54               ; args @11764, @11767, @11770, @11773, @11776, @11779, @11782, @11785, @11788, @11791, @11794, @11797, @11802, @11806, @11812, @11818, @11824, @11830, @11832, @11835, @11839, @11843, @11845, @11851, @11853, @11855, @11857, @11859, @11862, @11868, @11871, @11875, @11879, @11882, @11885, @11888, @11891, @11894, @11897, @11900, @11903, @11906, @11909, @11912, @11915, @11918, @11921, @11924, @11927, @11930, @11933, @11936, @11939, @11942
+ 11759: BRA     +226                  ; -> 11990
+ 11764: PUSH1
+ 11765: MINUS
+ 11766: BRK
+ 11767: PUSHSIB #8                    ; string "WeaponConfig"
+ 11769: BRK
+ 11770: PUSHSIB #249                  ; string "APC"
+ 11772: BRK
+ 11773: PUSHB   40
+ 11775: BRK
+ 11776: PUSHSIB #250                  ; string "WEAPON_ID_APC"
+ 11778: BRK
+ 11779: PUSHSIB #251                  ; string "<APC>"
+ 11781: BRK
+ 11782: PUSHSIB #252                  ; string "<APCMAN>"
+ 11784: BRK
+ 11785: PUSHSIB #253                  ; string "<APCDESC>"
+ 11787: BRK
+ 11788: PUSHIIB #10                   ; symbol "WEAPONTYPE_GUN"
+ 11790: BRK
+ 11791: PUSHIIB #3                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+ 11793: BRK
+ 11794: PUSHIIB #4                    ; symbol "AMMODISPLAYTYPE_CLIP"
+ 11796: BRK
+ 11797: PUSHW   27536
+ 11800: MINUS
+ 11801: BRK
+ 11802: PUSHW   556
+ 11805: BRK
+ 11806: PUSHF   0.25
+ 11811: BRK
+ 11812: PUSHF   3
+ 11817: BRK
+ 11818: PUSHF   5
+ 11823: BRK
+ 11824: PUSHF   5
+ 11829: BRK
+ 11830: PUSH1
+ 11831: BRK
+ 11832: PUSHB   12
+ 11834: BRK
+ 11835: PUSHW   10000
+ 11838: BRK
+ 11839: PUSHW   10000
+ 11842: BRK
+ 11843: PUSH1
+ 11844: BRK
+ 11845: PUSHF   2
+ 11850: BRK
+ 11851: PUSH0
+ 11852: BRK
+ 11853: PUSH0
+ 11854: BRK
+ 11855: PUSH0
+ 11856: BRK
+ 11857: PUSH0
+ 11858: BRK
+ 11859: PUSHSIB #182                  ; string "<HEAVY_MACHINE-GUN>"
+ 11861: BRK
+ 11862: PUSHF   300
+ 11867: BRK
+ 11868: PUSHSIB #254                  ; string "<APCUSERS>"
+ 11870: BRK
+ 11871: PUSHW   1651
+ 11874: BRK
+ 11875: PUSHW   1143
+ 11878: BRK
+ 11879: PUSHSIB #255                  ; string "601_05_1"
+ 11881: BRK
+ 11882: PUSHSIB #62                   ; string ""
+ 11884: BRK
+ 11885: PUSH1
+ 11886: MINUS
+ 11887: BRK
+ 11888: PUSH1
+ 11889: MINUS
+ 11890: BRK
+ 11891: PUSH1
+ 11892: MINUS
+ 11893: BRK
+ 11894: PUSH1
+ 11895: MINUS
+ 11896: BRK
+ 11897: PUSH1
+ 11898: MINUS
+ 11899: BRK
+ 11900: PUSH1
+ 11901: MINUS
+ 11902: BRK
+ 11903: PUSH1
+ 11904: MINUS
+ 11905: BRK
+ 11906: PUSH1
+ 11907: MINUS
+ 11908: BRK
+ 11909: PUSH1
+ 11910: MINUS
+ 11911: BRK
+ 11912: PUSH1
+ 11913: MINUS
+ 11914: BRK
+ 11915: PUSH1
+ 11916: MINUS
+ 11917: BRK
+ 11918: PUSH1
+ 11919: MINUS
+ 11920: BRK
+ 11921: PUSH1
+ 11922: MINUS
+ 11923: BRK
+ 11924: PUSHSIB #185                  ; string "rpg_launch_1"
+ 11926: BRK
+ 11927: PUSHSIB #185                  ; string "rpg_launch_1"
+ 11929: BRK
+ 11930: PUSHIIB #5                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+ 11932: BRK
+ 11933: PUSHIIB #22                   ; symbol "TASKTYPE_MISSILE"
+ 11935: BRK
+ 11936: PUSHIIB #7                    ; symbol "TASKTYPE_GUN"
+ 11938: BRK
+ 11939: PUSHIIB #8                    ; symbol "TRUE"
+ 11941: BRK
+ 11942: PUSHIIB #1                    ; symbol "Task_New"
+ 11944: CALL    argc=5                ; args @11974, @11977, @11980, @11983, @11986
+ 11969: BRA     +15                   ; -> 11989
+ 11974: PUSH1
+ 11975: MINUS
+ 11976: BRK
+ 11977: PUSHSIB #5                    ; string "TagItemString16"
+ 11979: BRK
+ 11980: PUSHSIB #186                  ; string "Missile - Model"
+ 11982: BRK
+ 11983: PUSHSIB #186                  ; string "Missile - Model"
+ 11985: BRK
+ 11986: PUSHSIB #187                  ; string "110_02_1"
+ 11988: BRK
+ 11989: BRK
+ 11990: BRK
+ 11991: POP
+ 11992: BRK

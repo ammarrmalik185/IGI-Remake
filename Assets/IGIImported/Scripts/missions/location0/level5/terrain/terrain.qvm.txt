@@ -1,0 +1,3809 @@
+     0: PUSHIIB #0                    ; symbol "CreateTerrainMaterial"
+     2: CALL    argc=226              ; args @916, @918, @920, @923, @926, @928, @930, @932, @934, @936, @939, @942, @944, @946, @948, @950, @952, @955, @958, @960, @962, @964, @966, @968, @971, @974, @976, @978, @980, @982, @984, @987, @990, @992, @994, @996, @998, @1000, @1003, @1006, @1008, @1010, @1012, @1014, @1016, @1019, @1022, @1024, @1026, @1028, @1030, @1032, @1035, @1038, @1040, @1042, @1044, @1046, @1048, @1051, @1054, @1056, @1058, @1060, @1062, @1064, @1067, @1070, @1072, @1074, @1076, @1078, @1080, @1083, @1086, @1088, @1090, @1092, @1094, @1096, @1099, @1102, @1104, @1106, @1108, @1110, @1113, @1116, @1119, @1121, @1123, @1126, @1128, @1131, @1134, @1137, @1139, @1141, @1144, @1146, @1149, @1152, @1155, @1157, @1159, @1162, @1164, @1167, @1170, @1173, @1175, @1177, @1180, @1182, @1185, @1188, @1191, @1193, @1195, @1198, @1200, @1203, @1206, @1209, @1211, @1213, @1216, @1218, @1221, @1224, @1227, @1229, @1231, @1234, @1236, @1239, @1242, @1245, @1247, @1249, @1252, @1254, @1257, @1260, @1263, @1265, @1267, @1270, @1272, @1275, @1278, @1281, @1283, @1285, @1288, @1290, @1293, @1296, @1299, @1301, @1303, @1306, @1308, @1311, @1314, @1317, @1319, @1321, @1324, @1326, @1329, @1332, @1335, @1337, @1339, @1342, @1344, @1347, @1350, @1353, @1355, @1357, @1360, @1362, @1365, @1368, @1371, @1373, @1375, @1378, @1380, @1383, @1386, @1389, @1391, @1393, @1396, @1398, @1401, @1404, @1407, @1409, @1411, @1414, @1416, @1419, @1422, @1425, @1427, @1429, @1432, @1434, @1437, @1440, @1443, @1445, @1447, @1450, @1452, @1455, @1458, @1461, @1463, @1465, @1468, @1470
+   911: BRA     +557                  ; -> 1473
+   916: PUSH0
+   917: BRK
+   918: PUSH1
+   919: BRK
+   920: PUSHIIB #1                    ; symbol "TRUE"
+   922: BRK
+   923: PUSHB   2
+   925: BRK
+   926: PUSH0
+   927: BRK
+   928: PUSH1
+   929: BRK
+   930: PUSH0
+   931: BRK
+   932: PUSH1
+   933: BRK
+   934: PUSH0
+   935: BRK
+   936: PUSHIIB #1                    ; symbol "TRUE"
+   938: BRK
+   939: PUSHB   2
+   941: BRK
+   942: PUSH0
+   943: BRK
+   944: PUSH1
+   945: BRK
+   946: PUSH0
+   947: BRK
+   948: PUSH1
+   949: BRK
+   950: PUSH0
+   951: BRK
+   952: PUSHIIB #1                    ; symbol "TRUE"
+   954: BRK
+   955: PUSHB   2
+   957: BRK
+   958: PUSH0
+   959: BRK
+   960: PUSH1
+   961: BRK
+   962: PUSH0
+   963: BRK
+   964: PUSH1
+   965: BRK
+   966: PUSH0
+   967: BRK
+   968: PUSHIIB #1                    ; symbol "TRUE"
+   970: BRK
+   971: PUSHB   2
+   973: BRK
+   974: PUSH0
+   975: BRK
+   976: PUSH1
+   977: BRK
+   978: PUSH0
+   979: BRK
+   980: PUSH1
+   981: BRK
+   982: PUSH0
+   983: BRK
+   984: PUSHIIB #1                    ; symbol "TRUE"
+   986: BRK
+   987: PUSHB   2
+   989: BRK
+   990: PUSH0
+   991: BRK
+   992: PUSH1
+   993: BRK
+   994: PUSH0
+   995: BRK
+   996: PUSH1
+   997: BRK
+   998: PUSH0
+   999: BRK
+  1000: PUSHIIB #1                    ; symbol "TRUE"
+  1002: BRK
+  1003: PUSHB   2
+  1005: BRK
+  1006: PUSH0
+  1007: BRK
+  1008: PUSH1
+  1009: BRK
+  1010: PUSH0
+  1011: BRK
+  1012: PUSH1
+  1013: BRK
+  1014: PUSH0
+  1015: BRK
+  1016: PUSHIIB #1                    ; symbol "TRUE"
+  1018: BRK
+  1019: PUSHB   2
+  1021: BRK
+  1022: PUSH0
+  1023: BRK
+  1024: PUSH1
+  1025: BRK
+  1026: PUSH0
+  1027: BRK
+  1028: PUSH1
+  1029: BRK
+  1030: PUSH0
+  1031: BRK
+  1032: PUSHIIB #1                    ; symbol "TRUE"
+  1034: BRK
+  1035: PUSHB   2
+  1037: BRK
+  1038: PUSH0
+  1039: BRK
+  1040: PUSH1
+  1041: BRK
+  1042: PUSH0
+  1043: BRK
+  1044: PUSH1
+  1045: BRK
+  1046: PUSH0
+  1047: BRK
+  1048: PUSHIIB #1                    ; symbol "TRUE"
+  1050: BRK
+  1051: PUSHB   2
+  1053: BRK
+  1054: PUSH0
+  1055: BRK
+  1056: PUSH1
+  1057: BRK
+  1058: PUSH0
+  1059: BRK
+  1060: PUSH1
+  1061: BRK
+  1062: PUSH1
+  1063: BRK
+  1064: PUSHIIB #1                    ; symbol "TRUE"
+  1066: BRK
+  1067: PUSHB   2
+  1069: BRK
+  1070: PUSH0
+  1071: BRK
+  1072: PUSH1
+  1073: BRK
+  1074: PUSH1
+  1075: BRK
+  1076: PUSH1
+  1077: BRK
+  1078: PUSH1
+  1079: BRK
+  1080: PUSHIIB #1                    ; symbol "TRUE"
+  1082: BRK
+  1083: PUSHB   2
+  1085: BRK
+  1086: PUSH0
+  1087: BRK
+  1088: PUSH1
+  1089: BRK
+  1090: PUSH1
+  1091: BRK
+  1092: PUSH1
+  1093: BRK
+  1094: PUSH1
+  1095: BRK
+  1096: PUSHIIB #1                    ; symbol "TRUE"
+  1098: BRK
+  1099: PUSHB   2
+  1101: BRK
+  1102: PUSH0
+  1103: BRK
+  1104: PUSH1
+  1105: BRK
+  1106: PUSH1
+  1107: BRK
+  1108: PUSH1
+  1109: BRK
+  1110: PUSHB   2
+  1112: BRK
+  1113: PUSHIIB #1                    ; symbol "TRUE"
+  1115: BRK
+  1116: PUSHB   2
+  1118: BRK
+  1119: PUSH0
+  1120: BRK
+  1121: PUSH1
+  1122: BRK
+  1123: PUSHB   2
+  1125: BRK
+  1126: PUSH1
+  1127: BRK
+  1128: PUSHB   2
+  1130: BRK
+  1131: PUSHIIB #1                    ; symbol "TRUE"
+  1133: BRK
+  1134: PUSHB   2
+  1136: BRK
+  1137: PUSH0
+  1138: BRK
+  1139: PUSH1
+  1140: BRK
+  1141: PUSHB   2
+  1143: BRK
+  1144: PUSH1
+  1145: BRK
+  1146: PUSHB   2
+  1148: BRK
+  1149: PUSHIIB #1                    ; symbol "TRUE"
+  1151: BRK
+  1152: PUSHB   2
+  1154: BRK
+  1155: PUSH0
+  1156: BRK
+  1157: PUSH1
+  1158: BRK
+  1159: PUSHB   2
+  1161: BRK
+  1162: PUSH1
+  1163: BRK
+  1164: PUSHB   2
+  1166: BRK
+  1167: PUSHIIB #1                    ; symbol "TRUE"
+  1169: BRK
+  1170: PUSHB   2
+  1172: BRK
+  1173: PUSH0
+  1174: BRK
+  1175: PUSH1
+  1176: BRK
+  1177: PUSHB   2
+  1179: BRK
+  1180: PUSH1
+  1181: BRK
+  1182: PUSHB   2
+  1184: BRK
+  1185: PUSHIIB #1                    ; symbol "TRUE"
+  1187: BRK
+  1188: PUSHB   2
+  1190: BRK
+  1191: PUSH0
+  1192: BRK
+  1193: PUSH1
+  1194: BRK
+  1195: PUSHB   2
+  1197: BRK
+  1198: PUSH1
+  1199: BRK
+  1200: PUSHB   2
+  1202: BRK
+  1203: PUSHIIB #1                    ; symbol "TRUE"
+  1205: BRK
+  1206: PUSHB   2
+  1208: BRK
+  1209: PUSH0
+  1210: BRK
+  1211: PUSH1
+  1212: BRK
+  1213: PUSHB   2
+  1215: BRK
+  1216: PUSH1
+  1217: BRK
+  1218: PUSHB   2
+  1220: BRK
+  1221: PUSHIIB #1                    ; symbol "TRUE"
+  1223: BRK
+  1224: PUSHB   2
+  1226: BRK
+  1227: PUSH0
+  1228: BRK
+  1229: PUSH1
+  1230: BRK
+  1231: PUSHB   2
+  1233: BRK
+  1234: PUSH1
+  1235: BRK
+  1236: PUSHB   2
+  1238: BRK
+  1239: PUSHIIB #1                    ; symbol "TRUE"
+  1241: BRK
+  1242: PUSHB   2
+  1244: BRK
+  1245: PUSH0
+  1246: BRK
+  1247: PUSH1
+  1248: BRK
+  1249: PUSHB   2
+  1251: BRK
+  1252: PUSH1
+  1253: BRK
+  1254: PUSHB   2
+  1256: BRK
+  1257: PUSHIIB #1                    ; symbol "TRUE"
+  1259: BRK
+  1260: PUSHB   2
+  1262: BRK
+  1263: PUSH0
+  1264: BRK
+  1265: PUSH1
+  1266: BRK
+  1267: PUSHB   2
+  1269: BRK
+  1270: PUSH1
+  1271: BRK
+  1272: PUSHB   2
+  1274: BRK
+  1275: PUSHIIB #1                    ; symbol "TRUE"
+  1277: BRK
+  1278: PUSHB   2
+  1280: BRK
+  1281: PUSH0
+  1282: BRK
+  1283: PUSH1
+  1284: BRK
+  1285: PUSHB   2
+  1287: BRK
+  1288: PUSH1
+  1289: BRK
+  1290: PUSHB   2
+  1292: BRK
+  1293: PUSHIIB #1                    ; symbol "TRUE"
+  1295: BRK
+  1296: PUSHB   2
+  1298: BRK
+  1299: PUSH0
+  1300: BRK
+  1301: PUSH1
+  1302: BRK
+  1303: PUSHB   2
+  1305: BRK
+  1306: PUSH1
+  1307: BRK
+  1308: PUSHB   2
+  1310: BRK
+  1311: PUSHIIB #1                    ; symbol "TRUE"
+  1313: BRK
+  1314: PUSHB   2
+  1316: BRK
+  1317: PUSH0
+  1318: BRK
+  1319: PUSH1
+  1320: BRK
+  1321: PUSHB   2
+  1323: BRK
+  1324: PUSH1
+  1325: BRK
+  1326: PUSHB   2
+  1328: BRK
+  1329: PUSHIIB #1                    ; symbol "TRUE"
+  1331: BRK
+  1332: PUSHB   2
+  1334: BRK
+  1335: PUSH0
+  1336: BRK
+  1337: PUSH1
+  1338: BRK
+  1339: PUSHB   2
+  1341: BRK
+  1342: PUSH1
+  1343: BRK
+  1344: PUSHB   2
+  1346: BRK
+  1347: PUSHIIB #1                    ; symbol "TRUE"
+  1349: BRK
+  1350: PUSHB   2
+  1352: BRK
+  1353: PUSH0
+  1354: BRK
+  1355: PUSH1
+  1356: BRK
+  1357: PUSHB   2
+  1359: BRK
+  1360: PUSH1
+  1361: BRK
+  1362: PUSHB   2
+  1364: BRK
+  1365: PUSHIIB #1                    ; symbol "TRUE"
+  1367: BRK
+  1368: PUSHB   2
+  1370: BRK
+  1371: PUSH0
+  1372: BRK
+  1373: PUSH1
+  1374: BRK
+  1375: PUSHB   2
+  1377: BRK
+  1378: PUSH1
+  1379: BRK
+  1380: PUSHB   2
+  1382: BRK
+  1383: PUSHIIB #1                    ; symbol "TRUE"
+  1385: BRK
+  1386: PUSHB   2
+  1388: BRK
+  1389: PUSH0
+  1390: BRK
+  1391: PUSH1
+  1392: BRK
+  1393: PUSHB   2
+  1395: BRK
+  1396: PUSH1
+  1397: BRK
+  1398: PUSHB   2
+  1400: BRK
+  1401: PUSHIIB #1                    ; symbol "TRUE"
+  1403: BRK
+  1404: PUSHB   2
+  1406: BRK
+  1407: PUSH0
+  1408: BRK
+  1409: PUSH1
+  1410: BRK
+  1411: PUSHB   2
+  1413: BRK
+  1414: PUSH1
+  1415: BRK
+  1416: PUSHB   2
+  1418: BRK
+  1419: PUSHIIB #1                    ; symbol "TRUE"
+  1421: BRK
+  1422: PUSHB   2
+  1424: BRK
+  1425: PUSH0
+  1426: BRK
+  1427: PUSH1
+  1428: BRK
+  1429: PUSHB   2
+  1431: BRK
+  1432: PUSH1
+  1433: BRK
+  1434: PUSHB   2
+  1436: BRK
+  1437: PUSHIIB #1                    ; symbol "TRUE"
+  1439: BRK
+  1440: PUSHB   2
+  1442: BRK
+  1443: PUSH0
+  1444: BRK
+  1445: PUSH1
+  1446: BRK
+  1447: PUSHB   2
+  1449: BRK
+  1450: PUSH1
+  1451: BRK
+  1452: PUSHB   2
+  1454: BRK
+  1455: PUSHIIB #1                    ; symbol "TRUE"
+  1457: BRK
+  1458: PUSHB   2
+  1460: BRK
+  1461: PUSH0
+  1462: BRK
+  1463: PUSH1
+  1464: BRK
+  1465: PUSHB   2
+  1467: BRK
+  1468: PUSH1
+  1469: BRK
+  1470: PUSHB   2
+  1472: BRK
+  1473: POP
+  1474: PUSHIIB #0                    ; symbol "CreateTerrainMaterial"
+  1476: CALL    argc=226              ; args @2390, @2392, @2394, @2397, @2400, @2402, @2404, @2407, @2409, @2412, @2415, @2418, @2420, @2422, @2425, @2427, @2430, @2433, @2436, @2438, @2440, @2443, @2445, @2448, @2451, @2454, @2456, @2458, @2461, @2463, @2466, @2469, @2472, @2474, @2476, @2479, @2481, @2484, @2487, @2490, @2492, @2494, @2497, @2499, @2502, @2505, @2508, @2510, @2512, @2515, @2517, @2520, @2523, @2526, @2528, @2530, @2533, @2535, @2538, @2541, @2544, @2546, @2548, @2551, @2553, @2556, @2559, @2562, @2564, @2566, @2569, @2571, @2574, @2577, @2580, @2582, @2584, @2587, @2589, @2592, @2595, @2598, @2600, @2602, @2605, @2607, @2610, @2613, @2616, @2618, @2620, @2623, @2625, @2628, @2631, @2634, @2636, @2638, @2641, @2643, @2646, @2649, @2652, @2654, @2656, @2659, @2661, @2664, @2667, @2670, @2672, @2674, @2677, @2679, @2682, @2685, @2688, @2690, @2692, @2695, @2697, @2700, @2703, @2706, @2708, @2710, @2713, @2715, @2718, @2721, @2724, @2726, @2728, @2731, @2733, @2736, @2739, @2742, @2744, @2746, @2749, @2751, @2754, @2757, @2760, @2762, @2764, @2767, @2769, @2772, @2775, @2778, @2780, @2782, @2785, @2787, @2790, @2793, @2796, @2798, @2800, @2803, @2805, @2808, @2811, @2814, @2816, @2818, @2821, @2823, @2826, @2829, @2832, @2834, @2836, @2839, @2841, @2844, @2847, @2850, @2852, @2854, @2857, @2859, @2862, @2865, @2868, @2870, @2872, @2875, @2877, @2880, @2883, @2886, @2888, @2890, @2893, @2895, @2898, @2901, @2904, @2906, @2908, @2911, @2913, @2916, @2919, @2922, @2924, @2926, @2929, @2931, @2934, @2937, @2940, @2942, @2944, @2947, @2949, @2952, @2955, @2958, @2960, @2962, @2965, @2967
+  2385: BRA     +580                  ; -> 2970
+  2390: PUSH1
+  2391: BRK
+  2392: PUSH1
+  2393: BRK
+  2394: PUSHIIB #1                    ; symbol "TRUE"
+  2396: BRK
+  2397: PUSHB   2
+  2399: BRK
+  2400: PUSH0
+  2401: BRK
+  2402: PUSH1
+  2403: BRK
+  2404: PUSHB   3
+  2406: BRK
+  2407: PUSH1
+  2408: BRK
+  2409: PUSHB   3
+  2411: BRK
+  2412: PUSHIIB #1                    ; symbol "TRUE"
+  2414: BRK
+  2415: PUSHB   2
+  2417: BRK
+  2418: PUSH0
+  2419: BRK
+  2420: PUSH1
+  2421: BRK
+  2422: PUSHB   3
+  2424: BRK
+  2425: PUSH1
+  2426: BRK
+  2427: PUSHB   3
+  2429: BRK
+  2430: PUSHIIB #1                    ; symbol "TRUE"
+  2432: BRK
+  2433: PUSHB   2
+  2435: BRK
+  2436: PUSH0
+  2437: BRK
+  2438: PUSH1
+  2439: BRK
+  2440: PUSHB   3
+  2442: BRK
+  2443: PUSH1
+  2444: BRK
+  2445: PUSHB   3
+  2447: BRK
+  2448: PUSHIIB #1                    ; symbol "TRUE"
+  2450: BRK
+  2451: PUSHB   2
+  2453: BRK
+  2454: PUSH0
+  2455: BRK
+  2456: PUSH1
+  2457: BRK
+  2458: PUSHB   3
+  2460: BRK
+  2461: PUSH1
+  2462: BRK
+  2463: PUSHB   3
+  2465: BRK
+  2466: PUSHIIB #1                    ; symbol "TRUE"
+  2468: BRK
+  2469: PUSHB   2
+  2471: BRK
+  2472: PUSH0
+  2473: BRK
+  2474: PUSH1
+  2475: BRK
+  2476: PUSHB   3
+  2478: BRK
+  2479: PUSH1
+  2480: BRK
+  2481: PUSHB   3
+  2483: BRK
+  2484: PUSHIIB #1                    ; symbol "TRUE"
+  2486: BRK
+  2487: PUSHB   2
+  2489: BRK
+  2490: PUSH0
+  2491: BRK
+  2492: PUSH1
+  2493: BRK
+  2494: PUSHB   3
+  2496: BRK
+  2497: PUSH1
+  2498: BRK
+  2499: PUSHB   3
+  2501: BRK
+  2502: PUSHIIB #1                    ; symbol "TRUE"
+  2504: BRK
+  2505: PUSHB   2
+  2507: BRK
+  2508: PUSH0
+  2509: BRK
+  2510: PUSH1
+  2511: BRK
+  2512: PUSHB   3
+  2514: BRK
+  2515: PUSH1
+  2516: BRK
+  2517: PUSHB   3
+  2519: BRK
+  2520: PUSHIIB #1                    ; symbol "TRUE"
+  2522: BRK
+  2523: PUSHB   2
+  2525: BRK
+  2526: PUSH0
+  2527: BRK
+  2528: PUSH1
+  2529: BRK
+  2530: PUSHB   3
+  2532: BRK
+  2533: PUSH1
+  2534: BRK
+  2535: PUSHB   3
+  2537: BRK
+  2538: PUSHIIB #1                    ; symbol "TRUE"
+  2540: BRK
+  2541: PUSHB   2
+  2543: BRK
+  2544: PUSH0
+  2545: BRK
+  2546: PUSH1
+  2547: BRK
+  2548: PUSHB   3
+  2550: BRK
+  2551: PUSH1
+  2552: BRK
+  2553: PUSHB   3
+  2555: BRK
+  2556: PUSHIIB #1                    ; symbol "TRUE"
+  2558: BRK
+  2559: PUSHB   2
+  2561: BRK
+  2562: PUSH0
+  2563: BRK
+  2564: PUSH1
+  2565: BRK
+  2566: PUSHB   3
+  2568: BRK
+  2569: PUSH1
+  2570: BRK
+  2571: PUSHB   3
+  2573: BRK
+  2574: PUSHIIB #1                    ; symbol "TRUE"
+  2576: BRK
+  2577: PUSHB   2
+  2579: BRK
+  2580: PUSH0
+  2581: BRK
+  2582: PUSH1
+  2583: BRK
+  2584: PUSHB   3
+  2586: BRK
+  2587: PUSH1
+  2588: BRK
+  2589: PUSHB   3
+  2591: BRK
+  2592: PUSHIIB #1                    ; symbol "TRUE"
+  2594: BRK
+  2595: PUSHB   2
+  2597: BRK
+  2598: PUSH0
+  2599: BRK
+  2600: PUSH1
+  2601: BRK
+  2602: PUSHB   3
+  2604: BRK
+  2605: PUSH1
+  2606: BRK
+  2607: PUSHB   3
+  2609: BRK
+  2610: PUSHIIB #1                    ; symbol "TRUE"
+  2612: BRK
+  2613: PUSHB   2
+  2615: BRK
+  2616: PUSH0
+  2617: BRK
+  2618: PUSH1
+  2619: BRK
+  2620: PUSHB   3
+  2622: BRK
+  2623: PUSH1
+  2624: BRK
+  2625: PUSHB   3
+  2627: BRK
+  2628: PUSHIIB #1                    ; symbol "TRUE"
+  2630: BRK
+  2631: PUSHB   2
+  2633: BRK
+  2634: PUSH0
+  2635: BRK
+  2636: PUSH1
+  2637: BRK
+  2638: PUSHB   3
+  2640: BRK
+  2641: PUSH1
+  2642: BRK
+  2643: PUSHB   3
+  2645: BRK
+  2646: PUSHIIB #1                    ; symbol "TRUE"
+  2648: BRK
+  2649: PUSHB   2
+  2651: BRK
+  2652: PUSH0
+  2653: BRK
+  2654: PUSH1
+  2655: BRK
+  2656: PUSHB   3
+  2658: BRK
+  2659: PUSH1
+  2660: BRK
+  2661: PUSHB   3
+  2663: BRK
+  2664: PUSHIIB #1                    ; symbol "TRUE"
+  2666: BRK
+  2667: PUSHB   2
+  2669: BRK
+  2670: PUSH0
+  2671: BRK
+  2672: PUSH1
+  2673: BRK
+  2674: PUSHB   3
+  2676: BRK
+  2677: PUSH1
+  2678: BRK
+  2679: PUSHB   3
+  2681: BRK
+  2682: PUSHIIB #1                    ; symbol "TRUE"
+  2684: BRK
+  2685: PUSHB   2
+  2687: BRK
+  2688: PUSH0
+  2689: BRK
+  2690: PUSH1
+  2691: BRK
+  2692: PUSHB   3
+  2694: BRK
+  2695: PUSH1
+  2696: BRK
+  2697: PUSHB   3
+  2699: BRK
+  2700: PUSHIIB #1                    ; symbol "TRUE"
+  2702: BRK
+  2703: PUSHB   2
+  2705: BRK
+  2706: PUSH0
+  2707: BRK
+  2708: PUSH1
+  2709: BRK
+  2710: PUSHB   3
+  2712: BRK
+  2713: PUSH1
+  2714: BRK
+  2715: PUSHB   3
+  2717: BRK
+  2718: PUSHIIB #1                    ; symbol "TRUE"
+  2720: BRK
+  2721: PUSHB   2
+  2723: BRK
+  2724: PUSH0
+  2725: BRK
+  2726: PUSH1
+  2727: BRK
+  2728: PUSHB   3
+  2730: BRK
+  2731: PUSH1
+  2732: BRK
+  2733: PUSHB   3
+  2735: BRK
+  2736: PUSHIIB #1                    ; symbol "TRUE"
+  2738: BRK
+  2739: PUSHB   2
+  2741: BRK
+  2742: PUSH0
+  2743: BRK
+  2744: PUSH1
+  2745: BRK
+  2746: PUSHB   3
+  2748: BRK
+  2749: PUSH1
+  2750: BRK
+  2751: PUSHB   3
+  2753: BRK
+  2754: PUSHIIB #1                    ; symbol "TRUE"
+  2756: BRK
+  2757: PUSHB   2
+  2759: BRK
+  2760: PUSH0
+  2761: BRK
+  2762: PUSH1
+  2763: BRK
+  2764: PUSHB   3
+  2766: BRK
+  2767: PUSH1
+  2768: BRK
+  2769: PUSHB   3
+  2771: BRK
+  2772: PUSHIIB #1                    ; symbol "TRUE"
+  2774: BRK
+  2775: PUSHB   2
+  2777: BRK
+  2778: PUSH0
+  2779: BRK
+  2780: PUSH1
+  2781: BRK
+  2782: PUSHB   3
+  2784: BRK
+  2785: PUSH1
+  2786: BRK
+  2787: PUSHB   3
+  2789: BRK
+  2790: PUSHIIB #1                    ; symbol "TRUE"
+  2792: BRK
+  2793: PUSHB   2
+  2795: BRK
+  2796: PUSH0
+  2797: BRK
+  2798: PUSH1
+  2799: BRK
+  2800: PUSHB   3
+  2802: BRK
+  2803: PUSH1
+  2804: BRK
+  2805: PUSHB   3
+  2807: BRK
+  2808: PUSHIIB #1                    ; symbol "TRUE"
+  2810: BRK
+  2811: PUSHB   2
+  2813: BRK
+  2814: PUSH0
+  2815: BRK
+  2816: PUSH1
+  2817: BRK
+  2818: PUSHB   3
+  2820: BRK
+  2821: PUSH1
+  2822: BRK
+  2823: PUSHB   3
+  2825: BRK
+  2826: PUSHIIB #1                    ; symbol "TRUE"
+  2828: BRK
+  2829: PUSHB   2
+  2831: BRK
+  2832: PUSH0
+  2833: BRK
+  2834: PUSH1
+  2835: BRK
+  2836: PUSHB   3
+  2838: BRK
+  2839: PUSH1
+  2840: BRK
+  2841: PUSHB   3
+  2843: BRK
+  2844: PUSHIIB #1                    ; symbol "TRUE"
+  2846: BRK
+  2847: PUSHB   2
+  2849: BRK
+  2850: PUSH0
+  2851: BRK
+  2852: PUSH1
+  2853: BRK
+  2854: PUSHB   3
+  2856: BRK
+  2857: PUSH1
+  2858: BRK
+  2859: PUSHB   3
+  2861: BRK
+  2862: PUSHIIB #1                    ; symbol "TRUE"
+  2864: BRK
+  2865: PUSHB   2
+  2867: BRK
+  2868: PUSH0
+  2869: BRK
+  2870: PUSH1
+  2871: BRK
+  2872: PUSHB   3
+  2874: BRK
+  2875: PUSH1
+  2876: BRK
+  2877: PUSHB   3
+  2879: BRK
+  2880: PUSHIIB #1                    ; symbol "TRUE"
+  2882: BRK
+  2883: PUSHB   2
+  2885: BRK
+  2886: PUSH0
+  2887: BRK
+  2888: PUSH1
+  2889: BRK
+  2890: PUSHB   3
+  2892: BRK
+  2893: PUSH1
+  2894: BRK
+  2895: PUSHB   3
+  2897: BRK
+  2898: PUSHIIB #1                    ; symbol "TRUE"
+  2900: BRK
+  2901: PUSHB   2
+  2903: BRK
+  2904: PUSH0
+  2905: BRK
+  2906: PUSH1
+  2907: BRK
+  2908: PUSHB   3
+  2910: BRK
+  2911: PUSH1
+  2912: BRK
+  2913: PUSHB   3
+  2915: BRK
+  2916: PUSHIIB #1                    ; symbol "TRUE"
+  2918: BRK
+  2919: PUSHB   2
+  2921: BRK
+  2922: PUSH0
+  2923: BRK
+  2924: PUSH1
+  2925: BRK
+  2926: PUSHB   3
+  2928: BRK
+  2929: PUSH1
+  2930: BRK
+  2931: PUSHB   3
+  2933: BRK
+  2934: PUSHIIB #1                    ; symbol "TRUE"
+  2936: BRK
+  2937: PUSHB   2
+  2939: BRK
+  2940: PUSH0
+  2941: BRK
+  2942: PUSH1
+  2943: BRK
+  2944: PUSHB   3
+  2946: BRK
+  2947: PUSH1
+  2948: BRK
+  2949: PUSHB   3
+  2951: BRK
+  2952: PUSHIIB #1                    ; symbol "TRUE"
+  2954: BRK
+  2955: PUSHB   2
+  2957: BRK
+  2958: PUSH0
+  2959: BRK
+  2960: PUSH1
+  2961: BRK
+  2962: PUSHB   3
+  2964: BRK
+  2965: PUSH1
+  2966: BRK
+  2967: PUSHB   3
+  2969: BRK
+  2970: POP
+  2971: PUSHIIB #0                    ; symbol "CreateTerrainMaterial"
+  2973: CALL    argc=226              ; args @3887, @3890, @3892, @3895, @3898, @3900, @3902, @3905, @3907, @3910, @3913, @3916, @3918, @3920, @3923, @3925, @3928, @3931, @3934, @3936, @3938, @3941, @3943, @3946, @3949, @3952, @3954, @3956, @3959, @3961, @3964, @3967, @3970, @3972, @3974, @3977, @3979, @3982, @3985, @3988, @3990, @3992, @3995, @3997, @4000, @4003, @4006, @4008, @4010, @4013, @4015, @4018, @4021, @4024, @4026, @4028, @4031, @4033, @4036, @4039, @4042, @4044, @4046, @4049, @4051, @4054, @4057, @4060, @4062, @4064, @4067, @4069, @4072, @4075, @4078, @4080, @4082, @4085, @4087, @4090, @4093, @4096, @4098, @4100, @4103, @4105, @4108, @4111, @4114, @4116, @4118, @4121, @4123, @4126, @4129, @4132, @4134, @4136, @4139, @4141, @4144, @4147, @4150, @4152, @4154, @4157, @4159, @4162, @4165, @4168, @4170, @4172, @4175, @4177, @4180, @4183, @4186, @4188, @4190, @4193, @4195, @4198, @4201, @4204, @4206, @4208, @4211, @4213, @4216, @4219, @4222, @4224, @4226, @4229, @4231, @4234, @4237, @4240, @4242, @4244, @4247, @4249, @4252, @4255, @4258, @4260, @4262, @4265, @4267, @4270, @4273, @4276, @4278, @4280, @4283, @4285, @4288, @4291, @4294, @4296, @4298, @4301, @4303, @4306, @4309, @4312, @4314, @4316, @4319, @4321, @4324, @4327, @4330, @4332, @4334, @4337, @4339, @4342, @4345, @4348, @4350, @4352, @4355, @4357, @4360, @4363, @4366, @4368, @4370, @4373, @4375, @4378, @4381, @4384, @4386, @4388, @4391, @4393, @4396, @4399, @4402, @4404, @4406, @4409, @4411, @4414, @4417, @4420, @4422, @4424, @4427, @4429, @4432, @4435, @4438, @4440, @4442, @4445, @4447, @4450, @4453, @4456, @4458, @4460, @4463, @4465
+  3882: BRA     +581                  ; -> 4468
+  3887: PUSHB   2
+  3889: BRK
+  3890: PUSH1
+  3891: BRK
+  3892: PUSHIIB #1                    ; symbol "TRUE"
+  3894: BRK
+  3895: PUSHB   2
+  3897: BRK
+  3898: PUSH0
+  3899: BRK
+  3900: PUSH1
+  3901: BRK
+  3902: PUSHB   4
+  3904: BRK
+  3905: PUSH1
+  3906: BRK
+  3907: PUSHB   4
+  3909: BRK
+  3910: PUSHIIB #1                    ; symbol "TRUE"
+  3912: BRK
+  3913: PUSHB   2
+  3915: BRK
+  3916: PUSH0
+  3917: BRK
+  3918: PUSH1
+  3919: BRK
+  3920: PUSHB   4
+  3922: BRK
+  3923: PUSH1
+  3924: BRK
+  3925: PUSHB   4
+  3927: BRK
+  3928: PUSHIIB #1                    ; symbol "TRUE"
+  3930: BRK
+  3931: PUSHB   2
+  3933: BRK
+  3934: PUSH0
+  3935: BRK
+  3936: PUSH1
+  3937: BRK
+  3938: PUSHB   4
+  3940: BRK
+  3941: PUSH1
+  3942: BRK
+  3943: PUSHB   4
+  3945: BRK
+  3946: PUSHIIB #1                    ; symbol "TRUE"
+  3948: BRK
+  3949: PUSHB   2
+  3951: BRK
+  3952: PUSH0
+  3953: BRK
+  3954: PUSH1
+  3955: BRK
+  3956: PUSHB   4
+  3958: BRK
+  3959: PUSH1
+  3960: BRK
+  3961: PUSHB   4
+  3963: BRK
+  3964: PUSHIIB #1                    ; symbol "TRUE"
+  3966: BRK
+  3967: PUSHB   2
+  3969: BRK
+  3970: PUSH0
+  3971: BRK
+  3972: PUSH1
+  3973: BRK
+  3974: PUSHB   4
+  3976: BRK
+  3977: PUSH1
+  3978: BRK
+  3979: PUSHB   4
+  3981: BRK
+  3982: PUSHIIB #1                    ; symbol "TRUE"
+  3984: BRK
+  3985: PUSHB   2
+  3987: BRK
+  3988: PUSH0
+  3989: BRK
+  3990: PUSH1
+  3991: BRK
+  3992: PUSHB   4
+  3994: BRK
+  3995: PUSH1
+  3996: BRK
+  3997: PUSHB   4
+  3999: BRK
+  4000: PUSHIIB #1                    ; symbol "TRUE"
+  4002: BRK
+  4003: PUSHB   2
+  4005: BRK
+  4006: PUSH0
+  4007: BRK
+  4008: PUSH1
+  4009: BRK
+  4010: PUSHB   4
+  4012: BRK
+  4013: PUSH1
+  4014: BRK
+  4015: PUSHB   4
+  4017: BRK
+  4018: PUSHIIB #1                    ; symbol "TRUE"
+  4020: BRK
+  4021: PUSHB   2
+  4023: BRK
+  4024: PUSH0
+  4025: BRK
+  4026: PUSH1
+  4027: BRK
+  4028: PUSHB   4
+  4030: BRK
+  4031: PUSH1
+  4032: BRK
+  4033: PUSHB   4
+  4035: BRK
+  4036: PUSHIIB #1                    ; symbol "TRUE"
+  4038: BRK
+  4039: PUSHB   2
+  4041: BRK
+  4042: PUSH0
+  4043: BRK
+  4044: PUSH1
+  4045: BRK
+  4046: PUSHB   4
+  4048: BRK
+  4049: PUSH1
+  4050: BRK
+  4051: PUSHB   4
+  4053: BRK
+  4054: PUSHIIB #1                    ; symbol "TRUE"
+  4056: BRK
+  4057: PUSHB   2
+  4059: BRK
+  4060: PUSH0
+  4061: BRK
+  4062: PUSH1
+  4063: BRK
+  4064: PUSHB   4
+  4066: BRK
+  4067: PUSH1
+  4068: BRK
+  4069: PUSHB   4
+  4071: BRK
+  4072: PUSHIIB #1                    ; symbol "TRUE"
+  4074: BRK
+  4075: PUSHB   2
+  4077: BRK
+  4078: PUSH0
+  4079: BRK
+  4080: PUSH1
+  4081: BRK
+  4082: PUSHB   4
+  4084: BRK
+  4085: PUSH1
+  4086: BRK
+  4087: PUSHB   4
+  4089: BRK
+  4090: PUSHIIB #1                    ; symbol "TRUE"
+  4092: BRK
+  4093: PUSHB   2
+  4095: BRK
+  4096: PUSH0
+  4097: BRK
+  4098: PUSH1
+  4099: BRK
+  4100: PUSHB   4
+  4102: BRK
+  4103: PUSH1
+  4104: BRK
+  4105: PUSHB   4
+  4107: BRK
+  4108: PUSHIIB #1                    ; symbol "TRUE"
+  4110: BRK
+  4111: PUSHB   2
+  4113: BRK
+  4114: PUSH0
+  4115: BRK
+  4116: PUSH1
+  4117: BRK
+  4118: PUSHB   4
+  4120: BRK
+  4121: PUSH1
+  4122: BRK
+  4123: PUSHB   4
+  4125: BRK
+  4126: PUSHIIB #1                    ; symbol "TRUE"
+  4128: BRK
+  4129: PUSHB   2
+  4131: BRK
+  4132: PUSH0
+  4133: BRK
+  4134: PUSH1
+  4135: BRK
+  4136: PUSHB   4
+  4138: BRK
+  4139: PUSH1
+  4140: BRK
+  4141: PUSHB   4
+  4143: BRK
+  4144: PUSHIIB #1                    ; symbol "TRUE"
+  4146: BRK
+  4147: PUSHB   2
+  4149: BRK
+  4150: PUSH0
+  4151: BRK
+  4152: PUSH1
+  4153: BRK
+  4154: PUSHB   4
+  4156: BRK
+  4157: PUSH1
+  4158: BRK
+  4159: PUSHB   4
+  4161: BRK
+  4162: PUSHIIB #1                    ; symbol "TRUE"
+  4164: BRK
+  4165: PUSHB   2
+  4167: BRK
+  4168: PUSH0
+  4169: BRK
+  4170: PUSH1
+  4171: BRK
+  4172: PUSHB   4
+  4174: BRK
+  4175: PUSH1
+  4176: BRK
+  4177: PUSHB   4
+  4179: BRK
+  4180: PUSHIIB #1                    ; symbol "TRUE"
+  4182: BRK
+  4183: PUSHB   2
+  4185: BRK
+  4186: PUSH0
+  4187: BRK
+  4188: PUSH1
+  4189: BRK
+  4190: PUSHB   4
+  4192: BRK
+  4193: PUSH1
+  4194: BRK
+  4195: PUSHB   4
+  4197: BRK
+  4198: PUSHIIB #1                    ; symbol "TRUE"
+  4200: BRK
+  4201: PUSHB   2
+  4203: BRK
+  4204: PUSH0
+  4205: BRK
+  4206: PUSH1
+  4207: BRK
+  4208: PUSHB   4
+  4210: BRK
+  4211: PUSH1
+  4212: BRK
+  4213: PUSHB   4
+  4215: BRK
+  4216: PUSHIIB #1                    ; symbol "TRUE"
+  4218: BRK
+  4219: PUSHB   2
+  4221: BRK
+  4222: PUSH0
+  4223: BRK
+  4224: PUSH1
+  4225: BRK
+  4226: PUSHB   4
+  4228: BRK
+  4229: PUSH1
+  4230: BRK
+  4231: PUSHB   4
+  4233: BRK
+  4234: PUSHIIB #1                    ; symbol "TRUE"
+  4236: BRK
+  4237: PUSHB   2
+  4239: BRK
+  4240: PUSH0
+  4241: BRK
+  4242: PUSH1
+  4243: BRK
+  4244: PUSHB   4
+  4246: BRK
+  4247: PUSH1
+  4248: BRK
+  4249: PUSHB   4
+  4251: BRK
+  4252: PUSHIIB #1                    ; symbol "TRUE"
+  4254: BRK
+  4255: PUSHB   2
+  4257: BRK
+  4258: PUSH0
+  4259: BRK
+  4260: PUSH1
+  4261: BRK
+  4262: PUSHB   4
+  4264: BRK
+  4265: PUSH1
+  4266: BRK
+  4267: PUSHB   4
+  4269: BRK
+  4270: PUSHIIB #1                    ; symbol "TRUE"
+  4272: BRK
+  4273: PUSHB   2
+  4275: BRK
+  4276: PUSH0
+  4277: BRK
+  4278: PUSH1
+  4279: BRK
+  4280: PUSHB   4
+  4282: BRK
+  4283: PUSH1
+  4284: BRK
+  4285: PUSHB   4
+  4287: BRK
+  4288: PUSHIIB #1                    ; symbol "TRUE"
+  4290: BRK
+  4291: PUSHB   2
+  4293: BRK
+  4294: PUSH0
+  4295: BRK
+  4296: PUSH1
+  4297: BRK
+  4298: PUSHB   4
+  4300: BRK
+  4301: PUSH1
+  4302: BRK
+  4303: PUSHB   4
+  4305: BRK
+  4306: PUSHIIB #1                    ; symbol "TRUE"
+  4308: BRK
+  4309: PUSHB   2
+  4311: BRK
+  4312: PUSH0
+  4313: BRK
+  4314: PUSH1
+  4315: BRK
+  4316: PUSHB   4
+  4318: BRK
+  4319: PUSH1
+  4320: BRK
+  4321: PUSHB   4
+  4323: BRK
+  4324: PUSHIIB #1                    ; symbol "TRUE"
+  4326: BRK
+  4327: PUSHB   2
+  4329: BRK
+  4330: PUSH0
+  4331: BRK
+  4332: PUSH1
+  4333: BRK
+  4334: PUSHB   4
+  4336: BRK
+  4337: PUSH1
+  4338: BRK
+  4339: PUSHB   4
+  4341: BRK
+  4342: PUSHIIB #1                    ; symbol "TRUE"
+  4344: BRK
+  4345: PUSHB   2
+  4347: BRK
+  4348: PUSH0
+  4349: BRK
+  4350: PUSH1
+  4351: BRK
+  4352: PUSHB   4
+  4354: BRK
+  4355: PUSH1
+  4356: BRK
+  4357: PUSHB   4
+  4359: BRK
+  4360: PUSHIIB #1                    ; symbol "TRUE"
+  4362: BRK
+  4363: PUSHB   2
+  4365: BRK
+  4366: PUSH0
+  4367: BRK
+  4368: PUSH1
+  4369: BRK
+  4370: PUSHB   4
+  4372: BRK
+  4373: PUSH1
+  4374: BRK
+  4375: PUSHB   4
+  4377: BRK
+  4378: PUSHIIB #1                    ; symbol "TRUE"
+  4380: BRK
+  4381: PUSHB   2
+  4383: BRK
+  4384: PUSH0
+  4385: BRK
+  4386: PUSH1
+  4387: BRK
+  4388: PUSHB   4
+  4390: BRK
+  4391: PUSH1
+  4392: BRK
+  4393: PUSHB   4
+  4395: BRK
+  4396: PUSHIIB #1                    ; symbol "TRUE"
+  4398: BRK
+  4399: PUSHB   2
+  4401: BRK
+  4402: PUSH0
+  4403: BRK
+  4404: PUSH1
+  4405: BRK
+  4406: PUSHB   4
+  4408: BRK
+  4409: PUSH1
+  4410: BRK
+  4411: PUSHB   4
+  4413: BRK
+  4414: PUSHIIB #1                    ; symbol "TRUE"
+  4416: BRK
+  4417: PUSHB   2
+  4419: BRK
+  4420: PUSH0
+  4421: BRK
+  4422: PUSH1
+  4423: BRK
+  4424: PUSHB   4
+  4426: BRK
+  4427: PUSH1
+  4428: BRK
+  4429: PUSHB   4
+  4431: BRK
+  4432: PUSHIIB #1                    ; symbol "TRUE"
+  4434: BRK
+  4435: PUSHB   2
+  4437: BRK
+  4438: PUSH0
+  4439: BRK
+  4440: PUSH1
+  4441: BRK
+  4442: PUSHB   4
+  4444: BRK
+  4445: PUSH1
+  4446: BRK
+  4447: PUSHB   4
+  4449: BRK
+  4450: PUSHIIB #1                    ; symbol "TRUE"
+  4452: BRK
+  4453: PUSHB   2
+  4455: BRK
+  4456: PUSH0
+  4457: BRK
+  4458: PUSH1
+  4459: BRK
+  4460: PUSHB   4
+  4462: BRK
+  4463: PUSH1
+  4464: BRK
+  4465: PUSHB   4
+  4467: BRK
+  4468: POP
+  4469: PUSHIIB #0                    ; symbol "CreateTerrainMaterial"
+  4471: CALL    argc=226              ; args @5385, @5388, @5390, @5393, @5396, @5398, @5400, @5403, @5405, @5408, @5411, @5414, @5416, @5418, @5421, @5423, @5426, @5429, @5432, @5434, @5436, @5439, @5441, @5444, @5447, @5450, @5452, @5454, @5457, @5459, @5462, @5465, @5468, @5470, @5472, @5475, @5477, @5480, @5483, @5486, @5488, @5490, @5493, @5495, @5498, @5501, @5504, @5506, @5508, @5511, @5513, @5516, @5519, @5522, @5524, @5526, @5529, @5531, @5534, @5537, @5540, @5542, @5544, @5547, @5549, @5552, @5555, @5558, @5560, @5562, @5565, @5567, @5570, @5573, @5576, @5578, @5580, @5583, @5585, @5588, @5591, @5594, @5596, @5598, @5601, @5603, @5606, @5609, @5612, @5614, @5616, @5619, @5621, @5624, @5627, @5630, @5632, @5634, @5637, @5639, @5642, @5645, @5648, @5650, @5652, @5655, @5657, @5660, @5663, @5666, @5668, @5670, @5673, @5675, @5678, @5681, @5684, @5686, @5688, @5691, @5693, @5696, @5699, @5702, @5704, @5706, @5709, @5711, @5714, @5717, @5720, @5722, @5724, @5727, @5729, @5732, @5735, @5738, @5740, @5742, @5745, @5747, @5750, @5753, @5756, @5758, @5760, @5763, @5765, @5768, @5771, @5774, @5776, @5778, @5781, @5783, @5786, @5789, @5792, @5794, @5796, @5799, @5801, @5804, @5807, @5810, @5812, @5814, @5817, @5819, @5822, @5825, @5828, @5830, @5832, @5835, @5837, @5840, @5843, @5846, @5848, @5850, @5853, @5855, @5858, @5861, @5864, @5866, @5868, @5871, @5873, @5876, @5879, @5882, @5884, @5886, @5889, @5891, @5894, @5897, @5900, @5902, @5904, @5907, @5909, @5912, @5915, @5918, @5920, @5922, @5925, @5927, @5930, @5933, @5936, @5938, @5940, @5943, @5945, @5948, @5951, @5954, @5956, @5958, @5961, @5963
+  5380: BRA     +581                  ; -> 5966
+  5385: PUSHB   3
+  5387: BRK
+  5388: PUSH1
+  5389: BRK
+  5390: PUSHIIB #1                    ; symbol "TRUE"
+  5392: BRK
+  5393: PUSHB   2
+  5395: BRK
+  5396: PUSH0
+  5397: BRK
+  5398: PUSH1
+  5399: BRK
+  5400: PUSHB   5
+  5402: BRK
+  5403: PUSH1
+  5404: BRK
+  5405: PUSHB   5
+  5407: BRK
+  5408: PUSHIIB #1                    ; symbol "TRUE"
+  5410: BRK
+  5411: PUSHB   2
+  5413: BRK
+  5414: PUSH0
+  5415: BRK
+  5416: PUSH1
+  5417: BRK
+  5418: PUSHB   5
+  5420: BRK
+  5421: PUSH1
+  5422: BRK
+  5423: PUSHB   5
+  5425: BRK
+  5426: PUSHIIB #1                    ; symbol "TRUE"
+  5428: BRK
+  5429: PUSHB   2
+  5431: BRK
+  5432: PUSH0
+  5433: BRK
+  5434: PUSH1
+  5435: BRK
+  5436: PUSHB   5
+  5438: BRK
+  5439: PUSH1
+  5440: BRK
+  5441: PUSHB   5
+  5443: BRK
+  5444: PUSHIIB #1                    ; symbol "TRUE"
+  5446: BRK
+  5447: PUSHB   2
+  5449: BRK
+  5450: PUSH0
+  5451: BRK
+  5452: PUSH1
+  5453: BRK
+  5454: PUSHB   5
+  5456: BRK
+  5457: PUSH1
+  5458: BRK
+  5459: PUSHB   5
+  5461: BRK
+  5462: PUSHIIB #1                    ; symbol "TRUE"
+  5464: BRK
+  5465: PUSHB   2
+  5467: BRK
+  5468: PUSH0
+  5469: BRK
+  5470: PUSH1
+  5471: BRK
+  5472: PUSHB   5
+  5474: BRK
+  5475: PUSH1
+  5476: BRK
+  5477: PUSHB   5
+  5479: BRK
+  5480: PUSHIIB #1                    ; symbol "TRUE"
+  5482: BRK
+  5483: PUSHB   2
+  5485: BRK
+  5486: PUSH0
+  5487: BRK
+  5488: PUSH1
+  5489: BRK
+  5490: PUSHB   5
+  5492: BRK
+  5493: PUSH1
+  5494: BRK
+  5495: PUSHB   5
+  5497: BRK
+  5498: PUSHIIB #1                    ; symbol "TRUE"
+  5500: BRK
+  5501: PUSHB   2
+  5503: BRK
+  5504: PUSH0
+  5505: BRK
+  5506: PUSH1
+  5507: BRK
+  5508: PUSHB   5
+  5510: BRK
+  5511: PUSH1
+  5512: BRK
+  5513: PUSHB   5
+  5515: BRK
+  5516: PUSHIIB #1                    ; symbol "TRUE"
+  5518: BRK
+  5519: PUSHB   2
+  5521: BRK
+  5522: PUSH0
+  5523: BRK
+  5524: PUSH1
+  5525: BRK
+  5526: PUSHB   5
+  5528: BRK
+  5529: PUSH1
+  5530: BRK
+  5531: PUSHB   5
+  5533: BRK
+  5534: PUSHIIB #1                    ; symbol "TRUE"
+  5536: BRK
+  5537: PUSHB   2
+  5539: BRK
+  5540: PUSH0
+  5541: BRK
+  5542: PUSH1
+  5543: BRK
+  5544: PUSHB   5
+  5546: BRK
+  5547: PUSH1
+  5548: BRK
+  5549: PUSHB   5
+  5551: BRK
+  5552: PUSHIIB #1                    ; symbol "TRUE"
+  5554: BRK
+  5555: PUSHB   2
+  5557: BRK
+  5558: PUSH0
+  5559: BRK
+  5560: PUSH1
+  5561: BRK
+  5562: PUSHB   5
+  5564: BRK
+  5565: PUSH1
+  5566: BRK
+  5567: PUSHB   5
+  5569: BRK
+  5570: PUSHIIB #1                    ; symbol "TRUE"
+  5572: BRK
+  5573: PUSHB   2
+  5575: BRK
+  5576: PUSH0
+  5577: BRK
+  5578: PUSH1
+  5579: BRK
+  5580: PUSHB   5
+  5582: BRK
+  5583: PUSH1
+  5584: BRK
+  5585: PUSHB   5
+  5587: BRK
+  5588: PUSHIIB #1                    ; symbol "TRUE"
+  5590: BRK
+  5591: PUSHB   2
+  5593: BRK
+  5594: PUSH0
+  5595: BRK
+  5596: PUSH1
+  5597: BRK
+  5598: PUSHB   5
+  5600: BRK
+  5601: PUSH1
+  5602: BRK
+  5603: PUSHB   5
+  5605: BRK
+  5606: PUSHIIB #1                    ; symbol "TRUE"
+  5608: BRK
+  5609: PUSHB   2
+  5611: BRK
+  5612: PUSH0
+  5613: BRK
+  5614: PUSH1
+  5615: BRK
+  5616: PUSHB   5
+  5618: BRK
+  5619: PUSH1
+  5620: BRK
+  5621: PUSHB   5
+  5623: BRK
+  5624: PUSHIIB #1                    ; symbol "TRUE"
+  5626: BRK
+  5627: PUSHB   2
+  5629: BRK
+  5630: PUSH0
+  5631: BRK
+  5632: PUSH1
+  5633: BRK
+  5634: PUSHB   5
+  5636: BRK
+  5637: PUSH1
+  5638: BRK
+  5639: PUSHB   5
+  5641: BRK
+  5642: PUSHIIB #1                    ; symbol "TRUE"
+  5644: BRK
+  5645: PUSHB   2
+  5647: BRK
+  5648: PUSH0
+  5649: BRK
+  5650: PUSH1
+  5651: BRK
+  5652: PUSHB   5
+  5654: BRK
+  5655: PUSH1
+  5656: BRK
+  5657: PUSHB   5
+  5659: BRK
+  5660: PUSHIIB #1                    ; symbol "TRUE"
+  5662: BRK
+  5663: PUSHB   2
+  5665: BRK
+  5666: PUSH0
+  5667: BRK
+  5668: PUSH1
+  5669: BRK
+  5670: PUSHB   5
+  5672: BRK
+  5673: PUSH1
+  5674: BRK
+  5675: PUSHB   5
+  5677: BRK
+  5678: PUSHIIB #1                    ; symbol "TRUE"
+  5680: BRK
+  5681: PUSHB   2
+  5683: BRK
+  5684: PUSH0
+  5685: BRK
+  5686: PUSH1
+  5687: BRK
+  5688: PUSHB   5
+  5690: BRK
+  5691: PUSH1
+  5692: BRK
+  5693: PUSHB   5
+  5695: BRK
+  5696: PUSHIIB #1                    ; symbol "TRUE"
+  5698: BRK
+  5699: PUSHB   2
+  5701: BRK
+  5702: PUSH0
+  5703: BRK
+  5704: PUSH1
+  5705: BRK
+  5706: PUSHB   5
+  5708: BRK
+  5709: PUSH1
+  5710: BRK
+  5711: PUSHB   5
+  5713: BRK
+  5714: PUSHIIB #1                    ; symbol "TRUE"
+  5716: BRK
+  5717: PUSHB   2
+  5719: BRK
+  5720: PUSH0
+  5721: BRK
+  5722: PUSH1
+  5723: BRK
+  5724: PUSHB   5
+  5726: BRK
+  5727: PUSH1
+  5728: BRK
+  5729: PUSHB   5
+  5731: BRK
+  5732: PUSHIIB #1                    ; symbol "TRUE"
+  5734: BRK
+  5735: PUSHB   2
+  5737: BRK
+  5738: PUSH0
+  5739: BRK
+  5740: PUSH1
+  5741: BRK
+  5742: PUSHB   5
+  5744: BRK
+  5745: PUSH1
+  5746: BRK
+  5747: PUSHB   5
+  5749: BRK
+  5750: PUSHIIB #1                    ; symbol "TRUE"
+  5752: BRK
+  5753: PUSHB   2
+  5755: BRK
+  5756: PUSH0
+  5757: BRK
+  5758: PUSH1
+  5759: BRK
+  5760: PUSHB   5
+  5762: BRK
+  5763: PUSH1
+  5764: BRK
+  5765: PUSHB   5
+  5767: BRK
+  5768: PUSHIIB #1                    ; symbol "TRUE"
+  5770: BRK
+  5771: PUSHB   2
+  5773: BRK
+  5774: PUSH0
+  5775: BRK
+  5776: PUSH1
+  5777: BRK
+  5778: PUSHB   5
+  5780: BRK
+  5781: PUSH1
+  5782: BRK
+  5783: PUSHB   5
+  5785: BRK
+  5786: PUSHIIB #1                    ; symbol "TRUE"
+  5788: BRK
+  5789: PUSHB   2
+  5791: BRK
+  5792: PUSH0
+  5793: BRK
+  5794: PUSH1
+  5795: BRK
+  5796: PUSHB   5
+  5798: BRK
+  5799: PUSH1
+  5800: BRK
+  5801: PUSHB   5
+  5803: BRK
+  5804: PUSHIIB #1                    ; symbol "TRUE"
+  5806: BRK
+  5807: PUSHB   2
+  5809: BRK
+  5810: PUSH0
+  5811: BRK
+  5812: PUSH1
+  5813: BRK
+  5814: PUSHB   5
+  5816: BRK
+  5817: PUSH1
+  5818: BRK
+  5819: PUSHB   5
+  5821: BRK
+  5822: PUSHIIB #1                    ; symbol "TRUE"
+  5824: BRK
+  5825: PUSHB   2
+  5827: BRK
+  5828: PUSH0
+  5829: BRK
+  5830: PUSH1
+  5831: BRK
+  5832: PUSHB   5
+  5834: BRK
+  5835: PUSH1
+  5836: BRK
+  5837: PUSHB   5
+  5839: BRK
+  5840: PUSHIIB #1                    ; symbol "TRUE"
+  5842: BRK
+  5843: PUSHB   2
+  5845: BRK
+  5846: PUSH0
+  5847: BRK
+  5848: PUSH1
+  5849: BRK
+  5850: PUSHB   5
+  5852: BRK
+  5853: PUSH1
+  5854: BRK
+  5855: PUSHB   5
+  5857: BRK
+  5858: PUSHIIB #1                    ; symbol "TRUE"
+  5860: BRK
+  5861: PUSHB   2
+  5863: BRK
+  5864: PUSH0
+  5865: BRK
+  5866: PUSH1
+  5867: BRK
+  5868: PUSHB   5
+  5870: BRK
+  5871: PUSH1
+  5872: BRK
+  5873: PUSHB   5
+  5875: BRK
+  5876: PUSHIIB #1                    ; symbol "TRUE"
+  5878: BRK
+  5879: PUSHB   2
+  5881: BRK
+  5882: PUSH0
+  5883: BRK
+  5884: PUSH1
+  5885: BRK
+  5886: PUSHB   5
+  5888: BRK
+  5889: PUSH1
+  5890: BRK
+  5891: PUSHB   5
+  5893: BRK
+  5894: PUSHIIB #1                    ; symbol "TRUE"
+  5896: BRK
+  5897: PUSHB   2
+  5899: BRK
+  5900: PUSH0
+  5901: BRK
+  5902: PUSH1
+  5903: BRK
+  5904: PUSHB   5
+  5906: BRK
+  5907: PUSH1
+  5908: BRK
+  5909: PUSHB   5
+  5911: BRK
+  5912: PUSHIIB #1                    ; symbol "TRUE"
+  5914: BRK
+  5915: PUSHB   2
+  5917: BRK
+  5918: PUSH0
+  5919: BRK
+  5920: PUSH1
+  5921: BRK
+  5922: PUSHB   5
+  5924: BRK
+  5925: PUSH1
+  5926: BRK
+  5927: PUSHB   5
+  5929: BRK
+  5930: PUSHIIB #1                    ; symbol "TRUE"
+  5932: BRK
+  5933: PUSHB   2
+  5935: BRK
+  5936: PUSH0
+  5937: BRK
+  5938: PUSH1
+  5939: BRK
+  5940: PUSHB   5
+  5942: BRK
+  5943: PUSH1
+  5944: BRK
+  5945: PUSHB   5
+  5947: BRK
+  5948: PUSHIIB #1                    ; symbol "TRUE"
+  5950: BRK
+  5951: PUSHB   2
+  5953: BRK
+  5954: PUSH0
+  5955: BRK
+  5956: PUSH1
+  5957: BRK
+  5958: PUSHB   5
+  5960: BRK
+  5961: PUSH1
+  5962: BRK
+  5963: PUSHB   5
+  5965: BRK
+  5966: POP
+  5967: PUSHIIB #0                    ; symbol "CreateTerrainMaterial"
+  5969: CALL    argc=226              ; args @6883, @6886, @6888, @6891, @6894, @6896, @6898, @6901, @6903, @6906, @6909, @6912, @6914, @6916, @6919, @6921, @6924, @6927, @6930, @6932, @6934, @6937, @6939, @6942, @6945, @6948, @6950, @6952, @6955, @6957, @6960, @6963, @6966, @6968, @6970, @6973, @6975, @6978, @6981, @6984, @6986, @6988, @6991, @6993, @6996, @6999, @7002, @7004, @7006, @7009, @7011, @7014, @7017, @7020, @7022, @7024, @7027, @7029, @7032, @7035, @7038, @7040, @7042, @7045, @7047, @7050, @7053, @7056, @7058, @7060, @7063, @7065, @7068, @7071, @7074, @7076, @7078, @7081, @7083, @7086, @7089, @7092, @7094, @7096, @7099, @7101, @7104, @7107, @7110, @7112, @7114, @7117, @7119, @7122, @7125, @7128, @7130, @7132, @7135, @7137, @7140, @7143, @7146, @7148, @7150, @7153, @7155, @7158, @7161, @7164, @7166, @7168, @7171, @7173, @7176, @7179, @7182, @7184, @7186, @7189, @7191, @7194, @7197, @7200, @7202, @7204, @7207, @7209, @7212, @7215, @7218, @7220, @7222, @7225, @7227, @7230, @7233, @7236, @7238, @7240, @7243, @7245, @7248, @7251, @7254, @7256, @7258, @7261, @7263, @7266, @7269, @7272, @7274, @7276, @7279, @7281, @7284, @7287, @7290, @7292, @7294, @7297, @7299, @7302, @7305, @7308, @7310, @7312, @7315, @7317, @7320, @7323, @7326, @7328, @7330, @7333, @7335, @7338, @7341, @7344, @7346, @7348, @7351, @7353, @7356, @7359, @7362, @7364, @7366, @7369, @7371, @7374, @7377, @7380, @7382, @7384, @7387, @7389, @7392, @7395, @7398, @7400, @7402, @7405, @7407, @7410, @7413, @7416, @7418, @7420, @7423, @7425, @7428, @7431, @7434, @7436, @7438, @7441, @7443, @7446, @7449, @7452, @7454, @7456, @7459, @7461
+  6878: BRA     +581                  ; -> 7464
+  6883: PUSHB   4
+  6885: BRK
+  6886: PUSH1
+  6887: BRK
+  6888: PUSHIIB #1                    ; symbol "TRUE"
+  6890: BRK
+  6891: PUSHB   2
+  6893: BRK
+  6894: PUSH0
+  6895: BRK
+  6896: PUSH1
+  6897: BRK
+  6898: PUSHB   6
+  6900: BRK
+  6901: PUSH1
+  6902: BRK
+  6903: PUSHB   6
+  6905: BRK
+  6906: PUSHIIB #1                    ; symbol "TRUE"
+  6908: BRK
+  6909: PUSHB   2
+  6911: BRK
+  6912: PUSH0
+  6913: BRK
+  6914: PUSH1
+  6915: BRK
+  6916: PUSHB   6
+  6918: BRK
+  6919: PUSH1
+  6920: BRK
+  6921: PUSHB   6
+  6923: BRK
+  6924: PUSHIIB #1                    ; symbol "TRUE"
+  6926: BRK
+  6927: PUSHB   2
+  6929: BRK
+  6930: PUSH0
+  6931: BRK
+  6932: PUSH1
+  6933: BRK
+  6934: PUSHB   6
+  6936: BRK
+  6937: PUSH1
+  6938: BRK
+  6939: PUSHB   6
+  6941: BRK
+  6942: PUSHIIB #1                    ; symbol "TRUE"
+  6944: BRK
+  6945: PUSHB   2
+  6947: BRK
+  6948: PUSH0
+  6949: BRK
+  6950: PUSH1
+  6951: BRK
+  6952: PUSHB   6
+  6954: BRK
+  6955: PUSH1
+  6956: BRK
+  6957: PUSHB   6
+  6959: BRK
+  6960: PUSHIIB #1                    ; symbol "TRUE"
+  6962: BRK
+  6963: PUSHB   2
+  6965: BRK
+  6966: PUSH0
+  6967: BRK
+  6968: PUSH1
+  6969: BRK
+  6970: PUSHB   6
+  6972: BRK
+  6973: PUSH1
+  6974: BRK
+  6975: PUSHB   6
+  6977: BRK
+  6978: PUSHIIB #1                    ; symbol "TRUE"
+  6980: BRK
+  6981: PUSHB   2
+  6983: BRK
+  6984: PUSH0
+  6985: BRK
+  6986: PUSH1
+  6987: BRK
+  6988: PUSHB   6
+  6990: BRK
+  6991: PUSH1
+  6992: BRK
+  6993: PUSHB   6
+  6995: BRK
+  6996: PUSHIIB #1                    ; symbol "TRUE"
+  6998: BRK
+  6999: PUSHB   2
+  7001: BRK
+  7002: PUSH0
+  7003: BRK
+  7004: PUSH1
+  7005: BRK
+  7006: PUSHB   6
+  7008: BRK
+  7009: PUSH1
+  7010: BRK
+  7011: PUSHB   6
+  7013: BRK
+  7014: PUSHIIB #1                    ; symbol "TRUE"
+  7016: BRK
+  7017: PUSHB   2
+  7019: BRK
+  7020: PUSH0
+  7021: BRK
+  7022: PUSH1
+  7023: BRK
+  7024: PUSHB   6
+  7026: BRK
+  7027: PUSH1
+  7028: BRK
+  7029: PUSHB   6
+  7031: BRK
+  7032: PUSHIIB #1                    ; symbol "TRUE"
+  7034: BRK
+  7035: PUSHB   2
+  7037: BRK
+  7038: PUSH0
+  7039: BRK
+  7040: PUSH1
+  7041: BRK
+  7042: PUSHB   6
+  7044: BRK
+  7045: PUSH1
+  7046: BRK
+  7047: PUSHB   6
+  7049: BRK
+  7050: PUSHIIB #1                    ; symbol "TRUE"
+  7052: BRK
+  7053: PUSHB   2
+  7055: BRK
+  7056: PUSH0
+  7057: BRK
+  7058: PUSH1
+  7059: BRK
+  7060: PUSHB   6
+  7062: BRK
+  7063: PUSH1
+  7064: BRK
+  7065: PUSHB   6
+  7067: BRK
+  7068: PUSHIIB #1                    ; symbol "TRUE"
+  7070: BRK
+  7071: PUSHB   2
+  7073: BRK
+  7074: PUSH0
+  7075: BRK
+  7076: PUSH1
+  7077: BRK
+  7078: PUSHB   6
+  7080: BRK
+  7081: PUSH1
+  7082: BRK
+  7083: PUSHB   6
+  7085: BRK
+  7086: PUSHIIB #1                    ; symbol "TRUE"
+  7088: BRK
+  7089: PUSHB   2
+  7091: BRK
+  7092: PUSH0
+  7093: BRK
+  7094: PUSH1
+  7095: BRK
+  7096: PUSHB   6
+  7098: BRK
+  7099: PUSH1
+  7100: BRK
+  7101: PUSHB   6
+  7103: BRK
+  7104: PUSHIIB #1                    ; symbol "TRUE"
+  7106: BRK
+  7107: PUSHB   2
+  7109: BRK
+  7110: PUSH0
+  7111: BRK
+  7112: PUSH1
+  7113: BRK
+  7114: PUSHB   6
+  7116: BRK
+  7117: PUSH1
+  7118: BRK
+  7119: PUSHB   6
+  7121: BRK
+  7122: PUSHIIB #1                    ; symbol "TRUE"
+  7124: BRK
+  7125: PUSHB   2
+  7127: BRK
+  7128: PUSH0
+  7129: BRK
+  7130: PUSH1
+  7131: BRK
+  7132: PUSHB   6
+  7134: BRK
+  7135: PUSH1
+  7136: BRK
+  7137: PUSHB   6
+  7139: BRK
+  7140: PUSHIIB #1                    ; symbol "TRUE"
+  7142: BRK
+  7143: PUSHB   2
+  7145: BRK
+  7146: PUSH0
+  7147: BRK
+  7148: PUSH1
+  7149: BRK
+  7150: PUSHB   6
+  7152: BRK
+  7153: PUSH1
+  7154: BRK
+  7155: PUSHB   6
+  7157: BRK
+  7158: PUSHIIB #1                    ; symbol "TRUE"
+  7160: BRK
+  7161: PUSHB   2
+  7163: BRK
+  7164: PUSH0
+  7165: BRK
+  7166: PUSH1
+  7167: BRK
+  7168: PUSHB   6
+  7170: BRK
+  7171: PUSH1
+  7172: BRK
+  7173: PUSHB   6
+  7175: BRK
+  7176: PUSHIIB #1                    ; symbol "TRUE"
+  7178: BRK
+  7179: PUSHB   2
+  7181: BRK
+  7182: PUSH0
+  7183: BRK
+  7184: PUSH1
+  7185: BRK
+  7186: PUSHB   6
+  7188: BRK
+  7189: PUSH1
+  7190: BRK
+  7191: PUSHB   6
+  7193: BRK
+  7194: PUSHIIB #1                    ; symbol "TRUE"
+  7196: BRK
+  7197: PUSHB   2
+  7199: BRK
+  7200: PUSH0
+  7201: BRK
+  7202: PUSH1
+  7203: BRK
+  7204: PUSHB   6
+  7206: BRK
+  7207: PUSH1
+  7208: BRK
+  7209: PUSHB   6
+  7211: BRK
+  7212: PUSHIIB #1                    ; symbol "TRUE"
+  7214: BRK
+  7215: PUSHB   2
+  7217: BRK
+  7218: PUSH0
+  7219: BRK
+  7220: PUSH1
+  7221: BRK
+  7222: PUSHB   6
+  7224: BRK
+  7225: PUSH1
+  7226: BRK
+  7227: PUSHB   6
+  7229: BRK
+  7230: PUSHIIB #1                    ; symbol "TRUE"
+  7232: BRK
+  7233: PUSHB   2
+  7235: BRK
+  7236: PUSH0
+  7237: BRK
+  7238: PUSH1
+  7239: BRK
+  7240: PUSHB   6
+  7242: BRK
+  7243: PUSH1
+  7244: BRK
+  7245: PUSHB   6
+  7247: BRK
+  7248: PUSHIIB #1                    ; symbol "TRUE"
+  7250: BRK
+  7251: PUSHB   2
+  7253: BRK
+  7254: PUSH0
+  7255: BRK
+  7256: PUSH1
+  7257: BRK
+  7258: PUSHB   6
+  7260: BRK
+  7261: PUSH1
+  7262: BRK
+  7263: PUSHB   6
+  7265: BRK
+  7266: PUSHIIB #1                    ; symbol "TRUE"
+  7268: BRK
+  7269: PUSHB   2
+  7271: BRK
+  7272: PUSH0
+  7273: BRK
+  7274: PUSH1
+  7275: BRK
+  7276: PUSHB   6
+  7278: BRK
+  7279: PUSH1
+  7280: BRK
+  7281: PUSHB   6
+  7283: BRK
+  7284: PUSHIIB #1                    ; symbol "TRUE"
+  7286: BRK
+  7287: PUSHB   2
+  7289: BRK
+  7290: PUSH0
+  7291: BRK
+  7292: PUSH1
+  7293: BRK
+  7294: PUSHB   6
+  7296: BRK
+  7297: PUSH1
+  7298: BRK
+  7299: PUSHB   6
+  7301: BRK
+  7302: PUSHIIB #1                    ; symbol "TRUE"
+  7304: BRK
+  7305: PUSHB   2
+  7307: BRK
+  7308: PUSH0
+  7309: BRK
+  7310: PUSH1
+  7311: BRK
+  7312: PUSHB   6
+  7314: BRK
+  7315: PUSH1
+  7316: BRK
+  7317: PUSHB   6
+  7319: BRK
+  7320: PUSHIIB #1                    ; symbol "TRUE"
+  7322: BRK
+  7323: PUSHB   2
+  7325: BRK
+  7326: PUSH0
+  7327: BRK
+  7328: PUSH1
+  7329: BRK
+  7330: PUSHB   6
+  7332: BRK
+  7333: PUSH1
+  7334: BRK
+  7335: PUSHB   6
+  7337: BRK
+  7338: PUSHIIB #1                    ; symbol "TRUE"
+  7340: BRK
+  7341: PUSHB   2
+  7343: BRK
+  7344: PUSH0
+  7345: BRK
+  7346: PUSH1
+  7347: BRK
+  7348: PUSHB   6
+  7350: BRK
+  7351: PUSH1
+  7352: BRK
+  7353: PUSHB   6
+  7355: BRK
+  7356: PUSHIIB #1                    ; symbol "TRUE"
+  7358: BRK
+  7359: PUSHB   2
+  7361: BRK
+  7362: PUSH0
+  7363: BRK
+  7364: PUSH1
+  7365: BRK
+  7366: PUSHB   6
+  7368: BRK
+  7369: PUSH1
+  7370: BRK
+  7371: PUSHB   6
+  7373: BRK
+  7374: PUSHIIB #1                    ; symbol "TRUE"
+  7376: BRK
+  7377: PUSHB   2
+  7379: BRK
+  7380: PUSH0
+  7381: BRK
+  7382: PUSH1
+  7383: BRK
+  7384: PUSHB   6
+  7386: BRK
+  7387: PUSH1
+  7388: BRK
+  7389: PUSHB   6
+  7391: BRK
+  7392: PUSHIIB #1                    ; symbol "TRUE"
+  7394: BRK
+  7395: PUSHB   2
+  7397: BRK
+  7398: PUSH0
+  7399: BRK
+  7400: PUSH1
+  7401: BRK
+  7402: PUSHB   6
+  7404: BRK
+  7405: PUSH1
+  7406: BRK
+  7407: PUSHB   6
+  7409: BRK
+  7410: PUSHIIB #1                    ; symbol "TRUE"
+  7412: BRK
+  7413: PUSHB   2
+  7415: BRK
+  7416: PUSH0
+  7417: BRK
+  7418: PUSH1
+  7419: BRK
+  7420: PUSHB   6
+  7422: BRK
+  7423: PUSH1
+  7424: BRK
+  7425: PUSHB   6
+  7427: BRK
+  7428: PUSHIIB #1                    ; symbol "TRUE"
+  7430: BRK
+  7431: PUSHB   2
+  7433: BRK
+  7434: PUSH0
+  7435: BRK
+  7436: PUSH1
+  7437: BRK
+  7438: PUSHB   6
+  7440: BRK
+  7441: PUSH1
+  7442: BRK
+  7443: PUSHB   6
+  7445: BRK
+  7446: PUSHIIB #1                    ; symbol "TRUE"
+  7448: BRK
+  7449: PUSHB   2
+  7451: BRK
+  7452: PUSH0
+  7453: BRK
+  7454: PUSH1
+  7455: BRK
+  7456: PUSHB   6
+  7458: BRK
+  7459: PUSH1
+  7460: BRK
+  7461: PUSHB   6
+  7463: BRK
+  7464: POP
+  7465: PUSHIIB #0                    ; symbol "CreateTerrainMaterial"
+  7467: CALL    argc=226              ; args @8381, @8384, @8386, @8389, @8392, @8394, @8396, @8399, @8401, @8404, @8407, @8410, @8412, @8414, @8417, @8419, @8422, @8425, @8428, @8430, @8432, @8435, @8437, @8440, @8443, @8446, @8448, @8450, @8453, @8455, @8458, @8461, @8464, @8466, @8468, @8471, @8473, @8476, @8479, @8482, @8484, @8486, @8489, @8491, @8494, @8497, @8500, @8502, @8504, @8507, @8509, @8512, @8515, @8518, @8520, @8522, @8525, @8527, @8530, @8533, @8536, @8538, @8540, @8543, @8545, @8548, @8551, @8554, @8556, @8558, @8561, @8563, @8566, @8569, @8572, @8574, @8576, @8579, @8581, @8584, @8587, @8590, @8592, @8594, @8597, @8599, @8602, @8605, @8608, @8610, @8612, @8615, @8617, @8620, @8623, @8626, @8628, @8630, @8633, @8635, @8638, @8641, @8644, @8646, @8648, @8651, @8653, @8656, @8659, @8662, @8664, @8666, @8669, @8671, @8674, @8677, @8680, @8682, @8684, @8687, @8689, @8692, @8695, @8698, @8700, @8702, @8705, @8707, @8710, @8713, @8716, @8718, @8720, @8723, @8725, @8728, @8731, @8734, @8736, @8738, @8741, @8743, @8746, @8749, @8752, @8754, @8756, @8759, @8761, @8764, @8767, @8770, @8772, @8774, @8777, @8779, @8782, @8785, @8788, @8790, @8792, @8795, @8797, @8800, @8803, @8806, @8808, @8810, @8813, @8815, @8818, @8821, @8824, @8826, @8828, @8831, @8833, @8836, @8839, @8842, @8844, @8846, @8849, @8851, @8854, @8857, @8860, @8862, @8864, @8867, @8869, @8872, @8875, @8878, @8880, @8882, @8885, @8887, @8890, @8893, @8896, @8898, @8900, @8903, @8905, @8908, @8911, @8914, @8916, @8918, @8921, @8923, @8926, @8929, @8932, @8934, @8936, @8939, @8941, @8944, @8947, @8950, @8952, @8954, @8957, @8959
+  8376: BRA     +581                  ; -> 8962
+  8381: PUSHB   5
+  8383: BRK
+  8384: PUSH1
+  8385: BRK
+  8386: PUSHIIB #1                    ; symbol "TRUE"
+  8388: BRK
+  8389: PUSHB   2
+  8391: BRK
+  8392: PUSH0
+  8393: BRK
+  8394: PUSH1
+  8395: BRK
+  8396: PUSHB   7
+  8398: BRK
+  8399: PUSH1
+  8400: BRK
+  8401: PUSHB   7
+  8403: BRK
+  8404: PUSHIIB #1                    ; symbol "TRUE"
+  8406: BRK
+  8407: PUSHB   2
+  8409: BRK
+  8410: PUSH0
+  8411: BRK
+  8412: PUSH1
+  8413: BRK
+  8414: PUSHB   7
+  8416: BRK
+  8417: PUSH1
+  8418: BRK
+  8419: PUSHB   7
+  8421: BRK
+  8422: PUSHIIB #1                    ; symbol "TRUE"
+  8424: BRK
+  8425: PUSHB   2
+  8427: BRK
+  8428: PUSH0
+  8429: BRK
+  8430: PUSH1
+  8431: BRK
+  8432: PUSHB   7
+  8434: BRK
+  8435: PUSH1
+  8436: BRK
+  8437: PUSHB   7
+  8439: BRK
+  8440: PUSHIIB #1                    ; symbol "TRUE"
+  8442: BRK
+  8443: PUSHB   2
+  8445: BRK
+  8446: PUSH0
+  8447: BRK
+  8448: PUSH1
+  8449: BRK
+  8450: PUSHB   7
+  8452: BRK
+  8453: PUSH1
+  8454: BRK
+  8455: PUSHB   7
+  8457: BRK
+  8458: PUSHIIB #1                    ; symbol "TRUE"
+  8460: BRK
+  8461: PUSHB   2
+  8463: BRK
+  8464: PUSH0
+  8465: BRK
+  8466: PUSH1
+  8467: BRK
+  8468: PUSHB   7
+  8470: BRK
+  8471: PUSH1
+  8472: BRK
+  8473: PUSHB   7
+  8475: BRK
+  8476: PUSHIIB #1                    ; symbol "TRUE"
+  8478: BRK
+  8479: PUSHB   2
+  8481: BRK
+  8482: PUSH0
+  8483: BRK
+  8484: PUSH1
+  8485: BRK
+  8486: PUSHB   7
+  8488: BRK
+  8489: PUSH1
+  8490: BRK
+  8491: PUSHB   7
+  8493: BRK
+  8494: PUSHIIB #1                    ; symbol "TRUE"
+  8496: BRK
+  8497: PUSHB   2
+  8499: BRK
+  8500: PUSH0
+  8501: BRK
+  8502: PUSH1
+  8503: BRK
+  8504: PUSHB   7
+  8506: BRK
+  8507: PUSH1
+  8508: BRK
+  8509: PUSHB   7
+  8511: BRK
+  8512: PUSHIIB #1                    ; symbol "TRUE"
+  8514: BRK
+  8515: PUSHB   2
+  8517: BRK
+  8518: PUSH0
+  8519: BRK
+  8520: PUSH1
+  8521: BRK
+  8522: PUSHB   7
+  8524: BRK
+  8525: PUSH1
+  8526: BRK
+  8527: PUSHB   7
+  8529: BRK
+  8530: PUSHIIB #1                    ; symbol "TRUE"
+  8532: BRK
+  8533: PUSHB   2
+  8535: BRK
+  8536: PUSH0
+  8537: BRK
+  8538: PUSH1
+  8539: BRK
+  8540: PUSHB   7
+  8542: BRK
+  8543: PUSH1
+  8544: BRK
+  8545: PUSHB   7
+  8547: BRK
+  8548: PUSHIIB #1                    ; symbol "TRUE"
+  8550: BRK
+  8551: PUSHB   2
+  8553: BRK
+  8554: PUSH0
+  8555: BRK
+  8556: PUSH1
+  8557: BRK
+  8558: PUSHB   7
+  8560: BRK
+  8561: PUSH1
+  8562: BRK
+  8563: PUSHB   7
+  8565: BRK
+  8566: PUSHIIB #1                    ; symbol "TRUE"
+  8568: BRK
+  8569: PUSHB   2
+  8571: BRK
+  8572: PUSH0
+  8573: BRK
+  8574: PUSH1
+  8575: BRK
+  8576: PUSHB   7
+  8578: BRK
+  8579: PUSH1
+  8580: BRK
+  8581: PUSHB   7
+  8583: BRK
+  8584: PUSHIIB #1                    ; symbol "TRUE"
+  8586: BRK
+  8587: PUSHB   2
+  8589: BRK
+  8590: PUSH0
+  8591: BRK
+  8592: PUSH1
+  8593: BRK
+  8594: PUSHB   7
+  8596: BRK
+  8597: PUSH1
+  8598: BRK
+  8599: PUSHB   7
+  8601: BRK
+  8602: PUSHIIB #1                    ; symbol "TRUE"
+  8604: BRK
+  8605: PUSHB   2
+  8607: BRK
+  8608: PUSH0
+  8609: BRK
+  8610: PUSH1
+  8611: BRK
+  8612: PUSHB   7
+  8614: BRK
+  8615: PUSH1
+  8616: BRK
+  8617: PUSHB   7
+  8619: BRK
+  8620: PUSHIIB #1                    ; symbol "TRUE"
+  8622: BRK
+  8623: PUSHB   2
+  8625: BRK
+  8626: PUSH0
+  8627: BRK
+  8628: PUSH1
+  8629: BRK
+  8630: PUSHB   7
+  8632: BRK
+  8633: PUSH1
+  8634: BRK
+  8635: PUSHB   7
+  8637: BRK
+  8638: PUSHIIB #1                    ; symbol "TRUE"
+  8640: BRK
+  8641: PUSHB   2
+  8643: BRK
+  8644: PUSH0
+  8645: BRK
+  8646: PUSH1
+  8647: BRK
+  8648: PUSHB   7
+  8650: BRK
+  8651: PUSH1
+  8652: BRK
+  8653: PUSHB   7
+  8655: BRK
+  8656: PUSHIIB #1                    ; symbol "TRUE"
+  8658: BRK
+  8659: PUSHB   2
+  8661: BRK
+  8662: PUSH0
+  8663: BRK
+  8664: PUSH1
+  8665: BRK
+  8666: PUSHB   7
+  8668: BRK
+  8669: PUSH1
+  8670: BRK
+  8671: PUSHB   7
+  8673: BRK
+  8674: PUSHIIB #1                    ; symbol "TRUE"
+  8676: BRK
+  8677: PUSHB   2
+  8679: BRK
+  8680: PUSH0
+  8681: BRK
+  8682: PUSH1
+  8683: BRK
+  8684: PUSHB   7
+  8686: BRK
+  8687: PUSH1
+  8688: BRK
+  8689: PUSHB   7
+  8691: BRK
+  8692: PUSHIIB #1                    ; symbol "TRUE"
+  8694: BRK
+  8695: PUSHB   2
+  8697: BRK
+  8698: PUSH0
+  8699: BRK
+  8700: PUSH1
+  8701: BRK
+  8702: PUSHB   7
+  8704: BRK
+  8705: PUSH1
+  8706: BRK
+  8707: PUSHB   7
+  8709: BRK
+  8710: PUSHIIB #1                    ; symbol "TRUE"
+  8712: BRK
+  8713: PUSHB   2
+  8715: BRK
+  8716: PUSH0
+  8717: BRK
+  8718: PUSH1
+  8719: BRK
+  8720: PUSHB   7
+  8722: BRK
+  8723: PUSH1
+  8724: BRK
+  8725: PUSHB   7
+  8727: BRK
+  8728: PUSHIIB #1                    ; symbol "TRUE"
+  8730: BRK
+  8731: PUSHB   2
+  8733: BRK
+  8734: PUSH0
+  8735: BRK
+  8736: PUSH1
+  8737: BRK
+  8738: PUSHB   7
+  8740: BRK
+  8741: PUSH1
+  8742: BRK
+  8743: PUSHB   7
+  8745: BRK
+  8746: PUSHIIB #1                    ; symbol "TRUE"
+  8748: BRK
+  8749: PUSHB   2
+  8751: BRK
+  8752: PUSH0
+  8753: BRK
+  8754: PUSH1
+  8755: BRK
+  8756: PUSHB   7
+  8758: BRK
+  8759: PUSH1
+  8760: BRK
+  8761: PUSHB   7
+  8763: BRK
+  8764: PUSHIIB #1                    ; symbol "TRUE"
+  8766: BRK
+  8767: PUSHB   2
+  8769: BRK
+  8770: PUSH0
+  8771: BRK
+  8772: PUSH1
+  8773: BRK
+  8774: PUSHB   7
+  8776: BRK
+  8777: PUSH1
+  8778: BRK
+  8779: PUSHB   7
+  8781: BRK
+  8782: PUSHIIB #1                    ; symbol "TRUE"
+  8784: BRK
+  8785: PUSHB   2
+  8787: BRK
+  8788: PUSH0
+  8789: BRK
+  8790: PUSH1
+  8791: BRK
+  8792: PUSHB   7
+  8794: BRK
+  8795: PUSH1
+  8796: BRK
+  8797: PUSHB   7
+  8799: BRK
+  8800: PUSHIIB #1                    ; symbol "TRUE"
+  8802: BRK
+  8803: PUSHB   2
+  8805: BRK
+  8806: PUSH0
+  8807: BRK
+  8808: PUSH1
+  8809: BRK
+  8810: PUSHB   7
+  8812: BRK
+  8813: PUSH1
+  8814: BRK
+  8815: PUSHB   7
+  8817: BRK
+  8818: PUSHIIB #1                    ; symbol "TRUE"
+  8820: BRK
+  8821: PUSHB   2
+  8823: BRK
+  8824: PUSH0
+  8825: BRK
+  8826: PUSH1
+  8827: BRK
+  8828: PUSHB   7
+  8830: BRK
+  8831: PUSH1
+  8832: BRK
+  8833: PUSHB   7
+  8835: BRK
+  8836: PUSHIIB #1                    ; symbol "TRUE"
+  8838: BRK
+  8839: PUSHB   2
+  8841: BRK
+  8842: PUSH0
+  8843: BRK
+  8844: PUSH1
+  8845: BRK
+  8846: PUSHB   7
+  8848: BRK
+  8849: PUSH1
+  8850: BRK
+  8851: PUSHB   7
+  8853: BRK
+  8854: PUSHIIB #1                    ; symbol "TRUE"
+  8856: BRK
+  8857: PUSHB   2
+  8859: BRK
+  8860: PUSH0
+  8861: BRK
+  8862: PUSH1
+  8863: BRK
+  8864: PUSHB   7
+  8866: BRK
+  8867: PUSH1
+  8868: BRK
+  8869: PUSHB   7
+  8871: BRK
+  8872: PUSHIIB #1                    ; symbol "TRUE"
+  8874: BRK
+  8875: PUSHB   2
+  8877: BRK
+  8878: PUSH0
+  8879: BRK
+  8880: PUSH1
+  8881: BRK
+  8882: PUSHB   7
+  8884: BRK
+  8885: PUSH1
+  8886: BRK
+  8887: PUSHB   7
+  8889: BRK
+  8890: PUSHIIB #1                    ; symbol "TRUE"
+  8892: BRK
+  8893: PUSHB   2
+  8895: BRK
+  8896: PUSH0
+  8897: BRK
+  8898: PUSH1
+  8899: BRK
+  8900: PUSHB   7
+  8902: BRK
+  8903: PUSH1
+  8904: BRK
+  8905: PUSHB   7
+  8907: BRK
+  8908: PUSHIIB #1                    ; symbol "TRUE"
+  8910: BRK
+  8911: PUSHB   2
+  8913: BRK
+  8914: PUSH0
+  8915: BRK
+  8916: PUSH1
+  8917: BRK
+  8918: PUSHB   7
+  8920: BRK
+  8921: PUSH1
+  8922: BRK
+  8923: PUSHB   7
+  8925: BRK
+  8926: PUSHIIB #1                    ; symbol "TRUE"
+  8928: BRK
+  8929: PUSHB   2
+  8931: BRK
+  8932: PUSH0
+  8933: BRK
+  8934: PUSH1
+  8935: BRK
+  8936: PUSHB   7
+  8938: BRK
+  8939: PUSH1
+  8940: BRK
+  8941: PUSHB   7
+  8943: BRK
+  8944: PUSHIIB #1                    ; symbol "TRUE"
+  8946: BRK
+  8947: PUSHB   2
+  8949: BRK
+  8950: PUSH0
+  8951: BRK
+  8952: PUSH1
+  8953: BRK
+  8954: PUSHB   7
+  8956: BRK
+  8957: PUSH1
+  8958: BRK
+  8959: PUSHB   7
+  8961: BRK
+  8962: POP
+  8963: PUSHIIB #2                    ; symbol "CreateTerrainTileMap"
+  8965: CALL    argc=65               ; args @9235, @9237, @9239, @9241, @9243, @9245, @9247, @9249, @9251, @9253, @9255, @9257, @9259, @9261, @9263, @9265, @9267, @9269, @9271, @9273, @9275, @9277, @9279, @9281, @9283, @9285, @9287, @9289, @9291, @9293, @9295, @9297, @9299, @9301, @9303, @9305, @9307, @9309, @9311, @9313, @9315, @9317, @9319, @9321, @9323, @9325, @9327, @9329, @9331, @9333, @9335, @9337, @9339, @9341, @9343, @9345, @9347, @9349, @9351, @9353, @9355, @9357, @9359, @9361, @9363
+  9230: BRA     +130                  ; -> 9365
+  9235: PUSH0
+  9236: BRK
+  9237: PUSH0
+  9238: BRK
+  9239: PUSH0
+  9240: BRK
+  9241: PUSH0
+  9242: BRK
+  9243: PUSH0
+  9244: BRK
+  9245: PUSH0
+  9246: BRK
+  9247: PUSH0
+  9248: BRK
+  9249: PUSH0
+  9250: BRK
+  9251: PUSH0
+  9252: BRK
+  9253: PUSH0
+  9254: BRK
+  9255: PUSH0
+  9256: BRK
+  9257: PUSH0
+  9258: BRK
+  9259: PUSH0
+  9260: BRK
+  9261: PUSH0
+  9262: BRK
+  9263: PUSH0
+  9264: BRK
+  9265: PUSH0
+  9266: BRK
+  9267: PUSH0
+  9268: BRK
+  9269: PUSH0
+  9270: BRK
+  9271: PUSH0
+  9272: BRK
+  9273: PUSH0
+  9274: BRK
+  9275: PUSH0
+  9276: BRK
+  9277: PUSH0
+  9278: BRK
+  9279: PUSH0
+  9280: BRK
+  9281: PUSH0
+  9282: BRK
+  9283: PUSH0
+  9284: BRK
+  9285: PUSH0
+  9286: BRK
+  9287: PUSH0
+  9288: BRK
+  9289: PUSH0
+  9290: BRK
+  9291: PUSH0
+  9292: BRK
+  9293: PUSH0
+  9294: BRK
+  9295: PUSH0
+  9296: BRK
+  9297: PUSH0
+  9298: BRK
+  9299: PUSH0
+  9300: BRK
+  9301: PUSH0
+  9302: BRK
+  9303: PUSH0
+  9304: BRK
+  9305: PUSH0
+  9306: BRK
+  9307: PUSH0
+  9308: BRK
+  9309: PUSH0
+  9310: BRK
+  9311: PUSH0
+  9312: BRK
+  9313: PUSH0
+  9314: BRK
+  9315: PUSH0
+  9316: BRK
+  9317: PUSH0
+  9318: BRK
+  9319: PUSH0
+  9320: BRK
+  9321: PUSH0
+  9322: BRK
+  9323: PUSH0
+  9324: BRK
+  9325: PUSH0
+  9326: BRK
+  9327: PUSH0
+  9328: BRK
+  9329: PUSH0
+  9330: BRK
+  9331: PUSH0
+  9332: BRK
+  9333: PUSH0
+  9334: BRK
+  9335: PUSH0
+  9336: BRK
+  9337: PUSH0
+  9338: BRK
+  9339: PUSH0
+  9340: BRK
+  9341: PUSH0
+  9342: BRK
+  9343: PUSH0
+  9344: BRK
+  9345: PUSH0
+  9346: BRK
+  9347: PUSH0
+  9348: BRK
+  9349: PUSH0
+  9350: BRK
+  9351: PUSH0
+  9352: BRK
+  9353: PUSH0
+  9354: BRK
+  9355: PUSH0
+  9356: BRK
+  9357: PUSH0
+  9358: BRK
+  9359: PUSH0
+  9360: BRK
+  9361: PUSH0
+  9362: BRK
+  9363: PUSH0
+  9364: BRK
+  9365: POP
+  9366: PUSHIIB #2                    ; symbol "CreateTerrainTileMap"
+  9368: CALL    argc=65               ; args @9638, @9640, @9642, @9645, @9647, @9650, @9652, @9655, @9657, @9660, @9663, @9666, @9668, @9670, @9673, @9676, @9678, @9680, @9682, @9685, @9687, @9690, @9693, @9696, @9698, @9701, @9704, @9706, @9709, @9712, @9715, @9717, @9720, @9723, @9725, @9727, @9729, @9732, @9734, @9737, @9739, @9742, @9744, @9747, @9749, @9752, @9754, @9757, @9760, @9763, @9766, @9768, @9770, @9772, @9774, @9777, @9779, @9782, @9784, @9787, @9789, @9792, @9794, @9797, @9800
+  9633: BRA     +165                  ; -> 9803
+  9638: PUSH1
+  9639: BRK
+  9640: PUSH1
+  9641: BRK
+  9642: PUSHB   2
+  9644: BRK
+  9645: PUSH1
+  9646: BRK
+  9647: PUSHB   2
+  9649: BRK
+  9650: PUSH1
+  9651: BRK
+  9652: PUSHB   2
+  9654: BRK
+  9655: PUSH1
+  9656: BRK
+  9657: PUSHB   2
+  9659: BRK
+  9660: PUSHB   2
+  9662: BRK
+  9663: PUSHB   2
+  9665: BRK
+  9666: PUSH1
+  9667: BRK
+  9668: PUSH1
+  9669: BRK
+  9670: PUSHB   2
+  9672: BRK
+  9673: PUSHB   2
+  9675: BRK
+  9676: PUSH1
+  9677: BRK
+  9678: PUSH1
+  9679: BRK
+  9680: PUSH1
+  9681: BRK
+  9682: PUSHB   2
+  9684: BRK
+  9685: PUSH1
+  9686: BRK
+  9687: PUSHB   2
+  9689: BRK
+  9690: PUSHB   2
+  9692: BRK
+  9693: PUSHB   2
+  9695: BRK
+  9696: PUSH1
+  9697: BRK
+  9698: PUSHB   2
+  9700: BRK
+  9701: PUSHB   2
+  9703: BRK
+  9704: PUSH1
+  9705: BRK
+  9706: PUSHB   2
+  9708: BRK
+  9709: PUSHB   2
+  9711: BRK
+  9712: PUSHB   2
+  9714: BRK
+  9715: PUSH1
+  9716: BRK
+  9717: PUSHB   2
+  9719: BRK
+  9720: PUSHB   2
+  9722: BRK
+  9723: PUSH1
+  9724: BRK
+  9725: PUSH1
+  9726: BRK
+  9727: PUSH1
+  9728: BRK
+  9729: PUSHB   2
+  9731: BRK
+  9732: PUSH1
+  9733: BRK
+  9734: PUSHB   2
+  9736: BRK
+  9737: PUSH1
+  9738: BRK
+  9739: PUSHB   2
+  9741: BRK
+  9742: PUSH1
+  9743: BRK
+  9744: PUSHB   2
+  9746: BRK
+  9747: PUSH1
+  9748: BRK
+  9749: PUSHB   2
+  9751: BRK
+  9752: PUSH1
+  9753: BRK
+  9754: PUSHB   2
+  9756: BRK
+  9757: PUSHB   2
+  9759: BRK
+  9760: PUSHB   2
+  9762: BRK
+  9763: PUSHB   2
+  9765: BRK
+  9766: PUSH1
+  9767: BRK
+  9768: PUSH1
+  9769: BRK
+  9770: PUSH1
+  9771: BRK
+  9772: PUSH1
+  9773: BRK
+  9774: PUSHB   2
+  9776: BRK
+  9777: PUSH1
+  9778: BRK
+  9779: PUSHB   2
+  9781: BRK
+  9782: PUSH1
+  9783: BRK
+  9784: PUSHB   2
+  9786: BRK
+  9787: PUSH1
+  9788: BRK
+  9789: PUSHB   2
+  9791: BRK
+  9792: PUSH1
+  9793: BRK
+  9794: PUSHB   2
+  9796: BRK
+  9797: PUSHB   2
+  9799: BRK
+  9800: PUSHB   2
+  9802: BRK
+  9803: POP
+  9804: PUSHIIB #2                    ; symbol "CreateTerrainTileMap"
+  9806: CALL    argc=65               ; args @10076, @10079, @10082, @10085, @10088, @10091, @10094, @10097, @10100, @10103, @10106, @10109, @10112, @10115, @10118, @10121, @10124, @10127, @10130, @10133, @10136, @10139, @10142, @10145, @10148, @10151, @10154, @10157, @10160, @10163, @10166, @10169, @10172, @10175, @10178, @10181, @10184, @10187, @10190, @10193, @10196, @10199, @10202, @10205, @10208, @10211, @10214, @10217, @10220, @10223, @10226, @10229, @10232, @10235, @10238, @10241, @10244, @10247, @10250, @10253, @10256, @10259, @10262, @10265, @10268
+ 10071: BRA     +195                  ; -> 10271
+ 10076: PUSHB   2
+ 10078: BRK
+ 10079: PUSHB   3
+ 10081: BRK
+ 10082: PUSHB   4
+ 10084: BRK
+ 10085: PUSHB   3
+ 10087: BRK
+ 10088: PUSHB   4
+ 10090: BRK
+ 10091: PUSHB   3
+ 10093: BRK
+ 10094: PUSHB   4
+ 10096: BRK
+ 10097: PUSHB   3
+ 10099: BRK
+ 10100: PUSHB   4
+ 10102: BRK
+ 10103: PUSHB   5
+ 10105: BRK
+ 10106: PUSHB   6
+ 10108: BRK
+ 10109: PUSHB   5
+ 10111: BRK
+ 10112: PUSHB   6
+ 10114: BRK
+ 10115: PUSHB   5
+ 10117: BRK
+ 10118: PUSHB   6
+ 10120: BRK
+ 10121: PUSHB   5
+ 10123: BRK
+ 10124: PUSHB   6
+ 10126: BRK
+ 10127: PUSHB   3
+ 10129: BRK
+ 10130: PUSHB   4
+ 10132: BRK
+ 10133: PUSHB   3
+ 10135: BRK
+ 10136: PUSHB   4
+ 10138: BRK
+ 10139: PUSHB   3
+ 10141: BRK
+ 10142: PUSHB   4
+ 10144: BRK
+ 10145: PUSHB   3
+ 10147: BRK
+ 10148: PUSHB   4
+ 10150: BRK
+ 10151: PUSHB   5
+ 10153: BRK
+ 10154: PUSHB   6
+ 10156: BRK
+ 10157: PUSHB   5
+ 10159: BRK
+ 10160: PUSHB   6
+ 10162: BRK
+ 10163: PUSHB   5
+ 10165: BRK
+ 10166: PUSHB   6
+ 10168: BRK
+ 10169: PUSHB   5
+ 10171: BRK
+ 10172: PUSHB   6
+ 10174: BRK
+ 10175: PUSHB   3
+ 10177: BRK
+ 10178: PUSHB   4
+ 10180: BRK
+ 10181: PUSHB   3
+ 10183: BRK
+ 10184: PUSHB   4
+ 10186: BRK
+ 10187: PUSHB   3
+ 10189: BRK
+ 10190: PUSHB   4
+ 10192: BRK
+ 10193: PUSHB   3
+ 10195: BRK
+ 10196: PUSHB   4
+ 10198: BRK
+ 10199: PUSHB   5
+ 10201: BRK
+ 10202: PUSHB   6
+ 10204: BRK
+ 10205: PUSHB   5
+ 10207: BRK
+ 10208: PUSHB   6
+ 10210: BRK
+ 10211: PUSHB   5
+ 10213: BRK
+ 10214: PUSHB   6
+ 10216: BRK
+ 10217: PUSHB   5
+ 10219: BRK
+ 10220: PUSHB   6
+ 10222: BRK
+ 10223: PUSHB   3
+ 10225: BRK
+ 10226: PUSHB   4
+ 10228: BRK
+ 10229: PUSHB   3
+ 10231: BRK
+ 10232: PUSHB   4
+ 10234: BRK
+ 10235: PUSHB   3
+ 10237: BRK
+ 10238: PUSHB   4
+ 10240: BRK
+ 10241: PUSHB   3
+ 10243: BRK
+ 10244: PUSHB   4
+ 10246: BRK
+ 10247: PUSHB   5
+ 10249: BRK
+ 10250: PUSHB   6
+ 10252: BRK
+ 10253: PUSHB   5
+ 10255: BRK
+ 10256: PUSHB   6
+ 10258: BRK
+ 10259: PUSHB   5
+ 10261: BRK
+ 10262: PUSHB   6
+ 10264: BRK
+ 10265: PUSHB   5
+ 10267: BRK
+ 10268: PUSHB   6
+ 10270: BRK
+ 10271: POP
+ 10272: PUSHIIB #2                    ; symbol "CreateTerrainTileMap"
+ 10274: CALL    argc=65               ; args @10544, @10547, @10550, @10553, @10556, @10559, @10562, @10565, @10568, @10571, @10574, @10577, @10580, @10583, @10586, @10589, @10592, @10595, @10598, @10601, @10604, @10607, @10610, @10613, @10616, @10619, @10622, @10625, @10628, @10631, @10634, @10637, @10640, @10643, @10646, @10649, @10652, @10655, @10658, @10661, @10664, @10667, @10670, @10673, @10676, @10679, @10682, @10685, @10688, @10691, @10694, @10697, @10700, @10703, @10706, @10709, @10712, @10715, @10718, @10721, @10724, @10727, @10730, @10733, @10736
+ 10539: BRA     +195                  ; -> 10739
+ 10544: PUSHB   3
+ 10546: BRK
+ 10547: PUSHB   7
+ 10549: BRK
+ 10550: PUSHB   8
+ 10552: BRK
+ 10553: PUSHB   7
+ 10555: BRK
+ 10556: PUSHB   8
+ 10558: BRK
+ 10559: PUSHB   7
+ 10561: BRK
+ 10562: PUSHB   8
+ 10564: BRK
+ 10565: PUSHB   7
+ 10567: BRK
+ 10568: PUSHB   8
+ 10570: BRK
+ 10571: PUSHB   9
+ 10573: BRK
+ 10574: PUSHB   10
+ 10576: BRK
+ 10577: PUSHB   9
+ 10579: BRK
+ 10580: PUSHB   10
+ 10582: BRK
+ 10583: PUSHB   9
+ 10585: BRK
+ 10586: PUSHB   10
+ 10588: BRK
+ 10589: PUSHB   9
+ 10591: BRK
+ 10592: PUSHB   10
+ 10594: BRK
+ 10595: PUSHB   7
+ 10597: BRK
+ 10598: PUSHB   8
+ 10600: BRK
+ 10601: PUSHB   7
+ 10603: BRK
+ 10604: PUSHB   8
+ 10606: BRK
+ 10607: PUSHB   7
+ 10609: BRK
+ 10610: PUSHB   8
+ 10612: BRK
+ 10613: PUSHB   7
+ 10615: BRK
+ 10616: PUSHB   8
+ 10618: BRK
+ 10619: PUSHB   9
+ 10621: BRK
+ 10622: PUSHB   10
+ 10624: BRK
+ 10625: PUSHB   9
+ 10627: BRK
+ 10628: PUSHB   10
+ 10630: BRK
+ 10631: PUSHB   9
+ 10633: BRK
+ 10634: PUSHB   10
+ 10636: BRK
+ 10637: PUSHB   9
+ 10639: BRK
+ 10640: PUSHB   10
+ 10642: BRK
+ 10643: PUSHB   7
+ 10645: BRK
+ 10646: PUSHB   8
+ 10648: BRK
+ 10649: PUSHB   7
+ 10651: BRK
+ 10652: PUSHB   8
+ 10654: BRK
+ 10655: PUSHB   7
+ 10657: BRK
+ 10658: PUSHB   8
+ 10660: BRK
+ 10661: PUSHB   7
+ 10663: BRK
+ 10664: PUSHB   8
+ 10666: BRK
+ 10667: PUSHB   9
+ 10669: BRK
+ 10670: PUSHB   10
+ 10672: BRK
+ 10673: PUSHB   9
+ 10675: BRK
+ 10676: PUSHB   10
+ 10678: BRK
+ 10679: PUSHB   9
+ 10681: BRK
+ 10682: PUSHB   10
+ 10684: BRK
+ 10685: PUSHB   9
+ 10687: BRK
+ 10688: PUSHB   10
+ 10690: BRK
+ 10691: PUSHB   7
+ 10693: BRK
+ 10694: PUSHB   8
+ 10696: BRK
+ 10697: PUSHB   7
+ 10699: BRK
+ 10700: PUSHB   8
+ 10702: BRK
+ 10703: PUSHB   7
+ 10705: BRK
+ 10706: PUSHB   8
+ 10708: BRK
+ 10709: PUSHB   7
+ 10711: BRK
+ 10712: PUSHB   8
+ 10714: BRK
+ 10715: PUSHB   9
+ 10717: BRK
+ 10718: PUSHB   10
+ 10720: BRK
+ 10721: PUSHB   9
+ 10723: BRK
+ 10724: PUSHB   10
+ 10726: BRK
+ 10727: PUSHB   9
+ 10729: BRK
+ 10730: PUSHB   10
+ 10732: BRK
+ 10733: PUSHB   9
+ 10735: BRK
+ 10736: PUSHB   10
+ 10738: BRK
+ 10739: POP
+ 10740: PUSHIIB #2                    ; symbol "CreateTerrainTileMap"
+ 10742: CALL    argc=65               ; args @11012, @11015, @11018, @11021, @11024, @11027, @11030, @11033, @11036, @11039, @11042, @11045, @11048, @11051, @11054, @11057, @11060, @11063, @11066, @11069, @11072, @11075, @11078, @11081, @11084, @11087, @11090, @11093, @11096, @11099, @11102, @11105, @11108, @11111, @11114, @11117, @11120, @11123, @11126, @11129, @11132, @11135, @11138, @11141, @11144, @11147, @11150, @11153, @11156, @11159, @11162, @11165, @11168, @11171, @11174, @11177, @11180, @11183, @11186, @11189, @11192, @11195, @11198, @11201, @11204
+ 11007: BRA     +195                  ; -> 11207
+ 11012: PUSHB   4
+ 11014: BRK
+ 11015: PUSHB   11
+ 11017: BRK
+ 11018: PUSHB   11
+ 11020: BRK
+ 11021: PUSHB   11
+ 11023: BRK
+ 11024: PUSHB   11
+ 11026: BRK
+ 11027: PUSHB   11
+ 11029: BRK
+ 11030: PUSHB   11
+ 11032: BRK
+ 11033: PUSHB   11
+ 11035: BRK
+ 11036: PUSHB   11
+ 11038: BRK
+ 11039: PUSHB   11
+ 11041: BRK
+ 11042: PUSHB   11
+ 11044: BRK
+ 11045: PUSHB   11
+ 11047: BRK
+ 11048: PUSHB   11
+ 11050: BRK
+ 11051: PUSHB   11
+ 11053: BRK
+ 11054: PUSHB   11
+ 11056: BRK
+ 11057: PUSHB   11
+ 11059: BRK
+ 11060: PUSHB   11
+ 11062: BRK
+ 11063: PUSHB   11
+ 11065: BRK
+ 11066: PUSHB   11
+ 11068: BRK
+ 11069: PUSHB   11
+ 11071: BRK
+ 11072: PUSHB   11
+ 11074: BRK
+ 11075: PUSHB   11
+ 11077: BRK
+ 11078: PUSHB   11
+ 11080: BRK
+ 11081: PUSHB   11
+ 11083: BRK
+ 11084: PUSHB   11
+ 11086: BRK
+ 11087: PUSHB   11
+ 11089: BRK
+ 11090: PUSHB   11
+ 11092: BRK
+ 11093: PUSHB   11
+ 11095: BRK
+ 11096: PUSHB   11
+ 11098: BRK
+ 11099: PUSHB   11
+ 11101: BRK
+ 11102: PUSHB   11
+ 11104: BRK
+ 11105: PUSHB   11
+ 11107: BRK
+ 11108: PUSHB   11
+ 11110: BRK
+ 11111: PUSHB   11
+ 11113: BRK
+ 11114: PUSHB   11
+ 11116: BRK
+ 11117: PUSHB   11
+ 11119: BRK
+ 11120: PUSHB   11
+ 11122: BRK
+ 11123: PUSHB   11
+ 11125: BRK
+ 11126: PUSHB   11
+ 11128: BRK
+ 11129: PUSHB   11
+ 11131: BRK
+ 11132: PUSHB   11
+ 11134: BRK
+ 11135: PUSHB   11
+ 11137: BRK
+ 11138: PUSHB   11
+ 11140: BRK
+ 11141: PUSHB   11
+ 11143: BRK
+ 11144: PUSHB   11
+ 11146: BRK
+ 11147: PUSHB   11
+ 11149: BRK
+ 11150: PUSHB   11
+ 11152: BRK
+ 11153: PUSHB   11
+ 11155: BRK
+ 11156: PUSHB   11
+ 11158: BRK
+ 11159: PUSHB   11
+ 11161: BRK
+ 11162: PUSHB   11
+ 11164: BRK
+ 11165: PUSHB   11
+ 11167: BRK
+ 11168: PUSHB   11
+ 11170: BRK
+ 11171: PUSHB   11
+ 11173: BRK
+ 11174: PUSHB   11
+ 11176: BRK
+ 11177: PUSHB   11
+ 11179: BRK
+ 11180: PUSHB   11
+ 11182: BRK
+ 11183: PUSHB   11
+ 11185: BRK
+ 11186: PUSHB   11
+ 11188: BRK
+ 11189: PUSHB   11
+ 11191: BRK
+ 11192: PUSHB   11
+ 11194: BRK
+ 11195: PUSHB   11
+ 11197: BRK
+ 11198: PUSHB   11
+ 11200: BRK
+ 11201: PUSHB   11
+ 11203: BRK
+ 11204: PUSHB   11
+ 11206: BRK
+ 11207: POP
+ 11208: PUSHIIB #2                    ; symbol "CreateTerrainTileMap"
+ 11210: CALL    argc=65               ; args @11480, @11483, @11486, @11489, @11492, @11495, @11498, @11501, @11504, @11507, @11510, @11513, @11516, @11519, @11522, @11525, @11528, @11531, @11534, @11537, @11540, @11543, @11546, @11549, @11552, @11555, @11558, @11561, @11564, @11567, @11570, @11573, @11576, @11579, @11582, @11585, @11588, @11591, @11594, @11597, @11600, @11603, @11606, @11609, @11612, @11615, @11618, @11621, @11624, @11627, @11630, @11633, @11636, @11639, @11642, @11645, @11648, @11651, @11654, @11657, @11660, @11663, @11666, @11669, @11672
+ 11475: BRA     +195                  ; -> 11675
+ 11480: PUSHB   5
+ 11482: BRK
+ 11483: PUSHB   12
+ 11485: BRK
+ 11486: PUSHB   13
+ 11488: BRK
+ 11489: PUSHB   12
+ 11491: BRK
+ 11492: PUSHB   13
+ 11494: BRK
+ 11495: PUSHB   12
+ 11497: BRK
+ 11498: PUSHB   12
+ 11500: BRK
+ 11501: PUSHB   13
+ 11503: BRK
+ 11504: PUSHB   13
+ 11506: BRK
+ 11507: PUSHB   12
+ 11509: BRK
+ 11510: PUSHB   13
+ 11512: BRK
+ 11513: PUSHB   12
+ 11515: BRK
+ 11516: PUSHB   13
+ 11518: BRK
+ 11519: PUSHB   12
+ 11521: BRK
+ 11522: PUSHB   13
+ 11524: BRK
+ 11525: PUSHB   13
+ 11527: BRK
+ 11528: PUSHB   12
+ 11530: BRK
+ 11531: PUSHB   13
+ 11533: BRK
+ 11534: PUSHB   12
+ 11536: BRK
+ 11537: PUSHB   13
+ 11539: BRK
+ 11540: PUSHB   12
+ 11542: BRK
+ 11543: PUSHB   13
+ 11545: BRK
+ 11546: PUSHB   12
+ 11548: BRK
+ 11549: PUSHB   13
+ 11551: BRK
+ 11552: PUSHB   12
+ 11554: BRK
+ 11555: PUSHB   13
+ 11557: BRK
+ 11558: PUSHB   13
+ 11560: BRK
+ 11561: PUSHB   13
+ 11563: BRK
+ 11564: PUSHB   12
+ 11566: BRK
+ 11567: PUSHB   12
+ 11569: BRK
+ 11570: PUSHB   12
+ 11572: BRK
+ 11573: PUSHB   13
+ 11575: BRK
+ 11576: PUSHB   13
+ 11578: BRK
+ 11579: PUSHB   12
+ 11581: BRK
+ 11582: PUSHB   13
+ 11584: BRK
+ 11585: PUSHB   12
+ 11587: BRK
+ 11588: PUSHB   12
+ 11590: BRK
+ 11591: PUSHB   13
+ 11593: BRK
+ 11594: PUSHB   12
+ 11596: BRK
+ 11597: PUSHB   13
+ 11599: BRK
+ 11600: PUSHB   12
+ 11602: BRK
+ 11603: PUSHB   13
+ 11605: BRK
+ 11606: PUSHB   13
+ 11608: BRK
+ 11609: PUSHB   12
+ 11611: BRK
+ 11612: PUSHB   12
+ 11614: BRK
+ 11615: PUSHB   13
+ 11617: BRK
+ 11618: PUSHB   12
+ 11620: BRK
+ 11621: PUSHB   13
+ 11623: BRK
+ 11624: PUSHB   12
+ 11626: BRK
+ 11627: PUSHB   12
+ 11629: BRK
+ 11630: PUSHB   12
+ 11632: BRK
+ 11633: PUSHB   13
+ 11635: BRK
+ 11636: PUSHB   13
+ 11638: BRK
+ 11639: PUSHB   13
+ 11641: BRK
+ 11642: PUSHB   12
+ 11644: BRK
+ 11645: PUSHB   12
+ 11647: BRK
+ 11648: PUSHB   12
+ 11650: BRK
+ 11651: PUSHB   13
+ 11653: BRK
+ 11654: PUSHB   12
+ 11656: BRK
+ 11657: PUSHB   13
+ 11659: BRK
+ 11660: PUSHB   12
+ 11662: BRK
+ 11663: PUSHB   13
+ 11665: BRK
+ 11666: PUSHB   12
+ 11668: BRK
+ 11669: PUSHB   13
+ 11671: BRK
+ 11672: PUSHB   13
+ 11674: BRK
+ 11675: POP
+ 11676: PUSHIIB #2                    ; symbol "CreateTerrainTileMap"
+ 11678: CALL    argc=65               ; args @11948, @11951, @11954, @11957, @11960, @11963, @11966, @11969, @11972, @11975, @11978, @11981, @11984, @11987, @11990, @11993, @11996, @11999, @12002, @12005, @12008, @12011, @12014, @12017, @12020, @12023, @12026, @12029, @12032, @12035, @12038, @12041, @12044, @12047, @12050, @12053, @12056, @12059, @12062, @12065, @12068, @12071, @12074, @12077, @12080, @12083, @12086, @12089, @12092, @12095, @12098, @12101, @12104, @12107, @12110, @12113, @12116, @12119, @12122, @12125, @12128, @12131, @12134, @12137, @12140
+ 11943: BRA     +195                  ; -> 12143
+ 11948: PUSHB   6
+ 11950: BRK
+ 11951: PUSHB   14
+ 11953: BRK
+ 11954: PUSHB   15
+ 11956: BRK
+ 11957: PUSHB   14
+ 11959: BRK
+ 11960: PUSHB   15
+ 11962: BRK
+ 11963: PUSHB   14
+ 11965: BRK
+ 11966: PUSHB   15
+ 11968: BRK
+ 11969: PUSHB   14
+ 11971: BRK
+ 11972: PUSHB   15
+ 11974: BRK
+ 11975: PUSHB   15
+ 11977: BRK
+ 11978: PUSHB   15
+ 11980: BRK
+ 11981: PUSHB   14
+ 11983: BRK
+ 11984: PUSHB   14
+ 11986: BRK
+ 11987: PUSHB   15
+ 11989: BRK
+ 11990: PUSHB   14
+ 11992: BRK
+ 11993: PUSHB   14
+ 11995: BRK
+ 11996: PUSHB   14
+ 11998: BRK
+ 11999: PUSHB   15
+ 12001: BRK
+ 12002: PUSHB   15
+ 12004: BRK
+ 12005: PUSHB   15
+ 12007: BRK
+ 12008: PUSHB   15
+ 12010: BRK
+ 12011: PUSHB   14
+ 12013: BRK
+ 12014: PUSHB   14
+ 12016: BRK
+ 12017: PUSHB   15
+ 12019: BRK
+ 12020: PUSHB   14
+ 12022: BRK
+ 12023: PUSHB   14
+ 12025: BRK
+ 12026: PUSHB   14
+ 12028: BRK
+ 12029: PUSHB   14
+ 12031: BRK
+ 12032: PUSHB   15
+ 12034: BRK
+ 12035: PUSHB   15
+ 12037: BRK
+ 12038: PUSHB   14
+ 12040: BRK
+ 12041: PUSHB   15
+ 12043: BRK
+ 12044: PUSHB   15
+ 12046: BRK
+ 12047: PUSHB   15
+ 12049: BRK
+ 12050: PUSHB   15
+ 12052: BRK
+ 12053: PUSHB   15
+ 12055: BRK
+ 12056: PUSHB   15
+ 12058: BRK
+ 12059: PUSHB   14
+ 12061: BRK
+ 12062: PUSHB   14
+ 12064: BRK
+ 12065: PUSHB   14
+ 12067: BRK
+ 12068: PUSHB   14
+ 12070: BRK
+ 12071: PUSHB   15
+ 12073: BRK
+ 12074: PUSHB   14
+ 12076: BRK
+ 12077: PUSHB   15
+ 12079: BRK
+ 12080: PUSHB   14
+ 12082: BRK
+ 12083: PUSHB   15
+ 12085: BRK
+ 12086: PUSHB   14
+ 12088: BRK
+ 12089: PUSHB   14
+ 12091: BRK
+ 12092: PUSHB   15
+ 12094: BRK
+ 12095: PUSHB   14
+ 12097: BRK
+ 12098: PUSHB   15
+ 12100: BRK
+ 12101: PUSHB   14
+ 12103: BRK
+ 12104: PUSHB   14
+ 12106: BRK
+ 12107: PUSHB   15
+ 12109: BRK
+ 12110: PUSHB   14
+ 12112: BRK
+ 12113: PUSHB   15
+ 12115: BRK
+ 12116: PUSHB   15
+ 12118: BRK
+ 12119: PUSHB   14
+ 12121: BRK
+ 12122: PUSHB   15
+ 12124: BRK
+ 12125: PUSHB   14
+ 12127: BRK
+ 12128: PUSHB   14
+ 12130: BRK
+ 12131: PUSHB   14
+ 12133: BRK
+ 12134: PUSHB   14
+ 12136: BRK
+ 12137: PUSHB   14
+ 12139: BRK
+ 12140: PUSHB   15
+ 12142: BRK
+ 12143: POP
+ 12144: PUSHIIB #2                    ; symbol "CreateTerrainTileMap"
+ 12146: CALL    argc=65               ; args @12416, @12419, @12422, @12425, @12428, @12431, @12434, @12437, @12440, @12443, @12446, @12449, @12452, @12455, @12458, @12461, @12464, @12467, @12470, @12473, @12476, @12479, @12482, @12485, @12488, @12491, @12494, @12497, @12500, @12503, @12506, @12509, @12512, @12515, @12518, @12521, @12524, @12527, @12530, @12533, @12536, @12539, @12542, @12545, @12548, @12551, @12554, @12557, @12560, @12563, @12566, @12569, @12572, @12575, @12578, @12581, @12584, @12587, @12590, @12593, @12596, @12599, @12602, @12605, @12608
+ 12411: BRA     +195                  ; -> 12611
+ 12416: PUSHB   7
+ 12418: BRK
+ 12419: PUSHB   16
+ 12421: BRK
+ 12422: PUSHB   17
+ 12424: BRK
+ 12425: PUSHB   16
+ 12427: BRK
+ 12428: PUSHB   17
+ 12430: BRK
+ 12431: PUSHB   16
+ 12433: BRK
+ 12434: PUSHB   17
+ 12436: BRK
+ 12437: PUSHB   16
+ 12439: BRK
+ 12440: PUSHB   17
+ 12442: BRK
+ 12443: PUSHB   16
+ 12445: BRK
+ 12446: PUSHB   17
+ 12448: BRK
+ 12449: PUSHB   16
+ 12451: BRK
+ 12452: PUSHB   17
+ 12454: BRK
+ 12455: PUSHB   16
+ 12457: BRK
+ 12458: PUSHB   17
+ 12460: BRK
+ 12461: PUSHB   16
+ 12463: BRK
+ 12464: PUSHB   17
+ 12466: BRK
+ 12467: PUSHB   16
+ 12469: BRK
+ 12470: PUSHB   17
+ 12472: BRK
+ 12473: PUSHB   16
+ 12475: BRK
+ 12476: PUSHB   17
+ 12478: BRK
+ 12479: PUSHB   16
+ 12481: BRK
+ 12482: PUSHB   17
+ 12484: BRK
+ 12485: PUSHB   16
+ 12487: BRK
+ 12488: PUSHB   17
+ 12490: BRK
+ 12491: PUSHB   16
+ 12493: BRK
+ 12494: PUSHB   17
+ 12496: BRK
+ 12497: PUSHB   16
+ 12499: BRK
+ 12500: PUSHB   17
+ 12502: BRK
+ 12503: PUSHB   16
+ 12505: BRK
+ 12506: PUSHB   17
+ 12508: BRK
+ 12509: PUSHB   16
+ 12511: BRK
+ 12512: PUSHB   17
+ 12514: BRK
+ 12515: PUSHB   16
+ 12517: BRK
+ 12518: PUSHB   17
+ 12520: BRK
+ 12521: PUSHB   16
+ 12523: BRK
+ 12524: PUSHB   17
+ 12526: BRK
+ 12527: PUSHB   16
+ 12529: BRK
+ 12530: PUSHB   17
+ 12532: BRK
+ 12533: PUSHB   16
+ 12535: BRK
+ 12536: PUSHB   17
+ 12538: BRK
+ 12539: PUSHB   16
+ 12541: BRK
+ 12542: PUSHB   17
+ 12544: BRK
+ 12545: PUSHB   16
+ 12547: BRK
+ 12548: PUSHB   17
+ 12550: BRK
+ 12551: PUSHB   16
+ 12553: BRK
+ 12554: PUSHB   17
+ 12556: BRK
+ 12557: PUSHB   16
+ 12559: BRK
+ 12560: PUSHB   17
+ 12562: BRK
+ 12563: PUSHB   16
+ 12565: BRK
+ 12566: PUSHB   17
+ 12568: BRK
+ 12569: PUSHB   16
+ 12571: BRK
+ 12572: PUSHB   17
+ 12574: BRK
+ 12575: PUSHB   16
+ 12577: BRK
+ 12578: PUSHB   17
+ 12580: BRK
+ 12581: PUSHB   16
+ 12583: BRK
+ 12584: PUSHB   17
+ 12586: BRK
+ 12587: PUSHB   16
+ 12589: BRK
+ 12590: PUSHB   17
+ 12592: BRK
+ 12593: PUSHB   16
+ 12595: BRK
+ 12596: PUSHB   17
+ 12598: BRK
+ 12599: PUSHB   16
+ 12601: BRK
+ 12602: PUSHB   17
+ 12604: BRK
+ 12605: PUSHB   16
+ 12607: BRK
+ 12608: PUSHB   17
+ 12610: BRK
+ 12611: POP
+ 12612: BRK

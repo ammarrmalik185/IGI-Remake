@@ -1,0 +1,20 @@
+{
+  "id": 4,
+  "displayName": "M16 A2",
+  "description": "\u003CM16A2DESC\u003E",
+  "category": 0,
+  "model": "108_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/108_01_1.igimodel",
+  "magazineSize": 20,
+  "roundsPerMinute": 550,
+  "reloadSeconds": 2,
+  "automatic": true,
+  "range": 200,
+  "modelLength": 1,
+  "damageFactor": 0.3,
+  "calibre": 556,
+  "spreadDegrees": -2,
+  "recoilDegrees": 0.8,
+  "fireSoundPath": "Assets/IGIImported/Audio/m16_loop.wav",
+  "source": "Definitions/weapons/M16A2/weapon.qvm.json"
+}

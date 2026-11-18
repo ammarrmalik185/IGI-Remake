@@ -1,0 +1,8 @@
+{
+  "name": "IGIRebuilt.Runtime",
+  "rootNamespace": "IGIRebuilt",
+  "references": [
+    "Unity.InputSystem"
+  ],
+  "autoReferenced": true
+}

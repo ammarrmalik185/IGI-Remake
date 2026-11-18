@@ -1,0 +1,20 @@
+{
+  "id": 40,
+  "displayName": "\u003CAPC\u003E",
+  "description": "\u003CAPCDESC\u003E",
+  "category": 0,
+  "model": "601_05_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/601_05_1.igimodel",
+  "magazineSize": 10000,
+  "roundsPerMinute": 12,
+  "reloadSeconds": 5,
+  "automatic": true,
+  "range": 2000,
+  "modelLength": 1.651,
+  "damageFactor": 0.25,
+  "calibre": 556,
+  "spreadDegrees": 1,
+  "recoilDegrees": 0,
+  "fireSoundPath": "Assets/IGIImported/Audio/rpg_launch_1.wav",
+  "source": "Definitions/weapons/APC/weapon.qvm.json"
+}

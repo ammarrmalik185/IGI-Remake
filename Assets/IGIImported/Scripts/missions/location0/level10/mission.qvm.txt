@@ -1,0 +1,27 @@
+     0: PUSHIIB #0                    ; symbol "DefineMission"
+     2: CALL    argc=11               ; args @56, @59, @62, @65, @68, @71, @74, @77, @80, @83, @86
+    51: BRA     +33                   ; -> 89
+    56: PUSHB   10
+    58: BRK
+    59: PUSHSIB #0                    ; string "Mission 10 Name"
+    61: BRK
+    62: PUSHSIB #1                    ; string "Mission 10 Desc"
+    64: BRK
+    65: PUSHSIB #2                    ; string ""
+    67: BRK
+    68: PUSHB   11
+    70: BRK
+    71: PUSHSIB #3                    ; string "missions/location0/level10"
+    73: BRK
+    74: PUSHSIB #4                    ; string "missions/location0/common"
+    76: BRK
+    77: PUSHSIB #3                    ; string "missions/location0/level10"
+    79: BRK
+    80: PUSHSIB #5                    ; string "location0"
+    82: BRK
+    83: PUSHSIB #6                    ; string "level10"
+    85: BRK
+    86: PUSHSIB #7                    ; string "mission10.spr"
+    88: BRK
+    89: POP
+    90: BRK

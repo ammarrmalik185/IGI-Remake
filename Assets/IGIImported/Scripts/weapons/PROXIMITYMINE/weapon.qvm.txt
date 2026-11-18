@@ -1,0 +1,116 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=53               ; args @224, @227, @230, @233, @236, @239, @242, @245, @248, @252, @256, @262, @265, @271, @274, @276, @279, @281, @283, @285, @287, @289, @291, @293, @295, @298, @304, @307, @311, @314, @317, @320, @323, @326, @329, @332, @335, @338, @342, @346, @350, @354, @358, @362, @365, @368, @371, @374, @377, @380, @386, @392, @398
+   219: BRA     +180                  ; -> 404
+   224: PUSHB   16
+   226: BRK
+   227: PUSHSIB #0                    ; string "WEAPON_ID_PROXIMITYMINE"
+   229: BRK
+   230: PUSHSIB #1                    ; string "Proximitymine"
+   232: BRK
+   233: PUSHSIB #2                    ; string "<QBRANCH>"
+   235: BRK
+   236: PUSHSIB #3                    ; string "<PROXIMITYMINEDESC>"
+   238: BRK
+   239: PUSHIIB #1                    ; symbol "WEAPONTYPE_PROXIMITYMINE"
+   241: BRK
+   242: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   244: BRK
+   245: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_GRENADE"
+   247: BRK
+   248: PUSHW   656
+   251: BRK
+   252: PUSHW   10001
+   255: BRK
+   256: PUSHF   0.25
+   261: BRK
+   262: PUSHB   3
+   264: BRK
+   265: PUSHF   2
+   270: BRK
+   271: PUSHB   15
+   273: BRK
+   274: PUSH1
+   275: BRK
+   276: PUSHB   60
+   278: BRK
+   279: PUSH1
+   280: BRK
+   281: PUSH1
+   282: BRK
+   283: PUSH0
+   284: BRK
+   285: PUSH0
+   286: BRK
+   287: PUSH0
+   288: BRK
+   289: PUSH0
+   290: BRK
+   291: PUSH0
+   292: BRK
+   293: PUSH0
+   294: BRK
+   295: PUSHSIB #4                    ; string "<SELF-LOADING_PISTOL>"
+   297: BRK
+   298: PUSHF   1.5
+   303: BRK
+   304: PUSHSIB #5                    ; string "<PROXIMITYMINEUSERS>"
+   306: BRK
+   307: PUSHW   185
+   310: BRK
+   311: PUSHB   114
+   313: BRK
+   314: PUSHSIB #6                    ; string "136_01_1"
+   316: BRK
+   317: PUSHSIB #7                    ; string ""
+   319: BRK
+   320: PUSHB   40
+   322: BRK
+   323: PUSHB   41
+   325: BRK
+   326: PUSH1
+   327: MINUS
+   328: BRK
+   329: PUSH1
+   330: MINUS
+   331: BRK
+   332: PUSH1
+   333: MINUS
+   334: BRK
+   335: PUSH1
+   336: MINUS
+   337: BRK
+   338: PUSHW   159
+   341: BRK
+   342: PUSHW   165
+   345: BRK
+   346: PUSHW   161
+   349: BRK
+   350: PUSHW   162
+   353: BRK
+   354: PUSHW   160
+   357: BRK
+   358: PUSHW   164
+   361: BRK
+   362: PUSH1
+   363: MINUS
+   364: BRK
+   365: PUSHSIB #8                    ; string "grenade_shot_1"
+   367: BRK
+   368: PUSHSIB #8                    ; string "grenade_shot_1"
+   370: BRK
+   371: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+   373: BRK
+   374: PUSHIIB #5                    ; symbol "TASKTYPE_MINE"
+   376: BRK
+   377: PUSHIIB #6                    ; symbol "TASKTYPE_PROXIMITYMINE"
+   379: BRK
+   380: PUSHF   2
+   385: BRK
+   386: PUSHF   0.5
+   391: BRK
+   392: PUSHF   1.5
+   397: BRK
+   398: PUSHF   3
+   403: BRK
+   404: POP
+   405: BRK

@@ -1,0 +1,108 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=50               ; args @212, @215, @218, @221, @224, @227, @230, @233, @236, @240, @244, @250, @253, @259, @263, @265, @268, @271, @273, @280, @286, @292, @294, @296, @298, @301, @305, @308, @312, @316, @319, @322, @325, @328, @331, @334, @337, @340, @344, @348, @352, @356, @360, @364, @368, @371, @374, @377, @380, @383
+   207: BRA     +174                  ; -> 386
+   212: PUSHB   11
+   214: BRK
+   215: PUSHSIB #0                    ; string "WEAPON_ID_DRAGUNOV"
+   217: BRK
+   218: PUSHSIB #1                    ; string "Dragunov"
+   220: BRK
+   221: PUSHSIB #2                    ; string "<KALASHNIKOV>"
+   223: BRK
+   224: PUSHSIB #3                    ; string "<SNAIPERSKAYA_VINTOVKA_DRAGUNOVADESC>"
+   226: BRK
+   227: PUSHIIB #1                    ; symbol "WEAPONTYPE_GUN"
+   229: BRK
+   230: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   232: BRK
+   233: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_CLIP"
+   235: BRK
+   236: PUSHW   4300
+   239: BRK
+   240: PUSHW   10004
+   243: BRK
+   244: PUSHF   0.5
+   249: BRK
+   250: PUSHB   3
+   252: BRK
+   253: PUSHF   2
+   258: BRK
+   259: PUSHW   6000
+   262: BRK
+   263: PUSH1
+   264: BRK
+   265: PUSHB   50
+   267: BRK
+   268: PUSHB   10
+   270: BRK
+   271: PUSH1
+   272: BRK
+   273: PUSHF   0.05
+   278: MINUS
+   279: BRK
+   280: PUSHF   0.05
+   285: BRK
+   286: PUSHF   3.5
+   291: BRK
+   292: PUSH0
+   293: BRK
+   294: PUSH0
+   295: BRK
+   296: PUSH0
+   297: BRK
+   298: PUSHSIB #4                    ; string "<SNIPER_RIFLE>"
+   300: BRK
+   301: PUSHW   300
+   304: BRK
+   305: PUSHSIB #5                    ; string "<SNAIPERSKAYA_VINTOVKA_DRAGUNOVAUSERS>"
+   307: BRK
+   308: PUSHW   1225
+   311: BRK
+   312: PUSHW   622
+   315: BRK
+   316: PUSHSIB #6                    ; string "105_01_1"
+   318: BRK
+   319: PUSHSIB #7                    ; string "113_01_1"
+   321: BRK
+   322: PUSHB   43
+   324: BRK
+   325: PUSHB   44
+   327: BRK
+   328: PUSHB   45
+   330: BRK
+   331: PUSH1
+   332: MINUS
+   333: BRK
+   334: PUSH1
+   335: MINUS
+   336: BRK
+   337: PUSHB   46
+   339: BRK
+   340: PUSHW   203
+   343: BRK
+   344: PUSHW   137
+   347: BRK
+   348: PUSHW   139
+   351: BRK
+   352: PUSHW   140
+   355: BRK
+   356: PUSHW   135
+   359: BRK
+   360: PUSHW   141
+   363: BRK
+   364: PUSHW   226
+   367: BRK
+   368: PUSHSIB #8                    ; string "svddrag_shot_1"
+   370: BRK
+   371: PUSHSIB #8                    ; string "svddrag_shot_1"
+   373: BRK
+   374: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   376: BRK
+   377: PUSHIIB #5                    ; symbol "TASKTYPE_GUNSHOT"
+   379: BRK
+   380: PUSHIIB #6                    ; symbol "TASKTYPE_GUNDRAGUNOV"
+   382: BRK
+   383: PUSHB   5
+   385: BRK
+   386: POP
+   387: BRK

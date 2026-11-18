@@ -1,0 +1,49 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +18                   ; -> 38
+    20: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+    22: CALL    argc=0
+    27: BRA     +0                    ; -> 32
+    32: POP
+    33: BRA     +127                  ; -> 165
+    38: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    40: CALL    argc=0
+    45: BRA     +0                    ; -> 50
+    50: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    52: EQ
+    53: BF      +31                   ; -> 89
+    58: PUSHIIB #4                    ; symbol "AIAction_PlayAnimation"
+    60: CALL    argc=2                ; args @78, @81
+    73: BRA     +5                    ; -> 83
+    78: PUSHB   8
+    80: BRK
+    81: PUSH0
+    82: BRK
+    83: POP
+    84: BRA     +76                   ; -> 165
+    89: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    91: CALL    argc=0
+    96: BRA     +0                    ; -> 101
+   101: PUSHIIB #5                    ; symbol "AIEVENT_ALARMON"
+   103: EQ
+   104: BF      +5                    ; -> 114
+   109: BRA     +51                   ; -> 165
+   114: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   116: CALL    argc=0
+   121: BRA     +0                    ; -> 126
+   126: PUSHIIB #6                    ; symbol "AIEVENT_COMBAT"
+   128: EQ
+   129: BF      +18                   ; -> 152
+   134: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   136: CALL    argc=0
+   141: BRA     +0                    ; -> 146
+   146: POP
+   147: BRA     +13                   ; -> 165
+   152: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   154: CALL    argc=0
+   159: BRA     +0                    ; -> 164
+   164: POP
+   165: BRK

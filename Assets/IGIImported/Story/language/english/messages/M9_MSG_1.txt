@@ -1,0 +1,1 @@
+ANYA: The alarm system will warn the train if it runs for too long. You have about 30 seconds to switch it off. The train will abort if it receives a warning.

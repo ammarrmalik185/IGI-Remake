@@ -1,0 +1,20 @@
+{
+  "id": 5,
+  "displayName": "AK47",
+  "description": "\u003CAK-47DESC\u003E",
+  "category": 0,
+  "model": "100_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/100_01_1.igimodel",
+  "magazineSize": 30,
+  "roundsPerMinute": 650,
+  "reloadSeconds": 2,
+  "automatic": true,
+  "range": 2000,
+  "modelLength": 0.869,
+  "damageFactor": 0.3,
+  "calibre": 762,
+  "spreadDegrees": -3.5,
+  "recoilDegrees": 0.8,
+  "fireSoundPath": "Assets/IGIImported/Audio/ak47_loop.wav",
+  "source": "Definitions/weapons/AK47/weapon.qvm.json"
+}

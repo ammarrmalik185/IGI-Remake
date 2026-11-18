@@ -1,0 +1,27 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_IDLE"
+    14: EQ
+    15: BF      +52                   ; -> 72
+    20: PUSHIIB #2                    ; symbol "EditVariable_2011.nValue"
+    22: PUSH0
+    23: GT
+    24: BF      +38                   ; -> 67
+    29: PUSHIIB #3                    ; symbol "AIAction_Patrol"
+    31: CALL    argc=3                ; args @53, @57, @59
+    48: BRA     +8                    ; -> 61
+    53: PUSHW   671
+    56: BRK
+    57: PUSH0
+    58: BRK
+    59: PUSH1
+    60: BRK
+    61: POP
+    62: BRA     +0                    ; -> 67
+    67: BRA     +13                   ; -> 85
+    72: PUSHIIB #4                    ; symbol "AIFunction_DefaultHandler"
+    74: CALL    argc=0
+    79: BRA     +0                    ; -> 84
+    84: POP
+    85: BRK

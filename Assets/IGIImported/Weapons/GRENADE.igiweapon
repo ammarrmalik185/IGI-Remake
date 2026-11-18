@@ -1,0 +1,20 @@
+{
+  "id": 14,
+  "displayName": "Hand Grenade",
+  "description": "\u003CGRENADEDESC\u003E",
+  "category": 4,
+  "model": "135_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/135_01_1.igimodel",
+  "magazineSize": 1,
+  "roundsPerMinute": 50,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 1,
+  "modelLength": 0.185,
+  "damageFactor": 0.5,
+  "calibre": 10000,
+  "spreadDegrees": 0,
+  "recoilDegrees": 0,
+  "fireSoundPath": "Assets/IGIImported/Audio/grenade_shot_1.wav",
+  "source": "Definitions/weapons/GRENADE/weapon.qvm.json"
+}

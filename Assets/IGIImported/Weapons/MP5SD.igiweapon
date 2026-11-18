@@ -1,0 +1,20 @@
+{
+  "id": 7,
+  "displayName": "Mp5 SD3",
+  "description": "\u003CMP5_SD3DESC\u003E",
+  "category": 0,
+  "model": "103_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/103_01_1.igimodel",
+  "magazineSize": 32,
+  "roundsPerMinute": 700,
+  "reloadSeconds": 2,
+  "automatic": true,
+  "range": 80,
+  "modelLength": 0.68,
+  "damageFactor": 0.15,
+  "calibre": 919,
+  "spreadDegrees": -2,
+  "recoilDegrees": 0.8,
+  "fireSoundPath": "Assets/IGIImported/Audio/mp5sd_loop.wav",
+  "source": "Definitions/weapons/MP5SD/weapon.qvm.json"
+}

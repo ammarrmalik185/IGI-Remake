@@ -1,0 +1,106 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=49               ; args @208, @211, @214, @217, @220, @223, @226, @229, @232, @236, @240, @246, @249, @255, @259, @261, @265, @268, @271, @278, @284, @290, @292, @298, @304, @307, @311, @314, @318, @322, @325, @328, @331, @334, @337, @340, @343, @346, @350, @354, @358, @362, @366, @370, @374, @377, @380, @383, @386
+   203: BRA     +181                  ; -> 389
+   208: PUSHB   5
+   210: BRK
+   211: PUSHSIB #0                    ; string "WEAPON_ID_AK47"
+   213: BRK
+   214: PUSHSIB #1                    ; string "AK47"
+   216: BRK
+   217: PUSHSIB #2                    ; string "<KALASHNIKOV>"
+   219: BRK
+   220: PUSHSIB #3                    ; string "<AK-47DESC>"
+   222: BRK
+   223: PUSHIIB #1                    ; symbol "WEAPONTYPE_GUN"
+   225: BRK
+   226: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   228: BRK
+   229: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_CLIP"
+   231: BRK
+   232: PUSHW   4300
+   235: BRK
+   236: PUSHW   762
+   239: BRK
+   240: PUSHF   0.3
+   245: BRK
+   246: PUSHB   2
+   248: BRK
+   249: PUSHF   2
+   254: BRK
+   255: PUSHW   710
+   258: BRK
+   259: PUSH1
+   260: BRK
+   261: PUSHW   650
+   264: BRK
+   265: PUSHB   30
+   267: BRK
+   268: PUSHB   30
+   270: BRK
+   271: PUSHF   3.5
+   276: MINUS
+   277: BRK
+   278: PUSHF   3.5
+   283: BRK
+   284: PUSHF   0.8
+   289: BRK
+   290: PUSH0
+   291: BRK
+   292: PUSHF   0.6
+   297: BRK
+   298: PUSHF   0.6
+   303: BRK
+   304: PUSHSIB #4                    ; string "<ASSAULT_RIFLE>"
+   306: BRK
+   307: PUSHW   2000
+   310: BRK
+   311: PUSHSIB #5                    ; string "<AK-47USERS>"
+   313: BRK
+   314: PUSHW   869
+   317: BRK
+   318: PUSHW   414
+   321: BRK
+   322: PUSHSIB #6                    ; string "100_01_1"
+   324: BRK
+   325: PUSHSIB #7                    ; string "113_01_1"
+   327: BRK
+   328: PUSHB   10
+   330: BRK
+   331: PUSHB   11
+   333: BRK
+   334: PUSHB   12
+   336: BRK
+   337: PUSH1
+   338: MINUS
+   339: BRK
+   340: PUSH1
+   341: MINUS
+   342: BRK
+   343: PUSHB   13
+   345: BRK
+   346: PUSHW   203
+   349: BRK
+   350: PUSHW   137
+   353: BRK
+   354: PUSHW   139
+   357: BRK
+   358: PUSHW   140
+   361: BRK
+   362: PUSHW   135
+   365: BRK
+   366: PUSHW   141
+   369: BRK
+   370: PUSHW   192
+   373: BRK
+   374: PUSHSIB #8                    ; string "ak47_loop"
+   376: BRK
+   377: PUSHSIB #9                    ; string "ak47_loop_e"
+   379: BRK
+   380: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   382: BRK
+   383: PUSHIIB #5                    ; symbol "TASKTYPE_GUNSHOT"
+   385: BRK
+   386: PUSHIIB #6                    ; symbol "TASKTYPE_GUN"
+   388: BRK
+   389: POP
+   390: BRK

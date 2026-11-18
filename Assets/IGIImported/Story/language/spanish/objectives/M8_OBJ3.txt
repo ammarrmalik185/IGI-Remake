@@ -1,0 +1,1 @@
+Recupera el localizador y obtén un indicador de objetivos láser.

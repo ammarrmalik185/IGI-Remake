@@ -1,0 +1,1 @@
+ANYA: Der Zug könnte durch das Alarmsystem gewarnt werden. Sie haben etwa 30 Sekunden Zeit, um den Alarm abzuschalten. Der Zug fährt sofort ab, wenn er gewarnt wird.

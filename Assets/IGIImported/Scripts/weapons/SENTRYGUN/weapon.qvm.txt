@@ -1,0 +1,116 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=49               ; args @208, @211, @214, @217, @220, @223, @226, @229, @232, @238, @241, @243, @246, @252, @256, @258, @262, @266, @270, @276, @279, @285, @287, @289, @291, @294, @298, @301, @305, @309, @312, @315, @318, @321, @324, @327, @330, @333, @336, @339, @342, @345, @348, @351, @354, @357, @360, @363, @366
+   203: BRA     +161                  ; -> 369
+   208: PUSHB   44
+   210: BRK
+   211: PUSHSIB #0                    ; string "WEAPON_ID_SENTRY"
+   213: BRK
+   214: PUSHSIB #1                    ; string "SENTRYGUN"
+   216: BRK
+   217: PUSHSIB #2                    ; string "<SENTRYMAN>"
+   219: BRK
+   220: PUSHSIB #3                    ; string "<SENTRYDESC>"
+   222: BRK
+   223: PUSHIIB #1                    ; symbol "WEAPONTYPE_GUN"
+   225: BRK
+   226: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   228: BRK
+   229: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_CLIP"
+   231: BRK
+   232: PUSH    38000
+   237: BRK
+   238: PUSHB   127
+   240: BRK
+   241: PUSH1
+   242: BRK
+   243: PUSHB   3
+   245: BRK
+   246: PUSHF   2
+   251: BRK
+   252: PUSHW   930
+   255: BRK
+   256: PUSH1
+   257: BRK
+   258: PUSHW   1000
+   261: BRK
+   262: PUSHW   10000
+   265: BRK
+   266: PUSHW   10000
+   269: BRK
+   270: PUSHF   0.4
+   275: BRK
+   276: PUSHB   5
+   278: BRK
+   279: PUSHF   0.1
+   284: BRK
+   285: PUSH0
+   286: BRK
+   287: PUSH1
+   288: BRK
+   289: PUSH1
+   290: BRK
+   291: PUSHSIB #4                    ; string "<HEAVY_MACHINE-GUN>"
+   293: BRK
+   294: PUSHW   2000
+   297: BRK
+   298: PUSHSIB #5                    ; string "<SENTRYUSERS>"
+   300: BRK
+   301: PUSHW   1651
+   304: BRK
+   305: PUSHW   1143
+   308: BRK
+   309: PUSHSIB #6                    ; string "456_13_1"
+   311: BRK
+   312: PUSHSIB #7                    ; string "138_01_1"
+   314: BRK
+   315: PUSH1
+   316: MINUS
+   317: BRK
+   318: PUSH1
+   319: MINUS
+   320: BRK
+   321: PUSH1
+   322: MINUS
+   323: BRK
+   324: PUSH1
+   325: MINUS
+   326: BRK
+   327: PUSH1
+   328: MINUS
+   329: BRK
+   330: PUSH1
+   331: MINUS
+   332: BRK
+   333: PUSH1
+   334: MINUS
+   335: BRK
+   336: PUSH1
+   337: MINUS
+   338: BRK
+   339: PUSH1
+   340: MINUS
+   341: BRK
+   342: PUSH1
+   343: MINUS
+   344: BRK
+   345: PUSH1
+   346: MINUS
+   347: BRK
+   348: PUSH1
+   349: MINUS
+   350: BRK
+   351: PUSH1
+   352: MINUS
+   353: BRK
+   354: PUSHSIB #8                    ; string "m2hb_loop"
+   356: BRK
+   357: PUSHSIB #9                    ; string "m2hb_loop_e"
+   359: BRK
+   360: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   362: BRK
+   363: PUSHIIB #5                    ; symbol "TASKTYPE_GUNSHOT"
+   365: BRK
+   366: PUSHIIB #6                    ; symbol "TASKTYPE_GUN"
+   368: BRK
+   369: POP
+   370: BRK

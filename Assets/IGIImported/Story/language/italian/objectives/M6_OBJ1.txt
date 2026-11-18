@@ -1,0 +1,1 @@
+Recupera gli esplosivi dal suo magazzino principale.

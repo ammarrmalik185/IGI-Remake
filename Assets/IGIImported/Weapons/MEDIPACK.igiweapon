@@ -1,0 +1,20 @@
+{
+  "id": 19,
+  "displayName": "Medipack",
+  "description": "\u003CMEDIPACKDESC\u003E",
+  "category": 6,
+  "model": "121_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/121_01_1.igimodel",
+  "magazineSize": 1,
+  "roundsPerMinute": 120,
+  "reloadSeconds": 0,
+  "automatic": true,
+  "range": 1,
+  "modelLength": 0.185,
+  "damageFactor": 0,
+  "calibre": 10005,
+  "spreadDegrees": 0,
+  "recoilDegrees": 0,
+  "fireSoundPath": "Assets/IGIImported/Audio/glock_shot_1.wav",
+  "source": "Definitions/weapons/MEDIPACK/weapon.qvm.json"
+}

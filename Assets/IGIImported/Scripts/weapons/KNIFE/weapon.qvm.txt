@@ -1,0 +1,106 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=49               ; args @208, @211, @214, @217, @220, @223, @226, @229, @232, @236, @239, @245, @247, @253, @256, @258, @262, @265, @267, @269, @271, @273, @275, @277, @279, @282, @284, @287, @291, @294, @297, @300, @303, @306, @309, @312, @315, @318, @322, @326, @330, @334, @338, @342, @345, @348, @351, @354, @357
+   203: BRA     +152                  ; -> 360
+   208: PUSHB   20
+   210: BRK
+   211: PUSHSIB #0                    ; string "WEAPON_ID_KNIFE"
+   213: BRK
+   214: PUSHSIB #1                    ; string "Knife"
+   216: BRK
+   217: PUSHSIB #2                    ; string "<BRUSLETTO_AS>"
+   219: BRK
+   220: PUSHSIB #3                    ; string "<KNIFEDESC>"
+   222: BRK
+   223: PUSHIIB #1                    ; symbol "WEAPONTYPE_KNIFE"
+   225: BRK
+   226: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_NONE"
+   228: BRK
+   229: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_NONE"
+   231: BRK
+   232: PUSHW   656
+   235: BRK
+   236: PUSH1
+   237: MINUS
+   238: BRK
+   239: PUSHF   0.1
+   244: BRK
+   245: PUSH0
+   246: BRK
+   247: PUSHF   2
+   252: BRK
+   253: PUSHB   10
+   255: BRK
+   256: PUSH1
+   257: BRK
+   258: PUSHW   140
+   261: BRK
+   262: PUSH1
+   263: MINUS
+   264: BRK
+   265: PUSH1
+   266: BRK
+   267: PUSH0
+   268: BRK
+   269: PUSH0
+   270: BRK
+   271: PUSH0
+   272: BRK
+   273: PUSH0
+   274: BRK
+   275: PUSH0
+   276: BRK
+   277: PUSH0
+   278: BRK
+   279: PUSHSIB #4                    ; string "<KNIFE>"
+   281: BRK
+   282: PUSH1
+   283: BRK
+   284: PUSHSIB #5                    ; string "<KNIFE_USERS>"
+   286: BRK
+   287: PUSHW   185
+   290: BRK
+   291: PUSHB   114
+   293: BRK
+   294: PUSHSIB #6                    ; string "133_01_1"
+   296: BRK
+   297: PUSHSIB #7                    ; string ""
+   299: BRK
+   300: PUSHB   26
+   302: BRK
+   303: PUSHB   27
+   305: BRK
+   306: PUSHB   28
+   308: BRK
+   309: PUSHB   29
+   311: BRK
+   312: PUSHB   30
+   314: BRK
+   315: PUSHB   5
+   317: BRK
+   318: PUSHW   144
+   321: BRK
+   322: PUSHW   143
+   325: BRK
+   326: PUSHW   145
+   329: BRK
+   330: PUSHW   146
+   333: BRK
+   334: PUSHW   142
+   337: BRK
+   338: PUSHW   147
+   341: BRK
+   342: PUSH1
+   343: MINUS
+   344: BRK
+   345: PUSHSIB #8                    ; string "knife_1"
+   347: BRK
+   348: PUSHSIB #9                    ; string "knife_2"
+   350: BRK
+   351: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_SILENCED_RANGE"
+   353: BRK
+   354: PUSHIIB #5                    ; symbol "TASKTYPE_KNIFESTAB"
+   356: BRK
+   357: PUSHIIB #6                    ; symbol "TASKTYPE_GUN"
+   359: BRK
+   360: POP
+   361: BRK

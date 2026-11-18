@@ -1,0 +1,673 @@
+     0: PUSHIIB #0                    ; symbol "DefinePhysicsObjType"
+     2: CALL    argc=48               ; args @204, @207, @209, @212, @218, @224, @226, @229, @232, @235, @238, @240, @242, @244, @250, @252, @254, @256, @258, @260, @266, @268, @270, @273, @275, @277, @283, @285, @287, @290, @292, @294, @300, @302, @304, @307, @309, @311, @317, @319, @321, @324, @326, @328, @334, @336, @338, @344
+   199: BRA     +146                  ; -> 350
+   204: PUSHIIB #1                    ; symbol "TASKTYPE_GENERICPHYSICSOBJ"
+   206: BRK
+   207: PUSH0
+   208: BRK
+   209: PUSHB   10
+   211: BRK
+   212: PUSHF   0.5
+   217: BRK
+   218: PUSHF   0.5
+   223: BRK
+   224: PUSH1
+   225: BRK
+   226: PUSHSIB #0                    ; string "<TEST>"
+   228: BRK
+   229: PUSHSIB #1                    ; string "<TESTDESC>"
+   231: BRK
+   232: PUSHSIB #2                    ; string "1709_01_1"
+   234: BRK
+   235: PUSHB   6
+   237: BRK
+   238: PUSH0
+   239: BRK
+   240: PUSH0
+   241: BRK
+   242: PUSH1
+   243: BRK
+   244: PUSHF   0.5
+   249: BRK
+   250: PUSH1
+   251: BRK
+   252: PUSH1
+   253: BRK
+   254: PUSH1
+   255: BRK
+   256: PUSH0
+   257: BRK
+   258: PUSH1
+   259: BRK
+   260: PUSHF   0.5
+   265: BRK
+   266: PUSH1
+   267: BRK
+   268: PUSH1
+   269: BRK
+   270: PUSHB   2
+   272: BRK
+   273: PUSH0
+   274: BRK
+   275: PUSH1
+   276: BRK
+   277: PUSHF   0.5
+   282: BRK
+   283: PUSH1
+   284: BRK
+   285: PUSH1
+   286: BRK
+   287: PUSHB   3
+   289: BRK
+   290: PUSH0
+   291: BRK
+   292: PUSH1
+   293: BRK
+   294: PUSHF   0.5
+   299: BRK
+   300: PUSH1
+   301: BRK
+   302: PUSH1
+   303: BRK
+   304: PUSHB   4
+   306: BRK
+   307: PUSH0
+   308: BRK
+   309: PUSH1
+   310: BRK
+   311: PUSHF   0.5
+   316: BRK
+   317: PUSH1
+   318: BRK
+   319: PUSH1
+   320: BRK
+   321: PUSHB   5
+   323: BRK
+   324: PUSH0
+   325: BRK
+   326: PUSH1
+   327: BRK
+   328: PUSHF   0.5
+   333: BRK
+   334: PUSH1
+   335: BRK
+   336: PUSH1
+   337: BRK
+   338: PUSHF   0.7
+   343: BRK
+   344: PUSHF   0.001
+   349: BRK
+   350: POP
+   351: PUSHIIB #0                    ; symbol "DefinePhysicsObjType"
+   353: CALL    argc=42               ; args @531, @534, @536, @539, @541, @543, @549, @552, @555, @558, @561, @563, @565, @568, @574, @576, @578, @580, @582, @585, @591, @593, @595, @598, @600, @603, @609, @611, @613, @616, @618, @621, @627, @629, @631, @634, @636, @639, @645, @647, @649, @655
+   526: BRA     +130                  ; -> 661
+   531: PUSHIIB #1                    ; symbol "TASKTYPE_GENERICPHYSICSOBJ"
+   533: BRK
+   534: PUSH1
+   535: BRK
+   536: PUSHB   10
+   538: BRK
+   539: PUSH1
+   540: BRK
+   541: PUSH1
+   542: BRK
+   543: PUSHF   0.5
+   548: BRK
+   549: PUSHSIB #0                    ; string "<TEST>"
+   551: BRK
+   552: PUSHSIB #1                    ; string "<TESTDESC>"
+   554: BRK
+   555: PUSHSIB #3                    ; string "1710_01_1"
+   557: BRK
+   558: PUSHB   5
+   560: BRK
+   561: PUSH0
+   562: BRK
+   563: PUSH0
+   564: BRK
+   565: PUSHB   6
+   567: BRK
+   568: PUSHF   0.5
+   573: BRK
+   574: PUSH1
+   575: BRK
+   576: PUSH1
+   577: BRK
+   578: PUSH1
+   579: BRK
+   580: PUSH0
+   581: BRK
+   582: PUSHB   6
+   584: BRK
+   585: PUSHF   0.5
+   590: BRK
+   591: PUSH1
+   592: BRK
+   593: PUSH1
+   594: BRK
+   595: PUSHB   2
+   597: BRK
+   598: PUSH0
+   599: BRK
+   600: PUSHB   6
+   602: BRK
+   603: PUSHF   0.5
+   608: BRK
+   609: PUSH1
+   610: BRK
+   611: PUSH1
+   612: BRK
+   613: PUSHB   3
+   615: BRK
+   616: PUSH0
+   617: BRK
+   618: PUSHB   6
+   620: BRK
+   621: PUSHF   0.5
+   626: BRK
+   627: PUSH1
+   628: BRK
+   629: PUSH1
+   630: BRK
+   631: PUSHB   4
+   633: BRK
+   634: PUSH0
+   635: BRK
+   636: PUSHB   6
+   638: BRK
+   639: PUSHF   0.5
+   644: BRK
+   645: PUSH1
+   646: BRK
+   647: PUSH1
+   648: BRK
+   649: PUSHF   0.7
+   654: BRK
+   655: PUSHF   0.001
+   660: BRK
+   661: POP
+   662: PUSHIIB #0                    ; symbol "DefinePhysicsObjType"
+   664: CALL    argc=60               ; args @914, @917, @920, @923, @929, @935, @941, @944, @947, @950, @953, @955, @957, @960, @966, @968, @970, @972, @974, @977, @983, @985, @987, @990, @992, @995, @1001, @1003, @1005, @1008, @1010, @1013, @1019, @1021, @1023, @1026, @1028, @1031, @1037, @1039, @1041, @1044, @1046, @1049, @1055, @1057, @1059, @1062, @1064, @1067, @1073, @1075, @1077, @1080, @1082, @1085, @1091, @1093, @1095, @1101
+   909: BRA     +193                  ; -> 1107
+   914: PUSHIIB #1                    ; symbol "TASKTYPE_GENERICPHYSICSOBJ"
+   916: BRK
+   917: PUSHB   2
+   919: BRK
+   920: PUSHB   5
+   922: BRK
+   923: PUSHF   0.1
+   928: BRK
+   929: PUSHF   0.6
+   934: BRK
+   935: PUSHF   0.6
+   940: BRK
+   941: PUSHSIB #0                    ; string "<TEST>"
+   943: BRK
+   944: PUSHSIB #1                    ; string "<TESTDESC>"
+   946: BRK
+   947: PUSHSIB #4                    ; string "1712_01_1"
+   949: BRK
+   950: PUSHB   8
+   952: BRK
+   953: PUSH0
+   954: BRK
+   955: PUSH0
+   956: BRK
+   957: PUSHB   9
+   959: BRK
+   960: PUSHF   0.5
+   965: BRK
+   966: PUSH1
+   967: BRK
+   968: PUSH1
+   969: BRK
+   970: PUSH1
+   971: BRK
+   972: PUSH0
+   973: BRK
+   974: PUSHB   9
+   976: BRK
+   977: PUSHF   0.5
+   982: BRK
+   983: PUSH1
+   984: BRK
+   985: PUSH1
+   986: BRK
+   987: PUSHB   2
+   989: BRK
+   990: PUSH0
+   991: BRK
+   992: PUSHB   9
+   994: BRK
+   995: PUSHF   0.5
+  1000: BRK
+  1001: PUSH1
+  1002: BRK
+  1003: PUSH1
+  1004: BRK
+  1005: PUSHB   3
+  1007: BRK
+  1008: PUSH0
+  1009: BRK
+  1010: PUSHB   9
+  1012: BRK
+  1013: PUSHF   0.5
+  1018: BRK
+  1019: PUSH1
+  1020: BRK
+  1021: PUSH1
+  1022: BRK
+  1023: PUSHB   4
+  1025: BRK
+  1026: PUSH0
+  1027: BRK
+  1028: PUSHB   9
+  1030: BRK
+  1031: PUSHF   0.5
+  1036: BRK
+  1037: PUSH1
+  1038: BRK
+  1039: PUSH1
+  1040: BRK
+  1041: PUSHB   5
+  1043: BRK
+  1044: PUSH0
+  1045: BRK
+  1046: PUSHB   9
+  1048: BRK
+  1049: PUSHF   0.5
+  1054: BRK
+  1055: PUSH1
+  1056: BRK
+  1057: PUSH1
+  1058: BRK
+  1059: PUSHB   6
+  1061: BRK
+  1062: PUSH0
+  1063: BRK
+  1064: PUSHB   9
+  1066: BRK
+  1067: PUSHF   0.5
+  1072: BRK
+  1073: PUSH1
+  1074: BRK
+  1075: PUSH1
+  1076: BRK
+  1077: PUSHB   7
+  1079: BRK
+  1080: PUSH0
+  1081: BRK
+  1082: PUSHB   9
+  1084: BRK
+  1085: PUSHF   0.5
+  1090: BRK
+  1091: PUSH1
+  1092: BRK
+  1093: PUSH1
+  1094: BRK
+  1095: PUSHF   0.7
+  1100: BRK
+  1101: PUSHF   0.001
+  1106: BRK
+  1107: POP
+  1108: PUSHIIB #0                    ; symbol "DefinePhysicsObjType"
+  1110: CALL    argc=36               ; args @1264, @1267, @1270, @1273, @1279, @1285, @1291, @1294, @1297, @1300, @1303, @1305, @1307, @1310, @1316, @1318, @1320, @1322, @1324, @1327, @1333, @1335, @1337, @1340, @1342, @1345, @1351, @1353, @1355, @1358, @1360, @1363, @1369, @1371, @1373, @1379
+  1259: BRA     +121                  ; -> 1385
+  1264: PUSHIIB #1                    ; symbol "TASKTYPE_GENERICPHYSICSOBJ"
+  1266: BRK
+  1267: PUSHB   3
+  1269: BRK
+  1270: PUSHB   3
+  1272: BRK
+  1273: PUSHF   0.21
+  1278: BRK
+  1279: PUSHF   0.24
+  1284: BRK
+  1285: PUSHF   0.19
+  1290: BRK
+  1291: PUSHSIB #0                    ; string "<TEST>"
+  1293: BRK
+  1294: PUSHSIB #1                    ; string "<TESTDESC>"
+  1296: BRK
+  1297: PUSHSIB #5                    ; string "204_01_1"
+  1299: BRK
+  1300: PUSHB   4
+  1302: BRK
+  1303: PUSH0
+  1304: BRK
+  1305: PUSH0
+  1306: BRK
+  1307: PUSHB   6
+  1309: BRK
+  1310: PUSHF   0.5
+  1315: BRK
+  1316: PUSH1
+  1317: BRK
+  1318: PUSH1
+  1319: BRK
+  1320: PUSH1
+  1321: BRK
+  1322: PUSH0
+  1323: BRK
+  1324: PUSHB   6
+  1326: BRK
+  1327: PUSHF   0.5
+  1332: BRK
+  1333: PUSH1
+  1334: BRK
+  1335: PUSH1
+  1336: BRK
+  1337: PUSHB   2
+  1339: BRK
+  1340: PUSH0
+  1341: BRK
+  1342: PUSHB   6
+  1344: BRK
+  1345: PUSHF   0.5
+  1350: BRK
+  1351: PUSH1
+  1352: BRK
+  1353: PUSH1
+  1354: BRK
+  1355: PUSHB   3
+  1357: BRK
+  1358: PUSH0
+  1359: BRK
+  1360: PUSHB   6
+  1362: BRK
+  1363: PUSHF   0.5
+  1368: BRK
+  1369: PUSH1
+  1370: BRK
+  1371: PUSH1
+  1372: BRK
+  1373: PUSHF   0.7
+  1378: BRK
+  1379: PUSHF   0.001
+  1384: BRK
+  1385: POP
+  1386: PUSHIIB #0                    ; symbol "DefinePhysicsObjType"
+  1388: CALL    argc=48               ; args @1590, @1593, @1596, @1599, @1601, @1607, @1613, @1616, @1619, @1622, @1625, @1627, @1629, @1632, @1634, @1636, @1638, @1640, @1642, @1645, @1647, @1649, @1651, @1654, @1656, @1659, @1661, @1663, @1665, @1668, @1670, @1673, @1675, @1677, @1679, @1682, @1684, @1687, @1689, @1691, @1693, @1696, @1698, @1701, @1703, @1705, @1707, @1713
+  1585: BRA     +129                  ; -> 1719
+  1590: PUSHIIB #2                    ; symbol "TASKTYPE_GENERICPHYSICSMAGICOBJ"
+  1592: BRK
+  1593: PUSHB   6
+  1595: BRK
+  1596: PUSHB   100
+  1598: BRK
+  1599: PUSH1
+  1600: BRK
+  1601: PUSHF   0.7
+  1606: BRK
+  1607: PUSHF   0.3
+  1612: BRK
+  1613: PUSHSIB #6                    ; string "<SANDBAG>"
+  1615: BRK
+  1616: PUSHSIB #7                    ; string "<SANDBAGDESC>"
+  1618: BRK
+  1619: PUSHSIB #8                    ; string "1713_01_1"
+  1621: BRK
+  1622: PUSHB   6
+  1624: BRK
+  1625: PUSH0
+  1626: BRK
+  1627: PUSH0
+  1628: BRK
+  1629: PUSHB   6
+  1631: BRK
+  1632: PUSH0
+  1633: BRK
+  1634: PUSH1
+  1635: BRK
+  1636: PUSH1
+  1637: BRK
+  1638: PUSH1
+  1639: BRK
+  1640: PUSH0
+  1641: BRK
+  1642: PUSHB   6
+  1644: BRK
+  1645: PUSH0
+  1646: BRK
+  1647: PUSH1
+  1648: BRK
+  1649: PUSH1
+  1650: BRK
+  1651: PUSHB   2
+  1653: BRK
+  1654: PUSH0
+  1655: BRK
+  1656: PUSHB   6
+  1658: BRK
+  1659: PUSH0
+  1660: BRK
+  1661: PUSH1
+  1662: BRK
+  1663: PUSH1
+  1664: BRK
+  1665: PUSHB   3
+  1667: BRK
+  1668: PUSH0
+  1669: BRK
+  1670: PUSHB   6
+  1672: BRK
+  1673: PUSH0
+  1674: BRK
+  1675: PUSH1
+  1676: BRK
+  1677: PUSH1
+  1678: BRK
+  1679: PUSHB   4
+  1681: BRK
+  1682: PUSH0
+  1683: BRK
+  1684: PUSHB   6
+  1686: BRK
+  1687: PUSH0
+  1688: BRK
+  1689: PUSH1
+  1690: BRK
+  1691: PUSH1
+  1692: BRK
+  1693: PUSHB   5
+  1695: BRK
+  1696: PUSH0
+  1697: BRK
+  1698: PUSHB   6
+  1700: BRK
+  1701: PUSH0
+  1702: BRK
+  1703: PUSH1
+  1704: BRK
+  1705: PUSH1
+  1706: BRK
+  1707: PUSHF   0.7
+  1712: BRK
+  1713: PUSHF   0.001
+  1718: BRK
+  1719: POP
+  1720: PUSHIIB #0                    ; symbol "DefinePhysicsObjType"
+  1722: CALL    argc=44               ; args @1908, @1911, @1913, @1919, @1925, @1931, @1937, @1940, @1943, @1946, @1949, @1951, @1953, @1956, @1962, @1964, @1966, @1968, @1970, @1973, @1979, @1981, @1983, @1986, @1988, @1991, @1997, @1999, @2001, @2004, @2006, @2009, @2015, @2017, @2019, @2022, @2024, @2027, @2033, @2035, @2037, @2043, @2049, @2052
+  1903: BRA     +147                  ; -> 2055
+  1908: PUSHIIB #3                    ; symbol "TASKTYPE_GRENADE"
+  1910: BRK
+  1911: PUSH0
+  1912: BRK
+  1913: PUSHF   0.3
+  1918: BRK
+  1919: PUSHF   0.1
+  1924: BRK
+  1925: PUSHF   0.1
+  1930: BRK
+  1931: PUSHF   0.15
+  1936: BRK
+  1937: PUSHSIB #9                    ; string "<GRENADE>"
+  1939: BRK
+  1940: PUSHSIB #10                   ; string "<GRENADEDESC>"
+  1942: BRK
+  1943: PUSHSIB #11                   ; string "135_01_1"
+  1945: BRK
+  1946: PUSHB   5
+  1948: BRK
+  1949: PUSH0
+  1950: BRK
+  1951: PUSH0
+  1952: BRK
+  1953: PUSHB   6
+  1955: BRK
+  1956: PUSHF   0.3
+  1961: BRK
+  1962: PUSH1
+  1963: BRK
+  1964: PUSH1
+  1965: BRK
+  1966: PUSH1
+  1967: BRK
+  1968: PUSH0
+  1969: BRK
+  1970: PUSHB   6
+  1972: BRK
+  1973: PUSHF   0.3
+  1978: BRK
+  1979: PUSH1
+  1980: BRK
+  1981: PUSH1
+  1982: BRK
+  1983: PUSHB   2
+  1985: BRK
+  1986: PUSH0
+  1987: BRK
+  1988: PUSHB   6
+  1990: BRK
+  1991: PUSHF   0.3
+  1996: BRK
+  1997: PUSH1
+  1998: BRK
+  1999: PUSH1
+  2000: BRK
+  2001: PUSHB   3
+  2003: BRK
+  2004: PUSH0
+  2005: BRK
+  2006: PUSHB   6
+  2008: BRK
+  2009: PUSHF   0.3
+  2014: BRK
+  2015: PUSH1
+  2016: BRK
+  2017: PUSH1
+  2018: BRK
+  2019: PUSHB   4
+  2021: BRK
+  2022: PUSH0
+  2023: BRK
+  2024: PUSHB   6
+  2026: BRK
+  2027: PUSHF   0.3
+  2032: BRK
+  2033: PUSH1
+  2034: BRK
+  2035: PUSH1
+  2036: BRK
+  2037: PUSHF   3
+  2042: BRK
+  2043: PUSHF   0.016
+  2048: BRK
+  2049: PUSHB   4
+  2051: BRK
+  2052: PUSHIIB #4                    ; symbol "GRENADE_EXPLOSIONTYPE_NORMAL"
+  2054: BRK
+  2055: POP
+  2056: PUSHIIB #0                    ; symbol "DefinePhysicsObjType"
+  2058: CALL    argc=44               ; args @2244, @2247, @2249, @2255, @2261, @2267, @2273, @2276, @2279, @2282, @2285, @2287, @2289, @2292, @2298, @2300, @2302, @2304, @2306, @2309, @2315, @2317, @2319, @2322, @2324, @2327, @2333, @2335, @2337, @2340, @2342, @2345, @2351, @2353, @2355, @2358, @2360, @2363, @2369, @2371, @2373, @2379, @2385, @2388
+  2239: BRA     +147                  ; -> 2391
+  2244: PUSHIIB #3                    ; symbol "TASKTYPE_GRENADE"
+  2246: BRK
+  2247: PUSH1
+  2248: BRK
+  2249: PUSHF   0.3
+  2254: BRK
+  2255: PUSHF   0.1
+  2260: BRK
+  2261: PUSHF   0.1
+  2266: BRK
+  2267: PUSHF   0.15
+  2272: BRK
+  2273: PUSHSIB #9                    ; string "<GRENADE>"
+  2275: BRK
+  2276: PUSHSIB #10                   ; string "<GRENADEDESC>"
+  2278: BRK
+  2279: PUSHSIB #12                   ; string "137_01_1"
+  2281: BRK
+  2282: PUSHB   5
+  2284: BRK
+  2285: PUSH0
+  2286: BRK
+  2287: PUSH0
+  2288: BRK
+  2289: PUSHB   6
+  2291: BRK
+  2292: PUSHF   0.3
+  2297: BRK
+  2298: PUSH1
+  2299: BRK
+  2300: PUSH1
+  2301: BRK
+  2302: PUSH1
+  2303: BRK
+  2304: PUSH0
+  2305: BRK
+  2306: PUSHB   6
+  2308: BRK
+  2309: PUSHF   0.3
+  2314: BRK
+  2315: PUSH1
+  2316: BRK
+  2317: PUSH1
+  2318: BRK
+  2319: PUSHB   2
+  2321: BRK
+  2322: PUSH0
+  2323: BRK
+  2324: PUSHB   6
+  2326: BRK
+  2327: PUSHF   0.3
+  2332: BRK
+  2333: PUSH1
+  2334: BRK
+  2335: PUSH1
+  2336: BRK
+  2337: PUSHB   3
+  2339: BRK
+  2340: PUSH0
+  2341: BRK
+  2342: PUSHB   6
+  2344: BRK
+  2345: PUSHF   0.3
+  2350: BRK
+  2351: PUSH1
+  2352: BRK
+  2353: PUSH1
+  2354: BRK
+  2355: PUSHB   4
+  2357: BRK
+  2358: PUSH0
+  2359: BRK
+  2360: PUSHB   6
+  2362: BRK
+  2363: PUSHF   0.3
+  2368: BRK
+  2369: PUSH1
+  2370: BRK
+  2371: PUSH1
+  2372: BRK
+  2373: PUSHF   3
+  2378: BRK
+  2379: PUSHF   0.016
+  2384: BRK
+  2385: PUSHB   4
+  2387: BRK
+  2388: PUSHIIB #5                    ; symbol "GRENADE_EXPLOSIONTYPE_FLASHBANG"
+  2390: BRK
+  2391: POP
+  2392: BRK

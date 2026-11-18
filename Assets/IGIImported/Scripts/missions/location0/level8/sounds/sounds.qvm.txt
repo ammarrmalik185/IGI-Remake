@@ -1,0 +1,604 @@
+     0: PUSHIIB #0                    ; symbol "DefineGroup"
+     2: CALL    argc=3                ; args @24, @27, @129
+    19: BRA     +207                  ; -> 231
+    24: PUSHSIB #0                    ; string "VOICEOVER"
+    26: BRK
+    27: PUSHIIB #1                    ; symbol "DefineSound"
+    29: CALL    argc=13               ; args @91, @94, @97, @99, @101, @103, @105, @107, @113, @116, @119, @122, @125
+    86: BRA     +37                   ; -> 128
+    91: PUSHSIB #1                    ; string "_cut08_01"
+    93: BRK
+    94: PUSHSIB #2                    ; string "_CUT08_01"
+    96: BRK
+    97: PUSH0
+    98: BRK
+    99: PUSH0
+   100: BRK
+   101: PUSH0
+   102: BRK
+   103: PUSH1
+   104: BRK
+   105: PUSH0
+   106: BRK
+   107: PUSHF   200
+   112: BRK
+   113: PUSH1
+   114: MINUS
+   115: BRK
+   116: PUSH1
+   117: MINUS
+   118: BRK
+   119: PUSH1
+   120: MINUS
+   121: BRK
+   122: PUSH1
+   123: MINUS
+   124: BRK
+   125: PUSHIIB #2                    ; symbol "FALSE"
+   127: BRK
+   128: BRK
+   129: PUSHIIB #1                    ; symbol "DefineSound"
+   131: CALL    argc=13               ; args @193, @196, @199, @201, @203, @205, @207, @209, @215, @218, @221, @224, @227
+   188: BRA     +37                   ; -> 230
+   193: PUSHSIB #3                    ; string "_cut08_02"
+   195: BRK
+   196: PUSHSIB #4                    ; string "_CUT08_02"
+   198: BRK
+   199: PUSH0
+   200: BRK
+   201: PUSH0
+   202: BRK
+   203: PUSH0
+   204: BRK
+   205: PUSH1
+   206: BRK
+   207: PUSH0
+   208: BRK
+   209: PUSHF   200
+   214: BRK
+   215: PUSH1
+   216: MINUS
+   217: BRK
+   218: PUSH1
+   219: MINUS
+   220: BRK
+   221: PUSH1
+   222: MINUS
+   223: BRK
+   224: PUSH1
+   225: MINUS
+   226: BRK
+   227: PUSHIIB #2                    ; symbol "FALSE"
+   229: BRK
+   230: BRK
+   231: POP
+   232: PUSHIIB #0                    ; symbol "DefineGroup"
+   234: CALL    argc=11               ; args @288, @291, @397, @503, @609, @715, @821, @927, @1033, @1139, @1245
+   283: BRA     +1063                 ; -> 1351
+   288: PUSHSIB #5                    ; string "CUTSCENE SFX"
+   290: BRK
+   291: PUSHIIB #1                    ; symbol "DefineSound"
+   293: CALL    argc=13               ; args @355, @358, @361, @363, @365, @367, @373, @375, @381, @384, @387, @390, @393
+   350: BRA     +41                   ; -> 396
+   355: PUSHSIB #6                    ; string "truck_away_01"
+   357: BRK
+   358: PUSHSIB #7                    ; string "TRUCK_AWAY_01"
+   360: BRK
+   361: PUSH0
+   362: BRK
+   363: PUSH0
+   364: BRK
+   365: PUSH0
+   366: BRK
+   367: PUSHF   0.7
+   372: BRK
+   373: PUSH0
+   374: BRK
+   375: PUSHF   200
+   380: BRK
+   381: PUSH1
+   382: MINUS
+   383: BRK
+   384: PUSH1
+   385: MINUS
+   386: BRK
+   387: PUSH1
+   388: MINUS
+   389: BRK
+   390: PUSH1
+   391: MINUS
+   392: BRK
+   393: PUSHIIB #2                    ; symbol "FALSE"
+   395: BRK
+   396: BRK
+   397: PUSHIIB #1                    ; symbol "DefineSound"
+   399: CALL    argc=13               ; args @461, @464, @467, @469, @471, @473, @479, @481, @487, @490, @493, @496, @499
+   456: BRA     +41                   ; -> 502
+   461: PUSHSIB #8                    ; string "truck_stopg_01"
+   463: BRK
+   464: PUSHSIB #9                    ; string "TRUCK_STOPG_01"
+   466: BRK
+   467: PUSH0
+   468: BRK
+   469: PUSH0
+   470: BRK
+   471: PUSH0
+   472: BRK
+   473: PUSHF   0.7
+   478: BRK
+   479: PUSH0
+   480: BRK
+   481: PUSHF   200
+   486: BRK
+   487: PUSH1
+   488: MINUS
+   489: BRK
+   490: PUSH1
+   491: MINUS
+   492: BRK
+   493: PUSH1
+   494: MINUS
+   495: BRK
+   496: PUSH1
+   497: MINUS
+   498: BRK
+   499: PUSHIIB #2                    ; symbol "FALSE"
+   501: BRK
+   502: BRK
+   503: PUSHIIB #1                    ; symbol "DefineSound"
+   505: CALL    argc=13               ; args @567, @570, @573, @575, @577, @579, @585, @587, @593, @596, @599, @602, @605
+   562: BRA     +41                   ; -> 608
+   567: PUSHSIB #10                   ; string "base_amb_01"
+   569: BRK
+   570: PUSHSIB #11                   ; string "BASE_AMB_01"
+   572: BRK
+   573: PUSH0
+   574: BRK
+   575: PUSH0
+   576: BRK
+   577: PUSH0
+   578: BRK
+   579: PUSHF   0.7
+   584: BRK
+   585: PUSH0
+   586: BRK
+   587: PUSHF   200
+   592: BRK
+   593: PUSH1
+   594: MINUS
+   595: BRK
+   596: PUSH1
+   597: MINUS
+   598: BRK
+   599: PUSH1
+   600: MINUS
+   601: BRK
+   602: PUSH1
+   603: MINUS
+   604: BRK
+   605: PUSHIIB #3                    ; symbol "TRUE"
+   607: BRK
+   608: BRK
+   609: PUSHIIB #1                    ; symbol "DefineSound"
+   611: CALL    argc=13               ; args @673, @676, @679, @681, @683, @685, @691, @693, @699, @702, @705, @708, @711
+   668: BRA     +41                   ; -> 714
+   673: PUSHSIB #12                   ; string "truck_start_cut"
+   675: BRK
+   676: PUSHSIB #13                   ; string "TRUCK_START"
+   678: BRK
+   679: PUSH0
+   680: BRK
+   681: PUSH0
+   682: BRK
+   683: PUSH0
+   684: BRK
+   685: PUSHF   0.5
+   690: BRK
+   691: PUSH0
+   692: BRK
+   693: PUSHF   200
+   698: BRK
+   699: PUSH1
+   700: MINUS
+   701: BRK
+   702: PUSH1
+   703: MINUS
+   704: BRK
+   705: PUSH1
+   706: MINUS
+   707: BRK
+   708: PUSH1
+   709: MINUS
+   710: BRK
+   711: PUSHIIB #2                    ; symbol "FALSE"
+   713: BRK
+   714: BRK
+   715: PUSHIIB #1                    ; symbol "DefineSound"
+   717: CALL    argc=13               ; args @779, @782, @785, @787, @789, @791, @797, @799, @805, @808, @811, @814, @817
+   774: BRA     +41                   ; -> 820
+   779: PUSHSIB #14                   ; string "truck_idle_cut"
+   781: BRK
+   782: PUSHSIB #15                   ; string "TRUCK_IDLE"
+   784: BRK
+   785: PUSH0
+   786: BRK
+   787: PUSH0
+   788: BRK
+   789: PUSH0
+   790: BRK
+   791: PUSHF   0.5
+   796: BRK
+   797: PUSH0
+   798: BRK
+   799: PUSHF   200
+   804: BRK
+   805: PUSH1
+   806: MINUS
+   807: BRK
+   808: PUSH1
+   809: MINUS
+   810: BRK
+   811: PUSH1
+   812: MINUS
+   813: BRK
+   814: PUSH1
+   815: MINUS
+   816: BRK
+   817: PUSHIIB #3                    ; symbol "TRUE"
+   819: BRK
+   820: BRK
+   821: PUSHIIB #1                    ; symbol "DefineSound"
+   823: CALL    argc=13               ; args @885, @888, @891, @893, @895, @897, @903, @905, @911, @914, @917, @920, @923
+   880: BRA     +41                   ; -> 926
+   885: PUSHSIB #16                   ; string "truck_engine_cut"
+   887: BRK
+   888: PUSHSIB #17                   ; string "TRUCK_ENGINE"
+   890: BRK
+   891: PUSH0
+   892: BRK
+   893: PUSH0
+   894: BRK
+   895: PUSH0
+   896: BRK
+   897: PUSHF   0.5
+   902: BRK
+   903: PUSH0
+   904: BRK
+   905: PUSHF   200
+   910: BRK
+   911: PUSH1
+   912: MINUS
+   913: BRK
+   914: PUSH1
+   915: MINUS
+   916: BRK
+   917: PUSH1
+   918: MINUS
+   919: BRK
+   920: PUSH1
+   921: MINUS
+   922: BRK
+   923: PUSHIIB #3                    ; symbol "TRUE"
+   925: BRK
+   926: BRK
+   927: PUSHIIB #1                    ; symbol "DefineSound"
+   929: CALL    argc=13               ; args @991, @994, @997, @999, @1001, @1003, @1009, @1011, @1017, @1020, @1023, @1026, @1029
+   986: BRA     +41                   ; -> 1032
+   991: PUSHSIB #6                    ; string "truck_away_01"
+   993: BRK
+   994: PUSHSIB #7                    ; string "TRUCK_AWAY_01"
+   996: BRK
+   997: PUSH0
+   998: BRK
+   999: PUSH0
+  1000: BRK
+  1001: PUSH0
+  1002: BRK
+  1003: PUSHF   0.7
+  1008: BRK
+  1009: PUSH0
+  1010: BRK
+  1011: PUSHF   200
+  1016: BRK
+  1017: PUSH1
+  1018: MINUS
+  1019: BRK
+  1020: PUSH1
+  1021: MINUS
+  1022: BRK
+  1023: PUSH1
+  1024: MINUS
+  1025: BRK
+  1026: PUSH1
+  1027: MINUS
+  1028: BRK
+  1029: PUSHIIB #2                    ; symbol "FALSE"
+  1031: BRK
+  1032: BRK
+  1033: PUSHIIB #1                    ; symbol "DefineSound"
+  1035: CALL    argc=13               ; args @1097, @1100, @1103, @1105, @1107, @1109, @1115, @1117, @1123, @1126, @1129, @1132, @1135
+  1092: BRA     +41                   ; -> 1138
+  1097: PUSHSIB #18                   ; string "m8_idle1"
+  1099: BRK
+  1100: PUSHSIB #19                   ; string "M8_IDLE1"
+  1102: BRK
+  1103: PUSH0
+  1104: BRK
+  1105: PUSH0
+  1106: BRK
+  1107: PUSH0
+  1108: BRK
+  1109: PUSHF   0.45
+  1114: BRK
+  1115: PUSH0
+  1116: BRK
+  1117: PUSHF   200
+  1122: BRK
+  1123: PUSH1
+  1124: MINUS
+  1125: BRK
+  1126: PUSH1
+  1127: MINUS
+  1128: BRK
+  1129: PUSH1
+  1130: MINUS
+  1131: BRK
+  1132: PUSH1
+  1133: MINUS
+  1134: BRK
+  1135: PUSHIIB #3                    ; symbol "TRUE"
+  1137: BRK
+  1138: BRK
+  1139: PUSHIIB #1                    ; symbol "DefineSound"
+  1141: CALL    argc=13               ; args @1203, @1206, @1209, @1211, @1213, @1215, @1221, @1223, @1229, @1232, @1235, @1238, @1241
+  1198: BRA     +41                   ; -> 1244
+  1203: PUSHSIB #20                   ; string "m8_drive"
+  1205: BRK
+  1206: PUSHSIB #21                   ; string "M8_DRIVE"
+  1208: BRK
+  1209: PUSH0
+  1210: BRK
+  1211: PUSH0
+  1212: BRK
+  1213: PUSH0
+  1214: BRK
+  1215: PUSHF   0.6
+  1220: BRK
+  1221: PUSH0
+  1222: BRK
+  1223: PUSHF   200
+  1228: BRK
+  1229: PUSH1
+  1230: MINUS
+  1231: BRK
+  1232: PUSH1
+  1233: MINUS
+  1234: BRK
+  1235: PUSH1
+  1236: MINUS
+  1237: BRK
+  1238: PUSH1
+  1239: MINUS
+  1240: BRK
+  1241: PUSHIIB #2                    ; symbol "FALSE"
+  1243: BRK
+  1244: BRK
+  1245: PUSHIIB #1                    ; symbol "DefineSound"
+  1247: CALL    argc=13               ; args @1309, @1312, @1315, @1317, @1319, @1321, @1327, @1329, @1335, @1338, @1341, @1344, @1347
+  1304: BRA     +41                   ; -> 1350
+  1309: PUSHSIB #22                   ; string "m8_idle_backtruck"
+  1311: BRK
+  1312: PUSHSIB #19                   ; string "M8_IDLE1"
+  1314: BRK
+  1315: PUSH0
+  1316: BRK
+  1317: PUSH0
+  1318: BRK
+  1319: PUSH0
+  1320: BRK
+  1321: PUSHF   0.3
+  1326: BRK
+  1327: PUSH0
+  1328: BRK
+  1329: PUSHF   200
+  1334: BRK
+  1335: PUSH1
+  1336: MINUS
+  1337: BRK
+  1338: PUSH1
+  1339: MINUS
+  1340: BRK
+  1341: PUSH1
+  1342: MINUS
+  1343: BRK
+  1344: PUSH1
+  1345: MINUS
+  1346: BRK
+  1347: PUSHIIB #3                    ; symbol "TRUE"
+  1349: BRK
+  1350: BRK
+  1351: POP
+  1352: PUSHIIB #0                    ; symbol "DefineGroup"
+  1354: CALL    argc=4                ; args @1380, @1383, @1497, @1612
+  1375: BRA     +338                  ; -> 1718
+  1380: PUSHSIB #23                   ; string "radardishsounds"
+  1382: BRK
+  1383: PUSHIIB #1                    ; symbol "DefineSound"
+  1385: CALL    argc=13               ; args @1447, @1450, @1453, @1459, @1466, @1472, @1474, @1476, @1482, @1484, @1487, @1490, @1493
+  1442: BRA     +49                   ; -> 1496
+  1447: PUSHSIB #24                   ; string ""
+  1449: BRK
+  1450: PUSHSIB #25                   ; string "RADARWIND_1"
+  1452: BRK
+  1453: PUSHF   29519
+  1458: BRK
+  1459: PUSHF   479.04968
+  1464: MINUS
+  1465: BRK
+  1466: PUSHF   1523.8624
+  1471: BRK
+  1472: PUSH1
+  1473: BRK
+  1474: PUSH0
+  1475: BRK
+  1476: PUSHF   10
+  1481: BRK
+  1482: PUSH0
+  1483: BRK
+  1484: PUSH1
+  1485: MINUS
+  1486: BRK
+  1487: PUSH1
+  1488: MINUS
+  1489: BRK
+  1490: PUSH1
+  1491: MINUS
+  1492: BRK
+  1493: PUSHIIB #3                    ; symbol "TRUE"
+  1495: BRK
+  1496: BRK
+  1497: PUSHIIB #1                    ; symbol "DefineSound"
+  1499: CALL    argc=13               ; args @1561, @1564, @1567, @1574, @1581, @1587, @1589, @1591, @1597, @1599, @1602, @1605, @1608
+  1556: BRA     +50                   ; -> 1611
+  1561: PUSHSIB #24                   ; string ""
+  1563: BRK
+  1564: PUSHSIB #25                   ; string "RADARWIND_1"
+  1566: BRK
+  1567: PUSHF   29180.17
+  1572: MINUS
+  1573: BRK
+  1574: PUSHF   610.2078
+  1579: MINUS
+  1580: BRK
+  1581: PUSHF   739.28644
+  1586: BRK
+  1587: PUSH1
+  1588: BRK
+  1589: PUSH0
+  1590: BRK
+  1591: PUSHF   10
+  1596: BRK
+  1597: PUSH0
+  1598: BRK
+  1599: PUSH1
+  1600: MINUS
+  1601: BRK
+  1602: PUSH1
+  1603: MINUS
+  1604: BRK
+  1605: PUSH1
+  1606: MINUS
+  1607: BRK
+  1608: PUSHIIB #3                    ; symbol "TRUE"
+  1610: BRK
+  1611: BRK
+  1612: PUSHIIB #1                    ; symbol "DefineSound"
+  1614: CALL    argc=13               ; args @1676, @1679, @1682, @1684, @1686, @1693, @1695, @1697, @1703, @1705, @1708, @1711, @1714
+  1671: BRA     +41                   ; -> 1717
+  1676: PUSHSIB #24                   ; string ""
+  1678: BRK
+  1679: PUSHSIB #26                   ; string "RADARENGINE_1"
+  1681: BRK
+  1682: PUSH0
+  1683: BRK
+  1684: PUSH0
+  1685: BRK
+  1686: PUSHF   9266.534
+  1691: MINUS
+  1692: BRK
+  1693: PUSH1
+  1694: BRK
+  1695: PUSH0
+  1696: BRK
+  1697: PUSHF   20
+  1702: BRK
+  1703: PUSH0
+  1704: BRK
+  1705: PUSH1
+  1706: MINUS
+  1707: BRK
+  1708: PUSH1
+  1709: MINUS
+  1710: BRK
+  1711: PUSH1
+  1712: MINUS
+  1713: BRK
+  1714: PUSHIIB #3                    ; symbol "TRUE"
+  1716: BRK
+  1717: BRK
+  1718: POP
+  1719: PUSHIIB #0                    ; symbol "DefineGroup"
+  1721: CALL    argc=3                ; args @1743, @1746, @1848
+  1738: BRA     +207                  ; -> 1950
+  1743: PUSHSIB #27                   ; string "INGAME SFX"
+  1745: BRK
+  1746: PUSHIIB #1                    ; symbol "DefineSound"
+  1748: CALL    argc=13               ; args @1810, @1813, @1816, @1818, @1820, @1822, @1824, @1826, @1832, @1835, @1838, @1841, @1844
+  1805: BRA     +37                   ; -> 1847
+  1810: PUSHSIB #28                   ; string "m8_ambience"
+  1812: BRK
+  1813: PUSHSIB #29                   ; string "M8_AMBIENCE"
+  1815: BRK
+  1816: PUSH0
+  1817: BRK
+  1818: PUSH0
+  1819: BRK
+  1820: PUSH0
+  1821: BRK
+  1822: PUSH1
+  1823: BRK
+  1824: PUSH0
+  1825: BRK
+  1826: PUSHF   200
+  1831: BRK
+  1832: PUSH1
+  1833: MINUS
+  1834: BRK
+  1835: PUSH1
+  1836: MINUS
+  1837: BRK
+  1838: PUSH1
+  1839: MINUS
+  1840: BRK
+  1841: PUSH1
+  1842: MINUS
+  1843: BRK
+  1844: PUSHIIB #3                    ; symbol "TRUE"
+  1846: BRK
+  1847: BRK
+  1848: PUSHIIB #1                    ; symbol "DefineSound"
+  1850: CALL    argc=13               ; args @1912, @1915, @1918, @1920, @1922, @1924, @1926, @1928, @1934, @1937, @1940, @1943, @1946
+  1907: BRA     +37                   ; -> 1949
+  1912: PUSHSIB #30                   ; string "m8_airraid"
+  1914: BRK
+  1915: PUSHSIB #31                   ; string "M8_AIRRAID"
+  1917: BRK
+  1918: PUSH0
+  1919: BRK
+  1920: PUSH0
+  1921: BRK
+  1922: PUSH0
+  1923: BRK
+  1924: PUSH1
+  1925: BRK
+  1926: PUSH0
+  1927: BRK
+  1928: PUSHF   200
+  1933: BRK
+  1934: PUSH1
+  1935: MINUS
+  1936: BRK
+  1937: PUSH1
+  1938: MINUS
+  1939: BRK
+  1940: PUSH1
+  1941: MINUS
+  1942: BRK
+  1943: PUSH1
+  1944: MINUS
+  1945: BRK
+  1946: PUSHIIB #2                    ; symbol "FALSE"
+  1948: BRK
+  1949: BRK
+  1950: POP
+  1951: BRK

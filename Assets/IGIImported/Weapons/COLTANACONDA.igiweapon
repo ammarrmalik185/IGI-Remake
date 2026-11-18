@@ -1,0 +1,20 @@
+{
+  "id": 21,
+  "displayName": "Colt Anaconda",
+  "description": "\u003CCOLT_ANACONDADESC\u003E",
+  "category": 1,
+  "model": "101_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/101_01_1.igimodel",
+  "magazineSize": 6,
+  "roundsPerMinute": 60,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 80,
+  "modelLength": 0.185,
+  "damageFactor": 0.5,
+  "calibre": 44,
+  "spreadDegrees": -2,
+  "recoilDegrees": 6,
+  "fireSoundPath": "Assets/IGIImported/Audio/colt_shot_1.wav",
+  "source": "Definitions/weapons/COLTANACONDA/weapon.qvm.json"
+}

@@ -1,0 +1,20 @@
+{
+  "id": 16,
+  "displayName": "Proximitymine",
+  "description": "\u003CPROXIMITYMINEDESC\u003E",
+  "category": 7,
+  "model": "136_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/136_01_1.igimodel",
+  "magazineSize": 1,
+  "roundsPerMinute": 60,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 1.5,
+  "modelLength": 0.185,
+  "damageFactor": 0.25,
+  "calibre": 10001,
+  "spreadDegrees": 0,
+  "recoilDegrees": 0,
+  "fireSoundPath": "Assets/IGIImported/Audio/grenade_shot_1.wav",
+  "source": "Definitions/weapons/PROXIMITYMINE/weapon.qvm.json"
+}

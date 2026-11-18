@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "displayName": "Glock 17",
+  "description": "\u003CGLOCK_17DESC\u003E",
+  "category": 1,
+  "model": "117_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/117_01_1.igimodel",
+  "magazineSize": 17,
+  "roundsPerMinute": 400,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 80,
+  "modelLength": 0.185,
+  "damageFactor": 0.25,
+  "calibre": 919,
+  "spreadDegrees": -1.5,
+  "recoilDegrees": 1.5,
+  "fireSoundPath": "Assets/IGIImported/Audio/glock_shot_1.wav",
+  "source": "Definitions/weapons/GLOCK/weapon.qvm.json"
+}

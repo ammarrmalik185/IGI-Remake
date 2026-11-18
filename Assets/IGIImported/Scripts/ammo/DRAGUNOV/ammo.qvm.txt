@@ -1,0 +1,35 @@
+     0: PUSHIIB #0                    ; symbol "DefineAmmoType"
+     2: CALL    argc=15               ; args @72, @75, @78, @81, @84, @88, @91, @95, @99, @101, @105, @109, @111, @113, @116
+    67: BRA     +47                   ; -> 119
+    72: PUSHB   11
+    74: BRK
+    75: PUSHSIB #0                    ; string "AMMO_ID_DRAGUNOV"
+    77: BRK
+    78: PUSHSIB #1                    ; string "<12>"
+    80: BRK
+    81: PUSHSIB #2                    ; string "<12DESC>"
+    83: BRK
+    84: PUSHW   10004
+    87: BRK
+    88: PUSHB   2
+    90: BRK
+    91: PUSHW   255
+    94: BRK
+    95: PUSHW   128
+    98: BRK
+    99: PUSH0
+   100: BRK
+   101: PUSHW   255
+   104: BRK
+   105: PUSHW   255
+   108: BRK
+   109: PUSH0
+   110: BRK
+   111: PUSH0
+   112: BRK
+   113: PUSHSIB #3                    ; string "137_01_1"
+   115: BRK
+   116: PUSHSIB #4                    ; string "Sound0"
+   118: BRK
+   119: POP
+   120: BRK

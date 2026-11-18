@@ -1,0 +1,32 @@
+﻿%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780d2001ef655a6bb5285c05fa70e269, type: 3}
+  m_Name: DesertEagle
+  m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
+  displayName: Desert Eagle
+  visualPrefab: {fileID: -6853896494288496887, guid: 45e6041898bef0149bcb1b31f51c6202, type: 3}
+  viewPosition: {x: 0.19, y: -0.17, z: 0.46}
+  viewRotation: {x: 0, y: 0, z: 0}
+  modelLength: 0.28
+  damage: 70
+  magazineSize: 7
+  reserveAmmo: 35
+  secondsPerShot: 0.3
+  reloadSeconds: 2.1
+  automatic: 0
+  range: 150
+  spreadDegrees: 0.5
+  aimFieldOfView: 48
+  recoilDegrees: 1.4
+  fireSound: {fileID: 0}
+  reloadSound: {fileID: 0}
+

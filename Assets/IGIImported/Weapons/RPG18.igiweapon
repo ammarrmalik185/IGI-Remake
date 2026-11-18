@@ -1,0 +1,20 @@
+{
+  "id": 12,
+  "displayName": "LAW 80",
+  "description": "\u003CM16A2DESC\u003E",
+  "category": 0,
+  "model": "110_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/110_01_1.igimodel",
+  "magazineSize": 1,
+  "roundsPerMinute": 40,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 600,
+  "modelLength": 1,
+  "damageFactor": 0.25,
+  "calibre": 1000,
+  "spreadDegrees": 0,
+  "recoilDegrees": 12,
+  "fireSoundPath": "Assets/IGIImported/Audio/rpg_launch_1.wav",
+  "source": "Definitions/weapons/RPG18/weapon.qvm.json"
+}

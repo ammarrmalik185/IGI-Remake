@@ -1,0 +1,20 @@
+{
+  "id": 10,
+  "displayName": "Minimi",
+  "description": "\u003CMINIMI_DESC\u003E",
+  "category": 0,
+  "model": "107_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/107_01_1.igimodel",
+  "magazineSize": 60,
+  "roundsPerMinute": 800,
+  "reloadSeconds": 2,
+  "automatic": true,
+  "range": 300,
+  "modelLength": 1.225,
+  "damageFactor": 0.3,
+  "calibre": 556,
+  "spreadDegrees": -4.5,
+  "recoilDegrees": 0.2,
+  "fireSoundPath": "Assets/IGIImported/Audio/minimi_loop.wav",
+  "source": "Definitions/weapons/MINIMI/weapon.qvm.json"
+}

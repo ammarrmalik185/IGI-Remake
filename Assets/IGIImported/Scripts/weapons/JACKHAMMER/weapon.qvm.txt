@@ -1,0 +1,106 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=49               ; args @208, @211, @214, @217, @220, @223, @226, @229, @232, @236, @239, @245, @247, @253, @257, @260, @264, @267, @270, @274, @277, @280, @282, @284, @286, @289, @292, @295, @299, @303, @306, @309, @312, @315, @318, @321, @324, @327, @331, @335, @339, @343, @347, @351, @355, @358, @361, @364, @367
+   203: BRA     +162                  ; -> 370
+   208: PUSHB   9
+   210: BRK
+   211: PUSHSIB #0                    ; string "WEAPON_ID_JACKHAMMER"
+   213: BRK
+   214: PUSHSIB #1                    ; string "Jackhammer"
+   216: BRK
+   217: PUSHSIB #2                    ; string "<PANCOR_CORPORATION>"
+   219: BRK
+   220: PUSHSIB #3                    ; string "<JACKHAMMERDESC>"
+   222: BRK
+   223: PUSHIIB #1                    ; symbol "WEAPONTYPE_SHOTGUN"
+   225: BRK
+   226: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   228: BRK
+   229: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_CLIP"
+   231: BRK
+   232: PUSHW   4570
+   235: BRK
+   236: PUSHB   12
+   238: BRK
+   239: PUSHF   0.05
+   244: BRK
+   245: PUSH1
+   246: BRK
+   247: PUSHF   2
+   252: BRK
+   253: PUSHW   280
+   256: BRK
+   257: PUSHB   30
+   259: BRK
+   260: PUSHW   180
+   263: BRK
+   264: PUSHB   12
+   266: BRK
+   267: PUSHB   12
+   269: BRK
+   270: PUSHB   14
+   272: MINUS
+   273: BRK
+   274: PUSHB   14
+   276: BRK
+   277: PUSHB   5
+   279: BRK
+   280: PUSH0
+   281: BRK
+   282: PUSH0
+   283: BRK
+   284: PUSH0
+   285: BRK
+   286: PUSHSIB #4                    ; string "<AUTOMATIC_COMBAT_SHOTGUN>"
+   288: BRK
+   289: PUSHB   50
+   291: BRK
+   292: PUSHSIB #5                    ; string "<JACKHAMMERUSERS>"
+   294: BRK
+   295: PUSHW   787
+   298: BRK
+   299: PUSHW   525
+   302: BRK
+   303: PUSHSIB #6                    ; string "125_01_1"
+   305: BRK
+   306: PUSHSIB #7                    ; string ""
+   308: BRK
+   309: PUSHB   51
+   311: BRK
+   312: PUSHB   52
+   314: BRK
+   315: PUSHB   53
+   317: BRK
+   318: PUSH1
+   319: MINUS
+   320: BRK
+   321: PUSH1
+   322: MINUS
+   323: BRK
+   324: PUSHB   54
+   326: BRK
+   327: PUSHW   203
+   330: BRK
+   331: PUSHW   137
+   334: BRK
+   335: PUSHW   139
+   338: BRK
+   339: PUSHW   140
+   342: BRK
+   343: PUSHW   135
+   346: BRK
+   347: PUSHW   141
+   350: BRK
+   351: PUSHW   186
+   354: BRK
+   355: PUSHSIB #8                    ; string "jackh_loop"
+   357: BRK
+   358: PUSHSIB #9                    ; string "jackh_loop_e"
+   360: BRK
+   361: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   363: BRK
+   364: PUSHIIB #5                    ; symbol "TASKTYPE_GUNSHOT"
+   366: BRK
+   367: PUSHIIB #6                    ; symbol "TASKTYPE_GUN"
+   369: BRK
+   370: POP
+   371: BRK

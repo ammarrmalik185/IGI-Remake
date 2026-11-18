@@ -1,0 +1,3 @@
+     0: PUSH0
+     1: POP
+     2: BRK

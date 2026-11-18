@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780d2001ef655a6bb5285c05fa70e269, type: 3}
+  m_Name: GLOCK
+  m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
+  displayName: Glock 17
+  visualPrefab: {fileID: 231506205331933676, guid: e6c15281f6184e92b57c063037b07d18, type: 3}
+  viewPosition: {x: 0.19, y: -0.17, z: 0.46}
+  viewRotation: {x: 0, y: 0, z: 0}
+  modelLength: 0.24
+  damage: 25
+  magazineSize: 17
+  reserveAmmo: 85
+  secondsPerShot: 0.15
+  reloadSeconds: 2
+  automatic: 0
+  melee: 0
+  range: 80
+  spreadDegrees: 1.5
+  aimFieldOfView: 48
+  recoilDegrees: 1.5
+  fireSound: {fileID: 8300000, guid: 601d7610bd9f489b852e116c792ee59a, type: 3}
+  reloadSound: {fileID: 0}

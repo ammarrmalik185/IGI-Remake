@@ -1,0 +1,20 @@
+{
+  "id": 3,
+  "displayName": "Desert Eagle",
+  "description": "\u003CGLOCK_17DESC\u003E",
+  "category": 1,
+  "model": "106_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/106_01_1.igimodel",
+  "magazineSize": 10,
+  "roundsPerMinute": 200,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 40,
+  "modelLength": 0.185,
+  "damageFactor": 0.5,
+  "calibre": 919,
+  "spreadDegrees": -1.5,
+  "recoilDegrees": 4,
+  "fireSoundPath": "Assets/IGIImported/Audio/deagle_shot_1.wav",
+  "source": "Definitions/weapons/DESERTEAGLE/weapon.qvm.json"
+}

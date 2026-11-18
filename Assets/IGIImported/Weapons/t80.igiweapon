@@ -1,0 +1,20 @@
+{
+  "id": 43,
+  "displayName": "\u003CT80\u003E",
+  "description": "\u003CT80DESC\u003E",
+  "category": 0,
+  "model": "614_03_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/level10/614_03_1.igimodel",
+  "magazineSize": 10000,
+  "roundsPerMinute": 12,
+  "reloadSeconds": 5,
+  "automatic": true,
+  "range": 2000,
+  "modelLength": 1.651,
+  "damageFactor": 0.25,
+  "calibre": 556,
+  "spreadDegrees": 1,
+  "recoilDegrees": 0,
+  "fireSoundPath": "Assets/IGIImported/Audio/rpg_launch_1.wav",
+  "source": "Definitions/weapons/t80/weapon.qvm.json"
+}

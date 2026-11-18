@@ -1,0 +1,11 @@
+{
+  "name": "IGI Rebuilt",
+  "engine": "Unity 6000.3.25f1",
+  "scene": "Assets/IGIRebuilt/Scenes/Trainyard.unity",
+  "launch": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/Project.ps1 -Action Open",
+  "configuration": "Assets/IGIRebuilt/Resources/GameConfiguration.asset",
+  "weapons": "Assets/IGIRebuilt/Data/TrainyardWeapons",
+  "importedContent": "Assets/IGIImported",
+  "importCommand": "powershell -File tools/Import-IGI.ps1",
+  "milestone": "Playable Trainyard recreation with original terrain and object placements, source weapons and characters, Unity guard AI, briefing and truck capture. Character animation, driving and original cutscenes remain pending."
+}

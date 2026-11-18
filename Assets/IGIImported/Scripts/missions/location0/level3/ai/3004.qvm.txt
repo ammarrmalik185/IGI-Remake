@@ -1,0 +1,52 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +18                   ; -> 38
+    20: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+    22: CALL    argc=0
+    27: BRA     +0                    ; -> 32
+    32: POP
+    33: BRA     +140                  ; -> 178
+    38: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    40: CALL    argc=0
+    45: BRA     +0                    ; -> 50
+    50: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    52: EQ
+    53: BF      +44                   ; -> 102
+    58: PUSHIIB #4                    ; symbol "CutScene_702.isRun"
+    60: BF      +32                   ; -> 97
+    65: PUSHIIB #5                    ; symbol "AIAction_PlayAnimation"
+    67: CALL    argc=2                ; args @85, @89
+    80: BRA     +6                    ; -> 91
+    85: PUSHW   244
+    88: BRK
+    89: PUSH0
+    90: BRK
+    91: POP
+    92: BRA     +0                    ; -> 97
+    97: BRA     +76                   ; -> 178
+   102: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   104: CALL    argc=0
+   109: BRA     +0                    ; -> 114
+   114: PUSHIIB #6                    ; symbol "AIEVENT_ALARMON"
+   116: EQ
+   117: BF      +5                    ; -> 127
+   122: BRA     +51                   ; -> 178
+   127: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   129: CALL    argc=0
+   134: BRA     +0                    ; -> 139
+   139: PUSHIIB #7                    ; symbol "AIEVENT_COMBAT"
+   141: EQ
+   142: BF      +18                   ; -> 165
+   147: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   149: CALL    argc=0
+   154: BRA     +0                    ; -> 159
+   159: POP
+   160: BRA     +13                   ; -> 178
+   165: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   167: CALL    argc=0
+   172: BRA     +0                    ; -> 177
+   177: POP
+   178: BRK

@@ -1,0 +1,42 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +18                   ; -> 38
+    20: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+    22: CALL    argc=0
+    27: BRA     +0                    ; -> 32
+    32: POP
+    33: BRA     +103                  ; -> 141
+    38: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    40: CALL    argc=0
+    45: BRA     +0                    ; -> 50
+    50: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    52: EQ
+    53: BF      +32                   ; -> 90
+    58: PUSHIIB #4                    ; symbol "AIAction_PlayAnimation"
+    60: CALL    argc=2                ; args @78, @82
+    73: BRA     +6                    ; -> 84
+    78: PUSHW   240
+    81: BRK
+    82: PUSH0
+    83: BRK
+    84: POP
+    85: BRA     +51                   ; -> 141
+    90: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    92: CALL    argc=0
+    97: BRA     +0                    ; -> 102
+   102: PUSHIIB #5                    ; symbol "AIEVENT_COMBAT"
+   104: EQ
+   105: BF      +18                   ; -> 128
+   110: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   112: CALL    argc=0
+   117: BRA     +0                    ; -> 122
+   122: POP
+   123: BRA     +13                   ; -> 141
+   128: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   130: CALL    argc=0
+   135: BRA     +0                    ; -> 140
+   140: POP
+   141: BRK

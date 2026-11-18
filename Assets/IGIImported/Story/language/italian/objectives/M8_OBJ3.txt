@@ -1,0 +1,1 @@
+Recupera la mappa computerizzata e il radiofaro di segnalazione.

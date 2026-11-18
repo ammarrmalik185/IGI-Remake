@@ -1,0 +1,20 @@
+{
+  "id": 8,
+  "displayName": "Spas 12",
+  "description": "\u003CSPAS_12DESC\u003E",
+  "category": 2,
+  "model": "109_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/109_01_1.igimodel",
+  "magazineSize": 7,
+  "roundsPerMinute": 40,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 30,
+  "modelLength": 0.71,
+  "damageFactor": 0.25,
+  "calibre": 12,
+  "spreadDegrees": 20,
+  "recoilDegrees": 8,
+  "fireSoundPath": "Assets/IGIImported/Audio/spas12_shot_1.wav",
+  "source": "Definitions/weapons/SPAS12/weapon.qvm.json"
+}

@@ -1,0 +1,7026 @@
+     0: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+     2: CALL    argc=3                ; args @24, @27, @30
+    19: BRA     +9                    ; -> 33
+    24: PUSHSIB #0                    ; string "HumanAIConfig"
+    26: BRK
+    27: PUSHSIB #1                    ; string "Save all settings"
+    29: BRK
+    30: PUSHSIB #2                    ; string "PushButton"
+    32: BRK
+    33: POP
+    34: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+    36: CALL    argc=69               ; args @322, @325, @328, @331, @334, @337, @340, @343, @346, @349, @352, @355, @358, @361, @364, @367, @370, @373, @376, @379, @382, @385, @388, @391, @394, @397, @400, @403, @406, @409, @412, @415, @418, @421, @424, @427, @430, @433, @436, @439, @442, @445, @448, @451, @454, @457, @460, @463, @466, @469, @472, @475, @478, @481, @484, @487, @490, @493, @496, @499, @502, @505, @508, @511, @514, @517, @520, @523, @526
+   317: BRA     +207                  ; -> 529
+   322: PUSHSIB #3                    ; string "HumanAIConfigItem"
+   324: BRK
+   325: PUSHSIB #4                    ; string "AI Type"
+   327: BRK
+   328: PUSHSIB #5                    ; string "String256"
+   330: BRK
+   331: PUSHSIB #6                    ; string "Difficulty"
+   333: BRK
+   334: PUSHSIB #5                    ; string "String256"
+   336: BRK
+   337: PUSHSIB #7                    ; string "Damage scale"
+   339: BRK
+   340: PUSHSIB #8                    ; string "Real32"
+   342: BRK
+   343: PUSHSIB #9                    ; string "Recoil threshold"
+   345: BRK
+   346: PUSHSIB #8                    ; string "Real32"
+   348: BRK
+   349: PUSHSIB #10                   ; string "Combat initial movement delay (in seconds)"
+   351: BRK
+   352: PUSHSIB #8                    ; string "Real32"
+   354: BRK
+   355: PUSHSIB #11                   ; string "Combat movement delay (in seconds)"
+   357: BRK
+   358: PUSHSIB #8                    ; string "Real32"
+   360: BRK
+   361: PUSHSIB #12                   ; string "Combat targeting timeout (in seconds)"
+   363: BRK
+   364: PUSHSIB #8                    ; string "Real32"
+   366: BRK
+   367: PUSHSIB #13                   ; string "Combat tracking distance (in meters)"
+   369: BRK
+   370: PUSHSIB #8                    ; string "Real32"
+   372: BRK
+   373: PUSHSIB #14                   ; string "Combat liedown mim distance (in meters)"
+   375: BRK
+   376: PUSHSIB #8                    ; string "Real32"
+   378: BRK
+   379: PUSHSIB #15                   ; string "Combat evasive action probability"
+   381: BRK
+   382: PUSHSIB #8                    ; string "Real32"
+   384: BRK
+   385: PUSHSIB #16                   ; string "Combat evasive stand roll / liedown probability"
+   387: BRK
+   388: PUSHSIB #8                    ; string "Real32"
+   390: BRK
+   391: PUSHSIB #17                   ; string "Combat evasive kneel roll / liedown probability"
+   393: BRK
+   394: PUSHSIB #8                    ; string "Real32"
+   396: BRK
+   397: PUSHSIB #18                   ; string "Combat evasive stand roll side probability"
+   399: BRK
+   400: PUSHSIB #8                    ; string "Real32"
+   402: BRK
+   403: PUSHSIB #19                   ; string "Combat evasive kneel roll side probability"
+   405: BRK
+   406: PUSHSIB #8                    ; string "Real32"
+   408: BRK
+   409: PUSHSIB #20                   ; string "Combat firing hit probability at minimum range"
+   411: BRK
+   412: PUSHSIB #8                    ; string "Real32"
+   414: BRK
+   415: PUSHSIB #21                   ; string "Combat firing hit probability at maximum range"
+   417: BRK
+   418: PUSHSIB #8                    ; string "Real32"
+   420: BRK
+   421: PUSHSIB #22                   ; string "Combat Firing Max Number Of Rounds per sequence"
+   423: BRK
+   424: PUSHSIB #23                   ; string "Int32"
+   426: BRK
+   427: PUSHSIB #24                   ; string "Combat firing Aim precision"
+   429: BRK
+   430: PUSHSIB #8                    ; string "Real32"
+   432: BRK
+   433: PUSHSIB #25                   ; string "Combat firing minimum clip percentage"
+   435: BRK
+   436: PUSHSIB #8                    ; string "Real32"
+   438: BRK
+   439: PUSHSIB #26                   ; string "Combat firing random clip percentage"
+   441: BRK
+   442: PUSHSIB #8                    ; string "Real32"
+   444: BRK
+   445: PUSHSIB #27                   ; string "Combat firing minimum delay (in seconds)"
+   447: BRK
+   448: PUSHSIB #8                    ; string "Real32"
+   450: BRK
+   451: PUSHSIB #28                   ; string "Combat firing random delay (in seconds)"
+   453: BRK
+   454: PUSHSIB #8                    ; string "Real32"
+   456: BRK
+   457: PUSHSIB #29                   ; string "Combat firing minimum shot delay (in seconds)"
+   459: BRK
+   460: PUSHSIB #8                    ; string "Real32"
+   462: BRK
+   463: PUSHSIB #30                   ; string "Combat firing random shot delay (in seconds)"
+   465: BRK
+   466: PUSHSIB #8                    ; string "Real32"
+   468: BRK
+   469: PUSHSIB #31                   ; string "Combat grenade throw probability"
+   471: BRK
+   472: PUSHSIB #8                    ; string "Real32"
+   474: BRK
+   475: PUSHSIB #32                   ; string "Combat grenade throw when reload probability"
+   477: BRK
+   478: PUSHSIB #8                    ; string "Real32"
+   480: BRK
+   481: PUSHSIB #33                   ; string "Combat grenade minimum distance (in meters)"
+   483: BRK
+   484: PUSHSIB #8                    ; string "Real32"
+   486: BRK
+   487: PUSHSIB #34                   ; string "Combat grenade maximum distance (in meters)"
+   489: BRK
+   490: PUSHSIB #8                    ; string "Real32"
+   492: BRK
+   493: PUSHSIB #35                   ; string "Combat grenade minimum fly time (in seconds)"
+   495: BRK
+   496: PUSHSIB #8                    ; string "Real32"
+   498: BRK
+   499: PUSHSIB #36                   ; string "Combat grenade random fly time (in seconds)"
+   501: BRK
+   502: PUSHSIB #8                    ; string "Real32"
+   504: BRK
+   505: PUSHSIB #37                   ; string "Combat grenade minimum explode time (in seconds)"
+   507: BRK
+   508: PUSHSIB #8                    ; string "Real32"
+   510: BRK
+   511: PUSHSIB #38                   ; string "Combat grenade random explode time (in seconds)"
+   513: BRK
+   514: PUSHSIB #8                    ; string "Real32"
+   516: BRK
+   517: PUSHSIB #39                   ; string "Close Combat hit probability"
+   519: BRK
+   520: PUSHSIB #8                    ; string "Real32"
+   522: BRK
+   523: PUSHSIB #40                   ; string "Close Combat damage"
+   525: BRK
+   526: PUSHSIB #8                    ; string "Real32"
+   528: BRK
+   529: POP
+   530: PUSHIIB #1                    ; symbol "Task_New"
+   532: CALL    argc=37               ; args @690, @693, @696, @699, @702, @705, @707, @713, @719, @721, @727, @733, @739, @745, @751, @757, @763, @769, @771, @777, @780, @786, @792, @798, @804, @806, @812, @814, @820, @826, @832, @838, @844, @850, @856, @862, @868
+   685: BRA     +184                  ; -> 874
+   690: PUSH1
+   691: MINUS
+   692: BRK
+   693: PUSHSIB #3                    ; string "HumanAIConfigItem"
+   695: BRK
+   696: PUSHSIB #41                   ; string "AITYPE_RPG, GD_1"
+   698: BRK
+   699: PUSHSIB #42                   ; string "AITYPE_RPG"
+   701: BRK
+   702: PUSHSIB #43                   ; string "GD_1"
+   704: BRK
+   705: PUSH1
+   706: BRK
+   707: PUSHF   0.33
+   712: BRK
+   713: PUSHF   0.33
+   718: BRK
+   719: PUSH1
+   720: BRK
+   721: PUSHF   10
+   726: BRK
+   727: PUSHF   15
+   732: BRK
+   733: PUSHF   15
+   738: BRK
+   739: PUSHF   0.3
+   744: BRK
+   745: PUSHF   0.5
+   750: BRK
+   751: PUSHF   0.5
+   756: BRK
+   757: PUSHF   0.5
+   762: BRK
+   763: PUSHF   0.5
+   768: BRK
+   769: PUSH1
+   770: BRK
+   771: PUSHF   0.25
+   776: BRK
+   777: PUSHB   30
+   779: BRK
+   780: PUSHF   0.2
+   785: BRK
+   786: PUSHF   0.1
+   791: BRK
+   792: PUSHF   0.2
+   797: BRK
+   798: PUSHF   1.5
+   803: BRK
+   804: PUSH1
+   805: BRK
+   806: PUSHF   0.1
+   811: BRK
+   812: PUSH0
+   813: BRK
+   814: PUSHF   0.33
+   819: BRK
+   820: PUSHF   0.1
+   825: BRK
+   826: PUSHF   10
+   831: BRK
+   832: PUSHF   60
+   837: BRK
+   838: PUSHF   0.5
+   843: BRK
+   844: PUSHF   0.5
+   849: BRK
+   850: PUSHF   0.3
+   855: BRK
+   856: PUSHF   0.7
+   861: BRK
+   862: PUSHF   0.4
+   867: BRK
+   868: PUSHF   0.5
+   873: BRK
+   874: POP
+   875: PUSHIIB #1                    ; symbol "Task_New"
+   877: CALL    argc=37               ; args @1035, @1038, @1041, @1044, @1047, @1050, @1052, @1058, @1064, @1066, @1072, @1078, @1084, @1090, @1096, @1102, @1108, @1114, @1116, @1122, @1125, @1131, @1137, @1143, @1149, @1151, @1157, @1159, @1165, @1171, @1177, @1183, @1189, @1195, @1201, @1207, @1213
+  1030: BRA     +184                  ; -> 1219
+  1035: PUSH1
+  1036: MINUS
+  1037: BRK
+  1038: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  1040: BRK
+  1041: PUSHSIB #44                   ; string "AITYPE_RPG, GD_2"
+  1043: BRK
+  1044: PUSHSIB #42                   ; string "AITYPE_RPG"
+  1046: BRK
+  1047: PUSHSIB #45                   ; string "GD_2"
+  1049: BRK
+  1050: PUSH1
+  1051: BRK
+  1052: PUSHF   0.33
+  1057: BRK
+  1058: PUSHF   0.33
+  1063: BRK
+  1064: PUSH1
+  1065: BRK
+  1066: PUSHF   10
+  1071: BRK
+  1072: PUSHF   15
+  1077: BRK
+  1078: PUSHF   15
+  1083: BRK
+  1084: PUSHF   0.3
+  1089: BRK
+  1090: PUSHF   0.5
+  1095: BRK
+  1096: PUSHF   0.5
+  1101: BRK
+  1102: PUSHF   0.5
+  1107: BRK
+  1108: PUSHF   0.5
+  1113: BRK
+  1114: PUSH1
+  1115: BRK
+  1116: PUSHF   0.25
+  1121: BRK
+  1122: PUSHB   30
+  1124: BRK
+  1125: PUSHF   0.2
+  1130: BRK
+  1131: PUSHF   0.1
+  1136: BRK
+  1137: PUSHF   0.2
+  1142: BRK
+  1143: PUSHF   1.5
+  1148: BRK
+  1149: PUSH1
+  1150: BRK
+  1151: PUSHF   0.1
+  1156: BRK
+  1157: PUSH0
+  1158: BRK
+  1159: PUSHF   0.33
+  1164: BRK
+  1165: PUSHF   0.1
+  1170: BRK
+  1171: PUSHF   10
+  1176: BRK
+  1177: PUSHF   60
+  1182: BRK
+  1183: PUSHF   0.5
+  1188: BRK
+  1189: PUSHF   0.5
+  1194: BRK
+  1195: PUSHF   0.3
+  1200: BRK
+  1201: PUSHF   0.7
+  1206: BRK
+  1207: PUSHF   0.4
+  1212: BRK
+  1213: PUSHF   0.5
+  1218: BRK
+  1219: POP
+  1220: PUSHIIB #1                    ; symbol "Task_New"
+  1222: CALL    argc=37               ; args @1380, @1383, @1386, @1389, @1392, @1395, @1397, @1403, @1409, @1411, @1417, @1423, @1429, @1435, @1441, @1447, @1453, @1459, @1461, @1467, @1470, @1476, @1482, @1488, @1494, @1496, @1502, @1504, @1510, @1516, @1522, @1528, @1534, @1540, @1546, @1552, @1558
+  1375: BRA     +184                  ; -> 1564
+  1380: PUSH1
+  1381: MINUS
+  1382: BRK
+  1383: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  1385: BRK
+  1386: PUSHSIB #46                   ; string "AITYPE_RPG, GD_3"
+  1388: BRK
+  1389: PUSHSIB #42                   ; string "AITYPE_RPG"
+  1391: BRK
+  1392: PUSHSIB #47                   ; string "GD_3"
+  1394: BRK
+  1395: PUSH1
+  1396: BRK
+  1397: PUSHF   0.33
+  1402: BRK
+  1403: PUSHF   0.33
+  1408: BRK
+  1409: PUSH1
+  1410: BRK
+  1411: PUSHF   10
+  1416: BRK
+  1417: PUSHF   15
+  1422: BRK
+  1423: PUSHF   15
+  1428: BRK
+  1429: PUSHF   0.3
+  1434: BRK
+  1435: PUSHF   0.5
+  1440: BRK
+  1441: PUSHF   0.5
+  1446: BRK
+  1447: PUSHF   0.5
+  1452: BRK
+  1453: PUSHF   0.5
+  1458: BRK
+  1459: PUSH1
+  1460: BRK
+  1461: PUSHF   0.25
+  1466: BRK
+  1467: PUSHB   30
+  1469: BRK
+  1470: PUSHF   0.2
+  1475: BRK
+  1476: PUSHF   0.1
+  1481: BRK
+  1482: PUSHF   0.2
+  1487: BRK
+  1488: PUSHF   1.5
+  1493: BRK
+  1494: PUSH1
+  1495: BRK
+  1496: PUSHF   0.1
+  1501: BRK
+  1502: PUSH0
+  1503: BRK
+  1504: PUSHF   0.33
+  1509: BRK
+  1510: PUSHF   0.1
+  1515: BRK
+  1516: PUSHF   10
+  1521: BRK
+  1522: PUSHF   60
+  1527: BRK
+  1528: PUSHF   0.5
+  1533: BRK
+  1534: PUSHF   0.5
+  1539: BRK
+  1540: PUSHF   0.3
+  1545: BRK
+  1546: PUSHF   0.7
+  1551: BRK
+  1552: PUSHF   0.4
+  1557: BRK
+  1558: PUSHF   0.5
+  1563: BRK
+  1564: POP
+  1565: PUSHIIB #1                    ; symbol "Task_New"
+  1567: CALL    argc=37               ; args @1725, @1728, @1731, @1734, @1737, @1740, @1746, @1752, @1758, @1760, @1766, @1772, @1778, @1784, @1790, @1796, @1802, @1808, @1810, @1816, @1819, @1825, @1831, @1837, @1843, @1845, @1851, @1853, @1859, @1865, @1871, @1877, @1883, @1889, @1895, @1901, @1907
+  1720: BRA     +188                  ; -> 1913
+  1725: PUSH1
+  1726: MINUS
+  1727: BRK
+  1728: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  1730: BRK
+  1731: PUSHSIB #48                   ; string "AITYPE_GUNNER, GD_1"
+  1733: BRK
+  1734: PUSHSIB #49                   ; string "AITYPE_GUNNER"
+  1736: BRK
+  1737: PUSHSIB #43                   ; string "GD_1"
+  1739: BRK
+  1740: PUSHF   0.3
+  1745: BRK
+  1746: PUSHF   0.2
+  1751: BRK
+  1752: PUSHF   0.33
+  1757: BRK
+  1758: PUSH1
+  1759: BRK
+  1760: PUSHF   15
+  1765: BRK
+  1766: PUSHF   40
+  1771: BRK
+  1772: PUSHF   15
+  1777: BRK
+  1778: PUSHF   0.3
+  1783: BRK
+  1784: PUSHF   0.5
+  1789: BRK
+  1790: PUSHF   0.5
+  1795: BRK
+  1796: PUSHF   0.5
+  1801: BRK
+  1802: PUSHF   0.5
+  1807: BRK
+  1808: PUSH1
+  1809: BRK
+  1810: PUSHF   0.1
+  1815: BRK
+  1816: PUSHB   50
+  1818: BRK
+  1819: PUSHF   0.6
+  1824: BRK
+  1825: PUSHF   0.5
+  1830: BRK
+  1831: PUSHF   0.2
+  1836: BRK
+  1837: PUSHF   2
+  1842: BRK
+  1843: PUSH1
+  1844: BRK
+  1845: PUSHF   0.1
+  1850: BRK
+  1851: PUSH0
+  1852: BRK
+  1853: PUSHF   0.33
+  1858: BRK
+  1859: PUSHF   0.1
+  1864: BRK
+  1865: PUSHF   10
+  1870: BRK
+  1871: PUSHF   60
+  1876: BRK
+  1877: PUSHF   0.5
+  1882: BRK
+  1883: PUSHF   0.5
+  1888: BRK
+  1889: PUSHF   0.3
+  1894: BRK
+  1895: PUSHF   0.7
+  1900: BRK
+  1901: PUSHF   0.7
+  1906: BRK
+  1907: PUSHF   0.3
+  1912: BRK
+  1913: POP
+  1914: PUSHIIB #1                    ; symbol "Task_New"
+  1916: CALL    argc=37               ; args @2074, @2077, @2080, @2083, @2086, @2089, @2095, @2101, @2107, @2109, @2115, @2121, @2127, @2133, @2139, @2145, @2151, @2157, @2159, @2165, @2168, @2174, @2180, @2186, @2188, @2190, @2196, @2198, @2204, @2210, @2216, @2222, @2228, @2234, @2240, @2246, @2252
+  2069: BRA     +184                  ; -> 2258
+  2074: PUSH1
+  2075: MINUS
+  2076: BRK
+  2077: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  2079: BRK
+  2080: PUSHSIB #50                   ; string "AITYPE_GUNNER, GD_2"
+  2082: BRK
+  2083: PUSHSIB #49                   ; string "AITYPE_GUNNER"
+  2085: BRK
+  2086: PUSHSIB #45                   ; string "GD_2"
+  2088: BRK
+  2089: PUSHF   0.5
+  2094: BRK
+  2095: PUSHF   0.3
+  2100: BRK
+  2101: PUSHF   0.33
+  2106: BRK
+  2107: PUSH1
+  2108: BRK
+  2109: PUSHF   20
+  2114: BRK
+  2115: PUSHF   40
+  2120: BRK
+  2121: PUSHF   15
+  2126: BRK
+  2127: PUSHF   0.3
+  2132: BRK
+  2133: PUSHF   0.5
+  2138: BRK
+  2139: PUSHF   0.5
+  2144: BRK
+  2145: PUSHF   0.5
+  2150: BRK
+  2151: PUSHF   0.5
+  2156: BRK
+  2157: PUSH1
+  2158: BRK
+  2159: PUSHF   0.3
+  2164: BRK
+  2165: PUSHB   50
+  2167: BRK
+  2168: PUSHF   0.6
+  2173: BRK
+  2174: PUSHF   0.5
+  2179: BRK
+  2180: PUSHF   0.2
+  2185: BRK
+  2186: PUSH1
+  2187: BRK
+  2188: PUSH1
+  2189: BRK
+  2190: PUSHF   0.1
+  2195: BRK
+  2196: PUSH0
+  2197: BRK
+  2198: PUSHF   0.33
+  2203: BRK
+  2204: PUSHF   0.1
+  2209: BRK
+  2210: PUSHF   10
+  2215: BRK
+  2216: PUSHF   60
+  2221: BRK
+  2222: PUSHF   0.5
+  2227: BRK
+  2228: PUSHF   0.5
+  2233: BRK
+  2234: PUSHF   0.3
+  2239: BRK
+  2240: PUSHF   0.7
+  2245: BRK
+  2246: PUSHF   0.7
+  2251: BRK
+  2252: PUSHF   0.3
+  2257: BRK
+  2258: POP
+  2259: PUSHIIB #1                    ; symbol "Task_New"
+  2261: CALL    argc=37               ; args @2419, @2422, @2425, @2428, @2431, @2434, @2440, @2446, @2452, @2454, @2460, @2466, @2472, @2478, @2484, @2490, @2496, @2502, @2504, @2510, @2513, @2519, @2525, @2531, @2537, @2543, @2549, @2551, @2557, @2563, @2569, @2575, @2581, @2587, @2593, @2599, @2605
+  2414: BRA     +192                  ; -> 2611
+  2419: PUSH1
+  2420: MINUS
+  2421: BRK
+  2422: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  2424: BRK
+  2425: PUSHSIB #51                   ; string "AITYPE_GUNNER, GD_3"
+  2427: BRK
+  2428: PUSHSIB #49                   ; string "AITYPE_GUNNER"
+  2430: BRK
+  2431: PUSHSIB #47                   ; string "GD_3"
+  2433: BRK
+  2434: PUSHF   0.8
+  2439: BRK
+  2440: PUSHF   0.5
+  2445: BRK
+  2446: PUSHF   0.33
+  2451: BRK
+  2452: PUSH1
+  2453: BRK
+  2454: PUSHF   30
+  2459: BRK
+  2460: PUSHF   40
+  2465: BRK
+  2466: PUSHF   15
+  2471: BRK
+  2472: PUSHF   0.3
+  2477: BRK
+  2478: PUSHF   0.5
+  2483: BRK
+  2484: PUSHF   0.5
+  2489: BRK
+  2490: PUSHF   0.5
+  2495: BRK
+  2496: PUSHF   0.5
+  2501: BRK
+  2502: PUSH1
+  2503: BRK
+  2504: PUSHF   0.5
+  2509: BRK
+  2510: PUSHB   50
+  2512: BRK
+  2513: PUSHF   0.6
+  2518: BRK
+  2519: PUSHF   0.5
+  2524: BRK
+  2525: PUSHF   0.2
+  2530: BRK
+  2531: PUSHF   0.5
+  2536: BRK
+  2537: PUSHF   0.7
+  2542: BRK
+  2543: PUSHF   0.1
+  2548: BRK
+  2549: PUSH0
+  2550: BRK
+  2551: PUSHF   0.33
+  2556: BRK
+  2557: PUSHF   0.1
+  2562: BRK
+  2563: PUSHF   10
+  2568: BRK
+  2569: PUSHF   60
+  2574: BRK
+  2575: PUSHF   0.5
+  2580: BRK
+  2581: PUSHF   0.5
+  2586: BRK
+  2587: PUSHF   0.3
+  2592: BRK
+  2593: PUSHF   0.7
+  2598: BRK
+  2599: PUSHF   0.7
+  2604: BRK
+  2605: PUSHF   0.3
+  2610: BRK
+  2611: POP
+  2612: PUSHIIB #1                    ; symbol "Task_New"
+  2614: CALL    argc=37               ; args @2772, @2775, @2778, @2781, @2784, @2787, @2793, @2799, @2805, @2807, @2813, @2819, @2825, @2831, @2837, @2843, @2849, @2855, @2857, @2863, @2866, @2872, @2878, @2884, @2890, @2896, @2902, @2904, @2910, @2916, @2922, @2928, @2934, @2940, @2946, @2952, @2958
+  2767: BRA     +192                  ; -> 2964
+  2772: PUSH1
+  2773: MINUS
+  2774: BRK
+  2775: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  2777: BRK
+  2778: PUSHSIB #52                   ; string "AITYPE_SNIPER, GD_1"
+  2780: BRK
+  2781: PUSHSIB #53                   ; string "AITYPE_SNIPER"
+  2783: BRK
+  2784: PUSHSIB #43                   ; string "GD_1"
+  2786: BRK
+  2787: PUSHF   0.3
+  2792: BRK
+  2793: PUSHF   0.2
+  2798: BRK
+  2799: PUSHF   0.33
+  2804: BRK
+  2805: PUSH1
+  2806: BRK
+  2807: PUSHF   30
+  2812: BRK
+  2813: PUSHF   70
+  2818: BRK
+  2819: PUSHF   15
+  2824: BRK
+  2825: PUSHF   0.3
+  2830: BRK
+  2831: PUSHF   0.5
+  2836: BRK
+  2837: PUSHF   0.5
+  2842: BRK
+  2843: PUSHF   0.5
+  2848: BRK
+  2849: PUSHF   0.5
+  2854: BRK
+  2855: PUSH1
+  2856: BRK
+  2857: PUSHF   0.3
+  2862: BRK
+  2863: PUSHB   10
+  2865: BRK
+  2866: PUSHF   0.4
+  2871: BRK
+  2872: PUSHF   0.1
+  2877: BRK
+  2878: PUSHF   0.2
+  2883: BRK
+  2884: PUSHF   2
+  2889: BRK
+  2890: PUSHF   2
+  2895: BRK
+  2896: PUSHF   0.1
+  2901: BRK
+  2902: PUSH0
+  2903: BRK
+  2904: PUSHF   0.33
+  2909: BRK
+  2910: PUSHF   0.1
+  2915: BRK
+  2916: PUSHF   10
+  2921: BRK
+  2922: PUSHF   60
+  2927: BRK
+  2928: PUSHF   0.5
+  2933: BRK
+  2934: PUSHF   0.5
+  2939: BRK
+  2940: PUSHF   0.3
+  2945: BRK
+  2946: PUSHF   0.7
+  2951: BRK
+  2952: PUSHF   0.7
+  2957: BRK
+  2958: PUSHF   0.3
+  2963: BRK
+  2964: POP
+  2965: PUSHIIB #1                    ; symbol "Task_New"
+  2967: CALL    argc=37               ; args @3125, @3128, @3131, @3134, @3137, @3140, @3146, @3152, @3158, @3160, @3166, @3172, @3178, @3184, @3190, @3196, @3202, @3208, @3210, @3216, @3219, @3225, @3231, @3237, @3243, @3249, @3255, @3257, @3263, @3269, @3275, @3281, @3287, @3293, @3299, @3305, @3311
+  3120: BRA     +192                  ; -> 3317
+  3125: PUSH1
+  3126: MINUS
+  3127: BRK
+  3128: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  3130: BRK
+  3131: PUSHSIB #54                   ; string "AITYPE_SNIPER, GD_2"
+  3133: BRK
+  3134: PUSHSIB #53                   ; string "AITYPE_SNIPER"
+  3136: BRK
+  3137: PUSHSIB #45                   ; string "GD_2"
+  3139: BRK
+  3140: PUSHF   0.5
+  3145: BRK
+  3146: PUSHF   0.3
+  3151: BRK
+  3152: PUSHF   0.33
+  3157: BRK
+  3158: PUSH1
+  3159: BRK
+  3160: PUSHF   30
+  3165: BRK
+  3166: PUSHF   70
+  3171: BRK
+  3172: PUSHF   15
+  3177: BRK
+  3178: PUSHF   0.3
+  3183: BRK
+  3184: PUSHF   0.5
+  3189: BRK
+  3190: PUSHF   0.5
+  3195: BRK
+  3196: PUSHF   0.5
+  3201: BRK
+  3202: PUSHF   0.5
+  3207: BRK
+  3208: PUSH1
+  3209: BRK
+  3210: PUSHF   0.5
+  3215: BRK
+  3216: PUSHB   10
+  3218: BRK
+  3219: PUSHF   0.6
+  3224: BRK
+  3225: PUSHF   0.1
+  3230: BRK
+  3231: PUSHF   0.2
+  3236: BRK
+  3237: PUSHF   1.5
+  3242: BRK
+  3243: PUSHF   0.5
+  3248: BRK
+  3249: PUSHF   0.1
+  3254: BRK
+  3255: PUSH0
+  3256: BRK
+  3257: PUSHF   0.33
+  3262: BRK
+  3263: PUSHF   0.1
+  3268: BRK
+  3269: PUSHF   10
+  3274: BRK
+  3275: PUSHF   60
+  3280: BRK
+  3281: PUSHF   0.5
+  3286: BRK
+  3287: PUSHF   0.5
+  3292: BRK
+  3293: PUSHF   0.3
+  3298: BRK
+  3299: PUSHF   0.7
+  3304: BRK
+  3305: PUSHF   0.7
+  3310: BRK
+  3311: PUSHF   0.3
+  3316: BRK
+  3317: POP
+  3318: PUSHIIB #1                    ; symbol "Task_New"
+  3320: CALL    argc=37               ; args @3478, @3481, @3484, @3487, @3490, @3493, @3499, @3505, @3511, @3513, @3519, @3525, @3531, @3537, @3543, @3549, @3555, @3561, @3563, @3569, @3572, @3578, @3584, @3590, @3592, @3594, @3600, @3602, @3608, @3614, @3620, @3626, @3632, @3638, @3644, @3650, @3656
+  3473: BRA     +184                  ; -> 3662
+  3478: PUSH1
+  3479: MINUS
+  3480: BRK
+  3481: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  3483: BRK
+  3484: PUSHSIB #55                   ; string "AITYPE_SNIPER, GD_3"
+  3486: BRK
+  3487: PUSHSIB #53                   ; string "AITYPE_SNIPER"
+  3489: BRK
+  3490: PUSHSIB #47                   ; string "GD_3"
+  3492: BRK
+  3493: PUSHF   0.8
+  3498: BRK
+  3499: PUSHF   0.5
+  3504: BRK
+  3505: PUSHF   0.33
+  3510: BRK
+  3511: PUSH1
+  3512: BRK
+  3513: PUSHF   30
+  3518: BRK
+  3519: PUSHF   70
+  3524: BRK
+  3525: PUSHF   15
+  3530: BRK
+  3531: PUSHF   0.3
+  3536: BRK
+  3537: PUSHF   0.5
+  3542: BRK
+  3543: PUSHF   0.5
+  3548: BRK
+  3549: PUSHF   0.5
+  3554: BRK
+  3555: PUSHF   0.5
+  3560: BRK
+  3561: PUSH1
+  3562: BRK
+  3563: PUSHF   0.8
+  3568: BRK
+  3569: PUSHB   10
+  3571: BRK
+  3572: PUSHF   0.8
+  3577: BRK
+  3578: PUSHF   0.1
+  3583: BRK
+  3584: PUSHF   0.2
+  3589: BRK
+  3590: PUSH1
+  3591: BRK
+  3592: PUSH1
+  3593: BRK
+  3594: PUSHF   0.1
+  3599: BRK
+  3600: PUSH0
+  3601: BRK
+  3602: PUSHF   0.33
+  3607: BRK
+  3608: PUSHF   0.1
+  3613: BRK
+  3614: PUSHF   10
+  3619: BRK
+  3620: PUSHF   60
+  3625: BRK
+  3626: PUSHF   0.5
+  3631: BRK
+  3632: PUSHF   0.5
+  3637: BRK
+  3638: PUSHF   0.3
+  3643: BRK
+  3644: PUSHF   0.7
+  3649: BRK
+  3650: PUSHF   0.7
+  3655: BRK
+  3656: PUSHF   0.3
+  3661: BRK
+  3662: POP
+  3663: PUSHIIB #1                    ; symbol "Task_New"
+  3665: CALL    argc=37               ; args @3823, @3826, @3829, @3832, @3835, @3838, @3844, @3850, @3856, @3858, @3864, @3870, @3876, @3882, @3888, @3894, @3900, @3906, @3908, @3914, @3917, @3923, @3929, @3935, @3941, @3943, @3949, @3951, @3957, @3963, @3969, @3975, @3981, @3987, @3993, @3999, @4005
+  3818: BRA     +188                  ; -> 4011
+  3823: PUSH1
+  3824: MINUS
+  3825: BRK
+  3826: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  3828: BRK
+  3829: PUSHSIB #56                   ; string "AITYPE_ANYA, GD_1"
+  3831: BRK
+  3832: PUSHSIB #57                   ; string "AITYPE_ANYA"
+  3834: BRK
+  3835: PUSHSIB #43                   ; string "GD_1"
+  3837: BRK
+  3838: PUSHF   3.5
+  3843: BRK
+  3844: PUSHF   0.33
+  3849: BRK
+  3850: PUSHF   0.33
+  3855: BRK
+  3856: PUSH1
+  3857: BRK
+  3858: PUSHF   10
+  3863: BRK
+  3864: PUSHF   15
+  3869: BRK
+  3870: PUSHF   15
+  3875: BRK
+  3876: PUSHF   0.3
+  3881: BRK
+  3882: PUSHF   0.5
+  3887: BRK
+  3888: PUSHF   0.5
+  3893: BRK
+  3894: PUSHF   0.5
+  3899: BRK
+  3900: PUSHF   0.5
+  3905: BRK
+  3906: PUSH1
+  3907: BRK
+  3908: PUSHF   0.25
+  3913: BRK
+  3914: PUSHB   30
+  3916: BRK
+  3917: PUSHF   0.2
+  3922: BRK
+  3923: PUSHF   0.1
+  3928: BRK
+  3929: PUSHF   0.2
+  3934: BRK
+  3935: PUSHF   1.5
+  3940: BRK
+  3941: PUSH1
+  3942: BRK
+  3943: PUSHF   0.1
+  3948: BRK
+  3949: PUSH0
+  3950: BRK
+  3951: PUSHF   0.33
+  3956: BRK
+  3957: PUSHF   0.1
+  3962: BRK
+  3963: PUSHF   10
+  3968: BRK
+  3969: PUSHF   60
+  3974: BRK
+  3975: PUSHF   0.5
+  3980: BRK
+  3981: PUSHF   0.5
+  3986: BRK
+  3987: PUSHF   0.3
+  3992: BRK
+  3993: PUSHF   0.7
+  3998: BRK
+  3999: PUSHF   0.4
+  4004: BRK
+  4005: PUSHF   0.5
+  4010: BRK
+  4011: POP
+  4012: PUSHIIB #1                    ; symbol "Task_New"
+  4014: CALL    argc=37               ; args @4172, @4175, @4178, @4181, @4184, @4187, @4193, @4199, @4205, @4207, @4213, @4219, @4225, @4231, @4237, @4243, @4249, @4255, @4257, @4263, @4266, @4272, @4278, @4284, @4290, @4292, @4298, @4300, @4306, @4312, @4318, @4324, @4330, @4336, @4342, @4348, @4354
+  4167: BRA     +188                  ; -> 4360
+  4172: PUSH1
+  4173: MINUS
+  4174: BRK
+  4175: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  4177: BRK
+  4178: PUSHSIB #58                   ; string "AITYPE_ANYA, GD_2"
+  4180: BRK
+  4181: PUSHSIB #57                   ; string "AITYPE_ANYA"
+  4183: BRK
+  4184: PUSHSIB #45                   ; string "GD_2"
+  4186: BRK
+  4187: PUSHF   1.5
+  4192: BRK
+  4193: PUSHF   0.33
+  4198: BRK
+  4199: PUSHF   0.33
+  4204: BRK
+  4205: PUSH1
+  4206: BRK
+  4207: PUSHF   10
+  4212: BRK
+  4213: PUSHF   15
+  4218: BRK
+  4219: PUSHF   15
+  4224: BRK
+  4225: PUSHF   0.3
+  4230: BRK
+  4231: PUSHF   0.5
+  4236: BRK
+  4237: PUSHF   0.5
+  4242: BRK
+  4243: PUSHF   0.5
+  4248: BRK
+  4249: PUSHF   0.5
+  4254: BRK
+  4255: PUSH1
+  4256: BRK
+  4257: PUSHF   0.25
+  4262: BRK
+  4263: PUSHB   30
+  4265: BRK
+  4266: PUSHF   0.2
+  4271: BRK
+  4272: PUSHF   0.1
+  4277: BRK
+  4278: PUSHF   0.2
+  4283: BRK
+  4284: PUSHF   1.5
+  4289: BRK
+  4290: PUSH1
+  4291: BRK
+  4292: PUSHF   0.1
+  4297: BRK
+  4298: PUSH0
+  4299: BRK
+  4300: PUSHF   0.33
+  4305: BRK
+  4306: PUSHF   0.1
+  4311: BRK
+  4312: PUSHF   10
+  4317: BRK
+  4318: PUSHF   60
+  4323: BRK
+  4324: PUSHF   0.5
+  4329: BRK
+  4330: PUSHF   0.5
+  4335: BRK
+  4336: PUSHF   0.3
+  4341: BRK
+  4342: PUSHF   0.7
+  4347: BRK
+  4348: PUSHF   0.4
+  4353: BRK
+  4354: PUSHF   0.5
+  4359: BRK
+  4360: POP
+  4361: PUSHIIB #1                    ; symbol "Task_New"
+  4363: CALL    argc=37               ; args @4521, @4524, @4527, @4530, @4533, @4536, @4538, @4544, @4550, @4552, @4558, @4564, @4570, @4576, @4582, @4588, @4594, @4600, @4602, @4608, @4611, @4617, @4623, @4629, @4635, @4637, @4643, @4645, @4651, @4657, @4663, @4669, @4675, @4681, @4687, @4693, @4699
+  4516: BRA     +184                  ; -> 4705
+  4521: PUSH1
+  4522: MINUS
+  4523: BRK
+  4524: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  4526: BRK
+  4527: PUSHSIB #59                   ; string "AITYPE_ANYA, GD_3"
+  4529: BRK
+  4530: PUSHSIB #57                   ; string "AITYPE_ANYA"
+  4532: BRK
+  4533: PUSHSIB #47                   ; string "GD_3"
+  4535: BRK
+  4536: PUSH1
+  4537: BRK
+  4538: PUSHF   0.6
+  4543: BRK
+  4544: PUSHF   0.33
+  4549: BRK
+  4550: PUSH1
+  4551: BRK
+  4552: PUSHF   10
+  4557: BRK
+  4558: PUSHF   15
+  4563: BRK
+  4564: PUSHF   15
+  4569: BRK
+  4570: PUSHF   0.3
+  4575: BRK
+  4576: PUSHF   0.5
+  4581: BRK
+  4582: PUSHF   0.5
+  4587: BRK
+  4588: PUSHF   0.5
+  4593: BRK
+  4594: PUSHF   0.5
+  4599: BRK
+  4600: PUSH1
+  4601: BRK
+  4602: PUSHF   0.25
+  4607: BRK
+  4608: PUSHB   30
+  4610: BRK
+  4611: PUSHF   0.2
+  4616: BRK
+  4617: PUSHF   0.1
+  4622: BRK
+  4623: PUSHF   0.2
+  4628: BRK
+  4629: PUSHF   1.5
+  4634: BRK
+  4635: PUSH1
+  4636: BRK
+  4637: PUSHF   0.1
+  4642: BRK
+  4643: PUSH0
+  4644: BRK
+  4645: PUSHF   0.33
+  4650: BRK
+  4651: PUSHF   0.1
+  4656: BRK
+  4657: PUSHF   10
+  4662: BRK
+  4663: PUSHF   60
+  4668: BRK
+  4669: PUSHF   0.5
+  4674: BRK
+  4675: PUSHF   0.5
+  4680: BRK
+  4681: PUSHF   0.3
+  4686: BRK
+  4687: PUSHF   0.7
+  4692: BRK
+  4693: PUSHF   0.4
+  4698: BRK
+  4699: PUSHF   0.5
+  4704: BRK
+  4705: POP
+  4706: PUSHIIB #1                    ; symbol "Task_New"
+  4708: CALL    argc=37               ; args @4866, @4869, @4872, @4875, @4878, @4881, @4887, @4893, @4899, @4901, @4907, @4913, @4919, @4925, @4931, @4937, @4943, @4949, @4951, @4957, @4960, @4966, @4972, @4978, @4980, @4982, @4988, @4990, @4996, @5002, @5008, @5014, @5020, @5026, @5032, @5038, @5044
+  4861: BRA     +184                  ; -> 5050
+  4866: PUSH1
+  4867: MINUS
+  4868: BRK
+  4869: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  4871: BRK
+  4872: PUSHSIB #60                   ; string "AITYPE_EKK, GD_1"
+  4874: BRK
+  4875: PUSHSIB #61                   ; string "AITYPE_EKK"
+  4877: BRK
+  4878: PUSHSIB #43                   ; string "GD_1"
+  4880: BRK
+  4881: PUSHF   5
+  4886: BRK
+  4887: PUSHF   1.5
+  4892: BRK
+  4893: PUSHF   0.33
+  4898: BRK
+  4899: PUSH1
+  4900: BRK
+  4901: PUSHF   30
+  4906: BRK
+  4907: PUSHF   10
+  4912: BRK
+  4913: PUSHF   15
+  4918: BRK
+  4919: PUSHF   0.6
+  4924: BRK
+  4925: PUSHF   0.1
+  4930: BRK
+  4931: PUSHF   0.1
+  4936: BRK
+  4937: PUSHF   0.5
+  4942: BRK
+  4943: PUSHF   0.5
+  4948: BRK
+  4949: PUSH1
+  4950: BRK
+  4951: PUSHF   0.6
+  4956: BRK
+  4957: PUSHB   9
+  4959: BRK
+  4960: PUSHF   0.6
+  4965: BRK
+  4966: PUSHF   0.1
+  4971: BRK
+  4972: PUSHF   0.3
+  4977: BRK
+  4978: PUSH1
+  4979: BRK
+  4980: PUSH0
+  4981: BRK
+  4982: PUSHF   0.1
+  4987: BRK
+  4988: PUSH0
+  4989: BRK
+  4990: PUSHF   0.33
+  4995: BRK
+  4996: PUSHF   0.1
+  5001: BRK
+  5002: PUSHF   10
+  5007: BRK
+  5008: PUSHF   60
+  5013: BRK
+  5014: PUSHF   0.5
+  5019: BRK
+  5020: PUSHF   0.5
+  5025: BRK
+  5026: PUSHF   0.3
+  5031: BRK
+  5032: PUSHF   0.7
+  5037: BRK
+  5038: PUSHF   0.8
+  5043: BRK
+  5044: PUSHF   0.5
+  5049: BRK
+  5050: POP
+  5051: PUSHIIB #1                    ; symbol "Task_New"
+  5053: CALL    argc=37               ; args @5211, @5214, @5217, @5220, @5223, @5226, @5232, @5238, @5244, @5246, @5252, @5258, @5264, @5270, @5276, @5282, @5288, @5294, @5296, @5302, @5305, @5311, @5317, @5323, @5329, @5331, @5337, @5339, @5345, @5351, @5357, @5363, @5369, @5375, @5381, @5387, @5393
+  5206: BRA     +188                  ; -> 5399
+  5211: PUSH1
+  5212: MINUS
+  5213: BRK
+  5214: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  5216: BRK
+  5217: PUSHSIB #62                   ; string "AITYPE_EKK, GD_2"
+  5219: BRK
+  5220: PUSHSIB #61                   ; string "AITYPE_EKK"
+  5222: BRK
+  5223: PUSHSIB #45                   ; string "GD_2"
+  5225: BRK
+  5226: PUSHF   7
+  5231: BRK
+  5232: PUSHF   1.8
+  5237: BRK
+  5238: PUSHF   0.33
+  5243: BRK
+  5244: PUSH1
+  5245: BRK
+  5246: PUSHF   30
+  5251: BRK
+  5252: PUSHF   10
+  5257: BRK
+  5258: PUSHF   15
+  5263: BRK
+  5264: PUSHF   0.7
+  5269: BRK
+  5270: PUSHF   0.1
+  5275: BRK
+  5276: PUSHF   0.1
+  5281: BRK
+  5282: PUSHF   0.5
+  5287: BRK
+  5288: PUSHF   0.5
+  5293: BRK
+  5294: PUSH1
+  5295: BRK
+  5296: PUSHF   0.7
+  5301: BRK
+  5302: PUSHB   9
+  5304: BRK
+  5305: PUSHF   0.7
+  5310: BRK
+  5311: PUSHF   0.1
+  5316: BRK
+  5317: PUSHF   0.3
+  5322: BRK
+  5323: PUSHF   0.8
+  5328: BRK
+  5329: PUSH0
+  5330: BRK
+  5331: PUSHF   0.1
+  5336: BRK
+  5337: PUSH0
+  5338: BRK
+  5339: PUSHF   0.33
+  5344: BRK
+  5345: PUSHF   0.1
+  5350: BRK
+  5351: PUSHF   10
+  5356: BRK
+  5357: PUSHF   60
+  5362: BRK
+  5363: PUSHF   0.5
+  5368: BRK
+  5369: PUSHF   0.5
+  5374: BRK
+  5375: PUSHF   0.3
+  5380: BRK
+  5381: PUSHF   0.7
+  5386: BRK
+  5387: PUSHF   0.8
+  5392: BRK
+  5393: PUSHF   0.5
+  5398: BRK
+  5399: POP
+  5400: PUSHIIB #1                    ; symbol "Task_New"
+  5402: CALL    argc=37               ; args @5560, @5563, @5566, @5569, @5572, @5575, @5581, @5587, @5593, @5595, @5601, @5607, @5613, @5619, @5625, @5631, @5637, @5643, @5645, @5651, @5654, @5660, @5666, @5672, @5678, @5680, @5686, @5688, @5694, @5700, @5706, @5712, @5718, @5724, @5730, @5736, @5742
+  5555: BRA     +188                  ; -> 5748
+  5560: PUSH1
+  5561: MINUS
+  5562: BRK
+  5563: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  5565: BRK
+  5566: PUSHSIB #63                   ; string "AITYPE_EKK, GD_3"
+  5568: BRK
+  5569: PUSHSIB #61                   ; string "AITYPE_EKK"
+  5571: BRK
+  5572: PUSHSIB #47                   ; string "GD_3"
+  5574: BRK
+  5575: PUSHF   10
+  5580: BRK
+  5581: PUSHF   2.5
+  5586: BRK
+  5587: PUSHF   0.33
+  5592: BRK
+  5593: PUSH1
+  5594: BRK
+  5595: PUSHF   30
+  5600: BRK
+  5601: PUSHF   10
+  5606: BRK
+  5607: PUSHF   15
+  5612: BRK
+  5613: PUSHF   0.75
+  5618: BRK
+  5619: PUSHF   0.1
+  5624: BRK
+  5625: PUSHF   0.1
+  5630: BRK
+  5631: PUSHF   0.5
+  5636: BRK
+  5637: PUSHF   0.5
+  5642: BRK
+  5643: PUSH1
+  5644: BRK
+  5645: PUSHF   0.9
+  5650: BRK
+  5651: PUSHB   9
+  5653: BRK
+  5654: PUSHF   0.9
+  5659: BRK
+  5660: PUSHF   0.1
+  5665: BRK
+  5666: PUSHF   0.3
+  5671: BRK
+  5672: PUSHF   0.5
+  5677: BRK
+  5678: PUSH0
+  5679: BRK
+  5680: PUSHF   0.1
+  5685: BRK
+  5686: PUSH0
+  5687: BRK
+  5688: PUSHF   0.33
+  5693: BRK
+  5694: PUSHF   0.1
+  5699: BRK
+  5700: PUSHF   10
+  5705: BRK
+  5706: PUSHF   60
+  5711: BRK
+  5712: PUSHF   0.5
+  5717: BRK
+  5718: PUSHF   0.5
+  5723: BRK
+  5724: PUSHF   0.3
+  5729: BRK
+  5730: PUSHF   0.7
+  5735: BRK
+  5736: PUSHF   0.8
+  5741: BRK
+  5742: PUSHF   0.5
+  5747: BRK
+  5748: POP
+  5749: PUSHIIB #1                    ; symbol "Task_New"
+  5751: CALL    argc=37               ; args @5909, @5912, @5915, @5918, @5921, @5924, @5930, @5936, @5942, @5944, @5950, @5956, @5962, @5968, @5974, @5980, @5986, @5992, @5994, @6000, @6003, @6009, @6015, @6021, @6027, @6029, @6035, @6037, @6043, @6049, @6055, @6061, @6067, @6073, @6079, @6085, @6091
+  5904: BRA     +184                  ; -> 6093
+  5909: PUSH1
+  5910: MINUS
+  5911: BRK
+  5912: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  5914: BRK
+  5915: PUSHSIB #64                   ; string "AITYPE_PRIBOI, GD_1"
+  5917: BRK
+  5918: PUSHSIB #65                   ; string "AITYPE_PRIBOI"
+  5920: BRK
+  5921: PUSHSIB #43                   ; string "GD_1"
+  5923: BRK
+  5924: PUSHF   4
+  5929: BRK
+  5930: PUSHF   2
+  5935: BRK
+  5936: PUSHF   0.33
+  5941: BRK
+  5942: PUSH1
+  5943: BRK
+  5944: PUSHF   5
+  5949: BRK
+  5950: PUSHF   40
+  5955: BRK
+  5956: PUSHF   15
+  5961: BRK
+  5962: PUSHF   0.3
+  5967: BRK
+  5968: PUSHF   0.5
+  5973: BRK
+  5974: PUSHF   0.5
+  5979: BRK
+  5980: PUSHF   0.5
+  5985: BRK
+  5986: PUSHF   0.5
+  5991: BRK
+  5992: PUSH1
+  5993: BRK
+  5994: PUSHF   0.5
+  5999: BRK
+  6000: PUSHB   12
+  6002: BRK
+  6003: PUSHF   0.6
+  6008: BRK
+  6009: PUSHF   0.5
+  6014: BRK
+  6015: PUSHF   0.2
+  6020: BRK
+  6021: PUSHF   0.5
+  6026: BRK
+  6027: PUSH0
+  6028: BRK
+  6029: PUSHF   0.1
+  6034: BRK
+  6035: PUSH0
+  6036: BRK
+  6037: PUSHF   0.33
+  6042: BRK
+  6043: PUSHF   0.1
+  6048: BRK
+  6049: PUSHF   10
+  6054: BRK
+  6055: PUSHF   60
+  6060: BRK
+  6061: PUSHF   0.5
+  6066: BRK
+  6067: PUSHF   0.5
+  6072: BRK
+  6073: PUSHF   0.3
+  6078: BRK
+  6079: PUSHF   0.7
+  6084: BRK
+  6085: PUSHF   0.8
+  6090: BRK
+  6091: PUSH1
+  6092: BRK
+  6093: POP
+  6094: PUSHIIB #1                    ; symbol "Task_New"
+  6096: CALL    argc=37               ; args @6254, @6257, @6260, @6263, @6266, @6269, @6275, @6277, @6283, @6289, @6295, @6301, @6307, @6313, @6319, @6325, @6331, @6337, @6339, @6345, @6348, @6354, @6360, @6366, @6372, @6378, @6384, @6386, @6392, @6398, @6404, @6410, @6416, @6422, @6428, @6434, @6440
+  6249: BRA     +192                  ; -> 6446
+  6254: PUSH1
+  6255: MINUS
+  6256: BRK
+  6257: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  6259: BRK
+  6260: PUSHSIB #66                   ; string "AITYPE_PRIBOI, GD_2"
+  6262: BRK
+  6263: PUSHSIB #65                   ; string "AITYPE_PRIBOI"
+  6265: BRK
+  6266: PUSHSIB #45                   ; string "GD_2"
+  6268: BRK
+  6269: PUSHF   3
+  6274: BRK
+  6275: PUSH1
+  6276: BRK
+  6277: PUSHF   0.183333
+  6282: BRK
+  6283: PUSHF   0.216667
+  6288: BRK
+  6289: PUSHF   5
+  6294: BRK
+  6295: PUSHF   40
+  6300: BRK
+  6301: PUSHF   15
+  6306: BRK
+  6307: PUSHF   0.1
+  6312: BRK
+  6313: PUSHF   0.5
+  6318: BRK
+  6319: PUSHF   0.5
+  6324: BRK
+  6325: PUSHF   0.5
+  6330: BRK
+  6331: PUSHF   0.5
+  6336: BRK
+  6337: PUSH1
+  6338: BRK
+  6339: PUSHF   0.6
+  6344: BRK
+  6345: PUSHB   12
+  6347: BRK
+  6348: PUSHF   0.5
+  6353: BRK
+  6354: PUSHF   0.5
+  6359: BRK
+  6360: PUSHF   0.1
+  6365: BRK
+  6366: PUSHF   0.5
+  6371: BRK
+  6372: PUSHF   0.5
+  6377: BRK
+  6378: PUSHF   0.1
+  6383: BRK
+  6384: PUSH0
+  6385: BRK
+  6386: PUSHF   0.33
+  6391: BRK
+  6392: PUSHF   0.1
+  6397: BRK
+  6398: PUSHF   10
+  6403: BRK
+  6404: PUSHF   60
+  6409: BRK
+  6410: PUSHF   0.5
+  6415: BRK
+  6416: PUSHF   0.5
+  6421: BRK
+  6422: PUSHF   0.3
+  6427: BRK
+  6428: PUSHF   0.7
+  6433: BRK
+  6434: PUSHF   0.8
+  6439: BRK
+  6440: PUSHF   0.8
+  6445: BRK
+  6446: POP
+  6447: PUSHIIB #1                    ; symbol "Task_New"
+  6449: CALL    argc=37               ; args @6607, @6610, @6613, @6616, @6619, @6622, @6628, @6630, @6636, @6638, @6644, @6650, @6656, @6662, @6668, @6674, @6680, @6686, @6688, @6694, @6697, @6703, @6709, @6715, @6717, @6723, @6729, @6731, @6737, @6743, @6749, @6755, @6761, @6767, @6773, @6779, @6785
+  6602: BRA     +184                  ; -> 6791
+  6607: PUSH1
+  6608: MINUS
+  6609: BRK
+  6610: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  6612: BRK
+  6613: PUSHSIB #67                   ; string "AITYPE_PRIBOI, GD_3"
+  6615: BRK
+  6616: PUSHSIB #65                   ; string "AITYPE_PRIBOI"
+  6618: BRK
+  6619: PUSHSIB #47                   ; string "GD_3"
+  6621: BRK
+  6622: PUSHF   2
+  6627: BRK
+  6628: PUSH1
+  6629: BRK
+  6630: PUSHF   0.33
+  6635: BRK
+  6636: PUSH1
+  6637: BRK
+  6638: PUSHF   5
+  6643: BRK
+  6644: PUSHF   40
+  6649: BRK
+  6650: PUSHF   15
+  6655: BRK
+  6656: PUSHF   0.1
+  6661: BRK
+  6662: PUSHF   0.5
+  6667: BRK
+  6668: PUSHF   0.5
+  6673: BRK
+  6674: PUSHF   0.5
+  6679: BRK
+  6680: PUSHF   0.5
+  6685: BRK
+  6686: PUSH1
+  6687: BRK
+  6688: PUSHF   0.5
+  6693: BRK
+  6694: PUSHB   12
+  6696: BRK
+  6697: PUSHF   0.5
+  6702: BRK
+  6703: PUSHF   0.5
+  6708: BRK
+  6709: PUSHF   0.1
+  6714: BRK
+  6715: PUSH1
+  6716: BRK
+  6717: PUSHF   0.5
+  6722: BRK
+  6723: PUSHF   0.1
+  6728: BRK
+  6729: PUSH0
+  6730: BRK
+  6731: PUSHF   0.33
+  6736: BRK
+  6737: PUSHF   0.1
+  6742: BRK
+  6743: PUSHF   10
+  6748: BRK
+  6749: PUSHF   60
+  6754: BRK
+  6755: PUSHF   0.5
+  6760: BRK
+  6761: PUSHF   0.5
+  6766: BRK
+  6767: PUSHF   0.3
+  6772: BRK
+  6773: PUSHF   0.7
+  6778: BRK
+  6779: PUSHF   0.8
+  6784: BRK
+  6785: PUSHF   0.8
+  6790: BRK
+  6791: POP
+  6792: PUSHIIB #1                    ; symbol "Task_New"
+  6794: CALL    argc=37               ; args @6952, @6955, @6958, @6961, @6964, @6967, @6969, @6975, @6981, @6983, @6989, @6995, @7001, @7007, @7013, @7019, @7025, @7031, @7033, @7039, @7042, @7048, @7054, @7060, @7066, @7068, @7074, @7076, @7082, @7088, @7094, @7100, @7106, @7112, @7118, @7124, @7130
+  6947: BRA     +184                  ; -> 7136
+  6952: PUSH1
+  6953: MINUS
+  6954: BRK
+  6955: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  6957: BRK
+  6958: PUSHSIB #68                   ; string "AITYPE_CIVILIAN, GD_1"
+  6960: BRK
+  6961: PUSHSIB #69                   ; string "AITYPE_CIVILIAN"
+  6963: BRK
+  6964: PUSHSIB #43                   ; string "GD_1"
+  6966: BRK
+  6967: PUSH1
+  6968: BRK
+  6969: PUSHF   0.33
+  6974: BRK
+  6975: PUSHF   0.33
+  6980: BRK
+  6981: PUSH1
+  6982: BRK
+  6983: PUSHF   10
+  6988: BRK
+  6989: PUSHF   15
+  6994: BRK
+  6995: PUSHF   15
+  7000: BRK
+  7001: PUSHF   0.3
+  7006: BRK
+  7007: PUSHF   0.5
+  7012: BRK
+  7013: PUSHF   0.5
+  7018: BRK
+  7019: PUSHF   0.5
+  7024: BRK
+  7025: PUSHF   0.5
+  7030: BRK
+  7031: PUSH1
+  7032: BRK
+  7033: PUSHF   0.25
+  7038: BRK
+  7039: PUSHB   30
+  7041: BRK
+  7042: PUSHF   0.2
+  7047: BRK
+  7048: PUSHF   0.1
+  7053: BRK
+  7054: PUSHF   0.2
+  7059: BRK
+  7060: PUSHF   1.5
+  7065: BRK
+  7066: PUSH1
+  7067: BRK
+  7068: PUSHF   0.1
+  7073: BRK
+  7074: PUSH0
+  7075: BRK
+  7076: PUSHF   0.33
+  7081: BRK
+  7082: PUSHF   0.1
+  7087: BRK
+  7088: PUSHF   10
+  7093: BRK
+  7094: PUSHF   60
+  7099: BRK
+  7100: PUSHF   0.5
+  7105: BRK
+  7106: PUSHF   0.5
+  7111: BRK
+  7112: PUSHF   0.3
+  7117: BRK
+  7118: PUSHF   0.7
+  7123: BRK
+  7124: PUSHF   0.4
+  7129: BRK
+  7130: PUSHF   0.5
+  7135: BRK
+  7136: POP
+  7137: PUSHIIB #1                    ; symbol "Task_New"
+  7139: CALL    argc=37               ; args @7297, @7300, @7303, @7306, @7309, @7312, @7314, @7320, @7326, @7328, @7334, @7340, @7346, @7352, @7358, @7364, @7370, @7376, @7378, @7384, @7387, @7393, @7399, @7405, @7411, @7413, @7419, @7421, @7427, @7433, @7439, @7445, @7451, @7457, @7463, @7469, @7475
+  7292: BRA     +184                  ; -> 7481
+  7297: PUSH1
+  7298: MINUS
+  7299: BRK
+  7300: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  7302: BRK
+  7303: PUSHSIB #70                   ; string "AITYPE_CIVILIAN, GD_2"
+  7305: BRK
+  7306: PUSHSIB #69                   ; string "AITYPE_CIVILIAN"
+  7308: BRK
+  7309: PUSHSIB #45                   ; string "GD_2"
+  7311: BRK
+  7312: PUSH1
+  7313: BRK
+  7314: PUSHF   0.33
+  7319: BRK
+  7320: PUSHF   0.33
+  7325: BRK
+  7326: PUSH1
+  7327: BRK
+  7328: PUSHF   10
+  7333: BRK
+  7334: PUSHF   15
+  7339: BRK
+  7340: PUSHF   15
+  7345: BRK
+  7346: PUSHF   0.3
+  7351: BRK
+  7352: PUSHF   0.5
+  7357: BRK
+  7358: PUSHF   0.5
+  7363: BRK
+  7364: PUSHF   0.5
+  7369: BRK
+  7370: PUSHF   0.5
+  7375: BRK
+  7376: PUSH1
+  7377: BRK
+  7378: PUSHF   0.25
+  7383: BRK
+  7384: PUSHB   30
+  7386: BRK
+  7387: PUSHF   0.2
+  7392: BRK
+  7393: PUSHF   0.1
+  7398: BRK
+  7399: PUSHF   0.2
+  7404: BRK
+  7405: PUSHF   1.5
+  7410: BRK
+  7411: PUSH1
+  7412: BRK
+  7413: PUSHF   0.1
+  7418: BRK
+  7419: PUSH0
+  7420: BRK
+  7421: PUSHF   0.33
+  7426: BRK
+  7427: PUSHF   0.1
+  7432: BRK
+  7433: PUSHF   10
+  7438: BRK
+  7439: PUSHF   60
+  7444: BRK
+  7445: PUSHF   0.5
+  7450: BRK
+  7451: PUSHF   0.5
+  7456: BRK
+  7457: PUSHF   0.3
+  7462: BRK
+  7463: PUSHF   0.7
+  7468: BRK
+  7469: PUSHF   0.4
+  7474: BRK
+  7475: PUSHF   0.5
+  7480: BRK
+  7481: POP
+  7482: PUSHIIB #1                    ; symbol "Task_New"
+  7484: CALL    argc=37               ; args @7642, @7645, @7648, @7651, @7654, @7657, @7659, @7665, @7671, @7673, @7679, @7685, @7691, @7697, @7703, @7709, @7715, @7721, @7723, @7729, @7732, @7738, @7744, @7750, @7756, @7758, @7764, @7766, @7772, @7778, @7784, @7790, @7796, @7802, @7808, @7814, @7820
+  7637: BRA     +184                  ; -> 7826
+  7642: PUSH1
+  7643: MINUS
+  7644: BRK
+  7645: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  7647: BRK
+  7648: PUSHSIB #71                   ; string "AITYPE_CIVILIAN, GD_3"
+  7650: BRK
+  7651: PUSHSIB #69                   ; string "AITYPE_CIVILIAN"
+  7653: BRK
+  7654: PUSHSIB #47                   ; string "GD_3"
+  7656: BRK
+  7657: PUSH1
+  7658: BRK
+  7659: PUSHF   0.33
+  7664: BRK
+  7665: PUSHF   0.33
+  7670: BRK
+  7671: PUSH1
+  7672: BRK
+  7673: PUSHF   10
+  7678: BRK
+  7679: PUSHF   15
+  7684: BRK
+  7685: PUSHF   15
+  7690: BRK
+  7691: PUSHF   0.3
+  7696: BRK
+  7697: PUSHF   0.5
+  7702: BRK
+  7703: PUSHF   0.5
+  7708: BRK
+  7709: PUSHF   0.5
+  7714: BRK
+  7715: PUSHF   0.5
+  7720: BRK
+  7721: PUSH1
+  7722: BRK
+  7723: PUSHF   0.25
+  7728: BRK
+  7729: PUSHB   30
+  7731: BRK
+  7732: PUSHF   0.2
+  7737: BRK
+  7738: PUSHF   0.1
+  7743: BRK
+  7744: PUSHF   0.2
+  7749: BRK
+  7750: PUSHF   1.5
+  7755: BRK
+  7756: PUSH1
+  7757: BRK
+  7758: PUSHF   0.1
+  7763: BRK
+  7764: PUSH0
+  7765: BRK
+  7766: PUSHF   0.33
+  7771: BRK
+  7772: PUSHF   0.1
+  7777: BRK
+  7778: PUSHF   10
+  7783: BRK
+  7784: PUSHF   60
+  7789: BRK
+  7790: PUSHF   0.5
+  7795: BRK
+  7796: PUSHF   0.5
+  7801: BRK
+  7802: PUSHF   0.3
+  7807: BRK
+  7808: PUSHF   0.7
+  7813: BRK
+  7814: PUSHF   0.4
+  7819: BRK
+  7820: PUSHF   0.5
+  7825: BRK
+  7826: POP
+  7827: PUSHIIB #1                    ; symbol "Task_New"
+  7829: CALL    argc=37               ; args @7987, @7990, @7993, @7996, @7999, @8002, @8008, @8014, @8020, @8022, @8028, @8034, @8040, @8046, @8052, @8058, @8064, @8070, @8076, @8082, @8085, @8091, @8097, @8103, @8109, @8115, @8121, @8123, @8129, @8135, @8141, @8147, @8153, @8159, @8165, @8171, @8177
+  7982: BRA     +196                  ; -> 8183
+  7987: PUSH1
+  7988: MINUS
+  7989: BRK
+  7990: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  7992: BRK
+  7993: PUSHSIB #72                   ; string "AITYPE_PATROL_UZI, GD_1"
+  7995: BRK
+  7996: PUSHSIB #73                   ; string "AITYPE_PATROL_UZI"
+  7998: BRK
+  7999: PUSHSIB #43                   ; string "GD_1"
+  8001: BRK
+  8002: PUSHF   0.3
+  8007: BRK
+  8008: PUSHF   0.2
+  8013: BRK
+  8014: PUSHF   0.33
+  8019: BRK
+  8020: PUSH1
+  8021: BRK
+  8022: PUSHF   10
+  8027: BRK
+  8028: PUSHF   10
+  8033: BRK
+  8034: PUSHF   15
+  8039: BRK
+  8040: PUSHF   0.3
+  8045: BRK
+  8046: PUSHF   0.5
+  8051: BRK
+  8052: PUSHF   0.5
+  8057: BRK
+  8058: PUSHF   0.5
+  8063: BRK
+  8064: PUSHF   0.5
+  8069: BRK
+  8070: PUSHF   0.6
+  8075: BRK
+  8076: PUSHF   0.1
+  8081: BRK
+  8082: PUSHB   32
+  8084: BRK
+  8085: PUSHF   0.5
+  8090: BRK
+  8091: PUSHF   0.8
+  8096: BRK
+  8097: PUSHF   0.2
+  8102: BRK
+  8103: PUSHF   1.5
+  8108: BRK
+  8109: PUSHF   2
+  8114: BRK
+  8115: PUSHF   0.1
+  8120: BRK
+  8121: PUSH0
+  8122: BRK
+  8123: PUSHF   0.33
+  8128: BRK
+  8129: PUSHF   0.1
+  8134: BRK
+  8135: PUSHF   10
+  8140: BRK
+  8141: PUSHF   60
+  8146: BRK
+  8147: PUSHF   0.5
+  8152: BRK
+  8153: PUSHF   0.5
+  8158: BRK
+  8159: PUSHF   0.3
+  8164: BRK
+  8165: PUSHF   0.7
+  8170: BRK
+  8171: PUSHF   0.7
+  8176: BRK
+  8177: PUSHF   0.3
+  8182: BRK
+  8183: POP
+  8184: PUSHIIB #1                    ; symbol "Task_New"
+  8186: CALL    argc=37               ; args @8344, @8347, @8350, @8353, @8356, @8359, @8361, @8367, @8373, @8375, @8381, @8387, @8393, @8399, @8405, @8411, @8417, @8423, @8425, @8431, @8434, @8440, @8446, @8452, @8458, @8464, @8470, @8472, @8478, @8484, @8490, @8496, @8502, @8508, @8514, @8520, @8526
+  8339: BRA     +188                  ; -> 8532
+  8344: PUSH1
+  8345: MINUS
+  8346: BRK
+  8347: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  8349: BRK
+  8350: PUSHSIB #74                   ; string "AITYPE_PATROL_UZI, GD_2"
+  8352: BRK
+  8353: PUSHSIB #73                   ; string "AITYPE_PATROL_UZI"
+  8355: BRK
+  8356: PUSHSIB #45                   ; string "GD_2"
+  8358: BRK
+  8359: PUSH1
+  8360: BRK
+  8361: PUSHF   0.5
+  8366: BRK
+  8367: PUSHF   0.3
+  8372: BRK
+  8373: PUSH1
+  8374: BRK
+  8375: PUSHF   15
+  8380: BRK
+  8381: PUSHF   10
+  8386: BRK
+  8387: PUSHF   15
+  8392: BRK
+  8393: PUSHF   0.3
+  8398: BRK
+  8399: PUSHF   0.4
+  8404: BRK
+  8405: PUSHF   0.4
+  8410: BRK
+  8411: PUSHF   0.5
+  8416: BRK
+  8417: PUSHF   0.5
+  8422: BRK
+  8423: PUSH1
+  8424: BRK
+  8425: PUSHF   0.3
+  8430: BRK
+  8431: PUSHB   32
+  8433: BRK
+  8434: PUSHF   0.6
+  8439: BRK
+  8440: PUSHF   0.8
+  8445: BRK
+  8446: PUSHF   0.2
+  8451: BRK
+  8452: PUSHF   0.5
+  8457: BRK
+  8458: PUSHF   0.5
+  8463: BRK
+  8464: PUSHF   0.1
+  8469: BRK
+  8470: PUSH0
+  8471: BRK
+  8472: PUSHF   0.33
+  8477: BRK
+  8478: PUSHF   0.1
+  8483: BRK
+  8484: PUSHF   10
+  8489: BRK
+  8490: PUSHF   60
+  8495: BRK
+  8496: PUSHF   0.5
+  8501: BRK
+  8502: PUSHF   0.5
+  8507: BRK
+  8508: PUSHF   0.3
+  8513: BRK
+  8514: PUSHF   0.7
+  8519: BRK
+  8520: PUSHF   0.7
+  8525: BRK
+  8526: PUSHF   0.3
+  8531: BRK
+  8532: POP
+  8533: PUSHIIB #1                    ; symbol "Task_New"
+  8535: CALL    argc=37               ; args @8693, @8696, @8699, @8702, @8705, @8708, @8714, @8720, @8726, @8728, @8734, @8740, @8746, @8752, @8758, @8764, @8770, @8776, @8778, @8784, @8787, @8793, @8799, @8805, @8811, @8813, @8819, @8821, @8827, @8833, @8839, @8845, @8851, @8857, @8859, @8865, @8871
+  8688: BRA     +184                  ; -> 8877
+  8693: PUSH1
+  8694: MINUS
+  8695: BRK
+  8696: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  8698: BRK
+  8699: PUSHSIB #75                   ; string "AITYPE_PATROL_UZI, GD_3"
+  8701: BRK
+  8702: PUSHSIB #73                   ; string "AITYPE_PATROL_UZI"
+  8704: BRK
+  8705: PUSHSIB #47                   ; string "GD_3"
+  8707: BRK
+  8708: PUSHF   0.8
+  8713: BRK
+  8714: PUSHF   0.5
+  8719: BRK
+  8720: PUSHF   0.33
+  8725: BRK
+  8726: PUSH1
+  8727: BRK
+  8728: PUSHF   20
+  8733: BRK
+  8734: PUSHF   10
+  8739: BRK
+  8740: PUSHF   15
+  8745: BRK
+  8746: PUSHF   0.3
+  8751: BRK
+  8752: PUSHF   0.2
+  8757: BRK
+  8758: PUSHF   0.2
+  8763: BRK
+  8764: PUSHF   0.5
+  8769: BRK
+  8770: PUSHF   0.5
+  8775: BRK
+  8776: PUSH1
+  8777: BRK
+  8778: PUSHF   0.5
+  8783: BRK
+  8784: PUSHB   32
+  8786: BRK
+  8787: PUSHF   0.6
+  8792: BRK
+  8793: PUSHF   0.8
+  8798: BRK
+  8799: PUSHF   0.2
+  8804: BRK
+  8805: PUSHF   0.5
+  8810: BRK
+  8811: PUSH0
+  8812: BRK
+  8813: PUSHF   0.1
+  8818: BRK
+  8819: PUSH0
+  8820: BRK
+  8821: PUSHF   0.33
+  8826: BRK
+  8827: PUSHF   0.1
+  8832: BRK
+  8833: PUSHF   10
+  8838: BRK
+  8839: PUSHF   60
+  8844: BRK
+  8845: PUSHF   0.7
+  8850: BRK
+  8851: PUSHF   0.4
+  8856: BRK
+  8857: PUSH1
+  8858: BRK
+  8859: PUSHF   0.4
+  8864: BRK
+  8865: PUSHF   0.7
+  8870: BRK
+  8871: PUSHF   0.3
+  8876: BRK
+  8877: POP
+  8878: PUSHIIB #1                    ; symbol "Task_New"
+  8880: CALL    argc=37               ; args @9038, @9041, @9044, @9047, @9050, @9053, @9059, @9065, @9071, @9073, @9079, @9085, @9091, @9097, @9103, @9109, @9115, @9121, @9127, @9133, @9136, @9142, @9148, @9154, @9160, @9166, @9172, @9174, @9180, @9186, @9192, @9198, @9204, @9210, @9216, @9222, @9228
+  9033: BRA     +196                  ; -> 9234
+  9038: PUSH1
+  9039: MINUS
+  9040: BRK
+  9041: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  9043: BRK
+  9044: PUSHSIB #76                   ; string "AITYPE_PATROL_AK, GD_1"
+  9046: BRK
+  9047: PUSHSIB #77                   ; string "AITYPE_PATROL_AK"
+  9049: BRK
+  9050: PUSHSIB #43                   ; string "GD_1"
+  9052: BRK
+  9053: PUSHF   0.3
+  9058: BRK
+  9059: PUSHF   0.2
+  9064: BRK
+  9065: PUSHF   0.33
+  9070: BRK
+  9071: PUSH1
+  9072: BRK
+  9073: PUSHF   10
+  9078: BRK
+  9079: PUSHF   20
+  9084: BRK
+  9085: PUSHF   15
+  9090: BRK
+  9091: PUSHF   0.3
+  9096: BRK
+  9097: PUSHF   0.5
+  9102: BRK
+  9103: PUSHF   0.5
+  9108: BRK
+  9109: PUSHF   0.5
+  9114: BRK
+  9115: PUSHF   0.5
+  9120: BRK
+  9121: PUSHF   0.6
+  9126: BRK
+  9127: PUSHF   0.1
+  9132: BRK
+  9133: PUSHB   30
+  9135: BRK
+  9136: PUSHF   0.5
+  9141: BRK
+  9142: PUSHF   0.8
+  9147: BRK
+  9148: PUSHF   0.2
+  9153: BRK
+  9154: PUSHF   1.5
+  9159: BRK
+  9160: PUSHF   2
+  9165: BRK
+  9166: PUSHF   0.1
+  9171: BRK
+  9172: PUSH0
+  9173: BRK
+  9174: PUSHF   0.33
+  9179: BRK
+  9180: PUSHF   0.1
+  9185: BRK
+  9186: PUSHF   10
+  9191: BRK
+  9192: PUSHF   60
+  9197: BRK
+  9198: PUSHF   0.5
+  9203: BRK
+  9204: PUSHF   0.5
+  9209: BRK
+  9210: PUSHF   0.3
+  9215: BRK
+  9216: PUSHF   0.7
+  9221: BRK
+  9222: PUSHF   0.7
+  9227: BRK
+  9228: PUSHF   0.3
+  9233: BRK
+  9234: POP
+  9235: PUSHIIB #1                    ; symbol "Task_New"
+  9237: CALL    argc=37               ; args @9395, @9398, @9401, @9404, @9407, @9410, @9416, @9422, @9428, @9430, @9436, @9442, @9448, @9454, @9460, @9466, @9472, @9478, @9480, @9486, @9489, @9495, @9501, @9507, @9513, @9519, @9525, @9527, @9533, @9539, @9545, @9551, @9557, @9563, @9569, @9575, @9581
+  9390: BRA     +192                  ; -> 9587
+  9395: PUSH1
+  9396: MINUS
+  9397: BRK
+  9398: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  9400: BRK
+  9401: PUSHSIB #78                   ; string "AITYPE_PATROL_AK, GD_2"
+  9403: BRK
+  9404: PUSHSIB #77                   ; string "AITYPE_PATROL_AK"
+  9406: BRK
+  9407: PUSHSIB #45                   ; string "GD_2"
+  9409: BRK
+  9410: PUSHF   0.5
+  9415: BRK
+  9416: PUSHF   0.3
+  9421: BRK
+  9422: PUSHF   0.33
+  9427: BRK
+  9428: PUSH1
+  9429: BRK
+  9430: PUSHF   15
+  9435: BRK
+  9436: PUSHF   20
+  9441: BRK
+  9442: PUSHF   15
+  9447: BRK
+  9448: PUSHF   0.3
+  9453: BRK
+  9454: PUSHF   0.5
+  9459: BRK
+  9460: PUSHF   0.5
+  9465: BRK
+  9466: PUSHF   0.5
+  9471: BRK
+  9472: PUSHF   0.5
+  9477: BRK
+  9478: PUSH1
+  9479: BRK
+  9480: PUSHF   0.3
+  9485: BRK
+  9486: PUSHB   30
+  9488: BRK
+  9489: PUSHF   0.8
+  9494: BRK
+  9495: PUSHF   0.2
+  9500: BRK
+  9501: PUSHF   0.3
+  9506: BRK
+  9507: PUSHF   0.5
+  9512: BRK
+  9513: PUSHF   0.5
+  9518: BRK
+  9519: PUSHF   0.1
+  9524: BRK
+  9525: PUSH0
+  9526: BRK
+  9527: PUSHF   0.33
+  9532: BRK
+  9533: PUSHF   0.1
+  9538: BRK
+  9539: PUSHF   10
+  9544: BRK
+  9545: PUSHF   60
+  9550: BRK
+  9551: PUSHF   0.5
+  9556: BRK
+  9557: PUSHF   0.5
+  9562: BRK
+  9563: PUSHF   0.3
+  9568: BRK
+  9569: PUSHF   0.7
+  9574: BRK
+  9575: PUSHF   0.7
+  9580: BRK
+  9581: PUSHF   0.3
+  9586: BRK
+  9587: POP
+  9588: PUSHIIB #1                    ; symbol "Task_New"
+  9590: CALL    argc=37               ; args @9748, @9751, @9754, @9757, @9760, @9763, @9769, @9771, @9777, @9779, @9785, @9791, @9797, @9803, @9809, @9815, @9821, @9827, @9829, @9835, @9838, @9844, @9850, @9856, @9862, @9864, @9870, @9872, @9878, @9884, @9890, @9896, @9902, @9904, @9906, @9912, @9918
+  9743: BRA     +176                  ; -> 9924
+  9748: PUSH1
+  9749: MINUS
+  9750: BRK
+  9751: PUSHSIB #3                    ; string "HumanAIConfigItem"
+  9753: BRK
+  9754: PUSHSIB #79                   ; string "AITYPE_PATROL_AK, GD_3"
+  9756: BRK
+  9757: PUSHSIB #77                   ; string "AITYPE_PATROL_AK"
+  9759: BRK
+  9760: PUSHSIB #47                   ; string "GD_3"
+  9762: BRK
+  9763: PUSHF   0.8
+  9768: BRK
+  9769: PUSH0
+  9770: BRK
+  9771: PUSHF   0.33
+  9776: BRK
+  9777: PUSH1
+  9778: BRK
+  9779: PUSHF   20
+  9784: BRK
+  9785: PUSHF   20
+  9790: BRK
+  9791: PUSHF   15
+  9796: BRK
+  9797: PUSHF   0.3
+  9802: BRK
+  9803: PUSHF   0.4
+  9808: BRK
+  9809: PUSHF   0.4
+  9814: BRK
+  9815: PUSHF   0.5
+  9820: BRK
+  9821: PUSHF   0.5
+  9826: BRK
+  9827: PUSH1
+  9828: BRK
+  9829: PUSHF   0.5
+  9834: BRK
+  9835: PUSHB   30
+  9837: BRK
+  9838: PUSHF   0.8
+  9843: BRK
+  9844: PUSHF   0.2
+  9849: BRK
+  9850: PUSHF   0.3
+  9855: BRK
+  9856: PUSHF   0.5
+  9861: BRK
+  9862: PUSH0
+  9863: BRK
+  9864: PUSHF   0.1
+  9869: BRK
+  9870: PUSH0
+  9871: BRK
+  9872: PUSHF   0.33
+  9877: BRK
+  9878: PUSHF   0.1
+  9883: BRK
+  9884: PUSHF   10
+  9889: BRK
+  9890: PUSHF   60
+  9895: BRK
+  9896: PUSHF   0.7
+  9901: BRK
+  9902: PUSH0
+  9903: BRK
+  9904: PUSH1
+  9905: BRK
+  9906: PUSHF   0.4
+  9911: BRK
+  9912: PUSHF   0.7
+  9917: BRK
+  9918: PUSHF   0.3
+  9923: BRK
+  9924: POP
+  9925: PUSHIIB #1                    ; symbol "Task_New"
+  9927: CALL    argc=37               ; args @10085, @10088, @10091, @10094, @10097, @10100, @10106, @10112, @10118, @10120, @10126, @10132, @10138, @10144, @10150, @10156, @10162, @10168, @10174, @10180, @10183, @10189, @10195, @10201, @10207, @10213, @10219, @10221, @10227, @10233, @10239, @10245, @10251, @10257, @10263, @10269, @10275
+ 10080: BRA     +196                  ; -> 10281
+ 10085: PUSH1
+ 10086: MINUS
+ 10087: BRK
+ 10088: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 10090: BRK
+ 10091: PUSHSIB #80                   ; string "AITYPE_PATROL_SPAS, GD_1"
+ 10093: BRK
+ 10094: PUSHSIB #81                   ; string "AITYPE_PATROL_SPAS"
+ 10096: BRK
+ 10097: PUSHSIB #43                   ; string "GD_1"
+ 10099: BRK
+ 10100: PUSHF   0.3
+ 10105: BRK
+ 10106: PUSHF   0.2
+ 10111: BRK
+ 10112: PUSHF   0.33
+ 10117: BRK
+ 10118: PUSH1
+ 10119: BRK
+ 10120: PUSHF   10
+ 10125: BRK
+ 10126: PUSHF   15
+ 10131: BRK
+ 10132: PUSHF   15
+ 10137: BRK
+ 10138: PUSHF   0.3
+ 10143: BRK
+ 10144: PUSHF   0.5
+ 10149: BRK
+ 10150: PUSHF   0.5
+ 10155: BRK
+ 10156: PUSHF   0.5
+ 10161: BRK
+ 10162: PUSHF   0.5
+ 10167: BRK
+ 10168: PUSHF   0.6
+ 10173: BRK
+ 10174: PUSHF   0.1
+ 10179: BRK
+ 10180: PUSHB   12
+ 10182: BRK
+ 10183: PUSHF   0.5
+ 10188: BRK
+ 10189: PUSHF   0.1
+ 10194: BRK
+ 10195: PUSHF   0.2
+ 10200: BRK
+ 10201: PUSHF   1.5
+ 10206: BRK
+ 10207: PUSHF   2
+ 10212: BRK
+ 10213: PUSHF   0.1
+ 10218: BRK
+ 10219: PUSH0
+ 10220: BRK
+ 10221: PUSHF   0.33
+ 10226: BRK
+ 10227: PUSHF   0.1
+ 10232: BRK
+ 10233: PUSHF   10
+ 10238: BRK
+ 10239: PUSHF   60
+ 10244: BRK
+ 10245: PUSHF   0.5
+ 10250: BRK
+ 10251: PUSHF   0.5
+ 10256: BRK
+ 10257: PUSHF   0.3
+ 10262: BRK
+ 10263: PUSHF   0.7
+ 10268: BRK
+ 10269: PUSHF   0.7
+ 10274: BRK
+ 10275: PUSHF   0.3
+ 10280: BRK
+ 10281: POP
+ 10282: PUSHIIB #1                    ; symbol "Task_New"
+ 10284: CALL    argc=37               ; args @10442, @10445, @10448, @10451, @10454, @10457, @10463, @10469, @10475, @10477, @10483, @10489, @10495, @10501, @10507, @10513, @10519, @10525, @10527, @10533, @10536, @10542, @10548, @10554, @10560, @10566, @10572, @10574, @10580, @10586, @10592, @10598, @10604, @10610, @10616, @10622, @10628
+ 10437: BRA     +192                  ; -> 10634
+ 10442: PUSH1
+ 10443: MINUS
+ 10444: BRK
+ 10445: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 10447: BRK
+ 10448: PUSHSIB #82                   ; string "AITYPE_PATROL_SPAS, GD_2"
+ 10450: BRK
+ 10451: PUSHSIB #81                   ; string "AITYPE_PATROL_SPAS"
+ 10453: BRK
+ 10454: PUSHSIB #45                   ; string "GD_2"
+ 10456: BRK
+ 10457: PUSHF   0.5
+ 10462: BRK
+ 10463: PUSHF   0.3
+ 10468: BRK
+ 10469: PUSHF   0.33
+ 10474: BRK
+ 10475: PUSH1
+ 10476: BRK
+ 10477: PUSHF   15
+ 10482: BRK
+ 10483: PUSHF   15
+ 10488: BRK
+ 10489: PUSHF   15
+ 10494: BRK
+ 10495: PUSHF   0.3
+ 10500: BRK
+ 10501: PUSHF   0.5
+ 10506: BRK
+ 10507: PUSHF   0.5
+ 10512: BRK
+ 10513: PUSHF   0.5
+ 10518: BRK
+ 10519: PUSHF   0.5
+ 10524: BRK
+ 10525: PUSH1
+ 10526: BRK
+ 10527: PUSHF   0.3
+ 10532: BRK
+ 10533: PUSHB   12
+ 10535: BRK
+ 10536: PUSHF   0.5
+ 10541: BRK
+ 10542: PUSHF   0.1
+ 10547: BRK
+ 10548: PUSHF   0.2
+ 10553: BRK
+ 10554: PUSHF   0.5
+ 10559: BRK
+ 10560: PUSHF   0.5
+ 10565: BRK
+ 10566: PUSHF   0.1
+ 10571: BRK
+ 10572: PUSH0
+ 10573: BRK
+ 10574: PUSHF   0.33
+ 10579: BRK
+ 10580: PUSHF   0.1
+ 10585: BRK
+ 10586: PUSHF   10
+ 10591: BRK
+ 10592: PUSHF   60
+ 10597: BRK
+ 10598: PUSHF   0.5
+ 10603: BRK
+ 10604: PUSHF   0.5
+ 10609: BRK
+ 10610: PUSHF   0.3
+ 10615: BRK
+ 10616: PUSHF   0.7
+ 10621: BRK
+ 10622: PUSHF   0.7
+ 10627: BRK
+ 10628: PUSHF   0.3
+ 10633: BRK
+ 10634: POP
+ 10635: PUSHIIB #1                    ; symbol "Task_New"
+ 10637: CALL    argc=37               ; args @10795, @10798, @10801, @10804, @10807, @10810, @10816, @10822, @10828, @10830, @10836, @10842, @10848, @10854, @10860, @10866, @10872, @10878, @10880, @10886, @10889, @10895, @10901, @10907, @10913, @10915, @10921, @10923, @10929, @10935, @10941, @10947, @10953, @10959, @10961, @10967, @10973
+ 10790: BRA     +184                  ; -> 10979
+ 10795: PUSH1
+ 10796: MINUS
+ 10797: BRK
+ 10798: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 10800: BRK
+ 10801: PUSHSIB #83                   ; string "AITYPE_PATROL_SPAS, GD_3"
+ 10803: BRK
+ 10804: PUSHSIB #81                   ; string "AITYPE_PATROL_SPAS"
+ 10806: BRK
+ 10807: PUSHSIB #47                   ; string "GD_3"
+ 10809: BRK
+ 10810: PUSHF   0.8
+ 10815: BRK
+ 10816: PUSHF   0.5
+ 10821: BRK
+ 10822: PUSHF   0.33
+ 10827: BRK
+ 10828: PUSH1
+ 10829: BRK
+ 10830: PUSHF   20
+ 10835: BRK
+ 10836: PUSHF   15
+ 10841: BRK
+ 10842: PUSHF   10
+ 10847: BRK
+ 10848: PUSHF   0.3
+ 10853: BRK
+ 10854: PUSHF   0.4
+ 10859: BRK
+ 10860: PUSHF   0.4
+ 10865: BRK
+ 10866: PUSHF   0.5
+ 10871: BRK
+ 10872: PUSHF   0.5
+ 10877: BRK
+ 10878: PUSH1
+ 10879: BRK
+ 10880: PUSHF   0.5
+ 10885: BRK
+ 10886: PUSHB   12
+ 10888: BRK
+ 10889: PUSHF   0.6
+ 10894: BRK
+ 10895: PUSHF   0.1
+ 10900: BRK
+ 10901: PUSHF   0.2
+ 10906: BRK
+ 10907: PUSHF   0.5
+ 10912: BRK
+ 10913: PUSH0
+ 10914: BRK
+ 10915: PUSHF   0.1
+ 10920: BRK
+ 10921: PUSH0
+ 10922: BRK
+ 10923: PUSHF   0.33
+ 10928: BRK
+ 10929: PUSHF   0.1
+ 10934: BRK
+ 10935: PUSHF   10
+ 10940: BRK
+ 10941: PUSHF   60
+ 10946: BRK
+ 10947: PUSHF   0.7
+ 10952: BRK
+ 10953: PUSHF   0.4
+ 10958: BRK
+ 10959: PUSH1
+ 10960: BRK
+ 10961: PUSHF   0.4
+ 10966: BRK
+ 10967: PUSHF   0.7
+ 10972: BRK
+ 10973: PUSHF   0.3
+ 10978: BRK
+ 10979: POP
+ 10980: PUSHIIB #1                    ; symbol "Task_New"
+ 10982: CALL    argc=37               ; args @11140, @11143, @11146, @11149, @11152, @11155, @11161, @11167, @11173, @11175, @11181, @11187, @11193, @11199, @11205, @11211, @11217, @11223, @11229, @11235, @11238, @11244, @11250, @11256, @11262, @11268, @11274, @11276, @11282, @11288, @11294, @11300, @11306, @11312, @11318, @11324, @11330
+ 11135: BRA     +192                  ; -> 11332
+ 11140: PUSH1
+ 11141: MINUS
+ 11142: BRK
+ 11143: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 11145: BRK
+ 11146: PUSHSIB #84                   ; string "AITYPE_GUARD_UZI, GD_1"
+ 11148: BRK
+ 11149: PUSHSIB #85                   ; string "AITYPE_GUARD_UZI"
+ 11151: BRK
+ 11152: PUSHSIB #43                   ; string "GD_1"
+ 11154: BRK
+ 11155: PUSHF   0.3
+ 11160: BRK
+ 11161: PUSHF   0.2
+ 11166: BRK
+ 11167: PUSHF   0.33
+ 11172: BRK
+ 11173: PUSH1
+ 11174: BRK
+ 11175: PUSHF   10
+ 11180: BRK
+ 11181: PUSHF   10
+ 11186: BRK
+ 11187: PUSHF   15
+ 11192: BRK
+ 11193: PUSHF   0.3
+ 11198: BRK
+ 11199: PUSHF   0.5
+ 11204: BRK
+ 11205: PUSHF   0.5
+ 11210: BRK
+ 11211: PUSHF   0.5
+ 11216: BRK
+ 11217: PUSHF   0.5
+ 11222: BRK
+ 11223: PUSHF   0.6
+ 11228: BRK
+ 11229: PUSHF   0.1
+ 11234: BRK
+ 11235: PUSHB   32
+ 11237: BRK
+ 11238: PUSHF   0.5
+ 11243: BRK
+ 11244: PUSHF   0.8
+ 11249: BRK
+ 11250: PUSHF   0.2
+ 11255: BRK
+ 11256: PUSHF   1.5
+ 11261: BRK
+ 11262: PUSHF   2
+ 11267: BRK
+ 11268: PUSHF   0.1
+ 11273: BRK
+ 11274: PUSH0
+ 11275: BRK
+ 11276: PUSHF   0.33
+ 11281: BRK
+ 11282: PUSHF   0.1
+ 11287: BRK
+ 11288: PUSHF   10
+ 11293: BRK
+ 11294: PUSHF   60
+ 11299: BRK
+ 11300: PUSHF   0.5
+ 11305: BRK
+ 11306: PUSHF   0.5
+ 11311: BRK
+ 11312: PUSHF   0.3
+ 11317: BRK
+ 11318: PUSHF   0.7
+ 11323: BRK
+ 11324: PUSHF   0.7
+ 11329: BRK
+ 11330: PUSH0
+ 11331: BRK
+ 11332: POP
+ 11333: PUSHIIB #1                    ; symbol "Task_New"
+ 11335: CALL    argc=37               ; args @11493, @11496, @11499, @11502, @11505, @11508, @11514, @11520, @11526, @11528, @11534, @11540, @11546, @11552, @11558, @11564, @11570, @11576, @11578, @11584, @11587, @11593, @11599, @11605, @11607, @11613, @11619, @11621, @11627, @11633, @11639, @11645, @11651, @11657, @11663, @11669, @11675
+ 11488: BRA     +188                  ; -> 11681
+ 11493: PUSH1
+ 11494: MINUS
+ 11495: BRK
+ 11496: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 11498: BRK
+ 11499: PUSHSIB #86                   ; string "AITYPE_GUARD_UZI, GD_2"
+ 11501: BRK
+ 11502: PUSHSIB #85                   ; string "AITYPE_GUARD_UZI"
+ 11504: BRK
+ 11505: PUSHSIB #45                   ; string "GD_2"
+ 11507: BRK
+ 11508: PUSHF   0.5
+ 11513: BRK
+ 11514: PUSHF   0.3
+ 11519: BRK
+ 11520: PUSHF   0.33
+ 11525: BRK
+ 11526: PUSH1
+ 11527: BRK
+ 11528: PUSHF   15
+ 11533: BRK
+ 11534: PUSHF   10
+ 11539: BRK
+ 11540: PUSHF   15
+ 11545: BRK
+ 11546: PUSHF   0.3
+ 11551: BRK
+ 11552: PUSHF   0.5
+ 11557: BRK
+ 11558: PUSHF   0.5
+ 11563: BRK
+ 11564: PUSHF   0.5
+ 11569: BRK
+ 11570: PUSHF   0.5
+ 11575: BRK
+ 11576: PUSH1
+ 11577: BRK
+ 11578: PUSHF   0.4
+ 11583: BRK
+ 11584: PUSHB   32
+ 11586: BRK
+ 11587: PUSHF   0.6
+ 11592: BRK
+ 11593: PUSHF   0.3
+ 11598: BRK
+ 11599: PUSHF   0.3
+ 11604: BRK
+ 11605: PUSH1
+ 11606: BRK
+ 11607: PUSHF   0.5
+ 11612: BRK
+ 11613: PUSHF   0.1
+ 11618: BRK
+ 11619: PUSH0
+ 11620: BRK
+ 11621: PUSHF   0.33
+ 11626: BRK
+ 11627: PUSHF   0.1
+ 11632: BRK
+ 11633: PUSHF   10
+ 11638: BRK
+ 11639: PUSHF   60
+ 11644: BRK
+ 11645: PUSHF   0.5
+ 11650: BRK
+ 11651: PUSHF   0.5
+ 11656: BRK
+ 11657: PUSHF   0.3
+ 11662: BRK
+ 11663: PUSHF   0.7
+ 11668: BRK
+ 11669: PUSHF   0.7
+ 11674: BRK
+ 11675: PUSHF   0.3
+ 11680: BRK
+ 11681: POP
+ 11682: PUSHIIB #1                    ; symbol "Task_New"
+ 11684: CALL    argc=37               ; args @11842, @11845, @11848, @11851, @11854, @11857, @11863, @11869, @11875, @11877, @11883, @11889, @11895, @11901, @11907, @11913, @11919, @11925, @11927, @11933, @11936, @11942, @11948, @11954, @11960, @11962, @11968, @11970, @11976, @11982, @11988, @11994, @12000, @12006, @12008, @12014, @12020
+ 11837: BRA     +184                  ; -> 12026
+ 11842: PUSH1
+ 11843: MINUS
+ 11844: BRK
+ 11845: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 11847: BRK
+ 11848: PUSHSIB #87                   ; string "AITYPE_GUARD_UZI, GD_3"
+ 11850: BRK
+ 11851: PUSHSIB #85                   ; string "AITYPE_GUARD_UZI"
+ 11853: BRK
+ 11854: PUSHSIB #47                   ; string "GD_3"
+ 11856: BRK
+ 11857: PUSHF   0.8
+ 11862: BRK
+ 11863: PUSHF   0.5
+ 11868: BRK
+ 11869: PUSHF   0.33
+ 11874: BRK
+ 11875: PUSH1
+ 11876: BRK
+ 11877: PUSHF   20
+ 11882: BRK
+ 11883: PUSHF   15
+ 11888: BRK
+ 11889: PUSHF   15
+ 11894: BRK
+ 11895: PUSHF   0.3
+ 11900: BRK
+ 11901: PUSHF   0.9
+ 11906: BRK
+ 11907: PUSHF   0.9
+ 11912: BRK
+ 11913: PUSHF   0.5
+ 11918: BRK
+ 11919: PUSHF   0.5
+ 11924: BRK
+ 11925: PUSH1
+ 11926: BRK
+ 11927: PUSHF   0.5
+ 11932: BRK
+ 11933: PUSHB   32
+ 11935: BRK
+ 11936: PUSHF   0.6
+ 11941: BRK
+ 11942: PUSHF   0.8
+ 11947: BRK
+ 11948: PUSHF   0.2
+ 11953: BRK
+ 11954: PUSHF   0.5
+ 11959: BRK
+ 11960: PUSH0
+ 11961: BRK
+ 11962: PUSHF   0.1
+ 11967: BRK
+ 11968: PUSH0
+ 11969: BRK
+ 11970: PUSHF   0.33
+ 11975: BRK
+ 11976: PUSHF   0.1
+ 11981: BRK
+ 11982: PUSHF   10
+ 11987: BRK
+ 11988: PUSHF   60
+ 11993: BRK
+ 11994: PUSHF   0.7
+ 11999: BRK
+ 12000: PUSHF   0.4
+ 12005: BRK
+ 12006: PUSH1
+ 12007: BRK
+ 12008: PUSHF   0.4
+ 12013: BRK
+ 12014: PUSHF   0.7
+ 12019: BRK
+ 12020: PUSHF   0.3
+ 12025: BRK
+ 12026: POP
+ 12027: PUSHIIB #1                    ; symbol "Task_New"
+ 12029: CALL    argc=37               ; args @12187, @12190, @12193, @12196, @12199, @12202, @12208, @12214, @12220, @12222, @12228, @12234, @12240, @12246, @12252, @12258, @12264, @12270, @12276, @12282, @12285, @12291, @12297, @12303, @12309, @12315, @12321, @12323, @12329, @12335, @12341, @12347, @12353, @12359, @12365, @12371, @12377
+ 12182: BRA     +196                  ; -> 12383
+ 12187: PUSH1
+ 12188: MINUS
+ 12189: BRK
+ 12190: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 12192: BRK
+ 12193: PUSHSIB #88                   ; string "AITYPE_GUARD_AK, GD_1"
+ 12195: BRK
+ 12196: PUSHSIB #89                   ; string "AITYPE_GUARD_AK"
+ 12198: BRK
+ 12199: PUSHSIB #43                   ; string "GD_1"
+ 12201: BRK
+ 12202: PUSHF   0.3
+ 12207: BRK
+ 12208: PUSHF   0.2
+ 12213: BRK
+ 12214: PUSHF   0.33
+ 12219: BRK
+ 12220: PUSH1
+ 12221: BRK
+ 12222: PUSHF   10
+ 12227: BRK
+ 12228: PUSHF   20
+ 12233: BRK
+ 12234: PUSHF   15
+ 12239: BRK
+ 12240: PUSHF   0.3
+ 12245: BRK
+ 12246: PUSHF   0.5
+ 12251: BRK
+ 12252: PUSHF   0.5
+ 12257: BRK
+ 12258: PUSHF   0.5
+ 12263: BRK
+ 12264: PUSHF   0.5
+ 12269: BRK
+ 12270: PUSHF   0.6
+ 12275: BRK
+ 12276: PUSHF   0.1
+ 12281: BRK
+ 12282: PUSHB   30
+ 12284: BRK
+ 12285: PUSHF   0.5
+ 12290: BRK
+ 12291: PUSHF   0.8
+ 12296: BRK
+ 12297: PUSHF   0.3
+ 12302: BRK
+ 12303: PUSHF   1.5
+ 12308: BRK
+ 12309: PUSHF   2
+ 12314: BRK
+ 12315: PUSHF   0.1
+ 12320: BRK
+ 12321: PUSH0
+ 12322: BRK
+ 12323: PUSHF   0.33
+ 12328: BRK
+ 12329: PUSHF   0.1
+ 12334: BRK
+ 12335: PUSHF   10
+ 12340: BRK
+ 12341: PUSHF   60
+ 12346: BRK
+ 12347: PUSHF   0.5
+ 12352: BRK
+ 12353: PUSHF   0.5
+ 12358: BRK
+ 12359: PUSHF   0.3
+ 12364: BRK
+ 12365: PUSHF   0.7
+ 12370: BRK
+ 12371: PUSHF   0.7
+ 12376: BRK
+ 12377: PUSHF   0.3
+ 12382: BRK
+ 12383: POP
+ 12384: PUSHIIB #1                    ; symbol "Task_New"
+ 12386: CALL    argc=37               ; args @12544, @12547, @12550, @12553, @12556, @12559, @12565, @12571, @12577, @12579, @12585, @12591, @12597, @12603, @12609, @12615, @12621, @12627, @12629, @12635, @12638, @12644, @12650, @12656, @12662, @12668, @12674, @12676, @12682, @12688, @12694, @12700, @12706, @12712, @12718, @12724, @12730
+ 12539: BRA     +192                  ; -> 12736
+ 12544: PUSH1
+ 12545: MINUS
+ 12546: BRK
+ 12547: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 12549: BRK
+ 12550: PUSHSIB #90                   ; string "AITYPE_GUARD_AK, GD_2"
+ 12552: BRK
+ 12553: PUSHSIB #89                   ; string "AITYPE_GUARD_AK"
+ 12555: BRK
+ 12556: PUSHSIB #45                   ; string "GD_2"
+ 12558: BRK
+ 12559: PUSHF   0.5
+ 12564: BRK
+ 12565: PUSHF   0.3
+ 12570: BRK
+ 12571: PUSHF   0.33
+ 12576: BRK
+ 12577: PUSH1
+ 12578: BRK
+ 12579: PUSHF   15
+ 12584: BRK
+ 12585: PUSHF   20
+ 12590: BRK
+ 12591: PUSHF   15
+ 12596: BRK
+ 12597: PUSHF   0.3
+ 12602: BRK
+ 12603: PUSHF   0.5
+ 12608: BRK
+ 12609: PUSHF   0.5
+ 12614: BRK
+ 12615: PUSHF   0.5
+ 12620: BRK
+ 12621: PUSHF   0.5
+ 12626: BRK
+ 12627: PUSH1
+ 12628: BRK
+ 12629: PUSHF   0.3
+ 12634: BRK
+ 12635: PUSHB   30
+ 12637: BRK
+ 12638: PUSHF   0.6
+ 12643: BRK
+ 12644: PUSHF   0.8
+ 12649: BRK
+ 12650: PUSHF   0.2
+ 12655: BRK
+ 12656: PUSHF   0.5
+ 12661: BRK
+ 12662: PUSHF   0.5
+ 12667: BRK
+ 12668: PUSHF   0.1
+ 12673: BRK
+ 12674: PUSH0
+ 12675: BRK
+ 12676: PUSHF   0.33
+ 12681: BRK
+ 12682: PUSHF   0.1
+ 12687: BRK
+ 12688: PUSHF   10
+ 12693: BRK
+ 12694: PUSHF   60
+ 12699: BRK
+ 12700: PUSHF   0.5
+ 12705: BRK
+ 12706: PUSHF   0.5
+ 12711: BRK
+ 12712: PUSHF   0.3
+ 12717: BRK
+ 12718: PUSHF   0.7
+ 12723: BRK
+ 12724: PUSHF   0.7
+ 12729: BRK
+ 12730: PUSHF   0.3
+ 12735: BRK
+ 12736: POP
+ 12737: PUSHIIB #1                    ; symbol "Task_New"
+ 12739: CALL    argc=37               ; args @12897, @12900, @12903, @12906, @12909, @12912, @12918, @12924, @12930, @12932, @12938, @12944, @12950, @12956, @12962, @12968, @12974, @12980, @12982, @12988, @12991, @12997, @13003, @13009, @13015, @13017, @13023, @13025, @13031, @13037, @13043, @13049, @13055, @13061, @13063, @13069, @13075
+ 12892: BRA     +184                  ; -> 13081
+ 12897: PUSH1
+ 12898: MINUS
+ 12899: BRK
+ 12900: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 12902: BRK
+ 12903: PUSHSIB #91                   ; string "AITYPE_GUARD_AK, GD_3"
+ 12905: BRK
+ 12906: PUSHSIB #89                   ; string "AITYPE_GUARD_AK"
+ 12908: BRK
+ 12909: PUSHSIB #47                   ; string "GD_3"
+ 12911: BRK
+ 12912: PUSHF   0.8
+ 12917: BRK
+ 12918: PUSHF   0.5
+ 12923: BRK
+ 12924: PUSHF   0.33
+ 12929: BRK
+ 12930: PUSH1
+ 12931: BRK
+ 12932: PUSHF   20
+ 12937: BRK
+ 12938: PUSHF   20
+ 12943: BRK
+ 12944: PUSHF   15
+ 12949: BRK
+ 12950: PUSHF   0.3
+ 12955: BRK
+ 12956: PUSHF   0.5
+ 12961: BRK
+ 12962: PUSHF   0.4
+ 12967: BRK
+ 12968: PUSHF   0.4
+ 12973: BRK
+ 12974: PUSHF   0.5
+ 12979: BRK
+ 12980: PUSH1
+ 12981: BRK
+ 12982: PUSHF   0.5
+ 12987: BRK
+ 12988: PUSHB   30
+ 12990: BRK
+ 12991: PUSHF   0.6
+ 12996: BRK
+ 12997: PUSHF   0.8
+ 13002: BRK
+ 13003: PUSHF   0.2
+ 13008: BRK
+ 13009: PUSHF   0.5
+ 13014: BRK
+ 13015: PUSH0
+ 13016: BRK
+ 13017: PUSHF   0.1
+ 13022: BRK
+ 13023: PUSH0
+ 13024: BRK
+ 13025: PUSHF   0.33
+ 13030: BRK
+ 13031: PUSHF   0.1
+ 13036: BRK
+ 13037: PUSHF   10
+ 13042: BRK
+ 13043: PUSHF   60
+ 13048: BRK
+ 13049: PUSHF   0.7
+ 13054: BRK
+ 13055: PUSHF   0.4
+ 13060: BRK
+ 13061: PUSH1
+ 13062: BRK
+ 13063: PUSHF   0.4
+ 13068: BRK
+ 13069: PUSHF   0.7
+ 13074: BRK
+ 13075: PUSHF   0.3
+ 13080: BRK
+ 13081: POP
+ 13082: PUSHIIB #1                    ; symbol "Task_New"
+ 13084: CALL    argc=37               ; args @13242, @13245, @13248, @13251, @13254, @13257, @13263, @13269, @13275, @13277, @13283, @13289, @13295, @13301, @13307, @13313, @13319, @13325, @13331, @13337, @13340, @13346, @13352, @13358, @13364, @13370, @13376, @13378, @13384, @13390, @13396, @13402, @13408, @13414, @13420, @13426, @13432
+ 13237: BRA     +196                  ; -> 13438
+ 13242: PUSH1
+ 13243: MINUS
+ 13244: BRK
+ 13245: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 13247: BRK
+ 13248: PUSHSIB #92                   ; string "AITYPE_GUARD_SPAS, GD_1"
+ 13250: BRK
+ 13251: PUSHSIB #93                   ; string "AITYPE_GUARD_SPAS"
+ 13253: BRK
+ 13254: PUSHSIB #43                   ; string "GD_1"
+ 13256: BRK
+ 13257: PUSHF   0.3
+ 13262: BRK
+ 13263: PUSHF   0.23
+ 13268: BRK
+ 13269: PUSHF   0.33
+ 13274: BRK
+ 13275: PUSH1
+ 13276: BRK
+ 13277: PUSHF   10
+ 13282: BRK
+ 13283: PUSHF   15
+ 13288: BRK
+ 13289: PUSHF   15
+ 13294: BRK
+ 13295: PUSHF   0.3
+ 13300: BRK
+ 13301: PUSHF   0.5
+ 13306: BRK
+ 13307: PUSHF   0.5
+ 13312: BRK
+ 13313: PUSHF   0.5
+ 13318: BRK
+ 13319: PUSHF   0.5
+ 13324: BRK
+ 13325: PUSHF   0.6
+ 13330: BRK
+ 13331: PUSHF   0.1
+ 13336: BRK
+ 13337: PUSHB   12
+ 13339: BRK
+ 13340: PUSHF   0.5
+ 13345: BRK
+ 13346: PUSHF   0.1
+ 13351: BRK
+ 13352: PUSHF   0.2
+ 13357: BRK
+ 13358: PUSHF   1.5
+ 13363: BRK
+ 13364: PUSHF   2
+ 13369: BRK
+ 13370: PUSHF   0.1
+ 13375: BRK
+ 13376: PUSH0
+ 13377: BRK
+ 13378: PUSHF   0.33
+ 13383: BRK
+ 13384: PUSHF   0.1
+ 13389: BRK
+ 13390: PUSHF   10
+ 13395: BRK
+ 13396: PUSHF   60
+ 13401: BRK
+ 13402: PUSHF   0.5
+ 13407: BRK
+ 13408: PUSHF   0.5
+ 13413: BRK
+ 13414: PUSHF   0.3
+ 13419: BRK
+ 13420: PUSHF   0.7
+ 13425: BRK
+ 13426: PUSHF   0.7
+ 13431: BRK
+ 13432: PUSHF   0.3
+ 13437: BRK
+ 13438: POP
+ 13439: PUSHIIB #1                    ; symbol "Task_New"
+ 13441: CALL    argc=37               ; args @13599, @13602, @13605, @13608, @13611, @13614, @13620, @13626, @13632, @13634, @13640, @13646, @13652, @13658, @13664, @13670, @13676, @13682, @13684, @13690, @13693, @13699, @13705, @13711, @13717, @13723, @13729, @13731, @13737, @13743, @13749, @13755, @13761, @13767, @13773, @13779, @13785
+ 13594: BRA     +192                  ; -> 13791
+ 13599: PUSH1
+ 13600: MINUS
+ 13601: BRK
+ 13602: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 13604: BRK
+ 13605: PUSHSIB #94                   ; string "AITYPE_GUARD_SPAS, GD_2"
+ 13607: BRK
+ 13608: PUSHSIB #93                   ; string "AITYPE_GUARD_SPAS"
+ 13610: BRK
+ 13611: PUSHSIB #45                   ; string "GD_2"
+ 13613: BRK
+ 13614: PUSHF   0.5
+ 13619: BRK
+ 13620: PUSHF   0.3
+ 13625: BRK
+ 13626: PUSHF   0.33
+ 13631: BRK
+ 13632: PUSH1
+ 13633: BRK
+ 13634: PUSHF   15
+ 13639: BRK
+ 13640: PUSHF   15
+ 13645: BRK
+ 13646: PUSHF   15
+ 13651: BRK
+ 13652: PUSHF   0.3
+ 13657: BRK
+ 13658: PUSHF   0.5
+ 13663: BRK
+ 13664: PUSHF   0.5
+ 13669: BRK
+ 13670: PUSHF   0.5
+ 13675: BRK
+ 13676: PUSHF   0.5
+ 13681: BRK
+ 13682: PUSH1
+ 13683: BRK
+ 13684: PUSHF   0.3
+ 13689: BRK
+ 13690: PUSHB   12
+ 13692: BRK
+ 13693: PUSHF   0.6
+ 13698: BRK
+ 13699: PUSHF   0.1
+ 13704: BRK
+ 13705: PUSHF   0.2
+ 13710: BRK
+ 13711: PUSHF   0.5
+ 13716: BRK
+ 13717: PUSHF   0.5
+ 13722: BRK
+ 13723: PUSHF   0.1
+ 13728: BRK
+ 13729: PUSH0
+ 13730: BRK
+ 13731: PUSHF   0.33
+ 13736: BRK
+ 13737: PUSHF   0.1
+ 13742: BRK
+ 13743: PUSHF   10
+ 13748: BRK
+ 13749: PUSHF   60
+ 13754: BRK
+ 13755: PUSHF   0.5
+ 13760: BRK
+ 13761: PUSHF   0.5
+ 13766: BRK
+ 13767: PUSHF   0.3
+ 13772: BRK
+ 13773: PUSHF   0.7
+ 13778: BRK
+ 13779: PUSHF   0.7
+ 13784: BRK
+ 13785: PUSHF   0.3
+ 13790: BRK
+ 13791: POP
+ 13792: PUSHIIB #1                    ; symbol "Task_New"
+ 13794: CALL    argc=37               ; args @13952, @13955, @13958, @13961, @13964, @13967, @13973, @13979, @13985, @13987, @13993, @13999, @14005, @14011, @14017, @14023, @14029, @14035, @14037, @14043, @14046, @14052, @14058, @14064, @14070, @14072, @14078, @14080, @14086, @14092, @14098, @14104, @14110, @14116, @14118, @14124, @14130
+ 13947: BRA     +184                  ; -> 14136
+ 13952: PUSH1
+ 13953: MINUS
+ 13954: BRK
+ 13955: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 13957: BRK
+ 13958: PUSHSIB #95                   ; string "AITYPE_GUARD_SPAS, GD_3"
+ 13960: BRK
+ 13961: PUSHSIB #93                   ; string "AITYPE_GUARD_SPAS"
+ 13963: BRK
+ 13964: PUSHSIB #47                   ; string "GD_3"
+ 13966: BRK
+ 13967: PUSHF   0.8
+ 13972: BRK
+ 13973: PUSHF   0.5
+ 13978: BRK
+ 13979: PUSHF   0.33
+ 13984: BRK
+ 13985: PUSH1
+ 13986: BRK
+ 13987: PUSHF   20
+ 13992: BRK
+ 13993: PUSHF   15
+ 13998: BRK
+ 13999: PUSHF   15
+ 14004: BRK
+ 14005: PUSHF   0.3
+ 14010: BRK
+ 14011: PUSHF   0.9
+ 14016: BRK
+ 14017: PUSHF   0.9
+ 14022: BRK
+ 14023: PUSHF   0.5
+ 14028: BRK
+ 14029: PUSHF   0.5
+ 14034: BRK
+ 14035: PUSH1
+ 14036: BRK
+ 14037: PUSHF   0.5
+ 14042: BRK
+ 14043: PUSHB   12
+ 14045: BRK
+ 14046: PUSHF   0.6
+ 14051: BRK
+ 14052: PUSHF   0.1
+ 14057: BRK
+ 14058: PUSHF   0.2
+ 14063: BRK
+ 14064: PUSHF   0.5
+ 14069: BRK
+ 14070: PUSH0
+ 14071: BRK
+ 14072: PUSHF   0.1
+ 14077: BRK
+ 14078: PUSH0
+ 14079: BRK
+ 14080: PUSHF   0.33
+ 14085: BRK
+ 14086: PUSHF   0.1
+ 14091: BRK
+ 14092: PUSHF   10
+ 14097: BRK
+ 14098: PUSHF   60
+ 14103: BRK
+ 14104: PUSHF   0.7
+ 14109: BRK
+ 14110: PUSHF   0.4
+ 14115: BRK
+ 14116: PUSH1
+ 14117: BRK
+ 14118: PUSHF   0.4
+ 14123: BRK
+ 14124: PUSHF   0.7
+ 14129: BRK
+ 14130: PUSHF   0.3
+ 14135: BRK
+ 14136: POP
+ 14137: PUSHIIB #1                    ; symbol "Task_New"
+ 14139: CALL    argc=37               ; args @14297, @14300, @14303, @14306, @14309, @14312, @14318, @14324, @14330, @14332, @14338, @14344, @14350, @14356, @14362, @14368, @14374, @14380, @14386, @14392, @14395, @14401, @14407, @14413, @14419, @14425, @14431, @14433, @14439, @14445, @14451, @14457, @14463, @14469, @14475, @14481, @14487
+ 14292: BRA     +196                  ; -> 14493
+ 14297: PUSH1
+ 14298: MINUS
+ 14299: BRK
+ 14300: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 14302: BRK
+ 14303: PUSHSIB #96                   ; string "AITYPE_SECURITY_PATROL_UZI, GD_1"
+ 14305: BRK
+ 14306: PUSHSIB #97                   ; string "AITYPE_SECURITY_PATROL_UZI"
+ 14308: BRK
+ 14309: PUSHSIB #43                   ; string "GD_1"
+ 14311: BRK
+ 14312: PUSHF   0.3
+ 14317: BRK
+ 14318: PUSHF   0.2
+ 14323: BRK
+ 14324: PUSHF   0.33
+ 14329: BRK
+ 14330: PUSH1
+ 14331: BRK
+ 14332: PUSHF   20
+ 14337: BRK
+ 14338: PUSHF   15
+ 14343: BRK
+ 14344: PUSHF   15
+ 14349: BRK
+ 14350: PUSHF   0.5
+ 14355: BRK
+ 14356: PUSHF   0.2
+ 14361: BRK
+ 14362: PUSHF   0.2
+ 14367: BRK
+ 14368: PUSHF   0.5
+ 14373: BRK
+ 14374: PUSHF   0.5
+ 14379: BRK
+ 14380: PUSHF   0.8
+ 14385: BRK
+ 14386: PUSHF   0.2
+ 14391: BRK
+ 14392: PUSHB   32
+ 14394: BRK
+ 14395: PUSHF   0.5
+ 14400: BRK
+ 14401: PUSHF   0.3
+ 14406: BRK
+ 14407: PUSHF   0.3
+ 14412: BRK
+ 14413: PUSHF   1.5
+ 14418: BRK
+ 14419: PUSHF   2
+ 14424: BRK
+ 14425: PUSHF   0.1
+ 14430: BRK
+ 14431: PUSH0
+ 14432: BRK
+ 14433: PUSHF   0.33
+ 14438: BRK
+ 14439: PUSHF   0.1
+ 14444: BRK
+ 14445: PUSHF   10
+ 14450: BRK
+ 14451: PUSHF   60
+ 14456: BRK
+ 14457: PUSHF   0.5
+ 14462: BRK
+ 14463: PUSHF   0.5
+ 14468: BRK
+ 14469: PUSHF   0.3
+ 14474: BRK
+ 14475: PUSHF   0.7
+ 14480: BRK
+ 14481: PUSHF   0.7
+ 14486: BRK
+ 14487: PUSHF   0.5
+ 14492: BRK
+ 14493: POP
+ 14494: PUSHIIB #1                    ; symbol "Task_New"
+ 14496: CALL    argc=37               ; args @14654, @14657, @14660, @14663, @14666, @14669, @14675, @14681, @14687, @14689, @14695, @14701, @14707, @14713, @14719, @14725, @14731, @14737, @14739, @14745, @14748, @14754, @14760, @14766, @14772, @14778, @14784, @14786, @14792, @14798, @14804, @14810, @14816, @14822, @14828, @14834, @14840
+ 14649: BRA     +192                  ; -> 14846
+ 14654: PUSH1
+ 14655: MINUS
+ 14656: BRK
+ 14657: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 14659: BRK
+ 14660: PUSHSIB #98                   ; string "AITYPE_SECURITY_PATROL_UZI, GD_2"
+ 14662: BRK
+ 14663: PUSHSIB #97                   ; string "AITYPE_SECURITY_PATROL_UZI"
+ 14665: BRK
+ 14666: PUSHSIB #45                   ; string "GD_2"
+ 14668: BRK
+ 14669: PUSHF   0.5
+ 14674: BRK
+ 14675: PUSHF   0.3
+ 14680: BRK
+ 14681: PUSHF   0.33
+ 14686: BRK
+ 14687: PUSH1
+ 14688: BRK
+ 14689: PUSHF   30
+ 14694: BRK
+ 14695: PUSHF   15
+ 14700: BRK
+ 14701: PUSHF   15
+ 14706: BRK
+ 14707: PUSHF   0.5
+ 14712: BRK
+ 14713: PUSHF   0.2
+ 14718: BRK
+ 14719: PUSHF   0.2
+ 14724: BRK
+ 14725: PUSHF   0.5
+ 14730: BRK
+ 14731: PUSHF   0.5
+ 14736: BRK
+ 14737: PUSH1
+ 14738: BRK
+ 14739: PUSHF   0.5
+ 14744: BRK
+ 14745: PUSHB   32
+ 14747: BRK
+ 14748: PUSHF   0.5
+ 14753: BRK
+ 14754: PUSHF   0.3
+ 14759: BRK
+ 14760: PUSHF   0.3
+ 14765: BRK
+ 14766: PUSHF   0.5
+ 14771: BRK
+ 14772: PUSHF   0.5
+ 14777: BRK
+ 14778: PUSHF   0.1
+ 14783: BRK
+ 14784: PUSH0
+ 14785: BRK
+ 14786: PUSHF   0.33
+ 14791: BRK
+ 14792: PUSHF   0.1
+ 14797: BRK
+ 14798: PUSHF   10
+ 14803: BRK
+ 14804: PUSHF   60
+ 14809: BRK
+ 14810: PUSHF   0.5
+ 14815: BRK
+ 14816: PUSHF   0.5
+ 14821: BRK
+ 14822: PUSHF   0.3
+ 14827: BRK
+ 14828: PUSHF   0.7
+ 14833: BRK
+ 14834: PUSHF   0.7
+ 14839: BRK
+ 14840: PUSHF   0.5
+ 14845: BRK
+ 14846: POP
+ 14847: PUSHIIB #1                    ; symbol "Task_New"
+ 14849: CALL    argc=37               ; args @15007, @15010, @15013, @15016, @15019, @15022, @15028, @15034, @15040, @15042, @15048, @15054, @15060, @15066, @15072, @15078, @15084, @15090, @15092, @15098, @15101, @15107, @15113, @15119, @15125, @15127, @15133, @15135, @15141, @15147, @15153, @15159, @15165, @15171, @15177, @15183, @15189
+ 15002: BRA     +188                  ; -> 15195
+ 15007: PUSH1
+ 15008: MINUS
+ 15009: BRK
+ 15010: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 15012: BRK
+ 15013: PUSHSIB #99                   ; string "AITYPE_SECURITY_PATROL_UZI, GD_3"
+ 15015: BRK
+ 15016: PUSHSIB #97                   ; string "AITYPE_SECURITY_PATROL_UZI"
+ 15018: BRK
+ 15019: PUSHSIB #47                   ; string "GD_3"
+ 15021: BRK
+ 15022: PUSHF   0.8
+ 15027: BRK
+ 15028: PUSHF   0.5
+ 15033: BRK
+ 15034: PUSHF   0.33
+ 15039: BRK
+ 15040: PUSH1
+ 15041: BRK
+ 15042: PUSHF   40
+ 15047: BRK
+ 15048: PUSHF   15
+ 15053: BRK
+ 15054: PUSHF   15
+ 15059: BRK
+ 15060: PUSHF   0.5
+ 15065: BRK
+ 15066: PUSHF   0.2
+ 15071: BRK
+ 15072: PUSHF   0.2
+ 15077: BRK
+ 15078: PUSHF   0.5
+ 15083: BRK
+ 15084: PUSHF   0.5
+ 15089: BRK
+ 15090: PUSH1
+ 15091: BRK
+ 15092: PUSHF   0.5
+ 15097: BRK
+ 15098: PUSHB   32
+ 15100: BRK
+ 15101: PUSHF   0.7
+ 15106: BRK
+ 15107: PUSHF   0.3
+ 15112: BRK
+ 15113: PUSHF   0.3
+ 15118: BRK
+ 15119: PUSHF   0.5
+ 15124: BRK
+ 15125: PUSH0
+ 15126: BRK
+ 15127: PUSHF   0.1
+ 15132: BRK
+ 15133: PUSH0
+ 15134: BRK
+ 15135: PUSHF   0.33
+ 15140: BRK
+ 15141: PUSHF   0.1
+ 15146: BRK
+ 15147: PUSHF   10
+ 15152: BRK
+ 15153: PUSHF   60
+ 15158: BRK
+ 15159: PUSHF   0.5
+ 15164: BRK
+ 15165: PUSHF   0.5
+ 15170: BRK
+ 15171: PUSHF   0.5
+ 15176: BRK
+ 15177: PUSHF   0.5
+ 15182: BRK
+ 15183: PUSHF   0.7
+ 15188: BRK
+ 15189: PUSHF   0.5
+ 15194: BRK
+ 15195: POP
+ 15196: PUSHIIB #1                    ; symbol "Task_New"
+ 15198: CALL    argc=37               ; args @15356, @15359, @15362, @15365, @15368, @15371, @15377, @15383, @15389, @15391, @15397, @15403, @15409, @15415, @15421, @15427, @15433, @15439, @15445, @15451, @15454, @15460, @15466, @15472, @15478, @15484, @15490, @15492, @15498, @15504, @15510, @15516, @15522, @15528, @15534, @15540, @15546
+ 15351: BRA     +196                  ; -> 15552
+ 15356: PUSH1
+ 15357: MINUS
+ 15358: BRK
+ 15359: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 15361: BRK
+ 15362: PUSHSIB #100                  ; string "AITYPE_SECURITY_PATROL_SPAS, GD_1"
+ 15364: BRK
+ 15365: PUSHSIB #101                  ; string "AITYPE_SECURITY_PATROL_SPAS"
+ 15367: BRK
+ 15368: PUSHSIB #43                   ; string "GD_1"
+ 15370: BRK
+ 15371: PUSHF   0.3
+ 15376: BRK
+ 15377: PUSHF   0.2
+ 15382: BRK
+ 15383: PUSHF   0.33
+ 15388: BRK
+ 15389: PUSH1
+ 15390: BRK
+ 15391: PUSHF   20
+ 15396: BRK
+ 15397: PUSHF   20
+ 15402: BRK
+ 15403: PUSHF   15
+ 15408: BRK
+ 15409: PUSHF   0.5
+ 15414: BRK
+ 15415: PUSHF   0.5
+ 15420: BRK
+ 15421: PUSHF   0.2
+ 15426: BRK
+ 15427: PUSHF   0.2
+ 15432: BRK
+ 15433: PUSHF   0.5
+ 15438: BRK
+ 15439: PUSHF   0.8
+ 15444: BRK
+ 15445: PUSHF   0.5
+ 15450: BRK
+ 15451: PUSHB   12
+ 15453: BRK
+ 15454: PUSHF   0.5
+ 15459: BRK
+ 15460: PUSHF   0.1
+ 15465: BRK
+ 15466: PUSHF   0.2
+ 15471: BRK
+ 15472: PUSHF   1.5
+ 15477: BRK
+ 15478: PUSHF   2
+ 15483: BRK
+ 15484: PUSHF   0.1
+ 15489: BRK
+ 15490: PUSH0
+ 15491: BRK
+ 15492: PUSHF   0.33
+ 15497: BRK
+ 15498: PUSHF   0.1
+ 15503: BRK
+ 15504: PUSHF   10
+ 15509: BRK
+ 15510: PUSHF   60
+ 15515: BRK
+ 15516: PUSHF   0.5
+ 15521: BRK
+ 15522: PUSHF   0.5
+ 15527: BRK
+ 15528: PUSHF   0.3
+ 15533: BRK
+ 15534: PUSHF   0.7
+ 15539: BRK
+ 15540: PUSHF   0.7
+ 15545: BRK
+ 15546: PUSHF   0.5
+ 15551: BRK
+ 15552: POP
+ 15553: PUSHIIB #1                    ; symbol "Task_New"
+ 15555: CALL    argc=37               ; args @15713, @15716, @15719, @15722, @15725, @15728, @15730, @15736, @15742, @15744, @15750, @15756, @15762, @15768, @15774, @15780, @15786, @15792, @15794, @15800, @15803, @15809, @15815, @15821, @15827, @15833, @15839, @15841, @15847, @15853, @15859, @15865, @15871, @15877, @15883, @15889, @15895
+ 15708: BRA     +188                  ; -> 15901
+ 15713: PUSH1
+ 15714: MINUS
+ 15715: BRK
+ 15716: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 15718: BRK
+ 15719: PUSHSIB #102                  ; string "AITYPE_SECURITY_PATROL_SPAS, GD_2"
+ 15721: BRK
+ 15722: PUSHSIB #101                  ; string "AITYPE_SECURITY_PATROL_SPAS"
+ 15724: BRK
+ 15725: PUSHSIB #45                   ; string "GD_2"
+ 15727: BRK
+ 15728: PUSH1
+ 15729: BRK
+ 15730: PUSHF   0.5
+ 15735: BRK
+ 15736: PUSHF   0.33
+ 15741: BRK
+ 15742: PUSH1
+ 15743: BRK
+ 15744: PUSHF   30
+ 15749: BRK
+ 15750: PUSHF   20
+ 15755: BRK
+ 15756: PUSHF   15
+ 15761: BRK
+ 15762: PUSHF   0.5
+ 15767: BRK
+ 15768: PUSHF   0.2
+ 15773: BRK
+ 15774: PUSHF   0.2
+ 15779: BRK
+ 15780: PUSHF   0.5
+ 15785: BRK
+ 15786: PUSHF   0.5
+ 15791: BRK
+ 15792: PUSH1
+ 15793: BRK
+ 15794: PUSHF   0.5
+ 15799: BRK
+ 15800: PUSHB   12
+ 15802: BRK
+ 15803: PUSHF   0.6
+ 15808: BRK
+ 15809: PUSHF   0.1
+ 15814: BRK
+ 15815: PUSHF   0.2
+ 15820: BRK
+ 15821: PUSHF   0.5
+ 15826: BRK
+ 15827: PUSHF   0.5
+ 15832: BRK
+ 15833: PUSHF   0.1
+ 15838: BRK
+ 15839: PUSH0
+ 15840: BRK
+ 15841: PUSHF   0.33
+ 15846: BRK
+ 15847: PUSHF   0.1
+ 15852: BRK
+ 15853: PUSHF   10
+ 15858: BRK
+ 15859: PUSHF   60
+ 15864: BRK
+ 15865: PUSHF   0.5
+ 15870: BRK
+ 15871: PUSHF   0.5
+ 15876: BRK
+ 15877: PUSHF   0.3
+ 15882: BRK
+ 15883: PUSHF   0.7
+ 15888: BRK
+ 15889: PUSHF   0.7
+ 15894: BRK
+ 15895: PUSHF   0.5
+ 15900: BRK
+ 15901: POP
+ 15902: PUSHIIB #1                    ; symbol "Task_New"
+ 15904: CALL    argc=37               ; args @16062, @16065, @16068, @16071, @16074, @16077, @16083, @16089, @16095, @16097, @16103, @16109, @16115, @16121, @16127, @16133, @16139, @16145, @16147, @16153, @16156, @16162, @16168, @16174, @16180, @16182, @16188, @16190, @16196, @16202, @16208, @16214, @16220, @16226, @16232, @16238, @16244
+ 16057: BRA     +188                  ; -> 16250
+ 16062: PUSH1
+ 16063: MINUS
+ 16064: BRK
+ 16065: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 16067: BRK
+ 16068: PUSHSIB #103                  ; string "AITYPE_SECURITY_PATROL_SPAS, GD_3"
+ 16070: BRK
+ 16071: PUSHSIB #101                  ; string "AITYPE_SECURITY_PATROL_SPAS"
+ 16073: BRK
+ 16074: PUSHSIB #47                   ; string "GD_3"
+ 16076: BRK
+ 16077: PUSHF   0.8
+ 16082: BRK
+ 16083: PUSHF   0.5
+ 16088: BRK
+ 16089: PUSHF   0.33
+ 16094: BRK
+ 16095: PUSH1
+ 16096: BRK
+ 16097: PUSHF   40
+ 16102: BRK
+ 16103: PUSHF   20
+ 16108: BRK
+ 16109: PUSHF   15
+ 16114: BRK
+ 16115: PUSHF   0.5
+ 16120: BRK
+ 16121: PUSHF   0.2
+ 16126: BRK
+ 16127: PUSHF   0.2
+ 16132: BRK
+ 16133: PUSHF   0.5
+ 16138: BRK
+ 16139: PUSHF   0.5
+ 16144: BRK
+ 16145: PUSH1
+ 16146: BRK
+ 16147: PUSHF   0.7
+ 16152: BRK
+ 16153: PUSHB   12
+ 16155: BRK
+ 16156: PUSHF   0.7
+ 16161: BRK
+ 16162: PUSHF   0.1
+ 16167: BRK
+ 16168: PUSHF   0.2
+ 16173: BRK
+ 16174: PUSHF   0.5
+ 16179: BRK
+ 16180: PUSH0
+ 16181: BRK
+ 16182: PUSHF   0.1
+ 16187: BRK
+ 16188: PUSH0
+ 16189: BRK
+ 16190: PUSHF   0.33
+ 16195: BRK
+ 16196: PUSHF   0.1
+ 16201: BRK
+ 16202: PUSHF   10
+ 16207: BRK
+ 16208: PUSHF   60
+ 16213: BRK
+ 16214: PUSHF   0.5
+ 16219: BRK
+ 16220: PUSHF   0.5
+ 16225: BRK
+ 16226: PUSHF   0.5
+ 16231: BRK
+ 16232: PUSHF   0.5
+ 16237: BRK
+ 16238: PUSHF   0.7
+ 16243: BRK
+ 16244: PUSHF   0.5
+ 16249: BRK
+ 16250: POP
+ 16251: PUSHIIB #1                    ; symbol "Task_New"
+ 16253: CALL    argc=37               ; args @16411, @16414, @16417, @16420, @16423, @16426, @16432, @16438, @16444, @16446, @16452, @16458, @16464, @16470, @16472, @16474, @16480, @16486, @16492, @16498, @16501, @16507, @16513, @16519, @16525, @16531, @16537, @16539, @16545, @16551, @16557, @16563, @16569, @16575, @16581, @16587, @16593
+ 16406: BRA     +188                  ; -> 16599
+ 16411: PUSH1
+ 16412: MINUS
+ 16413: BRK
+ 16414: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 16416: BRK
+ 16417: PUSHSIB #104                  ; string "AITYPE_MAFIA_PATROL_UZI, GD_1"
+ 16419: BRK
+ 16420: PUSHSIB #105                  ; string "AITYPE_MAFIA_PATROL_UZI"
+ 16422: BRK
+ 16423: PUSHSIB #43                   ; string "GD_1"
+ 16425: BRK
+ 16426: PUSHF   0.5
+ 16431: BRK
+ 16432: PUSHF   0.3
+ 16437: BRK
+ 16438: PUSHF   0.33
+ 16443: BRK
+ 16444: PUSH1
+ 16445: BRK
+ 16446: PUSHF   15
+ 16451: BRK
+ 16452: PUSHF   15
+ 16457: BRK
+ 16458: PUSHF   15
+ 16463: BRK
+ 16464: PUSHF   0.2
+ 16469: BRK
+ 16470: PUSH1
+ 16471: BRK
+ 16472: PUSH1
+ 16473: BRK
+ 16474: PUSHF   0.5
+ 16479: BRK
+ 16480: PUSHF   0.5
+ 16485: BRK
+ 16486: PUSHF   0.8
+ 16491: BRK
+ 16492: PUSHF   0.2
+ 16497: BRK
+ 16498: PUSHB   32
+ 16500: BRK
+ 16501: PUSHF   0.6
+ 16506: BRK
+ 16507: PUSHF   0.5
+ 16512: BRK
+ 16513: PUSHF   0.5
+ 16518: BRK
+ 16519: PUSHF   1.5
+ 16524: BRK
+ 16525: PUSHF   2
+ 16530: BRK
+ 16531: PUSHF   0.1
+ 16536: BRK
+ 16537: PUSH0
+ 16538: BRK
+ 16539: PUSHF   0.33
+ 16544: BRK
+ 16545: PUSHF   0.1
+ 16550: BRK
+ 16551: PUSHF   10
+ 16556: BRK
+ 16557: PUSHF   60
+ 16562: BRK
+ 16563: PUSHF   0.5
+ 16568: BRK
+ 16569: PUSHF   0.5
+ 16574: BRK
+ 16575: PUSHF   0.3
+ 16580: BRK
+ 16581: PUSHF   0.7
+ 16586: BRK
+ 16587: PUSHF   0.8
+ 16592: BRK
+ 16593: PUSHF   0.5
+ 16598: BRK
+ 16599: POP
+ 16600: PUSHIIB #1                    ; symbol "Task_New"
+ 16602: CALL    argc=37               ; args @16760, @16763, @16766, @16769, @16772, @16775, @16781, @16787, @16793, @16795, @16801, @16807, @16813, @16819, @16821, @16823, @16829, @16835, @16837, @16843, @16846, @16852, @16858, @16864, @16870, @16876, @16882, @16884, @16890, @16896, @16902, @16908, @16914, @16920, @16926, @16932, @16938
+ 16755: BRA     +184                  ; -> 16944
+ 16760: PUSH1
+ 16761: MINUS
+ 16762: BRK
+ 16763: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 16765: BRK
+ 16766: PUSHSIB #106                  ; string "AITYPE_MAFIA_PATROL_UZI, GD_2"
+ 16768: BRK
+ 16769: PUSHSIB #105                  ; string "AITYPE_MAFIA_PATROL_UZI"
+ 16771: BRK
+ 16772: PUSHSIB #45                   ; string "GD_2"
+ 16774: BRK
+ 16775: PUSHF   0.8
+ 16780: BRK
+ 16781: PUSHF   0.5
+ 16786: BRK
+ 16787: PUSHF   0.33
+ 16792: BRK
+ 16793: PUSH1
+ 16794: BRK
+ 16795: PUSHF   20
+ 16800: BRK
+ 16801: PUSHF   15
+ 16806: BRK
+ 16807: PUSHF   15
+ 16812: BRK
+ 16813: PUSHF   0.2
+ 16818: BRK
+ 16819: PUSH1
+ 16820: BRK
+ 16821: PUSH1
+ 16822: BRK
+ 16823: PUSHF   0.5
+ 16828: BRK
+ 16829: PUSHF   0.5
+ 16834: BRK
+ 16835: PUSH1
+ 16836: BRK
+ 16837: PUSHF   0.5
+ 16842: BRK
+ 16843: PUSHB   32
+ 16845: BRK
+ 16846: PUSHF   0.6
+ 16851: BRK
+ 16852: PUSHF   0.5
+ 16857: BRK
+ 16858: PUSHF   0.5
+ 16863: BRK
+ 16864: PUSHF   0.5
+ 16869: BRK
+ 16870: PUSHF   0.5
+ 16875: BRK
+ 16876: PUSHF   0.1
+ 16881: BRK
+ 16882: PUSH0
+ 16883: BRK
+ 16884: PUSHF   0.33
+ 16889: BRK
+ 16890: PUSHF   0.1
+ 16895: BRK
+ 16896: PUSHF   10
+ 16901: BRK
+ 16902: PUSHF   60
+ 16907: BRK
+ 16908: PUSHF   0.5
+ 16913: BRK
+ 16914: PUSHF   0.5
+ 16919: BRK
+ 16920: PUSHF   0.3
+ 16925: BRK
+ 16926: PUSHF   0.7
+ 16931: BRK
+ 16932: PUSHF   0.8
+ 16937: BRK
+ 16938: PUSHF   0.5
+ 16943: BRK
+ 16944: POP
+ 16945: PUSHIIB #1                    ; symbol "Task_New"
+ 16947: CALL    argc=37               ; args @17105, @17108, @17111, @17114, @17117, @17120, @17122, @17128, @17134, @17136, @17142, @17148, @17154, @17160, @17162, @17164, @17170, @17176, @17178, @17184, @17187, @17193, @17199, @17205, @17211, @17213, @17219, @17221, @17227, @17233, @17239, @17245, @17251, @17257, @17263, @17269, @17275
+ 17100: BRA     +176                  ; -> 17281
+ 17105: PUSH1
+ 17106: MINUS
+ 17107: BRK
+ 17108: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 17110: BRK
+ 17111: PUSHSIB #107                  ; string "AITYPE_MAFIA_PATROL_UZI, GD_3"
+ 17113: BRK
+ 17114: PUSHSIB #105                  ; string "AITYPE_MAFIA_PATROL_UZI"
+ 17116: BRK
+ 17117: PUSHSIB #47                   ; string "GD_3"
+ 17119: BRK
+ 17120: PUSH1
+ 17121: BRK
+ 17122: PUSHF   0.8
+ 17127: BRK
+ 17128: PUSHF   0.33
+ 17133: BRK
+ 17134: PUSH1
+ 17135: BRK
+ 17136: PUSHF   30
+ 17141: BRK
+ 17142: PUSHF   15
+ 17147: BRK
+ 17148: PUSHF   15
+ 17153: BRK
+ 17154: PUSHF   0.2
+ 17159: BRK
+ 17160: PUSH1
+ 17161: BRK
+ 17162: PUSH1
+ 17163: BRK
+ 17164: PUSHF   0.9
+ 17169: BRK
+ 17170: PUSHF   0.5
+ 17175: BRK
+ 17176: PUSH1
+ 17177: BRK
+ 17178: PUSHF   0.7
+ 17183: BRK
+ 17184: PUSHB   32
+ 17186: BRK
+ 17187: PUSHF   0.6
+ 17192: BRK
+ 17193: PUSHF   0.5
+ 17198: BRK
+ 17199: PUSHF   0.5
+ 17204: BRK
+ 17205: PUSHF   0.5
+ 17210: BRK
+ 17211: PUSH0
+ 17212: BRK
+ 17213: PUSHF   0.1
+ 17218: BRK
+ 17219: PUSH0
+ 17220: BRK
+ 17221: PUSHF   0.33
+ 17226: BRK
+ 17227: PUSHF   0.1
+ 17232: BRK
+ 17233: PUSHF   10
+ 17238: BRK
+ 17239: PUSHF   60
+ 17244: BRK
+ 17245: PUSHF   0.5
+ 17250: BRK
+ 17251: PUSHF   0.4
+ 17256: BRK
+ 17257: PUSHF   0.5
+ 17262: BRK
+ 17263: PUSHF   0.7
+ 17268: BRK
+ 17269: PUSHF   0.8
+ 17274: BRK
+ 17275: PUSHF   0.5
+ 17280: BRK
+ 17281: POP
+ 17282: PUSHIIB #1                    ; symbol "Task_New"
+ 17284: CALL    argc=37               ; args @17442, @17445, @17448, @17451, @17454, @17457, @17463, @17469, @17475, @17477, @17483, @17489, @17495, @17501, @17503, @17505, @17511, @17517, @17523, @17529, @17532, @17538, @17544, @17550, @17556, @17562, @17568, @17570, @17576, @17582, @17588, @17594, @17600, @17606, @17612, @17618, @17624
+ 17437: BRA     +188                  ; -> 17630
+ 17442: PUSH1
+ 17443: MINUS
+ 17444: BRK
+ 17445: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 17447: BRK
+ 17448: PUSHSIB #108                  ; string "AITYPE_MAFIA_PATROL_AK, GD_1"
+ 17450: BRK
+ 17451: PUSHSIB #109                  ; string "AITYPE_MAFIA_PATROL_AK"
+ 17453: BRK
+ 17454: PUSHSIB #43                   ; string "GD_1"
+ 17456: BRK
+ 17457: PUSHF   0.5
+ 17462: BRK
+ 17463: PUSHF   0.3
+ 17468: BRK
+ 17469: PUSHF   0.33
+ 17474: BRK
+ 17475: PUSH1
+ 17476: BRK
+ 17477: PUSHF   10
+ 17482: BRK
+ 17483: PUSHF   30
+ 17488: BRK
+ 17489: PUSHF   15
+ 17494: BRK
+ 17495: PUSHF   0.2
+ 17500: BRK
+ 17501: PUSH1
+ 17502: BRK
+ 17503: PUSH1
+ 17504: BRK
+ 17505: PUSHF   0.5
+ 17510: BRK
+ 17511: PUSHF   0.5
+ 17516: BRK
+ 17517: PUSHF   0.8
+ 17522: BRK
+ 17523: PUSHF   0.2
+ 17528: BRK
+ 17529: PUSHB   30
+ 17531: BRK
+ 17532: PUSHF   0.6
+ 17537: BRK
+ 17538: PUSHF   0.5
+ 17543: BRK
+ 17544: PUSHF   0.5
+ 17549: BRK
+ 17550: PUSHF   1.5
+ 17555: BRK
+ 17556: PUSHF   2
+ 17561: BRK
+ 17562: PUSHF   0.1
+ 17567: BRK
+ 17568: PUSH0
+ 17569: BRK
+ 17570: PUSHF   0.33
+ 17575: BRK
+ 17576: PUSHF   0.1
+ 17581: BRK
+ 17582: PUSHF   10
+ 17587: BRK
+ 17588: PUSHF   60
+ 17593: BRK
+ 17594: PUSHF   0.5
+ 17599: BRK
+ 17600: PUSHF   0.5
+ 17605: BRK
+ 17606: PUSHF   0.3
+ 17611: BRK
+ 17612: PUSHF   0.7
+ 17617: BRK
+ 17618: PUSHF   0.8
+ 17623: BRK
+ 17624: PUSHF   0.5
+ 17629: BRK
+ 17630: POP
+ 17631: PUSHIIB #1                    ; symbol "Task_New"
+ 17633: CALL    argc=37               ; args @17791, @17794, @17797, @17800, @17803, @17806, @17812, @17818, @17824, @17826, @17832, @17838, @17844, @17850, @17852, @17854, @17860, @17866, @17868, @17874, @17877, @17883, @17889, @17895, @17901, @17907, @17913, @17915, @17921, @17927, @17933, @17939, @17945, @17951, @17957, @17963, @17969
+ 17786: BRA     +184                  ; -> 17975
+ 17791: PUSH1
+ 17792: MINUS
+ 17793: BRK
+ 17794: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 17796: BRK
+ 17797: PUSHSIB #110                  ; string "AITYPE_MAFIA_PATROL_AK, GD_2"
+ 17799: BRK
+ 17800: PUSHSIB #109                  ; string "AITYPE_MAFIA_PATROL_AK"
+ 17802: BRK
+ 17803: PUSHSIB #45                   ; string "GD_2"
+ 17805: BRK
+ 17806: PUSHF   0.8
+ 17811: BRK
+ 17812: PUSHF   0.5
+ 17817: BRK
+ 17818: PUSHF   0.33
+ 17823: BRK
+ 17824: PUSH1
+ 17825: BRK
+ 17826: PUSHF   20
+ 17831: BRK
+ 17832: PUSHF   30
+ 17837: BRK
+ 17838: PUSHF   15
+ 17843: BRK
+ 17844: PUSHF   0.2
+ 17849: BRK
+ 17850: PUSH1
+ 17851: BRK
+ 17852: PUSH1
+ 17853: BRK
+ 17854: PUSHF   0.5
+ 17859: BRK
+ 17860: PUSHF   0.5
+ 17865: BRK
+ 17866: PUSH1
+ 17867: BRK
+ 17868: PUSHF   0.5
+ 17873: BRK
+ 17874: PUSHB   30
+ 17876: BRK
+ 17877: PUSHF   0.6
+ 17882: BRK
+ 17883: PUSHF   0.5
+ 17888: BRK
+ 17889: PUSHF   0.5
+ 17894: BRK
+ 17895: PUSHF   0.5
+ 17900: BRK
+ 17901: PUSHF   0.5
+ 17906: BRK
+ 17907: PUSHF   0.1
+ 17912: BRK
+ 17913: PUSH0
+ 17914: BRK
+ 17915: PUSHF   0.33
+ 17920: BRK
+ 17921: PUSHF   0.1
+ 17926: BRK
+ 17927: PUSHF   10
+ 17932: BRK
+ 17933: PUSHF   60
+ 17938: BRK
+ 17939: PUSHF   0.5
+ 17944: BRK
+ 17945: PUSHF   0.5
+ 17950: BRK
+ 17951: PUSHF   0.3
+ 17956: BRK
+ 17957: PUSHF   0.7
+ 17962: BRK
+ 17963: PUSHF   0.8
+ 17968: BRK
+ 17969: PUSHF   0.5
+ 17974: BRK
+ 17975: POP
+ 17976: PUSHIIB #1                    ; symbol "Task_New"
+ 17978: CALL    argc=37               ; args @18136, @18139, @18142, @18145, @18148, @18151, @18153, @18159, @18165, @18167, @18173, @18179, @18185, @18191, @18193, @18195, @18201, @18207, @18209, @18215, @18218, @18224, @18230, @18236, @18242, @18244, @18250, @18252, @18258, @18264, @18270, @18276, @18282, @18288, @18294, @18300, @18306
+ 18131: BRA     +176                  ; -> 18312
+ 18136: PUSH1
+ 18137: MINUS
+ 18138: BRK
+ 18139: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 18141: BRK
+ 18142: PUSHSIB #111                  ; string "AITYPE_MAFIA_PATROL_AK, GD_3"
+ 18144: BRK
+ 18145: PUSHSIB #109                  ; string "AITYPE_MAFIA_PATROL_AK"
+ 18147: BRK
+ 18148: PUSHSIB #47                   ; string "GD_3"
+ 18150: BRK
+ 18151: PUSH1
+ 18152: BRK
+ 18153: PUSHF   0.8
+ 18158: BRK
+ 18159: PUSHF   0.33
+ 18164: BRK
+ 18165: PUSH1
+ 18166: BRK
+ 18167: PUSHF   30
+ 18172: BRK
+ 18173: PUSHF   30
+ 18178: BRK
+ 18179: PUSHF   15
+ 18184: BRK
+ 18185: PUSHF   0.2
+ 18190: BRK
+ 18191: PUSH1
+ 18192: BRK
+ 18193: PUSH1
+ 18194: BRK
+ 18195: PUSHF   0.5
+ 18200: BRK
+ 18201: PUSHF   0.5
+ 18206: BRK
+ 18207: PUSH1
+ 18208: BRK
+ 18209: PUSHF   0.7
+ 18214: BRK
+ 18215: PUSHB   30
+ 18217: BRK
+ 18218: PUSHF   0.7
+ 18223: BRK
+ 18224: PUSHF   0.5
+ 18229: BRK
+ 18230: PUSHF   0.5
+ 18235: BRK
+ 18236: PUSHF   0.5
+ 18241: BRK
+ 18242: PUSH0
+ 18243: BRK
+ 18244: PUSHF   0.1
+ 18249: BRK
+ 18250: PUSH0
+ 18251: BRK
+ 18252: PUSHF   0.33
+ 18257: BRK
+ 18258: PUSHF   0.1
+ 18263: BRK
+ 18264: PUSHF   10
+ 18269: BRK
+ 18270: PUSHF   60
+ 18275: BRK
+ 18276: PUSHF   0.5
+ 18281: BRK
+ 18282: PUSHF   0.4
+ 18287: BRK
+ 18288: PUSHF   0.7
+ 18293: BRK
+ 18294: PUSHF   0.8
+ 18299: BRK
+ 18300: PUSHF   0.8
+ 18305: BRK
+ 18306: PUSHF   0.5
+ 18311: BRK
+ 18312: POP
+ 18313: PUSHIIB #1                    ; symbol "Task_New"
+ 18315: CALL    argc=37               ; args @18473, @18476, @18479, @18482, @18485, @18488, @18494, @18500, @18506, @18508, @18514, @18520, @18526, @18532, @18534, @18536, @18542, @18548, @18554, @18560, @18563, @18569, @18575, @18581, @18587, @18593, @18599, @18601, @18607, @18613, @18619, @18625, @18631, @18637, @18643, @18649, @18655
+ 18468: BRA     +188                  ; -> 18661
+ 18473: PUSH1
+ 18474: MINUS
+ 18475: BRK
+ 18476: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 18478: BRK
+ 18479: PUSHSIB #112                  ; string "AITYPE_MAFIA_PATROL_SPAS, GD_1"
+ 18481: BRK
+ 18482: PUSHSIB #113                  ; string "AITYPE_MAFIA_PATROL_SPAS"
+ 18484: BRK
+ 18485: PUSHSIB #43                   ; string "GD_1"
+ 18487: BRK
+ 18488: PUSHF   0.5
+ 18493: BRK
+ 18494: PUSHF   0.3
+ 18499: BRK
+ 18500: PUSHF   0.33
+ 18505: BRK
+ 18506: PUSH1
+ 18507: BRK
+ 18508: PUSHF   15
+ 18513: BRK
+ 18514: PUSHF   10
+ 18519: BRK
+ 18520: PUSHF   15
+ 18525: BRK
+ 18526: PUSHF   0.2
+ 18531: BRK
+ 18532: PUSH1
+ 18533: BRK
+ 18534: PUSH1
+ 18535: BRK
+ 18536: PUSHF   0.5
+ 18541: BRK
+ 18542: PUSHF   0.5
+ 18547: BRK
+ 18548: PUSHF   0.8
+ 18553: BRK
+ 18554: PUSHF   0.2
+ 18559: BRK
+ 18560: PUSHB   12
+ 18562: BRK
+ 18563: PUSHF   0.6
+ 18568: BRK
+ 18569: PUSHF   0.1
+ 18574: BRK
+ 18575: PUSHF   0.5
+ 18580: BRK
+ 18581: PUSHF   1.5
+ 18586: BRK
+ 18587: PUSHF   2
+ 18592: BRK
+ 18593: PUSHF   0.1
+ 18598: BRK
+ 18599: PUSH0
+ 18600: BRK
+ 18601: PUSHF   0.33
+ 18606: BRK
+ 18607: PUSHF   0.1
+ 18612: BRK
+ 18613: PUSHF   10
+ 18618: BRK
+ 18619: PUSHF   60
+ 18624: BRK
+ 18625: PUSHF   0.5
+ 18630: BRK
+ 18631: PUSHF   0.5
+ 18636: BRK
+ 18637: PUSHF   0.3
+ 18642: BRK
+ 18643: PUSHF   0.7
+ 18648: BRK
+ 18649: PUSHF   0.8
+ 18654: BRK
+ 18655: PUSHF   0.5
+ 18660: BRK
+ 18661: POP
+ 18662: PUSHIIB #1                    ; symbol "Task_New"
+ 18664: CALL    argc=37               ; args @18822, @18825, @18828, @18831, @18834, @18837, @18843, @18849, @18855, @18857, @18863, @18869, @18875, @18881, @18883, @18885, @18891, @18897, @18899, @18905, @18908, @18914, @18920, @18926, @18932, @18938, @18944, @18946, @18952, @18958, @18964, @18970, @18976, @18982, @18988, @18994, @19000
+ 18817: BRA     +184                  ; -> 19006
+ 18822: PUSH1
+ 18823: MINUS
+ 18824: BRK
+ 18825: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 18827: BRK
+ 18828: PUSHSIB #114                  ; string "AITYPE_MAFIA_PATROL_SPAS, GD_2"
+ 18830: BRK
+ 18831: PUSHSIB #113                  ; string "AITYPE_MAFIA_PATROL_SPAS"
+ 18833: BRK
+ 18834: PUSHSIB #45                   ; string "GD_2"
+ 18836: BRK
+ 18837: PUSHF   0.8
+ 18842: BRK
+ 18843: PUSHF   0.5
+ 18848: BRK
+ 18849: PUSHF   0.33
+ 18854: BRK
+ 18855: PUSH1
+ 18856: BRK
+ 18857: PUSHF   20
+ 18862: BRK
+ 18863: PUSHF   10
+ 18868: BRK
+ 18869: PUSHF   15
+ 18874: BRK
+ 18875: PUSHF   0.2
+ 18880: BRK
+ 18881: PUSH1
+ 18882: BRK
+ 18883: PUSH1
+ 18884: BRK
+ 18885: PUSHF   0.5
+ 18890: BRK
+ 18891: PUSHF   0.5
+ 18896: BRK
+ 18897: PUSH1
+ 18898: BRK
+ 18899: PUSHF   0.5
+ 18904: BRK
+ 18905: PUSHB   30
+ 18907: BRK
+ 18908: PUSHF   0.6
+ 18913: BRK
+ 18914: PUSHF   0.1
+ 18919: BRK
+ 18920: PUSHF   0.5
+ 18925: BRK
+ 18926: PUSHF   0.5
+ 18931: BRK
+ 18932: PUSHF   0.5
+ 18937: BRK
+ 18938: PUSHF   0.1
+ 18943: BRK
+ 18944: PUSH0
+ 18945: BRK
+ 18946: PUSHF   0.33
+ 18951: BRK
+ 18952: PUSHF   0.1
+ 18957: BRK
+ 18958: PUSHF   10
+ 18963: BRK
+ 18964: PUSHF   60
+ 18969: BRK
+ 18970: PUSHF   0.5
+ 18975: BRK
+ 18976: PUSHF   0.5
+ 18981: BRK
+ 18982: PUSHF   0.3
+ 18987: BRK
+ 18988: PUSHF   0.7
+ 18993: BRK
+ 18994: PUSHF   0.8
+ 18999: BRK
+ 19000: PUSHF   0.5
+ 19005: BRK
+ 19006: POP
+ 19007: PUSHIIB #1                    ; symbol "Task_New"
+ 19009: CALL    argc=37               ; args @19167, @19170, @19173, @19176, @19179, @19182, @19188, @19190, @19196, @19198, @19204, @19210, @19216, @19222, @19224, @19226, @19232, @19238, @19240, @19242, @19245, @19251, @19257, @19263, @19269, @19271, @19277, @19279, @19285, @19291, @19297, @19303, @19309, @19315, @19321, @19327, @19333
+ 19162: BRA     +172                  ; -> 19339
+ 19167: PUSH1
+ 19168: MINUS
+ 19169: BRK
+ 19170: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 19172: BRK
+ 19173: PUSHSIB #115                  ; string "AITYPE_MAFIA_PATROL_SPAS, GD_3"
+ 19175: BRK
+ 19176: PUSHSIB #113                  ; string "AITYPE_MAFIA_PATROL_SPAS"
+ 19178: BRK
+ 19179: PUSHSIB #47                   ; string "GD_3"
+ 19181: BRK
+ 19182: PUSHF   2
+ 19187: BRK
+ 19188: PUSH1
+ 19189: BRK
+ 19190: PUSHF   0.8
+ 19195: BRK
+ 19196: PUSH1
+ 19197: BRK
+ 19198: PUSHF   30
+ 19203: BRK
+ 19204: PUSHF   10
+ 19209: BRK
+ 19210: PUSHF   15
+ 19215: BRK
+ 19216: PUSHF   0.2
+ 19221: BRK
+ 19222: PUSH1
+ 19223: BRK
+ 19224: PUSH1
+ 19225: BRK
+ 19226: PUSHF   0.5
+ 19231: BRK
+ 19232: PUSHF   0.5
+ 19237: BRK
+ 19238: PUSH1
+ 19239: BRK
+ 19240: PUSH0
+ 19241: BRK
+ 19242: PUSHB   12
+ 19244: BRK
+ 19245: PUSHF   0.7
+ 19250: BRK
+ 19251: PUSHF   0.1
+ 19256: BRK
+ 19257: PUSHF   0.5
+ 19262: BRK
+ 19263: PUSHF   0.5
+ 19268: BRK
+ 19269: PUSH0
+ 19270: BRK
+ 19271: PUSHF   0.1
+ 19276: BRK
+ 19277: PUSH0
+ 19278: BRK
+ 19279: PUSHF   0.33
+ 19284: BRK
+ 19285: PUSHF   0.1
+ 19290: BRK
+ 19291: PUSHF   10
+ 19296: BRK
+ 19297: PUSHF   60
+ 19302: BRK
+ 19303: PUSHF   0.5
+ 19308: BRK
+ 19309: PUSHF   0.4
+ 19314: BRK
+ 19315: PUSHF   0.7
+ 19320: BRK
+ 19321: PUSHF   0.8
+ 19326: BRK
+ 19327: PUSHF   0.8
+ 19332: BRK
+ 19333: PUSHF   0.5
+ 19338: BRK
+ 19339: POP
+ 19340: PUSHIIB #1                    ; symbol "Task_New"
+ 19342: CALL    argc=37               ; args @19500, @19503, @19506, @19509, @19512, @19515, @19521, @19527, @19533, @19535, @19541, @19547, @19553, @19559, @19561, @19563, @19569, @19575, @19581, @19587, @19590, @19596, @19602, @19608, @19614, @19620, @19626, @19628, @19634, @19640, @19646, @19652, @19658, @19664, @19670, @19676, @19682
+ 19495: BRA     +188                  ; -> 19688
+ 19500: PUSH1
+ 19501: MINUS
+ 19502: BRK
+ 19503: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 19505: BRK
+ 19506: PUSHSIB #116                  ; string "AITYPE_MAFIA_GUARD_UZI, GD_1"
+ 19508: BRK
+ 19509: PUSHSIB #117                  ; string "AITYPE_MAFIA_GUARD_UZI"
+ 19511: BRK
+ 19512: PUSHSIB #43                   ; string "GD_1"
+ 19514: BRK
+ 19515: PUSHF   0.5
+ 19520: BRK
+ 19521: PUSHF   0.3
+ 19526: BRK
+ 19527: PUSHF   0.33
+ 19532: BRK
+ 19533: PUSH1
+ 19534: BRK
+ 19535: PUSHF   15
+ 19540: BRK
+ 19541: PUSHF   15
+ 19546: BRK
+ 19547: PUSHF   15
+ 19552: BRK
+ 19553: PUSHF   0.2
+ 19558: BRK
+ 19559: PUSH1
+ 19560: BRK
+ 19561: PUSH1
+ 19562: BRK
+ 19563: PUSHF   0.5
+ 19568: BRK
+ 19569: PUSHF   0.5
+ 19574: BRK
+ 19575: PUSHF   0.8
+ 19580: BRK
+ 19581: PUSHF   0.2
+ 19586: BRK
+ 19587: PUSHB   32
+ 19589: BRK
+ 19590: PUSHF   0.6
+ 19595: BRK
+ 19596: PUSHF   0.5
+ 19601: BRK
+ 19602: PUSHF   0.5
+ 19607: BRK
+ 19608: PUSHF   1.5
+ 19613: BRK
+ 19614: PUSHF   2
+ 19619: BRK
+ 19620: PUSHF   0.1
+ 19625: BRK
+ 19626: PUSH0
+ 19627: BRK
+ 19628: PUSHF   0.33
+ 19633: BRK
+ 19634: PUSHF   0.1
+ 19639: BRK
+ 19640: PUSHF   10
+ 19645: BRK
+ 19646: PUSHF   60
+ 19651: BRK
+ 19652: PUSHF   0.5
+ 19657: BRK
+ 19658: PUSHF   0.5
+ 19663: BRK
+ 19664: PUSHF   0.3
+ 19669: BRK
+ 19670: PUSHF   0.7
+ 19675: BRK
+ 19676: PUSHF   0.8
+ 19681: BRK
+ 19682: PUSHF   0.5
+ 19687: BRK
+ 19688: POP
+ 19689: PUSHIIB #1                    ; symbol "Task_New"
+ 19691: CALL    argc=37               ; args @19849, @19852, @19855, @19858, @19861, @19864, @19870, @19876, @19882, @19884, @19890, @19896, @19902, @19908, @19910, @19912, @19918, @19924, @19926, @19932, @19935, @19941, @19947, @19953, @19959, @19965, @19971, @19973, @19979, @19985, @19991, @19997, @20003, @20009, @20015, @20021, @20027
+ 19844: BRA     +184                  ; -> 20033
+ 19849: PUSH1
+ 19850: MINUS
+ 19851: BRK
+ 19852: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 19854: BRK
+ 19855: PUSHSIB #118                  ; string "AITYPE_MAFIA_GUARD_UZI, GD_2"
+ 19857: BRK
+ 19858: PUSHSIB #117                  ; string "AITYPE_MAFIA_GUARD_UZI"
+ 19860: BRK
+ 19861: PUSHSIB #45                   ; string "GD_2"
+ 19863: BRK
+ 19864: PUSHF   0.8
+ 19869: BRK
+ 19870: PUSHF   0.5
+ 19875: BRK
+ 19876: PUSHF   0.33
+ 19881: BRK
+ 19882: PUSH1
+ 19883: BRK
+ 19884: PUSHF   20
+ 19889: BRK
+ 19890: PUSHF   15
+ 19895: BRK
+ 19896: PUSHF   15
+ 19901: BRK
+ 19902: PUSHF   0.2
+ 19907: BRK
+ 19908: PUSH1
+ 19909: BRK
+ 19910: PUSH1
+ 19911: BRK
+ 19912: PUSHF   0.5
+ 19917: BRK
+ 19918: PUSHF   0.5
+ 19923: BRK
+ 19924: PUSH1
+ 19925: BRK
+ 19926: PUSHF   0.5
+ 19931: BRK
+ 19932: PUSHB   32
+ 19934: BRK
+ 19935: PUSHF   0.6
+ 19940: BRK
+ 19941: PUSHF   0.5
+ 19946: BRK
+ 19947: PUSHF   0.5
+ 19952: BRK
+ 19953: PUSHF   0.5
+ 19958: BRK
+ 19959: PUSHF   0.5
+ 19964: BRK
+ 19965: PUSHF   0.1
+ 19970: BRK
+ 19971: PUSH0
+ 19972: BRK
+ 19973: PUSHF   0.33
+ 19978: BRK
+ 19979: PUSHF   0.1
+ 19984: BRK
+ 19985: PUSHF   10
+ 19990: BRK
+ 19991: PUSHF   60
+ 19996: BRK
+ 19997: PUSHF   0.5
+ 20002: BRK
+ 20003: PUSHF   0.5
+ 20008: BRK
+ 20009: PUSHF   0.3
+ 20014: BRK
+ 20015: PUSHF   0.7
+ 20020: BRK
+ 20021: PUSHF   0.8
+ 20026: BRK
+ 20027: PUSHF   0.5
+ 20032: BRK
+ 20033: POP
+ 20034: PUSHIIB #1                    ; symbol "Task_New"
+ 20036: CALL    argc=37               ; args @20194, @20197, @20200, @20203, @20206, @20209, @20211, @20217, @20223, @20225, @20231, @20237, @20243, @20249, @20251, @20253, @20259, @20265, @20267, @20273, @20276, @20282, @20288, @20294, @20300, @20302, @20308, @20310, @20316, @20322, @20328, @20334, @20340, @20346, @20352, @20358, @20364
+ 20189: BRA     +176                  ; -> 20370
+ 20194: PUSH1
+ 20195: MINUS
+ 20196: BRK
+ 20197: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 20199: BRK
+ 20200: PUSHSIB #119                  ; string "AITYPE_MAFIA_GUARD_UZI, GD_3"
+ 20202: BRK
+ 20203: PUSHSIB #117                  ; string "AITYPE_MAFIA_GUARD_UZI"
+ 20205: BRK
+ 20206: PUSHSIB #47                   ; string "GD_3"
+ 20208: BRK
+ 20209: PUSH1
+ 20210: BRK
+ 20211: PUSHF   0.8
+ 20216: BRK
+ 20217: PUSHF   0.33
+ 20222: BRK
+ 20223: PUSH1
+ 20224: BRK
+ 20225: PUSHF   30
+ 20230: BRK
+ 20231: PUSHF   15
+ 20236: BRK
+ 20237: PUSHF   15
+ 20242: BRK
+ 20243: PUSHF   0.2
+ 20248: BRK
+ 20249: PUSH1
+ 20250: BRK
+ 20251: PUSH1
+ 20252: BRK
+ 20253: PUSHF   0.5
+ 20258: BRK
+ 20259: PUSHF   0.5
+ 20264: BRK
+ 20265: PUSH1
+ 20266: BRK
+ 20267: PUSHF   0.7
+ 20272: BRK
+ 20273: PUSHB   32
+ 20275: BRK
+ 20276: PUSHF   0.7
+ 20281: BRK
+ 20282: PUSHF   0.5
+ 20287: BRK
+ 20288: PUSHF   0.5
+ 20293: BRK
+ 20294: PUSHF   0.5
+ 20299: BRK
+ 20300: PUSH0
+ 20301: BRK
+ 20302: PUSHF   0.1
+ 20307: BRK
+ 20308: PUSH0
+ 20309: BRK
+ 20310: PUSHF   0.33
+ 20315: BRK
+ 20316: PUSHF   0.1
+ 20321: BRK
+ 20322: PUSHF   10
+ 20327: BRK
+ 20328: PUSHF   60
+ 20333: BRK
+ 20334: PUSHF   0.5
+ 20339: BRK
+ 20340: PUSHF   0.4
+ 20345: BRK
+ 20346: PUSHF   0.5
+ 20351: BRK
+ 20352: PUSHF   0.7
+ 20357: BRK
+ 20358: PUSHF   0.8
+ 20363: BRK
+ 20364: PUSHF   0.5
+ 20369: BRK
+ 20370: POP
+ 20371: PUSHIIB #1                    ; symbol "Task_New"
+ 20373: CALL    argc=37               ; args @20531, @20534, @20537, @20540, @20543, @20546, @20552, @20558, @20564, @20566, @20572, @20578, @20584, @20590, @20592, @20594, @20600, @20606, @20612, @20618, @20621, @20627, @20633, @20639, @20645, @20651, @20657, @20659, @20665, @20671, @20677, @20683, @20689, @20695, @20701, @20707, @20713
+ 20526: BRA     +188                  ; -> 20719
+ 20531: PUSH1
+ 20532: MINUS
+ 20533: BRK
+ 20534: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 20536: BRK
+ 20537: PUSHSIB #120                  ; string "AITYPE_MAFIA_GUARD_AK, GD_1"
+ 20539: BRK
+ 20540: PUSHSIB #121                  ; string "AITYPE_MAFIA_GUARD_AK"
+ 20542: BRK
+ 20543: PUSHSIB #43                   ; string "GD_1"
+ 20545: BRK
+ 20546: PUSHF   0.5
+ 20551: BRK
+ 20552: PUSHF   0.3
+ 20557: BRK
+ 20558: PUSHF   0.33
+ 20563: BRK
+ 20564: PUSH1
+ 20565: BRK
+ 20566: PUSHF   15
+ 20571: BRK
+ 20572: PUSHF   30
+ 20577: BRK
+ 20578: PUSHF   15
+ 20583: BRK
+ 20584: PUSHF   0.2
+ 20589: BRK
+ 20590: PUSH1
+ 20591: BRK
+ 20592: PUSH1
+ 20593: BRK
+ 20594: PUSHF   0.5
+ 20599: BRK
+ 20600: PUSHF   0.5
+ 20605: BRK
+ 20606: PUSHF   0.8
+ 20611: BRK
+ 20612: PUSHF   0.2
+ 20617: BRK
+ 20618: PUSHB   30
+ 20620: BRK
+ 20621: PUSHF   0.6
+ 20626: BRK
+ 20627: PUSHF   0.5
+ 20632: BRK
+ 20633: PUSHF   0.5
+ 20638: BRK
+ 20639: PUSHF   1.5
+ 20644: BRK
+ 20645: PUSHF   2
+ 20650: BRK
+ 20651: PUSHF   0.1
+ 20656: BRK
+ 20657: PUSH0
+ 20658: BRK
+ 20659: PUSHF   0.33
+ 20664: BRK
+ 20665: PUSHF   0.1
+ 20670: BRK
+ 20671: PUSHF   10
+ 20676: BRK
+ 20677: PUSHF   60
+ 20682: BRK
+ 20683: PUSHF   0.5
+ 20688: BRK
+ 20689: PUSHF   0.5
+ 20694: BRK
+ 20695: PUSHF   0.3
+ 20700: BRK
+ 20701: PUSHF   0.7
+ 20706: BRK
+ 20707: PUSHF   0.8
+ 20712: BRK
+ 20713: PUSHF   0.5
+ 20718: BRK
+ 20719: POP
+ 20720: PUSHIIB #1                    ; symbol "Task_New"
+ 20722: CALL    argc=37               ; args @20880, @20883, @20886, @20889, @20892, @20895, @20901, @20907, @20913, @20915, @20921, @20927, @20933, @20939, @20941, @20943, @20949, @20955, @20957, @20963, @20966, @20972, @20978, @20984, @20990, @20996, @21002, @21004, @21010, @21016, @21022, @21028, @21034, @21040, @21046, @21052, @21058
+ 20875: BRA     +184                  ; -> 21064
+ 20880: PUSH1
+ 20881: MINUS
+ 20882: BRK
+ 20883: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 20885: BRK
+ 20886: PUSHSIB #122                  ; string "AITYPE_MAFIA_GUARD_AK, GD_2"
+ 20888: BRK
+ 20889: PUSHSIB #121                  ; string "AITYPE_MAFIA_GUARD_AK"
+ 20891: BRK
+ 20892: PUSHSIB #45                   ; string "GD_2"
+ 20894: BRK
+ 20895: PUSHF   0.8
+ 20900: BRK
+ 20901: PUSHF   0.5
+ 20906: BRK
+ 20907: PUSHF   0.33
+ 20912: BRK
+ 20913: PUSH1
+ 20914: BRK
+ 20915: PUSHF   20
+ 20920: BRK
+ 20921: PUSHF   30
+ 20926: BRK
+ 20927: PUSHF   15
+ 20932: BRK
+ 20933: PUSHF   0.2
+ 20938: BRK
+ 20939: PUSH1
+ 20940: BRK
+ 20941: PUSH1
+ 20942: BRK
+ 20943: PUSHF   0.5
+ 20948: BRK
+ 20949: PUSHF   0.5
+ 20954: BRK
+ 20955: PUSH1
+ 20956: BRK
+ 20957: PUSHF   0.5
+ 20962: BRK
+ 20963: PUSHB   30
+ 20965: BRK
+ 20966: PUSHF   0.6
+ 20971: BRK
+ 20972: PUSHF   0.5
+ 20977: BRK
+ 20978: PUSHF   0.5
+ 20983: BRK
+ 20984: PUSHF   0.5
+ 20989: BRK
+ 20990: PUSHF   0.5
+ 20995: BRK
+ 20996: PUSHF   0.1
+ 21001: BRK
+ 21002: PUSH0
+ 21003: BRK
+ 21004: PUSHF   0.33
+ 21009: BRK
+ 21010: PUSHF   0.1
+ 21015: BRK
+ 21016: PUSHF   10
+ 21021: BRK
+ 21022: PUSHF   60
+ 21027: BRK
+ 21028: PUSHF   0.5
+ 21033: BRK
+ 21034: PUSHF   0.5
+ 21039: BRK
+ 21040: PUSHF   0.3
+ 21045: BRK
+ 21046: PUSHF   0.7
+ 21051: BRK
+ 21052: PUSHF   0.8
+ 21057: BRK
+ 21058: PUSHF   0.5
+ 21063: BRK
+ 21064: POP
+ 21065: PUSHIIB #1                    ; symbol "Task_New"
+ 21067: CALL    argc=37               ; args @21225, @21228, @21231, @21234, @21237, @21240, @21242, @21248, @21254, @21256, @21262, @21268, @21274, @21280, @21282, @21284, @21286, @21292, @21294, @21300, @21303, @21309, @21315, @21321, @21327, @21329, @21335, @21337, @21343, @21349, @21355, @21361, @21367, @21373, @21379, @21385, @21391
+ 21220: BRA     +172                  ; -> 21397
+ 21225: PUSH1
+ 21226: MINUS
+ 21227: BRK
+ 21228: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 21230: BRK
+ 21231: PUSHSIB #123                  ; string "AITYPE_MAFIA_GUARD_AK, GD_3"
+ 21233: BRK
+ 21234: PUSHSIB #121                  ; string "AITYPE_MAFIA_GUARD_AK"
+ 21236: BRK
+ 21237: PUSHSIB #47                   ; string "GD_3"
+ 21239: BRK
+ 21240: PUSH1
+ 21241: BRK
+ 21242: PUSHF   0.8
+ 21247: BRK
+ 21248: PUSHF   0.33
+ 21253: BRK
+ 21254: PUSH1
+ 21255: BRK
+ 21256: PUSHF   30
+ 21261: BRK
+ 21262: PUSHF   30
+ 21267: BRK
+ 21268: PUSHF   15
+ 21273: BRK
+ 21274: PUSHF   0.2
+ 21279: BRK
+ 21280: PUSH1
+ 21281: BRK
+ 21282: PUSH1
+ 21283: BRK
+ 21284: PUSH0
+ 21285: BRK
+ 21286: PUSHF   0.5
+ 21291: BRK
+ 21292: PUSH1
+ 21293: BRK
+ 21294: PUSHF   0.7
+ 21299: BRK
+ 21300: PUSHB   30
+ 21302: BRK
+ 21303: PUSHF   0.7
+ 21308: BRK
+ 21309: PUSHF   0.5
+ 21314: BRK
+ 21315: PUSHF   0.5
+ 21320: BRK
+ 21321: PUSHF   0.5
+ 21326: BRK
+ 21327: PUSH0
+ 21328: BRK
+ 21329: PUSHF   0.1
+ 21334: BRK
+ 21335: PUSH0
+ 21336: BRK
+ 21337: PUSHF   0.33
+ 21342: BRK
+ 21343: PUSHF   0.1
+ 21348: BRK
+ 21349: PUSHF   10
+ 21354: BRK
+ 21355: PUSHF   60
+ 21360: BRK
+ 21361: PUSHF   0.5
+ 21366: BRK
+ 21367: PUSHF   0.4
+ 21372: BRK
+ 21373: PUSHF   0.5
+ 21378: BRK
+ 21379: PUSHF   0.7
+ 21384: BRK
+ 21385: PUSHF   0.8
+ 21390: BRK
+ 21391: PUSHF   0.5
+ 21396: BRK
+ 21397: POP
+ 21398: PUSHIIB #1                    ; symbol "Task_New"
+ 21400: CALL    argc=37               ; args @21558, @21561, @21564, @21567, @21570, @21573, @21579, @21585, @21591, @21593, @21599, @21605, @21611, @21617, @21619, @21621, @21627, @21633, @21639, @21645, @21648, @21654, @21660, @21666, @21672, @21678, @21684, @21686, @21692, @21698, @21704, @21710, @21716, @21722, @21728, @21734, @21740
+ 21553: BRA     +188                  ; -> 21746
+ 21558: PUSH1
+ 21559: MINUS
+ 21560: BRK
+ 21561: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 21563: BRK
+ 21564: PUSHSIB #124                  ; string "AITYPE_MAFIA_GUARD_SPAS, GD_1"
+ 21566: BRK
+ 21567: PUSHSIB #125                  ; string "AITYPE_MAFIA_GUARD_SPAS"
+ 21569: BRK
+ 21570: PUSHSIB #43                   ; string "GD_1"
+ 21572: BRK
+ 21573: PUSHF   0.5
+ 21578: BRK
+ 21579: PUSHF   0.3
+ 21584: BRK
+ 21585: PUSHF   0.33
+ 21590: BRK
+ 21591: PUSH1
+ 21592: BRK
+ 21593: PUSHF   15
+ 21598: BRK
+ 21599: PUSHF   10
+ 21604: BRK
+ 21605: PUSHF   15
+ 21610: BRK
+ 21611: PUSHF   0.2
+ 21616: BRK
+ 21617: PUSH1
+ 21618: BRK
+ 21619: PUSH1
+ 21620: BRK
+ 21621: PUSHF   0.5
+ 21626: BRK
+ 21627: PUSHF   0.5
+ 21632: BRK
+ 21633: PUSHF   0.8
+ 21638: BRK
+ 21639: PUSHF   0.2
+ 21644: BRK
+ 21645: PUSHB   12
+ 21647: BRK
+ 21648: PUSHF   0.6
+ 21653: BRK
+ 21654: PUSHF   0.1
+ 21659: BRK
+ 21660: PUSHF   0.5
+ 21665: BRK
+ 21666: PUSHF   1.5
+ 21671: BRK
+ 21672: PUSHF   2
+ 21677: BRK
+ 21678: PUSHF   0.1
+ 21683: BRK
+ 21684: PUSH0
+ 21685: BRK
+ 21686: PUSHF   0.33
+ 21691: BRK
+ 21692: PUSHF   0.1
+ 21697: BRK
+ 21698: PUSHF   10
+ 21703: BRK
+ 21704: PUSHF   60
+ 21709: BRK
+ 21710: PUSHF   0.5
+ 21715: BRK
+ 21716: PUSHF   0.5
+ 21721: BRK
+ 21722: PUSHF   0.3
+ 21727: BRK
+ 21728: PUSHF   0.7
+ 21733: BRK
+ 21734: PUSHF   0.8
+ 21739: BRK
+ 21740: PUSHF   0.5
+ 21745: BRK
+ 21746: POP
+ 21747: PUSHIIB #1                    ; symbol "Task_New"
+ 21749: CALL    argc=37               ; args @21907, @21910, @21913, @21916, @21919, @21922, @21928, @21934, @21940, @21942, @21948, @21954, @21960, @21966, @21968, @21970, @21976, @21982, @21984, @21990, @21993, @21999, @22005, @22011, @22013, @22019, @22025, @22027, @22033, @22039, @22045, @22051, @22057, @22063, @22069, @22075, @22081
+ 21902: BRA     +180                  ; -> 22087
+ 21907: PUSH1
+ 21908: MINUS
+ 21909: BRK
+ 21910: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 21912: BRK
+ 21913: PUSHSIB #126                  ; string "AITYPE_MAFIA_GUARD_SPAS, GD_2"
+ 21915: BRK
+ 21916: PUSHSIB #125                  ; string "AITYPE_MAFIA_GUARD_SPAS"
+ 21918: BRK
+ 21919: PUSHSIB #45                   ; string "GD_2"
+ 21921: BRK
+ 21922: PUSHF   0.8
+ 21927: BRK
+ 21928: PUSHF   0.5
+ 21933: BRK
+ 21934: PUSHF   0.33
+ 21939: BRK
+ 21940: PUSH1
+ 21941: BRK
+ 21942: PUSHF   20
+ 21947: BRK
+ 21948: PUSHF   10
+ 21953: BRK
+ 21954: PUSHF   15
+ 21959: BRK
+ 21960: PUSHF   0.2
+ 21965: BRK
+ 21966: PUSH1
+ 21967: BRK
+ 21968: PUSH1
+ 21969: BRK
+ 21970: PUSHF   0.5
+ 21975: BRK
+ 21976: PUSHF   0.5
+ 21981: BRK
+ 21982: PUSH1
+ 21983: BRK
+ 21984: PUSHF   0.5
+ 21989: BRK
+ 21990: PUSHB   12
+ 21992: BRK
+ 21993: PUSHF   0.6
+ 21998: BRK
+ 21999: PUSHF   0.1
+ 22004: BRK
+ 22005: PUSHF   0.5
+ 22010: BRK
+ 22011: PUSH1
+ 22012: BRK
+ 22013: PUSHF   0.5
+ 22018: BRK
+ 22019: PUSHF   0.1
+ 22024: BRK
+ 22025: PUSH0
+ 22026: BRK
+ 22027: PUSHF   0.33
+ 22032: BRK
+ 22033: PUSHF   0.1
+ 22038: BRK
+ 22039: PUSHF   10
+ 22044: BRK
+ 22045: PUSHF   60
+ 22050: BRK
+ 22051: PUSHF   0.5
+ 22056: BRK
+ 22057: PUSHF   0.5
+ 22062: BRK
+ 22063: PUSHF   0.3
+ 22068: BRK
+ 22069: PUSHF   0.7
+ 22074: BRK
+ 22075: PUSHF   0.8
+ 22080: BRK
+ 22081: PUSHF   0.5
+ 22086: BRK
+ 22087: POP
+ 22088: PUSHIIB #1                    ; symbol "Task_New"
+ 22090: CALL    argc=37               ; args @22248, @22251, @22254, @22257, @22260, @22263, @22265, @22271, @22277, @22279, @22285, @22291, @22297, @22303, @22305, @22307, @22313, @22319, @22321, @22327, @22330, @22336, @22342, @22348, @22354, @22356, @22362, @22364, @22370, @22376, @22382, @22388, @22394, @22400, @22406, @22412, @22418
+ 22243: BRA     +176                  ; -> 22424
+ 22248: PUSH1
+ 22249: MINUS
+ 22250: BRK
+ 22251: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 22253: BRK
+ 22254: PUSHSIB #127                  ; string "AITYPE_MAFIA_GUARD_SPAS, GD_3"
+ 22256: BRK
+ 22257: PUSHSIB #125                  ; string "AITYPE_MAFIA_GUARD_SPAS"
+ 22259: BRK
+ 22260: PUSHSIB #47                   ; string "GD_3"
+ 22262: BRK
+ 22263: PUSH1
+ 22264: BRK
+ 22265: PUSHF   0.8
+ 22270: BRK
+ 22271: PUSHF   0.33
+ 22276: BRK
+ 22277: PUSH1
+ 22278: BRK
+ 22279: PUSHF   30
+ 22284: BRK
+ 22285: PUSHF   10
+ 22290: BRK
+ 22291: PUSHF   15
+ 22296: BRK
+ 22297: PUSHF   0.2
+ 22302: BRK
+ 22303: PUSH1
+ 22304: BRK
+ 22305: PUSH1
+ 22306: BRK
+ 22307: PUSHF   0.5
+ 22312: BRK
+ 22313: PUSHF   0.5
+ 22318: BRK
+ 22319: PUSH1
+ 22320: BRK
+ 22321: PUSHF   0.7
+ 22326: BRK
+ 22327: PUSHB   12
+ 22329: BRK
+ 22330: PUSHF   0.7
+ 22335: BRK
+ 22336: PUSHF   0.1
+ 22341: BRK
+ 22342: PUSHF   0.5
+ 22347: BRK
+ 22348: PUSHF   0.5
+ 22353: BRK
+ 22354: PUSH0
+ 22355: BRK
+ 22356: PUSHF   0.1
+ 22361: BRK
+ 22362: PUSH0
+ 22363: BRK
+ 22364: PUSHF   0.33
+ 22369: BRK
+ 22370: PUSHF   0.1
+ 22375: BRK
+ 22376: PUSHF   10
+ 22381: BRK
+ 22382: PUSHF   60
+ 22387: BRK
+ 22388: PUSHF   0.5
+ 22393: BRK
+ 22394: PUSHF   0.4
+ 22399: BRK
+ 22400: PUSHF   0.5
+ 22405: BRK
+ 22406: PUSHF   0.7
+ 22411: BRK
+ 22412: PUSHF   0.8
+ 22417: BRK
+ 22418: PUSHF   0.5
+ 22423: BRK
+ 22424: POP
+ 22425: PUSHIIB #1                    ; symbol "Task_New"
+ 22427: CALL    argc=37               ; args @22585, @22588, @22591, @22594, @22597, @22600, @22606, @22612, @22618, @22620, @22626, @22632, @22638, @22644, @22646, @22648, @22654, @22660, @22666, @22672, @22675, @22681, @22687, @22693, @22699, @22705, @22711, @22713, @22719, @22725, @22731, @22737, @22743, @22749, @22755, @22761, @22767
+ 22580: BRA     +188                  ; -> 22773
+ 22585: PUSH1
+ 22586: MINUS
+ 22587: BRK
+ 22588: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 22590: BRK
+ 22591: PUSHSIB #128                  ; string "AITYPE_SPETNAZ_PATROL_UZI, GD_1"
+ 22593: BRK
+ 22594: PUSHSIB #129                  ; string "AITYPE_SPETNAZ_PATROL_UZI"
+ 22596: BRK
+ 22597: PUSHSIB #43                   ; string "GD_1"
+ 22599: BRK
+ 22600: PUSHF   0.7
+ 22605: BRK
+ 22606: PUSHF   0.5
+ 22611: BRK
+ 22612: PUSHF   0.33
+ 22617: BRK
+ 22618: PUSH1
+ 22619: BRK
+ 22620: PUSHF   10
+ 22625: BRK
+ 22626: PUSHF   15
+ 22631: BRK
+ 22632: PUSHF   15
+ 22637: BRK
+ 22638: PUSHF   0.5
+ 22643: BRK
+ 22644: PUSH0
+ 22645: BRK
+ 22646: PUSH0
+ 22647: BRK
+ 22648: PUSHF   0.5
+ 22653: BRK
+ 22654: PUSHF   0.5
+ 22659: BRK
+ 22660: PUSHF   0.8
+ 22665: BRK
+ 22666: PUSHF   0.3
+ 22671: BRK
+ 22672: PUSHB   32
+ 22674: BRK
+ 22675: PUSHF   0.6
+ 22680: BRK
+ 22681: PUSHF   0.1
+ 22686: BRK
+ 22687: PUSHF   0.3
+ 22692: BRK
+ 22693: PUSHF   1.5
+ 22698: BRK
+ 22699: PUSHF   2
+ 22704: BRK
+ 22705: PUSHF   0.1
+ 22710: BRK
+ 22711: PUSH0
+ 22712: BRK
+ 22713: PUSHF   0.33
+ 22718: BRK
+ 22719: PUSHF   0.1
+ 22724: BRK
+ 22725: PUSHF   10
+ 22730: BRK
+ 22731: PUSHF   60
+ 22736: BRK
+ 22737: PUSHF   0.5
+ 22742: BRK
+ 22743: PUSHF   0.5
+ 22748: BRK
+ 22749: PUSHF   0.3
+ 22754: BRK
+ 22755: PUSHF   0.7
+ 22760: BRK
+ 22761: PUSHF   0.9
+ 22766: BRK
+ 22767: PUSHF   0.8
+ 22772: BRK
+ 22773: POP
+ 22774: PUSHIIB #1                    ; symbol "Task_New"
+ 22776: CALL    argc=37               ; args @22934, @22937, @22940, @22943, @22946, @22949, @22951, @22957, @22963, @22965, @22971, @22977, @22983, @22989, @22991, @22993, @22999, @23005, @23007, @23013, @23016, @23022, @23028, @23034, @23040, @23046, @23052, @23054, @23060, @23066, @23072, @23078, @23084, @23090, @23096, @23102, @23108
+ 22929: BRA     +180                  ; -> 23114
+ 22934: PUSH1
+ 22935: MINUS
+ 22936: BRK
+ 22937: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 22939: BRK
+ 22940: PUSHSIB #130                  ; string "AITYPE_SPETNAZ_PATROL_UZI, GD_2"
+ 22942: BRK
+ 22943: PUSHSIB #129                  ; string "AITYPE_SPETNAZ_PATROL_UZI"
+ 22945: BRK
+ 22946: PUSHSIB #45                   ; string "GD_2"
+ 22948: BRK
+ 22949: PUSH1
+ 22950: BRK
+ 22951: PUSHF   0.7
+ 22956: BRK
+ 22957: PUSHF   0.33
+ 22962: BRK
+ 22963: PUSH1
+ 22964: BRK
+ 22965: PUSHF   10
+ 22970: BRK
+ 22971: PUSHF   15
+ 22976: BRK
+ 22977: PUSHF   15
+ 22982: BRK
+ 22983: PUSHF   0.5
+ 22988: BRK
+ 22989: PUSH0
+ 22990: BRK
+ 22991: PUSH0
+ 22992: BRK
+ 22993: PUSHF   0.5
+ 22998: BRK
+ 22999: PUSHF   0.5
+ 23004: BRK
+ 23005: PUSH1
+ 23006: BRK
+ 23007: PUSHF   0.7
+ 23012: BRK
+ 23013: PUSHB   32
+ 23015: BRK
+ 23016: PUSHF   0.7
+ 23021: BRK
+ 23022: PUSHF   0.1
+ 23027: BRK
+ 23028: PUSHF   0.3
+ 23033: BRK
+ 23034: PUSHF   0.5
+ 23039: BRK
+ 23040: PUSHF   0.5
+ 23045: BRK
+ 23046: PUSHF   0.1
+ 23051: BRK
+ 23052: PUSH0
+ 23053: BRK
+ 23054: PUSHF   0.33
+ 23059: BRK
+ 23060: PUSHF   0.1
+ 23065: BRK
+ 23066: PUSHF   10
+ 23071: BRK
+ 23072: PUSHF   60
+ 23077: BRK
+ 23078: PUSHF   0.5
+ 23083: BRK
+ 23084: PUSHF   0.5
+ 23089: BRK
+ 23090: PUSHF   0.3
+ 23095: BRK
+ 23096: PUSHF   0.7
+ 23101: BRK
+ 23102: PUSHF   0.9
+ 23107: BRK
+ 23108: PUSHF   0.8
+ 23113: BRK
+ 23114: POP
+ 23115: PUSHIIB #1                    ; symbol "Task_New"
+ 23117: CALL    argc=37               ; args @23275, @23278, @23281, @23284, @23287, @23290, @23296, @23298, @23304, @23306, @23312, @23318, @23324, @23330, @23332, @23334, @23340, @23346, @23348, @23354, @23357, @23363, @23369, @23375, @23381, @23383, @23389, @23391, @23397, @23403, @23409, @23415, @23421, @23427, @23433, @23439, @23445
+ 23270: BRA     +176                  ; -> 23451
+ 23275: PUSH1
+ 23276: MINUS
+ 23277: BRK
+ 23278: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 23280: BRK
+ 23281: PUSHSIB #131                  ; string "AITYPE_SPETNAZ_PATROL_UZI, GD_3"
+ 23283: BRK
+ 23284: PUSHSIB #129                  ; string "AITYPE_SPETNAZ_PATROL_UZI"
+ 23286: BRK
+ 23287: PUSHSIB #47                   ; string "GD_3"
+ 23289: BRK
+ 23290: PUSHF   1.3
+ 23295: BRK
+ 23296: PUSH1
+ 23297: BRK
+ 23298: PUSHF   0.33
+ 23303: BRK
+ 23304: PUSH1
+ 23305: BRK
+ 23306: PUSHF   30
+ 23311: BRK
+ 23312: PUSHF   10
+ 23317: BRK
+ 23318: PUSHF   15
+ 23323: BRK
+ 23324: PUSHF   0.5
+ 23329: BRK
+ 23330: PUSH0
+ 23331: BRK
+ 23332: PUSH0
+ 23333: BRK
+ 23334: PUSHF   0.5
+ 23339: BRK
+ 23340: PUSHF   0.5
+ 23345: BRK
+ 23346: PUSH1
+ 23347: BRK
+ 23348: PUSHF   0.8
+ 23353: BRK
+ 23354: PUSHB   32
+ 23356: BRK
+ 23357: PUSHF   0.8
+ 23362: BRK
+ 23363: PUSHF   0.1
+ 23368: BRK
+ 23369: PUSHF   0.3
+ 23374: BRK
+ 23375: PUSHF   0.5
+ 23380: BRK
+ 23381: PUSH0
+ 23382: BRK
+ 23383: PUSHF   0.1
+ 23388: BRK
+ 23389: PUSH0
+ 23390: BRK
+ 23391: PUSHF   0.33
+ 23396: BRK
+ 23397: PUSHF   0.1
+ 23402: BRK
+ 23403: PUSHF   10
+ 23408: BRK
+ 23409: PUSHF   60
+ 23414: BRK
+ 23415: PUSHF   0.5
+ 23420: BRK
+ 23421: PUSHF   0.2
+ 23426: BRK
+ 23427: PUSHF   0.5
+ 23432: BRK
+ 23433: PUSHF   0.2
+ 23438: BRK
+ 23439: PUSHF   0.9
+ 23444: BRK
+ 23445: PUSHF   0.8
+ 23450: BRK
+ 23451: POP
+ 23452: PUSHIIB #1                    ; symbol "Task_New"
+ 23454: CALL    argc=37               ; args @23612, @23615, @23618, @23621, @23624, @23627, @23633, @23639, @23645, @23647, @23653, @23659, @23665, @23671, @23673, @23675, @23681, @23687, @23693, @23699, @23702, @23708, @23714, @23720, @23726, @23732, @23738, @23740, @23746, @23752, @23758, @23764, @23770, @23776, @23782, @23788, @23794
+ 23607: BRA     +188                  ; -> 23800
+ 23612: PUSH1
+ 23613: MINUS
+ 23614: BRK
+ 23615: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 23617: BRK
+ 23618: PUSHSIB #132                  ; string "AITYPE_SPETNAZ_PATROL_AK, GD_1"
+ 23620: BRK
+ 23621: PUSHSIB #133                  ; string "AITYPE_SPETNAZ_PATROL_AK"
+ 23623: BRK
+ 23624: PUSHSIB #43                   ; string "GD_1"
+ 23626: BRK
+ 23627: PUSHF   0.7
+ 23632: BRK
+ 23633: PUSHF   0.5
+ 23638: BRK
+ 23639: PUSHF   0.33
+ 23644: BRK
+ 23645: PUSH1
+ 23646: BRK
+ 23647: PUSHF   10
+ 23652: BRK
+ 23653: PUSHF   15
+ 23658: BRK
+ 23659: PUSHF   15
+ 23664: BRK
+ 23665: PUSHF   0.5
+ 23670: BRK
+ 23671: PUSH0
+ 23672: BRK
+ 23673: PUSH0
+ 23674: BRK
+ 23675: PUSHF   0.5
+ 23680: BRK
+ 23681: PUSHF   0.5
+ 23686: BRK
+ 23687: PUSHF   0.8
+ 23692: BRK
+ 23693: PUSHF   0.7
+ 23698: BRK
+ 23699: PUSHB   30
+ 23701: BRK
+ 23702: PUSHF   0.6
+ 23707: BRK
+ 23708: PUSHF   0.1
+ 23713: BRK
+ 23714: PUSHF   0.3
+ 23719: BRK
+ 23720: PUSHF   1.5
+ 23725: BRK
+ 23726: PUSHF   2
+ 23731: BRK
+ 23732: PUSHF   0.5
+ 23737: BRK
+ 23738: PUSH0
+ 23739: BRK
+ 23740: PUSHF   0.33
+ 23745: BRK
+ 23746: PUSHF   0.1
+ 23751: BRK
+ 23752: PUSHF   10
+ 23757: BRK
+ 23758: PUSHF   60
+ 23763: BRK
+ 23764: PUSHF   0.5
+ 23769: BRK
+ 23770: PUSHF   0.5
+ 23775: BRK
+ 23776: PUSHF   0.3
+ 23781: BRK
+ 23782: PUSHF   0.7
+ 23787: BRK
+ 23788: PUSHF   0.9
+ 23793: BRK
+ 23794: PUSHF   0.8
+ 23799: BRK
+ 23800: POP
+ 23801: PUSHIIB #1                    ; symbol "Task_New"
+ 23803: CALL    argc=37               ; args @23961, @23964, @23967, @23970, @23973, @23976, @23978, @23984, @23986, @23988, @23994, @24000, @24006, @24012, @24014, @24016, @24022, @24028, @24030, @24036, @24039, @24045, @24051, @24057, @24063, @24069, @24075, @24077, @24083, @24089, @24095, @24101, @24107, @24113, @24119, @24125, @24131
+ 23956: BRA     +176                  ; -> 24137
+ 23961: PUSH1
+ 23962: MINUS
+ 23963: BRK
+ 23964: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 23966: BRK
+ 23967: PUSHSIB #134                  ; string "AITYPE_SPETNAZ_PATROL_AK, GD_2"
+ 23969: BRK
+ 23970: PUSHSIB #133                  ; string "AITYPE_SPETNAZ_PATROL_AK"
+ 23972: BRK
+ 23973: PUSHSIB #45                   ; string "GD_2"
+ 23975: BRK
+ 23976: PUSH1
+ 23977: BRK
+ 23978: PUSHF   0.7
+ 23983: BRK
+ 23984: PUSH0
+ 23985: BRK
+ 23986: PUSH0
+ 23987: BRK
+ 23988: PUSHF   10
+ 23993: BRK
+ 23994: PUSHF   15
+ 23999: BRK
+ 24000: PUSHF   15
+ 24005: BRK
+ 24006: PUSHF   0.5
+ 24011: BRK
+ 24012: PUSH0
+ 24013: BRK
+ 24014: PUSH0
+ 24015: BRK
+ 24016: PUSHF   0.5
+ 24021: BRK
+ 24022: PUSHF   0.5
+ 24027: BRK
+ 24028: PUSH1
+ 24029: BRK
+ 24030: PUSHF   0.7
+ 24035: BRK
+ 24036: PUSHB   30
+ 24038: BRK
+ 24039: PUSHF   0.7
+ 24044: BRK
+ 24045: PUSHF   0.1
+ 24050: BRK
+ 24051: PUSHF   0.3
+ 24056: BRK
+ 24057: PUSHF   0.5
+ 24062: BRK
+ 24063: PUSHF   0.5
+ 24068: BRK
+ 24069: PUSHF   0.1
+ 24074: BRK
+ 24075: PUSH0
+ 24076: BRK
+ 24077: PUSHF   0.33
+ 24082: BRK
+ 24083: PUSHF   0.1
+ 24088: BRK
+ 24089: PUSHF   10
+ 24094: BRK
+ 24095: PUSHF   60
+ 24100: BRK
+ 24101: PUSHF   0.5
+ 24106: BRK
+ 24107: PUSHF   0.5
+ 24112: BRK
+ 24113: PUSHF   0.3
+ 24118: BRK
+ 24119: PUSHF   0.7
+ 24124: BRK
+ 24125: PUSHF   0.9
+ 24130: BRK
+ 24131: PUSHF   0.8
+ 24136: BRK
+ 24137: POP
+ 24138: PUSHIIB #1                    ; symbol "Task_New"
+ 24140: CALL    argc=37               ; args @24298, @24301, @24304, @24307, @24310, @24313, @24319, @24321, @24327, @24329, @24335, @24341, @24347, @24353, @24355, @24357, @24363, @24369, @24371, @24377, @24380, @24386, @24392, @24398, @24404, @24406, @24412, @24414, @24420, @24426, @24432, @24438, @24444, @24450, @24456, @24462, @24468
+ 24293: BRA     +176                  ; -> 24474
+ 24298: PUSH1
+ 24299: MINUS
+ 24300: BRK
+ 24301: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 24303: BRK
+ 24304: PUSHSIB #135                  ; string "AITYPE_SPETNAZ_PATROL_AK, GD_3"
+ 24306: BRK
+ 24307: PUSHSIB #133                  ; string "AITYPE_SPETNAZ_PATROL_AK"
+ 24309: BRK
+ 24310: PUSHSIB #47                   ; string "GD_3"
+ 24312: BRK
+ 24313: PUSHF   1.3
+ 24318: BRK
+ 24319: PUSH1
+ 24320: BRK
+ 24321: PUSHF   0.33
+ 24326: BRK
+ 24327: PUSH1
+ 24328: BRK
+ 24329: PUSHF   30
+ 24334: BRK
+ 24335: PUSHF   10
+ 24340: BRK
+ 24341: PUSHF   15
+ 24346: BRK
+ 24347: PUSHF   0.5
+ 24352: BRK
+ 24353: PUSH0
+ 24354: BRK
+ 24355: PUSH0
+ 24356: BRK
+ 24357: PUSHF   0.5
+ 24362: BRK
+ 24363: PUSHF   0.5
+ 24368: BRK
+ 24369: PUSH1
+ 24370: BRK
+ 24371: PUSHF   0.8
+ 24376: BRK
+ 24377: PUSHB   30
+ 24379: BRK
+ 24380: PUSHF   0.8
+ 24385: BRK
+ 24386: PUSHF   0.1
+ 24391: BRK
+ 24392: PUSHF   0.3
+ 24397: BRK
+ 24398: PUSHF   0.5
+ 24403: BRK
+ 24404: PUSH0
+ 24405: BRK
+ 24406: PUSHF   0.1
+ 24411: BRK
+ 24412: PUSH0
+ 24413: BRK
+ 24414: PUSHF   0.33
+ 24419: BRK
+ 24420: PUSHF   0.1
+ 24425: BRK
+ 24426: PUSHF   10
+ 24431: BRK
+ 24432: PUSHF   60
+ 24437: BRK
+ 24438: PUSHF   0.5
+ 24443: BRK
+ 24444: PUSHF   0.2
+ 24449: BRK
+ 24450: PUSHF   0.5
+ 24455: BRK
+ 24456: PUSHF   0.2
+ 24461: BRK
+ 24462: PUSHF   0.9
+ 24467: BRK
+ 24468: PUSHF   0.8
+ 24473: BRK
+ 24474: POP
+ 24475: PUSHIIB #1                    ; symbol "Task_New"
+ 24477: CALL    argc=37               ; args @24635, @24638, @24641, @24644, @24647, @24650, @24656, @24662, @24668, @24670, @24676, @24682, @24688, @24694, @24696, @24698, @24704, @24710, @24716, @24722, @24725, @24731, @24737, @24743, @24749, @24755, @24761, @24763, @24769, @24775, @24781, @24787, @24793, @24799, @24805, @24811, @24817
+ 24630: BRA     +188                  ; -> 24823
+ 24635: PUSH1
+ 24636: MINUS
+ 24637: BRK
+ 24638: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 24640: BRK
+ 24641: PUSHSIB #136                  ; string "AITYPE_SPETNAZ_PATROL_SPAS, GD_1"
+ 24643: BRK
+ 24644: PUSHSIB #137                  ; string "AITYPE_SPETNAZ_PATROL_SPAS"
+ 24646: BRK
+ 24647: PUSHSIB #43                   ; string "GD_1"
+ 24649: BRK
+ 24650: PUSHF   0.7
+ 24655: BRK
+ 24656: PUSHF   0.5
+ 24661: BRK
+ 24662: PUSHF   0.33
+ 24667: BRK
+ 24668: PUSH1
+ 24669: BRK
+ 24670: PUSHF   10
+ 24675: BRK
+ 24676: PUSHF   15
+ 24681: BRK
+ 24682: PUSHF   15
+ 24687: BRK
+ 24688: PUSHF   0.5
+ 24693: BRK
+ 24694: PUSH0
+ 24695: BRK
+ 24696: PUSH0
+ 24697: BRK
+ 24698: PUSHF   0.5
+ 24703: BRK
+ 24704: PUSHF   0.5
+ 24709: BRK
+ 24710: PUSHF   0.8
+ 24715: BRK
+ 24716: PUSHF   0.3
+ 24721: BRK
+ 24722: PUSHB   12
+ 24724: BRK
+ 24725: PUSHF   0.6
+ 24730: BRK
+ 24731: PUSHF   0.1
+ 24736: BRK
+ 24737: PUSHF   0.3
+ 24742: BRK
+ 24743: PUSHF   1.5
+ 24748: BRK
+ 24749: PUSHF   2
+ 24754: BRK
+ 24755: PUSHF   0.1
+ 24760: BRK
+ 24761: PUSH0
+ 24762: BRK
+ 24763: PUSHF   0.33
+ 24768: BRK
+ 24769: PUSHF   0.1
+ 24774: BRK
+ 24775: PUSHF   10
+ 24780: BRK
+ 24781: PUSHF   60
+ 24786: BRK
+ 24787: PUSHF   0.5
+ 24792: BRK
+ 24793: PUSHF   0.5
+ 24798: BRK
+ 24799: PUSHF   0.3
+ 24804: BRK
+ 24805: PUSHF   0.7
+ 24810: BRK
+ 24811: PUSHF   0.9
+ 24816: BRK
+ 24817: PUSHF   0.8
+ 24822: BRK
+ 24823: POP
+ 24824: PUSHIIB #1                    ; symbol "Task_New"
+ 24826: CALL    argc=37               ; args @24984, @24987, @24990, @24993, @24996, @24999, @25001, @25007, @25013, @25015, @25021, @25027, @25033, @25035, @25041, @25043, @25045, @25051, @25053, @25059, @25062, @25068, @25074, @25080, @25086, @25092, @25098, @25100, @25106, @25112, @25118, @25124, @25130, @25136, @25142, @25148, @25154
+ 24979: BRA     +176                  ; -> 25160
+ 24984: PUSH1
+ 24985: MINUS
+ 24986: BRK
+ 24987: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 24989: BRK
+ 24990: PUSHSIB #138                  ; string "AITYPE_SPETNAZ_PATROL_SPAS, GD_2"
+ 24992: BRK
+ 24993: PUSHSIB #137                  ; string "AITYPE_SPETNAZ_PATROL_SPAS"
+ 24995: BRK
+ 24996: PUSHSIB #45                   ; string "GD_2"
+ 24998: BRK
+ 24999: PUSH1
+ 25000: BRK
+ 25001: PUSHF   0.7
+ 25006: BRK
+ 25007: PUSHF   0.33
+ 25012: BRK
+ 25013: PUSH1
+ 25014: BRK
+ 25015: PUSHF   10
+ 25020: BRK
+ 25021: PUSHF   15
+ 25026: BRK
+ 25027: PUSHF   15
+ 25032: BRK
+ 25033: PUSH0
+ 25034: BRK
+ 25035: PUSHF   0.5
+ 25040: BRK
+ 25041: PUSH0
+ 25042: BRK
+ 25043: PUSH0
+ 25044: BRK
+ 25045: PUSHF   0.5
+ 25050: BRK
+ 25051: PUSH1
+ 25052: BRK
+ 25053: PUSHF   0.7
+ 25058: BRK
+ 25059: PUSHB   12
+ 25061: BRK
+ 25062: PUSHF   0.7
+ 25067: BRK
+ 25068: PUSHF   0.1
+ 25073: BRK
+ 25074: PUSHF   0.3
+ 25079: BRK
+ 25080: PUSHF   0.5
+ 25085: BRK
+ 25086: PUSHF   0.5
+ 25091: BRK
+ 25092: PUSHF   0.1
+ 25097: BRK
+ 25098: PUSH0
+ 25099: BRK
+ 25100: PUSHF   0.33
+ 25105: BRK
+ 25106: PUSHF   0.1
+ 25111: BRK
+ 25112: PUSHF   10
+ 25117: BRK
+ 25118: PUSHF   60
+ 25123: BRK
+ 25124: PUSHF   0.5
+ 25129: BRK
+ 25130: PUSHF   0.5
+ 25135: BRK
+ 25136: PUSHF   0.3
+ 25141: BRK
+ 25142: PUSHF   0.7
+ 25147: BRK
+ 25148: PUSHF   0.9
+ 25153: BRK
+ 25154: PUSHF   0.8
+ 25159: BRK
+ 25160: POP
+ 25161: PUSHIIB #1                    ; symbol "Task_New"
+ 25163: CALL    argc=37               ; args @25321, @25324, @25327, @25330, @25333, @25336, @25342, @25344, @25350, @25352, @25358, @25364, @25370, @25376, @25378, @25380, @25386, @25392, @25394, @25400, @25403, @25409, @25415, @25421, @25427, @25429, @25435, @25437, @25443, @25449, @25455, @25461, @25467, @25473, @25479, @25485, @25491
+ 25316: BRA     +176                  ; -> 25497
+ 25321: PUSH1
+ 25322: MINUS
+ 25323: BRK
+ 25324: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 25326: BRK
+ 25327: PUSHSIB #139                  ; string "AITYPE_SPETNAZ_PATROL_SPAS, GD_3"
+ 25329: BRK
+ 25330: PUSHSIB #137                  ; string "AITYPE_SPETNAZ_PATROL_SPAS"
+ 25332: BRK
+ 25333: PUSHSIB #47                   ; string "GD_3"
+ 25335: BRK
+ 25336: PUSHF   1.3
+ 25341: BRK
+ 25342: PUSH1
+ 25343: BRK
+ 25344: PUSHF   0.33
+ 25349: BRK
+ 25350: PUSH1
+ 25351: BRK
+ 25352: PUSHF   30
+ 25357: BRK
+ 25358: PUSHF   10
+ 25363: BRK
+ 25364: PUSHF   15
+ 25369: BRK
+ 25370: PUSHF   0.5
+ 25375: BRK
+ 25376: PUSH0
+ 25377: BRK
+ 25378: PUSH0
+ 25379: BRK
+ 25380: PUSHF   0.5
+ 25385: BRK
+ 25386: PUSHF   0.5
+ 25391: BRK
+ 25392: PUSH1
+ 25393: BRK
+ 25394: PUSHF   0.8
+ 25399: BRK
+ 25400: PUSHB   12
+ 25402: BRK
+ 25403: PUSHF   0.8
+ 25408: BRK
+ 25409: PUSHF   0.1
+ 25414: BRK
+ 25415: PUSHF   0.3
+ 25420: BRK
+ 25421: PUSHF   0.5
+ 25426: BRK
+ 25427: PUSH0
+ 25428: BRK
+ 25429: PUSHF   0.1
+ 25434: BRK
+ 25435: PUSH0
+ 25436: BRK
+ 25437: PUSHF   0.33
+ 25442: BRK
+ 25443: PUSHF   0.1
+ 25448: BRK
+ 25449: PUSHF   10
+ 25454: BRK
+ 25455: PUSHF   60
+ 25460: BRK
+ 25461: PUSHF   0.5
+ 25466: BRK
+ 25467: PUSHF   0.2
+ 25472: BRK
+ 25473: PUSHF   0.5
+ 25478: BRK
+ 25479: PUSHF   0.2
+ 25484: BRK
+ 25485: PUSHF   0.9
+ 25490: BRK
+ 25491: PUSHF   0.8
+ 25496: BRK
+ 25497: POP
+ 25498: PUSHIIB #1                    ; symbol "Task_New"
+ 25500: CALL    argc=37               ; args @25658, @25661, @25664, @25667, @25670, @25673, @25679, @25685, @25691, @25693, @25699, @25705, @25711, @25717, @25719, @25721, @25727, @25733, @25739, @25745, @25748, @25754, @25760, @25766, @25772, @25778, @25784, @25786, @25792, @25798, @25804, @25810, @25816, @25822, @25828, @25834, @25836
+ 25653: BRA     +184                  ; -> 25842
+ 25658: PUSH1
+ 25659: MINUS
+ 25660: BRK
+ 25661: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 25663: BRK
+ 25664: PUSHSIB #140                  ; string "AITYPE_SPETNAZ_GUARD_UZI, GD_1"
+ 25666: BRK
+ 25667: PUSHSIB #141                  ; string "AITYPE_SPETNAZ_GUARD_UZI"
+ 25669: BRK
+ 25670: PUSHSIB #43                   ; string "GD_1"
+ 25672: BRK
+ 25673: PUSHF   0.7
+ 25678: BRK
+ 25679: PUSHF   0.5
+ 25684: BRK
+ 25685: PUSHF   0.33
+ 25690: BRK
+ 25691: PUSH1
+ 25692: BRK
+ 25693: PUSHF   10
+ 25698: BRK
+ 25699: PUSHF   15
+ 25704: BRK
+ 25705: PUSHF   15
+ 25710: BRK
+ 25711: PUSHF   0.5
+ 25716: BRK
+ 25717: PUSH0
+ 25718: BRK
+ 25719: PUSH0
+ 25720: BRK
+ 25721: PUSHF   0.5
+ 25726: BRK
+ 25727: PUSHF   0.5
+ 25732: BRK
+ 25733: PUSHF   0.8
+ 25738: BRK
+ 25739: PUSHF   0.3
+ 25744: BRK
+ 25745: PUSHB   32
+ 25747: BRK
+ 25748: PUSHF   0.6
+ 25753: BRK
+ 25754: PUSHF   0.1
+ 25759: BRK
+ 25760: PUSHF   0.3
+ 25765: BRK
+ 25766: PUSHF   1.5
+ 25771: BRK
+ 25772: PUSHF   2
+ 25777: BRK
+ 25778: PUSHF   0.1
+ 25783: BRK
+ 25784: PUSH0
+ 25785: BRK
+ 25786: PUSHF   0.33
+ 25791: BRK
+ 25792: PUSHF   0.1
+ 25797: BRK
+ 25798: PUSHF   10
+ 25803: BRK
+ 25804: PUSHF   60
+ 25809: BRK
+ 25810: PUSHF   0.5
+ 25815: BRK
+ 25816: PUSHF   0.5
+ 25821: BRK
+ 25822: PUSHF   0.3
+ 25827: BRK
+ 25828: PUSHF   0.7
+ 25833: BRK
+ 25834: PUSH0
+ 25835: BRK
+ 25836: PUSHF   0.8
+ 25841: BRK
+ 25842: POP
+ 25843: PUSHIIB #1                    ; symbol "Task_New"
+ 25845: CALL    argc=37               ; args @26003, @26006, @26009, @26012, @26015, @26018, @26020, @26026, @26032, @26034, @26040, @26046, @26052, @26058, @26060, @26062, @26068, @26074, @26076, @26082, @26085, @26091, @26097, @26103, @26105, @26111, @26117, @26119, @26125, @26131, @26137, @26143, @26149, @26155, @26161, @26167, @26173
+ 25998: BRA     +176                  ; -> 26179
+ 26003: PUSH1
+ 26004: MINUS
+ 26005: BRK
+ 26006: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 26008: BRK
+ 26009: PUSHSIB #142                  ; string "AITYPE_SPETNAZ_GUARD_UZI, GD_2"
+ 26011: BRK
+ 26012: PUSHSIB #141                  ; string "AITYPE_SPETNAZ_GUARD_UZI"
+ 26014: BRK
+ 26015: PUSHSIB #45                   ; string "GD_2"
+ 26017: BRK
+ 26018: PUSH1
+ 26019: BRK
+ 26020: PUSHF   0.7
+ 26025: BRK
+ 26026: PUSHF   0.33
+ 26031: BRK
+ 26032: PUSH1
+ 26033: BRK
+ 26034: PUSHF   10
+ 26039: BRK
+ 26040: PUSHF   15
+ 26045: BRK
+ 26046: PUSHF   15
+ 26051: BRK
+ 26052: PUSHF   0.5
+ 26057: BRK
+ 26058: PUSH0
+ 26059: BRK
+ 26060: PUSH0
+ 26061: BRK
+ 26062: PUSHF   0.5
+ 26067: BRK
+ 26068: PUSHF   0.5
+ 26073: BRK
+ 26074: PUSH1
+ 26075: BRK
+ 26076: PUSHF   0.7
+ 26081: BRK
+ 26082: PUSHB   32
+ 26084: BRK
+ 26085: PUSHF   0.7
+ 26090: BRK
+ 26091: PUSHF   0.1
+ 26096: BRK
+ 26097: PUSHF   0.3
+ 26102: BRK
+ 26103: PUSH1
+ 26104: BRK
+ 26105: PUSHF   0.5
+ 26110: BRK
+ 26111: PUSHF   0.1
+ 26116: BRK
+ 26117: PUSH0
+ 26118: BRK
+ 26119: PUSHF   0.33
+ 26124: BRK
+ 26125: PUSHF   0.1
+ 26130: BRK
+ 26131: PUSHF   10
+ 26136: BRK
+ 26137: PUSHF   60
+ 26142: BRK
+ 26143: PUSHF   0.5
+ 26148: BRK
+ 26149: PUSHF   0.5
+ 26154: BRK
+ 26155: PUSHF   0.3
+ 26160: BRK
+ 26161: PUSHF   0.7
+ 26166: BRK
+ 26167: PUSHF   0.9
+ 26172: BRK
+ 26173: PUSHF   0.8
+ 26178: BRK
+ 26179: POP
+ 26180: PUSHIIB #1                    ; symbol "Task_New"
+ 26182: CALL    argc=37               ; args @26340, @26343, @26346, @26349, @26352, @26355, @26361, @26363, @26369, @26371, @26377, @26383, @26389, @26395, @26397, @26399, @26405, @26411, @26413, @26419, @26422, @26428, @26434, @26440, @26446, @26448, @26454, @26456, @26462, @26468, @26474, @26480, @26486, @26492, @26498, @26504, @26510
+ 26335: BRA     +176                  ; -> 26516
+ 26340: PUSH1
+ 26341: MINUS
+ 26342: BRK
+ 26343: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 26345: BRK
+ 26346: PUSHSIB #143                  ; string "AITYPE_SPETNAZ_GUARD_UZI, GD_3"
+ 26348: BRK
+ 26349: PUSHSIB #141                  ; string "AITYPE_SPETNAZ_GUARD_UZI"
+ 26351: BRK
+ 26352: PUSHSIB #47                   ; string "GD_3"
+ 26354: BRK
+ 26355: PUSHF   1.3
+ 26360: BRK
+ 26361: PUSH1
+ 26362: BRK
+ 26363: PUSHF   0.33
+ 26368: BRK
+ 26369: PUSH1
+ 26370: BRK
+ 26371: PUSHF   30
+ 26376: BRK
+ 26377: PUSHF   10
+ 26382: BRK
+ 26383: PUSHF   15
+ 26388: BRK
+ 26389: PUSHF   0.5
+ 26394: BRK
+ 26395: PUSH0
+ 26396: BRK
+ 26397: PUSH0
+ 26398: BRK
+ 26399: PUSHF   0.5
+ 26404: BRK
+ 26405: PUSHF   0.5
+ 26410: BRK
+ 26411: PUSH1
+ 26412: BRK
+ 26413: PUSHF   0.8
+ 26418: BRK
+ 26419: PUSHB   32
+ 26421: BRK
+ 26422: PUSHF   0.8
+ 26427: BRK
+ 26428: PUSHF   0.1
+ 26433: BRK
+ 26434: PUSHF   0.3
+ 26439: BRK
+ 26440: PUSHF   0.5
+ 26445: BRK
+ 26446: PUSH0
+ 26447: BRK
+ 26448: PUSHF   0.1
+ 26453: BRK
+ 26454: PUSH0
+ 26455: BRK
+ 26456: PUSHF   0.33
+ 26461: BRK
+ 26462: PUSHF   0.1
+ 26467: BRK
+ 26468: PUSHF   10
+ 26473: BRK
+ 26474: PUSHF   60
+ 26479: BRK
+ 26480: PUSHF   0.5
+ 26485: BRK
+ 26486: PUSHF   0.2
+ 26491: BRK
+ 26492: PUSHF   0.5
+ 26497: BRK
+ 26498: PUSHF   0.2
+ 26503: BRK
+ 26504: PUSHF   0.9
+ 26509: BRK
+ 26510: PUSHF   0.8
+ 26515: BRK
+ 26516: POP
+ 26517: PUSHIIB #1                    ; symbol "Task_New"
+ 26519: CALL    argc=37               ; args @26677, @26680, @26683, @26686, @26689, @26692, @26698, @26704, @26710, @26712, @26718, @26724, @26730, @26736, @26738, @26740, @26746, @26752, @26758, @26764, @26767, @26773, @26779, @26785, @26791, @26797, @26803, @26805, @26811, @26817, @26823, @26829, @26835, @26841, @26847, @26853, @26859
+ 26672: BRA     +188                  ; -> 26865
+ 26677: PUSH1
+ 26678: MINUS
+ 26679: BRK
+ 26680: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 26682: BRK
+ 26683: PUSHSIB #144                  ; string "AITYPE_SPETNAZ_GUARD_AK, GD_1"
+ 26685: BRK
+ 26686: PUSHSIB #145                  ; string "AITYPE_SPETNAZ_GUARD_AK"
+ 26688: BRK
+ 26689: PUSHSIB #43                   ; string "GD_1"
+ 26691: BRK
+ 26692: PUSHF   0.7
+ 26697: BRK
+ 26698: PUSHF   0.5
+ 26703: BRK
+ 26704: PUSHF   0.33
+ 26709: BRK
+ 26710: PUSH1
+ 26711: BRK
+ 26712: PUSHF   10
+ 26717: BRK
+ 26718: PUSHF   15
+ 26723: BRK
+ 26724: PUSHF   15
+ 26729: BRK
+ 26730: PUSHF   0.5
+ 26735: BRK
+ 26736: PUSH0
+ 26737: BRK
+ 26738: PUSH0
+ 26739: BRK
+ 26740: PUSHF   0.5
+ 26745: BRK
+ 26746: PUSHF   0.5
+ 26751: BRK
+ 26752: PUSHF   0.8
+ 26757: BRK
+ 26758: PUSHF   0.3
+ 26763: BRK
+ 26764: PUSHB   12
+ 26766: BRK
+ 26767: PUSHF   0.6
+ 26772: BRK
+ 26773: PUSHF   0.1
+ 26778: BRK
+ 26779: PUSHF   0.3
+ 26784: BRK
+ 26785: PUSHF   1.5
+ 26790: BRK
+ 26791: PUSHF   2
+ 26796: BRK
+ 26797: PUSHF   0.1
+ 26802: BRK
+ 26803: PUSH0
+ 26804: BRK
+ 26805: PUSHF   0.33
+ 26810: BRK
+ 26811: PUSHF   0.1
+ 26816: BRK
+ 26817: PUSHF   10
+ 26822: BRK
+ 26823: PUSHF   60
+ 26828: BRK
+ 26829: PUSHF   0.5
+ 26834: BRK
+ 26835: PUSHF   0.5
+ 26840: BRK
+ 26841: PUSHF   0.3
+ 26846: BRK
+ 26847: PUSHF   0.7
+ 26852: BRK
+ 26853: PUSHF   0.9
+ 26858: BRK
+ 26859: PUSHF   0.8
+ 26864: BRK
+ 26865: POP
+ 26866: PUSHIIB #1                    ; symbol "Task_New"
+ 26868: CALL    argc=37               ; args @27026, @27029, @27032, @27035, @27038, @27041, @27043, @27049, @27055, @27057, @27063, @27069, @27075, @27081, @27083, @27085, @27091, @27097, @27099, @27105, @27108, @27114, @27120, @27126, @27132, @27138, @27144, @27146, @27152, @27158, @27164, @27170, @27176, @27182, @27188, @27194, @27200
+ 27021: BRA     +180                  ; -> 27206
+ 27026: PUSH1
+ 27027: MINUS
+ 27028: BRK
+ 27029: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 27031: BRK
+ 27032: PUSHSIB #146                  ; string "AITYPE_SPETNAZ_GUARD_AK, GD_2"
+ 27034: BRK
+ 27035: PUSHSIB #145                  ; string "AITYPE_SPETNAZ_GUARD_AK"
+ 27037: BRK
+ 27038: PUSHSIB #45                   ; string "GD_2"
+ 27040: BRK
+ 27041: PUSH1
+ 27042: BRK
+ 27043: PUSHF   0.7
+ 27048: BRK
+ 27049: PUSHF   0.33
+ 27054: BRK
+ 27055: PUSH1
+ 27056: BRK
+ 27057: PUSHF   10
+ 27062: BRK
+ 27063: PUSHF   15
+ 27068: BRK
+ 27069: PUSHF   15
+ 27074: BRK
+ 27075: PUSHF   0.5
+ 27080: BRK
+ 27081: PUSH0
+ 27082: BRK
+ 27083: PUSH0
+ 27084: BRK
+ 27085: PUSHF   0.5
+ 27090: BRK
+ 27091: PUSHF   0.5
+ 27096: BRK
+ 27097: PUSH1
+ 27098: BRK
+ 27099: PUSHF   0.7
+ 27104: BRK
+ 27105: PUSHB   12
+ 27107: BRK
+ 27108: PUSHF   0.7
+ 27113: BRK
+ 27114: PUSHF   0.1
+ 27119: BRK
+ 27120: PUSHF   0.3
+ 27125: BRK
+ 27126: PUSHF   0.5
+ 27131: BRK
+ 27132: PUSHF   0.5
+ 27137: BRK
+ 27138: PUSHF   0.1
+ 27143: BRK
+ 27144: PUSH0
+ 27145: BRK
+ 27146: PUSHF   0.33
+ 27151: BRK
+ 27152: PUSHF   0.1
+ 27157: BRK
+ 27158: PUSHF   10
+ 27163: BRK
+ 27164: PUSHF   60
+ 27169: BRK
+ 27170: PUSHF   0.5
+ 27175: BRK
+ 27176: PUSHF   0.5
+ 27181: BRK
+ 27182: PUSHF   0.3
+ 27187: BRK
+ 27188: PUSHF   0.7
+ 27193: BRK
+ 27194: PUSHF   0.9
+ 27199: BRK
+ 27200: PUSHF   0.8
+ 27205: BRK
+ 27206: POP
+ 27207: PUSHIIB #1                    ; symbol "Task_New"
+ 27209: CALL    argc=37               ; args @27367, @27370, @27373, @27376, @27379, @27382, @27388, @27390, @27396, @27398, @27404, @27410, @27416, @27422, @27424, @27426, @27432, @27438, @27440, @27446, @27449, @27455, @27461, @27467, @27473, @27475, @27481, @27483, @27489, @27495, @27501, @27507, @27513, @27519, @27525, @27531, @27537
+ 27362: BRA     +176                  ; -> 27543
+ 27367: PUSH1
+ 27368: MINUS
+ 27369: BRK
+ 27370: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 27372: BRK
+ 27373: PUSHSIB #147                  ; string "AITYPE_SPETNAZ_GUARD_AK, GD_3"
+ 27375: BRK
+ 27376: PUSHSIB #145                  ; string "AITYPE_SPETNAZ_GUARD_AK"
+ 27378: BRK
+ 27379: PUSHSIB #47                   ; string "GD_3"
+ 27381: BRK
+ 27382: PUSHF   1.3
+ 27387: BRK
+ 27388: PUSH1
+ 27389: BRK
+ 27390: PUSHF   0.33
+ 27395: BRK
+ 27396: PUSH1
+ 27397: BRK
+ 27398: PUSHF   30
+ 27403: BRK
+ 27404: PUSHF   10
+ 27409: BRK
+ 27410: PUSHF   15
+ 27415: BRK
+ 27416: PUSHF   0.5
+ 27421: BRK
+ 27422: PUSH0
+ 27423: BRK
+ 27424: PUSH0
+ 27425: BRK
+ 27426: PUSHF   0.5
+ 27431: BRK
+ 27432: PUSHF   0.5
+ 27437: BRK
+ 27438: PUSH1
+ 27439: BRK
+ 27440: PUSHF   0.8
+ 27445: BRK
+ 27446: PUSHB   12
+ 27448: BRK
+ 27449: PUSHF   0.8
+ 27454: BRK
+ 27455: PUSHF   0.1
+ 27460: BRK
+ 27461: PUSHF   0.3
+ 27466: BRK
+ 27467: PUSHF   0.5
+ 27472: BRK
+ 27473: PUSH0
+ 27474: BRK
+ 27475: PUSHF   0.1
+ 27480: BRK
+ 27481: PUSH0
+ 27482: BRK
+ 27483: PUSHF   0.33
+ 27488: BRK
+ 27489: PUSHF   0.1
+ 27494: BRK
+ 27495: PUSHF   10
+ 27500: BRK
+ 27501: PUSHF   60
+ 27506: BRK
+ 27507: PUSHF   0.5
+ 27512: BRK
+ 27513: PUSHF   0.2
+ 27518: BRK
+ 27519: PUSHF   0.5
+ 27524: BRK
+ 27525: PUSHF   0.2
+ 27530: BRK
+ 27531: PUSHF   0.9
+ 27536: BRK
+ 27537: PUSHF   0.8
+ 27542: BRK
+ 27543: POP
+ 27544: PUSHIIB #1                    ; symbol "Task_New"
+ 27546: CALL    argc=37               ; args @27704, @27707, @27710, @27713, @27716, @27719, @27725, @27731, @27737, @27739, @27745, @27751, @27757, @27763, @27765, @27767, @27773, @27779, @27785, @27791, @27794, @27800, @27806, @27812, @27818, @27824, @27830, @27832, @27838, @27844, @27850, @27856, @27862, @27868, @27874, @27880, @27886
+ 27699: BRA     +188                  ; -> 27892
+ 27704: PUSH1
+ 27705: MINUS
+ 27706: BRK
+ 27707: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 27709: BRK
+ 27710: PUSHSIB #148                  ; string "AITYPE_SPETNAZ_GUARD_SPAS, GD_1"
+ 27712: BRK
+ 27713: PUSHSIB #149                  ; string "AITYPE_SPETNAZ_GUARD_SPAS"
+ 27715: BRK
+ 27716: PUSHSIB #43                   ; string "GD_1"
+ 27718: BRK
+ 27719: PUSHF   0.7
+ 27724: BRK
+ 27725: PUSHF   0.5
+ 27730: BRK
+ 27731: PUSHF   0.33
+ 27736: BRK
+ 27737: PUSH1
+ 27738: BRK
+ 27739: PUSHF   10
+ 27744: BRK
+ 27745: PUSHF   15
+ 27750: BRK
+ 27751: PUSHF   15
+ 27756: BRK
+ 27757: PUSHF   0.5
+ 27762: BRK
+ 27763: PUSH0
+ 27764: BRK
+ 27765: PUSH0
+ 27766: BRK
+ 27767: PUSHF   0.5
+ 27772: BRK
+ 27773: PUSHF   0.5
+ 27778: BRK
+ 27779: PUSHF   0.8
+ 27784: BRK
+ 27785: PUSHF   0.3
+ 27790: BRK
+ 27791: PUSHB   12
+ 27793: BRK
+ 27794: PUSHF   0.6
+ 27799: BRK
+ 27800: PUSHF   0.1
+ 27805: BRK
+ 27806: PUSHF   0.3
+ 27811: BRK
+ 27812: PUSHF   1.5
+ 27817: BRK
+ 27818: PUSHF   2
+ 27823: BRK
+ 27824: PUSHF   0.1
+ 27829: BRK
+ 27830: PUSH0
+ 27831: BRK
+ 27832: PUSHF   0.33
+ 27837: BRK
+ 27838: PUSHF   0.1
+ 27843: BRK
+ 27844: PUSHF   10
+ 27849: BRK
+ 27850: PUSHF   60
+ 27855: BRK
+ 27856: PUSHF   0.5
+ 27861: BRK
+ 27862: PUSHF   0.5
+ 27867: BRK
+ 27868: PUSHF   0.3
+ 27873: BRK
+ 27874: PUSHF   0.7
+ 27879: BRK
+ 27880: PUSHF   0.9
+ 27885: BRK
+ 27886: PUSHF   0.8
+ 27891: BRK
+ 27892: POP
+ 27893: PUSHIIB #1                    ; symbol "Task_New"
+ 27895: CALL    argc=37               ; args @28053, @28056, @28059, @28062, @28065, @28068, @28070, @28076, @28082, @28084, @28090, @28096, @28102, @28108, @28110, @28112, @28118, @28124, @28126, @28132, @28135, @28141, @28147, @28153, @28159, @28165, @28171, @28173, @28179, @28185, @28191, @28197, @28203, @28209, @28215, @28221, @28227
+ 28048: BRA     +180                  ; -> 28233
+ 28053: PUSH1
+ 28054: MINUS
+ 28055: BRK
+ 28056: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 28058: BRK
+ 28059: PUSHSIB #150                  ; string "AITYPE_SPETNAZ_GUARD_SPAS, GD_2"
+ 28061: BRK
+ 28062: PUSHSIB #149                  ; string "AITYPE_SPETNAZ_GUARD_SPAS"
+ 28064: BRK
+ 28065: PUSHSIB #45                   ; string "GD_2"
+ 28067: BRK
+ 28068: PUSH1
+ 28069: BRK
+ 28070: PUSHF   0.7
+ 28075: BRK
+ 28076: PUSHF   0.33
+ 28081: BRK
+ 28082: PUSH1
+ 28083: BRK
+ 28084: PUSHF   10
+ 28089: BRK
+ 28090: PUSHF   15
+ 28095: BRK
+ 28096: PUSHF   15
+ 28101: BRK
+ 28102: PUSHF   0.5
+ 28107: BRK
+ 28108: PUSH0
+ 28109: BRK
+ 28110: PUSH0
+ 28111: BRK
+ 28112: PUSHF   0.5
+ 28117: BRK
+ 28118: PUSHF   0.5
+ 28123: BRK
+ 28124: PUSH1
+ 28125: BRK
+ 28126: PUSHF   0.7
+ 28131: BRK
+ 28132: PUSHB   12
+ 28134: BRK
+ 28135: PUSHF   0.7
+ 28140: BRK
+ 28141: PUSHF   0.1
+ 28146: BRK
+ 28147: PUSHF   0.3
+ 28152: BRK
+ 28153: PUSHF   0.5
+ 28158: BRK
+ 28159: PUSHF   0.5
+ 28164: BRK
+ 28165: PUSHF   0.1
+ 28170: BRK
+ 28171: PUSH0
+ 28172: BRK
+ 28173: PUSHF   0.33
+ 28178: BRK
+ 28179: PUSHF   0.1
+ 28184: BRK
+ 28185: PUSHF   10
+ 28190: BRK
+ 28191: PUSHF   60
+ 28196: BRK
+ 28197: PUSHF   0.5
+ 28202: BRK
+ 28203: PUSHF   0.5
+ 28208: BRK
+ 28209: PUSHF   0.3
+ 28214: BRK
+ 28215: PUSHF   0.7
+ 28220: BRK
+ 28221: PUSHF   0.9
+ 28226: BRK
+ 28227: PUSHF   0.8
+ 28232: BRK
+ 28233: POP
+ 28234: PUSHIIB #1                    ; symbol "Task_New"
+ 28236: CALL    argc=37               ; args @28394, @28397, @28400, @28403, @28406, @28409, @28415, @28417, @28423, @28425, @28431, @28437, @28443, @28449, @28451, @28453, @28459, @28465, @28467, @28473, @28476, @28482, @28488, @28494, @28500, @28502, @28508, @28510, @28516, @28522, @28528, @28534, @28540, @28546, @28552, @28558, @28564
+ 28389: BRA     +176                  ; -> 28570
+ 28394: PUSH1
+ 28395: MINUS
+ 28396: BRK
+ 28397: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 28399: BRK
+ 28400: PUSHSIB #151                  ; string "AITYPE_SPETNAZ_GUARD_SPAS, GD_3"
+ 28402: BRK
+ 28403: PUSHSIB #149                  ; string "AITYPE_SPETNAZ_GUARD_SPAS"
+ 28405: BRK
+ 28406: PUSHSIB #47                   ; string "GD_3"
+ 28408: BRK
+ 28409: PUSHF   1.3
+ 28414: BRK
+ 28415: PUSH1
+ 28416: BRK
+ 28417: PUSHF   0.33
+ 28422: BRK
+ 28423: PUSH1
+ 28424: BRK
+ 28425: PUSHF   30
+ 28430: BRK
+ 28431: PUSHF   10
+ 28436: BRK
+ 28437: PUSHF   10
+ 28442: BRK
+ 28443: PUSHF   0.5
+ 28448: BRK
+ 28449: PUSH0
+ 28450: BRK
+ 28451: PUSH0
+ 28452: BRK
+ 28453: PUSHF   0.5
+ 28458: BRK
+ 28459: PUSHF   0.5
+ 28464: BRK
+ 28465: PUSH1
+ 28466: BRK
+ 28467: PUSHF   0.8
+ 28472: BRK
+ 28473: PUSHB   12
+ 28475: BRK
+ 28476: PUSHF   0.8
+ 28481: BRK
+ 28482: PUSHF   0.1
+ 28487: BRK
+ 28488: PUSHF   0.3
+ 28493: BRK
+ 28494: PUSHF   0.5
+ 28499: BRK
+ 28500: PUSH0
+ 28501: BRK
+ 28502: PUSHF   0.1
+ 28507: BRK
+ 28508: PUSH0
+ 28509: BRK
+ 28510: PUSHF   0.33
+ 28515: BRK
+ 28516: PUSHF   0.1
+ 28521: BRK
+ 28522: PUSHF   10
+ 28527: BRK
+ 28528: PUSHF   60
+ 28533: BRK
+ 28534: PUSHF   0.5
+ 28539: BRK
+ 28540: PUSHF   0.2
+ 28545: BRK
+ 28546: PUSHF   0.5
+ 28551: BRK
+ 28552: PUSHF   0.2
+ 28557: BRK
+ 28558: PUSHF   0.9
+ 28563: BRK
+ 28564: PUSHF   0.8
+ 28569: BRK
+ 28570: POP
+ 28571: PUSHIIB #1                    ; symbol "Task_New"
+ 28573: CALL    argc=37               ; args @28731, @28734, @28737, @28740, @28743, @28746, @28752, @28758, @28764, @28766, @28772, @28778, @28784, @28790, @28796, @28802, @28808, @28814, @28820, @28826, @28829, @28835, @28841, @28847, @28853, @28859, @28865, @28867, @28873, @28879, @28885, @28891, @28897, @28903, @28909, @28915, @28921
+ 28726: BRA     +196                  ; -> 28927
+ 28731: PUSH1
+ 28732: MINUS
+ 28733: BRK
+ 28734: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 28736: BRK
+ 28737: PUSHSIB #152                  ; string "AITYPE_PATROL_PISTOL, GD_1"
+ 28739: BRK
+ 28740: PUSHSIB #153                  ; string "AITYPE_PATROL_PISTOL"
+ 28742: BRK
+ 28743: PUSHSIB #43                   ; string "GD_1"
+ 28745: BRK
+ 28746: PUSHF   0.3
+ 28751: BRK
+ 28752: PUSHF   0.2
+ 28757: BRK
+ 28758: PUSHF   0.33
+ 28763: BRK
+ 28764: PUSH1
+ 28765: BRK
+ 28766: PUSHF   10
+ 28771: BRK
+ 28772: PUSHF   15
+ 28777: BRK
+ 28778: PUSHF   15
+ 28783: BRK
+ 28784: PUSHF   0.3
+ 28789: BRK
+ 28790: PUSHF   0.5
+ 28795: BRK
+ 28796: PUSHF   0.5
+ 28801: BRK
+ 28802: PUSHF   0.5
+ 28807: BRK
+ 28808: PUSHF   0.5
+ 28813: BRK
+ 28814: PUSHF   0.6
+ 28819: BRK
+ 28820: PUSHF   0.1
+ 28825: BRK
+ 28826: PUSHB   17
+ 28828: BRK
+ 28829: PUSHF   0.5
+ 28834: BRK
+ 28835: PUSHF   0.8
+ 28840: BRK
+ 28841: PUSHF   0.2
+ 28846: BRK
+ 28847: PUSHF   1.5
+ 28852: BRK
+ 28853: PUSHF   2
+ 28858: BRK
+ 28859: PUSHF   0.1
+ 28864: BRK
+ 28865: PUSH0
+ 28866: BRK
+ 28867: PUSHF   0.33
+ 28872: BRK
+ 28873: PUSHF   0.1
+ 28878: BRK
+ 28879: PUSHF   10
+ 28884: BRK
+ 28885: PUSHF   60
+ 28890: BRK
+ 28891: PUSHF   0.5
+ 28896: BRK
+ 28897: PUSHF   0.5
+ 28902: BRK
+ 28903: PUSHF   0.3
+ 28908: BRK
+ 28909: PUSHF   0.7
+ 28914: BRK
+ 28915: PUSHF   0.7
+ 28920: BRK
+ 28921: PUSHF   0.3
+ 28926: BRK
+ 28927: POP
+ 28928: PUSHIIB #1                    ; symbol "Task_New"
+ 28930: CALL    argc=37               ; args @29088, @29091, @29094, @29097, @29100, @29103, @29109, @29115, @29121, @29123, @29129, @29135, @29141, @29147, @29153, @29159, @29165, @29171, @29173, @29179, @29182, @29188, @29194, @29200, @29206, @29212, @29218, @29220, @29226, @29232, @29238, @29244, @29250, @29256, @29262, @29268, @29274
+ 29083: BRA     +192                  ; -> 29280
+ 29088: PUSH1
+ 29089: MINUS
+ 29090: BRK
+ 29091: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 29093: BRK
+ 29094: PUSHSIB #154                  ; string "AITYPE_PATROL_PISTOL, GD_2"
+ 29096: BRK
+ 29097: PUSHSIB #153                  ; string "AITYPE_PATROL_PISTOL"
+ 29099: BRK
+ 29100: PUSHSIB #45                   ; string "GD_2"
+ 29102: BRK
+ 29103: PUSHF   0.5
+ 29108: BRK
+ 29109: PUSHF   0.3
+ 29114: BRK
+ 29115: PUSHF   0.33
+ 29120: BRK
+ 29121: PUSH1
+ 29122: BRK
+ 29123: PUSHF   10
+ 29128: BRK
+ 29129: PUSHF   15
+ 29134: BRK
+ 29135: PUSHF   15
+ 29140: BRK
+ 29141: PUSHF   0.3
+ 29146: BRK
+ 29147: PUSHF   0.5
+ 29152: BRK
+ 29153: PUSHF   0.5
+ 29158: BRK
+ 29159: PUSHF   0.5
+ 29164: BRK
+ 29165: PUSHF   0.5
+ 29170: BRK
+ 29171: PUSH1
+ 29172: BRK
+ 29173: PUSHF   0.3
+ 29178: BRK
+ 29179: PUSHB   17
+ 29181: BRK
+ 29182: PUSHF   0.6
+ 29187: BRK
+ 29188: PUSHF   0.8
+ 29193: BRK
+ 29194: PUSHF   0.2
+ 29199: BRK
+ 29200: PUSHF   0.5
+ 29205: BRK
+ 29206: PUSHF   0.5
+ 29211: BRK
+ 29212: PUSHF   0.1
+ 29217: BRK
+ 29218: PUSH0
+ 29219: BRK
+ 29220: PUSHF   0.33
+ 29225: BRK
+ 29226: PUSHF   0.1
+ 29231: BRK
+ 29232: PUSHF   10
+ 29237: BRK
+ 29238: PUSHF   60
+ 29243: BRK
+ 29244: PUSHF   0.5
+ 29249: BRK
+ 29250: PUSHF   0.5
+ 29255: BRK
+ 29256: PUSHF   0.3
+ 29261: BRK
+ 29262: PUSHF   0.7
+ 29267: BRK
+ 29268: PUSHF   0.7
+ 29273: BRK
+ 29274: PUSHF   0.3
+ 29279: BRK
+ 29280: POP
+ 29281: PUSHIIB #1                    ; symbol "Task_New"
+ 29283: CALL    argc=37               ; args @29441, @29444, @29447, @29450, @29453, @29456, @29462, @29468, @29474, @29476, @29482, @29488, @29494, @29500, @29506, @29512, @29518, @29524, @29526, @29532, @29535, @29541, @29547, @29553, @29559, @29561, @29567, @29569, @29575, @29581, @29587, @29593, @29599, @29605, @29607, @29613, @29619
+ 29436: BRA     +184                  ; -> 29625
+ 29441: PUSH1
+ 29442: MINUS
+ 29443: BRK
+ 29444: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 29446: BRK
+ 29447: PUSHSIB #155                  ; string "AITYPE_PATROL_PISTOL, GD_3"
+ 29449: BRK
+ 29450: PUSHSIB #153                  ; string "AITYPE_PATROL_PISTOL"
+ 29452: BRK
+ 29453: PUSHSIB #47                   ; string "GD_3"
+ 29455: BRK
+ 29456: PUSHF   0.8
+ 29461: BRK
+ 29462: PUSHF   0.5
+ 29467: BRK
+ 29468: PUSHF   0.33
+ 29473: BRK
+ 29474: PUSH1
+ 29475: BRK
+ 29476: PUSHF   20
+ 29481: BRK
+ 29482: PUSHF   5
+ 29487: BRK
+ 29488: PUSHF   15
+ 29493: BRK
+ 29494: PUSHF   0.3
+ 29499: BRK
+ 29500: PUSHF   0.4
+ 29505: BRK
+ 29506: PUSHF   0.4
+ 29511: BRK
+ 29512: PUSHF   0.5
+ 29517: BRK
+ 29518: PUSHF   0.5
+ 29523: BRK
+ 29524: PUSH1
+ 29525: BRK
+ 29526: PUSHF   0.5
+ 29531: BRK
+ 29532: PUSHB   17
+ 29534: BRK
+ 29535: PUSHF   0.6
+ 29540: BRK
+ 29541: PUSHF   0.8
+ 29546: BRK
+ 29547: PUSHF   0.2
+ 29552: BRK
+ 29553: PUSHF   0.5
+ 29558: BRK
+ 29559: PUSH0
+ 29560: BRK
+ 29561: PUSHF   0.1
+ 29566: BRK
+ 29567: PUSH0
+ 29568: BRK
+ 29569: PUSHF   0.33
+ 29574: BRK
+ 29575: PUSHF   0.1
+ 29580: BRK
+ 29581: PUSHF   10
+ 29586: BRK
+ 29587: PUSHF   60
+ 29592: BRK
+ 29593: PUSHF   0.7
+ 29598: BRK
+ 29599: PUSHF   0.4
+ 29604: BRK
+ 29605: PUSH1
+ 29606: BRK
+ 29607: PUSHF   0.4
+ 29612: BRK
+ 29613: PUSHF   0.7
+ 29618: BRK
+ 29619: PUSHF   0.3
+ 29624: BRK
+ 29625: POP
+ 29626: PUSHIIB #1                    ; symbol "Task_New"
+ 29628: CALL    argc=37               ; args @29786, @29789, @29792, @29795, @29798, @29801, @29807, @29813, @29819, @29821, @29827, @29833, @29839, @29845, @29851, @29857, @29863, @29869, @29875, @29881, @29884, @29890, @29896, @29902, @29908, @29914, @29920, @29922, @29928, @29934, @29940, @29946, @29952, @29958, @29964, @29970, @29976
+ 29781: BRA     +196                  ; -> 29982
+ 29786: PUSH1
+ 29787: MINUS
+ 29788: BRK
+ 29789: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 29791: BRK
+ 29792: PUSHSIB #156                  ; string "AITYPE_GUARD_PISTOL, GD_1"
+ 29794: BRK
+ 29795: PUSHSIB #157                  ; string "AITYPE_GUARD_PISTOL"
+ 29797: BRK
+ 29798: PUSHSIB #43                   ; string "GD_1"
+ 29800: BRK
+ 29801: PUSHF   0.3
+ 29806: BRK
+ 29807: PUSHF   0.2
+ 29812: BRK
+ 29813: PUSHF   0.33
+ 29818: BRK
+ 29819: PUSH1
+ 29820: BRK
+ 29821: PUSHF   10
+ 29826: BRK
+ 29827: PUSHF   15
+ 29832: BRK
+ 29833: PUSHF   15
+ 29838: BRK
+ 29839: PUSHF   0.3
+ 29844: BRK
+ 29845: PUSHF   0.5
+ 29850: BRK
+ 29851: PUSHF   0.5
+ 29856: BRK
+ 29857: PUSHF   0.5
+ 29862: BRK
+ 29863: PUSHF   0.5
+ 29868: BRK
+ 29869: PUSHF   0.6
+ 29874: BRK
+ 29875: PUSHF   0.1
+ 29880: BRK
+ 29881: PUSHB   17
+ 29883: BRK
+ 29884: PUSHF   0.5
+ 29889: BRK
+ 29890: PUSHF   0.8
+ 29895: BRK
+ 29896: PUSHF   0.2
+ 29901: BRK
+ 29902: PUSHF   1.5
+ 29907: BRK
+ 29908: PUSHF   2
+ 29913: BRK
+ 29914: PUSHF   0.1
+ 29919: BRK
+ 29920: PUSH0
+ 29921: BRK
+ 29922: PUSHF   0.33
+ 29927: BRK
+ 29928: PUSHF   0.1
+ 29933: BRK
+ 29934: PUSHF   10
+ 29939: BRK
+ 29940: PUSHF   60
+ 29945: BRK
+ 29946: PUSHF   0.5
+ 29951: BRK
+ 29952: PUSHF   0.5
+ 29957: BRK
+ 29958: PUSHF   0.3
+ 29963: BRK
+ 29964: PUSHF   0.7
+ 29969: BRK
+ 29970: PUSHF   0.7
+ 29975: BRK
+ 29976: PUSHF   0.3
+ 29981: BRK
+ 29982: POP
+ 29983: PUSHIIB #1                    ; symbol "Task_New"
+ 29985: CALL    argc=37               ; args @30143, @30146, @30149, @30152, @30155, @30158, @30160, @30166, @30172, @30174, @30180, @30186, @30192, @30198, @30204, @30210, @30216, @30222, @30224, @30230, @30233, @30239, @30245, @30251, @30257, @30263, @30269, @30271, @30277, @30283, @30289, @30295, @30301, @30307, @30313, @30319, @30325
+ 30138: BRA     +188                  ; -> 30331
+ 30143: PUSH1
+ 30144: MINUS
+ 30145: BRK
+ 30146: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 30148: BRK
+ 30149: PUSHSIB #158                  ; string "AITYPE_GUARD_PISTOL, GD_2"
+ 30151: BRK
+ 30152: PUSHSIB #157                  ; string "AITYPE_GUARD_PISTOL"
+ 30154: BRK
+ 30155: PUSHSIB #45                   ; string "GD_2"
+ 30157: BRK
+ 30158: PUSH1
+ 30159: BRK
+ 30160: PUSHF   0.5
+ 30165: BRK
+ 30166: PUSHF   0.33
+ 30171: BRK
+ 30172: PUSH1
+ 30173: BRK
+ 30174: PUSHF   10
+ 30179: BRK
+ 30180: PUSHF   15
+ 30185: BRK
+ 30186: PUSHF   15
+ 30191: BRK
+ 30192: PUSHF   0.3
+ 30197: BRK
+ 30198: PUSHF   0.5
+ 30203: BRK
+ 30204: PUSHF   0.5
+ 30209: BRK
+ 30210: PUSHF   0.5
+ 30215: BRK
+ 30216: PUSHF   0.5
+ 30221: BRK
+ 30222: PUSH1
+ 30223: BRK
+ 30224: PUSHF   0.3
+ 30229: BRK
+ 30230: PUSHB   17
+ 30232: BRK
+ 30233: PUSHF   0.6
+ 30238: BRK
+ 30239: PUSHF   0.8
+ 30244: BRK
+ 30245: PUSHF   0.2
+ 30250: BRK
+ 30251: PUSHF   0.5
+ 30256: BRK
+ 30257: PUSHF   0.5
+ 30262: BRK
+ 30263: PUSHF   0.1
+ 30268: BRK
+ 30269: PUSH0
+ 30270: BRK
+ 30271: PUSHF   0.33
+ 30276: BRK
+ 30277: PUSHF   0.1
+ 30282: BRK
+ 30283: PUSHF   10
+ 30288: BRK
+ 30289: PUSHF   60
+ 30294: BRK
+ 30295: PUSHF   0.5
+ 30300: BRK
+ 30301: PUSHF   0.5
+ 30306: BRK
+ 30307: PUSHF   0.3
+ 30312: BRK
+ 30313: PUSHF   0.7
+ 30318: BRK
+ 30319: PUSHF   0.7
+ 30324: BRK
+ 30325: PUSHF   0.3
+ 30330: BRK
+ 30331: POP
+ 30332: PUSHIIB #1                    ; symbol "Task_New"
+ 30334: CALL    argc=37               ; args @30492, @30495, @30498, @30501, @30504, @30507, @30513, @30519, @30525, @30527, @30533, @30539, @30545, @30551, @30557, @30563, @30569, @30575, @30577, @30583, @30586, @30592, @30598, @30604, @30610, @30612, @30618, @30620, @30626, @30632, @30638, @30644, @30650, @30656, @30658, @30664, @30670
+ 30487: BRA     +184                  ; -> 30676
+ 30492: PUSH1
+ 30493: MINUS
+ 30494: BRK
+ 30495: PUSHSIB #3                    ; string "HumanAIConfigItem"
+ 30497: BRK
+ 30498: PUSHSIB #159                  ; string "AITYPE_GUARD_PISTOL, GD_3"
+ 30500: BRK
+ 30501: PUSHSIB #157                  ; string "AITYPE_GUARD_PISTOL"
+ 30503: BRK
+ 30504: PUSHSIB #47                   ; string "GD_3"
+ 30506: BRK
+ 30507: PUSHF   0.8
+ 30512: BRK
+ 30513: PUSHF   0.5
+ 30518: BRK
+ 30519: PUSHF   0.33
+ 30524: BRK
+ 30525: PUSH1
+ 30526: BRK
+ 30527: PUSHF   25
+ 30532: BRK
+ 30533: PUSHF   5
+ 30538: BRK
+ 30539: PUSHF   15
+ 30544: BRK
+ 30545: PUSHF   0.6
+ 30550: BRK
+ 30551: PUSHF   0.9
+ 30556: BRK
+ 30557: PUSHF   0.9
+ 30562: BRK
+ 30563: PUSHF   0.5
+ 30568: BRK
+ 30569: PUSHF   0.5
+ 30574: BRK
+ 30575: PUSH1
+ 30576: BRK
+ 30577: PUSHF   0.5
+ 30582: BRK
+ 30583: PUSHB   17
+ 30585: BRK
+ 30586: PUSHF   0.6
+ 30591: BRK
+ 30592: PUSHF   0.8
+ 30597: BRK
+ 30598: PUSHF   0.2
+ 30603: BRK
+ 30604: PUSHF   0.5
+ 30609: BRK
+ 30610: PUSH0
+ 30611: BRK
+ 30612: PUSHF   0.1
+ 30617: BRK
+ 30618: PUSH0
+ 30619: BRK
+ 30620: PUSHF   0.33
+ 30625: BRK
+ 30626: PUSHF   0.1
+ 30631: BRK
+ 30632: PUSHF   10
+ 30637: BRK
+ 30638: PUSHF   60
+ 30643: BRK
+ 30644: PUSHF   0.7
+ 30649: BRK
+ 30650: PUSHF   0.4
+ 30655: BRK
+ 30656: PUSH1
+ 30657: BRK
+ 30658: PUSHF   0.4
+ 30663: BRK
+ 30664: PUSHF   0.7
+ 30669: BRK
+ 30670: PUSHF   0.3
+ 30675: BRK
+ 30676: POP
+ 30677: BRK

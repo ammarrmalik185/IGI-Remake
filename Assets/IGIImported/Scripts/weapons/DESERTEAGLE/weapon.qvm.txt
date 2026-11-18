@@ -1,0 +1,106 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=49               ; args @208, @211, @214, @217, @220, @223, @226, @229, @232, @236, @240, @246, @249, @255, @259, @261, @265, @268, @270, @277, @283, @286, @288, @290, @292, @295, @298, @301, @305, @308, @311, @314, @317, @320, @323, @326, @329, @332, @336, @340, @344, @348, @352, @356, @360, @363, @366, @369, @372
+   203: BRA     +167                  ; -> 375
+   208: PUSHB   3
+   210: BRK
+   211: PUSHSIB #0                    ; string "WEAPON_ID_DESERTEAGLE"
+   213: BRK
+   214: PUSHSIB #1                    ; string "Desert Eagle"
+   216: BRK
+   217: PUSHSIB #2                    ; string "<GLOCK_INC>"
+   219: BRK
+   220: PUSHSIB #3                    ; string "<GLOCK_17DESC>"
+   222: BRK
+   223: PUSHIIB #1                    ; symbol "WEAPONTYPE_PISTOL"
+   225: BRK
+   226: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   228: BRK
+   229: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_CLIP"
+   231: BRK
+   232: PUSHW   656
+   235: BRK
+   236: PUSHW   919
+   239: BRK
+   240: PUSHF   0.5
+   245: BRK
+   246: PUSHB   2
+   248: BRK
+   249: PUSHF   2
+   254: BRK
+   255: PUSHW   400
+   258: BRK
+   259: PUSH1
+   260: BRK
+   261: PUSHW   200
+   264: BRK
+   265: PUSHB   10
+   267: BRK
+   268: PUSH1
+   269: BRK
+   270: PUSHF   1.5
+   275: MINUS
+   276: BRK
+   277: PUSHF   1.5
+   282: BRK
+   283: PUSHB   4
+   285: BRK
+   286: PUSH0
+   287: BRK
+   288: PUSH0
+   289: BRK
+   290: PUSH0
+   291: BRK
+   292: PUSHSIB #4                    ; string "<SELF-LOADING_PISTOL>"
+   294: BRK
+   295: PUSHB   40
+   297: BRK
+   298: PUSHSIB #5                    ; string "<GLOCK_17USERS>"
+   300: BRK
+   301: PUSHW   185
+   304: BRK
+   305: PUSHB   114
+   307: BRK
+   308: PUSHSIB #6                    ; string "106_01_1"
+   310: BRK
+   311: PUSHSIB #7                    ; string "113_01_1"
+   313: BRK
+   314: PUSHB   31
+   316: BRK
+   317: PUSHB   32
+   319: BRK
+   320: PUSHB   33
+   322: BRK
+   323: PUSH1
+   324: MINUS
+   325: BRK
+   326: PUSH1
+   327: MINUS
+   328: BRK
+   329: PUSHB   34
+   331: BRK
+   332: PUSHW   154
+   335: BRK
+   336: PUSHW   153
+   339: BRK
+   340: PUSHW   155
+   343: BRK
+   344: PUSHW   156
+   347: BRK
+   348: PUSHW   151
+   351: BRK
+   352: PUSHW   157
+   355: BRK
+   356: PUSHW   152
+   359: BRK
+   360: PUSHSIB #8                    ; string "deagle_shot_1"
+   362: BRK
+   363: PUSHSIB #8                    ; string "deagle_shot_1"
+   365: BRK
+   366: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   368: BRK
+   369: PUSHIIB #5                    ; symbol "TASKTYPE_GUNSHOT"
+   371: BRK
+   372: PUSHIIB #6                    ; symbol "TASKTYPE_GUN"
+   374: BRK
+   375: POP
+   376: BRK

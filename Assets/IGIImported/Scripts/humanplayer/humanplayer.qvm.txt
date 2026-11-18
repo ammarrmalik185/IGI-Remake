@@ -1,0 +1,213 @@
+     0: PUSHIIB #0                    ; symbol "DefineHumanPlayerGeneral"
+     2: CALL    argc=43               ; args @184, @190, @196, @199, @205, @211, @217, @223, @229, @235, @241, @247, @249, @255, @261, @263, @269, @275, @277, @283, @289, @291, @293, @295, @297, @299, @301, @307, @313, @315, @321, @327, @329, @335, @341, @343, @349, @355, @357, @359, @361, @363, @369
+   179: BRA     +191                  ; -> 375
+   184: PUSHF   1.75
+   189: BRK
+   190: PUSHF   17.5
+   195: BRK
+   196: PUSHB   27
+   198: BRK
+   199: PUSHF   0.5
+   204: BRK
+   205: PUSHF   0.85
+   210: BRK
+   211: PUSHF   0.85
+   216: BRK
+   217: PUSHF   0.25
+   222: BRK
+   223: PUSHF   3
+   228: BRK
+   229: PUSHF   0.5
+   234: BRK
+   235: PUSHF   0.5
+   240: BRK
+   241: PUSHF   0.75
+   246: BRK
+   247: PUSH1
+   248: BRK
+   249: PUSHF   0.5
+   254: BRK
+   255: PUSHF   0.75
+   260: BRK
+   261: PUSH1
+   262: BRK
+   263: PUSHF   0.5
+   268: BRK
+   269: PUSHF   0.75
+   274: BRK
+   275: PUSH1
+   276: BRK
+   277: PUSHF   0.5
+   282: BRK
+   283: PUSHF   0.75
+   288: BRK
+   289: PUSH1
+   290: BRK
+   291: PUSH1
+   292: BRK
+   293: PUSH1
+   294: BRK
+   295: PUSH1
+   296: BRK
+   297: PUSH1
+   298: BRK
+   299: PUSH1
+   300: BRK
+   301: PUSHF   0.5
+   306: BRK
+   307: PUSHF   0.75
+   312: BRK
+   313: PUSH1
+   314: BRK
+   315: PUSHF   0.5
+   320: BRK
+   321: PUSHF   0.75
+   326: BRK
+   327: PUSH1
+   328: BRK
+   329: PUSHF   0.5
+   334: BRK
+   335: PUSHF   0.75
+   340: BRK
+   341: PUSH1
+   342: BRK
+   343: PUSHF   0.5
+   348: BRK
+   349: PUSHF   0.75
+   354: BRK
+   355: PUSH1
+   356: BRK
+   357: PUSH1
+   358: BRK
+   359: PUSH1
+   360: BRK
+   361: PUSH1
+   362: BRK
+   363: PUSH    100000
+   368: BRK
+   369: PUSH    100000
+   374: BRK
+   375: POP
+   376: PUSHIIB #1                    ; symbol "DefineHumanPlayerWeaponCycle"
+   378: CALL    argc=18               ; args @460, @463, @466, @469, @472, @475, @478, @481, @484, @487, @490, @493, @496, @499, @502, @505, @508, @511
+   455: BRA     +54                   ; -> 514
+   460: PUSHIIB #2                    ; symbol "WEAPON_ID_KNIFE"
+   462: BRK
+   463: PUSHIIB #3                    ; symbol "WEAPON_ID_GLOCK"
+   465: BRK
+   466: PUSHIIB #4                    ; symbol "WEAPON_ID_COLT"
+   468: BRK
+   469: PUSHIIB #5                    ; symbol "WEAPON_ID_DESERTEAGLE"
+   471: BRK
+   472: PUSHIIB #6                    ; symbol "WEAPON_ID_UZI"
+   474: BRK
+   475: PUSHIIB #7                    ; symbol "WEAPON_ID_UZIX2"
+   477: BRK
+   478: PUSHIIB #8                    ; symbol "WEAPON_ID_MP5SD"
+   480: BRK
+   481: PUSHIIB #9                    ; symbol "WEAPON_ID_M16A2"
+   483: BRK
+   484: PUSHIIB #10                   ; symbol "WEAPON_ID_AK47"
+   486: BRK
+   487: PUSHIIB #11                   ; symbol "WEAPON_ID_SPAS12"
+   489: BRK
+   490: PUSHIIB #12                   ; symbol "WEAPON_ID_JACKHAMMER"
+   492: BRK
+   493: PUSHIIB #13                   ; symbol "WEAPON_ID_DRAGUNOV"
+   495: BRK
+   496: PUSHIIB #14                   ; symbol "WEAPON_ID_MINIMI"
+   498: BRK
+   499: PUSHIIB #15                   ; symbol "WEAPON_ID_GRENADE"
+   501: BRK
+   502: PUSHIIB #16                   ; symbol "WEAPON_ID_FLASHBANG"
+   504: BRK
+   505: PUSHIIB #17                   ; symbol "WEAPON_ID_PROXIMITYMINE"
+   507: BRK
+   508: PUSHIIB #18                   ; symbol "WEAPON_ID_RPG18"
+   510: BRK
+   511: PUSHIIB #19                   ; symbol "WEAPON_ID_MEDIPACK"
+   513: BRK
+   514: POP
+   515: PUSHIIB #20                   ; symbol "DefineHumanPlayerWeaponCategory"
+   517: CALL    argc=27               ; args @635, @637, @640, @643, @646, @649, @652, @655, @658, @661, @664, @667, @670, @673, @676, @679, @682, @685, @687, @690, @693, @696, @699, @702, @704, @707, @709
+   630: BRA     +77                   ; -> 712
+   635: PUSH1
+   636: BRK
+   637: PUSHIIB #2                    ; symbol "WEAPON_ID_KNIFE"
+   639: BRK
+   640: PUSHB   3
+   642: BRK
+   643: PUSHIIB #3                    ; symbol "WEAPON_ID_GLOCK"
+   645: BRK
+   646: PUSHIIB #4                    ; symbol "WEAPON_ID_COLT"
+   648: BRK
+   649: PUSHIIB #5                    ; symbol "WEAPON_ID_DESERTEAGLE"
+   651: BRK
+   652: PUSHB   3
+   654: BRK
+   655: PUSHIIB #6                    ; symbol "WEAPON_ID_UZI"
+   657: BRK
+   658: PUSHIIB #7                    ; symbol "WEAPON_ID_UZIX2"
+   660: BRK
+   661: PUSHIIB #8                    ; symbol "WEAPON_ID_MP5SD"
+   663: BRK
+   664: PUSHB   3
+   666: BRK
+   667: PUSHIIB #9                    ; symbol "WEAPON_ID_M16A2"
+   669: BRK
+   670: PUSHIIB #10                   ; symbol "WEAPON_ID_AK47"
+   672: BRK
+   673: PUSHIIB #14                   ; symbol "WEAPON_ID_MINIMI"
+   675: BRK
+   676: PUSHB   2
+   678: BRK
+   679: PUSHIIB #11                   ; symbol "WEAPON_ID_SPAS12"
+   681: BRK
+   682: PUSHIIB #12                   ; symbol "WEAPON_ID_JACKHAMMER"
+   684: BRK
+   685: PUSH1
+   686: BRK
+   687: PUSHIIB #13                   ; symbol "WEAPON_ID_DRAGUNOV"
+   689: BRK
+   690: PUSHB   3
+   692: BRK
+   693: PUSHIIB #15                   ; symbol "WEAPON_ID_GRENADE"
+   695: BRK
+   696: PUSHIIB #16                   ; symbol "WEAPON_ID_FLASHBANG"
+   698: BRK
+   699: PUSHIIB #17                   ; symbol "WEAPON_ID_PROXIMITYMINE"
+   701: BRK
+   702: PUSH1
+   703: BRK
+   704: PUSHIIB #18                   ; symbol "WEAPON_ID_RPG18"
+   706: BRK
+   707: PUSH1
+   708: BRK
+   709: PUSHIIB #19                   ; symbol "WEAPON_ID_MEDIPACK"
+   711: BRK
+   712: POP
+   713: PUSHIIB #21                   ; symbol "DefineHumanPlayerAmmoLimit"
+   715: CALL    argc=10               ; args @765, @768, @771, @774, @777, @780, @784, @787, @791, @794
+   760: BRA     +33                   ; -> 798
+   765: PUSHIIB #22                   ; symbol "AMMO_ID_12"
+   767: BRK
+   768: PUSHB   32
+   770: BRK
+   771: PUSHIIB #23                   ; symbol "AMMO_ID_357"
+   773: BRK
+   774: PUSHB   32
+   776: BRK
+   777: PUSHIIB #24                   ; symbol "AMMO_ID_556"
+   779: BRK
+   780: PUSHW   200
+   783: BRK
+   784: PUSHIIB #25                   ; symbol "AMMO_ID_762"
+   786: BRK
+   787: PUSHW   128
+   790: BRK
+   791: PUSHIIB #26                   ; symbol "AMMO_ID_919"
+   793: BRK
+   794: PUSHW   196
+   797: BRK
+   798: POP
+   799: BRK

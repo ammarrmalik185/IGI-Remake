@@ -1,0 +1,105 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=49               ; args @208, @211, @214, @217, @220, @223, @226, @229, @232, @236, @239, @245, @247, @253, @257, @260, @263, @266, @268, @271, @274, @277, @280, @282, @284, @287, @290, @293, @297, @301, @304, @307, @310, @313, @316, @319, @322, @325, @329, @333, @337, @341, @345, @349, @353, @356, @359, @362, @365
+   203: BRA     +160                  ; -> 368
+   208: PUSHB   8
+   210: BRK
+   211: PUSHSIB #0                    ; string "WEAPON_ID_SPAS12"
+   213: BRK
+   214: PUSHSIB #1                    ; string "Spas 12"
+   216: BRK
+   217: PUSHSIB #2                    ; string "<LUIGI_FRANCHI_SPA>"
+   219: BRK
+   220: PUSHSIB #3                    ; string "<SPAS_12DESC>"
+   222: BRK
+   223: PUSHIIB #1                    ; symbol "WEAPONTYPE_SHOTGUN"
+   225: BRK
+   226: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   228: BRK
+   229: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_SHELL"
+   231: BRK
+   232: PUSHW   4200
+   235: BRK
+   236: PUSHB   12
+   238: BRK
+   239: PUSHF   0.25
+   244: BRK
+   245: PUSH1
+   246: BRK
+   247: PUSHF   2
+   252: BRK
+   253: PUSHW   600
+   256: BRK
+   257: PUSHB   30
+   259: BRK
+   260: PUSHB   40
+   262: BRK
+   263: PUSHB   7
+   265: BRK
+   266: PUSH1
+   267: BRK
+   268: PUSHB   20
+   270: BRK
+   271: PUSHB   20
+   273: BRK
+   274: PUSHB   8
+   276: BRK
+   277: PUSHB   3
+   279: BRK
+   280: PUSH0
+   281: BRK
+   282: PUSH0
+   283: BRK
+   284: PUSHSIB #4                    ; string "<SELECTIVE-FIRE_COMBAT_SHOTGUN>"
+   286: BRK
+   287: PUSHB   30
+   289: BRK
+   290: PUSHSIB #5                    ; string "<SPAS_12USERS>"
+   292: BRK
+   293: PUSHW   710
+   296: BRK
+   297: PUSHW   460
+   300: BRK
+   301: PUSHSIB #6                    ; string "109_01_1"
+   303: BRK
+   304: PUSHSIB #7                    ; string "109_03_1"
+   306: BRK
+   307: PUSHB   58
+   309: BRK
+   310: PUSHB   59
+   312: BRK
+   313: PUSHB   60
+   315: BRK
+   316: PUSH1
+   317: MINUS
+   318: BRK
+   319: PUSH1
+   320: MINUS
+   321: BRK
+   322: PUSHB   61
+   324: BRK
+   325: PUSHW   203
+   328: BRK
+   329: PUSHW   137
+   332: BRK
+   333: PUSHW   139
+   336: BRK
+   337: PUSHW   140
+   340: BRK
+   341: PUSHW   135
+   344: BRK
+   345: PUSHW   181
+   348: BRK
+   349: PUSHW   136
+   352: BRK
+   353: PUSHSIB #8                    ; string "spas12_shot_1"
+   355: BRK
+   356: PUSHSIB #8                    ; string "spas12_shot_1"
+   358: BRK
+   359: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   361: BRK
+   362: PUSHIIB #5                    ; symbol "TASKTYPE_GUNSHOT"
+   364: BRK
+   365: PUSHIIB #6                    ; symbol "TASKTYPE_GUNSPAS12"
+   367: BRK
+   368: POP
+   369: BRK

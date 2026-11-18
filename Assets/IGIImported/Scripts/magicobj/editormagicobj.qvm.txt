@@ -1,0 +1,71 @@
+     0: PUSHIIB #0                    ; symbol "DefineMagicObj"
+     2: CALL    argc=3                ; args @24, @27, @30
+    19: BRA     +9                    ; -> 33
+    24: PUSHSIB #0                    ; string "1723_02_1"
+    26: BRK
+    27: PUSHSIB #0                    ; string "1723_02_1"
+    29: BRK
+    30: PUSHIIB #1                    ; symbol "TASKTYPE_MAGICOBJ"
+    32: BRK
+    33: POP
+    34: PUSHIIB #0                    ; symbol "DefineMagicObj"
+    36: CALL    argc=3                ; args @58, @61, @64
+    53: BRA     +9                    ; -> 67
+    58: PUSHSIB #1                    ; string "1721_02_1"
+    60: BRK
+    61: PUSHSIB #1                    ; string "1721_02_1"
+    63: BRK
+    64: PUSHIIB #1                    ; symbol "TASKTYPE_MAGICOBJ"
+    66: BRK
+    67: POP
+    68: PUSHIIB #0                    ; symbol "DefineMagicObj"
+    70: CALL    argc=3                ; args @92, @95, @98
+    87: BRA     +9                    ; -> 101
+    92: PUSHSIB #2                    ; string "1717_02_1"
+    94: BRK
+    95: PUSHSIB #2                    ; string "1717_02_1"
+    97: BRK
+    98: PUSHIIB #1                    ; symbol "TASKTYPE_MAGICOBJ"
+   100: BRK
+   101: POP
+   102: PUSHIIB #0                    ; symbol "DefineMagicObj"
+   104: CALL    argc=3                ; args @126, @129, @132
+   121: BRA     +9                    ; -> 135
+   126: PUSHSIB #3                    ; string "1717_03_1"
+   128: BRK
+   129: PUSHSIB #3                    ; string "1717_03_1"
+   131: BRK
+   132: PUSHIIB #1                    ; symbol "TASKTYPE_MAGICOBJ"
+   134: BRK
+   135: POP
+   136: PUSHIIB #0                    ; symbol "DefineMagicObj"
+   138: CALL    argc=3                ; args @160, @163, @166
+   155: BRA     +9                    ; -> 169
+   160: PUSHSIB #4                    ; string "1717_04_1"
+   162: BRK
+   163: PUSHSIB #4                    ; string "1717_04_1"
+   165: BRK
+   166: PUSHIIB #1                    ; symbol "TASKTYPE_MAGICOBJ"
+   168: BRK
+   169: POP
+   170: PUSHIIB #0                    ; symbol "DefineMagicObj"
+   172: CALL    argc=3                ; args @194, @197, @200
+   189: BRA     +9                    ; -> 203
+   194: PUSHSIB #5                    ; string "1718_02_1"
+   196: BRK
+   197: PUSHSIB #5                    ; string "1718_02_1"
+   199: BRK
+   200: PUSHIIB #1                    ; symbol "TASKTYPE_MAGICOBJ"
+   202: BRK
+   203: POP
+   204: PUSHIIB #0                    ; symbol "DefineMagicObj"
+   206: CALL    argc=3                ; args @228, @231, @234
+   223: BRA     +9                    ; -> 237
+   228: PUSHSIB #6                    ; string "1718_03_1"
+   230: BRK
+   231: PUSHSIB #6                    ; string "1718_03_1"
+   233: BRK
+   234: PUSHIIB #1                    ; symbol "TASKTYPE_MAGICOBJ"
+   236: BRK
+   237: POP
+   238: BRK

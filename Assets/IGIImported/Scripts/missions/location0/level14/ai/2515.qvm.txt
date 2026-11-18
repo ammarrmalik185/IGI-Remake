@@ -1,0 +1,51 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +18                   ; -> 38
+    20: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+    22: CALL    argc=0
+    27: BRA     +0                    ; -> 32
+    32: POP
+    33: BRA     +135                  ; -> 173
+    38: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    40: CALL    argc=0
+    45: BRA     +0                    ; -> 50
+    50: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    52: EQ
+    53: BF      +5                    ; -> 63
+    58: BRA     +110                  ; -> 173
+    63: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    65: CALL    argc=0
+    70: BRA     +0                    ; -> 75
+    75: PUSHIIB #4                    ; symbol "AIEVENT_ALARMON"
+    77: EQ
+    78: BF      +5                    ; -> 88
+    83: BRA     +85                   ; -> 173
+    88: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    90: CALL    argc=0
+    95: BRA     +0                    ; -> 100
+   100: PUSHIIB #5                    ; symbol "AIEVENT_COMBAT"
+   102: EQ
+   103: BF      +52                   ; -> 160
+   108: PUSHIIB #6                    ; symbol "AIAction_Patrol"
+   110: CALL    argc=3                ; args @132, @136, @138
+   127: BRA     +9                    ; -> 141
+   132: PUSHW   3515
+   135: BRK
+   136: PUSH0
+   137: BRK
+   138: PUSHIIB #7                    ; symbol "AIACTIONFLAG_NONE"
+   140: BRK
+   141: POP
+   142: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   144: CALL    argc=0
+   149: BRA     +0                    ; -> 154
+   154: POP
+   155: BRA     +13                   ; -> 173
+   160: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   162: CALL    argc=0
+   167: BRA     +0                    ; -> 172
+   172: POP
+   173: BRK

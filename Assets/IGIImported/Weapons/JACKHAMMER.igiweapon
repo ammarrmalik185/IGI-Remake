@@ -1,0 +1,20 @@
+{
+  "id": 9,
+  "displayName": "Jackhammer",
+  "description": "\u003CJACKHAMMERDESC\u003E",
+  "category": 2,
+  "model": "125_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/125_01_1.igimodel",
+  "magazineSize": 12,
+  "roundsPerMinute": 180,
+  "reloadSeconds": 2,
+  "automatic": true,
+  "range": 50,
+  "modelLength": 0.787,
+  "damageFactor": 0.05,
+  "calibre": 12,
+  "spreadDegrees": -14,
+  "recoilDegrees": 5,
+  "fireSoundPath": "Assets/IGIImported/Audio/jackh_loop.wav",
+  "source": "Definitions/weapons/JACKHAMMER/weapon.qvm.json"
+}

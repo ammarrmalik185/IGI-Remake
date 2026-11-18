@@ -1,0 +1,1 @@
+ANYA : L'alarme va prévenir le train si elle sonne trop longtemps. Vous avez 30 secondes pour la désactiver. Le train va s'arrêter s'il reçoit un signal.

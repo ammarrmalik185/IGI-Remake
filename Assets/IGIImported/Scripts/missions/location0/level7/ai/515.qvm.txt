@@ -1,0 +1,56 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_ALARMON"
+    14: EQ
+    15: BF      +38                   ; -> 58
+    20: PUSHIIB #2                    ; symbol "AIAction_Patrol"
+    22: CALL    argc=3                ; args @44, @48, @50
+    39: BRA     +8                    ; -> 52
+    44: PUSHW   659
+    47: BRK
+    48: PUSH0
+    49: BRK
+    50: PUSH1
+    51: BRK
+    52: POP
+    53: BRA     +129                  ; -> 187
+    58: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    60: CALL    argc=0
+    65: BRA     +0                    ; -> 70
+    70: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    72: EQ
+    73: BF      +38                   ; -> 116
+    78: PUSHIIB #2                    ; symbol "AIAction_Patrol"
+    80: CALL    argc=3                ; args @102, @106, @108
+    97: BRA     +8                    ; -> 110
+   102: PUSHW   660
+   105: BRK
+   106: PUSH0
+   107: BRK
+   108: PUSH1
+   109: BRK
+   110: POP
+   111: BRA     +71                   ; -> 187
+   116: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   118: CALL    argc=0
+   123: BRA     +0                    ; -> 128
+   128: PUSHIIB #4                    ; symbol "AIEVENT_CREATE"
+   130: EQ
+   131: BF      +38                   ; -> 174
+   136: PUSHIIB #5                    ; symbol "AIFunction_DefaultHandler"
+   138: CALL    argc=0
+   143: BRA     +0                    ; -> 148
+   148: POP
+   149: PUSHIIB #6                    ; symbol "AIFunction_SetAlarmControlID"
+   151: CALL    argc=1                ; args @165
+   160: BRA     +3                    ; -> 168
+   165: PUSHB   97
+   167: BRK
+   168: POP
+   169: BRA     +13                   ; -> 187
+   174: PUSHIIB #5                    ; symbol "AIFunction_DefaultHandler"
+   176: CALL    argc=0
+   181: BRA     +0                    ; -> 186
+   186: POP
+   187: BRK

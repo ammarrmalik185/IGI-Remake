@@ -1,0 +1,7 @@
+﻿Desert Eagle
+Author: Bagason
+Author URL: https://sketchfab.com/Bagason
+Source: https://sketchfab.com/3d-models/desert-eagle-4be942b4b2004a6c9cc47e2961b8e6fd
+License: CC Attribution
+License URL: http://creativecommons.org/licenses/by/4.0/
+Imported from FBX; Unity materials assigned separately. Gameplay code and level are new.

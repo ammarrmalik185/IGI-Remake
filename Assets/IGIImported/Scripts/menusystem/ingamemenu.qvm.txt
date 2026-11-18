@@ -1,0 +1,2225 @@
+     0: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+     2: CALL    argc=7                ; args @40, @43, @46, @49, @52, @55, @58
+    35: BRA     +21                   ; -> 61
+    40: PUSHSIB #0                    ; string "MenuManager"
+    42: BRK
+    43: PUSHSIB #1                    ; string "Current menuscreen"
+    45: BRK
+    46: PUSHSIB #2                    ; string "Int32"
+    48: BRK
+    49: PUSHSIB #3                    ; string "Resource path"
+    51: BRK
+    52: PUSHSIB #4                    ; string "String256"
+    54: BRK
+    55: PUSHSIB #5                    ; string "isOwnDisplay"
+    57: BRK
+    58: PUSHSIB #6                    ; string "bool8"
+    60: BRK
+    61: POP
+    62: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+    64: CALL    argc=19               ; args @150, @153, @156, @159, @162, @165, @168, @171, @174, @177, @180, @183, @186, @189, @192, @195, @198, @201, @204
+   145: BRA     +57                   ; -> 207
+   150: PUSHSIB #7                    ; string "MenuFrame"
+   152: BRK
+   153: PUSHSIB #8                    ; string "Sprite Resource"
+   155: BRK
+   156: PUSHSIB #9                    ; string "String32"
+   158: BRK
+   159: PUSHSIB #10                   ; string "X-Pos"
+   161: BRK
+   162: PUSHSIB #2                    ; string "Int32"
+   164: BRK
+   165: PUSHSIB #11                   ; string "Y-Pos"
+   167: BRK
+   168: PUSHSIB #2                    ; string "Int32"
+   170: BRK
+   171: PUSHSIB #12                   ; string "Width"
+   173: BRK
+   174: PUSHSIB #2                    ; string "Int32"
+   176: BRK
+   177: PUSHSIB #13                   ; string "Height"
+   179: BRK
+   180: PUSHSIB #2                    ; string "Int32"
+   182: BRK
+   183: PUSHSIB #14                   ; string "LineUpMode"
+   185: BRK
+   186: PUSHSIB #2                    ; string "Int32"
+   188: BRK
+   189: PUSHSIB #15                   ; string "X-Spacing"
+   191: BRK
+   192: PUSHSIB #16                   ; string "Int16"
+   194: BRK
+   195: PUSHSIB #17                   ; string "Y-Spacing"
+   197: BRK
+   198: PUSHSIB #16                   ; string "Int16"
+   200: BRK
+   201: PUSHSIB #18                   ; string "Is Selectable"
+   203: BRK
+   204: PUSHSIB #6                    ; string "bool8"
+   206: BRK
+   207: POP
+   208: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+   210: CALL    argc=17               ; args @288, @291, @294, @297, @300, @303, @306, @309, @312, @315, @318, @321, @324, @327, @330, @333, @336
+   283: BRA     +51                   ; -> 339
+   288: PUSHSIB #19                   ; string "MenuScreen"
+   290: BRK
+   291: PUSHSIB #20                   ; string "Background"
+   293: BRK
+   294: PUSHSIB #9                    ; string "String32"
+   296: BRK
+   297: PUSHSIB #21                   ; string "Frame x0"
+   299: BRK
+   300: PUSHSIB #2                    ; string "Int32"
+   302: BRK
+   303: PUSHSIB #22                   ; string "Frame y0"
+   305: BRK
+   306: PUSHSIB #2                    ; string "Int32"
+   308: BRK
+   309: PUSHSIB #23                   ; string "Frame x1"
+   311: BRK
+   312: PUSHSIB #2                    ; string "Int32"
+   314: BRK
+   315: PUSHSIB #24                   ; string "Frame y1"
+   317: BRK
+   318: PUSHSIB #2                    ; string "Int32"
+   320: BRK
+   321: PUSHSIB #25                   ; string "On Press Escape"
+   323: BRK
+   324: PUSHSIB #26                   ; string "VarString"
+   326: BRK
+   327: PUSHSIB #27                   ; string "On Init Data"
+   329: BRK
+   330: PUSHSIB #26                   ; string "VarString"
+   332: BRK
+   333: PUSHSIB #28                   ; string "On Change Data"
+   335: BRK
+   336: PUSHSIB #26                   ; string "VarString"
+   338: BRK
+   339: POP
+   340: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+   342: CALL    argc=11               ; args @396, @399, @402, @405, @408, @411, @414, @417, @420, @423, @426
+   391: BRA     +33                   ; -> 429
+   396: PUSHSIB #29                   ; string "MenuText"
+   398: BRK
+   399: PUSHSIB #30                   ; string "Text Resource"
+   401: BRK
+   402: PUSHSIB #9                    ; string "String32"
+   404: BRK
+   405: PUSHSIB #31                   ; string "Font Resource"
+   407: BRK
+   408: PUSHSIB #9                    ; string "String32"
+   410: BRK
+   411: PUSHSIB #32                   ; string "ColourIndex"
+   413: BRK
+   414: PUSHSIB #2                    ; string "Int32"
+   416: BRK
+   417: PUSHSIB #33                   ; string "On Click Script"
+   419: BRK
+   420: PUSHSIB #26                   ; string "VarString"
+   422: BRK
+   423: PUSHSIB #34                   ; string "Click Sound Resource"
+   425: BRK
+   426: PUSHSIB #9                    ; string "String32"
+   428: BRK
+   429: POP
+   430: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+   432: CALL    argc=17               ; args @510, @513, @516, @519, @522, @525, @528, @531, @534, @537, @540, @543, @546, @549, @552, @555, @558
+   505: BRA     +51                   ; -> 561
+   510: PUSHSIB #35                   ; string "SlideBar"
+   512: BRK
+   513: PUSHSIB #8                    ; string "Sprite Resource"
+   515: BRK
+   516: PUSHSIB #9                    ; string "String32"
+   518: BRK
+   519: PUSHSIB #36                   ; string "Horizontal"
+   521: BRK
+   522: PUSHSIB #6                    ; string "bool8"
+   524: BRK
+   525: PUSHSIB #37                   ; string "Size"
+   527: BRK
+   528: PUSHSIB #2                    ; string "Int32"
+   530: BRK
+   531: PUSHSIB #38                   ; string "Get Data Script"
+   533: BRK
+   534: PUSHSIB #26                   ; string "VarString"
+   536: BRK
+   537: PUSHSIB #39                   ; string "Set Data Script"
+   539: BRK
+   540: PUSHSIB #26                   ; string "VarString"
+   542: BRK
+   543: PUSHSIB #40                   ; string "Modify Data Script"
+   545: BRK
+   546: PUSHSIB #26                   ; string "VarString"
+   548: BRK
+   549: PUSHSIB #41                   ; string "Carret Speed"
+   551: BRK
+   552: PUSHSIB #26                   ; string "VarString"
+   554: BRK
+   555: PUSHSIB #42                   ; string "Number of options"
+   557: BRK
+   558: PUSHSIB #2                    ; string "Int32"
+   560: BRK
+   561: POP
+   562: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+   564: CALL    argc=15               ; args @634, @637, @640, @643, @646, @649, @652, @655, @658, @661, @664, @667, @670, @673, @676
+   629: BRA     +45                   ; -> 679
+   634: PUSHSIB #43                   ; string "MenuTextConditional"
+   636: BRK
+   637: PUSHSIB #30                   ; string "Text Resource"
+   639: BRK
+   640: PUSHSIB #9                    ; string "String32"
+   642: BRK
+   643: PUSHSIB #31                   ; string "Font Resource"
+   645: BRK
+   646: PUSHSIB #9                    ; string "String32"
+   648: BRK
+   649: PUSHSIB #32                   ; string "ColourIndex"
+   651: BRK
+   652: PUSHSIB #2                    ; string "Int32"
+   654: BRK
+   655: PUSHSIB #44                   ; string "isEnabled Expression"
+   657: BRK
+   658: PUSHSIB #26                   ; string "VarString"
+   660: BRK
+   661: PUSHSIB #45                   ; string "isVisible Expression"
+   663: BRK
+   664: PUSHSIB #26                   ; string "VarString"
+   666: BRK
+   667: PUSHSIB #33                   ; string "On Click Script"
+   669: BRK
+   670: PUSHSIB #26                   ; string "VarString"
+   672: BRK
+   673: PUSHSIB #34                   ; string "Click Sound Resource"
+   675: BRK
+   676: PUSHSIB #9                    ; string "String32"
+   678: BRK
+   679: POP
+   680: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+   682: CALL    argc=15               ; args @752, @755, @758, @761, @764, @767, @770, @773, @776, @779, @782, @785, @788, @791, @794
+   747: BRA     +45                   ; -> 797
+   752: PUSHSIB #46                   ; string "ListBox"
+   754: BRK
+   755: PUSHSIB #8                    ; string "Sprite Resource"
+   757: BRK
+   758: PUSHSIB #9                    ; string "String32"
+   760: BRK
+   761: PUSHSIB #31                   ; string "Font Resource"
+   763: BRK
+   764: PUSHSIB #9                    ; string "String32"
+   766: BRK
+   767: PUSHSIB #12                   ; string "Width"
+   769: BRK
+   770: PUSHSIB #2                    ; string "Int32"
+   772: BRK
+   773: PUSHSIB #47                   ; string "Collect Items Script"
+   775: BRK
+   776: PUSHSIB #26                   ; string "VarString"
+   778: BRK
+   779: PUSHSIB #38                   ; string "Get Data Script"
+   781: BRK
+   782: PUSHSIB #26                   ; string "VarString"
+   784: BRK
+   785: PUSHSIB #39                   ; string "Set Data Script"
+   787: BRK
+   788: PUSHSIB #26                   ; string "VarString"
+   790: BRK
+   791: PUSHSIB #40                   ; string "Modify Data Script"
+   793: BRK
+   794: PUSHSIB #26                   ; string "VarString"
+   796: BRK
+   797: POP
+   798: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+   800: CALL    argc=5                ; args @830, @833, @836, @839, @842
+   825: BRA     +15                   ; -> 845
+   830: PUSHSIB #48                   ; string "ToggleBox"
+   832: BRK
+   833: PUSHSIB #38                   ; string "Get Data Script"
+   835: BRK
+   836: PUSHSIB #26                   ; string "VarString"
+   838: BRK
+   839: PUSHSIB #39                   ; string "Set Data Script"
+   841: BRK
+   842: PUSHSIB #26                   ; string "VarString"
+   844: BRK
+   845: POP
+   846: PUSHIIB #0                    ; symbol "Task_DeclareParameters"
+   848: CALL    argc=11               ; args @902, @905, @908, @911, @914, @917, @920, @923, @926, @929, @932
+   897: BRA     +33                   ; -> 935
+   902: PUSHSIB #49                   ; string "DialogWindow"
+   904: BRK
+   905: PUSHSIB #10                   ; string "X-Pos"
+   907: BRK
+   908: PUSHSIB #2                    ; string "Int32"
+   910: BRK
+   911: PUSHSIB #11                   ; string "Y-Pos"
+   913: BRK
+   914: PUSHSIB #2                    ; string "Int32"
+   916: BRK
+   917: PUSHSIB #12                   ; string "Width"
+   919: BRK
+   920: PUSHSIB #2                    ; string "Int32"
+   922: BRK
+   923: PUSHSIB #13                   ; string "Height"
+   925: BRK
+   926: PUSHSIB #2                    ; string "Int32"
+   928: BRK
+   929: PUSHSIB #50                   ; string "SwapKeys"
+   931: BRK
+   932: PUSHSIB #6                    ; string "bool8"
+   934: BRK
+   935: POP
+   936: PUSHIIB #1                    ; symbol "Task_New"
+   938: CALL    argc=14               ; args @1004, @1007, @1010, @1013, @1017, @1020, @1023, @1770, @3185, @4342, @5866, @6364, @6862, @7360
+   999: BRA     +6854                 ; -> 7858
+  1004: PUSH1
+  1005: MINUS
+  1006: BRK
+  1007: PUSHSIB #0                    ; string "MenuManager"
+  1009: BRK
+  1010: PUSHSIB #51                   ; string "Menu manager for the ingame menu"
+  1012: BRK
+  1013: PUSHW   900
+  1016: BRK
+  1017: PUSHSIB #52                   ; string "LOCAL:menusystem/ingamemenu.res"
+  1019: BRK
+  1020: PUSHIIB #2                    ; symbol "FALSE"
+  1022: BRK
+  1023: PUSHIIB #1                    ; symbol "Task_New"
+  1025: CALL    argc=13               ; args @1087, @1091, @1094, @1097, @1100, @1103, @1106, @1110, @1114, @1117, @1120, @1123, @1292
+  1082: BRA     +682                  ; -> 1769
+  1087: PUSHW   900
+  1090: BRK
+  1091: PUSHSIB #19                   ; string "MenuScreen"
+  1093: BRK
+  1094: PUSHSIB #53                   ; string "Main Menu"
+  1096: BRK
+  1097: PUSHSIB #54                   ; string ""
+  1099: BRK
+  1100: PUSHB   85
+  1102: BRK
+  1103: PUSHB   80
+  1105: BRK
+  1106: PUSHW   555
+  1109: BRK
+  1110: PUSHW   410
+  1113: BRK
+  1114: PUSHSIB #55                   ; string "MenuManager_LeaveMenus(900, MENUMANAGER_IDLE)"
+  1116: BRK
+  1117: PUSHSIB #54                   ; string ""
+  1119: BRK
+  1120: PUSHSIB #54                   ; string ""
+  1122: BRK
+  1123: PUSHIIB #1                    ; symbol "Task_New"
+  1125: CALL    argc=13               ; args @1187, @1190, @1193, @1196, @1199, @1202, @1205, @1209, @1212, @1214, @1217, @1220, @1223
+  1182: BRA     +104                  ; -> 1291
+  1187: PUSH1
+  1188: MINUS
+  1189: BRK
+  1190: PUSHSIB #7                    ; string "MenuFrame"
+  1192: BRK
+  1193: PUSHSIB #54                   ; string ""
+  1195: BRK
+  1196: PUSHSIB #54                   ; string ""
+  1198: BRK
+  1199: PUSHB   100
+  1201: BRK
+  1202: PUSHB   77
+  1204: BRK
+  1205: PUSHW   440
+  1208: BRK
+  1209: PUSHB   26
+  1211: BRK
+  1212: PUSH0
+  1213: BRK
+  1214: PUSHB   4
+  1216: BRK
+  1217: PUSHB   4
+  1219: BRK
+  1220: PUSHIIB #2                    ; symbol "FALSE"
+  1222: BRK
+  1223: PUSHIIB #1                    ; symbol "Task_New"
+  1225: CALL    argc=8                ; args @1267, @1270, @1273, @1276, @1279, @1282, @1284, @1287
+  1262: BRA     +23                   ; -> 1290
+  1267: PUSH1
+  1268: MINUS
+  1269: BRK
+  1270: PUSHSIB #29                   ; string "MenuText"
+  1272: BRK
+  1273: PUSHSIB #54                   ; string ""
+  1275: BRK
+  1276: PUSHSIB #56                   ; string "Game Paused"
+  1278: BRK
+  1279: PUSHSIB #57                   ; string "font3.fnt"
+  1281: BRK
+  1282: PUSH1
+  1283: BRK
+  1284: PUSHSIB #54                   ; string ""
+  1286: BRK
+  1287: PUSHSIB #54                   ; string ""
+  1289: BRK
+  1290: BRK
+  1291: BRK
+  1292: PUSHIIB #1                    ; symbol "Task_New"
+  1294: CALL    argc=17               ; args @1372, @1375, @1378, @1381, @1384, @1387, @1390, @1394, @1398, @1400, @1403, @1406, @1409, @1492, @1561, @1630, @1699
+  1367: BRA     +396                  ; -> 1768
+  1372: PUSH1
+  1373: MINUS
+  1374: BRK
+  1375: PUSHSIB #7                    ; string "MenuFrame"
+  1377: BRK
+  1378: PUSHSIB #54                   ; string ""
+  1380: BRK
+  1381: PUSHSIB #54                   ; string ""
+  1383: BRK
+  1384: PUSHB   100
+  1386: BRK
+  1387: PUSHB   97
+  1389: BRK
+  1390: PUSHW   440
+  1393: BRK
+  1394: PUSHW   200
+  1397: BRK
+  1398: PUSH1
+  1399: BRK
+  1400: PUSHB   4
+  1402: BRK
+  1403: PUSHB   4
+  1405: BRK
+  1406: PUSHIIB #2                    ; symbol "FALSE"
+  1408: BRK
+  1409: PUSHIIB #1                    ; symbol "Task_New"
+  1411: CALL    argc=10               ; args @1461, @1464, @1467, @1470, @1473, @1476, @1479, @1482, @1485, @1488
+  1456: BRA     +30                   ; -> 1491
+  1461: PUSH1
+  1462: MINUS
+  1463: BRK
+  1464: PUSHSIB #43                   ; string "MenuTextConditional"
+  1466: BRK
+  1467: PUSHSIB #58                   ; string "resume"
+  1469: BRK
+  1470: PUSHSIB #59                   ; string "Resume Game"
+  1472: BRK
+  1473: PUSHSIB #57                   ; string "font3.fnt"
+  1475: BRK
+  1476: PUSHB   2
+  1478: BRK
+  1479: PUSHSIB #60                   ; string "!LevelFlow_LevelFailed()"
+  1481: BRK
+  1482: PUSHSIB #61                   ; string "TRUE"
+  1484: BRK
+  1485: PUSHSIB #55                   ; string "MenuManager_LeaveMenus(900, MENUMANAGER_IDLE)"
+  1487: BRK
+  1488: PUSHSIB #54                   ; string ""
+  1490: BRK
+  1491: BRK
+  1492: PUSHIIB #1                    ; symbol "Task_New"
+  1494: CALL    argc=8                ; args @1536, @1539, @1542, @1545, @1548, @1551, @1554, @1557
+  1531: BRA     +24                   ; -> 1560
+  1536: PUSH1
+  1537: MINUS
+  1538: BRK
+  1539: PUSHSIB #29                   ; string "MenuText"
+  1541: BRK
+  1542: PUSHSIB #62                   ; string "restart"
+  1544: BRK
+  1545: PUSHSIB #63                   ; string "Restart Game"
+  1547: BRK
+  1548: PUSHSIB #57                   ; string "font3.fnt"
+  1550: BRK
+  1551: PUSHB   2
+  1553: BRK
+  1554: PUSHSIB #64                   ; string "MenuManager_ActivatePopupScreen(932)\n"
+  1556: BRK
+  1557: PUSHSIB #54                   ; string ""
+  1559: BRK
+  1560: BRK
+  1561: PUSHIIB #1                    ; symbol "Task_New"
+  1563: CALL    argc=8                ; args @1605, @1608, @1611, @1614, @1617, @1620, @1623, @1626
+  1600: BRA     +24                   ; -> 1629
+  1605: PUSH1
+  1606: MINUS
+  1607: BRK
+  1608: PUSHSIB #29                   ; string "MenuText"
+  1610: BRK
+  1611: PUSHSIB #65                   ; string "sound"
+  1613: BRK
+  1614: PUSHSIB #66                   ; string "Sound"
+  1616: BRK
+  1617: PUSHSIB #57                   ; string "font3.fnt"
+  1619: BRK
+  1620: PUSHB   2
+  1622: BRK
+  1623: PUSHSIB #67                   ; string "MenuManager_PushScreen(902)\n"
+  1625: BRK
+  1626: PUSHSIB #54                   ; string ""
+  1628: BRK
+  1629: BRK
+  1630: PUSHIIB #1                    ; symbol "Task_New"
+  1632: CALL    argc=8                ; args @1674, @1677, @1680, @1683, @1686, @1689, @1692, @1695
+  1669: BRA     +24                   ; -> 1698
+  1674: PUSH1
+  1675: MINUS
+  1676: BRK
+  1677: PUSHSIB #29                   ; string "MenuText"
+  1679: BRK
+  1680: PUSHSIB #68                   ; string "controls"
+  1682: BRK
+  1683: PUSHSIB #69                   ; string "Controls"
+  1685: BRK
+  1686: PUSHSIB #57                   ; string "font3.fnt"
+  1688: BRK
+  1689: PUSHB   2
+  1691: BRK
+  1692: PUSHSIB #70                   ; string "MenuManager_PushScreen(903)\n"
+  1694: BRK
+  1695: PUSHSIB #54                   ; string ""
+  1697: BRK
+  1698: BRK
+  1699: PUSHIIB #1                    ; symbol "Task_New"
+  1701: CALL    argc=8                ; args @1743, @1746, @1749, @1752, @1755, @1758, @1761, @1764
+  1738: BRA     +24                   ; -> 1767
+  1743: PUSH1
+  1744: MINUS
+  1745: BRK
+  1746: PUSHSIB #29                   ; string "MenuText"
+  1748: BRK
+  1749: PUSHSIB #71                   ; string "quit"
+  1751: BRK
+  1752: PUSHSIB #72                   ; string "Quit to Main Menu"
+  1754: BRK
+  1755: PUSHSIB #57                   ; string "font3.fnt"
+  1757: BRK
+  1758: PUSHB   2
+  1760: BRK
+  1761: PUSHSIB #73                   ; string "MenuManager_ActivatePopupScreen(931)\n"
+  1763: BRK
+  1764: PUSHSIB #54                   ; string ""
+  1766: BRK
+  1767: BRK
+  1768: BRK
+  1769: BRK
+  1770: PUSHIIB #1                    ; symbol "Task_New"
+  1772: CALL    argc=14               ; args @1838, @1842, @1845, @1848, @1851, @1854, @1857, @1861, @1865, @1868, @1871, @1874, @2043, @2941
+  1833: BRA     +1346                 ; -> 3184
+  1838: PUSHW   901
+  1841: BRK
+  1842: PUSHSIB #19                   ; string "MenuScreen"
+  1844: BRK
+  1845: PUSHSIB #74                   ; string "Graphics Configuration"
+  1847: BRK
+  1848: PUSHSIB #75                   ; string "mainmenu.pic"
+  1850: BRK
+  1851: PUSHB   85
+  1853: BRK
+  1854: PUSHB   80
+  1856: BRK
+  1857: PUSHW   555
+  1860: BRK
+  1861: PUSHW   410
+  1864: BRK
+  1865: PUSHSIB #76                   ; string "MenuManager_PopScreen(FALSE)"
+  1867: BRK
+  1868: PUSHSIB #54                   ; string ""
+  1870: BRK
+  1871: PUSHSIB #54                   ; string ""
+  1873: BRK
+  1874: PUSHIIB #1                    ; symbol "Task_New"
+  1876: CALL    argc=13               ; args @1938, @1941, @1944, @1947, @1950, @1953, @1956, @1960, @1963, @1965, @1968, @1971, @1974
+  1933: BRA     +104                  ; -> 2042
+  1938: PUSH1
+  1939: MINUS
+  1940: BRK
+  1941: PUSHSIB #7                    ; string "MenuFrame"
+  1943: BRK
+  1944: PUSHSIB #54                   ; string ""
+  1946: BRK
+  1947: PUSHSIB #54                   ; string ""
+  1949: BRK
+  1950: PUSHB   100
+  1952: BRK
+  1953: PUSHB   77
+  1955: BRK
+  1956: PUSHW   440
+  1959: BRK
+  1960: PUSHB   26
+  1962: BRK
+  1963: PUSH0
+  1964: BRK
+  1965: PUSHB   4
+  1967: BRK
+  1968: PUSHB   4
+  1970: BRK
+  1971: PUSHIIB #2                    ; symbol "FALSE"
+  1973: BRK
+  1974: PUSHIIB #1                    ; symbol "Task_New"
+  1976: CALL    argc=8                ; args @2018, @2021, @2024, @2027, @2030, @2033, @2035, @2038
+  2013: BRA     +23                   ; -> 2041
+  2018: PUSH1
+  2019: MINUS
+  2020: BRK
+  2021: PUSHSIB #29                   ; string "MenuText"
+  2023: BRK
+  2024: PUSHSIB #77                   ; string "Title"
+  2026: BRK
+  2027: PUSHSIB #74                   ; string "Graphics Configuration"
+  2029: BRK
+  2030: PUSHSIB #57                   ; string "font3.fnt"
+  2032: BRK
+  2033: PUSH1
+  2034: BRK
+  2035: PUSHSIB #54                   ; string ""
+  2037: BRK
+  2038: PUSHSIB #54                   ; string ""
+  2040: BRK
+  2041: BRK
+  2042: BRK
+  2043: PUSHIIB #1                    ; symbol "Task_New"
+  2045: CALL    argc=15               ; args @2115, @2118, @2121, @2124, @2127, @2130, @2133, @2137, @2141, @2143, @2146, @2149, @2152, @2412, @2673
+  2110: BRA     +825                  ; -> 2940
+  2115: PUSH1
+  2116: MINUS
+  2117: BRK
+  2118: PUSHSIB #7                    ; string "MenuFrame"
+  2120: BRK
+  2121: PUSHSIB #54                   ; string ""
+  2123: BRK
+  2124: PUSHSIB #54                   ; string ""
+  2126: BRK
+  2127: PUSHB   100
+  2129: BRK
+  2130: PUSHB   97
+  2132: BRK
+  2133: PUSHW   440
+  2136: BRK
+  2137: PUSHW   300
+  2140: BRK
+  2141: PUSH1
+  2142: BRK
+  2143: PUSHB   4
+  2145: BRK
+  2146: PUSHB   4
+  2148: BRK
+  2149: PUSHIIB #2                    ; symbol "FALSE"
+  2151: BRK
+  2152: PUSHIIB #1                    ; symbol "Task_New"
+  2154: CALL    argc=14               ; args @2220, @2223, @2226, @2229, @2232, @2235, @2238, @2242, @2245, @2248, @2251, @2254, @2257, @2326
+  2215: BRA     +191                  ; -> 2411
+  2220: PUSH1
+  2221: MINUS
+  2222: BRK
+  2223: PUSHSIB #7                    ; string "MenuFrame"
+  2225: BRK
+  2226: PUSHSIB #78                   ; string "Change Device"
+  2228: BRK
+  2229: PUSHSIB #54                   ; string ""
+  2231: BRK
+  2232: PUSHB   100
+  2234: BRK
+  2235: PUSHB   101
+  2237: BRK
+  2238: PUSHW   440
+  2241: BRK
+  2242: PUSHB   25
+  2244: BRK
+  2245: PUSHB   8
+  2247: BRK
+  2248: PUSHB   20
+  2250: BRK
+  2251: PUSHB   4
+  2253: BRK
+  2254: PUSHIIB #3                    ; symbol "TRUE"
+  2256: BRK
+  2257: PUSHIIB #1                    ; symbol "Task_New"
+  2259: CALL    argc=8                ; args @2301, @2304, @2307, @2310, @2313, @2316, @2319, @2322
+  2296: BRA     +24                   ; -> 2325
+  2301: PUSH1
+  2302: MINUS
+  2303: BRK
+  2304: PUSHSIB #29                   ; string "MenuText"
+  2306: BRK
+  2307: PUSHSIB #54                   ; string ""
+  2309: BRK
+  2310: PUSHSIB #79                   ; string "Render Device"
+  2312: BRK
+  2313: PUSHSIB #57                   ; string "font3.fnt"
+  2315: BRK
+  2316: PUSHB   2
+  2318: BRK
+  2319: PUSHSIB #54                   ; string ""
+  2321: BRK
+  2322: PUSHSIB #54                   ; string ""
+  2324: BRK
+  2325: BRK
+  2326: PUSHIIB #1                    ; symbol "Task_New"
+  2328: CALL    argc=10               ; args @2378, @2382, @2385, @2388, @2391, @2394, @2398, @2401, @2404, @2407
+  2373: BRA     +32                   ; -> 2410
+  2378: PUSHW   951
+  2381: BRK
+  2382: PUSHSIB #46                   ; string "ListBox"
+  2384: BRK
+  2385: PUSHSIB #54                   ; string ""
+  2387: BRK
+  2388: PUSHSIB #80                   ; string "slide"
+  2390: BRK
+  2391: PUSHSIB #81                   ; string "font1.fnt"
+  2393: BRK
+  2394: PUSHW   140
+  2397: BRK
+  2398: PUSHSIB #82                   ; string "Config_FillRenderDeviceListBox()"
+  2400: BRK
+  2401: PUSHSIB #83                   ; string "Config_GraphicOptionsSetDevice()"
+  2403: BRK
+  2404: PUSHSIB #84                   ; string "Config_GraphicOptionsSetDevice(this.nActiveID)"
+  2406: BRK
+  2407: PUSHSIB #54                   ; string ""
+  2409: BRK
+  2410: BRK
+  2411: BRK
+  2412: PUSHIIB #1                    ; symbol "Task_New"
+  2414: CALL    argc=14               ; args @2480, @2483, @2486, @2489, @2492, @2495, @2499, @2503, @2506, @2509, @2512, @2515, @2518, @2587
+  2475: BRA     +192                  ; -> 2672
+  2480: PUSH1
+  2481: MINUS
+  2482: BRK
+  2483: PUSHSIB #7                    ; string "MenuFrame"
+  2485: BRK
+  2486: PUSHSIB #85                   ; string "Change Res."
+  2488: BRK
+  2489: PUSHSIB #54                   ; string ""
+  2491: BRK
+  2492: PUSHB   100
+  2494: BRK
+  2495: PUSHW   130
+  2498: BRK
+  2499: PUSHW   440
+  2502: BRK
+  2503: PUSHB   25
+  2505: BRK
+  2506: PUSHB   8
+  2508: BRK
+  2509: PUSHB   20
+  2511: BRK
+  2512: PUSHB   4
+  2514: BRK
+  2515: PUSHIIB #3                    ; symbol "TRUE"
+  2517: BRK
+  2518: PUSHIIB #1                    ; symbol "Task_New"
+  2520: CALL    argc=8                ; args @2562, @2565, @2568, @2571, @2574, @2577, @2580, @2583
+  2557: BRA     +24                   ; -> 2586
+  2562: PUSH1
+  2563: MINUS
+  2564: BRK
+  2565: PUSHSIB #29                   ; string "MenuText"
+  2567: BRK
+  2568: PUSHSIB #54                   ; string ""
+  2570: BRK
+  2571: PUSHSIB #86                   ; string "Resolution"
+  2573: BRK
+  2574: PUSHSIB #57                   ; string "font3.fnt"
+  2576: BRK
+  2577: PUSHB   2
+  2579: BRK
+  2580: PUSHSIB #54                   ; string ""
+  2582: BRK
+  2583: PUSHSIB #54                   ; string ""
+  2585: BRK
+  2586: BRK
+  2587: PUSHIIB #1                    ; symbol "Task_New"
+  2589: CALL    argc=10               ; args @2639, @2643, @2646, @2649, @2652, @2655, @2659, @2662, @2665, @2668
+  2634: BRA     +32                   ; -> 2671
+  2639: PUSHW   950
+  2642: BRK
+  2643: PUSHSIB #46                   ; string "ListBox"
+  2645: BRK
+  2646: PUSHSIB #54                   ; string ""
+  2648: BRK
+  2649: PUSHSIB #80                   ; string "slide"
+  2651: BRK
+  2652: PUSHSIB #81                   ; string "font1.fnt"
+  2654: BRK
+  2655: PUSHW   140
+  2658: BRK
+  2659: PUSHSIB #87                   ; string "Config_FillScreenResolutionListBox()"
+  2661: BRK
+  2662: PUSHSIB #88                   ; string "Config_GraphicOptionsGetResolution()"
+  2664: BRK
+  2665: PUSHSIB #89                   ; string "Config_GraphicOptionsSetResolution(this.nActiveID)\n"
+  2667: BRK
+  2668: PUSHSIB #54                   ; string ""
+  2670: BRK
+  2671: BRK
+  2672: BRK
+  2673: PUSHIIB #1                    ; symbol "Task_New"
+  2675: CALL    argc=14               ; args @2741, @2744, @2747, @2750, @2753, @2756, @2760, @2764, @2767, @2770, @2773, @2776, @2779, @2848
+  2736: BRA     +198                  ; -> 2939
+  2741: PUSH1
+  2742: MINUS
+  2743: BRK
+  2744: PUSHSIB #7                    ; string "MenuFrame"
+  2746: BRK
+  2747: PUSHSIB #90                   ; string "Gamma"
+  2749: BRK
+  2750: PUSHSIB #54                   ; string ""
+  2752: BRK
+  2753: PUSHB   100
+  2755: BRK
+  2756: PUSHW   159
+  2759: BRK
+  2760: PUSHW   440
+  2763: BRK
+  2764: PUSHB   25
+  2766: BRK
+  2767: PUSHB   8
+  2769: BRK
+  2770: PUSHB   20
+  2772: BRK
+  2773: PUSHB   4
+  2775: BRK
+  2776: PUSHIIB #3                    ; symbol "TRUE"
+  2778: BRK
+  2779: PUSHIIB #1                    ; symbol "Task_New"
+  2781: CALL    argc=8                ; args @2823, @2826, @2829, @2832, @2835, @2838, @2841, @2844
+  2818: BRA     +24                   ; -> 2847
+  2823: PUSH1
+  2824: MINUS
+  2825: BRK
+  2826: PUSHSIB #29                   ; string "MenuText"
+  2828: BRK
+  2829: PUSHSIB #54                   ; string ""
+  2831: BRK
+  2832: PUSHSIB #90                   ; string "Gamma"
+  2834: BRK
+  2835: PUSHSIB #57                   ; string "font3.fnt"
+  2837: BRK
+  2838: PUSHB   2
+  2840: BRK
+  2841: PUSHSIB #54                   ; string ""
+  2843: BRK
+  2844: PUSHSIB #54                   ; string ""
+  2846: BRK
+  2847: BRK
+  2848: PUSHIIB #1                    ; symbol "Task_New"
+  2850: CALL    argc=11               ; args @2904, @2908, @2911, @2914, @2917, @2920, @2924, @2927, @2930, @2933, @2936
+  2899: BRA     +34                   ; -> 2938
+  2904: PUSHW   956
+  2907: BRK
+  2908: PUSHSIB #35                   ; string "SlideBar"
+  2910: BRK
+  2911: PUSHSIB #54                   ; string ""
+  2913: BRK
+  2914: PUSHSIB #80                   ; string "slide"
+  2916: BRK
+  2917: PUSHIIB #3                    ; symbol "TRUE"
+  2919: BRK
+  2920: PUSHW   140
+  2923: BRK
+  2924: PUSHSIB #91                   ; string "Config_GraphicOptionsGetGamma() - 0.5"
+  2926: BRK
+  2927: PUSHSIB #92                   ; string "Config_GraphicOptionsSetGamma(this.vValue + 0.5)"
+  2929: BRK
+  2930: PUSHSIB #54                   ; string ""
+  2932: BRK
+  2933: PUSHSIB #54                   ; string ""
+  2935: BRK
+  2936: PUSH0
+  2937: BRK
+  2938: BRK
+  2939: BRK
+  2940: BRK
+  2941: PUSHIIB #1                    ; symbol "Task_New"
+  2943: CALL    argc=14               ; args @3009, @3012, @3015, @3018, @3021, @3025, @3029, @3032, @3035, @3037, @3039, @3042, @3045, @3114
+  3004: BRA     +174                  ; -> 3183
+  3009: PUSH1
+  3010: MINUS
+  3011: BRK
+  3012: PUSHSIB #7                    ; string "MenuFrame"
+  3014: BRK
+  3015: PUSHSIB #93                   ; string "OK/Cancel"
+  3017: BRK
+  3018: PUSHSIB #54                   ; string ""
+  3020: BRK
+  3021: PUSHW   470
+  3024: BRK
+  3025: PUSHW   360
+  3028: BRK
+  3029: PUSHB   80
+  3031: BRK
+  3032: PUSHB   80
+  3034: BRK
+  3035: PUSH1
+  3036: BRK
+  3037: PUSH1
+  3038: BRK
+  3039: PUSHB   3
+  3041: BRK
+  3042: PUSHIIB #2                    ; symbol "FALSE"
+  3044: BRK
+  3045: PUSHIIB #1                    ; symbol "Task_New"
+  3047: CALL    argc=8                ; args @3089, @3092, @3095, @3098, @3101, @3104, @3107, @3110
+  3084: BRA     +24                   ; -> 3113
+  3089: PUSH1
+  3090: MINUS
+  3091: BRK
+  3092: PUSHSIB #29                   ; string "MenuText"
+  3094: BRK
+  3095: PUSHSIB #94                   ; string "OK"
+  3097: BRK
+  3098: PUSHSIB #94                   ; string "OK"
+  3100: BRK
+  3101: PUSHSIB #57                   ; string "font3.fnt"
+  3103: BRK
+  3104: PUSHB   2
+  3106: BRK
+  3107: PUSHSIB #95                   ; string "MenuManager_PopScreen(TRUE)\n"
+  3109: BRK
+  3110: PUSHSIB #96                   ; string "menu_ok"
+  3112: BRK
+  3113: BRK
+  3114: PUSHIIB #1                    ; symbol "Task_New"
+  3116: CALL    argc=8                ; args @3158, @3161, @3164, @3167, @3170, @3173, @3176, @3179
+  3153: BRA     +24                   ; -> 3182
+  3158: PUSH1
+  3159: MINUS
+  3160: BRK
+  3161: PUSHSIB #29                   ; string "MenuText"
+  3163: BRK
+  3164: PUSHSIB #97                   ; string "cancel"
+  3166: BRK
+  3167: PUSHSIB #98                   ; string "Cancel"
+  3169: BRK
+  3170: PUSHSIB #57                   ; string "font3.fnt"
+  3172: BRK
+  3173: PUSHB   2
+  3175: BRK
+  3176: PUSHSIB #99                   ; string "MenuManager_PopScreen(FALSE)\n"
+  3178: BRK
+  3179: PUSHSIB #100                  ; string "menu_cancel"
+  3181: BRK
+  3182: BRK
+  3183: BRK
+  3184: BRK
+  3185: PUSHIIB #1                    ; symbol "Task_New"
+  3187: CALL    argc=14               ; args @3253, @3257, @3260, @3263, @3266, @3269, @3272, @3276, @3280, @3283, @3286, @3289, @3458, @4098
+  3248: BRA     +1088                 ; -> 4341
+  3253: PUSHW   902
+  3256: BRK
+  3257: PUSHSIB #19                   ; string "MenuScreen"
+  3259: BRK
+  3260: PUSHSIB #101                  ; string "Sound Configuration"
+  3262: BRK
+  3263: PUSHSIB #75                   ; string "mainmenu.pic"
+  3265: BRK
+  3266: PUSHB   85
+  3268: BRK
+  3269: PUSHB   80
+  3271: BRK
+  3272: PUSHW   555
+  3275: BRK
+  3276: PUSHW   410
+  3279: BRK
+  3280: PUSHSIB #76                   ; string "MenuManager_PopScreen(FALSE)"
+  3282: BRK
+  3283: PUSHSIB #54                   ; string ""
+  3285: BRK
+  3286: PUSHSIB #54                   ; string ""
+  3288: BRK
+  3289: PUSHIIB #1                    ; symbol "Task_New"
+  3291: CALL    argc=13               ; args @3353, @3356, @3359, @3362, @3365, @3368, @3371, @3375, @3378, @3380, @3383, @3386, @3389
+  3348: BRA     +104                  ; -> 3457
+  3353: PUSH1
+  3354: MINUS
+  3355: BRK
+  3356: PUSHSIB #7                    ; string "MenuFrame"
+  3358: BRK
+  3359: PUSHSIB #54                   ; string ""
+  3361: BRK
+  3362: PUSHSIB #54                   ; string ""
+  3364: BRK
+  3365: PUSHB   100
+  3367: BRK
+  3368: PUSHB   77
+  3370: BRK
+  3371: PUSHW   440
+  3374: BRK
+  3375: PUSHB   26
+  3377: BRK
+  3378: PUSH0
+  3379: BRK
+  3380: PUSHB   4
+  3382: BRK
+  3383: PUSHB   4
+  3385: BRK
+  3386: PUSHIIB #2                    ; symbol "FALSE"
+  3388: BRK
+  3389: PUSHIIB #1                    ; symbol "Task_New"
+  3391: CALL    argc=8                ; args @3433, @3436, @3439, @3442, @3445, @3448, @3450, @3453
+  3428: BRA     +23                   ; -> 3456
+  3433: PUSH1
+  3434: MINUS
+  3435: BRK
+  3436: PUSHSIB #29                   ; string "MenuText"
+  3438: BRK
+  3439: PUSHSIB #77                   ; string "Title"
+  3441: BRK
+  3442: PUSHSIB #101                  ; string "Sound Configuration"
+  3444: BRK
+  3445: PUSHSIB #57                   ; string "font3.fnt"
+  3447: BRK
+  3448: PUSH1
+  3449: BRK
+  3450: PUSHSIB #54                   ; string ""
+  3452: BRK
+  3453: PUSHSIB #54                   ; string ""
+  3455: BRK
+  3456: BRK
+  3457: BRK
+  3458: PUSHIIB #1                    ; symbol "Task_New"
+  3460: CALL    argc=14               ; args @3526, @3529, @3532, @3535, @3538, @3541, @3544, @3548, @3551, @3553, @3556, @3559, @3562, @3829
+  3521: BRA     +571                  ; -> 4097
+  3526: PUSH1
+  3527: MINUS
+  3528: BRK
+  3529: PUSHSIB #7                    ; string "MenuFrame"
+  3531: BRK
+  3532: PUSHSIB #54                   ; string ""
+  3534: BRK
+  3535: PUSHSIB #54                   ; string ""
+  3537: BRK
+  3538: PUSHB   100
+  3540: BRK
+  3541: PUSHB   97
+  3543: BRK
+  3544: PUSHW   440
+  3547: BRK
+  3548: PUSHB   26
+  3550: BRK
+  3551: PUSH1
+  3552: BRK
+  3553: PUSHB   4
+  3555: BRK
+  3556: PUSHB   4
+  3558: BRK
+  3559: PUSHIIB #2                    ; symbol "FALSE"
+  3561: BRK
+  3562: PUSHIIB #1                    ; symbol "Task_New"
+  3564: CALL    argc=14               ; args @3630, @3633, @3636, @3639, @3642, @3645, @3648, @3652, @3655, @3658, @3661, @3664, @3667, @3736
+  3625: BRA     +198                  ; -> 3828
+  3630: PUSH1
+  3631: MINUS
+  3632: BRK
+  3633: PUSHSIB #7                    ; string "MenuFrame"
+  3635: BRK
+  3636: PUSHSIB #54                   ; string ""
+  3638: BRK
+  3639: PUSHSIB #54                   ; string ""
+  3641: BRK
+  3642: PUSHB   100
+  3644: BRK
+  3645: PUSHB   101
+  3647: BRK
+  3648: PUSHW   440
+  3651: BRK
+  3652: PUSHB   25
+  3654: BRK
+  3655: PUSHB   8
+  3657: BRK
+  3658: PUSHB   20
+  3660: BRK
+  3661: PUSHB   4
+  3663: BRK
+  3664: PUSHIIB #3                    ; symbol "TRUE"
+  3666: BRK
+  3667: PUSHIIB #1                    ; symbol "Task_New"
+  3669: CALL    argc=8                ; args @3711, @3714, @3717, @3720, @3723, @3726, @3729, @3732
+  3706: BRA     +24                   ; -> 3735
+  3711: PUSH1
+  3712: MINUS
+  3713: BRK
+  3714: PUSHSIB #29                   ; string "MenuText"
+  3716: BRK
+  3717: PUSHSIB #102                  ; string "Music"
+  3719: BRK
+  3720: PUSHSIB #103                  ; string "Music Volume"
+  3722: BRK
+  3723: PUSHSIB #57                   ; string "font3.fnt"
+  3725: BRK
+  3726: PUSHB   2
+  3728: BRK
+  3729: PUSHSIB #54                   ; string ""
+  3731: BRK
+  3732: PUSHSIB #54                   ; string ""
+  3734: BRK
+  3735: BRK
+  3736: PUSHIIB #1                    ; symbol "Task_New"
+  3738: CALL    argc=11               ; args @3792, @3796, @3799, @3802, @3805, @3808, @3812, @3815, @3818, @3821, @3824
+  3787: BRA     +35                   ; -> 3827
+  3792: PUSHW   952
+  3795: BRK
+  3796: PUSHSIB #35                   ; string "SlideBar"
+  3798: BRK
+  3799: PUSHSIB #54                   ; string ""
+  3801: BRK
+  3802: PUSHSIB #80                   ; string "slide"
+  3804: BRK
+  3805: PUSHIIB #3                    ; symbol "TRUE"
+  3807: BRK
+  3808: PUSHW   140
+  3811: BRK
+  3812: PUSHSIB #104                  ; string "Config_SoundOptionsGetMusicVolume()"
+  3814: BRK
+  3815: PUSHSIB #105                  ; string "Config_SoundOptionsSetMusicVolume(this.vValue)"
+  3817: BRK
+  3818: PUSHSIB #106                  ; string "Game_SetMusicVolume(this.vValue)"
+  3820: BRK
+  3821: PUSHSIB #54                   ; string ""
+  3823: BRK
+  3824: PUSHSIB #54                   ; string ""
+  3826: BRK
+  3827: BRK
+  3828: BRK
+  3829: PUSHIIB #1                    ; symbol "Task_New"
+  3831: CALL    argc=14               ; args @3897, @3900, @3903, @3906, @3909, @3912, @3916, @3920, @3923, @3926, @3929, @3932, @3935, @4004
+  3892: BRA     +199                  ; -> 4096
+  3897: PUSH1
+  3898: MINUS
+  3899: BRK
+  3900: PUSHSIB #7                    ; string "MenuFrame"
+  3902: BRK
+  3903: PUSHSIB #54                   ; string ""
+  3905: BRK
+  3906: PUSHSIB #54                   ; string ""
+  3908: BRK
+  3909: PUSHB   100
+  3911: BRK
+  3912: PUSHW   130
+  3915: BRK
+  3916: PUSHW   440
+  3919: BRK
+  3920: PUSHB   25
+  3922: BRK
+  3923: PUSHB   8
+  3925: BRK
+  3926: PUSHB   20
+  3928: BRK
+  3929: PUSHB   4
+  3931: BRK
+  3932: PUSHIIB #3                    ; symbol "TRUE"
+  3934: BRK
+  3935: PUSHIIB #1                    ; symbol "Task_New"
+  3937: CALL    argc=8                ; args @3979, @3982, @3985, @3988, @3991, @3994, @3997, @4000
+  3974: BRA     +24                   ; -> 4003
+  3979: PUSH1
+  3980: MINUS
+  3981: BRK
+  3982: PUSHSIB #29                   ; string "MenuText"
+  3984: BRK
+  3985: PUSHSIB #107                  ; string "Effects"
+  3987: BRK
+  3988: PUSHSIB #108                  ; string "FX Volume"
+  3990: BRK
+  3991: PUSHSIB #57                   ; string "font3.fnt"
+  3993: BRK
+  3994: PUSHB   2
+  3996: BRK
+  3997: PUSHSIB #54                   ; string ""
+  3999: BRK
+  4000: PUSHSIB #54                   ; string ""
+  4002: BRK
+  4003: BRK
+  4004: PUSHIIB #1                    ; symbol "Task_New"
+  4006: CALL    argc=11               ; args @4060, @4064, @4067, @4070, @4073, @4076, @4080, @4083, @4086, @4089, @4092
+  4055: BRA     +35                   ; -> 4095
+  4060: PUSHW   953
+  4063: BRK
+  4064: PUSHSIB #35                   ; string "SlideBar"
+  4066: BRK
+  4067: PUSHSIB #54                   ; string ""
+  4069: BRK
+  4070: PUSHSIB #80                   ; string "slide"
+  4072: BRK
+  4073: PUSHIIB #3                    ; symbol "TRUE"
+  4075: BRK
+  4076: PUSHW   140
+  4079: BRK
+  4080: PUSHSIB #109                  ; string "Config_SoundOptionsGetSoundsEffectsVolume()"
+  4082: BRK
+  4083: PUSHSIB #110                  ; string "Config_SoundOptionsSetSoundsEffectsVolume(this.vValue)"
+  4085: BRK
+  4086: PUSHSIB #111                  ; string "Game_SetSFXVolume(this.vValue)"
+  4088: BRK
+  4089: PUSHSIB #54                   ; string ""
+  4091: BRK
+  4092: PUSHSIB #54                   ; string ""
+  4094: BRK
+  4095: BRK
+  4096: BRK
+  4097: BRK
+  4098: PUSHIIB #1                    ; symbol "Task_New"
+  4100: CALL    argc=14               ; args @4166, @4169, @4172, @4175, @4178, @4182, @4186, @4189, @4192, @4194, @4196, @4199, @4202, @4271
+  4161: BRA     +174                  ; -> 4340
+  4166: PUSH1
+  4167: MINUS
+  4168: BRK
+  4169: PUSHSIB #7                    ; string "MenuFrame"
+  4171: BRK
+  4172: PUSHSIB #93                   ; string "OK/Cancel"
+  4174: BRK
+  4175: PUSHSIB #54                   ; string ""
+  4177: BRK
+  4178: PUSHW   470
+  4181: BRK
+  4182: PUSHW   360
+  4185: BRK
+  4186: PUSHB   80
+  4188: BRK
+  4189: PUSHB   80
+  4191: BRK
+  4192: PUSH1
+  4193: BRK
+  4194: PUSH1
+  4195: BRK
+  4196: PUSHB   3
+  4198: BRK
+  4199: PUSHIIB #2                    ; symbol "FALSE"
+  4201: BRK
+  4202: PUSHIIB #1                    ; symbol "Task_New"
+  4204: CALL    argc=8                ; args @4246, @4249, @4252, @4255, @4258, @4261, @4264, @4267
+  4241: BRA     +24                   ; -> 4270
+  4246: PUSH1
+  4247: MINUS
+  4248: BRK
+  4249: PUSHSIB #29                   ; string "MenuText"
+  4251: BRK
+  4252: PUSHSIB #94                   ; string "OK"
+  4254: BRK
+  4255: PUSHSIB #94                   ; string "OK"
+  4257: BRK
+  4258: PUSHSIB #57                   ; string "font3.fnt"
+  4260: BRK
+  4261: PUSHB   2
+  4263: BRK
+  4264: PUSHSIB #95                   ; string "MenuManager_PopScreen(TRUE)\n"
+  4266: BRK
+  4267: PUSHSIB #96                   ; string "menu_ok"
+  4269: BRK
+  4270: BRK
+  4271: PUSHIIB #1                    ; symbol "Task_New"
+  4273: CALL    argc=8                ; args @4315, @4318, @4321, @4324, @4327, @4330, @4333, @4336
+  4310: BRA     +24                   ; -> 4339
+  4315: PUSH1
+  4316: MINUS
+  4317: BRK
+  4318: PUSHSIB #29                   ; string "MenuText"
+  4320: BRK
+  4321: PUSHSIB #97                   ; string "cancel"
+  4323: BRK
+  4324: PUSHSIB #98                   ; string "Cancel"
+  4326: BRK
+  4327: PUSHSIB #57                   ; string "font3.fnt"
+  4329: BRK
+  4330: PUSHB   2
+  4332: BRK
+  4333: PUSHSIB #112                  ; string "MenuManager_PopScreen(FALSE) && Game_UpdateVolume()\n"
+  4335: BRK
+  4336: PUSHSIB #100                  ; string "menu_cancel"
+  4338: BRK
+  4339: BRK
+  4340: BRK
+  4341: BRK
+  4342: PUSHIIB #1                    ; symbol "Task_New"
+  4344: CALL    argc=14               ; args @4410, @4414, @4417, @4420, @4423, @4426, @4429, @4433, @4437, @4440, @4443, @4446, @4615, @5622
+  4405: BRA     +1455                 ; -> 5865
+  4410: PUSHW   903
+  4413: BRK
+  4414: PUSHSIB #19                   ; string "MenuScreen"
+  4416: BRK
+  4417: PUSHSIB #113                  ; string "Controls Configuration"
+  4419: BRK
+  4420: PUSHSIB #75                   ; string "mainmenu.pic"
+  4422: BRK
+  4423: PUSHB   85
+  4425: BRK
+  4426: PUSHB   80
+  4428: BRK
+  4429: PUSHW   555
+  4432: BRK
+  4433: PUSHW   410
+  4436: BRK
+  4437: PUSHSIB #76                   ; string "MenuManager_PopScreen(FALSE)"
+  4439: BRK
+  4440: PUSHSIB #54                   ; string ""
+  4442: BRK
+  4443: PUSHSIB #54                   ; string ""
+  4445: BRK
+  4446: PUSHIIB #1                    ; symbol "Task_New"
+  4448: CALL    argc=13               ; args @4510, @4513, @4516, @4519, @4522, @4525, @4528, @4532, @4535, @4537, @4540, @4543, @4546
+  4505: BRA     +104                  ; -> 4614
+  4510: PUSH1
+  4511: MINUS
+  4512: BRK
+  4513: PUSHSIB #7                    ; string "MenuFrame"
+  4515: BRK
+  4516: PUSHSIB #54                   ; string ""
+  4518: BRK
+  4519: PUSHSIB #54                   ; string ""
+  4521: BRK
+  4522: PUSHB   100
+  4524: BRK
+  4525: PUSHB   77
+  4527: BRK
+  4528: PUSHW   440
+  4531: BRK
+  4532: PUSHB   26
+  4534: BRK
+  4535: PUSH0
+  4536: BRK
+  4537: PUSHB   4
+  4539: BRK
+  4540: PUSHB   4
+  4542: BRK
+  4543: PUSHIIB #2                    ; symbol "FALSE"
+  4545: BRK
+  4546: PUSHIIB #1                    ; symbol "Task_New"
+  4548: CALL    argc=8                ; args @4590, @4593, @4596, @4599, @4602, @4605, @4607, @4610
+  4585: BRA     +23                   ; -> 4613
+  4590: PUSH1
+  4591: MINUS
+  4592: BRK
+  4593: PUSHSIB #29                   ; string "MenuText"
+  4595: BRK
+  4596: PUSHSIB #77                   ; string "Title"
+  4598: BRK
+  4599: PUSHSIB #113                  ; string "Controls Configuration"
+  4601: BRK
+  4602: PUSHSIB #57                   ; string "font3.fnt"
+  4604: BRK
+  4605: PUSH1
+  4606: BRK
+  4607: PUSHSIB #54                   ; string ""
+  4609: BRK
+  4610: PUSHSIB #54                   ; string ""
+  4612: BRK
+  4613: BRK
+  4614: BRK
+  4615: PUSHIIB #1                    ; symbol "Task_New"
+  4617: CALL    argc=16               ; args @4691, @4694, @4697, @4700, @4703, @4706, @4709, @4713, @4717, @4719, @4722, @4725, @4728, @4951, @5217, @5449
+  4686: BRA     +930                  ; -> 5621
+  4691: PUSH1
+  4692: MINUS
+  4693: BRK
+  4694: PUSHSIB #7                    ; string "MenuFrame"
+  4696: BRK
+  4697: PUSHSIB #54                   ; string ""
+  4699: BRK
+  4700: PUSHSIB #54                   ; string ""
+  4702: BRK
+  4703: PUSHB   95
+  4705: BRK
+  4706: PUSHB   97
+  4708: BRK
+  4709: PUSHW   455
+  4712: BRK
+  4713: PUSHW   326
+  4716: BRK
+  4717: PUSH1
+  4718: BRK
+  4719: PUSHB   4
+  4721: BRK
+  4722: PUSHB   4
+  4724: BRK
+  4725: PUSHIIB #2                    ; symbol "FALSE"
+  4727: BRK
+  4728: PUSHIIB #1                    ; symbol "Task_New"
+  4730: CALL    argc=14               ; args @4796, @4799, @4802, @4805, @4808, @4811, @4814, @4818, @4821, @4824, @4826, @4829, @4832, @4901
+  4791: BRA     +154                  ; -> 4950
+  4796: PUSH1
+  4797: MINUS
+  4798: BRK
+  4799: PUSHSIB #7                    ; string "MenuFrame"
+  4801: BRK
+  4802: PUSHSIB #114                  ; string "Invert Mouse"
+  4804: BRK
+  4805: PUSHSIB #54                   ; string ""
+  4807: BRK
+  4808: PUSHB   120
+  4810: BRK
+  4811: PUSHB   101
+  4813: BRK
+  4814: PUSHW   378
+  4817: BRK
+  4818: PUSHB   25
+  4820: BRK
+  4821: PUSHB   8
+  4823: BRK
+  4824: PUSH0
+  4825: BRK
+  4826: PUSHB   4
+  4828: BRK
+  4829: PUSHIIB #3                    ; symbol "TRUE"
+  4831: BRK
+  4832: PUSHIIB #1                    ; symbol "Task_New"
+  4834: CALL    argc=8                ; args @4876, @4879, @4882, @4885, @4888, @4891, @4894, @4897
+  4871: BRA     +24                   ; -> 4900
+  4876: PUSH1
+  4877: MINUS
+  4878: BRK
+  4879: PUSHSIB #29                   ; string "MenuText"
+  4881: BRK
+  4882: PUSHSIB #54                   ; string ""
+  4884: BRK
+  4885: PUSHSIB #114                  ; string "Invert Mouse"
+  4887: BRK
+  4888: PUSHSIB #57                   ; string "font3.fnt"
+  4890: BRK
+  4891: PUSHB   2
+  4893: BRK
+  4894: PUSHSIB #54                   ; string ""
+  4896: BRK
+  4897: PUSHSIB #54                   ; string ""
+  4899: BRK
+  4900: BRK
+  4901: PUSHIIB #1                    ; symbol "Task_New"
+  4903: CALL    argc=5                ; args @4933, @4937, @4940, @4943, @4946
+  4928: BRA     +16                   ; -> 4949
+  4933: PUSHW   957
+  4936: BRK
+  4937: PUSHSIB #48                   ; string "ToggleBox"
+  4939: BRK
+  4940: PUSHSIB #54                   ; string ""
+  4942: BRK
+  4943: PUSHSIB #115                  ; string "Config_GameOptionsInputGetInvertMouse()"
+  4945: BRK
+  4946: PUSHSIB #116                  ; string "Config_GameOptionsInputSetInvertMouse(this.isOn)"
+  4948: BRK
+  4949: BRK
+  4950: BRK
+  4951: PUSHIIB #1                    ; symbol "Task_New"
+  4953: CALL    argc=14               ; args @5019, @5022, @5025, @5028, @5031, @5034, @5038, @5042, @5045, @5048, @5050, @5053, @5056, @5125
+  5014: BRA     +197                  ; -> 5216
+  5019: PUSH1
+  5020: MINUS
+  5021: BRK
+  5022: PUSHSIB #7                    ; string "MenuFrame"
+  5024: BRK
+  5025: PUSHSIB #117                  ; string "Mouse Sensitivity"
+  5027: BRK
+  5028: PUSHSIB #54                   ; string ""
+  5030: BRK
+  5031: PUSHB   120
+  5033: BRK
+  5034: PUSHW   130
+  5037: BRK
+  5038: PUSHW   378
+  5041: BRK
+  5042: PUSHB   25
+  5044: BRK
+  5045: PUSHB   8
+  5047: BRK
+  5048: PUSH0
+  5049: BRK
+  5050: PUSHB   4
+  5052: BRK
+  5053: PUSHIIB #3                    ; symbol "TRUE"
+  5055: BRK
+  5056: PUSHIIB #1                    ; symbol "Task_New"
+  5058: CALL    argc=8                ; args @5100, @5103, @5106, @5109, @5112, @5115, @5118, @5121
+  5095: BRA     +24                   ; -> 5124
+  5100: PUSH1
+  5101: MINUS
+  5102: BRK
+  5103: PUSHSIB #29                   ; string "MenuText"
+  5105: BRK
+  5106: PUSHSIB #54                   ; string ""
+  5108: BRK
+  5109: PUSHSIB #117                  ; string "Mouse Sensitivity"
+  5111: BRK
+  5112: PUSHSIB #57                   ; string "font3.fnt"
+  5114: BRK
+  5115: PUSHB   2
+  5117: BRK
+  5118: PUSHSIB #54                   ; string ""
+  5120: BRK
+  5121: PUSHSIB #54                   ; string ""
+  5123: BRK
+  5124: BRK
+  5125: PUSHIIB #1                    ; symbol "Task_New"
+  5127: CALL    argc=11               ; args @5181, @5185, @5188, @5191, @5194, @5197, @5201, @5204, @5207, @5210, @5213
+  5176: BRA     +34                   ; -> 5215
+  5181: PUSHW   958
+  5184: BRK
+  5185: PUSHSIB #35                   ; string "SlideBar"
+  5187: BRK
+  5188: PUSHSIB #54                   ; string ""
+  5190: BRK
+  5191: PUSHSIB #80                   ; string "slide"
+  5193: BRK
+  5194: PUSHIIB #3                    ; symbol "TRUE"
+  5196: BRK
+  5197: PUSHW   140
+  5200: BRK
+  5201: PUSHSIB #118                  ; string "Config_GameOptionsInputGetMouseSensitivity()"
+  5203: BRK
+  5204: PUSHSIB #119                  ; string "Config_GameOptionsInputSetMouseSensitivity(this.vValue)\n"
+  5206: BRK
+  5207: PUSHSIB #54                   ; string ""
+  5209: BRK
+  5210: PUSHSIB #54                   ; string ""
+  5212: BRK
+  5213: PUSH0
+  5214: BRK
+  5215: BRK
+  5216: BRK
+  5217: PUSHIIB #1                    ; symbol "Task_New"
+  5219: CALL    argc=14               ; args @5285, @5288, @5291, @5294, @5297, @5300, @5304, @5308, @5312, @5315, @5317, @5319, @5322, @5357
+  5280: BRA     +163                  ; -> 5448
+  5285: PUSH1
+  5286: MINUS
+  5287: BRK
+  5288: PUSHSIB #7                    ; string "MenuFrame"
+  5290: BRK
+  5291: PUSHSIB #120                  ; string "ControlsMenu"
+  5293: BRK
+  5294: PUSHSIB #121                  ; string "win"
+  5296: BRK
+  5297: PUSHB   119
+  5299: BRK
+  5300: PUSHW   159
+  5303: BRK
+  5304: PUSHW   440
+  5307: BRK
+  5308: PUSHW   200
+  5311: BRK
+  5312: PUSHB   4
+  5314: BRK
+  5315: PUSH1
+  5316: BRK
+  5317: PUSH0
+  5318: BRK
+  5319: PUSHIIB #2                    ; symbol "FALSE"
+  5321: BRK
+  5322: PUSHIIB #1                    ; symbol "Task_New"
+  5324: CALL    argc=3                ; args @5346, @5350, @5353
+  5341: BRA     +10                   ; -> 5356
+  5346: PUSHW   954
+  5349: BRK
+  5350: PUSHSIB #120                  ; string "ControlsMenu"
+  5352: BRK
+  5353: PUSHSIB #54                   ; string ""
+  5355: BRK
+  5356: BRK
+  5357: PUSHIIB #1                    ; symbol "Task_New"
+  5359: CALL    argc=11               ; args @5413, @5417, @5420, @5423, @5426, @5429, @5433, @5436, @5439, @5442, @5445
+  5408: BRA     +34                   ; -> 5447
+  5413: PUSHW   955
+  5416: BRK
+  5417: PUSHSIB #35                   ; string "SlideBar"
+  5419: BRK
+  5420: PUSHSIB #54                   ; string ""
+  5422: BRK
+  5423: PUSHSIB #122                  ; string "slidevert"
+  5425: BRK
+  5426: PUSHIIB #2                    ; symbol "FALSE"
+  5428: BRK
+  5429: PUSHW   172
+  5432: BRK
+  5433: PUSHSIB #123                  ; string "ControlsMenu_ConvertFloatFromOffset(ControlsMenu_954.nOffset)\n"
+  5435: BRK
+  5436: PUSHSIB #54                   ; string ""
+  5438: BRK
+  5439: PUSHSIB #124                  ; string "ControlsMenu_954.nOffset = ControlsMenu_ConvertOffsetFromFloat(this.vValue)\n"
+  5441: BRK
+  5442: PUSHSIB #125                  ; string "ControlsMenu_ConvertFloatFromOffset(1)"
+  5444: BRK
+  5445: PUSH0
+  5446: BRK
+  5447: BRK
+  5448: BRK
+  5449: PUSHIIB #1                    ; symbol "Task_New"
+  5451: CALL    argc=13               ; args @5513, @5516, @5519, @5522, @5525, @5528, @5532, @5536, @5539, @5542, @5545, @5548, @5551
+  5508: BRA     +107                  ; -> 5620
+  5513: PUSH1
+  5514: MINUS
+  5515: BRK
+  5516: PUSHSIB #7                    ; string "MenuFrame"
+  5518: BRK
+  5519: PUSHSIB #126                  ; string "Reset Def."
+  5521: BRK
+  5522: PUSHSIB #54                   ; string ""
+  5524: BRK
+  5525: PUSHB   100
+  5527: BRK
+  5528: PUSHW   363
+  5531: BRK
+  5532: PUSHW   440
+  5535: BRK
+  5536: PUSHB   25
+  5538: BRK
+  5539: PUSHB   8
+  5541: BRK
+  5542: PUSHB   20
+  5544: BRK
+  5545: PUSHB   4
+  5547: BRK
+  5548: PUSHIIB #2                    ; symbol "FALSE"
+  5550: BRK
+  5551: PUSHIIB #1                    ; symbol "Task_New"
+  5553: CALL    argc=8                ; args @5595, @5598, @5601, @5604, @5607, @5610, @5613, @5616
+  5590: BRA     +24                   ; -> 5619
+  5595: PUSH1
+  5596: MINUS
+  5597: BRK
+  5598: PUSHSIB #29                   ; string "MenuText"
+  5600: BRK
+  5601: PUSHSIB #54                   ; string ""
+  5603: BRK
+  5604: PUSHSIB #127                  ; string "Reset to Default"
+  5606: BRK
+  5607: PUSHSIB #57                   ; string "font3.fnt"
+  5609: BRK
+  5610: PUSHB   2
+  5612: BRK
+  5613: PUSHSIB #128                  ; string "MenuManager_ActivatePopupScreen(930)\n"
+  5615: BRK
+  5616: PUSHSIB #54                   ; string ""
+  5618: BRK
+  5619: BRK
+  5620: BRK
+  5621: BRK
+  5622: PUSHIIB #1                    ; symbol "Task_New"
+  5624: CALL    argc=14               ; args @5690, @5693, @5696, @5699, @5702, @5706, @5710, @5713, @5716, @5718, @5720, @5723, @5726, @5795
+  5685: BRA     +174                  ; -> 5864
+  5690: PUSH1
+  5691: MINUS
+  5692: BRK
+  5693: PUSHSIB #7                    ; string "MenuFrame"
+  5695: BRK
+  5696: PUSHSIB #93                   ; string "OK/Cancel"
+  5698: BRK
+  5699: PUSHSIB #54                   ; string ""
+  5701: BRK
+  5702: PUSHW   470
+  5705: BRK
+  5706: PUSHW   360
+  5709: BRK
+  5710: PUSHB   80
+  5712: BRK
+  5713: PUSHB   80
+  5715: BRK
+  5716: PUSH1
+  5717: BRK
+  5718: PUSH1
+  5719: BRK
+  5720: PUSHB   3
+  5722: BRK
+  5723: PUSHIIB #2                    ; symbol "FALSE"
+  5725: BRK
+  5726: PUSHIIB #1                    ; symbol "Task_New"
+  5728: CALL    argc=8                ; args @5770, @5773, @5776, @5779, @5782, @5785, @5788, @5791
+  5765: BRA     +24                   ; -> 5794
+  5770: PUSH1
+  5771: MINUS
+  5772: BRK
+  5773: PUSHSIB #29                   ; string "MenuText"
+  5775: BRK
+  5776: PUSHSIB #94                   ; string "OK"
+  5778: BRK
+  5779: PUSHSIB #94                   ; string "OK"
+  5781: BRK
+  5782: PUSHSIB #57                   ; string "font3.fnt"
+  5784: BRK
+  5785: PUSHB   2
+  5787: BRK
+  5788: PUSHSIB #95                   ; string "MenuManager_PopScreen(TRUE)\n"
+  5790: BRK
+  5791: PUSHSIB #96                   ; string "menu_ok"
+  5793: BRK
+  5794: BRK
+  5795: PUSHIIB #1                    ; symbol "Task_New"
+  5797: CALL    argc=8                ; args @5839, @5842, @5845, @5848, @5851, @5854, @5857, @5860
+  5834: BRA     +24                   ; -> 5863
+  5839: PUSH1
+  5840: MINUS
+  5841: BRK
+  5842: PUSHSIB #29                   ; string "MenuText"
+  5844: BRK
+  5845: PUSHSIB #97                   ; string "cancel"
+  5847: BRK
+  5848: PUSHSIB #98                   ; string "Cancel"
+  5850: BRK
+  5851: PUSHSIB #57                   ; string "font3.fnt"
+  5853: BRK
+  5854: PUSHB   2
+  5856: BRK
+  5857: PUSHSIB #99                   ; string "MenuManager_PopScreen(FALSE)\n"
+  5859: BRK
+  5860: PUSHSIB #100                  ; string "menu_cancel"
+  5862: BRK
+  5863: BRK
+  5864: BRK
+  5865: BRK
+  5866: PUSHIIB #1                    ; symbol "Task_New"
+  5868: CALL    argc=10               ; args @5918, @5922, @5925, @5928, @5932, @5936, @5940, @5943, @5946, @6117
+  5913: BRA     +445                  ; -> 6363
+  5918: PUSHW   930
+  5921: BRK
+  5922: PUSHSIB #49                   ; string "DialogWindow"
+  5924: BRK
+  5925: PUSHSIB #129                  ; string "Reset Controls"
+  5927: BRK
+  5928: PUSHW   220
+  5931: BRK
+  5932: PUSHW   180
+  5935: BRK
+  5936: PUSHW   200
+  5939: BRK
+  5940: PUSHB   120
+  5942: BRK
+  5943: PUSHIIB #3                    ; symbol "TRUE"
+  5945: BRK
+  5946: PUSHIIB #1                    ; symbol "Task_New"
+  5948: CALL    argc=13               ; args @6010, @6013, @6016, @6019, @6022, @6026, @6030, @6034, @6037, @6040, @6043, @6045, @6048
+  6005: BRA     +106                  ; -> 6116
+  6010: PUSH1
+  6011: MINUS
+  6012: BRK
+  6013: PUSHSIB #7                    ; string "MenuFrame"
+  6015: BRK
+  6016: PUSHSIB #54                   ; string ""
+  6018: BRK
+  6019: PUSHSIB #54                   ; string ""
+  6021: BRK
+  6022: PUSHW   220
+  6025: BRK
+  6026: PUSHW   180
+  6029: BRK
+  6030: PUSHW   200
+  6033: BRK
+  6034: PUSHB   20
+  6036: BRK
+  6037: PUSHB   2
+  6039: BRK
+  6040: PUSHB   4
+  6042: BRK
+  6043: PUSH0
+  6044: BRK
+  6045: PUSHIIB #2                    ; symbol "FALSE"
+  6047: BRK
+  6048: PUSHIIB #1                    ; symbol "Task_New"
+  6050: CALL    argc=8                ; args @6092, @6095, @6098, @6101, @6104, @6107, @6109, @6112
+  6087: BRA     +23                   ; -> 6115
+  6092: PUSH1
+  6093: MINUS
+  6094: BRK
+  6095: PUSHSIB #29                   ; string "MenuText"
+  6097: BRK
+  6098: PUSHSIB #54                   ; string ""
+  6100: BRK
+  6101: PUSHSIB #130                  ; string "Are you sure?"
+  6103: BRK
+  6104: PUSHSIB #57                   ; string "font3.fnt"
+  6106: BRK
+  6107: PUSH1
+  6108: BRK
+  6109: PUSHSIB #54                   ; string ""
+  6111: BRK
+  6112: PUSHSIB #54                   ; string ""
+  6114: BRK
+  6115: BRK
+  6116: BRK
+  6117: PUSHIIB #1                    ; symbol "Task_New"
+  6119: CALL    argc=14               ; args @6185, @6188, @6191, @6194, @6197, @6201, @6205, @6209, @6212, @6215, @6218, @6221, @6224, @6293
+  6180: BRA     +177                  ; -> 6362
+  6185: PUSH1
+  6186: MINUS
+  6187: BRK
+  6188: PUSHSIB #7                    ; string "MenuFrame"
+  6190: BRK
+  6191: PUSHSIB #54                   ; string ""
+  6193: BRK
+  6194: PUSHSIB #54                   ; string ""
+  6196: BRK
+  6197: PUSHW   200
+  6200: BRK
+  6201: PUSHW   200
+  6204: BRK
+  6205: PUSHW   240
+  6208: BRK
+  6209: PUSHB   100
+  6211: BRK
+  6212: PUSHB   5
+  6214: BRK
+  6215: PUSHB   4
+  6217: BRK
+  6218: PUSHB   4
+  6220: BRK
+  6221: PUSHIIB #2                    ; symbol "FALSE"
+  6223: BRK
+  6224: PUSHIIB #1                    ; symbol "Task_New"
+  6226: CALL    argc=8                ; args @6268, @6271, @6274, @6277, @6280, @6283, @6286, @6289
+  6263: BRA     +24                   ; -> 6292
+  6268: PUSH1
+  6269: MINUS
+  6270: BRK
+  6271: PUSHSIB #29                   ; string "MenuText"
+  6273: BRK
+  6274: PUSHSIB #54                   ; string ""
+  6276: BRK
+  6277: PUSHSIB #131                  ; string "Yes"
+  6279: BRK
+  6280: PUSHSIB #57                   ; string "font3.fnt"
+  6282: BRK
+  6283: PUSHB   2
+  6285: BRK
+  6286: PUSHSIB #132                  ; string "ControlsMenu_954.isReset = 1, \nToggleBox_957.isOn = FALSE ,\nMenuManager_DeactivatePopuScreen()"
+  6288: BRK
+  6289: PUSHSIB #96                   ; string "menu_ok"
+  6291: BRK
+  6292: BRK
+  6293: PUSHIIB #1                    ; symbol "Task_New"
+  6295: CALL    argc=8                ; args @6337, @6340, @6343, @6346, @6349, @6352, @6355, @6358
+  6332: BRA     +24                   ; -> 6361
+  6337: PUSH1
+  6338: MINUS
+  6339: BRK
+  6340: PUSHSIB #29                   ; string "MenuText"
+  6342: BRK
+  6343: PUSHSIB #54                   ; string ""
+  6345: BRK
+  6346: PUSHSIB #133                  ; string "No"
+  6348: BRK
+  6349: PUSHSIB #57                   ; string "font3.fnt"
+  6351: BRK
+  6352: PUSHB   2
+  6354: BRK
+  6355: PUSHSIB #134                  ; string "MenuManager_DeactivatePopuScreen()\n"
+  6357: BRK
+  6358: PUSHSIB #100                  ; string "menu_cancel"
+  6360: BRK
+  6361: BRK
+  6362: BRK
+  6363: BRK
+  6364: PUSHIIB #1                    ; symbol "Task_New"
+  6366: CALL    argc=10               ; args @6416, @6420, @6423, @6426, @6430, @6434, @6438, @6441, @6444, @6615
+  6411: BRA     +445                  ; -> 6861
+  6416: PUSHW   931
+  6419: BRK
+  6420: PUSHSIB #49                   ; string "DialogWindow"
+  6422: BRK
+  6423: PUSHSIB #135                  ; string "quit to main"
+  6425: BRK
+  6426: PUSHW   220
+  6429: BRK
+  6430: PUSHW   180
+  6433: BRK
+  6434: PUSHW   200
+  6437: BRK
+  6438: PUSHB   120
+  6440: BRK
+  6441: PUSHIIB #3                    ; symbol "TRUE"
+  6443: BRK
+  6444: PUSHIIB #1                    ; symbol "Task_New"
+  6446: CALL    argc=13               ; args @6508, @6511, @6514, @6517, @6520, @6524, @6528, @6532, @6535, @6538, @6541, @6543, @6546
+  6503: BRA     +106                  ; -> 6614
+  6508: PUSH1
+  6509: MINUS
+  6510: BRK
+  6511: PUSHSIB #7                    ; string "MenuFrame"
+  6513: BRK
+  6514: PUSHSIB #54                   ; string ""
+  6516: BRK
+  6517: PUSHSIB #54                   ; string ""
+  6519: BRK
+  6520: PUSHW   220
+  6523: BRK
+  6524: PUSHW   180
+  6527: BRK
+  6528: PUSHW   200
+  6531: BRK
+  6532: PUSHB   20
+  6534: BRK
+  6535: PUSHB   2
+  6537: BRK
+  6538: PUSHB   4
+  6540: BRK
+  6541: PUSH0
+  6542: BRK
+  6543: PUSHIIB #2                    ; symbol "FALSE"
+  6545: BRK
+  6546: PUSHIIB #1                    ; symbol "Task_New"
+  6548: CALL    argc=8                ; args @6590, @6593, @6596, @6599, @6602, @6605, @6607, @6610
+  6585: BRA     +23                   ; -> 6613
+  6590: PUSH1
+  6591: MINUS
+  6592: BRK
+  6593: PUSHSIB #29                   ; string "MenuText"
+  6595: BRK
+  6596: PUSHSIB #54                   ; string ""
+  6598: BRK
+  6599: PUSHSIB #130                  ; string "Are you sure?"
+  6601: BRK
+  6602: PUSHSIB #57                   ; string "font3.fnt"
+  6604: BRK
+  6605: PUSH1
+  6606: BRK
+  6607: PUSHSIB #54                   ; string ""
+  6609: BRK
+  6610: PUSHSIB #54                   ; string ""
+  6612: BRK
+  6613: BRK
+  6614: BRK
+  6615: PUSHIIB #1                    ; symbol "Task_New"
+  6617: CALL    argc=14               ; args @6683, @6686, @6689, @6692, @6695, @6699, @6703, @6707, @6710, @6713, @6716, @6719, @6722, @6791
+  6678: BRA     +177                  ; -> 6860
+  6683: PUSH1
+  6684: MINUS
+  6685: BRK
+  6686: PUSHSIB #7                    ; string "MenuFrame"
+  6688: BRK
+  6689: PUSHSIB #54                   ; string ""
+  6691: BRK
+  6692: PUSHSIB #54                   ; string ""
+  6694: BRK
+  6695: PUSHW   200
+  6698: BRK
+  6699: PUSHW   200
+  6702: BRK
+  6703: PUSHW   240
+  6706: BRK
+  6707: PUSHB   100
+  6709: BRK
+  6710: PUSHB   5
+  6712: BRK
+  6713: PUSHB   4
+  6715: BRK
+  6716: PUSHB   4
+  6718: BRK
+  6719: PUSHIIB #2                    ; symbol "FALSE"
+  6721: BRK
+  6722: PUSHIIB #1                    ; symbol "Task_New"
+  6724: CALL    argc=8                ; args @6766, @6769, @6772, @6775, @6778, @6781, @6784, @6787
+  6761: BRA     +24                   ; -> 6790
+  6766: PUSH1
+  6767: MINUS
+  6768: BRK
+  6769: PUSHSIB #29                   ; string "MenuText"
+  6771: BRK
+  6772: PUSHSIB #54                   ; string ""
+  6774: BRK
+  6775: PUSHSIB #131                  ; string "Yes"
+  6777: BRK
+  6778: PUSHSIB #57                   ; string "font3.fnt"
+  6780: BRK
+  6781: PUSHB   2
+  6783: BRK
+  6784: PUSHSIB #136                  ; string "MenuManager_LeaveMenus(0, MENUMANAGER_QUITTOMAINMENU)"
+  6786: BRK
+  6787: PUSHSIB #96                   ; string "menu_ok"
+  6789: BRK
+  6790: BRK
+  6791: PUSHIIB #1                    ; symbol "Task_New"
+  6793: CALL    argc=8                ; args @6835, @6838, @6841, @6844, @6847, @6850, @6853, @6856
+  6830: BRA     +24                   ; -> 6859
+  6835: PUSH1
+  6836: MINUS
+  6837: BRK
+  6838: PUSHSIB #29                   ; string "MenuText"
+  6840: BRK
+  6841: PUSHSIB #54                   ; string ""
+  6843: BRK
+  6844: PUSHSIB #133                  ; string "No"
+  6846: BRK
+  6847: PUSHSIB #57                   ; string "font3.fnt"
+  6849: BRK
+  6850: PUSHB   2
+  6852: BRK
+  6853: PUSHSIB #134                  ; string "MenuManager_DeactivatePopuScreen()\n"
+  6855: BRK
+  6856: PUSHSIB #100                  ; string "menu_cancel"
+  6858: BRK
+  6859: BRK
+  6860: BRK
+  6861: BRK
+  6862: PUSHIIB #1                    ; symbol "Task_New"
+  6864: CALL    argc=10               ; args @6914, @6918, @6921, @6924, @6928, @6932, @6936, @6939, @6942, @7113
+  6909: BRA     +445                  ; -> 7359
+  6914: PUSHW   932
+  6917: BRK
+  6918: PUSHSIB #49                   ; string "DialogWindow"
+  6920: BRK
+  6921: PUSHSIB #137                  ; string "restart mission"
+  6923: BRK
+  6924: PUSHW   220
+  6927: BRK
+  6928: PUSHW   180
+  6931: BRK
+  6932: PUSHW   200
+  6935: BRK
+  6936: PUSHB   120
+  6938: BRK
+  6939: PUSHIIB #3                    ; symbol "TRUE"
+  6941: BRK
+  6942: PUSHIIB #1                    ; symbol "Task_New"
+  6944: CALL    argc=13               ; args @7006, @7009, @7012, @7015, @7018, @7022, @7026, @7030, @7033, @7036, @7039, @7041, @7044
+  7001: BRA     +106                  ; -> 7112
+  7006: PUSH1
+  7007: MINUS
+  7008: BRK
+  7009: PUSHSIB #7                    ; string "MenuFrame"
+  7011: BRK
+  7012: PUSHSIB #54                   ; string ""
+  7014: BRK
+  7015: PUSHSIB #54                   ; string ""
+  7017: BRK
+  7018: PUSHW   220
+  7021: BRK
+  7022: PUSHW   180
+  7025: BRK
+  7026: PUSHW   200
+  7029: BRK
+  7030: PUSHB   20
+  7032: BRK
+  7033: PUSHB   2
+  7035: BRK
+  7036: PUSHB   4
+  7038: BRK
+  7039: PUSH0
+  7040: BRK
+  7041: PUSHIIB #2                    ; symbol "FALSE"
+  7043: BRK
+  7044: PUSHIIB #1                    ; symbol "Task_New"
+  7046: CALL    argc=8                ; args @7088, @7091, @7094, @7097, @7100, @7103, @7105, @7108
+  7083: BRA     +23                   ; -> 7111
+  7088: PUSH1
+  7089: MINUS
+  7090: BRK
+  7091: PUSHSIB #29                   ; string "MenuText"
+  7093: BRK
+  7094: PUSHSIB #54                   ; string ""
+  7096: BRK
+  7097: PUSHSIB #130                  ; string "Are you sure?"
+  7099: BRK
+  7100: PUSHSIB #57                   ; string "font3.fnt"
+  7102: BRK
+  7103: PUSH1
+  7104: BRK
+  7105: PUSHSIB #54                   ; string ""
+  7107: BRK
+  7108: PUSHSIB #54                   ; string ""
+  7110: BRK
+  7111: BRK
+  7112: BRK
+  7113: PUSHIIB #1                    ; symbol "Task_New"
+  7115: CALL    argc=14               ; args @7181, @7184, @7187, @7190, @7193, @7197, @7201, @7205, @7208, @7211, @7214, @7217, @7220, @7289
+  7176: BRA     +177                  ; -> 7358
+  7181: PUSH1
+  7182: MINUS
+  7183: BRK
+  7184: PUSHSIB #7                    ; string "MenuFrame"
+  7186: BRK
+  7187: PUSHSIB #54                   ; string ""
+  7189: BRK
+  7190: PUSHSIB #54                   ; string ""
+  7192: BRK
+  7193: PUSHW   200
+  7196: BRK
+  7197: PUSHW   200
+  7200: BRK
+  7201: PUSHW   240
+  7204: BRK
+  7205: PUSHB   100
+  7207: BRK
+  7208: PUSHB   5
+  7210: BRK
+  7211: PUSHB   4
+  7213: BRK
+  7214: PUSHB   4
+  7216: BRK
+  7217: PUSHIIB #2                    ; symbol "FALSE"
+  7219: BRK
+  7220: PUSHIIB #1                    ; symbol "Task_New"
+  7222: CALL    argc=8                ; args @7264, @7267, @7270, @7273, @7276, @7279, @7282, @7285
+  7259: BRA     +24                   ; -> 7288
+  7264: PUSH1
+  7265: MINUS
+  7266: BRK
+  7267: PUSHSIB #29                   ; string "MenuText"
+  7269: BRK
+  7270: PUSHSIB #54                   ; string ""
+  7272: BRK
+  7273: PUSHSIB #131                  ; string "Yes"
+  7275: BRK
+  7276: PUSHSIB #57                   ; string "font3.fnt"
+  7278: BRK
+  7279: PUSHB   2
+  7281: BRK
+  7282: PUSHSIB #138                  ; string "MenuManager_LeaveMenus(900, MENUMANAGER_RESTARTLEVEL)"
+  7284: BRK
+  7285: PUSHSIB #96                   ; string "menu_ok"
+  7287: BRK
+  7288: BRK
+  7289: PUSHIIB #1                    ; symbol "Task_New"
+  7291: CALL    argc=8                ; args @7333, @7336, @7339, @7342, @7345, @7348, @7351, @7354
+  7328: BRA     +24                   ; -> 7357
+  7333: PUSH1
+  7334: MINUS
+  7335: BRK
+  7336: PUSHSIB #29                   ; string "MenuText"
+  7338: BRK
+  7339: PUSHSIB #54                   ; string ""
+  7341: BRK
+  7342: PUSHSIB #133                  ; string "No"
+  7344: BRK
+  7345: PUSHSIB #57                   ; string "font3.fnt"
+  7347: BRK
+  7348: PUSHB   2
+  7350: BRK
+  7351: PUSHSIB #134                  ; string "MenuManager_DeactivatePopuScreen()\n"
+  7353: BRK
+  7354: PUSHSIB #100                  ; string "menu_cancel"
+  7356: BRK
+  7357: BRK
+  7358: BRK
+  7359: BRK
+  7360: PUSHIIB #1                    ; symbol "Task_New"
+  7362: CALL    argc=10               ; args @7412, @7416, @7419, @7422, @7426, @7430, @7434, @7437, @7440, @7611
+  7407: BRA     +445                  ; -> 7857
+  7412: PUSHW   933
+  7415: BRK
+  7416: PUSHSIB #49                   ; string "DialogWindow"
+  7418: BRK
+  7419: PUSHSIB #54                   ; string ""
+  7421: BRK
+  7422: PUSHW   220
+  7425: BRK
+  7426: PUSHW   180
+  7429: BRK
+  7430: PUSHW   200
+  7433: BRK
+  7434: PUSHB   120
+  7436: BRK
+  7437: PUSHIIB #3                    ; symbol "TRUE"
+  7439: BRK
+  7440: PUSHIIB #1                    ; symbol "Task_New"
+  7442: CALL    argc=13               ; args @7504, @7507, @7510, @7513, @7516, @7520, @7524, @7528, @7531, @7534, @7537, @7539, @7542
+  7499: BRA     +106                  ; -> 7610
+  7504: PUSH1
+  7505: MINUS
+  7506: BRK
+  7507: PUSHSIB #7                    ; string "MenuFrame"
+  7509: BRK
+  7510: PUSHSIB #54                   ; string ""
+  7512: BRK
+  7513: PUSHSIB #54                   ; string ""
+  7515: BRK
+  7516: PUSHW   220
+  7519: BRK
+  7520: PUSHW   180
+  7523: BRK
+  7524: PUSHW   200
+  7527: BRK
+  7528: PUSHB   20
+  7530: BRK
+  7531: PUSHB   2
+  7533: BRK
+  7534: PUSHB   4
+  7536: BRK
+  7537: PUSH0
+  7538: BRK
+  7539: PUSHIIB #2                    ; symbol "FALSE"
+  7541: BRK
+  7542: PUSHIIB #1                    ; symbol "Task_New"
+  7544: CALL    argc=8                ; args @7586, @7589, @7592, @7595, @7598, @7601, @7603, @7606
+  7581: BRA     +23                   ; -> 7609
+  7586: PUSH1
+  7587: MINUS
+  7588: BRK
+  7589: PUSHSIB #29                   ; string "MenuText"
+  7591: BRK
+  7592: PUSHSIB #54                   ; string ""
+  7594: BRK
+  7595: PUSHSIB #130                  ; string "Are you sure?"
+  7597: BRK
+  7598: PUSHSIB #57                   ; string "font3.fnt"
+  7600: BRK
+  7601: PUSH1
+  7602: BRK
+  7603: PUSHSIB #54                   ; string ""
+  7605: BRK
+  7606: PUSHSIB #54                   ; string ""
+  7608: BRK
+  7609: BRK
+  7610: BRK
+  7611: PUSHIIB #1                    ; symbol "Task_New"
+  7613: CALL    argc=14               ; args @7679, @7682, @7685, @7688, @7691, @7695, @7699, @7703, @7706, @7709, @7712, @7715, @7718, @7787
+  7674: BRA     +177                  ; -> 7856
+  7679: PUSH1
+  7680: MINUS
+  7681: BRK
+  7682: PUSHSIB #7                    ; string "MenuFrame"
+  7684: BRK
+  7685: PUSHSIB #54                   ; string ""
+  7687: BRK
+  7688: PUSHSIB #54                   ; string ""
+  7690: BRK
+  7691: PUSHW   200
+  7694: BRK
+  7695: PUSHW   200
+  7698: BRK
+  7699: PUSHW   240
+  7702: BRK
+  7703: PUSHB   100
+  7705: BRK
+  7706: PUSHB   5
+  7708: BRK
+  7709: PUSHB   4
+  7711: BRK
+  7712: PUSHB   4
+  7714: BRK
+  7715: PUSHIIB #2                    ; symbol "FALSE"
+  7717: BRK
+  7718: PUSHIIB #1                    ; symbol "Task_New"
+  7720: CALL    argc=8                ; args @7762, @7765, @7768, @7771, @7774, @7777, @7780, @7783
+  7757: BRA     +24                   ; -> 7786
+  7762: PUSH1
+  7763: MINUS
+  7764: BRK
+  7765: PUSHSIB #29                   ; string "MenuText"
+  7767: BRK
+  7768: PUSHSIB #54                   ; string ""
+  7770: BRK
+  7771: PUSHSIB #131                  ; string "Yes"
+  7773: BRK
+  7774: PUSHSIB #57                   ; string "font3.fnt"
+  7776: BRK
+  7777: PUSHB   2
+  7779: BRK
+  7780: PUSHSIB #134                  ; string "MenuManager_DeactivatePopuScreen()\n"
+  7782: BRK
+  7783: PUSHSIB #96                   ; string "menu_ok"
+  7785: BRK
+  7786: BRK
+  7787: PUSHIIB #1                    ; symbol "Task_New"
+  7789: CALL    argc=8                ; args @7831, @7834, @7837, @7840, @7843, @7846, @7849, @7852
+  7826: BRA     +24                   ; -> 7855
+  7831: PUSH1
+  7832: MINUS
+  7833: BRK
+  7834: PUSHSIB #29                   ; string "MenuText"
+  7836: BRK
+  7837: PUSHSIB #54                   ; string ""
+  7839: BRK
+  7840: PUSHSIB #133                  ; string "No"
+  7842: BRK
+  7843: PUSHSIB #57                   ; string "font3.fnt"
+  7845: BRK
+  7846: PUSHB   2
+  7848: BRK
+  7849: PUSHSIB #134                  ; string "MenuManager_DeactivatePopuScreen()\n"
+  7851: BRK
+  7852: PUSHSIB #100                  ; string "menu_cancel"
+  7854: BRK
+  7855: BRK
+  7856: BRK
+  7857: BRK
+  7858: POP
+  7859: BRK

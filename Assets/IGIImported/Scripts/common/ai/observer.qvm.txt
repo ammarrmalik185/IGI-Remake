@@ -1,0 +1,44 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +125                  ; -> 145
+    20: PUSHIIB #2                    ; symbol "AIFunction_SetEventPriority"
+    22: CALL    argc=1                ; args @36
+    31: BRA     +3                    ; -> 39
+    36: PUSHIIB #3                    ; symbol "AIEVENT_DEAD"
+    38: BRK
+    39: POP
+    40: PUSHIIB #2                    ; symbol "AIFunction_SetEventPriority"
+    42: CALL    argc=1                ; args @56
+    51: BRA     +3                    ; -> 59
+    56: PUSHIIB #4                    ; symbol "AIEVENT_IDLE"
+    58: BRK
+    59: POP
+    60: PUSHIIB #2                    ; symbol "AIFunction_SetEventPriority"
+    62: CALL    argc=1                ; args @76
+    71: BRA     +3                    ; -> 79
+    76: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    78: BRK
+    79: POP
+    80: PUSHIIB #5                    ; symbol "AIFunction_SetViewLength"
+    82: CALL    argc=1                ; args @96
+    91: BRA     +3                    ; -> 99
+    96: PUSHB   30
+    98: BRK
+    99: POP
+   100: PUSHIIB #6                    ; symbol "AIFunction_SetViewAlpha"
+   102: CALL    argc=1                ; args @116
+   111: BRA     +3                    ; -> 119
+   116: PUSHB   50
+   118: BRK
+   119: POP
+   120: PUSHIIB #7                    ; symbol "AIFunction_SetViewGamma"
+   122: CALL    argc=1                ; args @136
+   131: BRA     +3                    ; -> 139
+   136: PUSHB   45
+   138: BRK
+   139: POP
+   140: BRA     +0                    ; -> 145
+   145: BRK

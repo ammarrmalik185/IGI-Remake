@@ -1,0 +1,1 @@
+Récupérer Console tactique et balises de ciblage.

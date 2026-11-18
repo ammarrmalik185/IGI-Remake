@@ -1,0 +1,107 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +39                   ; -> 59
+    20: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+    22: CALL    argc=0
+    27: BRA     +0                    ; -> 32
+    32: POP
+    33: PUSHIIB #3                    ; symbol "AIFunction_SetGunnerID"
+    35: CALL    argc=1                ; args @49
+    44: BRA     +4                    ; -> 53
+    49: PUSHW   775
+    52: BRK
+    53: POP
+    54: BRA     +295                  ; -> 354
+    59: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    61: CALL    argc=0
+    66: BRA     +0                    ; -> 71
+    71: PUSHIIB #4                    ; symbol "AIEVENT_IDLE"
+    73: EQ
+    74: BF      +199                  ; -> 278
+    79: PUSHIIB #5                    ; symbol "EditVariable_752.nValue"
+    81: PUSH0
+    82: EQ
+    83: BF      +39                   ; -> 127
+    88: PUSHIIB #6                    ; symbol "AIAction_Patrol"
+    90: CALL    argc=3                ; args @112, @116, @118
+   107: BRA     +9                    ; -> 121
+   112: PUSHW   702
+   115: BRK
+   116: PUSH0
+   117: BRK
+   118: PUSHIIB #7                    ; symbol "AIACTIONFLAG_PUSHABLE"
+   120: BRK
+   121: POP
+   122: BRA     +146                  ; -> 273
+   127: PUSHIIB #5                    ; symbol "EditVariable_752.nValue"
+   129: PUSH1
+   130: EQ
+   131: BF      +39                   ; -> 175
+   136: PUSHIIB #6                    ; symbol "AIAction_Patrol"
+   138: CALL    argc=3                ; args @160, @164, @166
+   155: BRA     +9                    ; -> 169
+   160: PUSHW   713
+   163: BRK
+   164: PUSH0
+   165: BRK
+   166: PUSHIIB #7                    ; symbol "AIACTIONFLAG_PUSHABLE"
+   168: BRK
+   169: POP
+   170: BRA     +98                   ; -> 273
+   175: PUSHIIB #5                    ; symbol "EditVariable_752.nValue"
+   177: PUSHB   2
+   179: EQ
+   180: BF      +39                   ; -> 224
+   185: PUSHIIB #6                    ; symbol "AIAction_Patrol"
+   187: CALL    argc=3                ; args @209, @213, @215
+   204: BRA     +9                    ; -> 218
+   209: PUSHW   727
+   212: BRK
+   213: PUSH0
+   214: BRK
+   215: PUSHIIB #7                    ; symbol "AIACTIONFLAG_PUSHABLE"
+   217: BRK
+   218: POP
+   219: BRA     +49                   ; -> 273
+   224: PUSHIIB #5                    ; symbol "EditVariable_752.nValue"
+   226: PUSHB   3
+   228: EQ
+   229: BF      +39                   ; -> 273
+   234: PUSHIIB #6                    ; symbol "AIAction_Patrol"
+   236: CALL    argc=3                ; args @258, @262, @264
+   253: BRA     +9                    ; -> 267
+   258: PUSHW   734
+   261: BRK
+   262: PUSH0
+   263: BRK
+   264: PUSHIIB #7                    ; symbol "AIACTIONFLAG_PUSHABLE"
+   266: BRK
+   267: POP
+   268: BRA     +0                    ; -> 273
+   273: BRA     +76                   ; -> 354
+   278: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   280: CALL    argc=0
+   285: BRA     +0                    ; -> 290
+   290: PUSHIIB #8                    ; symbol "AIEVENT_ALARMON"
+   292: EQ
+   293: BF      +5                    ; -> 303
+   298: BRA     +51                   ; -> 354
+   303: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   305: CALL    argc=0
+   310: BRA     +0                    ; -> 315
+   315: PUSHIIB #9                    ; symbol "AIEVENT_COMBAT"
+   317: EQ
+   318: BF      +18                   ; -> 341
+   323: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   325: CALL    argc=0
+   330: BRA     +0                    ; -> 335
+   335: POP
+   336: BRA     +13                   ; -> 354
+   341: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   343: CALL    argc=0
+   348: BRA     +0                    ; -> 353
+   353: POP
+   354: BRK

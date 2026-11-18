@@ -1,0 +1,49 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +18                   ; -> 38
+    20: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+    22: CALL    argc=0
+    27: BRA     +0                    ; -> 32
+    32: POP
+    33: BRA     +128                  ; -> 166
+    38: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    40: CALL    argc=0
+    45: BRA     +0                    ; -> 50
+    50: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    52: EQ
+    53: BF      +32                   ; -> 90
+    58: PUSHIIB #4                    ; symbol "AIAction_RunToNode"
+    60: CALL    argc=2                ; args @78, @81
+    73: BRA     +6                    ; -> 84
+    78: PUSHB   60
+    80: BRK
+    81: PUSHIIB #5                    ; symbol "AIACTIONFLAG_PUSHABLE"
+    83: BRK
+    84: POP
+    85: BRA     +76                   ; -> 166
+    90: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    92: CALL    argc=0
+    97: BRA     +0                    ; -> 102
+   102: PUSHIIB #6                    ; symbol "AIEVENT_ALARMON"
+   104: EQ
+   105: BF      +5                    ; -> 115
+   110: BRA     +51                   ; -> 166
+   115: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   117: CALL    argc=0
+   122: BRA     +0                    ; -> 127
+   127: PUSHIIB #7                    ; symbol "AIEVENT_COMBAT"
+   129: EQ
+   130: BF      +18                   ; -> 153
+   135: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   137: CALL    argc=0
+   142: BRA     +0                    ; -> 147
+   147: POP
+   148: BRA     +13                   ; -> 166
+   153: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   155: CALL    argc=0
+   160: BRA     +0                    ; -> 165
+   165: POP
+   166: BRK

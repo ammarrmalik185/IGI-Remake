@@ -1,0 +1,28 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +59                   ; -> 79
+    20: PUSHIIB #2                    ; symbol "AIFunction_SetViewLength"
+    22: CALL    argc=1                ; args @36
+    31: BRA     +3                    ; -> 39
+    36: PUSHB   55
+    38: BRK
+    39: POP
+    40: PUSHIIB #3                    ; symbol "AIFunction_DefaultHandler"
+    42: CALL    argc=0
+    47: BRA     +0                    ; -> 52
+    52: POP
+    53: PUSHIIB #4                    ; symbol "AIFunction_SetGunnerID"
+    55: CALL    argc=1                ; args @69
+    64: BRA     +4                    ; -> 73
+    69: PUSHW   3301
+    72: BRK
+    73: POP
+    74: BRA     +13                   ; -> 92
+    79: PUSHIIB #3                    ; symbol "AIFunction_DefaultHandler"
+    81: CALL    argc=0
+    86: BRA     +0                    ; -> 91
+    91: POP
+    92: BRK

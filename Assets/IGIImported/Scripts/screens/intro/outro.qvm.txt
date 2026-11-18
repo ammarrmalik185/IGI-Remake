@@ -1,0 +1,213 @@
+     0: PUSHIIB #0                    ; symbol "MovieSubtitle_RegisterFont"
+     2: CALL    argc=2                ; args @20, @22
+    15: BRA     +5                    ; -> 25
+    20: PUSH0
+    21: BRK
+    22: PUSHSIB #0                    ; string "LOCAL:screens/intro/font4.fnt"
+    24: BRK
+    25: POP
+    26: PUSHIIB #1                    ; symbol "MovieSubtitle_RegisterText"
+    28: CALL    argc=14               ; args @94, @96, @99, @102, @106, @108, @110, @112, @115, @118, @121, @124, @126, @129
+    89: BRA     +37                   ; -> 131
+    94: PUSH0
+    95: BRK
+    96: PUSHSIB #1                    ; string "OUTRO_1"
+    98: BRK
+    99: PUSHB   16
+   101: BRK
+   102: PUSHW   416
+   105: BRK
+   106: PUSH1
+   107: BRK
+   108: PUSH1
+   109: BRK
+   110: PUSH1
+   111: BRK
+   112: PUSHIIB #2                    ; symbol "FALSE"
+   114: BRK
+   115: PUSHB   29
+   117: BRK
+   118: PUSHB   2
+   120: BRK
+   121: PUSH1
+   122: MINUS
+   123: BRK
+   124: PUSH0
+   125: BRK
+   126: PUSH1
+   127: MINUS
+   128: BRK
+   129: PUSH0
+   130: BRK
+   131: POP
+   132: PUSHIIB #1                    ; symbol "MovieSubtitle_RegisterText"
+   134: CALL    argc=14               ; args @200, @202, @205, @208, @212, @214, @216, @218, @221, @224, @227, @230, @232, @235
+   195: BRA     +37                   ; -> 237
+   200: PUSH0
+   201: BRK
+   202: PUSHSIB #2                    ; string "OUTRO_2"
+   204: BRK
+   205: PUSHB   16
+   207: BRK
+   208: PUSHW   416
+   211: BRK
+   212: PUSH1
+   213: BRK
+   214: PUSH1
+   215: BRK
+   216: PUSH1
+   217: BRK
+   218: PUSHIIB #2                    ; symbol "FALSE"
+   220: BRK
+   221: PUSHB   31
+   223: BRK
+   224: PUSHB   2
+   226: BRK
+   227: PUSH1
+   228: MINUS
+   229: BRK
+   230: PUSH0
+   231: BRK
+   232: PUSH1
+   233: MINUS
+   234: BRK
+   235: PUSH0
+   236: BRK
+   237: POP
+   238: PUSHIIB #1                    ; symbol "MovieSubtitle_RegisterText"
+   240: CALL    argc=14               ; args @306, @308, @311, @314, @318, @320, @322, @324, @327, @330, @333, @336, @338, @341
+   301: BRA     +37                   ; -> 343
+   306: PUSH0
+   307: BRK
+   308: PUSHSIB #3                    ; string "OUTRO_3"
+   310: BRK
+   311: PUSHB   16
+   313: BRK
+   314: PUSHW   416
+   317: BRK
+   318: PUSH1
+   319: BRK
+   320: PUSH1
+   321: BRK
+   322: PUSH1
+   323: BRK
+   324: PUSHIIB #2                    ; symbol "FALSE"
+   326: BRK
+   327: PUSHB   33
+   329: BRK
+   330: PUSHB   5
+   332: BRK
+   333: PUSH1
+   334: MINUS
+   335: BRK
+   336: PUSH0
+   337: BRK
+   338: PUSH1
+   339: MINUS
+   340: BRK
+   341: PUSH0
+   342: BRK
+   343: POP
+   344: PUSHIIB #1                    ; symbol "MovieSubtitle_RegisterText"
+   346: CALL    argc=14               ; args @412, @414, @417, @420, @424, @426, @428, @430, @433, @436, @439, @442, @444, @447
+   407: BRA     +37                   ; -> 449
+   412: PUSH0
+   413: BRK
+   414: PUSHSIB #4                    ; string "OUTRO_4"
+   416: BRK
+   417: PUSHB   16
+   419: BRK
+   420: PUSHW   416
+   423: BRK
+   424: PUSH1
+   425: BRK
+   426: PUSH1
+   427: BRK
+   428: PUSH1
+   429: BRK
+   430: PUSHIIB #2                    ; symbol "FALSE"
+   432: BRK
+   433: PUSHB   38
+   435: BRK
+   436: PUSHB   8
+   438: BRK
+   439: PUSH1
+   440: MINUS
+   441: BRK
+   442: PUSH0
+   443: BRK
+   444: PUSH1
+   445: MINUS
+   446: BRK
+   447: PUSH0
+   448: BRK
+   449: POP
+   450: PUSHIIB #1                    ; symbol "MovieSubtitle_RegisterText"
+   452: CALL    argc=14               ; args @518, @520, @523, @526, @530, @532, @534, @536, @539, @542, @545, @548, @550, @553
+   513: BRA     +37                   ; -> 555
+   518: PUSH0
+   519: BRK
+   520: PUSHSIB #5                    ; string "OUTRO_5"
+   522: BRK
+   523: PUSHB   16
+   525: BRK
+   526: PUSHW   416
+   529: BRK
+   530: PUSH1
+   531: BRK
+   532: PUSH1
+   533: BRK
+   534: PUSH1
+   535: BRK
+   536: PUSHIIB #2                    ; symbol "FALSE"
+   538: BRK
+   539: PUSHB   47
+   541: BRK
+   542: PUSHB   4
+   544: BRK
+   545: PUSH1
+   546: MINUS
+   547: BRK
+   548: PUSH0
+   549: BRK
+   550: PUSH1
+   551: MINUS
+   552: BRK
+   553: PUSH0
+   554: BRK
+   555: POP
+   556: PUSHIIB #1                    ; symbol "MovieSubtitle_RegisterText"
+   558: CALL    argc=14               ; args @624, @626, @629, @632, @636, @638, @640, @642, @645, @651, @657, @660, @662, @665
+   619: BRA     +43                   ; -> 667
+   624: PUSH0
+   625: BRK
+   626: PUSHSIB #6                    ; string "OUTRO_6"
+   628: BRK
+   629: PUSHB   16
+   631: BRK
+   632: PUSHW   416
+   635: BRK
+   636: PUSH1
+   637: BRK
+   638: PUSH1
+   639: BRK
+   640: PUSH1
+   641: BRK
+   642: PUSHIIB #2                    ; symbol "FALSE"
+   644: BRK
+   645: PUSHF   54.5
+   650: BRK
+   651: PUSHF   2
+   656: BRK
+   657: PUSH1
+   658: MINUS
+   659: BRK
+   660: PUSH0
+   661: BRK
+   662: PUSH1
+   663: MINUS
+   664: BRK
+   665: PUSH0
+   666: BRK
+   667: POP
+   668: BRK

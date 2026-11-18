@@ -1,0 +1,109 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=50               ; args @212, @215, @218, @221, @224, @227, @230, @233, @236, @240, @244, @250, @253, @259, @262, @264, @267, @269, @271, @273, @275, @278, @280, @282, @284, @287, @291, @294, @298, @302, @305, @308, @311, @314, @317, @320, @323, @326, @330, @334, @338, @342, @346, @350, @353, @356, @359, @362, @365, @368
+   207: BRA     +159                  ; -> 371
+   212: PUSHB   12
+   214: BRK
+   215: PUSHSIB #0                    ; string "WEAPON_ID_RPG18"
+   217: BRK
+   218: PUSHSIB #1                    ; string "LAW 80"
+   220: BRK
+   221: PUSHSIB #2                    ; string "<ARMALITE>"
+   223: BRK
+   224: PUSHSIB #3                    ; string "<M16A2DESC>"
+   226: BRK
+   227: PUSHIIB #1                    ; symbol "WEAPONTYPE_GUN"
+   229: BRK
+   230: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_CROSSHAIR"
+   232: BRK
+   233: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_CLIP"
+   235: BRK
+   236: PUSHW   3400
+   239: BRK
+   240: PUSHW   1000
+   243: BRK
+   244: PUSHF   0.25
+   249: BRK
+   250: PUSHB   3
+   252: BRK
+   253: PUSHF   2
+   258: BRK
+   259: PUSHB   5
+   261: BRK
+   262: PUSH1
+   263: BRK
+   264: PUSHB   40
+   266: BRK
+   267: PUSH1
+   268: BRK
+   269: PUSH1
+   270: BRK
+   271: PUSH0
+   272: BRK
+   273: PUSH0
+   274: BRK
+   275: PUSHB   12
+   277: BRK
+   278: PUSH0
+   279: BRK
+   280: PUSH0
+   281: BRK
+   282: PUSH0
+   283: BRK
+   284: PUSHSIB #4                    ; string "<ASSAULT_RIFLE>"
+   286: BRK
+   287: PUSHW   600
+   290: BRK
+   291: PUSHSIB #5                    ; string "<M16A2USERS>"
+   293: BRK
+   294: PUSHW   1000
+   297: BRK
+   298: PUSHW   510
+   301: BRK
+   302: PUSHSIB #6                    ; string "110_01_1"
+   304: BRK
+   305: PUSHSIB #7                    ; string ""
+   307: BRK
+   308: PUSHB   55
+   310: BRK
+   311: PUSHB   56
+   313: BRK
+   314: PUSHB   57
+   316: BRK
+   317: PUSH1
+   318: MINUS
+   319: BRK
+   320: PUSH1
+   321: MINUS
+   322: BRK
+   323: PUSH1
+   324: MINUS
+   325: BRK
+   326: PUSHW   177
+   329: BRK
+   330: PUSHW   176
+   333: BRK
+   334: PUSHW   178
+   337: BRK
+   338: PUSHW   179
+   341: BRK
+   342: PUSHW   175
+   345: BRK
+   346: PUSHW   180
+   349: BRK
+   350: PUSH1
+   351: MINUS
+   352: BRK
+   353: PUSHSIB #8                    ; string "rpg_launch_1"
+   355: BRK
+   356: PUSHSIB #8                    ; string "rpg_launch_1"
+   358: BRK
+   359: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   361: BRK
+   362: PUSHIIB #5                    ; symbol "TASKTYPE_MISSILE"
+   364: BRK
+   365: PUSHSIB #9                    ; string "110_02_1"
+   367: BRK
+   368: PUSHIIB #6                    ; symbol "TASKTYPE_GUN"
+   370: BRK
+   371: POP
+   372: BRK

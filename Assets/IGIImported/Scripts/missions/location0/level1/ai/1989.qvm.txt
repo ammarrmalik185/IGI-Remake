@@ -1,0 +1,60 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +38                   ; -> 58
+    20: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+    22: CALL    argc=0
+    27: BRA     +0                    ; -> 32
+    32: POP
+    33: PUSHIIB #3                    ; symbol "AIFunction_SetInvulnerability"
+    35: CALL    argc=1                ; args @49
+    44: BRA     +3                    ; -> 52
+    49: PUSHIIB #4                    ; symbol "TRUE"
+    51: BRK
+    52: POP
+    53: BRA     +144                  ; -> 202
+    58: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    60: CALL    argc=0
+    65: BRA     +0                    ; -> 70
+    70: PUSHIIB #5                    ; symbol "AIEVENT_IDLE"
+    72: EQ
+    73: BF      +48                   ; -> 126
+    78: PUSHIIB #6                    ; symbol "CutScene_1200.nTick"
+    80: PUSHW   547
+    83: GT
+    84: BF      +32                   ; -> 121
+    89: PUSHIIB #7                    ; symbol "AIAction_PlayAnimation"
+    91: CALL    argc=2                ; args @109, @113
+   104: BRA     +6                    ; -> 115
+   109: PUSHW   242
+   112: BRK
+   113: PUSH0
+   114: BRK
+   115: POP
+   116: BRA     +0                    ; -> 121
+   121: BRA     +76                   ; -> 202
+   126: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   128: CALL    argc=0
+   133: BRA     +0                    ; -> 138
+   138: PUSHIIB #8                    ; symbol "AIEVENT_ALARMON"
+   140: EQ
+   141: BF      +5                    ; -> 151
+   146: BRA     +51                   ; -> 202
+   151: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   153: CALL    argc=0
+   158: BRA     +0                    ; -> 163
+   163: PUSHIIB #9                    ; symbol "AIEVENT_COMBAT"
+   165: EQ
+   166: BF      +18                   ; -> 189
+   171: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   173: CALL    argc=0
+   178: BRA     +0                    ; -> 183
+   183: POP
+   184: BRA     +13                   ; -> 202
+   189: PUSHIIB #2                    ; symbol "AIFunction_DefaultHandler"
+   191: CALL    argc=0
+   196: BRA     +0                    ; -> 201
+   201: POP
+   202: BRK

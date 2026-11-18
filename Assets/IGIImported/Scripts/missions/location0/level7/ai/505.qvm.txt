@@ -1,0 +1,28 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_GUNSHOT"
+    14: EQ
+    15: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    17: CALL    argc=0
+    22: BRA     +0                    ; -> 27
+    27: PUSHIIB #2                    ; symbol "AIEVENT_GUNSHOTMISS"
+    29: EQ
+    30: LOR
+    31: BF      +38                   ; -> 74
+    36: PUSHIIB #3                    ; symbol "AIAction_Patrol"
+    38: CALL    argc=3                ; args @60, @64, @66
+    55: BRA     +8                    ; -> 68
+    60: PUSHW   653
+    63: BRK
+    64: PUSH0
+    65: BRK
+    66: PUSH1
+    67: BRK
+    68: POP
+    69: BRA     +13                   ; -> 87
+    74: PUSHIIB #4                    ; symbol "AIFunction_DefaultHandler"
+    76: CALL    argc=0
+    81: BRA     +0                    ; -> 86
+    86: POP
+    87: BRK

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780d2001ef655a6bb5285c05fa70e269, type: 3}
+  m_Name: MP5SD
+  m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
+  displayName: Mp5 SD3
+  visualPrefab: {fileID: -5955499904079510912, guid: 888cec008c887aa48b09681f7e6547ff, type: 3}
+  viewPosition: {x: 0.22, y: -0.21, z: 0.64}
+  viewRotation: {x: 0, y: 0, z: 0}
+  modelLength: 0.68
+  damage: 24
+  magazineSize: 32
+  reserveAmmo: 160
+  secondsPerShot: 0.08571429
+  reloadSeconds: 2
+  automatic: 1
+  melee: 0
+  range: 80
+  spreadDegrees: 2
+  aimFieldOfView: 48
+  recoilDegrees: 0.8
+  fireSound: {fileID: 8300000, guid: a7e8c73cec214131a252df9ac6340f61, type: 3}
+  reloadSound: {fileID: 0}

@@ -1,0 +1,20 @@
+{
+  "id": 11,
+  "displayName": "Dragunov",
+  "description": "\u003CSNAIPERSKAYA_VINTOVKA_DRAGUNOVADESC\u003E",
+  "category": 0,
+  "model": "105_01_1",
+  "modelPath": "Assets/IGIImported/Models/missions/location0/common/105_01_1.igimodel",
+  "magazineSize": 10,
+  "roundsPerMinute": 50,
+  "reloadSeconds": 2,
+  "automatic": false,
+  "range": 300,
+  "modelLength": 1.225,
+  "damageFactor": 0.5,
+  "calibre": 10004,
+  "spreadDegrees": -0.05,
+  "recoilDegrees": 3.5,
+  "fireSoundPath": "Assets/IGIImported/Audio/svddrag_shot_1.wav",
+  "source": "Definitions/weapons/DRAGUNOV/weapon.qvm.json"
+}

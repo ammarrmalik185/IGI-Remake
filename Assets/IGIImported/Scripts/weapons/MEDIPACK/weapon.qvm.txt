@@ -1,0 +1,114 @@
+     0: PUSHIIB #0                    ; symbol "DefineWeaponType"
+     2: CALL    argc=50               ; args @212, @215, @218, @221, @224, @227, @230, @233, @236, @240, @244, @246, @248, @250, @252, @254, @257, @259, @262, @264, @266, @268, @270, @272, @274, @277, @279, @282, @286, @289, @292, @295, @298, @301, @304, @307, @310, @313, @316, @319, @322, @325, @328, @331, @334, @337, @340, @343, @346, @349
+   207: BRA     +143                  ; -> 355
+   212: PUSHB   19
+   214: BRK
+   215: PUSHSIB #0                    ; string "WEAPON_ID_MEDIPACK"
+   217: BRK
+   218: PUSHSIB #1                    ; string "Medipack"
+   220: BRK
+   221: PUSHSIB #2                    ; string "<KIRKENS_NODHJELP>"
+   223: BRK
+   224: PUSHSIB #3                    ; string "<MEDIPACKDESC>"
+   226: BRK
+   227: PUSHIIB #1                    ; symbol "WEAPONTYPE_MEDIPACK"
+   229: BRK
+   230: PUSHIIB #2                    ; symbol "SIGHTDISPLAYTYPE_NONE"
+   232: BRK
+   233: PUSHIIB #3                    ; symbol "AMMODISPLAYTYPE_NORMAL"
+   235: BRK
+   236: PUSHW   656
+   239: BRK
+   240: PUSHW   10005
+   243: BRK
+   244: PUSH0
+   245: BRK
+   246: PUSH0
+   247: BRK
+   248: PUSH0
+   249: BRK
+   250: PUSH0
+   251: BRK
+   252: PUSH1
+   253: BRK
+   254: PUSHB   120
+   256: BRK
+   257: PUSH1
+   258: BRK
+   259: PUSHB   60
+   261: BRK
+   262: PUSH0
+   263: BRK
+   264: PUSH0
+   265: BRK
+   266: PUSH0
+   267: BRK
+   268: PUSH0
+   269: BRK
+   270: PUSH0
+   271: BRK
+   272: PUSH0
+   273: BRK
+   274: PUSHSIB #4                    ; string "<SELF-LOADING_PISTOL>"
+   276: BRK
+   277: PUSH1
+   278: BRK
+   279: PUSHSIB #5                    ; string "<MEDIPACKUSERS>"
+   281: BRK
+   282: PUSHW   185
+   285: BRK
+   286: PUSHB   114
+   288: BRK
+   289: PUSHSIB #6                    ; string "121_01_1"
+   291: BRK
+   292: PUSHSIB #7                    ; string ""
+   294: BRK
+   295: PUSHB   76
+   297: BRK
+   298: PUSHB   77
+   300: BRK
+   301: PUSHB   78
+   303: BRK
+   304: PUSH1
+   305: MINUS
+   306: BRK
+   307: PUSH1
+   308: MINUS
+   309: BRK
+   310: PUSHB   5
+   312: BRK
+   313: PUSH1
+   314: MINUS
+   315: BRK
+   316: PUSH1
+   317: MINUS
+   318: BRK
+   319: PUSH1
+   320: MINUS
+   321: BRK
+   322: PUSH1
+   323: MINUS
+   324: BRK
+   325: PUSH1
+   326: MINUS
+   327: BRK
+   328: PUSH1
+   329: MINUS
+   330: BRK
+   331: PUSH1
+   332: MINUS
+   333: BRK
+   334: PUSHSIB #8                    ; string "glock_shot_1"
+   336: BRK
+   337: PUSHSIB #9                    ; string "glock_shot_2"
+   339: BRK
+   340: PUSHIIB #4                    ; symbol "HUMANAI_DETECTIONEVENT_GUNSHOT_RANGE"
+   342: BRK
+   343: PUSHIIB #5                    ; symbol "TASKTYPE_GRENADE"
+   345: BRK
+   346: PUSHIIB #6                    ; symbol "TASKTYPE_MEDIPACK"
+   348: BRK
+   349: PUSHF   0.01
+   354: BRK
+   355: POP
+   356: BRK

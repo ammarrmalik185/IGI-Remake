@@ -1,0 +1,1 @@
+Localizza e recupera le cariche di C4 dal magazzino.

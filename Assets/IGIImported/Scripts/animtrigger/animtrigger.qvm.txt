@@ -1,0 +1,601 @@
+     0: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+     2: CALL    argc=4                ; args @28, @32, @35, @38
+    23: BRA     +13                   ; -> 41
+    28: PUSHW   1000
+    31: BRK
+    32: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+    34: BRK
+    35: PUSHSIB #0                    ; string "glock_reload_1"
+    37: BRK
+    38: PUSHIIB #2                    ; symbol "TRUE"
+    40: BRK
+    41: POP
+    42: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+    44: CALL    argc=4                ; args @70, @74, @77, @80
+    65: BRA     +13                   ; -> 83
+    70: PUSHW   1001
+    73: BRK
+    74: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+    76: BRK
+    77: PUSHSIB #1                    ; string "glock_reload_2"
+    79: BRK
+    80: PUSHIIB #2                    ; symbol "TRUE"
+    82: BRK
+    83: POP
+    84: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+    86: CALL    argc=4                ; args @112, @116, @119, @122
+   107: BRA     +13                   ; -> 125
+   112: PUSHW   1002
+   115: BRK
+   116: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   118: BRK
+   119: PUSHSIB #2                    ; string "glock_reload_3"
+   121: BRK
+   122: PUSHIIB #2                    ; symbol "TRUE"
+   124: BRK
+   125: POP
+   126: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   128: CALL    argc=4                ; args @154, @158, @161, @164
+   149: BRA     +13                   ; -> 167
+   154: PUSHW   1003
+   157: BRK
+   158: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   160: BRK
+   161: PUSHSIB #3                    ; string "m16_reload_1"
+   163: BRK
+   164: PUSHIIB #2                    ; symbol "TRUE"
+   166: BRK
+   167: POP
+   168: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   170: CALL    argc=4                ; args @196, @200, @203, @206
+   191: BRA     +13                   ; -> 209
+   196: PUSHW   1004
+   199: BRK
+   200: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   202: BRK
+   203: PUSHSIB #4                    ; string "m16_reload_2"
+   205: BRK
+   206: PUSHIIB #2                    ; symbol "TRUE"
+   208: BRK
+   209: POP
+   210: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   212: CALL    argc=4                ; args @238, @242, @245, @248
+   233: BRA     +13                   ; -> 251
+   238: PUSHW   1005
+   241: BRK
+   242: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   244: BRK
+   245: PUSHSIB #5                    ; string "m16_reload_3"
+   247: BRK
+   248: PUSHIIB #2                    ; symbol "TRUE"
+   250: BRK
+   251: POP
+   252: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   254: CALL    argc=4                ; args @280, @284, @287, @290
+   275: BRA     +13                   ; -> 293
+   280: PUSHW   1006
+   283: BRK
+   284: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   286: BRK
+   287: PUSHSIB #6                    ; string "mp5_reload_1"
+   289: BRK
+   290: PUSHIIB #2                    ; symbol "TRUE"
+   292: BRK
+   293: POP
+   294: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   296: CALL    argc=4                ; args @322, @326, @329, @332
+   317: BRA     +13                   ; -> 335
+   322: PUSHW   1007
+   325: BRK
+   326: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   328: BRK
+   329: PUSHSIB #7                    ; string "mp5_reload_2"
+   331: BRK
+   332: PUSHIIB #2                    ; symbol "TRUE"
+   334: BRK
+   335: POP
+   336: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   338: CALL    argc=4                ; args @364, @368, @371, @374
+   359: BRA     +13                   ; -> 377
+   364: PUSHW   1008
+   367: BRK
+   368: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   370: BRK
+   371: PUSHSIB #8                    ; string "mp5_reload_3"
+   373: BRK
+   374: PUSHIIB #2                    ; symbol "TRUE"
+   376: BRK
+   377: POP
+   378: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   380: CALL    argc=4                ; args @406, @410, @413, @416
+   401: BRA     +13                   ; -> 419
+   406: PUSHW   1009
+   409: BRK
+   410: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   412: BRK
+   413: PUSHSIB #9                    ; string "mp5_reload_4"
+   415: BRK
+   416: PUSHIIB #2                    ; symbol "TRUE"
+   418: BRK
+   419: POP
+   420: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   422: CALL    argc=4                ; args @448, @452, @455, @458
+   443: BRA     +13                   ; -> 461
+   448: PUSHW   1011
+   451: BRK
+   452: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   454: BRK
+   455: PUSHSIB #10                   ; string "mp5_reload_5"
+   457: BRK
+   458: PUSHIIB #2                    ; symbol "TRUE"
+   460: BRK
+   461: POP
+   462: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   464: CALL    argc=4                ; args @490, @494, @497, @500
+   485: BRA     +13                   ; -> 503
+   490: PUSHW   1012
+   493: BRK
+   494: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   496: BRK
+   497: PUSHSIB #11                   ; string "colt_reload_1"
+   499: BRK
+   500: PUSHIIB #2                    ; symbol "TRUE"
+   502: BRK
+   503: POP
+   504: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   506: CALL    argc=4                ; args @532, @536, @539, @542
+   527: BRA     +13                   ; -> 545
+   532: PUSHW   1013
+   535: BRK
+   536: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   538: BRK
+   539: PUSHSIB #12                   ; string "colt_reload_2"
+   541: BRK
+   542: PUSHIIB #2                    ; symbol "TRUE"
+   544: BRK
+   545: POP
+   546: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   548: CALL    argc=4                ; args @574, @578, @581, @584
+   569: BRA     +13                   ; -> 587
+   574: PUSHW   1014
+   577: BRK
+   578: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   580: BRK
+   581: PUSHSIB #13                   ; string "colt_reload_3"
+   583: BRK
+   584: PUSHIIB #2                    ; symbol "TRUE"
+   586: BRK
+   587: POP
+   588: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   590: CALL    argc=4                ; args @616, @620, @623, @626
+   611: BRA     +13                   ; -> 629
+   616: PUSHW   1015
+   619: BRK
+   620: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   622: BRK
+   623: PUSHSIB #14                   ; string "colt_reload_4"
+   625: BRK
+   626: PUSHIIB #2                    ; symbol "TRUE"
+   628: BRK
+   629: POP
+   630: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   632: CALL    argc=4                ; args @658, @662, @665, @668
+   653: BRA     +13                   ; -> 671
+   658: PUSHW   1016
+   661: BRK
+   662: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   664: BRK
+   665: PUSHSIB #15                   ; string "colt_reload_5"
+   667: BRK
+   668: PUSHIIB #2                    ; symbol "TRUE"
+   670: BRK
+   671: POP
+   672: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   674: CALL    argc=4                ; args @700, @704, @707, @710
+   695: BRA     +13                   ; -> 713
+   700: PUSHW   1017
+   703: BRK
+   704: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   706: BRK
+   707: PUSHSIB #16                   ; string "colt_reload_6"
+   709: BRK
+   710: PUSHIIB #2                    ; symbol "TRUE"
+   712: BRK
+   713: POP
+   714: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   716: CALL    argc=4                ; args @742, @746, @749, @752
+   737: BRA     +13                   ; -> 755
+   742: PUSHW   1018
+   745: BRK
+   746: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   748: BRK
+   749: PUSHSIB #17                   ; string "colt_reload_7"
+   751: BRK
+   752: PUSHIIB #2                    ; symbol "TRUE"
+   754: BRK
+   755: POP
+   756: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   758: CALL    argc=4                ; args @784, @788, @791, @794
+   779: BRA     +13                   ; -> 797
+   784: PUSHW   1019
+   787: BRK
+   788: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   790: BRK
+   791: PUSHSIB #18                   ; string "spas12_reload_1"
+   793: BRK
+   794: PUSHIIB #2                    ; symbol "TRUE"
+   796: BRK
+   797: POP
+   798: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   800: CALL    argc=4                ; args @826, @830, @833, @836
+   821: BRA     +13                   ; -> 839
+   826: PUSHW   1020
+   829: BRK
+   830: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   832: BRK
+   833: PUSHSIB #19                   ; string "spas12_reload_2"
+   835: BRK
+   836: PUSHIIB #2                    ; symbol "TRUE"
+   838: BRK
+   839: POP
+   840: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   842: CALL    argc=4                ; args @868, @872, @875, @878
+   863: BRA     +13                   ; -> 881
+   868: PUSHW   1021
+   871: BRK
+   872: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   874: BRK
+   875: PUSHSIB #20                   ; string "spas12_bulins_1"
+   877: BRK
+   878: PUSHIIB #2                    ; symbol "TRUE"
+   880: BRK
+   881: POP
+   882: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   884: CALL    argc=4                ; args @910, @914, @917, @920
+   905: BRA     +13                   ; -> 923
+   910: PUSHW   1022
+   913: BRK
+   914: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   916: BRK
+   917: PUSHSIB #21                   ; string "spas12_bulins_2"
+   919: BRK
+   920: PUSHIIB #2                    ; symbol "TRUE"
+   922: BRK
+   923: POP
+   924: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   926: CALL    argc=4                ; args @952, @956, @959, @962
+   947: BRA     +13                   ; -> 965
+   952: PUSHW   1023
+   955: BRK
+   956: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+   958: BRK
+   959: PUSHSIB #22                   ; string "spas12_bulins_3"
+   961: BRK
+   962: PUSHIIB #2                    ; symbol "TRUE"
+   964: BRK
+   965: POP
+   966: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+   968: CALL    argc=4                ; args @994, @998, @1001, @1004
+   989: BRA     +13                   ; -> 1007
+   994: PUSHW   1024
+   997: BRK
+   998: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1000: BRK
+  1001: PUSHSIB #23                   ; string "spas12_bulins_4"
+  1003: BRK
+  1004: PUSHIIB #2                    ; symbol "TRUE"
+  1006: BRK
+  1007: POP
+  1008: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1010: CALL    argc=4                ; args @1036, @1040, @1043, @1046
+  1031: BRA     +13                   ; -> 1049
+  1036: PUSHW   1025
+  1039: BRK
+  1040: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1042: BRK
+  1043: PUSHSIB #24                   ; string "walk_fence_1"
+  1045: BRK
+  1046: PUSHIIB #3                    ; symbol "FALSE"
+  1048: BRK
+  1049: POP
+  1050: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1052: CALL    argc=4                ; args @1078, @1082, @1085, @1088
+  1073: BRA     +13                   ; -> 1091
+  1078: PUSHW   1026
+  1081: BRK
+  1082: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1084: BRK
+  1085: PUSHSIB #25                   ; string "walk_fence_2"
+  1087: BRK
+  1088: PUSHIIB #3                    ; symbol "FALSE"
+  1090: BRK
+  1091: POP
+  1092: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1094: CALL    argc=4                ; args @1120, @1124, @1127, @1130
+  1115: BRA     +13                   ; -> 1133
+  1120: PUSHW   1027
+  1123: BRK
+  1124: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1126: BRK
+  1127: PUSHSIB #26                   ; string "walk_fence_3"
+  1129: BRK
+  1130: PUSHIIB #3                    ; symbol "FALSE"
+  1132: BRK
+  1133: POP
+  1134: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1136: CALL    argc=4                ; args @1162, @1166, @1169, @1172
+  1157: BRA     +13                   ; -> 1175
+  1162: PUSHW   1028
+  1165: BRK
+  1166: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1168: BRK
+  1169: PUSHSIB #27                   ; string "walk_fence_4"
+  1171: BRK
+  1172: PUSHIIB #3                    ; symbol "FALSE"
+  1174: BRK
+  1175: POP
+  1176: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1178: CALL    argc=4                ; args @1204, @1208, @1211, @1214
+  1199: BRA     +13                   ; -> 1217
+  1204: PUSHW   1029
+  1207: BRK
+  1208: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1210: BRK
+  1211: PUSHSIB #28                   ; string "jackh_reload_1"
+  1213: BRK
+  1214: PUSHIIB #2                    ; symbol "TRUE"
+  1216: BRK
+  1217: POP
+  1218: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1220: CALL    argc=4                ; args @1246, @1250, @1253, @1256
+  1241: BRA     +13                   ; -> 1259
+  1246: PUSHW   1030
+  1249: BRK
+  1250: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1252: BRK
+  1253: PUSHSIB #29                   ; string "jackh_reload_2"
+  1255: BRK
+  1256: PUSHIIB #2                    ; symbol "TRUE"
+  1258: BRK
+  1259: POP
+  1260: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1262: CALL    argc=4                ; args @1288, @1292, @1295, @1298
+  1283: BRA     +13                   ; -> 1301
+  1288: PUSHW   1031
+  1291: BRK
+  1292: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1294: BRK
+  1295: PUSHSIB #30                   ; string "jackh_reload_3"
+  1297: BRK
+  1298: PUSHIIB #2                    ; symbol "TRUE"
+  1300: BRK
+  1301: POP
+  1302: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1304: CALL    argc=4                ; args @1330, @1334, @1337, @1340
+  1325: BRA     +13                   ; -> 1343
+  1330: PUSHW   1032
+  1333: BRK
+  1334: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1336: BRK
+  1337: PUSHSIB #31                   ; string "jackh_reload_4"
+  1339: BRK
+  1340: PUSHIIB #2                    ; symbol "TRUE"
+  1342: BRK
+  1343: POP
+  1344: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1346: CALL    argc=4                ; args @1372, @1376, @1379, @1382
+  1367: BRA     +13                   ; -> 1385
+  1372: PUSHW   1033
+  1375: BRK
+  1376: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1378: BRK
+  1379: PUSHSIB #32                   ; string "ak47_reload_1"
+  1381: BRK
+  1382: PUSHIIB #2                    ; symbol "TRUE"
+  1384: BRK
+  1385: POP
+  1386: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1388: CALL    argc=4                ; args @1414, @1418, @1421, @1424
+  1409: BRA     +13                   ; -> 1427
+  1414: PUSHW   1034
+  1417: BRK
+  1418: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1420: BRK
+  1421: PUSHSIB #33                   ; string "ak47_reload_2"
+  1423: BRK
+  1424: PUSHIIB #2                    ; symbol "TRUE"
+  1426: BRK
+  1427: POP
+  1428: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1430: CALL    argc=4                ; args @1456, @1460, @1463, @1466
+  1451: BRA     +13                   ; -> 1469
+  1456: PUSHW   1035
+  1459: BRK
+  1460: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1462: BRK
+  1463: PUSHSIB #34                   ; string "ak47_reload_3"
+  1465: BRK
+  1466: PUSHIIB #2                    ; symbol "TRUE"
+  1468: BRK
+  1469: POP
+  1470: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1472: CALL    argc=4                ; args @1498, @1502, @1505, @1508
+  1493: BRA     +13                   ; -> 1511
+  1498: PUSHW   1040
+  1501: BRK
+  1502: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1504: BRK
+  1505: PUSHSIB #35                   ; string "bodyfall_9"
+  1507: BRK
+  1508: PUSHIIB #2                    ; symbol "TRUE"
+  1510: BRK
+  1511: POP
+  1512: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1514: CALL    argc=4                ; args @1540, @1544, @1547, @1550
+  1535: BRA     +13                   ; -> 1553
+  1540: PUSHW   1041
+  1543: BRK
+  1544: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1546: BRK
+  1547: PUSHSIB #36                   ; string "guard_roll"
+  1549: BRK
+  1550: PUSHIIB #2                    ; symbol "TRUE"
+  1552: BRK
+  1553: POP
+  1554: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1556: CALL    argc=4                ; args @1582, @1586, @1589, @1592
+  1577: BRA     +13                   ; -> 1595
+  1582: PUSHW   1042
+  1585: BRK
+  1586: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1588: BRK
+  1589: PUSHSIB #37                   ; string "dragu_reload_1"
+  1591: BRK
+  1592: PUSHIIB #2                    ; symbol "TRUE"
+  1594: BRK
+  1595: POP
+  1596: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1598: CALL    argc=4                ; args @1624, @1628, @1631, @1634
+  1619: BRA     +13                   ; -> 1637
+  1624: PUSHW   1043
+  1627: BRK
+  1628: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1630: BRK
+  1631: PUSHSIB #38                   ; string "dragu_reload_2"
+  1633: BRK
+  1634: PUSHIIB #2                    ; symbol "TRUE"
+  1636: BRK
+  1637: POP
+  1638: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1640: CALL    argc=4                ; args @1666, @1670, @1673, @1676
+  1661: BRA     +13                   ; -> 1679
+  1666: PUSHW   1044
+  1669: BRK
+  1670: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1672: BRK
+  1673: PUSHSIB #39                   ; string "minimi_reload_1"
+  1675: BRK
+  1676: PUSHIIB #2                    ; symbol "TRUE"
+  1678: BRK
+  1679: POP
+  1680: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1682: CALL    argc=4                ; args @1708, @1712, @1715, @1718
+  1703: BRA     +13                   ; -> 1721
+  1708: PUSHW   1045
+  1711: BRK
+  1712: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1714: BRK
+  1715: PUSHSIB #40                   ; string "minimi_reload_2"
+  1717: BRK
+  1718: PUSHIIB #2                    ; symbol "TRUE"
+  1720: BRK
+  1721: POP
+  1722: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1724: CALL    argc=4                ; args @1750, @1754, @1757, @1760
+  1745: BRA     +13                   ; -> 1763
+  1750: PUSHW   1046
+  1753: BRK
+  1754: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1756: BRK
+  1757: PUSHSIB #41                   ; string "uzi_reload_1"
+  1759: BRK
+  1760: PUSHIIB #2                    ; symbol "TRUE"
+  1762: BRK
+  1763: POP
+  1764: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1766: CALL    argc=4                ; args @1792, @1796, @1799, @1802
+  1787: BRA     +13                   ; -> 1805
+  1792: PUSHW   1047
+  1795: BRK
+  1796: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1798: BRK
+  1799: PUSHSIB #42                   ; string "uzi_reload_2"
+  1801: BRK
+  1802: PUSHIIB #2                    ; symbol "TRUE"
+  1804: BRK
+  1805: POP
+  1806: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1808: CALL    argc=4                ; args @1834, @1838, @1841, @1844
+  1829: BRA     +13                   ; -> 1847
+  1834: PUSHW   1048
+  1837: BRK
+  1838: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1840: BRK
+  1841: PUSHSIB #43                   ; string "uzi_reload_3"
+  1843: BRK
+  1844: PUSHIIB #2                    ; symbol "TRUE"
+  1846: BRK
+  1847: POP
+  1848: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1850: CALL    argc=4                ; args @1876, @1880, @1883, @1886
+  1871: BRA     +13                   ; -> 1889
+  1876: PUSHW   1049
+  1879: BRK
+  1880: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1882: BRK
+  1883: PUSHSIB #44                   ; string "uzix2_reload_1"
+  1885: BRK
+  1886: PUSHIIB #2                    ; symbol "TRUE"
+  1888: BRK
+  1889: POP
+  1890: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1892: CALL    argc=4                ; args @1918, @1922, @1925, @1928
+  1913: BRA     +13                   ; -> 1931
+  1918: PUSHW   1050
+  1921: BRK
+  1922: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1924: BRK
+  1925: PUSHSIB #45                   ; string "syringe"
+  1927: BRK
+  1928: PUSHIIB #2                    ; symbol "TRUE"
+  1930: BRK
+  1931: POP
+  1932: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1934: CALL    argc=4                ; args @1960, @1964, @1967, @1970
+  1955: BRA     +13                   ; -> 1973
+  1960: PUSHW   1051
+  1963: BRK
+  1964: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  1966: BRK
+  1967: PUSHSIB #46                   ; string "cabinet"
+  1969: BRK
+  1970: PUSHIIB #2                    ; symbol "TRUE"
+  1972: BRK
+  1973: POP
+  1974: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  1976: CALL    argc=4                ; args @2002, @2006, @2009, @2012
+  1997: BRA     +13                   ; -> 2015
+  2002: PUSHW   1052
+  2005: BRK
+  2006: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  2008: BRK
+  2009: PUSHSIB #47                   ; string "gunpunch_01"
+  2011: BRK
+  2012: PUSHIIB #2                    ; symbol "TRUE"
+  2014: BRK
+  2015: POP
+  2016: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  2018: CALL    argc=4                ; args @2044, @2048, @2051, @2054
+  2039: BRA     +13                   ; -> 2057
+  2044: PUSHW   1053
+  2047: BRK
+  2048: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  2050: BRK
+  2051: PUSHSIB #48                   ; string "m16_g_reload_1"
+  2053: BRK
+  2054: PUSHIIB #2                    ; symbol "TRUE"
+  2056: BRK
+  2057: POP
+  2058: PUSHIIB #0                    ; symbol "DefineAnimTrigger"
+  2060: CALL    argc=4                ; args @2086, @2090, @2093, @2096
+  2081: BRA     +13                   ; -> 2099
+  2086: PUSHW   1054
+  2089: BRK
+  2090: PUSHIIB #1                    ; symbol "TASKTYPE_ANIMSOUND"
+  2092: BRK
+  2093: PUSHSIB #49                   ; string "ai_groin_01"
+  2095: BRK
+  2096: PUSHIIB #2                    ; symbol "TRUE"
+  2098: BRK
+  2099: POP
+  2100: BRK

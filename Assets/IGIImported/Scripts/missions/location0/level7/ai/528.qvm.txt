@@ -1,0 +1,37 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_IDLE"
+    14: EQ
+    15: BF      +84                   ; -> 104
+    20: PUSHIIB #2                    ; symbol "LevelTimer_2505.nTick"
+    22: PUSHB   3
+    24: PUSHIIB #3                    ; symbol "GAME_FREQUENCY"
+    26: MUL
+    27: LT
+    28: BF      +32                   ; -> 65
+    33: PUSHIIB #4                    ; symbol "AIAction_PlayAnimation"
+    35: CALL    argc=2                ; args @53, @56
+    48: BRA     +6                    ; -> 59
+    53: PUSHB   41
+    55: BRK
+    56: PUSHIIB #5                    ; symbol "AIACTIONFLAG_NONE"
+    58: BRK
+    59: POP
+    60: BRA     +0                    ; -> 65
+    65: PUSHIIB #6                    ; symbol "AIAction_Patrol"
+    67: CALL    argc=3                ; args @89, @93, @95
+    84: BRA     +9                    ; -> 98
+    89: PUSHW   673
+    92: BRK
+    93: PUSH0
+    94: BRK
+    95: PUSHIIB #7                    ; symbol "AIACTIONFLAG_PUSHABLE"
+    97: BRK
+    98: POP
+    99: BRA     +13                   ; -> 117
+   104: PUSHIIB #8                    ; symbol "AIFunction_DefaultHandler"
+   106: CALL    argc=0
+   111: BRA     +0                    ; -> 116
+   116: POP
+   117: BRK

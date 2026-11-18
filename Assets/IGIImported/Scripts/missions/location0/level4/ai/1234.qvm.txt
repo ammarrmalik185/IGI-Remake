@@ -1,0 +1,51 @@
+     0: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+     2: CALL    argc=0
+     7: BRA     +0                    ; -> 12
+    12: PUSHIIB #1                    ; symbol "AIEVENT_CREATE"
+    14: EQ
+    15: BF      +25                   ; -> 45
+    20: PUSHIIB #2                    ; symbol "AIFunction_SetEventPriority"
+    22: CALL    argc=1                ; args @36
+    31: BRA     +3                    ; -> 39
+    36: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    38: BRK
+    39: POP
+    40: BRA     +128                  ; -> 173
+    45: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    47: CALL    argc=0
+    52: BRA     +0                    ; -> 57
+    57: PUSHIIB #3                    ; symbol "AIEVENT_IDLE"
+    59: EQ
+    60: BF      +32                   ; -> 97
+    65: PUSHIIB #4                    ; symbol "AIAction_PlayAnimation"
+    67: CALL    argc=2                ; args @85, @89
+    80: BRA     +6                    ; -> 91
+    85: PUSHW   240
+    88: BRK
+    89: PUSH0
+    90: BRK
+    91: POP
+    92: BRA     +76                   ; -> 173
+    97: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+    99: CALL    argc=0
+   104: BRA     +0                    ; -> 109
+   109: PUSHIIB #5                    ; symbol "AIEVENT_ALARMON"
+   111: EQ
+   112: BF      +5                    ; -> 122
+   117: BRA     +51                   ; -> 173
+   122: PUSHIIB #0                    ; symbol "AIFunction_GetCurrentEventType"
+   124: CALL    argc=0
+   129: BRA     +0                    ; -> 134
+   134: PUSHIIB #6                    ; symbol "AIEVENT_COMBAT"
+   136: EQ
+   137: BF      +18                   ; -> 160
+   142: PUSHIIB #7                    ; symbol "AIFunction_DefaultHandler"
+   144: CALL    argc=0
+   149: BRA     +0                    ; -> 154
+   154: POP
+   155: BRA     +13                   ; -> 173
+   160: PUSHIIB #7                    ; symbol "AIFunction_DefaultHandler"
+   162: CALL    argc=0
+   167: BRA     +0                    ; -> 172
+   172: POP
+   173: BRK

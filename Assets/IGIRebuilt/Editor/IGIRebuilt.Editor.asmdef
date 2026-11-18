@@ -1,0 +1,11 @@
+{
+  "name": "IGIRebuilt.Editor",
+  "rootNamespace": "IGIRebuilt.Editor",
+  "references": [
+    "IGIRebuilt.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}
