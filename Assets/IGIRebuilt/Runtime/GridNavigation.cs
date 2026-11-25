@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace IGIRebuilt
@@ -29,7 +30,7 @@ namespace IGIRebuilt
                         if (!Physics.Raycast(at, Vector3.down, out RaycastHit hit, 480, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore) || hit.normal.y < 0.65f) continue;
                         heights[index] = hit.point.y;
                     }
-                    walkable[index] = !Physics.CheckBox(Centre(x, z) + Vector3.up * 1.05f, new Vector3(0.38f, 0.65f, 0.38f), Quaternion.identity, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore);
+                    walkable[index] = !Physics.OverlapBox(Centre(x, z) + Vector3.up * 1.05f, new Vector3(0.32f, 0.65f, 0.32f), Quaternion.identity, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore).Any(c => c.GetComponentInParent<InteractiveDoor>() == null);
                 }
         }
         public List<Vector3> FindPath(Vector3 start, Vector3 destination)
@@ -43,14 +44,11 @@ namespace IGIRebuilt
             bool[] closed = new bool[walkable.Length];
             for (int i = 0; i < cost.Length; i++) { cost[i] = float.PositiveInfinity; previous[i] = -1; }
             cost[from] = 0;
-            var open = new List<int> { from };
+            var open = new PathHeap(); open.Push(from, Heuristic(from, to));
             while (open.Count > 0)
             {
-                int best = 0;
-                for (int i = 1; i < open.Count; i++)
-                    if (cost[open[i]] + Heuristic(open[i], to) < cost[open[best]] + Heuristic(open[best], to)) best = i;
-                int current = open[best];
-                open.RemoveAt(best);
+                int current = open.Pop();
+                if (closed[current]) continue;
                 if (current == to)
                 {
                     for (int at = to; at != from && at >= 0; at = previous[at]) result.Add(Centre(at % width, at / width));
@@ -68,18 +66,30 @@ namespace IGIRebuilt
                         int next = z * width + x;
                         if (!walkable[next] || closed[next]) continue;
                         if (sampleTerrain && Mathf.Abs(heights[next] - heights[current]) > cellSize * 0.7f) continue;
-                        if (sampleTerrain && Physics.Linecast(Centre(current % width, current / width) + Vector3.up,
-                            Centre(x, z) + Vector3.up, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore)) continue;
+                        if (sampleTerrain && EdgeBlocked(Centre(current % width, current / width) + Vector3.up, Centre(x, z) + Vector3.up)) continue;
                         if (dx != 0 && dz != 0 && (!walkable[(current / width) * width + x] || !walkable[z * width + current % width])) continue;
                         float candidate = cost[current] + (dx != 0 && dz != 0 ? 1.414214f : 1);
                         if (candidate >= cost[next]) continue;
                         cost[next] = candidate;
                         previous[next] = current;
-                        if (!open.Contains(next)) open.Add(next);
+                        open.Push(next, candidate + Heuristic(next, to));
                     }
                 }
             }
             return result;
+        }
+        private bool EdgeBlocked(Vector3 a, Vector3 b)
+        {
+            if (!Physics.Linecast(a,b,1 << DemoWorld.WorldLayer,QueryTriggerInteraction.Ignore)) return false;
+            Vector3 delta=b-a;
+            return Physics.RaycastAll(a,delta.normalized,delta.magnitude,1 << DemoWorld.WorldLayer,QueryTriggerInteraction.Ignore).Any(h=>h.collider.GetComponentInParent<InteractiveDoor>()==null);
+        }
+        private sealed class PathHeap
+        {
+            private readonly List<int> nodes=new List<int>(); private readonly List<float> scores=new List<float>();
+            public int Count => nodes.Count;
+            public void Push(int node,float score) {nodes.Add(node);scores.Add(score);int i=nodes.Count-1;while(i>0){int p=(i-1)/2;if(scores[p]<=score)break;nodes[i]=nodes[p];scores[i]=scores[p];i=p;}nodes[i]=node;scores[i]=score;}
+            public int Pop(){int value=nodes[0],last=nodes.Count-1,node=nodes[last];float score=scores[last];nodes.RemoveAt(last);scores.RemoveAt(last);if(last==0)return value;int i=0;while(i*2+1<last){int child=i*2+1;if(child+1<last&&scores[child+1]<scores[child])child++;if(scores[child]>=score)break;nodes[i]=nodes[child];scores[i]=scores[child];i=child;}nodes[i]=node;scores[i]=score;return value;}
         }
         private float Heuristic(int a, int b)
         {
@@ -105,6 +115,6 @@ namespace IGIRebuilt
                     }
             return best;
         }
-        private Vector3 Centre(int x, int z) => origin + new Vector3((x + 0.5f) * cellSize, heights != null ? heights[z * width + x] : 0, (z + 0.5f) * cellSize);
+        private Vector3 Centre(int x, int z) => new Vector3(origin.x + (x + 0.5f) * cellSize, sampleTerrain && heights != null ? heights[z * width + x] : origin.y, origin.z + (z + 0.5f) * cellSize);
     }
 }

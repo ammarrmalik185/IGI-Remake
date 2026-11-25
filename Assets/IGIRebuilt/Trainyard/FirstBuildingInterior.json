@@ -1,0 +1,91 @@
+{
+  "parentId": 1118,
+  "rooms": [
+    {
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_02_1.igimodel",
+      "position": {
+        "x": -0.098137,
+        "y": 0.257062,
+        "z": -3.5871098
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_03_1.igimodel",
+      "position": {
+        "x": -0.098137,
+        "y": 0.257062,
+        "z": -3.5871098
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_21_1.igimodel",
+      "position": {
+        "x": -0.098137,
+        "y": 0.257062,
+        "z": -3.5871098
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    }
+  ],
+  "doors": [
+    {
+      "slot": 0,
+      "foot": {
+        "x": 2.174185,
+        "y": 0.411512,
+        "z": 9.986799
+      },
+      "normal": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "width": 1.1141502,
+      "height": 2.099718
+    },
+    {
+      "slot": 4,
+      "foot": {
+        "x": -5.54764,
+        "y": 0.410718,
+        "z": -8.96774
+      },
+      "normal": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "width": 1.1141396,
+      "height": 2.0997221
+    }
+  ]
+}

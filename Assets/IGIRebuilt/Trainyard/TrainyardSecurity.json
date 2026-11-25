@@ -1,0 +1,198 @@
+{
+  "cameras": [
+    {
+      "id": 1301,
+      "position": {
+        "x": 18.371094,
+        "y": 3.4492188,
+        "z": -106.384766
+      },
+      "holderPath": "Assets/IGIImported/Models/missions/location0/level1/313_01_1.igimodel",
+      "headPath": "Assets/IGIImported/Models/missions/location0/level1/313_02_1.igimodel",
+      "mount": {
+        "x": 0.00055572495,
+        "y": 0.08255009,
+        "z": 0.23431998
+      },
+      "lens": {
+        "x": -0.00300592,
+        "y": 0.106804,
+        "z": 0.47288397
+      },
+      "yaw": -56.37412,
+      "pitch": 5.729578,
+      "headYaw": -0,
+      "right": 95,
+      "left": 1,
+      "speed": 15,
+      "pause": 4,
+      "verticalFov": 90,
+      "horizontalFov": 55,
+      "range": 25
+    },
+    {
+      "id": 1302,
+      "position": {
+        "x": 56.711914,
+        "y": 1.8476562,
+        "z": -98.95703
+      },
+      "holderPath": "Assets/IGIImported/Models/missions/location0/level1/313_01_1.igimodel",
+      "headPath": "Assets/IGIImported/Models/missions/location0/level1/313_02_1.igimodel",
+      "mount": {
+        "x": 0.00055572495,
+        "y": 0.08255009,
+        "z": 0.23431998
+      },
+      "lens": {
+        "x": -0.00300592,
+        "y": 0.106804,
+        "z": 0.47288397
+      },
+      "yaw": 91.69616,
+      "pitch": 5.729578,
+      "headYaw": -71.99999,
+      "right": 0,
+      "left": 0,
+      "speed": 0,
+      "pause": 0,
+      "verticalFov": 90,
+      "horizontalFov": 55,
+      "range": 25
+    },
+    {
+      "id": 1303,
+      "position": {
+        "x": -26.229004,
+        "y": 1.8671875,
+        "z": -139.67188
+      },
+      "holderPath": "Assets/IGIImported/Models/missions/location0/level1/313_01_1.igimodel",
+      "headPath": "Assets/IGIImported/Models/missions/location0/level1/313_02_1.igimodel",
+      "mount": {
+        "x": 0.00055572495,
+        "y": 0.08255009,
+        "z": 0.23431998
+      },
+      "lens": {
+        "x": -0.00300592,
+        "y": 0.106804,
+        "z": 0.47288397
+      },
+      "yaw": -3.873252,
+      "pitch": -0,
+      "headYaw": 45.836624,
+      "right": 1,
+      "left": 110,
+      "speed": 15,
+      "pause": 5,
+      "verticalFov": 90,
+      "horizontalFov": 55,
+      "range": 25
+    },
+    {
+      "id": 1304,
+      "position": {
+        "x": 4.305664,
+        "y": 1.4335938,
+        "z": -101.67285
+      },
+      "holderPath": "Assets/IGIImported/Models/missions/location0/level1/313_01_1.igimodel",
+      "headPath": "Assets/IGIImported/Models/missions/location0/level1/313_02_1.igimodel",
+      "mount": {
+        "x": 0.00055572495,
+        "y": 0.08255009,
+        "z": 0.23431998
+      },
+      "lens": {
+        "x": -0.00300592,
+        "y": 0.106804,
+        "z": 0.47288397
+      },
+      "yaw": -180.82031,
+      "pitch": 5.729578,
+      "headYaw": 36.000027,
+      "right": 0,
+      "left": 0,
+      "speed": 0,
+      "pause": 0,
+      "verticalFov": 90,
+      "horizontalFov": 55,
+      "range": 25
+    },
+    {
+      "id": 1305,
+      "position": {
+        "x": -33.526855,
+        "y": 2.5625,
+        "z": -98.493164
+      },
+      "holderPath": "Assets/IGIImported/Models/missions/location0/level1/313_01_1.igimodel",
+      "headPath": "Assets/IGIImported/Models/missions/location0/level1/313_02_1.igimodel",
+      "mount": {
+        "x": 0.00055572495,
+        "y": 0.08255009,
+        "z": 0.23431998
+      },
+      "lens": {
+        "x": -0.00300592,
+        "y": 0.106804,
+        "z": 0.47288397
+      },
+      "yaw": -179.88553,
+      "pitch": 5.729578,
+      "headYaw": 113.99998,
+      "right": 10,
+      "left": 100,
+      "speed": 15,
+      "pause": 5,
+      "verticalFov": 90,
+      "horizontalFov": 55,
+      "range": 25
+    }
+  ],
+  "panels": [
+    {
+      "id": 94,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/234_01_1.igimodel",
+      "position": {
+        "x": -20.726074,
+        "y": -0.45703125,
+        "z": -21.27832
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      }
+    },
+    {
+      "id": 92,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/234_01_1.igimodel",
+      "position": {
+        "x": 10.099121,
+        "y": -0.44921875,
+        "z": -64.11621
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      }
+    },
+    {
+      "id": 99,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/234_01_1.igimodel",
+      "position": {
+        "x": 77.95166,
+        "y": -0.45703125,
+        "z": -61.020508
+      },
+      "rotation": {
+        "x": -0,
+        "y": -180.00002,
+        "z": -0
+      }
+    }
+  ]
+}

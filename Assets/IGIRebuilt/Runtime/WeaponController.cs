@@ -40,7 +40,7 @@ namespace IGIRebuilt
         private void Update()
         {
             if (Active == null || mission == null) return;
-            if (!mission.InputBlocked)
+            if (!mission.InputBlocked && (mission.player == null || !mission.player.IsClimbing))
             {
                 for (int i = 0; i < Mathf.Min(3, definitions.Length); i++)
                     if (GameInput.Pressed(KeyCode.Alpha1 + i)) Equip(i);
@@ -77,7 +77,7 @@ namespace IGIRebuilt
         }
         public bool Fire()
         {
-            if (Active == null || IsReloading || mission == null || mission.InputBlocked || Time.time < nextShot) return false;
+            if (Active == null || IsReloading || mission == null || mission.InputBlocked || (mission.player != null && mission.player.IsClimbing) || Time.time < nextShot) return false;
             nextShot = Time.time + Active.secondsPerShot;
             if (!Active.melee && !Ammo.Fire())
             {
@@ -95,12 +95,12 @@ namespace IGIRebuilt
             {
                 end = hit.point;
                 Health target = hit.collider.GetComponentInParent<Health>();
-                if (target != null && target.TakeDamage(Active.damage, Team.Player)) HitMarkerUntil = Time.time + 0.16f;
+                if (target != null && target.TakeDamage(Active.damage, Team.Player, eye.transform.position)) HitMarkerUntil = Time.time + 0.16f;
                 else CreateImpact(hit.point, hit.normal);
             }
             Vector3 muzzle = eye.transform.TransformPoint(new Vector3(0.18f, -0.13f, 0.8f));
             if (!Active.melee) DrawTracer(muzzle, end, new Color(1, 0.78f, 0.35f), 0.035f);
-            mission.MakeNoise(eye.transform.position, Active.melee ? 3 : Active.displayName.Contains("Mp5") ? 8 : 55);
+            mission.MakeNoise(eye.transform.position, Active.melee ? 3 : Active.displayName.IndexOf("MP5", System.StringComparison.OrdinalIgnoreCase) >= 0 ? 18 : 100);
             return true;
         }
         private IEnumerator Reload()

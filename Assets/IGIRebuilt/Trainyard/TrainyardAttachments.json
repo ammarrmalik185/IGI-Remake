@@ -1,0 +1,7157 @@
+{
+  "attachments": [
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/400_02_1_0",
+      "name": "400_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_02_1.igimodel",
+      "position": {
+        "x": -0.098137,
+        "y": 0.257062,
+        "z": -3.5871098
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_02_1_0",
+      "key": "/400_02_1_0/236_01_1_1",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": 3.42523,
+        "y": 1.68348,
+        "z": 8.83443
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_02_1_0",
+      "key": "/400_02_1_0/236_01_1_2",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": 3.42523,
+        "y": 1.68348,
+        "z": 12.438001
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_02_1_0",
+      "key": "/400_02_1_0/221_01_1_3",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": 1.33393,
+        "y": 0.34162998,
+        "z": 9.52796
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_02_1_0",
+      "key": "/400_02_1_0/221_01_1_4",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": 3.4205801,
+        "y": 0.341631,
+        "z": 12.7839
+      },
+      "forward": {
+        "x": -4.54053E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_02_1_0",
+      "key": "/400_02_1_0/222_01_1_5",
+      "name": "222_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/222_01_1.igimodel",
+      "position": {
+        "x": 1.31875,
+        "y": 1.22198,
+        "z": 11.061399
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/400_03_1_6",
+      "name": "400_03_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_03_1.igimodel",
+      "position": {
+        "x": -0.098137,
+        "y": 0.257062,
+        "z": -3.5871098
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_03_1_6",
+      "key": "/400_03_1_6/210_01_1_7",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -7.1830797,
+        "y": 3.09867,
+        "z": 10.529201
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_03_1_6",
+      "key": "/400_03_1_6/210_01_1_8",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -3.80383,
+        "y": 3.09867,
+        "z": 10.529201
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_03_1_6",
+      "key": "/400_03_1_6/210_01_1_9",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.83226097,
+        "y": 3.09867,
+        "z": 10.529201
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_03_1_6",
+      "key": "/400_03_1_6/221_01_1_10",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": -9.640389,
+        "y": 0.297431,
+        "z": 8.0255995
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_03_1_6",
+      "key": "/400_03_1_6/221_01_1_11",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": -0.923581,
+        "y": 0.297431,
+        "z": 13.7417
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_03_1_6",
+      "key": "/400_03_1_6/222_01_1_12",
+      "name": "222_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/222_01_1.igimodel",
+      "position": {
+        "x": 1.07875,
+        "y": 1.2422299,
+        "z": 9.59288
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_03_1_6",
+      "key": "/400_03_1_6/221_01_1_13",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": -9.640389,
+        "y": 0.297431,
+        "z": 12.708699
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_03_1_6",
+      "key": "/400_03_1_6/218_01_1_14",
+      "name": "218_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/218_01_1.igimodel",
+      "position": {
+        "x": -1.6680399,
+        "y": 1.9328599,
+        "z": 7.59974
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/400_21_1_15",
+      "name": "400_21_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_21_1.igimodel",
+      "position": {
+        "x": -0.098137,
+        "y": 0.257062,
+        "z": -3.5871098
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/210_01_1_16",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -6.7789598,
+        "y": 3.0976098,
+        "z": 5.45101
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/210_01_1_17",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": 2.03139,
+        "y": 3.0976098,
+        "z": 5.45101
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/210_01_1_18",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -6.7789598,
+        "y": 3.0976098,
+        "z": 2.2779
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/210_01_1_19",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": 2.03139,
+        "y": 3.0976098,
+        "z": 2.2779
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/210_01_1_20",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": 2.03139,
+        "y": 3.0976098,
+        "z": -0.661913
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/210_01_1_21",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -6.7789598,
+        "y": 3.0976098,
+        "z": -0.661913
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/222_01_1_22",
+      "name": "222_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/222_01_1.igimodel",
+      "position": {
+        "x": 1.53114,
+        "y": 1.2204599,
+        "z": 7.04735
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/221_01_1_23",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": -11.8479,
+        "y": 0.339416,
+        "z": 5.94019
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/221_01_1_24",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": -11.8479,
+        "y": 0.339416,
+        "z": -1.9933399
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/221_01_1_25",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": -10.671,
+        "y": 0.339416,
+        "z": 7.0327897
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/221_01_1_26",
+      "name": "221_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/221_01_1.igimodel",
+      "position": {
+        "x": -3.1845,
+        "y": 0.339416,
+        "z": 7.0327897
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/210_01_1_27",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": 0.440989,
+        "y": 3.0976098,
+        "z": -4.10623
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/218_01_1_28",
+      "name": "218_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/218_01_1.igimodel",
+      "position": {
+        "x": -0.826936,
+        "y": 1.6241099,
+        "z": 6.9797897
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "/400_21_1_15",
+      "key": "/400_21_1_15/218_01_1_29",
+      "name": "218_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/218_01_1.igimodel",
+      "position": {
+        "x": -7.8756,
+        "y": 1.6241099,
+        "z": -2.6169798
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/400_18_1_30",
+      "name": "400_18_1",
+      "type": "TASKTYPE_LADDER",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_18_1.igimodel",
+      "position": {
+        "x": 12.811,
+        "y": 0.0758389,
+        "z": -8.72077
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/400_15_1_31",
+      "name": "400_15_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_15_1.igimodel",
+      "position": {
+        "x": -5.37442,
+        "y": 2.1299498,
+        "z": 10.279799
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/400_16_1_32",
+      "name": "400_16_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_16_1.igimodel",
+      "position": {
+        "x": -9.82844,
+        "y": 2.1299498,
+        "z": 7.0758896
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/318_01_1_33",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": -6.24394,
+        "y": 5.44142,
+        "z": 4.21502
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/318_01_1_34",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": -0.154081,
+        "y": 5.44142,
+        "z": 4.21502
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/318_01_1_35",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 9.27837,
+        "y": 5.44142,
+        "z": -10.9087
+      },
+      "forward": {
+        "x": 8.74228E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/318_01_1_36",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": -0.511678,
+        "y": 5.44142,
+        "z": -10.9087
+      },
+      "forward": {
+        "x": 8.74228E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/318_01_1_37",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": -9.65846,
+        "y": 5.44142,
+        "z": -10.9087
+      },
+      "forward": {
+        "x": 8.74228E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/317_01_1_38",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": 9.36252,
+        "y": 1.93476,
+        "z": -10.915899
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/317_01_1_39",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": 7.8393197,
+        "y": 1.93476,
+        "z": -10.915899
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/400_17_1_40",
+      "name": "400_17_1",
+      "type": "TASKTYPE_LADDER",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/400_17_1.igimodel",
+      "position": {
+        "x": -8.74949,
+        "y": 0.411029,
+        "z": -7.64283
+      },
+      "forward": {
+        "x": -4.70579E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/236_01_1_41",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -10.4297,
+        "y": 2.05193,
+        "z": -6.5422697
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/236_01_1_42",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -8.8527,
+        "y": 2.05193,
+        "z": -10.718299
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/236_01_1_43",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -7.0839396,
+        "y": 2.05193,
+        "z": -6.5422697
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1118,
+      "parentKey": "",
+      "key": "/317_01_1_44",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": -6.5758696,
+        "y": 7.5961795,
+        "z": -3.42842
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1104,
+      "parentKey": "",
+      "key": "/435_02_1_45",
+      "name": "435_02_1",
+      "type": "TASKTYPE_LADDER",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/435_02_1.igimodel",
+      "position": {
+        "x": -0.00221069,
+        "y": 0.28331497,
+        "z": -4.21656
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1105,
+      "parentKey": "",
+      "key": "/314_01_1_46",
+      "name": "314_01_1",
+      "type": "TASKTYPE_LADDER",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/314_01_1.igimodel",
+      "position": {
+        "x": 1.9622799,
+        "y": -0.0017693999,
+        "z": -1.36796
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": -2.52881E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/410_02_1_47",
+      "name": "410_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_02_1.igimodel",
+      "position": {
+        "x": 6.9893402E-15,
+        "y": 0,
+        "z": -1.7388299E-08
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/210_01_1_48",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -3.00476,
+        "y": 3.7120497,
+        "z": -4.28814
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/210_01_1_49",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": 3.0357997,
+        "y": 3.7120497,
+        "z": -4.28814
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/207_01_1_50",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -8.611079,
+        "y": 2.50331,
+        "z": -3.96919
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/207_01_1_51",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 8.60857,
+        "y": 2.50331,
+        "z": -3.96919
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/207_01_1_52",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 2.96803,
+        "y": 2.50331,
+        "z": -9.46398
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/207_01_1_53",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -3.05806,
+        "y": 2.50331,
+        "z": -9.46398
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/219_01_1_54",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.5685198,
+        "y": 0.19196899,
+        "z": -0.00830841
+      },
+      "forward": {
+        "x": -0.999391,
+        "y": 0,
+        "z": 0.0348994
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/219_01_1_55",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.5788,
+        "y": 0.19196899,
+        "z": -0.55019295
+      },
+      "forward": {
+        "x": -0.999848,
+        "y": 0,
+        "z": -0.0174524
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/219_01_1_56",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.36607,
+        "y": 0.19196899,
+        "z": -0.52676
+      },
+      "forward": {
+        "x": -0.996917,
+        "y": 0,
+        "z": 0.0784591
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/219_01_1_57",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.35173,
+        "y": 0.19196899,
+        "z": 0.0217224
+      },
+      "forward": {
+        "x": -0.999962,
+        "y": 0,
+        "z": 0.00872651
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/219_01_1_58",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.6401901,
+        "y": 0.68981797,
+        "z": -0.268129
+      },
+      "forward": {
+        "x": 0.0610484,
+        "y": 0,
+        "z": -0.998135
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/219_01_1_59",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.23101,
+        "y": 0.68981797,
+        "z": -0.288761
+      },
+      "forward": {
+        "x": 0.0610484,
+        "y": 0,
+        "z": -0.998135
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/301_01_1_60",
+      "name": "301_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/301_01_1.igimodel",
+      "position": {
+        "x": 6.66101,
+        "y": 0.185268,
+        "z": -2.29701
+      },
+      "forward": {
+        "x": -0.165048,
+        "y": -8.74228E-08,
+        "z": 0.986286
+      },
+      "up": {
+        "x": 1.44289E-08,
+        "y": -1,
+        "z": -8.62238E-08
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/300_01_1_61",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": -3.59754,
+        "y": 0.19261499,
+        "z": -9.17964
+      },
+      "forward": {
+        "x": -0.936672,
+        "y": 0,
+        "z": -0.350207
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/300_01_1_62",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 8.3174,
+        "y": 0.19261499,
+        "z": -6.08077
+      },
+      "forward": {
+        "x": 0.182235,
+        "y": 0,
+        "z": -0.983255
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/300_01_1_63",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 7.68926,
+        "y": 0.48690498,
+        "z": -5.78003
+      },
+      "forward": {
+        "x": 0.535519,
+        "y": -0.182236,
+        "z": -0.824627
+      },
+      "up": {
+        "x": 0.838671,
+        "y": -7.23837E-08,
+        "z": 0.544639
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "/410_02_1_47",
+      "key": "/410_02_1_47/219_01_1_64",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": -8.20734,
+        "y": 0.19196899,
+        "z": -0.0141513
+      },
+      "forward": {
+        "x": -0.998135,
+        "y": 0,
+        "z": -0.0610485
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/318_01_1_65",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": -2.9356499,
+        "y": 3.3778398,
+        "z": -9.72685
+      },
+      "forward": {
+        "x": 8.14296E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/318_01_1_66",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 3.0070097,
+        "y": 3.3778398,
+        "z": -9.726859
+      },
+      "forward": {
+        "x": 8.14296E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/410_03_1_67",
+      "name": "410_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_03_1.igimodel",
+      "position": {
+        "x": -6.0127397,
+        "y": 1.90932,
+        "z": -9.47086
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/410_03_1_68",
+      "name": "410_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_03_1.igimodel",
+      "position": {
+        "x": 0.0104046,
+        "y": 1.90932,
+        "z": -9.470869
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/315_01_1_69",
+      "name": "315_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/315_01_1.igimodel",
+      "position": {
+        "x": 7.61825,
+        "y": 0.042168498,
+        "z": 3.71648
+      },
+      "forward": {
+        "x": -0.0261769,
+        "y": 0,
+        "z": 0.999657
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/300_01_1_70",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 4.63754,
+        "y": 0.0452221,
+        "z": 0.904159
+      },
+      "forward": {
+        "x": -0.97437,
+        "y": 0,
+        "z": -0.224951
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/318_01_1_71",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 6.3696003,
+        "y": 3.51754,
+        "z": 0.575449
+      },
+      "forward": {
+        "x": 5.92215E-08,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1106,
+      "parentKey": "",
+      "key": "/219_01_1_72",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 6.86898,
+        "y": 0.042636298,
+        "z": 4.1327395
+      },
+      "forward": {
+        "x": -0.113203,
+        "y": 0,
+        "z": 0.993572
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/410_02_1_73",
+      "name": "410_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_02_1.igimodel",
+      "position": {
+        "x": 6.9893402E-15,
+        "y": 0,
+        "z": -1.7388299E-08
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/210_01_1_74",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -3.00476,
+        "y": 3.7120497,
+        "z": -4.28814
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/210_01_1_75",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": 3.0357997,
+        "y": 3.7120497,
+        "z": -4.28814
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/207_01_1_76",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -8.611079,
+        "y": 2.50331,
+        "z": -3.96919
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/207_01_1_77",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 8.60857,
+        "y": 2.50331,
+        "z": -3.96919
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/207_01_1_78",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 2.96803,
+        "y": 2.50331,
+        "z": -9.46398
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/207_01_1_79",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -3.05806,
+        "y": 2.50331,
+        "z": -9.46398
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/219_01_1_80",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.5685198,
+        "y": 0.19196899,
+        "z": -0.00830841
+      },
+      "forward": {
+        "x": -0.999391,
+        "y": 0,
+        "z": 0.0348994
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/219_01_1_81",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.5788,
+        "y": 0.19196899,
+        "z": -0.55019295
+      },
+      "forward": {
+        "x": -0.999848,
+        "y": 0,
+        "z": -0.0174524
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/219_01_1_82",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.36607,
+        "y": 0.19196899,
+        "z": -0.52676
+      },
+      "forward": {
+        "x": -0.996917,
+        "y": 0,
+        "z": 0.0784591
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/219_01_1_83",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.35173,
+        "y": 0.19196899,
+        "z": 0.0217224
+      },
+      "forward": {
+        "x": -0.999962,
+        "y": 0,
+        "z": 0.00872651
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/219_01_1_84",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.6401901,
+        "y": 0.68981797,
+        "z": -0.268129
+      },
+      "forward": {
+        "x": 0.0610484,
+        "y": 0,
+        "z": -0.998135
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/219_01_1_85",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.23101,
+        "y": 0.68981797,
+        "z": -0.288761
+      },
+      "forward": {
+        "x": 0.0610484,
+        "y": 0,
+        "z": -0.998135
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/301_01_1_86",
+      "name": "301_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/301_01_1.igimodel",
+      "position": {
+        "x": 6.66101,
+        "y": 0.185268,
+        "z": -2.29701
+      },
+      "forward": {
+        "x": -0.165048,
+        "y": -8.74228E-08,
+        "z": 0.986286
+      },
+      "up": {
+        "x": 1.44289E-08,
+        "y": -1,
+        "z": -8.62238E-08
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/300_01_1_87",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": -3.59754,
+        "y": 0.19261499,
+        "z": -9.17964
+      },
+      "forward": {
+        "x": -0.936672,
+        "y": 0,
+        "z": -0.350207
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/300_01_1_88",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 8.3174,
+        "y": 0.19261499,
+        "z": -6.08077
+      },
+      "forward": {
+        "x": 0.182235,
+        "y": 0,
+        "z": -0.983255
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/300_01_1_89",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 7.68926,
+        "y": 0.48690498,
+        "z": -5.78003
+      },
+      "forward": {
+        "x": 0.535519,
+        "y": -0.182236,
+        "z": -0.824627
+      },
+      "up": {
+        "x": 0.838671,
+        "y": -7.23837E-08,
+        "z": 0.544639
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "/410_02_1_73",
+      "key": "/410_02_1_73/219_01_1_90",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": -8.20734,
+        "y": 0.19196899,
+        "z": -0.0141513
+      },
+      "forward": {
+        "x": -0.998135,
+        "y": 0,
+        "z": -0.0610485
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/318_01_1_91",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": -2.9356499,
+        "y": 3.3778398,
+        "z": -9.72685
+      },
+      "forward": {
+        "x": 8.14296E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/318_01_1_92",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 3.0070097,
+        "y": 3.3778398,
+        "z": -9.726859
+      },
+      "forward": {
+        "x": 8.14296E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/410_03_1_93",
+      "name": "410_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_03_1.igimodel",
+      "position": {
+        "x": -6.0127397,
+        "y": 1.90932,
+        "z": -9.47086
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/410_03_1_94",
+      "name": "410_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_03_1.igimodel",
+      "position": {
+        "x": 0.0104046,
+        "y": 1.90932,
+        "z": -9.470869
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/315_01_1_95",
+      "name": "315_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/315_01_1.igimodel",
+      "position": {
+        "x": 7.61825,
+        "y": 0.042168498,
+        "z": 3.71648
+      },
+      "forward": {
+        "x": -0.0261769,
+        "y": 0,
+        "z": 0.999657
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/300_01_1_96",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 4.63754,
+        "y": 0.0452221,
+        "z": 0.904159
+      },
+      "forward": {
+        "x": -0.97437,
+        "y": 0,
+        "z": -0.224951
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/318_01_1_97",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 6.3696003,
+        "y": 3.51754,
+        "z": 0.575449
+      },
+      "forward": {
+        "x": 5.92215E-08,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1107,
+      "parentKey": "",
+      "key": "/219_01_1_98",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 6.86898,
+        "y": 0.042636298,
+        "z": 4.1327395
+      },
+      "forward": {
+        "x": -0.113203,
+        "y": 0,
+        "z": 0.993572
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1110,
+      "parentKey": "",
+      "key": "/425_02_1_99",
+      "name": "425_02_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/425_02_1.igimodel",
+      "position": {
+        "x": 0.0574024,
+        "y": 1.8525699,
+        "z": 0.79272103
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1110,
+      "parentKey": "",
+      "key": "/425_03_1_100",
+      "name": "425_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/425_03_1.igimodel",
+      "position": {
+        "x": 2.05253,
+        "y": 1.8525699,
+        "z": -0.092268
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1110,
+      "parentKey": "",
+      "key": "/425_02_1_101",
+      "name": "425_02_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/425_02_1.igimodel",
+      "position": {
+        "x": 0.0574025,
+        "y": 1.8525699,
+        "z": -1.0010899
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1110,
+      "parentKey": "",
+      "key": "/210_01_1_102",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -1.10512,
+        "y": 2.52563,
+        "z": -0.0341722
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_02_1_103",
+      "name": "418_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "/418_02_1_103",
+      "key": "/418_02_1_103/210_01_1_104",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": -3.40056
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "/418_02_1_103",
+      "key": "/418_02_1_103/210_01_1_105",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": 0.0100247
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "/418_02_1_103",
+      "key": "/418_02_1_103/207_01_1_106",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 0.763913,
+        "y": 1.9592799,
+        "z": 7.5154495
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "/418_02_1_103",
+      "key": "/418_02_1_103/207_01_1_107",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 3.38273,
+        "y": 1.9592799,
+        "z": 5.4552097
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/317_01_1_108",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": -3.45364,
+        "y": 1.1493399,
+        "z": 6.76794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_03_1_109",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": 0.889421
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_03_1_110",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -1.50093
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_03_1_111",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -3.78794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_03_1_112",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_03_1_113",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_03_1_114",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -3.7844899
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_03_1_115",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -1.4859399
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1111,
+      "parentKey": "",
+      "key": "/418_03_1_116",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": 0.8885
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_02_1_117",
+      "name": "418_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "/418_02_1_117",
+      "key": "/418_02_1_117/210_01_1_118",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": -3.40056
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "/418_02_1_117",
+      "key": "/418_02_1_117/210_01_1_119",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": 0.0100247
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "/418_02_1_117",
+      "key": "/418_02_1_117/207_01_1_120",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 0.763913,
+        "y": 1.9592799,
+        "z": 7.5154495
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "/418_02_1_117",
+      "key": "/418_02_1_117/207_01_1_121",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 3.38273,
+        "y": 1.9592799,
+        "z": 5.4552097
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/317_01_1_122",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": -3.45364,
+        "y": 1.1493399,
+        "z": 6.76794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_03_1_123",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": 0.889421
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_03_1_124",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -1.50093
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_03_1_125",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -3.78794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_03_1_126",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_03_1_127",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_03_1_128",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -3.7844899
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_03_1_129",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -1.4859399
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1113,
+      "parentKey": "",
+      "key": "/418_03_1_130",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": 0.8885
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_02_1_131",
+      "name": "418_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "/418_02_1_131",
+      "key": "/418_02_1_131/210_01_1_132",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": -3.40056
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "/418_02_1_131",
+      "key": "/418_02_1_131/210_01_1_133",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": 0.0100247
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "/418_02_1_131",
+      "key": "/418_02_1_131/207_01_1_134",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 0.763913,
+        "y": 1.9592799,
+        "z": 7.5154495
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "/418_02_1_131",
+      "key": "/418_02_1_131/207_01_1_135",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 3.38273,
+        "y": 1.9592799,
+        "z": 5.4552097
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/317_01_1_136",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": -3.45364,
+        "y": 1.1493399,
+        "z": 6.76794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_03_1_137",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": 0.889421
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_03_1_138",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -1.50093
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_03_1_139",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -3.78794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_03_1_140",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_03_1_141",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_03_1_142",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -3.7844899
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_03_1_143",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -1.4859399
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1114,
+      "parentKey": "",
+      "key": "/418_03_1_144",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": 0.8885
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_02_1_145",
+      "name": "418_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "/418_02_1_145",
+      "key": "/418_02_1_145/210_01_1_146",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": -3.40056
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "/418_02_1_145",
+      "key": "/418_02_1_145/210_01_1_147",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": 0.0100247
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "/418_02_1_145",
+      "key": "/418_02_1_145/207_01_1_148",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 0.763913,
+        "y": 1.9592799,
+        "z": 7.5154495
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "/418_02_1_145",
+      "key": "/418_02_1_145/207_01_1_149",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 3.38273,
+        "y": 1.9592799,
+        "z": 5.4552097
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/317_01_1_150",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": -3.45364,
+        "y": 1.1493399,
+        "z": 6.76794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_03_1_151",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": 0.889421
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_03_1_152",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -1.50093
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_03_1_153",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -3.78794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_03_1_154",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_03_1_155",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_03_1_156",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -3.7844899
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_03_1_157",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -1.4859399
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1115,
+      "parentKey": "",
+      "key": "/418_03_1_158",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": 0.8885
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1116,
+      "parentKey": "",
+      "key": "/412_02_1_159",
+      "name": "412_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/412_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0.000810323,
+        "z": -0.0039447
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1116,
+      "parentKey": "/412_02_1_159",
+      "key": "/412_02_1_159/226_01_1_160",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": 6.67996,
+        "y": 6.6944,
+        "z": 0.0032783498
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1116,
+      "parentKey": "/412_02_1_159",
+      "key": "/412_02_1_159/236_01_1_161",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -10.809899,
+        "y": 2.9883401,
+        "z": 0.014668601
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1116,
+      "parentKey": "/412_02_1_159",
+      "key": "/412_02_1_159/226_01_1_162",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": 0.166796,
+        "y": 6.6944,
+        "z": 0.00327896
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1116,
+      "parentKey": "/412_02_1_159",
+      "key": "/412_02_1_159/226_01_1_163",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": -6.3776298,
+        "y": 6.6944,
+        "z": 0.00327942
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1116,
+      "parentKey": "",
+      "key": "/317_01_1_164",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": 10.1647,
+        "y": 1.6815499,
+        "z": -4.11335
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1116,
+      "parentKey": "",
+      "key": "/324_01_1_165",
+      "name": "324_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/324_01_1.igimodel",
+      "position": {
+        "x": -9.82622,
+        "y": 3.5023699,
+        "z": 4.1237597
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1116,
+      "parentKey": "",
+      "key": "/318_01_1_166",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 11.3712,
+        "y": 4.7286496,
+        "z": -0.000582886
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "",
+      "key": "/409_09_1_167",
+      "name": "409_09_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/409_09_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_09_1_167",
+      "key": "/409_09_1_167/236_01_1_168",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": 3.7162797,
+        "y": 1.96869,
+        "z": 2.19292
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_09_1_167",
+      "key": "/409_09_1_167/236_01_1_169",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": 9.7229595,
+        "y": 1.96869,
+        "z": 2.19292
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_09_1_167",
+      "key": "/409_09_1_167/236_01_1_170",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": 9.7229595,
+        "y": 1.96869,
+        "z": 5.71241
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_09_1_167",
+      "key": "/409_09_1_167/236_01_1_171",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": 9.7229595,
+        "y": 1.96869,
+        "z": 9.26604
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "",
+      "key": "/409_08_1_172",
+      "name": "409_08_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/409_08_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_08_1_172",
+      "key": "/409_08_1_172/214_01_1_173",
+      "name": "214_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/214_01_1.igimodel",
+      "position": {
+        "x": 4.92423,
+        "y": 0.258562,
+        "z": 8.80916
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "",
+      "key": "/409_07_1_174",
+      "name": "409_07_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/409_07_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_07_1_174",
+      "key": "/409_07_1_174/210_01_1_175",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -4.86339,
+        "y": 3.52651,
+        "z": 3.8825297
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_07_1_174",
+      "key": "/409_07_1_174/210_01_1_176",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -4.86339,
+        "y": 3.52651,
+        "z": 8.22181
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_07_1_174",
+      "key": "/409_07_1_174/218_01_1_177",
+      "name": "218_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/218_01_1.igimodel",
+      "position": {
+        "x": -0.20492399,
+        "y": 1.72531,
+        "z": 4.4752398
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "",
+      "key": "/409_06_1_178",
+      "name": "409_06_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/409_06_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_06_1_178",
+      "key": "/409_06_1_178/210_01_1_179",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -7.3085995,
+        "y": 3.52645,
+        "z": -3.05316
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_06_1_178",
+      "key": "/409_06_1_178/210_01_1_180",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -3.85392,
+        "y": 3.52645,
+        "z": -3.05316
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "",
+      "key": "/409_05_1_181",
+      "name": "409_05_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/409_05_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_05_1_181",
+      "key": "/409_05_1_181/236_01_1_182",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -5.55078,
+        "y": 1.95467,
+        "z": -7.08289
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_05_1_181",
+      "key": "/409_05_1_181/236_01_1_183",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -3.19877,
+        "y": 1.95467,
+        "z": -10.6800995
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "/409_05_1_181",
+      "key": "/409_05_1_181/236_01_1_184",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -8.20128,
+        "y": 1.95467,
+        "z": -10.6800995
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "",
+      "key": "/409_03_1_185",
+      "name": "409_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/409_03_1.igimodel",
+      "position": {
+        "x": -9.61741,
+        "y": 1.83293,
+        "z": 6.00756
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "",
+      "key": "/409_02_1_186",
+      "name": "409_02_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/409_02_1.igimodel",
+      "position": {
+        "x": -4.7515798,
+        "y": 1.83293,
+        "z": 10.7651
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1117,
+      "parentKey": "",
+      "key": "/409_04_1_187",
+      "name": "409_04_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/409_04_1.igimodel",
+      "position": {
+        "x": -1.7411399,
+        "y": 1.83293,
+        "z": -3.0434499
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/410_02_1_188",
+      "name": "410_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_02_1.igimodel",
+      "position": {
+        "x": 6.9893402E-15,
+        "y": 0,
+        "z": -1.7388299E-08
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/210_01_1_189",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -3.00476,
+        "y": 3.7120497,
+        "z": -4.28814
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/210_01_1_190",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": 3.0357997,
+        "y": 3.7120497,
+        "z": -4.28814
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/207_01_1_191",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -8.611079,
+        "y": 2.50331,
+        "z": -3.96919
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/207_01_1_192",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 8.60857,
+        "y": 2.50331,
+        "z": -3.96919
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/207_01_1_193",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 2.96803,
+        "y": 2.50331,
+        "z": -9.46398
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/207_01_1_194",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -3.05806,
+        "y": 2.50331,
+        "z": -9.46398
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/219_01_1_195",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.5685198,
+        "y": 0.19196899,
+        "z": -0.00830841
+      },
+      "forward": {
+        "x": -0.999391,
+        "y": 0,
+        "z": 0.0348994
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/219_01_1_196",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.5788,
+        "y": 0.19196899,
+        "z": -0.55019295
+      },
+      "forward": {
+        "x": -0.999848,
+        "y": 0,
+        "z": -0.0174524
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/219_01_1_197",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.36607,
+        "y": 0.19196899,
+        "z": -0.52676
+      },
+      "forward": {
+        "x": -0.996917,
+        "y": 0,
+        "z": 0.0784591
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/219_01_1_198",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.35173,
+        "y": 0.19196899,
+        "z": 0.0217224
+      },
+      "forward": {
+        "x": -0.999962,
+        "y": 0,
+        "z": 0.00872651
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/219_01_1_199",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 3.6401901,
+        "y": 0.68981797,
+        "z": -0.268129
+      },
+      "forward": {
+        "x": 0.0610484,
+        "y": 0,
+        "z": -0.998135
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/219_01_1_200",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 4.23101,
+        "y": 0.68981797,
+        "z": -0.288761
+      },
+      "forward": {
+        "x": 0.0610484,
+        "y": 0,
+        "z": -0.998135
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/301_01_1_201",
+      "name": "301_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/301_01_1.igimodel",
+      "position": {
+        "x": 6.66101,
+        "y": 0.185268,
+        "z": -2.29701
+      },
+      "forward": {
+        "x": -0.165048,
+        "y": -8.74228E-08,
+        "z": 0.986286
+      },
+      "up": {
+        "x": 1.44289E-08,
+        "y": -1,
+        "z": -8.62238E-08
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/300_01_1_202",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": -3.59754,
+        "y": 0.19261499,
+        "z": -9.17964
+      },
+      "forward": {
+        "x": -0.936672,
+        "y": 0,
+        "z": -0.350207
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/300_01_1_203",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 8.3174,
+        "y": 0.19261499,
+        "z": -6.08077
+      },
+      "forward": {
+        "x": 0.182235,
+        "y": 0,
+        "z": -0.983255
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/300_01_1_204",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 7.68926,
+        "y": 0.48690498,
+        "z": -5.78003
+      },
+      "forward": {
+        "x": 0.535519,
+        "y": -0.182236,
+        "z": -0.824627
+      },
+      "up": {
+        "x": 0.838671,
+        "y": -7.23837E-08,
+        "z": 0.544639
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "/410_02_1_188",
+      "key": "/410_02_1_188/219_01_1_205",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": -8.20734,
+        "y": 0.19196899,
+        "z": -0.0141513
+      },
+      "forward": {
+        "x": -0.998135,
+        "y": 0,
+        "z": -0.0610485
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/318_01_1_206",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": -2.9356499,
+        "y": 3.3778398,
+        "z": -9.72685
+      },
+      "forward": {
+        "x": 8.14296E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/318_01_1_207",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 3.0070097,
+        "y": 3.3778398,
+        "z": -9.726859
+      },
+      "forward": {
+        "x": 8.14296E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/410_03_1_208",
+      "name": "410_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_03_1.igimodel",
+      "position": {
+        "x": -6.0127397,
+        "y": 1.90932,
+        "z": -9.47086
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/410_03_1_209",
+      "name": "410_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/410_03_1.igimodel",
+      "position": {
+        "x": 0.0104046,
+        "y": 1.90932,
+        "z": -9.470869
+      },
+      "forward": {
+        "x": -8.79614E-16,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/315_01_1_210",
+      "name": "315_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/315_01_1.igimodel",
+      "position": {
+        "x": 7.61825,
+        "y": 0.042168498,
+        "z": 3.71648
+      },
+      "forward": {
+        "x": -0.0261769,
+        "y": 0,
+        "z": 0.999657
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/300_01_1_211",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 4.63754,
+        "y": 0.0452221,
+        "z": 0.904159
+      },
+      "forward": {
+        "x": -0.97437,
+        "y": 0,
+        "z": -0.224951
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/318_01_1_212",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 6.3696003,
+        "y": 3.51754,
+        "z": 0.575449
+      },
+      "forward": {
+        "x": 5.92215E-08,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1120,
+      "parentKey": "",
+      "key": "/219_01_1_213",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 6.86898,
+        "y": 0.042636298,
+        "z": 4.1327395
+      },
+      "forward": {
+        "x": -0.113203,
+        "y": 0,
+        "z": 0.993572
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1121,
+      "parentKey": "",
+      "key": "/417_02_1_214",
+      "name": "417_02_1",
+      "type": "TASKTYPE_LADDER",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/417_02_1.igimodel",
+      "position": {
+        "x": 0.014957599,
+        "y": -0.016920298,
+        "z": -4.10946
+      },
+      "forward": {
+        "x": 1.68587E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1121,
+      "parentKey": "",
+      "key": "/417_02_1_215",
+      "name": "417_02_1",
+      "type": "TASKTYPE_LADDER",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/417_02_1.igimodel",
+      "position": {
+        "x": 0.0149573,
+        "y": -0.0169199,
+        "z": 4.08599
+      },
+      "forward": {
+        "x": -1.75916E-08,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1122,
+      "parentKey": "",
+      "key": "/226_01_1_216",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": -0.0187276,
+        "y": 7.17053,
+        "z": -17.5782
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1122,
+      "parentKey": "",
+      "key": "/226_01_1_217",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": -0.0187271,
+        "y": 7.17053,
+        "z": -5.5272303
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1122,
+      "parentKey": "",
+      "key": "/226_01_1_218",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": -0.0187266,
+        "y": 7.17053,
+        "z": 5.98339
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1122,
+      "parentKey": "",
+      "key": "/226_01_1_219",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": -0.0187261,
+        "y": 7.17053,
+        "z": 17.576399
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1123,
+      "parentKey": "",
+      "key": "/412_02_1_220",
+      "name": "412_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/412_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0.000810323,
+        "z": -0.0039447
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1123,
+      "parentKey": "/412_02_1_220",
+      "key": "/412_02_1_220/226_01_1_221",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": 6.67996,
+        "y": 6.6944,
+        "z": 0.0032783498
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1123,
+      "parentKey": "/412_02_1_220",
+      "key": "/412_02_1_220/236_01_1_222",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -10.809899,
+        "y": 2.9883401,
+        "z": 0.014668601
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1123,
+      "parentKey": "/412_02_1_220",
+      "key": "/412_02_1_220/226_01_1_223",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": 0.166796,
+        "y": 6.6944,
+        "z": 0.00327896
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1123,
+      "parentKey": "/412_02_1_220",
+      "key": "/412_02_1_220/226_01_1_224",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": -6.3776298,
+        "y": 6.6944,
+        "z": 0.00327942
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1123,
+      "parentKey": "",
+      "key": "/317_01_1_225",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": 10.1647,
+        "y": 1.6815499,
+        "z": -4.11335
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1123,
+      "parentKey": "",
+      "key": "/324_01_1_226",
+      "name": "324_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/324_01_1.igimodel",
+      "position": {
+        "x": -9.82622,
+        "y": 3.5023699,
+        "z": 4.1237597
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1123,
+      "parentKey": "",
+      "key": "/318_01_1_227",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 11.3712,
+        "y": 4.7286496,
+        "z": -0.000582886
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1124,
+      "parentKey": "",
+      "key": "/412_02_1_228",
+      "name": "412_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/412_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0.000810323,
+        "z": -0.0039447
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1124,
+      "parentKey": "/412_02_1_228",
+      "key": "/412_02_1_228/226_01_1_229",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": 6.67996,
+        "y": 6.6944,
+        "z": 0.0032783498
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1124,
+      "parentKey": "/412_02_1_228",
+      "key": "/412_02_1_228/236_01_1_230",
+      "name": "236_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/236_01_1.igimodel",
+      "position": {
+        "x": -10.809899,
+        "y": 2.9883401,
+        "z": 0.014668601
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1124,
+      "parentKey": "/412_02_1_228",
+      "key": "/412_02_1_228/226_01_1_231",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": 0.166796,
+        "y": 6.6944,
+        "z": 0.00327896
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1124,
+      "parentKey": "/412_02_1_228",
+      "key": "/412_02_1_228/226_01_1_232",
+      "name": "226_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/226_01_1.igimodel",
+      "position": {
+        "x": -6.3776298,
+        "y": 6.6944,
+        "z": 0.00327942
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1124,
+      "parentKey": "",
+      "key": "/317_01_1_233",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": 10.1647,
+        "y": 1.6815499,
+        "z": -4.11335
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1124,
+      "parentKey": "",
+      "key": "/324_01_1_234",
+      "name": "324_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/324_01_1.igimodel",
+      "position": {
+        "x": -9.82622,
+        "y": 3.5023699,
+        "z": 4.1237597
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1124,
+      "parentKey": "",
+      "key": "/318_01_1_235",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": 11.3712,
+        "y": 4.7286496,
+        "z": -0.000582886
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_02_1_236",
+      "name": "418_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "/418_02_1_236",
+      "key": "/418_02_1_236/210_01_1_237",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": -3.40056
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "/418_02_1_236",
+      "key": "/418_02_1_236/210_01_1_238",
+      "name": "210_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/210_01_1.igimodel",
+      "position": {
+        "x": -0.0845327,
+        "y": 2.8571599,
+        "z": 0.0100247
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "/418_02_1_236",
+      "key": "/418_02_1_236/207_01_1_239",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 0.763913,
+        "y": 1.9592799,
+        "z": 7.5154495
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "/418_02_1_236",
+      "key": "/418_02_1_236/207_01_1_240",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 3.38273,
+        "y": 1.9592799,
+        "z": 5.4552097
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/317_01_1_241",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": -3.45364,
+        "y": 1.1493399,
+        "z": 6.76794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_03_1_242",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": 0.889421
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_03_1_243",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -1.50093
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_03_1_244",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -3.78794
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_03_1_245",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": -3.4625201,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_03_1_246",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -6.01661
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_03_1_247",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -3.7844899
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_03_1_248",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": -1.4859399
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1112,
+      "parentKey": "",
+      "key": "/418_03_1_249",
+      "name": "418_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/418_03_1.igimodel",
+      "position": {
+        "x": 3.46161,
+        "y": 1.99824,
+        "z": 0.8885
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/404_02_1_250",
+      "name": "404_02_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/404_02_1.igimodel",
+      "position": {
+        "x": 2.53316E-18,
+        "y": -2.53316E-18,
+        "z": 1.37515E-07
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/208_01_1_251",
+      "name": "208_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/208_01_1.igimodel",
+      "position": {
+        "x": 0.044802196,
+        "y": 7.73775,
+        "z": 0.509942
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/208_01_1_252",
+      "name": "208_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/208_01_1.igimodel",
+      "position": {
+        "x": 15.0079,
+        "y": 7.73775,
+        "z": 0.509942
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/208_01_1_253",
+      "name": "208_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/208_01_1.igimodel",
+      "position": {
+        "x": -14.924399,
+        "y": 7.73775,
+        "z": 0.509942
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_254",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 23.734,
+        "y": 4.02518,
+        "z": 0.474612
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_255",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -23.7337,
+        "y": 4.02518,
+        "z": 0.474612
+      },
+      "forward": {
+        "x": 3.01992E-07,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_256",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -6.91172,
+        "y": 4.02518,
+        "z": 6.6606097
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": -2.52881E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_257",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 7.04073,
+        "y": 4.02518,
+        "z": 6.6606097
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": -2.52881E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_258",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 19.969599,
+        "y": 4.02518,
+        "z": 6.6606097
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": -2.52881E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_259",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -20.0122,
+        "y": 4.02518,
+        "z": 6.6606097
+      },
+      "forward": {
+        "x": 1,
+        "y": 0,
+        "z": -2.52881E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_260",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -20.0122,
+        "y": 4.02518,
+        "z": -5.75575
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 4.21468E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_261",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": -6.8898697,
+        "y": 4.02518,
+        "z": -5.75575
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 4.21468E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_262",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 7.0324197,
+        "y": 4.02518,
+        "z": -5.75575
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 4.21468E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "/404_02_1_250",
+      "key": "/404_02_1_250/207_01_1_263",
+      "name": "207_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/207_01_1.igimodel",
+      "position": {
+        "x": 20.0019,
+        "y": 4.02518,
+        "z": -5.75575
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 4.21468E-07
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/316_01_1_264",
+      "name": "316_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/316_01_1.igimodel",
+      "position": {
+        "x": -13.5095,
+        "y": 4.5737796,
+        "z": 6.7871
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/316_01_1_265",
+      "name": "316_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/316_01_1.igimodel",
+      "position": {
+        "x": 0.028269,
+        "y": 4.5737796,
+        "z": 6.7871
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/316_01_1_266",
+      "name": "316_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/316_01_1.igimodel",
+      "position": {
+        "x": 13.540999,
+        "y": 4.5737796,
+        "z": 6.7871
+      },
+      "forward": {
+        "x": -1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/317_01_1_267",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": -23.904398,
+        "y": 1.9667999,
+        "z": -3.98075
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/317_01_1_268",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": 21.5255,
+        "y": 1.9667999,
+        "z": -5.8625298
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/317_01_1_269",
+      "name": "317_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/317_01_1.igimodel",
+      "position": {
+        "x": 20.0017,
+        "y": 1.9667999,
+        "z": -5.8625298
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/318_01_1_270",
+      "name": "318_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/318_01_1.igimodel",
+      "position": {
+        "x": -23.893799,
+        "y": 5.59162,
+        "z": 0.499719
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_271",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": -8.13402,
+        "y": 1.22171,
+        "z": 7.0306897
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_272",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": -7.4607596,
+        "y": 1.22171,
+        "z": 7.2015996
+      },
+      "forward": {
+        "x": 0.0871556,
+        "y": 0,
+        "z": -0.996195
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_273",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": -8.18989,
+        "y": 1.22171,
+        "z": 7.58385
+      },
+      "forward": {
+        "x": 0.99863,
+        "y": 0,
+        "z": 0.0523359
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_274",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": -7.95883,
+        "y": 1.71946,
+        "z": 7.3265896
+      },
+      "forward": {
+        "x": 0.93358,
+        "y": 0,
+        "z": 0.358368
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/300_01_1_275",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": 2.81321,
+        "y": 1.22656,
+        "z": 7.0625296
+      },
+      "forward": {
+        "x": -0.857167,
+        "y": 0,
+        "z": -0.515038
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/300_01_1_276",
+      "name": "300_01_1",
+      "type": "TASKTYPE_EXPLODEMAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/300_01_1.igimodel",
+      "position": {
+        "x": -22.2741,
+        "y": 1.51649,
+        "z": 7.06411
+      },
+      "forward": {
+        "x": 0.0627673,
+        "y": 0.857167,
+        "z": -0.511199
+      },
+      "up": {
+        "x": 0.992546,
+        "y": 1.36639E-07,
+        "z": 0.121869
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_277",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 16.2822,
+        "y": 1.22171,
+        "z": 7.0262
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_278",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 17.0558,
+        "y": 1.22171,
+        "z": 7.0394096
+      },
+      "forward": {
+        "x": -0.999657,
+        "y": 0,
+        "z": 0.026177
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_279",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 16.260601,
+        "y": 1.22171,
+        "z": 7.54791
+      },
+      "forward": {
+        "x": 0.999391,
+        "y": 0,
+        "z": 0.0348994
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_280",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 17.0523,
+        "y": 1.22171,
+        "z": 7.5585995
+      },
+      "forward": {
+        "x": 0.999657,
+        "y": 0,
+        "z": -0.026177
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_281",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 16.9168,
+        "y": 1.72175,
+        "z": 7.2125998
+      },
+      "forward": {
+        "x": -0.0174523,
+        "y": 0,
+        "z": 0.999848
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/219_01_1_282",
+      "name": "219_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/219_01_1.igimodel",
+      "position": {
+        "x": 16.3522,
+        "y": 1.72175,
+        "z": 7.2245398
+      },
+      "forward": {
+        "x": -0.0436195,
+        "y": 0,
+        "z": -0.999048
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1119,
+      "parentKey": "",
+      "key": "/315_01_1_283",
+      "name": "315_01_1",
+      "type": "TASKTYPE_MAGICOBJ",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/315_01_1.igimodel",
+      "position": {
+        "x": 24.7878,
+        "y": -0.00315734,
+        "z": 0.727441
+      },
+      "forward": {
+        "x": 8.74228E-08,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_03_1_284",
+      "name": "600_03_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_03_1.igimodel",
+      "position": {
+        "x": 0.00689539,
+        "y": 1.83973,
+        "z": 2.3032699
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_04_1_285",
+      "name": "600_04_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_04_1.igimodel",
+      "position": {
+        "x": -0.782199,
+        "y": 1.7965499,
+        "z": 1.9192399
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_02_1_286",
+      "name": "600_02_1",
+      "type": "TASKTYPE_WHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_02_1.igimodel",
+      "position": {
+        "x": -0.989515,
+        "y": 0.44891497,
+        "z": 2.82936
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_02_1_287",
+      "name": "600_02_1",
+      "type": "TASKTYPE_WHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_02_1.igimodel",
+      "position": {
+        "x": -0.9913179,
+        "y": 0.44891497,
+        "z": -1.21196
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_02_1_288",
+      "name": "600_02_1",
+      "type": "TASKTYPE_WHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_02_1.igimodel",
+      "position": {
+        "x": -0.9913179,
+        "y": 0.44891497,
+        "z": -2.2955499
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_02_1_289",
+      "name": "600_02_1",
+      "type": "TASKTYPE_WHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_02_1.igimodel",
+      "position": {
+        "x": 0.697144,
+        "y": 0.44891497,
+        "z": 2.82936
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_02_1_290",
+      "name": "600_02_1",
+      "type": "TASKTYPE_WHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_02_1.igimodel",
+      "position": {
+        "x": 0.697145,
+        "y": 0.44891497,
+        "z": -1.22012
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_02_1_291",
+      "name": "600_02_1",
+      "type": "TASKTYPE_WHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_02_1.igimodel",
+      "position": {
+        "x": 0.697145,
+        "y": 0.44891497,
+        "z": -2.2955499
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/610_02_1_292",
+      "name": "610_02_1",
+      "type": "TASKTYPE_CARDOOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/610_02_1.igimodel",
+      "position": {
+        "x": 0.00930017,
+        "y": 0.94580597,
+        "z": -3.63494
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_05_1_293",
+      "name": "600_05_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_05_1.igimodel",
+      "position": {
+        "x": 0.00689538,
+        "y": 1.80585,
+        "z": 1.4122999
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1099,
+      "parentKey": "",
+      "key": "/600_06_1_294",
+      "name": "600_06_1",
+      "type": "TASKTYPE_GLASS",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/600_06_1.igimodel",
+      "position": {
+        "x": 0.79562896,
+        "y": 1.7965499,
+        "z": 1.9192399
+      },
+      "forward": {
+        "x": 1.50996E-07,
+        "y": 0,
+        "z": -1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1502,
+      "parentKey": "",
+      "key": "/711_01_1_295",
+      "name": "711_01_1",
+      "type": "TASKTYPE_ROTOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/711_01_1.igimodel",
+      "position": {
+        "x": 8.45917E-11,
+        "y": 2.17158,
+        "z": -2.6092599E-05
+      },
+      "forward": {
+        "x": -1,
+        "y": 2.54986E-07,
+        "z": 1.78706E-07
+      },
+      "up": {
+        "x": 1.45097E-07,
+        "y": 2.13081E-07,
+        "z": 1
+      }
+    },
+    {
+      "parentId": 1502,
+      "parentKey": "/711_01_1_295",
+      "key": "/711_01_1_295/711_02_1_296",
+      "name": "711_02_1",
+      "type": "TASKTYPE_ROTOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/711_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1502,
+      "parentKey": "/711_01_1_295",
+      "key": "/711_01_1_295/711_02_1_297",
+      "name": "711_02_1",
+      "type": "TASKTYPE_ROTOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/711_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 8.74228E-08,
+        "y": 1.50996E-07,
+        "z": -1
+      },
+      "up": {
+        "x": 1.04216E-14,
+        "y": -1,
+        "z": -1.50996E-07
+      }
+    },
+    {
+      "parentId": 1502,
+      "parentKey": "",
+      "key": "/712_01_1_298",
+      "name": "712_01_1",
+      "type": "TASKTYPE_ROTOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/712_01_1.igimodel",
+      "position": {
+        "x": -0.122899994,
+        "y": 1.7847099,
+        "z": -8.327089
+      },
+      "forward": {
+        "x": -7.10543E-15,
+        "y": -8.74228E-08,
+        "z": 1
+      },
+      "up": {
+        "x": 8.74228E-08,
+        "y": 1,
+        "z": 8.74228E-08
+      }
+    },
+    {
+      "parentId": 1502,
+      "parentKey": "",
+      "key": "/709_02_1_299",
+      "name": "709_02_1",
+      "type": "TASKTYPE_HELIWHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/709_02_1.igimodel",
+      "position": {
+        "x": -1.3341701,
+        "y": -1.1641,
+        "z": 1.2753199
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1502,
+      "parentKey": "",
+      "key": "/709_03_1_300",
+      "name": "709_03_1",
+      "type": "TASKTYPE_HELIWHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/709_03_1.igimodel",
+      "position": {
+        "x": -1.3341701,
+        "y": -1.24912,
+        "z": -0.834951
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1502,
+      "parentKey": "",
+      "key": "/709_03_1_301",
+      "name": "709_03_1",
+      "type": "TASKTYPE_HELIWHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/709_03_1.igimodel",
+      "position": {
+        "x": 1.31807,
+        "y": -1.24912,
+        "z": -0.834951
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1502,
+      "parentKey": "",
+      "key": "/709_02_1_302",
+      "name": "709_02_1",
+      "type": "TASKTYPE_HELIWHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/709_02_1.igimodel",
+      "position": {
+        "x": 1.31808,
+        "y": -1.1641,
+        "z": 1.2753199
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1508,
+      "parentKey": "",
+      "key": "/711_01_1_303",
+      "name": "711_01_1",
+      "type": "TASKTYPE_ROTOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/711_01_1.igimodel",
+      "position": {
+        "x": 8.45917E-11,
+        "y": 2.17158,
+        "z": -2.6092599E-05
+      },
+      "forward": {
+        "x": -1,
+        "y": 2.54986E-07,
+        "z": 1.78706E-07
+      },
+      "up": {
+        "x": 1.45097E-07,
+        "y": 2.13081E-07,
+        "z": 1
+      }
+    },
+    {
+      "parentId": 1508,
+      "parentKey": "/711_01_1_303",
+      "key": "/711_01_1_303/711_02_1_304",
+      "name": "711_02_1",
+      "type": "TASKTYPE_ROTOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/711_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1508,
+      "parentKey": "/711_01_1_303",
+      "key": "/711_01_1_303/711_02_1_305",
+      "name": "711_02_1",
+      "type": "TASKTYPE_ROTOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/711_02_1.igimodel",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "forward": {
+        "x": 8.74228E-08,
+        "y": 1.50996E-07,
+        "z": -1
+      },
+      "up": {
+        "x": 1.04216E-14,
+        "y": -1,
+        "z": -1.50996E-07
+      }
+    },
+    {
+      "parentId": 1508,
+      "parentKey": "",
+      "key": "/712_01_1_306",
+      "name": "712_01_1",
+      "type": "TASKTYPE_ROTOR",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/712_01_1.igimodel",
+      "position": {
+        "x": -0.122899994,
+        "y": 1.7847099,
+        "z": -8.327089
+      },
+      "forward": {
+        "x": -7.10543E-15,
+        "y": -8.74228E-08,
+        "z": 1
+      },
+      "up": {
+        "x": 8.74228E-08,
+        "y": 1,
+        "z": 8.74228E-08
+      }
+    },
+    {
+      "parentId": 1508,
+      "parentKey": "",
+      "key": "/709_02_1_307",
+      "name": "709_02_1",
+      "type": "TASKTYPE_HELIWHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/709_02_1.igimodel",
+      "position": {
+        "x": -1.3341701,
+        "y": -1.1641,
+        "z": 1.2753199
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1508,
+      "parentKey": "",
+      "key": "/709_03_1_308",
+      "name": "709_03_1",
+      "type": "TASKTYPE_HELIWHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/709_03_1.igimodel",
+      "position": {
+        "x": -1.3341701,
+        "y": -1.24912,
+        "z": -0.834951
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1508,
+      "parentKey": "",
+      "key": "/709_03_1_309",
+      "name": "709_03_1",
+      "type": "TASKTYPE_HELIWHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/709_03_1.igimodel",
+      "position": {
+        "x": 1.31807,
+        "y": -1.24912,
+        "z": -0.834951
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "parentId": 1508,
+      "parentKey": "",
+      "key": "/709_02_1_310",
+      "name": "709_02_1",
+      "type": "TASKTYPE_HELIWHEEL",
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/709_02_1.igimodel",
+      "position": {
+        "x": 1.31808,
+        "y": -1.1641,
+        "z": 1.2753199
+      },
+      "forward": {
+        "x": -1,
+        "y": 0,
+        "z": 8.42937E-08
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    }
+  ]
+}

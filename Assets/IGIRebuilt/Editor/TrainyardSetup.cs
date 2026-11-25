@@ -30,6 +30,7 @@ namespace IGIRebuilt.Editor
             if (terrain == null) throw new Exception("Run tools/TrainyardExport before building the mission.");
             var ground = (GameObject)PrefabUtility.InstantiatePrefab(terrain); ground.transform.SetParent(root.transform, false);
             var guards = new List<Transform>(); GameObject truck = null; int staticModels = 0;
+            var placedObjects = new Dictionary<int, GameObject>();
             var bounds = new Bounds(Vector3.zero, new Vector3(260, 0, 260));
             for (int i = 0; i < placements.Length; i++)
             {
@@ -40,9 +41,9 @@ namespace IGIRebuilt.Editor
                 if (p.type.StartsWith("Human"))
                 {
                     // Negative-id actors and the truck driver belong to the source cutscenes.
-                    if (p.id < 0 || p.id == 4023 || p.model.StartsWith("015") || new Vector2(p.position.x, p.position.z).magnitude > 500) continue;
+                    if (p.id < 0 || p.id == 4023 || p.id == 3031 || p.model.StartsWith("015") || new Vector2(p.position.x, p.position.z).magnitude > 500) continue;
                     var marker = Marker(root.transform, "Guard spawn " + p.id, p.position + Vector3.up * 0.1f, p.rotation);
-                    marker.gameObject.AddComponent<GuardSpawnVisual>().visualPrefab = prefab;
+                    var spawn = marker.gameObject.AddComponent<GuardSpawnVisual>(); spawn.visualPrefab = prefab; spawn.sourceId = p.id;
                     guards.Add(marker); bounds.Encapsulate(new Vector3(p.position.x, 0, p.position.z)); continue;
                 }
                 var instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
@@ -60,9 +61,15 @@ namespace IGIRebuilt.Editor
                     }
                 }
                 if (p.id == 1099) truck = instance;
+                if (p.id >= 0) placedObjects[p.id] = instance;
                 staticModels++;
             }
             if (layout.playerSpawn == null || truck == null || guards.Count < 20) throw new Exception("Trainyard source markers incomplete.");
+            FirstBuildingSetup.Add(placedObjects);
+            TrainyardAttachmentSetup.Add(placedObjects, root.transform);
+            TrainyardLadderSetup.Add(placedObjects);
+            TrainyardSecuritySetup.Add(placedObjects, root.transform);
+            TrainyardGuardRouteSetup.Add(root.transform, guards.ToArray());
             Physics.SyncTransforms(); SnapToGround(layout.playerSpawn); foreach (var marker in guards) SnapToGround(marker);
             if (!VisualFactory.TryBounds(truck, out var truckBounds)) throw new Exception("Truck has no render mesh.");
             foreach (var collider in truck.GetComponentsInChildren<Collider>()) truckBounds.Encapsulate(collider.bounds);

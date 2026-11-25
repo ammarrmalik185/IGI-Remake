@@ -64,9 +64,11 @@ namespace IGIRebuilt
             weapon.mission = Mission;
             weapon.Configure(configuration.weapons);
             Mission.Initialize(motor, weapon);
+            Mission.Security = FindFirstObjectByType<SecurityNetwork>();
+            if (Mission.Security != null) Mission.Security.Initialize(Mission);
             var navigation = new GameObject("Navigation grid").AddComponent<GridNavigation>();
             navigation.worldCentre = layout.navigationCentre;
-            navigation.cellSize = configuration.captureTruck ? 4 : 2;
+            navigation.cellSize = 2;
             navigation.width = Mathf.CeilToInt(layout.navigationSize.x / navigation.cellSize);
             navigation.depth = Mathf.CeilToInt(layout.navigationSize.y / navigation.cellSize);
             navigation.sampleTerrain = configuration.captureTruck;
@@ -82,11 +84,13 @@ namespace IGIRebuilt
         {
             var go = new GameObject("Guard " + (index + 1));
             go.layer = DemoWorld.GuardLayer;
+            if (marker.GetComponent<GuardSpawnVisual>() != null) go.name += " [" + marker.GetComponent<GuardSpawnVisual>().sourceId + "]";
             go.transform.SetPositionAndRotation(marker.position, configuration.captureTruck ? marker.rotation : Quaternion.Euler(0, index % 2 == 0 ? 180 : 0, 0));
             var controller = go.AddComponent<CharacterController>();
             controller.height = 1.8f;
             controller.center = Vector3.up * 0.9f;
             controller.radius = 0.32f;
+            controller.stepOffset = .4f; controller.skinWidth = .05f;
             var health = go.AddComponent<Health>();
             health.team = Team.Guard;
             health.ResetHealth(configuration.enemyHealth);
@@ -120,11 +124,17 @@ namespace IGIRebuilt
             guard.target = player.transform;
             guard.mission = Mission;
             guard.navigation = navigation;
+            guard.authoredNavigation = FindFirstObjectByType<AuthoredNavigation>();
+            if (spawnVisual != null) { guard.graphId = spawnVisual.graphId; guard.authoredPatrol = spawnVisual.patrol; guard.authoredAlarm = spawnVisual.alarm; }
             guard.sightRange = configuration.enemySightRange;
             guard.damage = configuration.enemyDamage;
             guard.fireRange = configuration.captureTruck ? configuration.enemySightRange : 23;
             Vector3 at = marker.position;
             guard.patrolPoints = new[] { at, at + Vector3.forward * 6, at + new Vector3(4, 0, 6), at + Vector3.right * 4 };
+            var presentation = go.AddComponent<GuardPresentation>();
+            var modelInfo = visual.GetComponentInChildren<ImportedModelInfo>();
+            guard.respondsToAlarm = modelInfo != null && modelInfo.originalModel.StartsWith("019_");
+            presentation.Initialize(guard, Resources.Load<GuardPresentationSettings>("GuardPresentationSettings"), modelInfo != null ? modelInfo.originalModel : "");
             Mission.RegisterGuard(guard);
         }
         private static GameConfiguration RuntimeDefaults()

@@ -61,6 +61,13 @@ namespace IGIRebuilt
 #endif
             }
         }
+        public static bool UseHeld { get {
+#if ENABLE_INPUT_SYSTEM
+ return Keyboard.current != null && Keyboard.current.eKey.isPressed;
+#else
+ return Input.GetKey(KeyCode.E);
+#endif
+ } }
         public static bool Pressed(KeyCode key)
         {
 #if ENABLE_INPUT_SYSTEM
@@ -68,6 +75,7 @@ namespace IGIRebuilt
             if (k == null) return false;
             switch (key)
             {
+                case KeyCode.Return: return k.enterKey.wasPressedThisFrame;
                 case KeyCode.Space: return k.spaceKey.wasPressedThisFrame;
                 case KeyCode.LeftControl: return k.leftCtrlKey.wasPressedThisFrame;
                 case KeyCode.C: return k.cKey.wasPressedThisFrame;

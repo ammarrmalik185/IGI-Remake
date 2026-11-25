@@ -8,15 +8,15 @@ using UnityEngine.Rendering;
 
 namespace IGIRebuilt.Editor
 {
-    [Serializable] internal class GroundLayer { public int tile; public bool overlay; public int[] indices; }
+    [Serializable] internal class GroundLayer { public int tile; public bool overlay, detail; public int[] indices; }
     [Serializable] internal class GroundChunk { public Vector3 position; public float[] positions, uv, alpha; public GroundLayer[] layers; }
     [Serializable] internal class GroundDocument { public GroundChunk[] chunks; }
-    [ScriptedImporter(2, "igiground", 100)]
+    [ScriptedImporter(3, "igiground", 100)]
     public sealed class TrainyardTerrainImporter : ScriptedImporter
     {
         private sealed class Batch
         {
-            public int tile; public bool overlay;
+            public int tile; public bool overlay, detail;
             public readonly List<Vector3> positions = new List<Vector3>();
             public readonly List<Vector2> uv = new List<Vector2>();
             public readonly List<Color> colors = new List<Color>();
@@ -29,8 +29,8 @@ namespace IGIRebuilt.Editor
             foreach (var chunk in data.chunks)
                 foreach (var layer in chunk.layers)
                 {
-                    string key = layer.tile + (layer.overlay ? " overlay" : " base");
-                    if (!batches.TryGetValue(key, out var batch)) { batch = new Batch { tile = layer.tile, overlay = layer.overlay }; batches.Add(key, batch); }
+                    string key = layer.tile + (layer.detail ? " detail" : layer.overlay ? " overlay" : " base");
+                    if (!batches.TryGetValue(key, out var batch)) { batch = new Batch { tile = layer.tile, overlay = layer.overlay, detail = layer.detail }; batches.Add(key, batch); }
                     var remap = new Dictionary<int, int>();
                     foreach (int old in layer.indices)
                     {
@@ -52,7 +52,7 @@ namespace IGIRebuilt.Editor
                 mesh.SetVertices(batch.positions); mesh.SetUVs(0, batch.uv); mesh.SetColors(batch.colors);
                 mesh.SetTriangles(batch.indices, 0); mesh.RecalculateNormals(); mesh.RecalculateBounds();
                 string texturePath = "Assets/IGIImported/Textures/missions/location0/level1/terrain/terrain/" + batch.tile.ToString("000") + ".png";
-                string shaderPath = "Assets/IGIRebuilt/Trainyard/" + (batch.overlay ? "TerrainOverlay.shader" : "TerrainBase.shader");
+                string shaderPath = "Assets/IGIRebuilt/Trainyard/" + (batch.detail ? "TerrainDetail.shader" : batch.overlay ? "TerrainOverlay.shader" : "TerrainBase.shader");
                 ctx.DependsOnArtifact(texturePath); ctx.DependsOnArtifact(shaderPath);
                 var shader = AssetDatabase.LoadAssetAtPath<Shader>(shaderPath);
                 if (shader == null) throw new InvalidDataException("Terrain shader missing: " + shaderPath);

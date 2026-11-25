@@ -1,0 +1,487 @@
+{
+  "doors": [
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": -17.804688,
+        "y": -1.8203125,
+        "z": -25.088867
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": -19.417969,
+        "y": -1.796875,
+        "z": -21.385742
+      },
+      "rotation": {
+        "x": -0,
+        "y": -0,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": -11.269531,
+        "y": -1.7773438,
+        "z": -9.402344
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/503_01_1.igimodel",
+      "position": {
+        "x": -33.56543,
+        "y": -1.7617188,
+        "z": -53.51172
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/503_01_1.igimodel",
+      "position": {
+        "x": -33.581055,
+        "y": -1.7617188,
+        "z": -69.293945
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/503_01_1.igimodel",
+      "position": {
+        "x": 80.62012,
+        "y": -1.7617188,
+        "z": -98.41211
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.999405,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/503_01_1.igimodel",
+      "position": {
+        "x": 80.618164,
+        "y": -1.7617188,
+        "z": -109.697266
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.999405,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/503_01_1.igimodel",
+      "position": {
+        "x": -56.495605,
+        "y": -1.1992188,
+        "z": -117.86914
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.999405,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": 65.813965,
+        "y": -1.9414062,
+        "z": -117.45508
+      },
+      "rotation": {
+        "x": -0,
+        "y": -90.00004,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": 62.703613,
+        "y": -1.9375,
+        "z": -109.18652
+      },
+      "rotation": {
+        "x": -0,
+        "y": -5.729578E-05,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": 58.918945,
+        "y": -1.9335938,
+        "z": -112.74805
+      },
+      "rotation": {
+        "x": -0,
+        "y": -5.729578E-05,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": 55.757812,
+        "y": -1.9414062,
+        "z": -104.33984
+      },
+      "rotation": {
+        "x": -0,
+        "y": -90.00004,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": 48.211426,
+        "y": -1.9257812,
+        "z": -100.416016
+      },
+      "rotation": {
+        "x": -0,
+        "y": -270,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/500_01_1.igimodel",
+      "position": {
+        "x": 45.39502,
+        "y": -1.9453125,
+        "z": -107.416016
+      },
+      "rotation": {
+        "x": -0,
+        "y": -5.729578E-05,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/503_01_1.igimodel",
+      "position": {
+        "x": -46.796387,
+        "y": -1.1992188,
+        "z": -139.9414
+      },
+      "rotation": {
+        "x": -0,
+        "y": -179.99937,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/503_01_1.igimodel",
+      "position": {
+        "x": -3.550293,
+        "y": -1.1992188,
+        "z": -101.48047
+      },
+      "rotation": {
+        "x": -0,
+        "y": -359.99942,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": -1,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/503_01_1.igimodel",
+      "position": {
+        "x": -12.252441,
+        "y": -1.7617188,
+        "z": -75.35156
+      },
+      "rotation": {
+        "x": -0,
+        "y": -5.729578E-05,
+        "z": -0
+      },
+      "slide": {
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 1
+    },
+    {
+      "id": 408,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/304_01_1.igimodel",
+      "position": {
+        "x": 65.79248,
+        "y": -2.0859375,
+        "z": -77.043945
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      },
+      "slide": {
+        "x": -3.6,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 2
+    },
+    {
+      "id": 409,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/304_01_1.igimodel",
+      "position": {
+        "x": 65.79297,
+        "y": -2.0859375,
+        "z": -73.04785
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      },
+      "slide": {
+        "x": 3.6,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 2
+    },
+    {
+      "id": 400,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/304_01_1.igimodel",
+      "position": {
+        "x": 97.851074,
+        "y": -2.0898438,
+        "z": -89.26953
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      },
+      "slide": {
+        "x": -3.6,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 2
+    },
+    {
+      "id": 401,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/304_01_1.igimodel",
+      "position": {
+        "x": 97.851074,
+        "y": -2.0898438,
+        "z": -85.27734
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      },
+      "slide": {
+        "x": 3.6,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 2
+    },
+    {
+      "id": 402,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/304_01_1.igimodel",
+      "position": {
+        "x": 2.3886719,
+        "y": -2.0859375,
+        "z": -69.27246
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      },
+      "slide": {
+        "x": 3.6,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 2
+    },
+    {
+      "id": 403,
+      "modelPath": "Assets/IGIImported/Models/missions/location0/level1/304_01_1.igimodel",
+      "position": {
+        "x": 2.3881836,
+        "y": -2.0859375,
+        "z": -73.268555
+      },
+      "rotation": {
+        "x": -0,
+        "y": -89.99998,
+        "z": -0
+      },
+      "slide": {
+        "x": -3.6,
+        "y": 0,
+        "z": 0
+      },
+      "angle": -0,
+      "seconds": 2
+    }
+  ]
+}

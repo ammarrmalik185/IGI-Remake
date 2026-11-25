@@ -13,6 +13,7 @@ namespace IGIRebuilt
         public bool IsDead => Current <= 0;
         public event Action<Health> Died;
         public event Action<float> Damaged;
+        public event Action<Vector3?> Attacked;
 
         private void Awake() { Current = maximum; }
         public void ResetHealth(float value)
@@ -20,9 +21,10 @@ namespace IGIRebuilt
             maximum = Mathf.Max(1, value);
             Current = maximum;
         }
-        public bool TakeDamage(float damage, Team attacker)
+        public bool TakeDamage(float damage, Team attacker, Vector3? origin = null)
         {
             if (IsDead || attacker == team || damage <= 0 || float.IsNaN(damage) || float.IsInfinity(damage)) return false;
+            Attacked?.Invoke(origin);
             float taken = Mathf.Min(Current, damage);
             Current -= taken;
             Damaged?.Invoke(taken);

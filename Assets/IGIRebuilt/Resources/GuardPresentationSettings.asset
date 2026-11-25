@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3351b39bd8744dc9c056bc2e10508ee, type: 3}
+  m_Name: GuardPresentationSettings
+  m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.GuardPresentationSettings
+  motions:
+  - model: 001_01_1
+    motion: {fileID: 7868935432812623880, guid: b1bea8449e6a4144986d39f1445c74b8, type: 3}
+  - model: 003_01_1
+    motion: {fileID: 7868935432812623880, guid: 78c85cec88ee4476865ae4ca6ae24801, type: 3}
+  - model: 019_01_1
+    motion: {fileID: 7868935432812623880, guid: 12d07dfdf5584088b5d31622286eb71f, type: 3}
+  shot: {fileID: 8300000, guid: 1b2a312680394451a3b2e2fa4eaf83ac, type: 3}
+  reload: {fileID: 8300000, guid: ad8bd8a3d3a94efbb65c4eda220f7882, type: 3}
+  footsteps:
+  - {fileID: 8300000, guid: 1a0c89d319d24165940f68f6f97669c2, type: 3}
+  - {fileID: 8300000, guid: 6e059ae6856b4a9cb0dbf7974cb2c9b2, type: 3}
+  - {fileID: 8300000, guid: d2785d9528954b1ebeaa0cb1673beefd, type: 3}
+  - {fileID: 8300000, guid: e6f7dfc33b1b41b88e07b1cd3fd54fe4, type: 3}
+  - {fileID: 8300000, guid: c87d096b779a4b7dbc7b417a5b52fe30, type: 3}
+  - {fileID: 8300000, guid: c7af89964043426bb45741b6677e488e, type: 3}
+  hits:
+  - {fileID: 8300000, guid: e9b27516ea294196a845f3a40ededcd8, type: 3}
+  - {fileID: 8300000, guid: e826045678f94fec98834e5677fce361, type: 3}
+  - {fileID: 8300000, guid: 2e3b5b6af9c2463ba05ded6c960d8604, type: 3}
+  deaths:
+  - {fileID: 8300000, guid: 13996e973bdc4e06a07ef894e20bfd00, type: 3}
+  - {fileID: 8300000, guid: 6b863ddbe8ba40ea8367850657adec3d, type: 3}
+  - {fileID: 8300000, guid: 4387cd0265144be185a82d13de963d3c, type: 3}
+  - {fileID: 8300000, guid: 40d77ad375f6426d853f954f0742fac1, type: 3}
+  rifle: {fileID: -209812282978996426, guid: fadf96bc86428d84fa9b8910c7098e96, type: 3}

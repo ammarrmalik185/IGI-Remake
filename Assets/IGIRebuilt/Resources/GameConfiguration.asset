@@ -32,7 +32,7 @@ MonoBehaviour:
   enemyVisualPrefab: {fileID: -2859219146405954517, guid: 23a9fdaf5a6435549a9987381070653f, type: 3}
   enemyVisualRotation: {x: 0, y: 0, z: 0}
   enemyHeight: 1.8
-  enemyCount: 22
+  enemyCount: 21
   enemyHealth: 100
   enemyDamage: 8
   enemySightRange: 70

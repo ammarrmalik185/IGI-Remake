@@ -9,9 +9,15 @@ using OpenIGI.Game.Igi1.World;
 using OpenIGI.Scripting.Runtime;
 
 string project = Path.GetFullPath(args.Length > 0 ? args[0] : ".");
+if (args.Contains("--attachments")) { AttachmentExport.Run(project); return; }
+if (args.Contains("--guard-animations")) { GuardAnimationExport.Run(project); return; }
+if (args.Contains("--security")) { SecurityExport.Run(project); return; }
+if (args.Contains("--guard-routes")) { GuardRouteExport.Run(project); return; }
 if (args.Contains("--models")) { ModelGeometryExport.Run(project); return; }
 if (args.Contains("--repair-poses")) { ModelPoseRepair.Run(project); return; }
 if (args.Contains("--ladders")) { LadderExport.Run(project); return; }
+if (args.Contains("--first-building-scan")) { FirstBuildingRepair.Scan(project); return; }
+if (args.Contains("--first-building")) { FirstBuildingRepair.Run(project); return; }
 string source = Path.GetFullPath(Path.Combine(project, "../IGIEnhanced/base_igi/pc"));
 string output = Path.Combine(project, "Assets/IGIRebuilt/Trainyard");
 Directory.CreateDirectory(output);
@@ -82,7 +88,7 @@ void Walk(int index, int orientation, int level, Vector3d centre)
         var geometry = TerrainChunkMesh.Build(chunk, block, surface, 1f / 4096, surface.Heights.Resolve(chunk));
         if (geometry == null) continue;
         var positions = geometry.Vertices.SelectMany(v => new[] { v.Position.X, v.Position.Z, v.Position.Y }).ToArray();
-        var layers = geometry.Layers.Where(l => !l.IsDetail).Select(l => {
+        var layers = geometry.Layers.Select(l => {
             var indices = geometry.Indices.Skip(l.IndexOffset).Take(l.IndexCount).Select(i => (int)i).ToArray();
             for (int i = 0; i + 2 < indices.Length; i += 3)
             {
@@ -91,7 +97,7 @@ void Walk(int index, int orientation, int level, Vector3d centre)
                 if (crossY < 0) (indices[i + 1], indices[i + 2]) = (indices[i + 2], indices[i + 1]);
             }
             triangles += indices.Length / 3;
-            return new { tile = l.TileIndex, overlay = !l.IsBase, indices };
+            return new { tile = l.TileIndex, overlay = !l.IsBase, detail = l.IsDetail, indices };
         }).ToArray();
         chunks.Add(new { position = new { x = (p.X - origin.X) / 4096, y = (p.Z - origin.Z) / 4096, z = (p.Y - origin.Y) / 4096 }, positions,
             uv = geometry.Vertices.SelectMany(v => new[] { v.DiffuseU, 1 - v.DiffuseV }).ToArray(),

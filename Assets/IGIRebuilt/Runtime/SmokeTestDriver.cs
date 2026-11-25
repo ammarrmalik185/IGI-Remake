@@ -24,7 +24,7 @@ namespace IGIRebuilt
             yield return new WaitForSeconds(1);
             string output = flag + 1 < args.Length && !args[flag + 1].StartsWith("-") ? args[flag + 1] : Application.persistentDataPath;
             Directory.CreateDirectory(output);
-            if (mission.CapturingTruck) { valid &= VerifyWallFaces(output); valid &= VerifyBuildingCollision(output); }
+            if (mission.CapturingTruck) { valid &= VerifyWallFaces(output); valid &= VerifyBuildingCollision(output); valid &= VerifyFirstBuilding(output); }
             CaptureView(mission.player.eye, Path.Combine(output, "first-person.png"));
             if (mission.CapturingTruck)
             {
@@ -36,6 +36,7 @@ namespace IGIRebuilt
                 overview.cullingMask = ~(1 << DemoWorld.PlayerLayer);
                 CaptureView(overview, Path.Combine(output, "trainyard-overview.png")); Destroy(overview.gameObject);
                 valid &= !mission.CollectIntel();
+                valid &= VerifyLadders(mission, output);
             }
             yield return new WaitForEndOfFrame();
             // Verify each complete imported prefab in the running player, including idle input stability.
@@ -162,6 +163,107 @@ namespace IGIRebuilt
             }
             valid &= tested == 3;
             Debug.Log(valid ? "BUILDING_COLLISION_PASSED: character blocked from both sides of three native building wall meshes; interior uses authored faces" : "BUILDING_COLLISION_FAILED: tested=" + tested);
+            return valid;
+        }
+        private static bool VerifyLadders(MissionDirector mission, string output)
+        {
+            var ladders = FindObjectsByType<ClimbableLadder>(FindObjectsSortMode.None);
+            Array.Sort(ladders, (a, b) => a.BottomExit.sqrMagnitude.CompareTo(b.BottomExit.sqrMagnitude));
+            bool valid = ladders.Length == 6;
+            var motor = mission.player; var body = motor.GetComponent<CharacterController>();
+            Vector3 original = motor.transform.position; Quaternion rotation = motor.transform.rotation, eye = motor.eye.transform.localRotation;
+            motor.enabled = false;
+            if (ladders.Length > 0) valid &= !motor.TryClimb(ladders[0]);
+            for (int i = 0; i < ladders.Length; i++)
+            {
+                var ladder = ladders[i];
+                body.enabled = false; motor.transform.position = ladder.BottomExit;
+                Vector3 facing = ladder.Bottom - ladder.BottomExit; facing.y = 0;
+                motor.transform.rotation = Quaternion.LookRotation(facing.normalized); motor.eye.transform.localRotation = Quaternion.identity;
+                body.enabled = true; Physics.SyncTransforms();
+                if (i == 0)
+                {
+                    var camera = new GameObject("Ladder verification camera").AddComponent<Camera>();
+                    camera.transform.position = ladder.BottomExit + ladder.Outward * 0.2f + Vector3.up * 1.73f;
+                    camera.transform.LookAt(ladder.Bottom + Vector3.up * 2.8f);
+                    camera.nearClipPlane = 0.025f;
+                    camera.fieldOfView = 78; camera.farClipPlane = 1000; camera.clearFlags = CameraClearFlags.SolidColor; camera.backgroundColor = motor.eye.backgroundColor;
+                    CaptureView(camera, Path.Combine(output, "ladder-base.png")); Destroy(camera.gameObject);
+                }
+                bool up = motor.TryClimb(ladder);
+                if (up)
+                {
+                    int ammo = mission.weapon.Ammo.Loaded;
+                    valid &= !mission.weapon.Fire() && mission.weapon.Ammo.Loaded == ammo;
+                    mission.SetPaused(true); Vector3 paused = motor.transform.position; motor.AdvanceClimb(1, 0.5f);
+                    valid &= motor.transform.position == paused; mission.SetPaused(false);
+                    for (int step = 0; step < 2000 && motor.IsClimbing; step++) motor.AdvanceClimb(1, 0.05f);
+                    up = !motor.IsClimbing && body.enabled && Vector3.Distance(motor.transform.position, ladder.TopExit) < 0.12f
+                        && Physics.Raycast(motor.transform.position + Vector3.up * 0.3f, Vector3.down, 0.8f, 1 << DemoWorld.WorldLayer);
+                }
+                if (i == 0) { motor.eye.transform.LookAt(motor.eye.transform.position - ladder.Outward * 20); CaptureView(motor.eye, Path.Combine(output, "ladder-roof.png")); }
+                bool down = false;
+                if (up)
+                {
+                    facing = ladder.Top - motor.transform.position; facing.y = 0;
+                    motor.transform.rotation = Quaternion.LookRotation(facing.normalized); motor.eye.transform.localRotation = Quaternion.identity;
+                    down = motor.TryClimb(ladder);
+                    for (int step = 0; step < 2000 && motor.IsClimbing; step++) motor.AdvanceClimb(-1, 0.05f);
+                    down &= !motor.IsClimbing && body.enabled && Vector3.Distance(motor.transform.position, ladder.BottomExit) < 0.12f;
+                }
+                Debug.Log("LADDER_TEST: " + ladder.name + " up=" + up + " down=" + down + " at=" + motor.transform.position + " roof=" + ladder.TopExit);
+                valid &= up && down;
+                if (motor.IsClimbing) { motor.LetGoLadder(); break; }
+                if (i == 0 && down)
+                {
+                    facing = ladder.Bottom - motor.transform.position; facing.y = 0; motor.transform.rotation = Quaternion.LookRotation(facing.normalized);
+                    bool release = motor.TryClimb(ladder);
+                    for (int step = 0; step < 200 && motor.IsClimbing && motor.transform.position.y < ladder.Bottom.y + 1.2f; step++) motor.AdvanceClimb(1, 0.05f);
+                    release &= motor.LetGoLadder() && !motor.IsClimbing && body.enabled;
+                    valid &= release;
+                }
+            }
+            if (motor.IsClimbing) motor.LetGoLadder();
+            body.enabled = false; motor.transform.SetPositionAndRotation(original, rotation); motor.eye.transform.localRotation = eye;
+            Physics.SyncTransforms(); body.enabled = true; motor.enabled = true;
+            Debug.Log(valid ? "LADDER_TRAVERSAL_PASSED: six original ladders climb up/down, land on roofs, pause, release, and block shooting" : "LADDER_TRAVERSAL_FAILED");
+            return valid;
+        }
+        private static bool VerifyFirstBuilding(string output)
+        {
+            var interior = FindFirstObjectByType<FirstBuildingInterior>();
+            bool valid = interior != null && interior.rooms.Length == 3 && interior.doorways.Length == 2;
+            if (!valid) { Debug.LogError("FIRST_BUILDING_FAILED: missing authored rooms or doorway metadata"); return false; }
+            var probe = new GameObject("Doorway player sweep"); probe.layer = DemoWorld.PlayerLayer;
+            var body = probe.AddComponent<CharacterController>(); body.enabled = false;
+            body.height = 1.85f; body.center = Vector3.up * 0.925f; body.radius = 0.32f; body.stepOffset = 0.32f; body.skinWidth = 0.08f;
+            foreach (var collider in FindObjectsByType<Collider>(FindObjectsSortMode.None))
+                if (collider.gameObject.layer == DemoWorld.GuardLayer) Physics.IgnoreCollision(body, collider);
+            foreach (var door in interior.doorways)
+            {
+                Vector3 foot = interior.transform.TransformPoint(door.foot) + Vector3.up * 0.08f;
+                Vector3 normal = interior.transform.TransformDirection(door.normal).normalized;
+                bool clear = true;
+                for (int side = -1; side <= 1; side += 2)
+                {
+                    body.enabled = false; probe.transform.position = foot + normal * (side * 0.85f);
+                    body.enabled = true; Physics.SyncTransforms();
+                    for (int step = 0; step < 40; step++) body.Move(-normal * (side * 0.06f) + Vector3.down * 0.03f);
+                    bool crossed = Vector3.Dot(probe.transform.position - foot, normal) * side < -0.6f;
+                    clear &= crossed;
+                    Debug.Log("FIRST_BUILDING_DOOR: slot=" + door.slot + " side=" + side + " crossed=" + crossed + " at=" + probe.transform.position);
+                }
+                valid &= clear;
+                var camera = new GameObject("First building interior verification").AddComponent<Camera>();
+                camera.transform.position = foot - normal * 1.4f + Vector3.up * 1.65f;
+                camera.transform.rotation = Quaternion.LookRotation(-normal); camera.nearClipPlane = 0.025f;
+                camera.fieldOfView = 78; camera.farClipPlane = 300; camera.clearFlags = CameraClearFlags.SolidColor; camera.backgroundColor = new Color(0.55f, 0.64f, 0.68f);
+                CaptureView(camera, Path.Combine(output, door.slot == 4 ? "first-building-ladder-room.png" : "first-building-interior.png"));
+                if (door.slot == 4) { camera.transform.rotation = Quaternion.LookRotation(normal); CaptureView(camera, Path.Combine(output, "first-building-doorway.png")); }
+                Destroy(camera.gameObject);
+            }
+            probe.SetActive(false); Destroy(probe);
+            Debug.Log(valid ? "FIRST_BUILDING_PASSED: three authored interiors and both doorways traversable in both directions" : "FIRST_BUILDING_FAILED");
             return valid;
         }
         private static Color CaptureView(Camera camera, string path)

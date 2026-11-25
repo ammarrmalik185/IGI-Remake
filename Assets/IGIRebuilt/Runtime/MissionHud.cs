@@ -33,6 +33,12 @@ namespace IGIRebuilt
             GUI.Label(new Rect(47, 96, 330, 20), mission.CapturingTruck ? "Find the truck near the main entrance." : mission.Progress.HasIntel ? "Return to the marked southern gate." : "Find the terminal inside the control room.", small);
             GUI.Label(new Rect(width - 250, 34, 220, 25), "GUARDS ACTIVE  " + mission.GuardsRemaining.ToString("00"), normal);
             GUI.Label(new Rect(width - 250, 65, 220, 20), "ELAPSED  " + Mathf.FloorToInt(mission.Elapsed / 60).ToString("00") + ":" + Mathf.FloorToInt(mission.Elapsed % 60).ToString("00"), small);
+            if (mission.Security != null) {
+                var security = mission.Security;
+                GUI.Label(new Rect(28, 135, 600, 24), security.AlarmActive ? "ALARM ACTIVE" : security.AlarmsDisabled ? "ALARMS OFFLINE" : "ALARMS ARMED", normal);
+                GUI.Label(new Rect(28, 160, 600, 22), security.CamerasDisabled ? "CAMERAS OFFLINE" : "CAMERAS ACTIVE" + (security.Detection > .05f ? " ? DETECTION " + Mathf.RoundToInt(security.Detection * 100) + "%" : ""), small);
+                if (Time.time < security.MessageUntil) GUI.Label(new Rect(width/2-350, 160, 700, 28), security.Message, centred);
+            }
             Box(new Rect(28, height - 118, 245, 78), new Color(0.035f, 0.06f, 0.07f, 0.88f));
             GUI.Label(new Rect(44, height - 108, 140, 22), "OPERATOR", small);
             GUI.Label(new Rect(193, height - 108, 64, 25), Mathf.CeilToInt(health.Current).ToString("000"), normal);
@@ -56,10 +62,11 @@ namespace IGIRebuilt
                 Box(new Rect(x, y - 10, 1.5f, 6), colour);
                 Box(new Rect(x, y + 4, 1.5f, 6), colour);
                 DrawObjective(width, height, scale);
-                if (mission.CanInteract)
+                if (mission.player.IsClimbing || mission.player.AvailableLadder != null || mission.player.AvailableConsole != null || mission.player.AvailableAlarm != null || mission.player.AvailableDoor != null || mission.CanInteract)
                 {
                     Box(new Rect(x - 155, y + 70, 310, 44), new Color(0.035f, 0.06f, 0.07f, 0.94f));
-                    GUI.Label(new Rect(x - 145, y + 78, 290, 27), mission.InteractionPrompt, centred);
+                    string prompt = mission.player.IsClimbing ? "W/S  CLIMB   E/SPACE  LET GO" : mission.player.AvailableLadder != null ? "[ E ]  CLIMB LADDER" : mission.player.AvailableConsole != null ? mission.player.AvailableConsole.Prompt : mission.player.AvailableAlarm != null ? mission.player.AvailableAlarm.Prompt : mission.player.AvailableDoor != null ? "[ E ]  " + (mission.player.AvailableDoor.IsOpen ? "CLOSE " : "OPEN ") + (mission.player.AvailableDoor.isGate ? "GATE" : "DOOR") : mission.InteractionPrompt;
+                    GUI.Label(new Rect(x - 145, y + 78, 290, 27), prompt, centred);
                 }
             }
             if (mission.DamageFlash > 0)

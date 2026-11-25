@@ -24,6 +24,7 @@ namespace IGIRebuilt
 
     public sealed class MissionDirector : MonoBehaviour
     {
+        public SecurityNetwork Security { get; set; }
         public FirstPersonMotor player;
         public WeaponController weapon;
         public GameConfiguration configuration;
@@ -50,7 +51,7 @@ namespace IGIRebuilt
         {
             get
             {
-                if (player == null || terminal == null || Progress.HasIntel || InputBlocked) return false;
+                if (player == null || player.IsClimbing || player.AvailableConsole != null || player.AvailableAlarm != null || player.AvailableDoor != null || player.AvailableLadder != null || terminal == null || Progress.HasIntel || InputBlocked) return false;
                 Vector3 delta = terminal.position - player.eye.transform.position;
                 bool close = delta.magnitude < 2.9f && Vector3.Dot(player.eye.transform.forward, delta.normalized) > 0.35f;
                 if (CapturingTruck && close && Physics.Raycast(player.eye.transform.position, delta.normalized, Mathf.Max(0, delta.magnitude - 0.2f), 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore)) return false;
@@ -82,7 +83,17 @@ namespace IGIRebuilt
         public void MakeNoise(Vector3 point, float radius)
         {
             foreach (EnemyGuard guard in guards)
-                if (guard != null && Vector3.Distance(guard.transform.position, point) < radius) guard.Alert(point);
+                if (guard != null) guard.HearNoise(point, radius);
+        }
+        public void AlertAlarmResponders(Vector3 point)
+        {
+            foreach (var guard in guards)
+                if (guard != null && guard.respondsToAlarm) guard.ReceiveAlarm(point);
+        }
+        public void AlertGuards(Vector3 point, float radius, EnemyGuard source = null)
+        {
+            foreach (var guard in guards)
+                if (guard != null && guard != source && Vector3.Distance(guard.transform.position, source != null ? source.transform.position : point) < radius) guard.Alert(point);
         }
         private void Update()
         {
