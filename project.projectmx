@@ -1,0 +1,9 @@
+{
+  "format": "projectmx",
+  "version": 1,
+  "organization": "Ammar Malik",
+  "run_commands": [
+    "unity ."
+  ],
+  "display_name": "IGI Rebuilt"
+}
