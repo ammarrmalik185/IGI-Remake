@@ -85,5 +85,6 @@ internal static class ModelGeometryExport
         }
         Console.WriteLine($"Trainyard: {exported} native collision meshes, {sectors} interior sectors, {portals} portal faces left open, {linings} inward wall lining triangles.");
         FirstBuildingRepair.Run(project);
+        SurfaceExport.Run(project);
     }
 }

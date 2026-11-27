@@ -14,7 +14,7 @@ namespace IGIRebuilt.Editor {
    var source=AssetDatabase.LoadAssetAtPath<GameObject>(path);if(source==null)throw new Exception("Missing attached model: "+path);
    var go=(GameObject)PrefabUtility.InstantiatePrefab(source);go.transform.SetParent(parent,false);
    foreach(var t in go.GetComponentsInChildren<Transform>()){t.gameObject.layer=DemoWorld.WorldLayer;t.gameObject.isStatic=!moving;}
-   foreach(var f in go.GetComponentsInChildren<MeshFilter>()) {var mesh=AssetDatabase.LoadAllAssetsAtPath(AssetDatabase.GetAssetPath(f.sharedMesh)).OfType<Mesh>().FirstOrDefault(m=>m.name.EndsWith("_collision"));if(mesh!=null)f.gameObject.AddComponent<MeshCollider>().sharedMesh=mesh;}
+   foreach(var f in go.GetComponentsInChildren<MeshFilter>()) {if(f.GetComponent<MeshCollider>()!=null){f.gameObject.isStatic=false;continue;}var mesh=AssetDatabase.LoadAllAssetsAtPath(AssetDatabase.GetAssetPath(f.sharedMesh)).OfType<Mesh>().FirstOrDefault(m=>m.name.EndsWith("_collision"));if(mesh!=null&&mesh.triangles.Length>0)f.gameObject.AddComponent<MeshCollider>().sharedMesh=mesh;}
    return go;
   }
   public static void Add(Dictionary<int,GameObject> placed, Transform root) {

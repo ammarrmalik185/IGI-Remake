@@ -8,9 +8,10 @@ namespace IGIRebuilt
         public MissionDirector Mission { get; private set; }
         private void Start()
         {
-            Application.targetFrameRate = 144;
             if (configuration == null) configuration = Resources.Load<GameConfiguration>("GameConfiguration");
             if (configuration == null) configuration = RuntimeDefaults();
+            Application.targetFrameRate = Mathf.Clamp(configuration.targetFrameRate, 30, 240);
+            QualitySettings.vSyncCount = 0; // Use the configured frame cap rather than the display's refresh rate.
             SetLighting();
             MissionLayout layout = FindFirstObjectByType<MissionLayout>();
             if (layout == null && configuration.environmentPrefab != null)
@@ -26,6 +27,9 @@ namespace IGIRebuilt
             }
             if (layout == null || layout.playerSpawn == null || layout.terminal == null || layout.extraction == null) layout = DemoWorld.Create(transform);
             Mission = new GameObject("Mission controller").AddComponent<MissionDirector>();
+#if UNITY_EDITOR
+            Mission.gameObject.AddComponent<PlayModePerformanceMonitor>().mission = Mission;
+#endif
             Mission.configuration = configuration;
             Mission.terminal = layout.terminal;
             Mission.extraction = layout.extraction;

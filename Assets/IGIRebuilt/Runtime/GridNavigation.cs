@@ -14,6 +14,16 @@ namespace IGIRebuilt
         private float[] heights;
         private bool[] walkable;
         private Vector3 origin;
+        private int[] regions, previous;
+        private float[] cost;
+        private bool[] closed;
+        private readonly PathHeap open = new PathHeap();
+        private readonly List<Anchor> anchors = new List<Anchor>(225);
+        private struct Anchor : System.IComparable<Anchor>
+        {
+            public int node, radius; public float distance;
+            public int CompareTo(Anchor other) { int order = distance.CompareTo(other.distance); if (order != 0) return order; order = radius.CompareTo(other.radius); return order != 0 ? order : node.CompareTo(other.node); }
+        }
 
         public void Rebuild()
         {
@@ -32,19 +42,47 @@ namespace IGIRebuilt
                     }
                     walkable[index] = !Physics.OverlapBox(Centre(x, z) + Vector3.up * 1.05f, new Vector3(0.32f, 0.65f, 0.32f), Quaternion.identity, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore).Any(c => c.GetComponentInParent<InteractiveDoor>() == null);
                 }
+            previous = new int[walkable.Length]; cost = new float[walkable.Length]; closed = new bool[walkable.Length];
+            BuildRegions();
+        }
+        private void BuildRegions()
+        {
+            // An optimistic connectivity graph: omit physics edge checks, but retain every grid/height rule.
+            // Different regions therefore prove there can be no valid walking route (e.g. ground to roof).
+            regions = new int[walkable.Length]; var queue = new int[walkable.Length]; int region = 0;
+            for (int seed = 0; seed < walkable.Length; seed++)
+            {
+                if (!walkable[seed] || regions[seed] != 0) continue;
+                int head = 0, tail = 0; queue[tail++] = seed; regions[seed] = ++region;
+                while (head < tail)
+                {
+                    int current = queue[head++], cx = current % width, cz = current / width;
+                    for (int dz = -1; dz <= 1; dz++) for (int dx = -1; dx <= 1; dx++)
+                    {
+                        if (dx == 0 && dz == 0) continue;
+                        int x = cx + dx, z = cz + dz;
+                        if (x < 0 || z < 0 || x >= width || z >= depth) continue;
+                        int next = z * width + x;
+                        if (!walkable[next] || regions[next] != 0) continue;
+                        if (sampleTerrain && Mathf.Abs(heights[next] - heights[current]) > cellSize * .7f) continue;
+                        if (dx != 0 && dz != 0 && (!walkable[cz * width + x] || !walkable[z * width + cx])) continue;
+                        regions[next] = region; queue[tail++] = next;
+                    }
+                }
+            }
         }
         public List<Vector3> FindPath(Vector3 start, Vector3 destination)
         {
-            if (walkable == null) Rebuild();
-            int from = Nearest(start), to = Nearest(destination);
+            using var timing = NavigationDiagnostics.Grid();
+            if (walkable == null || regions == null || previous == null || previous.Length != walkable.Length) Rebuild();
             var result = new List<Vector3>();
-            if (from < 0 || to < 0) return result;
-            int[] previous = new int[walkable.Length];
-            float[] cost = new float[walkable.Length];
-            bool[] closed = new bool[walkable.Length];
+            int to = Nearest(destination); if (to < 0) return result;
+            int from = Nearest(start); if (from < 0) return result;
+            if (regions[from] != regions[to]) { if (NavigationDiagnostics.Enabled) NavigationDiagnostics.DisconnectedRejects++; return result; }
+            System.Array.Clear(closed, 0, closed.Length); open.Clear();
             for (int i = 0; i < cost.Length; i++) { cost[i] = float.PositiveInfinity; previous[i] = -1; }
             cost[from] = 0;
-            var open = new PathHeap(); open.Push(from, Heuristic(from, to));
+            open.Push(from, Heuristic(from, to));
             while (open.Count > 0)
             {
                 int current = open.Pop();
@@ -53,9 +91,12 @@ namespace IGIRebuilt
                 {
                     for (int at = to; at != from && at >= 0; at = previous[at]) result.Add(Centre(at % width, at / width));
                     result.Reverse();
+                    result.Insert(0, Centre(from % width, from / width));
+                    if (AuthoredNavigation.ClearSegment(result[result.Count - 1], destination, .32f)) result.Add(destination);
                     return result;
                 }
                 closed[current] = true;
+                if (NavigationDiagnostics.Enabled) NavigationDiagnostics.ExpandedNodes++;
                 for (int dz = -1; dz <= 1; dz++)
                 {
                     for (int dx = -1; dx <= 1; dx++)
@@ -66,10 +107,10 @@ namespace IGIRebuilt
                         int next = z * width + x;
                         if (!walkable[next] || closed[next]) continue;
                         if (sampleTerrain && Mathf.Abs(heights[next] - heights[current]) > cellSize * 0.7f) continue;
-                        if (sampleTerrain && EdgeBlocked(Centre(current % width, current / width) + Vector3.up, Centre(x, z) + Vector3.up)) continue;
                         if (dx != 0 && dz != 0 && (!walkable[(current / width) * width + x] || !walkable[z * width + current % width])) continue;
                         float candidate = cost[current] + (dx != 0 && dz != 0 ? 1.414214f : 1);
                         if (candidate >= cost[next]) continue;
+                        if (!AuthoredNavigation.ClearSegment(Centre(current % width, current / width), Centre(x, z), .32f)) continue;
                         cost[next] = candidate;
                         previous[next] = current;
                         open.Push(next, candidate + Heuristic(next, to));
@@ -78,16 +119,11 @@ namespace IGIRebuilt
             }
             return result;
         }
-        private bool EdgeBlocked(Vector3 a, Vector3 b)
-        {
-            if (!Physics.Linecast(a,b,1 << DemoWorld.WorldLayer,QueryTriggerInteraction.Ignore)) return false;
-            Vector3 delta=b-a;
-            return Physics.RaycastAll(a,delta.normalized,delta.magnitude,1 << DemoWorld.WorldLayer,QueryTriggerInteraction.Ignore).Any(h=>h.collider.GetComponentInParent<InteractiveDoor>()==null);
-        }
         private sealed class PathHeap
         {
             private readonly List<int> nodes=new List<int>(); private readonly List<float> scores=new List<float>();
             public int Count => nodes.Count;
+            public void Clear() { nodes.Clear(); scores.Clear(); }
             public void Push(int node,float score) {nodes.Add(node);scores.Add(score);int i=nodes.Count-1;while(i>0){int p=(i-1)/2;if(scores[p]<=score)break;nodes[i]=nodes[p];scores[i]=scores[p];i=p;}nodes[i]=node;scores[i]=score;}
             public int Pop(){int value=nodes[0],last=nodes.Count-1,node=nodes[last];float score=scores[last];nodes.RemoveAt(last);scores.RemoveAt(last);if(last==0)return value;int i=0;while(i*2+1<last){int child=i*2+1;if(child+1<last&&scores[child+1]<scores[child])child++;if(scores[child]>=score)break;nodes[i]=nodes[child];scores[i]=scores[child];i=child;}nodes[i]=node;scores[i]=score;return value;}
         }
@@ -100,20 +136,22 @@ namespace IGIRebuilt
         {
             int x = Mathf.Clamp(Mathf.FloorToInt((position.x - origin.x) / cellSize), 0, width - 1);
             int z = Mathf.Clamp(Mathf.FloorToInt((position.z - origin.z) / cellSize), 0, depth - 1);
-            int best = -1; float bestDistance = float.PositiveInfinity;
-            for (int radius = 0; radius < 8; radius++)
-                for (int dz = -radius; dz <= radius; dz++)
-                    for (int dx = -radius; dx <= radius; dx++)
+            anchors.Clear();
+                for (int dz = -7; dz <= 7; dz++)
+                    for (int dx = -7; dx <= 7; dx++)
                     {
                         int nx = x + dx, nz = z + dz;
                         if (nx >= 0 && nz >= 0 && nx < width && nz < depth && walkable[nz * width + nx])
                         {
                             Vector3 delta = Centre(nx, nz) - position;
                             float distance = delta.x * delta.x + delta.z * delta.z + delta.y * delta.y * 4;
-                            if (distance < bestDistance) { bestDistance = distance; best = nz * width + nx; }
+                            if (Mathf.Abs(delta.y) < 1.5f) anchors.Add(new Anchor { node = nz * width + nx, distance = distance, radius = Mathf.Max(Mathf.Abs(dx), Mathf.Abs(dz)) });
                         }
                     }
-            return best;
+            anchors.Sort();
+            foreach (var anchor in anchors)
+                if (AuthoredNavigation.ClearSegment(position, Centre(anchor.node % width, anchor.node / width), .32f)) return anchor.node;
+            return -1;
         }
         private Vector3 Centre(int x, int z) => new Vector3(origin.x + (x + 0.5f) * cellSize, sampleTerrain && heights != null ? heights[z * width + x] : origin.y, origin.z + (z + 0.5f) * cellSize);
     }

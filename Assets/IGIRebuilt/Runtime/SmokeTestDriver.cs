@@ -276,6 +276,8 @@ namespace IGIRebuilt
             {
                 camera.targetTexture = target;
                 camera.Render();
+                var weapons = camera.GetComponentInParent<WeaponController>();
+                if (weapons != null && weapons.eye == camera) weapons.RenderView(target);
                 RenderTexture.active = target;
                 pixels.ReadPixels(new Rect(0, 0, 1280, 720), 0, 0);
                 pixels.Apply();

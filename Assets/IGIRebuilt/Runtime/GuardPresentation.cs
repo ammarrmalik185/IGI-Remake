@@ -18,7 +18,7 @@ namespace IGIRebuilt
             weapon = Source(100, .6f);
             feet = Source(16, .4f);
             var health = GetComponent<Health>();
-            health.Damaged += _ => { if (!health.IsDead) { Play(voice, settings.hits); hitUntil = Time.time + .25f; animationPlayer?.Play("Hit"); } };
+            health.Damaged += OnDamaged;
             health.Died += _ => { Play(voice, settings.deaths); animationPlayer?.Play("Death"); if (rifle != null) { rifle.SetParent(transform, true); rifle.localPosition = new Vector3(.4f, .15f, .3f); rifle.localRotation = Quaternion.Euler(90, 0, 20); } };
             var motion = data.ForModel(model);
             if (motion != null)
@@ -39,6 +39,18 @@ namespace IGIRebuilt
                     t.gameObject.layer = DemoWorld.GuardLayer;
             }
         }
+        private bool ActionPreventsFlinch => running || Time.time < shotUntil ||
+            (animationPlayer != null && (animationPlayer.Current == "Run" || animationPlayer.Current == "Fire" || animationPlayer.Current == "RunFire" || animationPlayer.Current == "WalkFire"));
+
+        private void OnDamaged(float damage)
+        {
+            if (guard.GetComponent<Health>().IsDead) return;
+            Play(voice, settings.hits);
+            if (ActionPreventsFlinch) { hitUntil = 0; return; }
+            hitUntil = Time.time + .25f;
+            animationPlayer?.Play("Hit");
+        }
+
         AudioSource Source(float distance, float volume)
         {
             var a = gameObject.AddComponent<AudioSource>();
@@ -57,6 +69,7 @@ namespace IGIRebuilt
         public void Shot()
         {
             shotUntil = Time.time + .3f;
+            hitUntil = 0;
             if (weapon != null && settings.shot != null)
                 weapon.PlayOneShot(settings.shot);
         }
@@ -95,9 +108,11 @@ namespace IGIRebuilt
                 animationPlayer?.Play("Death");
                 return;
             }
-            if (Time.time < hitUntil)
+            if (Time.time < hitUntil && !ActionPreventsFlinch)
                 return;
-            animationPlayer?.Play(moving ? (running ? "Run" : "Walk") : Time.time < shotUntil || guard.State == EnemyGuard.GuardState.Attack ? "Fire" : "Idle");
+            hitUntil = 0;
+            bool firing = Time.time < shotUntil || (guard.State == EnemyGuard.GuardState.Attack && guard.HasSight && guard.Suspicion >= 1);
+            animationPlayer?.Play(moving ? (running ? (firing ? "RunFire" : "Run") : (firing ? "WalkFire" : "Walk")) : firing ? "Fire" : "Idle");
             if (speed > .4f && Time.time >= nextStep)
             {
                 Play(feet, settings != null ? settings.footsteps : null);

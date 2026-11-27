@@ -17,11 +17,13 @@ internal static class GuardAnimationExport {
    var doc=JsonNode.Parse(File.ReadAllText(Path.Combine(project,binding["mesh"]!.ToString())))!;string source=doc["source"]!.ToString();int colon=source.IndexOf(':');string entry=source[(colon+1)..];if(entry.Contains(':'))entry=entry[(entry.IndexOf(':')+1)..];
    var model=MefModel.Read(File.ReadAllBytes(Path.Combine(project,"Assets/IGIImported/SourceData~/Unpacked",source[..(colon-4)],entry)));
    var verts=model.Vertices.ToArray();var weights=model.SkinInfluences.ToArray();var bone=new BoneObject(set);bone.Play(0,2,true);float restZ=bone.SampleRootMotion().Z;
-   using var w=new BinaryWriter(File.Create(Path.Combine(project,"Assets/IGIRebuilt/Trainyard/Animations",name+".igianim")));w.Write(3);w.Write(model.BaseVertexCount);w.Write(6);
-   foreach(var spec in new[]{("Idle",2,true),("Walk",57,true),("Run",3,true),("Fire",56,true),("Hit",27,false),("Death",23,false)}){
+   using var w=new BinaryWriter(File.Create(Path.Combine(project,"Assets/IGIRebuilt/Trainyard/Animations",name+".igianim")));w.Write(3);w.Write(model.BaseVertexCount);w.Write(8);
+   foreach(var spec in new[]{("Idle",2,true),("Walk",57,true),("Run",3,true),("Fire",56,true),("Hit",27,false),("Death",23,false),("WalkFire",57,true),("RunFire",3,true)}){
+    bone=new BoneObject(set);
     if(!set.TryGet(spec.Item2,out var anim))throw new Exception("Animation missing");var clip=bone.Play(0,spec.Item2,false)!;int count=Math.Clamp((int)MathF.Ceiling(anim.Duration/4800*30)+1,2,2048);float duration=MathF.Max(1f/30,anim.Duration/4800);clip.Rate=anim.Duration/(count-1);
     var firstRoot=bone.SampleRootMotion();clip.Rate=anim.Duration;bone.Tick();var lastRoot=bone.SampleRootMotion();float speed=MathF.Sqrt((lastRoot.X-firstRoot.X)*(lastRoot.X-firstRoot.X)+(lastRoot.Y-firstRoot.Y)*(lastRoot.Y-firstRoot.Y))/4096/duration;
     clip=bone.Play(0,spec.Item2,false)!;clip.Rate=anim.Duration/(count-1);
+    if(spec.Item1 is "WalkFire" or "RunFire") {var upper=bone.Play(1,56,true) ?? throw new Exception("Upper-body firing animation missing");upper.Rate=clip.Rate;}
     w.Write(spec.Item1);w.Write(duration);w.Write(spec.Item3);w.Write(count);w.Write(speed);
     Vector3f[]? firstPositions=null,firstNormals=null;
     var sockets=new List<(Vector3f p,System.Numerics.Quaternion r)>();

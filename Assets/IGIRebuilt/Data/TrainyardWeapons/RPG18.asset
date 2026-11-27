@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780d2001ef655a6bb5285c05fa70e269, type: 3}
+  m_Name: RPG18
+  m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
+  displayName: LAW 80
+  visualPrefab: {fileID: 1607058719525488972, guid: eb126a9299db4a1ba4c204d3b6edd321, type: 3}
+  viewPosition: {x: 0.22, y: -0.21, z: 0.64}
+  viewRotation: {x: 0, y: 0, z: 0}
+  modelLength: 1
+  damage: 180
+  magazineSize: 1
+  reserveAmmo: 3
+  secondsPerShot: 1.5
+  reloadSeconds: 2
+  automatic: 0
+  melee: 0
+  dualWield: 0
+  action: 1
+  pellets: 1
+  noiseRadius: 100
+  blastRadius: 8
+  projectileSpeed: 60
+  fuseSeconds: 3
+  explosionSound: {fileID: 8300000, guid: 45464a4391394f698b3d1b3b7d848793, type: 3}
+  explosionEffect: {fileID: 8983287453435860719, guid: c5c20c0cc4c01f646a81c186a12a3452, type: 3}
+  range: 600
+  spreadDegrees: 0
+  aimFieldOfView: 48
+  canZoom: 0
+  scoped: 0
+  viewHorizontalFieldOfView: 82
+  scopeShader: {fileID: 0}
+  scopeMask: {fileID: 0}
+  scopeHorizontal: {fileID: 0}
+  scopeVertical: {fileID: 0}
+  recoilDegrees: 12
+  fireSound: {fileID: 8300000, guid: ebb3f236484549eead2577bef80686d9, type: 3}
+  reloadSound: {fileID: 0}

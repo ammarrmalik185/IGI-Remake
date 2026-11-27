@@ -4,8 +4,10 @@ namespace IGIRebuilt
 {
     public sealed class MissionHud : MonoBehaviour
     {
+        private static readonly Unity.Profiling.ProfilerMarker DrawMarker = new Unity.Profiling.ProfilerMarker("IGI.HUD");
         public MissionDirector mission;
         private GUIStyle small, normal, heading, ammo, centred;
+        private GUIStyle controlsStyle, objectiveStyle, panelHeading, panelDetail, selectedWeaponStyle;
         private readonly Color accent = new Color(0.37f, 0.91f, 0.75f);
 
         private void Initialize()
@@ -16,10 +18,18 @@ namespace IGIRebuilt
             heading = new GUIStyle(normal) { fontSize = 22, fontStyle = FontStyle.Bold };
             ammo = new GUIStyle(heading) { fontSize = 38, alignment = TextAnchor.MiddleRight };
             centred = new GUIStyle(normal) { alignment = TextAnchor.MiddleCenter };
+            controlsStyle = new GUIStyle(small) { alignment = TextAnchor.MiddleCenter };
+            objectiveStyle = new GUIStyle(controlsStyle) { normal = { textColor = accent } };
+            panelHeading = new GUIStyle(heading) { alignment = TextAnchor.MiddleCenter };
+            panelDetail = new GUIStyle(centred) { wordWrap = true, fontSize = 15 };
+            selectedWeaponStyle = new GUIStyle(normal) { normal = { textColor = accent } };
         }
         private void OnGUI()
         {
+            using var sample = DrawMarker.Auto();
             if (mission == null || mission.player == null) return;
+            // The live HUD has no controls: only repaint it. Pause buttons still receive input events.
+            if (!mission.InputBlocked && Event.current.type != EventType.Repaint) return;
             if (small == null) Initialize();
             float scale = Mathf.Max(0.65f, Screen.height / 900f);
             GUI.matrix = Matrix4x4.Scale(new Vector3(scale, scale, 1));
@@ -47,21 +57,38 @@ namespace IGIRebuilt
             if (weapon != null && weapon.Active != null && weapon.Ammo != null)
             {
                 Box(new Rect(width - 280, height - 133, 252, 94), new Color(0.035f, 0.06f, 0.07f, 0.88f));
-                GUI.Label(new Rect(width - 263, height - 122, 220, 25), weapon.Active.displayName.ToUpperInvariant(), small);
-                GUI.Label(new Rect(width - 252, height - 100, 130, 49), weapon.Active.melee ? "--" : weapon.Ammo.Loaded.ToString("00"), ammo);
+                GUI.Label(new Rect(width - 263, height - 122, 220, 25), weapon.Active.displayName.ToUpperInvariant() + "  " + (weapon.SelectedIndex + 1) + "/" + weapon.definitions.Length, small);
+                GUI.Label(new Rect(width - 252, height - 100, 130, 49), weapon.Active.melee || weapon.Active.action == WeaponAction.Binoculars ? "--" : weapon.Ammo.Loaded.ToString("00"), ammo);
                 GUI.Label(new Rect(width - 110, height - 82, 75, 30), "/ " + weapon.Ammo.Reserve.ToString("000"), normal);
                 if (weapon.IsReloading) GUI.Label(new Rect(width / 2 - 130, height / 2 + 43, 260, 26), "RELOADING", centred);
             }
-            GUI.Label(new Rect(width / 2 - 330, height - 32, 660, 24), "WASD  MOVE    SHIFT  SPRINT    C  CROUCH    R  RELOAD    1 / 2 / 3  WEAPONS    ESC  PAUSE", new GUIStyle(small) { alignment = TextAnchor.MiddleCenter });
+            GUI.Label(new Rect(width / 2 - 420, height - 32, 840, 24), "WASD MOVE   SHIFT SPRINT   C CROUCH   R RELOAD   1/2/3 QUICK SELECT   WHEEL WEAPONS   TAB ARSENAL   ESC PAUSE", controlsStyle);
+            if (GameInput.ArsenalHeld && !mission.InputBlocked && weapon != null)
+            {
+                float left = width / 2 - 280, top = height / 2 - 180;
+                Box(new Rect(left, top, 560, 360), new Color(.025f, .045f, .055f, .96f));
+                GUI.Label(new Rect(left + 20, top + 15, 520, 30), "ARSENAL  /  MOUSE WHEEL TO SELECT", normal);
+                for (int i = 0; i < weapon.definitions.Length; i++)
+                {
+                    var style = i == weapon.SelectedIndex ? selectedWeaponStyle : normal;
+                    GUI.Label(new Rect(left + 20 + (i / 10) * 270, top + 58 + (i % 10) * 28, 260, 26),
+                        (i == weapon.SelectedIndex ? "> " : "  ") + (i + 1).ToString("00") + "  " + weapon.definitions[i].displayName, style);
+                }
+            }
+            if (weapon != null && weapon.IsAiming && weapon.Active != null && weapon.Active.action == WeaponAction.Binoculars)
+                GUI.Label(new Rect(width / 2 - 150, height / 2 + 40, 300, 24), "BINOCULARS  /  6.5x", centred);
             if (!mission.InputBlocked)
             {
                 float x = width / 2, y = height / 2;
                 Color colour = weapon != null && Time.time < weapon.HitMarkerUntil ? accent : new Color(1, 1, 1, 0.8f);
-                Box(new Rect(x - 10, y, 6, 1.5f), colour);
-                Box(new Rect(x + 4, y, 6, 1.5f), colour);
-                Box(new Rect(x, y - 10, 1.5f, 6), colour);
-                Box(new Rect(x, y + 4, 1.5f, 6), colour);
-                DrawObjective(width, height, scale);
+                if (weapon == null || !weapon.IsScoped)
+                {
+                    Box(new Rect(x - 10, y, 6, 1.5f), colour);
+                    Box(new Rect(x + 4, y, 6, 1.5f), colour);
+                    Box(new Rect(x, y - 10, 1.5f, 6), colour);
+                    Box(new Rect(x, y + 4, 1.5f, 6), colour);
+                    DrawObjective(width, height, scale);
+                }
                 if (mission.player.IsClimbing || mission.player.AvailableLadder != null || mission.player.AvailableConsole != null || mission.player.AvailableAlarm != null || mission.player.AvailableDoor != null || mission.CanInteract)
                 {
                     Box(new Rect(x - 155, y + 70, 310, 44), new Color(0.035f, 0.06f, 0.07f, 0.94f));
@@ -77,15 +104,17 @@ namespace IGIRebuilt
                 Box(new Rect(0, 0, 12, height), damage);
                 Box(new Rect(width - 12, 0, 12, height), damage);
             }
+            if (weapon != null && Time.time < weapon.FlashUntil)
+                Box(new Rect(0, 0, width, height), new Color(1, 1, 1, Mathf.Clamp01(weapon.FlashUntil - Time.time)));
             if (mission.InputBlocked)
             {
                 Box(new Rect(0, 0, width, height), new Color(0.015f, 0.025f, 0.035f, 0.8f));
                 Rect panel = new Rect(width / 2 - 220, height / 2 - 145, 440, 290);
                 Box(panel, new Color(0.055f, 0.08f, 0.095f));
                 string title = mission.Progress.Complete ? mission.CompletionTitle : mission.Failed ? "MISSION FAILED" : mission.BriefingOpen ? "TRAINYARD" : "PAUSED";
-                GUI.Label(new Rect(panel.x + 25, panel.y + 32, 390, 40), title, new GUIStyle(heading) { alignment = TextAnchor.MiddleCenter });
+                GUI.Label(new Rect(panel.x + 25, panel.y + 32, 390, 40), title, panelHeading);
                 string detail = mission.Progress.Complete ? mission.CompletionDetail : mission.Failed ? "Your operator was killed. Press R to retry." : mission.BriefingOpen ? mission.configuration.briefing : mission.CapturingTruck ? "Infiltrate the trainyard and secure the truck. WASD / mouse to move, E to interact." : "Swap models and tuning through WeaponDefinition assets.";
-                GUI.Label(new Rect(panel.x + 24, panel.y + 78, 392, 96), detail, new GUIStyle(centred) { wordWrap = true, fontSize = 15 });
+                GUI.Label(new Rect(panel.x + 24, panel.y + 78, 392, 96), detail, panelDetail);
                 if (mission.Paused && GUI.Button(new Rect(panel.x + 80, panel.y + 179, 280, 36), mission.BriefingOpen ? "BEGIN MISSION" : "RESUME")) mission.SetPaused(false);
                 if (GUI.Button(new Rect(panel.x + 80, panel.y + 225, 280, 36), "RESTART MISSION")) mission.Restart();
             }
@@ -101,7 +130,7 @@ namespace IGIRebuilt
             float y = Mathf.Clamp((Screen.height - screen.y) / scale, 155, height - 175);
             Box(new Rect(x - 5, y - 5, 10, 10), accent);
             int metres = Mathf.RoundToInt(Vector3.Distance(mission.player.transform.position, mission.ObjectiveTarget.position));
-            GUI.Label(new Rect(x - 50, y + 12, 100, 22), metres + " m", new GUIStyle(small) { alignment = TextAnchor.MiddleCenter, normal = { textColor = accent } });
+            GUI.Label(new Rect(x - 50, y + 12, 100, 22), metres + " m", objectiveStyle);
         }
         private static void Box(Rect rect, Color colour)
         {

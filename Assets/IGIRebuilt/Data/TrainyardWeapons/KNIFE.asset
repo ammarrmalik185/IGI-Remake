@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: KNIFE
   m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
   displayName: Knife
-  visualPrefab: {fileID: 629562273311082086, guid: 3e680940002f4c7fa41b17d87e9e521f, type: 3}
+  visualPrefab: {fileID: 3700078078190779626, guid: dfda068d8d164b6db80e505dc006a67c, type: 3}
   viewPosition: {x: 0.19, y: -0.17, z: 0.46}
   viewRotation: {x: 0, y: 0, z: 0}
   modelLength: 0.28
@@ -24,9 +24,25 @@ MonoBehaviour:
   reloadSeconds: 2
   automatic: 0
   melee: 1
+  dualWield: 0
+  action: 0
+  pellets: 1
+  noiseRadius: 3
+  blastRadius: 7
+  projectileSpeed: 35
+  fuseSeconds: 3
+  explosionSound: {fileID: 0}
+  explosionEffect: {fileID: 0}
   range: 1.9
   spreadDegrees: 0
   aimFieldOfView: 48
+  canZoom: 0
+  scoped: 0
+  viewHorizontalFieldOfView: 66
+  scopeShader: {fileID: 0}
+  scopeMask: {fileID: 0}
+  scopeHorizontal: {fileID: 0}
+  scopeVertical: {fileID: 0}
   recoilDegrees: 0
   fireSound: {fileID: 8300000, guid: 96475669a816431c8127315cb0845cba, type: 3}
   reloadSound: {fileID: 0}

@@ -10,5 +10,23 @@ namespace IGIRebuilt
     public sealed class GuardMotionData : ScriptableObject
     {
         public int vertexCount; public GuardMotionClip[] clips;
+        [NonSerialized] private bool boundsReady;
+        [NonSerialized] private Bounds animationBounds;
+        public Bounds AnimationBounds
+        {
+            get
+            {
+                if (boundsReady) return animationBounds;
+                bool found = false;
+                foreach (var clip in clips)
+                    foreach (var point in clip.positions)
+                    {
+                        if (!found) { animationBounds = new Bounds(point, Vector3.zero); found = true; }
+                        else animationBounds.Encapsulate(point);
+                    }
+                boundsReady = true;
+                return animationBounds;
+            }
+        }
     }
 }

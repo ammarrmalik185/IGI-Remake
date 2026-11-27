@@ -31,5 +31,11 @@ namespace IGIRebuilt
             if (IsDead) Died?.Invoke(this);
             return true;
         }
+        public bool Heal(float amount)
+        {
+            if (IsDead || Current >= maximum || amount <= 0 || float.IsNaN(amount) || float.IsInfinity(amount)) return false;
+            Current = Mathf.Min(maximum, Current + amount);
+            return true;
+        }
     }
 }

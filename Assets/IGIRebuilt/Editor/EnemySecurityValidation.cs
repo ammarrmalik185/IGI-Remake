@@ -179,7 +179,7 @@ namespace IGIRebuilt.Editor
             UnityEngine.Object.DestroyImmediate(wall);
             yield return null;
             Physics.SyncTransforms();
-            camera.Tick(1.2f);
+            camera.Tick(camera.detectionSeconds + .1f);
             Require(n.AlarmActive, "Camera detection did not trigger alarm");
             n.Silence();
             Require(!n.AlarmActive, "Alarm did not silence");

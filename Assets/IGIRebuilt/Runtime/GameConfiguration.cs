@@ -7,6 +7,7 @@ namespace IGIRebuilt
     {
         public string missionName = "OPERATION FIRST LIGHT";
         public bool captureTruck;
+        [Range(30, 240)] public int targetFrameRate = 60;
         [TextArea] public string briefing;
         public WeaponDefinition[] weapons;
         [Header("Optional replacements; leave empty for the built-in training compound")]

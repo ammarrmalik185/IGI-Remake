@@ -9,18 +9,21 @@ using UnityEngine.Rendering;
 namespace IGIRebuilt.Editor
 {
     [Serializable] internal class MeshGroup { public int slot; public bool transparent; public int[] indices; }
+    [Serializable] internal class PaneRenderGroup { public int group; public int[] triangles; }
+    [Serializable] internal class GlassPaneDocument { public int[] indices; public PaneRenderGroup[] render; }
     [Serializable] internal class MeshDocument
     {
         public string source; public bool skinned, sector, authoredWinding; public int version;
         public float[] positions, normals, uv; public MeshGroup[] groups;
         public float[] collisionPositions; public int[] collisionIndices;
+        public int[] collisionSurfaceKinds; public GlassPaneDocument[] glassPanes;
     }
     [Serializable] internal class ModelDocument
     {
         public string source, instance, model, mesh; public bool skinned; public string[] textures;
     }
 
-    [ScriptedImporter(2, "igimesh")]
+    [ScriptedImporter(3, "igimesh")]
     public sealed class IGIMeshImporter : ScriptedImporter
     {
         public override void OnImportAsset(AssetImportContext ctx)
@@ -40,7 +43,8 @@ namespace IGIRebuilt.Editor
             mesh.vertices = vertices; mesh.normals = normals; mesh.uv = uv; mesh.subMeshCount = data.groups.Length;
             for (int i = 0; i < data.groups.Length; i++)
             {
-                var indices = (int[])data.groups[i].indices.Clone();
+                var removed = new System.Collections.Generic.HashSet<int>((data.glassPanes ?? Array.Empty<GlassPaneDocument>()).SelectMany(p => p.render).Where(g => g.group == i).SelectMany(g => g.triangles));
+                var indices = data.groups[i].indices.Where((_, index) => !removed.Contains(index / 3)).ToArray();
                 for (int t = 0; t + 2 < indices.Length; t += 3)
                 {
                     int a = indices[t], b = indices[t + 1], c = indices[t + 2];
@@ -52,7 +56,7 @@ namespace IGIRebuilt.Editor
             mesh.RecalculateBounds();
             ctx.AddObjectToAsset("mesh", mesh); ctx.SetMainObject(mesh);
             var collision = new Mesh { name = mesh.name + "_collision", indexFormat = IndexFormat.UInt32 };
-            if (data.collisionPositions != null && data.collisionIndices != null && data.collisionIndices.Length > 0)
+            if (data.collisionPositions != null && data.collisionIndices != null && (data.collisionIndices.Length > 0 || data.glassPanes != null))
             {
                 collision.vertices = Enumerable.Range(0, data.collisionPositions.Length / 3).Select(i => new Vector3(data.collisionPositions[i * 3], data.collisionPositions[i * 3 + 1], data.collisionPositions[i * 3 + 2])).ToArray();
                 collision.triangles = data.collisionIndices;
@@ -66,10 +70,33 @@ namespace IGIRebuilt.Editor
                 collision.triangles = both;
             }
             collision.RecalculateBounds(); ctx.AddObjectToAsset("collision", collision);
+            if (data.collisionSurfaceKinds != null)
+            {
+                var surfaces = ScriptableObject.CreateInstance<ImportedSurfaceData>();
+                surfaces.triangleKinds = data.collisionSurfaceKinds;
+                ctx.AddObjectToAsset("surfaces", surfaces);
+            }
+            for (int p = 0; p < (data.glassPanes?.Length ?? 0); p++)
+            {
+                var pane = data.glassPanes[p];
+                var physics = new Mesh { name = "glass_pane_" + p + "_physics", indexFormat = IndexFormat.UInt32 };
+                var ids = pane.indices.Distinct().ToArray(); var remap = ids.Select((id, i) => (id, i)).ToDictionary(v => v.id, v => v.i);
+                physics.vertices = ids.Select(id => collision.vertices[id]).ToArray();
+                physics.triangles = pane.indices.Select(id => remap[id]).ToArray(); physics.RecalculateBounds();
+                ctx.AddObjectToAsset("glass_physics_" + p, physics);
+                var render = new Mesh { name = "glass_pane_" + p + "_render", indexFormat = IndexFormat.UInt32 };
+                var selected = pane.render.SelectMany(g => g.triangles.SelectMany(t => data.groups[g.group].indices.Skip(t * 3).Take(3))).Distinct().ToArray();
+                var map = selected.Select((id, i) => (id, i)).ToDictionary(v => v.id, v => v.i);
+                render.vertices = selected.Select(id => vertices[id]).ToArray(); render.normals = selected.Select(id => normals[id]).ToArray(); render.uv = selected.Select(id => uv[id]).ToArray();
+                render.subMeshCount = data.groups.Length;
+                for (int g = 0; g < data.groups.Length; g++)
+                    render.SetTriangles(pane.render.Where(group => group.group == g).SelectMany(group => group.triangles.SelectMany(t => data.groups[g].indices.Skip(t * 3).Take(3))).Select(id => map[id]).ToArray(), g);
+                render.RecalculateBounds(); ctx.AddObjectToAsset("glass_render_" + p, render);
+            }
         }
     }
 
-    [ScriptedImporter(5, "igimodel", 100)]
+    [ScriptedImporter(6, "igimodel", 100)]
     public sealed class IGIModelImporter : ScriptedImporter
     {
         public override void OnImportAsset(AssetImportContext ctx)
@@ -107,6 +134,17 @@ namespace IGIRebuilt.Editor
                 materials[i] = material; ctx.AddObjectToAsset("material" + i, material);
             }
             renderer.sharedMaterials = materials;
+            var assets = AssetDatabase.LoadAllAssetsAtPath(data.mesh);
+            var surfaceData = assets.OfType<ImportedSurfaceData>().FirstOrDefault();
+            if (surfaceData != null) go.AddComponent<BulletSurface>().data = surfaceData;
+            for (int p = 0; p < (geometry.glassPanes?.Length ?? 0); p++)
+            {
+                var pane = new GameObject("Glass pane " + p); pane.transform.SetParent(go.transform, false); pane.layer = DemoWorld.WorldLayer;
+                pane.AddComponent<MeshFilter>().sharedMesh = assets.OfType<Mesh>().First(m => m.name == "glass_pane_" + p + "_render");
+                pane.AddComponent<MeshRenderer>().sharedMaterials = materials;
+                pane.AddComponent<MeshCollider>().sharedMesh = assets.OfType<Mesh>().First(m => m.name == "glass_pane_" + p + "_physics");
+                pane.AddComponent<BulletSurface>().kind = BulletSurfaceKind.Glass;
+            }
             var info = go.AddComponent<ImportedModelInfo>();
             info.source = data.source; info.instance = data.instance; info.originalModel = data.model; info.requiresSkinning = data.skinned;
             ctx.AddObjectToAsset("model", go); ctx.SetMainObject(go);

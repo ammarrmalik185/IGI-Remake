@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa649f0d377749078d9c42dbc5906102, type: 3}
+  m_Name: SurfaceInteractionSettings
+  m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.SurfaceInteractionSettings
+  fenceImpacts:
+  - {fileID: 8300000, guid: 346aeb0f23be482eb95d072edd39c4c8, type: 3}
+  - {fileID: 8300000, guid: 1831b4f8f868465f9f740281235294f8, type: 3}
+  glassBreaks:
+  - {fileID: 8300000, guid: b064adeed0284e2db2bdcdeea985791f, type: 3}
+  - {fileID: 8300000, guid: 3c613744b4e94f4ea8f2d9074fe99abd, type: 3}
+  - {fileID: 8300000, guid: dad49a660bfe4e36b0ea46cf4e944d58, type: 3}
+  shardMaterial: {fileID: 2100000, guid: f8da1c3e219599c498699a2d40c0f4dc, type: 2}

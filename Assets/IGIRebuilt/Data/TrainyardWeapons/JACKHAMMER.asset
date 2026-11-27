@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780d2001ef655a6bb5285c05fa70e269, type: 3}
+  m_Name: JACKHAMMER
+  m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
+  displayName: Jackhammer
+  visualPrefab: {fileID: -399737735129128709, guid: f53cc1a9f022422facca9c0ab907703a, type: 3}
+  viewPosition: {x: 0.22, y: -0.21, z: 0.64}
+  viewRotation: {x: 0, y: 0, z: 0}
+  modelLength: 0.787
+  damage: 12
+  magazineSize: 12
+  reserveAmmo: 60
+  secondsPerShot: 0.33333334
+  reloadSeconds: 2
+  automatic: 1
+  melee: 0
+  dualWield: 0
+  action: 0
+  pellets: 8
+  noiseRadius: 100
+  blastRadius: 7
+  projectileSpeed: 35
+  fuseSeconds: 3
+  explosionSound: {fileID: 0}
+  explosionEffect: {fileID: 0}
+  range: 50
+  spreadDegrees: 6
+  aimFieldOfView: 48
+  canZoom: 0
+  scoped: 0
+  viewHorizontalFieldOfView: 78
+  scopeShader: {fileID: 0}
+  scopeMask: {fileID: 0}
+  scopeHorizontal: {fileID: 0}
+  scopeVertical: {fileID: 0}
+  recoilDegrees: 5
+  fireSound: {fileID: 8300000, guid: 6ad1897aa05c88c4398281effda81fa2, type: 3}
+  reloadSound: {fileID: 8300000, guid: 253fa609fe574d06957935fe943e6224, type: 3}

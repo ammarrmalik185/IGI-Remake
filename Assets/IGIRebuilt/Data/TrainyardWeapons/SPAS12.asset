@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780d2001ef655a6bb5285c05fa70e269, type: 3}
+  m_Name: SPAS12
+  m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
+  displayName: Spas 12
+  visualPrefab: {fileID: 5842061737303988229, guid: 227c29e9185548e9bccb8b31f272d6ed, type: 3}
+  viewPosition: {x: 0.22, y: -0.21, z: 0.64}
+  viewRotation: {x: 0, y: 0, z: 0}
+  modelLength: 0.71
+  damage: 12
+  magazineSize: 7
+  reserveAmmo: 35
+  secondsPerShot: 1.5
+  reloadSeconds: 2
+  automatic: 0
+  melee: 0
+  dualWield: 0
+  action: 0
+  pellets: 8
+  noiseRadius: 100
+  blastRadius: 7
+  projectileSpeed: 35
+  fuseSeconds: 3
+  explosionSound: {fileID: 0}
+  explosionEffect: {fileID: 0}
+  range: 30
+  spreadDegrees: 5
+  aimFieldOfView: 48
+  canZoom: 0
+  scoped: 0
+  viewHorizontalFieldOfView: 70
+  scopeShader: {fileID: 0}
+  scopeMask: {fileID: 0}
+  scopeHorizontal: {fileID: 0}
+  scopeVertical: {fileID: 0}
+  recoilDegrees: 8
+  fireSound: {fileID: 8300000, guid: 347161b499ba46ca904fd57d27b04357, type: 3}
+  reloadSound: {fileID: 8300000, guid: f8f793fcc3b5402e9837205baf4d6ced, type: 3}

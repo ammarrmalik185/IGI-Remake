@@ -28,10 +28,11 @@ namespace IGIRebuilt.Editor
                 foreach (var filter in instance.GetComponentsInChildren<MeshFilter>())
                 {
                     filter.gameObject.layer = DemoWorld.WorldLayer; filter.gameObject.isStatic = true;
+                    if (filter.GetComponent<MeshCollider>() != null) { filter.gameObject.isStatic = false; continue; }
                     string path = AssetDatabase.GetAssetPath(filter.sharedMesh);
                     var collision = AssetDatabase.LoadAllAssetsAtPath(path).OfType<Mesh>().FirstOrDefault(m => m.name.EndsWith("_collision"));
                     if (collision == null) throw new Exception("Missing room collision " + room.modelPath);
-                    filter.gameObject.AddComponent<MeshCollider>().sharedMesh = collision;
+                    if (collision.triangles.Length > 0) filter.gameObject.AddComponent<MeshCollider>().sharedMesh = collision;
                 }
                 rooms.Add(instance.transform);
             }

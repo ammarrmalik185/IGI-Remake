@@ -9,6 +9,8 @@ using OpenIGI.Game.Igi1.World;
 using OpenIGI.Scripting.Runtime;
 
 string project = Path.GetFullPath(args.Length > 0 ? args[0] : ".");
+if (args.Contains("--weapon-views")) { WeaponViewExport.Run(project); return; }
+if (args.Contains("--surfaces")) { SurfaceExport.Run(project); return; }
 if (args.Contains("--attachments")) { AttachmentExport.Run(project); return; }
 if (args.Contains("--guard-animations")) { GuardAnimationExport.Run(project); return; }
 if (args.Contains("--security")) { SecurityExport.Run(project); return; }

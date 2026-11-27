@@ -11,18 +11,32 @@ namespace IGIRebuilt
     public sealed class AuthoredNavigation : MonoBehaviour
     {
         public AuthoredGraph[] graphs;
+        private static RaycastHit[] clearanceHits = new RaycastHit[32];
+        private static bool Blocked(Vector3 at, Vector3 direction, float distance, float radius)
+        {
+            int count;
+            while ((count = Physics.CapsuleCastNonAlloc(at + Vector3.up * .4f, at + Vector3.up * 1.45f, radius, direction, clearanceHits,
+                distance, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore)) == clearanceHits.Length)
+                Array.Resize(ref clearanceHits, clearanceHits.Length * 2);
+            for (int i = 0; i < count; i++)
+                if (Mathf.Abs(clearanceHits[i].normal.y) < .65f && clearanceHits[i].collider.GetComponentInParent<InteractiveDoor>() == null) return true;
+            return false;
+        }
         public static bool ClearSegment(Vector3 a, Vector3 b, float radius = .29f)
         {
+            if (NavigationDiagnostics.Enabled) NavigationDiagnostics.ClearanceChecks++;
             Vector3 delta = b - a; delta.y = 0; float distance = delta.magnitude; if (distance < .01f) return true;
             // Check at the higher support plane. A descending sweep would hit the floor lip of a doorway.
             Vector3 start = new Vector3(a.x, Mathf.Max(a.y, b.y), a.z);
-            return !Physics.CapsuleCastAll(start + Vector3.up * .4f, start + Vector3.up * 1.45f, radius, delta.normalized, distance, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore).Any(h => h.normal.y < .65f && h.collider.GetComponentInParent<InteractiveDoor>() == null);
+            return !Blocked(start, delta.normalized, distance, radius) && !Blocked(start + delta, -delta.normalized, distance, radius);
         }
         public List<Vector3> FindPath(int graphId, Vector3 start, Vector3 destination)
         {
-            var result = new List<Vector3>(); var graph = Array.Find(graphs, g => g.id == graphId); if (graph == null) return result;
+            using var timing = NavigationDiagnostics.Authored();
+            var result = new List<Vector3>(); var graph = graphs == null ? null : Array.Find(graphs, g => g.id == graphId); if (graph == null) return result;
             int Nearest(Vector3 at) { int best = -1; float distance = float.PositiveInfinity; for (int i = 0; i < graph.nodes.Length; i++) { var delta = graph.nodes[i].position - at; if (Mathf.Abs(delta.y) > 1.5f) continue; float d = delta.sqrMagnitude; if (d < distance && ClearSegment(at, graph.nodes[i].position)) { best = i; distance = d; } } return best; }
-            int from = Nearest(start), to = Nearest(destination); if (from < 0 || to < 0) return result;
+            int to = Nearest(destination); if (to < 0) return result;
+            int from = Nearest(start); if (from < 0) return result;
             var byId = new Dictionary<int, int>(); for (int i = 0; i < graph.nodes.Length; i++) byId[graph.nodes[i].id] = i;
             var edges = new List<int>[graph.nodes.Length]; for (int i = 0; i < edges.Length; i++) edges[i] = new List<int>(); foreach (var link in graph.links) if (byId.TryGetValue(link.a, out int a) && byId.TryGetValue(link.b, out int b)) { edges[a].Add(b); edges[b].Add(a); }
             var costs = Enumerable.Repeat(float.PositiveInfinity, edges.Length).ToArray(); var previous = Enumerable.Repeat(-1, edges.Length).ToArray(); var closed = new bool[edges.Length]; costs[from] = 0; var open = new List<int> { from };

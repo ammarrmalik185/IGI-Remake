@@ -19,7 +19,7 @@ MonoBehaviour:
     motion: {fileID: 7868935432812623880, guid: 78c85cec88ee4476865ae4ca6ae24801, type: 3}
   - model: 019_01_1
     motion: {fileID: 7868935432812623880, guid: 12d07dfdf5584088b5d31622286eb71f, type: 3}
-  shot: {fileID: 8300000, guid: 1b2a312680394451a3b2e2fa4eaf83ac, type: 3}
+  shot: {fileID: 8300000, guid: fcb91d8f3c4ba8c44b32d4b06521e1c6, type: 3}
   reload: {fileID: 8300000, guid: ad8bd8a3d3a94efbb65c4eda220f7882, type: 3}
   footsteps:
   - {fileID: 8300000, guid: 1a0c89d319d24165940f68f6f97669c2, type: 3}

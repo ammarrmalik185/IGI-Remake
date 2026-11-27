@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.GameConfiguration
   missionName: 01 / TRAINYARD
   captureTruck: 1
+  targetFrameRate: 60
   briefing: 'Small coastline trainyard
 
 
@@ -21,13 +22,29 @@ MonoBehaviour:
 
 
     1
-    Glock   2 MP5 SD3   3 Knife
+    Glock / 2 MP5 / 3 Knife; mouse wheel: full arsenal
 
     WASD / mouse to move. E to secure the truck.'
   weapons:
   - {fileID: 11400000, guid: 7defc7935afdcfb4e9f0b24d0deccabe, type: 2}
   - {fileID: 11400000, guid: 83cbb6407012dc949999be54d99a0bdd, type: 2}
   - {fileID: 11400000, guid: 7b88659e874733b40889f72d664dea68, type: 2}
+  - {fileID: 11400000, guid: b97b330858667c442a75a8bf461b93ed, type: 2}
+  - {fileID: 11400000, guid: e473c932271f5484499c8cf45e268ccd, type: 2}
+  - {fileID: 11400000, guid: bed93db36c2920840aea5b2930e8a30a, type: 2}
+  - {fileID: 11400000, guid: adc99b80cbcaf2a45b32176c61ed2a8f, type: 2}
+  - {fileID: 11400000, guid: fb855cf77f43a274d94269fae148a386, type: 2}
+  - {fileID: 11400000, guid: 8bfeb2991ec3dcd448b47f0ac4ed83ae, type: 2}
+  - {fileID: 11400000, guid: e7fac488ac11ba6409064a8162f0ec00, type: 2}
+  - {fileID: 11400000, guid: 490d53737e5f4284a9bf80ede7046525, type: 2}
+  - {fileID: 11400000, guid: 05d768f3d302a3e4fb2807fec5722cf2, type: 2}
+  - {fileID: 11400000, guid: d436ca00a61386a43ac16a24d797c3d0, type: 2}
+  - {fileID: 11400000, guid: 1c10cba0781b44545abade6dd4b1e92e, type: 2}
+  - {fileID: 11400000, guid: 7f13d3396247a6d468b2d91fd4ba77dc, type: 2}
+  - {fileID: 11400000, guid: 8f84767f01f8d82408412efd2fa55c0b, type: 2}
+  - {fileID: 11400000, guid: c85aa9f16b4dec34b917f99973d42605, type: 2}
+  - {fileID: 11400000, guid: c3bf65209d337084ea8566d75f7884f2, type: 2}
+  - {fileID: 11400000, guid: b2eb80aaf7f9d514380481080103127a, type: 2}
   environmentPrefab: {fileID: 7894530391398246502, guid: 1bcae82b0e358de4d9177e0b98361a93, type: 3}
   enemyVisualPrefab: {fileID: -2859219146405954517, guid: 23a9fdaf5a6435549a9987381070653f, type: 3}
   enemyVisualRotation: {x: 0, y: 0, z: 0}

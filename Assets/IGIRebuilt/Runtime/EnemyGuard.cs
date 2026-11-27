@@ -5,6 +5,7 @@ namespace IGIRebuilt
     [RequireComponent(typeof(CharacterController), typeof(Health))]
     public sealed class EnemyGuard : MonoBehaviour
     {
+        private static readonly Unity.Profiling.ProfilerMarker TickMarker = new Unity.Profiling.ProfilerMarker("IGI.GuardAI");
         public enum GuardState
         {
             Patrol, Investigate, Attack, Search, RaiseAlarm, Dead
@@ -27,6 +28,13 @@ namespace IGIRebuilt
             get; private set;
         }
         CharacterController controller; Health health; GuardPresentation presentation; List<Vector3> path = new List<Vector3>(); int pathIndex, patrolIndex, burst, rounds = 24; Vector3 lastKnown, lastPosition; float alertUntil, nextPath, nextShot, gravity, searchUntil, patrolWait, stuck, nextShare, confirmedAt = -1, reloadUntil, firstShotAt, alarmAttemptUntil, nextAlarm; AlarmPanel alarmTarget;
+        Vector3 alarmApproach;
+        private float stunnedUntil;
+        private Vector3 failedRouteDestination;
+        private float failedRouteRetryAt;
+        private int failedRouteAttempts;
+        public bool IsStunned => Time.time < stunnedUntil;
+        public void Stun(float seconds) { stunnedUntil = Mathf.Max(stunnedUntil, Time.time + seconds); }
         void Awake()
         {
             controller = GetComponent<CharacterController>();
@@ -37,8 +45,9 @@ namespace IGIRebuilt
         public void ReceiveAttack(Vector3 position)
         {
             if (health.IsDead) return;
+            bool enteringCombat = firstShotAt <= 0 || Time.time > alertUntil;
             Alert(position); Suspicion = 1; State = GuardState.Attack;
-            firstShotAt = Time.time + .25f;
+            if (enteringCombat) firstShotAt = Time.time + .25f;
             Vector3 direction = position - transform.position; direction.y = 0;
             if (direction.sqrMagnitude > .001f) transform.rotation = Quaternion.LookRotation(direction);
             mission?.AlertGuards(position, 25, this);
@@ -68,7 +77,7 @@ namespace IGIRebuilt
             float distance = Vector3.Distance(transform.position, position);
             if (distance > radius)
                 return false;
-            bool occluded = Physics.Linecast(transform.position + Vector3.up * 1.5f, position, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore);
+            bool occluded = WorldOcclusion.Blocked(transform.position + Vector3.up * 1.5f, position);
             float effective = occluded ? radius * .55f : radius;
             if (distance > effective)
                 return false;
@@ -87,7 +96,9 @@ namespace IGIRebuilt
                 range *= .7f;
             if (delta.magnitude > range || Vector3.Angle(transform.forward, delta) > (State == GuardState.Patrol ? 55 : 80))
                 return false;
-            return Physics.Raycast(eye, delta.normalized, out var hit, delta.magnitude + .2f, (1 << DemoWorld.WorldLayer) | (1 << DemoWorld.PlayerLayer), QueryTriggerInteraction.Ignore) && hit.collider.GetComponentInParent<FirstPersonMotor>() != null;
+            // A small clearance margin prevents sight leaking through tiny seams between wall faces.
+            if (WorldOcclusion.Blocked(eye, point, .03f)) return false;
+            return Physics.Raycast(eye, delta.normalized, out var hit, delta.magnitude + .2f, 1 << DemoWorld.PlayerLayer, QueryTriggerInteraction.Ignore) && hit.collider.GetComponentInParent<FirstPersonMotor>() != null;
         }
         void Update()
         {
@@ -95,7 +106,8 @@ namespace IGIRebuilt
         }
         public void Tick(float dt)
         {
-            if (target == null || mission == null || mission.InputBlocked || health.IsDead || !controller.enabled)
+            using var sample = TickMarker.Auto();
+            if (target == null || mission == null || mission.InputBlocked || health.IsDead || !controller.enabled || IsStunned)
                 return;
             presentation = GetComponent<GuardPresentation>();
             Vector3 point = target.position + Vector3.up * (mission.player != null && mission.player.IsCrouching ? .75f : 1.25f);
@@ -106,7 +118,7 @@ namespace IGIRebuilt
                 if (confirmedAt < 0)
                 {
                     confirmedAt = Time.time;
-                    firstShotAt = Time.time + .45f;
+                    if (firstShotAt <= 0) firstShotAt = Time.time + .45f;
                 }
                 lastKnown = target.position;
                 alertUntil = Time.time + 18;
@@ -117,7 +129,12 @@ namespace IGIRebuilt
                 }
                 if (alarmTarget == null && Time.time >= nextAlarm && Time.time - confirmedAt > 1.5f && mission.Security != null)
                 {
-                    alarmTarget = mission.Security.NearestPanel(transform.position);
+                    var panel = mission.Security.NearestPanel(transform.position);
+                    if (panel != null && TryAlarmApproach(panel, out alarmApproach))
+                    {
+                        alarmTarget = panel;
+                        nextPath = 0;
+                    }
                     alarmAttemptUntil = Time.time + 20;
                     nextAlarm = Time.time + 40;
                 }
@@ -135,10 +152,12 @@ namespace IGIRebuilt
             }
             if (alarmTarget != null && (mission.Security.AlarmActive || mission.Security.AlarmsDisabled || Time.time > alarmAttemptUntil))
                 alarmTarget = null;
+            if (alarmTarget == null && State == GuardState.RaiseAlarm)
+                State = HasSight && Suspicion >= 1 ? GuardState.Attack : GuardState.Investigate;
             if (alarmTarget != null)
             {
                 State = GuardState.RaiseAlarm;
-                if (Vector3.Distance(transform.position, alarmTarget.transform.position) < 2.1f)
+                if (alarmTarget.CanUseFrom(transform.position))
                 {
                     mission.Security.RaiseAlarm(lastKnown);
                     alarmTarget = null;
@@ -159,8 +178,10 @@ namespace IGIRebuilt
             float distance = Vector3.Distance(transform.position, target.position);
             if (combat)
             {
-                TurnTowards(target.position, dt);
-                if (distance <= fireRange && Time.time >= firstShotAt && Time.time >= nextShot && rounds > 0 && State != GuardState.RaiseAlarm)
+                // Moving guards turn toward their route below. Turning toward the player here too
+                // can cancel that turn every frame and prevent them from taking a single step.
+                if (alarmTarget == null && distance <= 18) TurnTowards(target.position, dt);
+                if (distance <= fireRange && Time.time >= firstShotAt && Time.time >= nextShot && rounds > 0 && State != GuardState.RaiseAlarm && !WorldOcclusion.Blocked(transform.position + Vector3.up * 1.4f, point))
                     Shoot(point);
             }
             if (!combat && alarmTarget == null && State != GuardState.Patrol)
@@ -168,11 +189,12 @@ namespace IGIRebuilt
                 if (Time.time > alertUntil && !(alarmResponding && mission.Security != null && mission.Security.AlarmActive))
                 {
                     State = GuardState.Patrol;
+                    firstShotAt = 0;
                     searchUntil = 0;
                     nextPath = 0;
                 }
             }
-            Vector3 destination = alarmTarget != null ? alarmTarget.transform.position : State == GuardState.Patrol && patrolPoints != null && patrolPoints.Length > 0 ? patrolPoints[patrolIndex] : lastKnown;
+            Vector3 destination = alarmTarget != null ? alarmApproach : State == GuardState.Patrol && patrolPoints != null && patrolPoints.Length > 0 ? patrolPoints[patrolIndex] : lastKnown;
             Vector3 flat = destination - transform.position;
             flat.y = 0;
             bool move = alarmTarget != null || !combat || distance > 18;
@@ -217,7 +239,7 @@ namespace IGIRebuilt
                 stuck = 0;
             gravity = controller.isGrounded ? -2 : Mathf.Max(-35, gravity - 17 * dt);
             controller.Move(Vector3.up * gravity * dt);
-            if (Vector3.Distance(lastPosition, transform.position) < .01f && move)
+            if (Vector2.Distance(new Vector2(lastPosition.x, lastPosition.z), new Vector2(transform.position.x, transform.position.z)) < .01f && move)
                 stuck += dt;
             else
                 stuck = 0;
@@ -225,6 +247,11 @@ namespace IGIRebuilt
             if (stuck > 1.5f)
             {
                 nextPath = 0;
+                if (alarmTarget != null)
+                {
+                    alarmTarget = null;
+                    State = combat ? GuardState.Attack : GuardState.Investigate;
+                }
                 if (State == GuardState.Patrol && patrolPoints != null && patrolPoints.Length > 0)
                     patrolIndex = (patrolIndex + 1) % patrolPoints.Length;
                 stuck = 0;
@@ -260,8 +287,47 @@ namespace IGIRebuilt
             if (index >= commands.Length && commands.Length > 0 && ArrayEnd(commands) >= 0) index = ArrayEnd(commands) + 1;
         }
         static int ArrayEnd(GuardPatrolCommand[] commands) { for (int i = 0; i < commands.Length; i++) if (commands[i].kind == 6) return i; return -1; }
+        bool TryAlarmApproach(AlarmPanel panel, out Vector3 approach)
+        {
+            approach = panel.transform.position;
+            Vector3 towards = transform.position - approach; towards.y = 0;
+            if (towards.sqrMagnitude < .01f) towards = Vector3.forward;
+            for (int angle = 0; angle < 8; angle++)
+            {
+                Vector3 candidate = panel.transform.position + Quaternion.Euler(0, angle * 45, 0) * towards.normalized * .9f;
+                if (!Physics.Raycast(candidate + Vector3.up * .6f, Vector3.down, out var floor, 4, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore) || floor.normal.y < .65f) continue;
+                candidate.y = floor.point.y + .08f;
+                if (!panel.CanUseFrom(candidate) || Physics.CheckCapsule(candidate + Vector3.up * .4f, candidate + Vector3.up * 1.45f, controller.radius, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore)) continue;
+                bool direct = Mathf.Abs(candidate.y - transform.position.y) < 1.5f && AuthoredNavigation.ClearSegment(transform.position, candidate, controller.radius);
+                if (!direct && PlanRoute(candidate).Count == 0) continue;
+                approach = candidate;
+                return true;
+            }
+            return false;
+        }
+        List<Vector3> PlanRoute(Vector3 destination, bool backoff = false)
+        {
+            if (backoff && failedRouteAttempts > 0 && Time.time < failedRouteRetryAt &&
+                (destination - failedRouteDestination).sqrMagnitude < .25f) return new List<Vector3>();
+            var route = authoredNavigation != null ? authoredNavigation.FindPath(graphId, transform.position, destination) : new List<Vector3>();
+            if (route.Count == 0 && navigation != null) route = navigation.FindPath(transform.position, destination);
+            if (backoff)
+            {
+                if (route.Count > 0) failedRouteAttempts = 0;
+                else
+                {
+                    if ((destination - failedRouteDestination).sqrMagnitude >= .25f) failedRouteAttempts = 0;
+                    failedRouteDestination = destination; failedRouteAttempts = Mathf.Min(4, failedRouteAttempts + 1);
+                    failedRouteRetryAt = Time.time + Mathf.Min(8, 1.5f * (1 << (failedRouteAttempts - 1)));
+                }
+            }
+            return route;
+        }
         void MoveTowards(Vector3 destination, float dt)
         {
+            // Noise and hit origins are at weapon height; route to the supporting floor.
+            if (Physics.Raycast(destination + Vector3.up * .2f, Vector3.down, out var support, 3, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore) && support.normal.y > .65f)
+                destination.y = support.point.y;
             Vector3 delta = destination - transform.position;
             delta.y = 0;
             if (delta.magnitude < .6f)
@@ -277,17 +343,19 @@ namespace IGIRebuilt
                     if (door.partner != null)
                         door.partner.SetOpen(true);
                     nextPath = 0;
+                    failedRouteAttempts = 0;
                 }
             }
-            bool direct = Mathf.Abs(destination.y - transform.position.y) < 1.5f && !Physics.CapsuleCast(transform.position + Vector3.up * .38f, transform.position + Vector3.up * 1.5f, .28f, heading, delta.magnitude, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore);
+            bool direct = Mathf.Abs(destination.y - transform.position.y) < 1.5f && AuthoredNavigation.ClearSegment(transform.position, destination, controller.radius);
+            if (direct) failedRouteAttempts = 0;
             Vector3 step = destination;
             if (!direct)
             {
-                if (navigation == null)
+                if (navigation == null && authoredNavigation == null)
                     return;
                 if (Time.time >= nextPath)
                 {
-                    path = authoredNavigation != null ? authoredNavigation.FindPath(graphId, transform.position, destination) : navigation.FindPath(transform.position, destination);
+                    path = PlanRoute(destination, true);
                     pathIndex = 0;
                     nextPath = Time.time + Random.Range(1.2f, 1.8f);
                 } while (pathIndex < path.Count && Vector2.Distance(new Vector2(transform.position.x, transform.position.z), new Vector2(path[pathIndex].x, path[pathIndex].z)) < .4f)
@@ -337,12 +405,13 @@ namespace IGIRebuilt
             float spread = 2.3f + Vector3.Distance(transform.position, target.position) * .025f;
             aim = Quaternion.Euler(Random.Range(-spread, spread), Random.Range(-spread, spread), 0) * aim;
             Vector3 end = eye + aim * fireRange;
-            if (Physics.Raycast(eye, aim, out var hit, fireRange, (1 << DemoWorld.WorldLayer) | (1 << DemoWorld.PlayerLayer) | (1 << DemoWorld.GuardLayer), QueryTriggerInteraction.Ignore))
+            if (BulletTrace.Cast(eye, aim, fireRange, (1 << DemoWorld.WorldLayer) | (1 << DemoWorld.PlayerLayer) | (1 << DemoWorld.GuardLayer), transform, out var hit))
             {
                 end = hit.point;
-                hit.collider.GetComponentInParent<Health>()?.TakeDamage(damage, Team.Guard, eye);
+                var victim = hit.collider.GetComponentInParent<Health>();
+                victim?.TakeDamage(damage, Team.Guard, eye);
             }
-            WeaponController.DrawTracer(eye + transform.forward * .45f, end, new Color(1, .3f, .15f), .07f);
+            WeaponController.DrawTracer(eye + aim * Mathf.Min(.45f, Vector3.Distance(eye, end) * .5f), end, new Color(1, .3f, .15f), .07f);
             presentation?.Shot();
         }
         void TurnTowards(Vector3 point, float dt)

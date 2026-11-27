@@ -23,5 +23,6 @@ internal static class AttachmentExport {
  File.WriteAllText(Path.Combine(project,"Assets/IGIRebuilt/Trainyard/TrainyardDoors.json"),JsonSerializer.Serialize(new{doors},new JsonSerializerOptions{WriteIndented=true}));
  Console.WriteLine($"Exported {rows.Count} attachments, {doors.Count} doors and gates, repaired {repaired.Count} source meshes.");
  File.WriteAllText(Path.Combine(project,"Assets/IGIRebuilt/Trainyard/TrainyardAttachments.json"),JsonSerializer.Serialize(new{attachments=rows},new JsonSerializerOptions{WriteIndented=true}));
+ SurfaceExport.Run(project);
  }
 }

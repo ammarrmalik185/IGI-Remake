@@ -11,6 +11,14 @@ namespace IGIRebuilt.Editor
         static void Require(bool condition, string message) { if (!condition) throw new Exception(message); }
         public static void Run()
         {
+            Render(new[] { "Walk", "Run" }, "guard-locomotion-contact.png");
+        }
+        public static void RunCombat()
+        {
+            Render(new[] { "WalkFire", "RunFire" }, "guard-moving-fire-contact.png");
+        }
+        static void Render(string[] states, string filename)
+        {
             AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
             EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
             RenderSettings.ambientLight = Color.white * .65f;
@@ -28,17 +36,18 @@ namespace IGIRebuilt.Editor
                 var visual = VisualFactory.Attach(prefab, parent.transform, Vector3.up * .9f, Vector3.zero, 1.8f, true);
                 var player = visual.AddComponent<GuardAnimation>(); player.Initialize(binding.motion);
                 var rifle = UnityEngine.Object.Instantiate(settings.rifle, player.WeaponSocket); rifle.transform.localPosition = Vector3.zero; rifle.transform.localRotation = Quaternion.identity; rifle.transform.localScale = Vector3.one;
-                foreach (string name in new[] { "Walk", "Run" })
+                foreach (string name in states)
                 {
                     var clip = Array.Find(binding.motion.clips, c => c.name == name);
                     Require(clip.metresPerSecond > .5f, "Missing native travel speed");
-                    Require(name == "Walk" ? clip.metresPerSecond < 2 : clip.metresPerSecond > 3, "Reversed gait mapping");
+                    bool walking = name.StartsWith("Walk");
+                    Require(walking ? clip.metresPerSecond < 2 : clip.metresPerSecond > 3, "Reversed gait mapping");
                     Require(clip.frames >= Mathf.CeilToInt(clip.duration * 30), "Motion undersampled");
                     float seam = 0;
                     for (int i = 0; i < binding.motion.vertexCount; i++) seam = Mathf.Max(seam, Vector3.Distance(clip.positions[i], clip.positions[(clip.frames - 1) * binding.motion.vertexCount + i]));
                     Require(seam < .0001f, "Visible loop seam");
-                    player.Play(name); player.SetMovementSpeed(name == "Walk" ? 1.55f : 3.15f); player.Advance(.2f);
-                    float expected = (name == "Walk" ? 1.55f : 3.15f) / (clip.metresPerSecond * visual.transform.lossyScale.z);
+                    player.Play(name); player.SetMovementSpeed(walking ? 1.55f : 3.15f); player.Advance(.2f);
+                    float expected = (walking ? 1.55f : 3.15f) / (clip.metresPerSecond * visual.transform.lossyScale.z);
                     Require(Mathf.Abs(player.PlaybackRate - expected) < .01f, "Cadence does not match movement");
                     var filter = visual.GetComponentInChildren<MeshFilter>(); var before = filter.sharedMesh.vertices;
                     player.Advance(.1f); var after = filter.sharedMesh.vertices;
@@ -47,7 +56,7 @@ namespace IGIRebuilt.Editor
                     {
                         camera.Render(); RenderTexture.active = target;
                         sheet.ReadPixels(new Rect(0, 0, width, height), col * width, (5 - row) * height);
-                        player.Advance((name == "Walk" ? .5667f : clip.duration) / (6 * player.PlaybackRate));
+                        player.Advance((walking ? .5667f : clip.duration) / (6 * player.PlaybackRate));
                     }
                     row++;
                     player.SetMovementSpeed(0); player.Advance(.1f); before = filter.sharedMesh.vertices; player.Advance(.3f); after = filter.sharedMesh.vertices;
@@ -56,7 +65,7 @@ namespace IGIRebuilt.Editor
                 }
                 UnityEngine.Object.DestroyImmediate(parent);
             }
-            sheet.Apply(); Directory.CreateDirectory("Logs"); File.WriteAllBytes("Logs/guard-locomotion-contact.png", sheet.EncodeToPNG()); RenderTexture.active = null; camera.targetTexture = null; target.Release();
+            sheet.Apply(); Directory.CreateDirectory("Logs"); File.WriteAllBytes("Logs/" + filename, sheet.EncodeToPNG()); RenderTexture.active = null; camera.targetTexture = null; target.Release();
             Debug.Log("GUARD_LOCOMOTION_VALIDATION_PASS: six native gait clips, loop continuity, motion sampling, speed matching and stationary feet");
         }
     }

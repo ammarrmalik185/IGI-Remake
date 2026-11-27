@@ -110,12 +110,15 @@ namespace IGIRebuilt
                 return;
             }
             AvailableLadder = null; float nearest = float.MaxValue;
-            foreach (var ladder in FindObjectsByType<ClimbableLadder>(FindObjectsSortMode.None))
+            for (int i = 0; i < ClimbableLadder.Active.Count; i++)
+            {
+                var ladder = ClimbableLadder.Active[i];
                 if (ladder.CanMount(this, out bool atTop))
                 {
                     float distance = Vector3.Distance(transform.position, atTop ? ladder.TopExit : ladder.BottomExit);
                     if (distance < nearest) { nearest = distance; AvailableLadder = ladder; }
                 }
+            }
             if (AvailableLadder != null && GameInput.Pressed(KeyCode.E) && TryClimb(AvailableLadder)) return;
             var alarm = AvailableAlarm;
             if (alarm != null && GameInput.Pressed(KeyCode.E)) alarm.Use();

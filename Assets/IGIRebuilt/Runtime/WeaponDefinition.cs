@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace IGIRebuilt
 {
+    public enum WeaponAction { Hitscan, Rocket, Grenade, Flashbang, ProximityMine, Binoculars, Medipack }
     [CreateAssetMenu(menuName = "IGI Rebuilt/Weapon", fileName = "Weapon")]
     public sealed class WeaponDefinition : ScriptableObject
     {
@@ -19,9 +20,23 @@ namespace IGIRebuilt
         [Min(0.1f)] public float reloadSeconds = 2.1f;
         public bool automatic = true;
         public bool melee;
+        public bool dualWield;
+        public WeaponAction action;
+        [Range(1, 24)] public int pellets = 1;
+        [Min(0)] public float noiseRadius = 100;
+        [Min(0)] public float blastRadius = 7;
+        [Min(0.1f)] public float projectileSpeed = 35;
+        [Min(0.1f)] public float fuseSeconds = 3;
+        public AudioClip explosionSound;
+        public GameObject explosionEffect;
         [Min(1)] public float range = 150;
         [Min(0)] public float spreadDegrees = 0.5f;
         public float aimFieldOfView = 48;
+        public bool canZoom;
+        public bool scoped;
+        [Range(50, 100)] public float viewHorizontalFieldOfView = 68;
+        public Shader scopeShader;
+        public Texture2D scopeMask, scopeHorizontal, scopeVertical;
         public float recoilDegrees = 1.4f;
         public AudioClip fireSound;
         public AudioClip reloadSound;

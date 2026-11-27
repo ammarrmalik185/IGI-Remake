@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GLOCK
   m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
   displayName: Glock 17
-  visualPrefab: {fileID: 231506205331933676, guid: e6c15281f6184e92b57c063037b07d18, type: 3}
+  visualPrefab: {fileID: -6937364280472071072, guid: 444b5c52c6b5447190fd5eb789e53a7f, type: 3}
   viewPosition: {x: 0.19, y: -0.17, z: 0.46}
   viewRotation: {x: 0, y: 0, z: 0}
   modelLength: 0.24
@@ -24,9 +24,25 @@ MonoBehaviour:
   reloadSeconds: 2
   automatic: 0
   melee: 0
+  dualWield: 0
+  action: 0
+  pellets: 1
+  noiseRadius: 100
+  blastRadius: 7
+  projectileSpeed: 35
+  fuseSeconds: 3
+  explosionSound: {fileID: 0}
+  explosionEffect: {fileID: 0}
   range: 80
   spreadDegrees: 1.5
   aimFieldOfView: 48
+  canZoom: 0
+  scoped: 0
+  viewHorizontalFieldOfView: 66
+  scopeShader: {fileID: 0}
+  scopeMask: {fileID: 0}
+  scopeHorizontal: {fileID: 0}
+  scopeVertical: {fileID: 0}
   recoilDegrees: 1.5
   fireSound: {fileID: 8300000, guid: 601d7610bd9f489b852e116c792ee59a, type: 3}
-  reloadSound: {fileID: 0}
+  reloadSound: {fileID: 8300000, guid: 99a3638da43d4b949e1a90f44a4f8904, type: 3}

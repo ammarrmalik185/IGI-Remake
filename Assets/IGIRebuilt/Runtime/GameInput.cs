@@ -50,6 +50,17 @@ namespace IGIRebuilt
 #endif
             }
         }
+        public static bool ArsenalHeld
+        {
+            get
+            {
+#if ENABLE_INPUT_SYSTEM
+                return Keyboard.current != null && Keyboard.current.tabKey.isPressed;
+#else
+                return Input.GetKey(KeyCode.Tab);
+#endif
+            }
+        }
         public static bool Sprint
         {
             get

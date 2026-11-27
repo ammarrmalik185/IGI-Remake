@@ -19,6 +19,7 @@ namespace IGIRebuilt.Editor
         public static void BuildMission()
         {
             AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
+            SurfaceInteractionSetup.EnsureSettings();
             var imported = AssetDatabase.LoadAssetAtPath<ImportedMissionData>("Assets/IGIImported/Missions/01.igimission");
             if (imported == null) throw new Exception("Import mission 1 first.");
             var placements = imported.placements; var paths = imported.modelPaths;
@@ -52,12 +53,13 @@ namespace IGIRebuilt.Editor
                 foreach (var filter in instance.GetComponentsInChildren<MeshFilter>())
                 {
                     filter.gameObject.layer = DemoWorld.WorldLayer; filter.gameObject.isStatic = true;
+                    if (filter.GetComponent<MeshCollider>() != null) { filter.gameObject.isStatic = false; continue; }
                     if (filter.sharedMesh != null && filter.sharedMesh.vertexCount > 0)
                     {
                         string meshPath = AssetDatabase.GetAssetPath(filter.sharedMesh);
                         var solid = AssetDatabase.LoadAllAssetsAtPath(meshPath).OfType<Mesh>().FirstOrDefault(m => m.name.EndsWith("_collision"));
                         if (solid == null) throw new Exception("Missing collision mesh for " + instance.name);
-                        filter.gameObject.AddComponent<MeshCollider>().sharedMesh = solid;
+                        if (solid.triangles.Length > 0) filter.gameObject.AddComponent<MeshCollider>().sharedMesh = solid;
                     }
                 }
                 if (p.id == 1099) truck = instance;
@@ -101,13 +103,14 @@ namespace IGIRebuilt.Editor
             config.environmentPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(EnvironmentPath);
             config.enemyVisualPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/IGIImported/Characters/Security.igimodel");
             config.enemyCount = guards.Count; config.enemyHealth = 100; config.enemyDamage = 8; config.enemySightRange = 70;
-            config.weapons = new[] { Weapon("GLOCK", 25, 0.24f), Weapon("MP5SD", 24, 0.68f), Weapon("KNIFE", 100, 0.28f) };
+            config.weapons = OriginalArsenalSetup.Create();
+            config.briefing = briefing.Replace("1 Glock   2 MP5 SD3   3 Knife", "1 Glock / 2 MP5 / 3 Knife; mouse wheel: full arsenal");
             EditorUtility.SetDirty(config); AssetDatabase.SaveAssets();
             var bootstrap = new GameObject("Trainyard gameplay").AddComponent<GameBootstrap>(); bootstrap.configuration = config; bootstrap.gameObject.AddComponent<SmokeTestDriver>();
             EditorSceneManager.SaveScene(SceneManager.GetActiveScene(), ScenePath);
             EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(ScenePath, true) };
             Directory.CreateDirectory("Logs"); File.WriteAllText("Logs/trainyard-build-data.json", "{\"staticModels\":" + staticModels + ",\"guards\":" + guards.Count + ",\"truckId\":1099}");
-            Debug.Log("TRAINYARD_READY: " + staticModels + " original placed models, " + guards.Count + " guards, original terrain, Glock/MP5/knife and truck objective.");
+            Debug.Log("TRAINYARD_READY: " + staticModels + " original placed models, " + guards.Count + " guards, original terrain, full player arsenal and truck objective.");
         }
         private static Transform Marker(Transform parent, string name, Vector3 position, Vector3 rotation)
         {
@@ -116,19 +119,6 @@ namespace IGIRebuilt.Editor
         private static void SnapToGround(Transform marker)
         {
             if (Physics.Raycast(marker.position + Vector3.up * 0.4f, Vector3.down, out RaycastHit hit, 3, 1 << DemoWorld.WorldLayer, QueryTriggerInteraction.Ignore)) marker.position = hit.point + Vector3.up * 0.08f;
-        }
-        private static WeaponDefinition Weapon(string name, float damage, float length)
-        {
-            const string folder = "Assets/IGIRebuilt/Data/TrainyardWeapons"; Directory.CreateDirectory(folder);
-            var original = AssetDatabase.LoadAssetAtPath<WeaponDefinition>("Assets/IGIImported/Weapons/" + name + ".igiweapon");
-            if (original == null || original.visualPrefab == null) throw new Exception("Missing source weapon " + name);
-            string path = folder + "/" + name + ".asset"; var weapon = AssetDatabase.LoadAssetAtPath<WeaponDefinition>(path);
-            if (weapon == null) { weapon = ScriptableObject.CreateInstance<WeaponDefinition>(); AssetDatabase.CreateAsset(weapon, path); }
-            EditorUtility.CopySerialized(original, weapon); weapon.name = name; weapon.damage = damage; weapon.modelLength = length; weapon.viewRotation = Vector3.zero;
-            weapon.viewPosition = name == "MP5SD" ? new Vector3(0.22f, -0.21f, 0.64f) : new Vector3(0.19f, -0.17f, 0.46f);
-            weapon.spreadDegrees = Mathf.Abs(weapon.spreadDegrees); weapon.melee = name == "KNIFE";
-            if (weapon.melee) { weapon.range = 1.9f; weapon.reserveAmmo = 0; }
-            EditorUtility.SetDirty(weapon); return weapon;
         }
         public static void BuildWindows()
         {

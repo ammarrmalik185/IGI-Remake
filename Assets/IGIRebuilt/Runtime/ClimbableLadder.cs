@@ -4,6 +4,12 @@ namespace IGIRebuilt
 {
     public sealed class ClimbableLadder : MonoBehaviour
     {
+        private static readonly System.Collections.Generic.List<ClimbableLadder> active = new System.Collections.Generic.List<ClimbableLadder>();
+        public static System.Collections.Generic.IReadOnlyList<ClimbableLadder> Active => active;
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        private static void ResetRegistry() { active.Clear(); }
+        private void OnEnable() { if (!active.Contains(this)) active.Add(this); }
+        private void OnDisable() { active.Remove(this); }
         public Vector3 bottom, top, bottomExit, topExit, outward;
         public float climbSpeed = 2;
         public float mountDistance = 1.8f;

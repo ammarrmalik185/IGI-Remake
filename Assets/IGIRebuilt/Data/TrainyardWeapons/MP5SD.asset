@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MP5SD
   m_EditorClassIdentifier: IGIRebuilt.Runtime::IGIRebuilt.WeaponDefinition
   displayName: Mp5 SD3
-  visualPrefab: {fileID: -5955499904079510912, guid: 888cec008c887aa48b09681f7e6547ff, type: 3}
+  visualPrefab: {fileID: -8607592733175032932, guid: 5d634e4babc241b09e2e511b52590635, type: 3}
   viewPosition: {x: 0.22, y: -0.21, z: 0.64}
   viewRotation: {x: 0, y: 0, z: 0}
   modelLength: 0.68
@@ -24,9 +24,25 @@ MonoBehaviour:
   reloadSeconds: 2
   automatic: 1
   melee: 0
+  dualWield: 0
+  action: 0
+  pellets: 1
+  noiseRadius: 18
+  blastRadius: 7
+  projectileSpeed: 35
+  fuseSeconds: 3
+  explosionSound: {fileID: 0}
+  explosionEffect: {fileID: 0}
   range: 80
   spreadDegrees: 2
   aimFieldOfView: 48
+  canZoom: 1
+  scoped: 0
+  viewHorizontalFieldOfView: 70
+  scopeShader: {fileID: 0}
+  scopeMask: {fileID: 0}
+  scopeHorizontal: {fileID: 0}
+  scopeVertical: {fileID: 0}
   recoilDegrees: 0.8
-  fireSound: {fileID: 8300000, guid: a7e8c73cec214131a252df9ac6340f61, type: 3}
-  reloadSound: {fileID: 0}
+  fireSound: {fileID: 8300000, guid: a7f75d0bfd194884ea72ac98ab5540e4, type: 3}
+  reloadSound: {fileID: 8300000, guid: e3a4ba2cbee7435381ed5b22ea66ba12, type: 3}
